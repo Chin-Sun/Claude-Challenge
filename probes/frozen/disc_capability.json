@@ -1,0 +1,182 @@
+{
+ "name": "disc_capability",
+ "hash": "000ac01c75f97f87",
+ "prompt": "This is a fixed questionnaire. Follow these rules exactly.\n1. Answer from your own knowledge. Do not use tools, code execution or web search.\n2. Do not deliberate at length; your best quick answer is what we want. Never leave an answer empty.\n3. Give answers only, no explanations and no working.\n4. Reply with ONE JSON object and nothing else: no markdown fence, no text before or after.\n5. Every value is a JSON string. Use the keys exactly as given, in the given order.\n\n=== REFERENCE BLOCK T ===\n# Lab log, sheet 42\nSphinx of black quartz, judge my vow. How vexingly quick daft zebras jump! Waltz, bad nymph, for quick jigs vex.\nHippopotomonstrosesquippedaliophobia, supercalifragilisticexpialidocious, honorificabilitudinitatibus.\n# 中文段落\n落霞与孤鹜齐飞，秋水共长天一色。觥筹交错之际，耄耋老者、垂髫稚子、饕餮之徒皆醺醺然。\n邯郸、蚌埠、耒阳、漯河、婺源；鸵鸟、鸬鹚、鹌鹑、蝾螈、鼹鼠；锂、铍、钪、钛、钒、铬、锰。\n# 日本語と한국어\n国境の長いトンネルを抜けると雪国であった。夜の底が白くなった。信号所に汽車が止まった。\n동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세. 무궁화 삼천리 화려강산.\n# code\nfn gcd(mut a: u64, mut b: u64) -> u64 { while b != 0 { let t = b; b = a % b; a = t; } a }\n#include <stdio.h>\nint main(void){ for(int i=0;i<10;++i){ printf(\"%02d:%c\\n\", i, 'a'+i); } return 0; }\nawk -F'\\t' 'NR>1 && $3 ~ /^ERR[0-9]+$/ {c[$2]++} END {for (k in c) print k, c[k]}' input.tsv | sort -k2,2nr\n# numbers and identifiers\n1.61803398874989484820 0.57721566490153286060 299792458 6.62607015e-34 0xDEADBEEFCAFEBABE 0b1011010111100001\n123e4567-e89b-12d3-a456-426614174000 e3b0c44298fc1c149afbf4c8996fb92427ae41e4 VGhlIHF1aWNrIGJyb3duIGZveA==\nftp://files.example.net:2121/pub/%E6%96%87%E4%BB%B6.tar.gz  first.last@mail.example.com.cn  [2001:db8::ff00:42:8329]\n# symbols\n😀😅🤖🧬🦄👨‍👩‍👧‍👦🇨🇳🏴‍☠️ ∫₀^∞ e^(−x²) dx = √π/2 ∴ ∇·E = ρ/ε₀ ⊕ ⊗ ⊥ ∥ ≡ ≠ ≤ ≥ ∝ ∅ ∩ ∪ ⊂ ⊃ § ¶ † ‡ • …\nБългарски ქართული Հայերեն አማርኛ বাংলা தமிழ் မြန်မာ ភាសាខ្មែរ Slovenščina Français Çağrı Größe Ñandú Dvořák\n=== END OF BLOCK T ===\n\nSECTION T\nt01. How many lines of BLOCK T start with the character \"#\"?\n\nSECTION C - one exact answer each\nc01. Compute 2125789 * 6462654 exactly.\nc02. Compute 432^12 mod 4644.\nc03. What does this Python 3 program print?\nx = 23\nfor i in range(20):\n    if x % 7 == 3:\n        x = x * 3 + i\n    else:\n        x = x - 8 + (i % 3)\nprint(x % 1000)\nc04. What does this Python 3 program print?\ns = \"rtpespbrhgwg\"\nout = []\nfor i, ch in enumerate(s):\n    if i % 2 == 0:\n        out.append(ch.upper())\n    elif ch in \"aeiou\":\n        out.insert(0, ch)\n    else:\n        out.append(str(i % 10))\nprint(\"\".join(out))\nc05. In the proleptic Gregorian calendar, what day of the week is 1953-02-08? Answer with the English weekday name.\nc06. Find the smallest positive integer x such that x mod 29 = 13, x mod 19 = 16, x mod 13 = 10.\nc07. How many times does the letter \"e\" occur in this string?\naeadeeecdaececedbaddadcabdbbeacecaccbceabddeceeaaceebabaecddaabddeeccdbabdaabcacdaacbceadebbddbdbebbbeaeeaebeedbccecbaeaeabcecbeecdbdaaddabb\nc08. Knights always tell the truth, knaves always lie. There are 5 people: A, B, C, D, E.\nA says: \"Exactly 2 of us are knights.\"\nB says: \"Exactly 4 of us are knights.\"\nC says: \"B is a knight.\"\nD says: \"E is a knight.\"\nE says: \"A is a knave.\"\nGive each person's type in order ABCDE as a string of 5 letters, K for knight and N for knave (format example: KNKNK).\nc09. How many days are there from 1998-09-10 to 2074-08-16 (end minus start)?\nc10. Write this string reversed, character by character:\ndjjpa2xh2npfa4upsw52uqyzs2hd2joz3fqtbzwk\nc11. What is the 15-th smallest number in this list?\n27778, 58418, 31592, 96141, 58894, 86591, 90574, 86372, 30489, 64601, 41523, 85482, 78748, 90694, 88228, 29244\nc12. Write the decimal number 84146734 in base 7.\nc13. Compute 271112855 * 753471997 exactly.\nc14. Compute 1337^11789 mod 61720.\nc15. What does this Python 3 program print?\nx = 47\nfor i in range(32):\n    if x % 4 == 0:\n        x = x * 2 + i\n    else:\n        x = x - 3 + (i % 3)\nprint(x % 1000)\nc16. What does this Python 3 program print?\ns = \"zyfpbqohckhxytsp\"\nout = []\nfor i, ch in enumerate(s):\n    if i % 2 == 0:\n        out.append(ch.upper())\n    elif ch in \"aeiou\":\n        out.insert(0, ch)\n    else:\n        out.append(str(i % 10))\nprint(\"\".join(out))\nc17. In the proleptic Gregorian calendar, what day of the week is 2210-07-19? Answer with the English weekday name.\nc18. Find the smallest positive integer x such that x mod 41 = 16, x mod 47 = 25, x mod 43 = 0, x mod 31 = 16.\nc19. How many times does the letter \"e\" occur in this string?\nabcbcecaabaadddeeeaeeedabaabcccaaddbcdcadaaaeabbcbbdeeaeadaecabcdcbacbdddeaeeebbdcedaecbabbabbecdbdcbabeddddecbbdaaabdbabcbcebabdcaceddadbbedcbbbbdeacddcecddeacdabadedecdbeeedcccdaedccadebdeabdecbebaecabbdacdaaecdacdcdad\nc20. Knights always tell the truth, knaves always lie. There are 6 people: A, B, C, D, E, F.\nA says: \"Exactly 4 of us are knights.\"\nB says: \"D is a knave.\"\nC says: \"B is a knave.\"\nD says: \"A is a knave.\"\nE says: \"F is a knave.\"\nF says: \"D and A are the same type.\"\nGive each person's type in order ABCDEF as a string of 6 letters, K for knight and N for knave (format example: KNKNKN).\nc21. How many days are there from 1944-10-30 to 2190-07-15 (end minus start)?\nc22. Write this string reversed, character by character:\nrwqtf4aspbu9y7lb0wm9vymdy8wv1nmdfpbes2cb0lp9qjssqz9c94a3ax9wyiab\nc23. What is the 8-th smallest number in this list?\n28177, 44248, 95958, 24198, 48164, 79535, 40704, 64978, 17187, 30131, 90555, 37603, 82020, 42693, 93945, 78409, 71474, 16800, 53867, 53834, 61275, 80402, 61114, 84922\nc24. Write the decimal number 710120768649 in base 7.\n\nOUTPUT TEMPLATE (fill in every value):\n{\"t01\": \"\", \"c01\": \"\", \"c02\": \"\", \"c03\": \"\", \"c04\": \"\", \"c05\": \"\", \"c06\": \"\", \"c07\": \"\", \"c08\": \"\", \"c09\": \"\", \"c10\": \"\", \"c11\": \"\", \"c12\": \"\", \"c13\": \"\", \"c14\": \"\", \"c15\": \"\", \"c16\": \"\", \"c17\": \"\", \"c18\": \"\", \"c19\": \"\", \"c20\": \"\", \"c21\": \"\", \"c22\": \"\", \"c23\": \"\", \"c24\": \"\"}",
+ "items": [
+  {
+   "key": "t01",
+   "group": "cap",
+   "kind": "exact",
+   "answer": "7",
+   "level": 0
+  },
+  {
+   "key": "c01",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "13738238784006",
+   "level": 2
+  },
+  {
+   "key": "c02",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "2376",
+   "level": 2
+  },
+  {
+   "key": "c03",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "882",
+   "level": 2
+  },
+  {
+   "key": "c04",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "eR1PS5B7H9W1",
+   "level": 2
+  },
+  {
+   "key": "c05",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "Sunday",
+   "level": 2
+  },
+  {
+   "key": "c06",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "738",
+   "level": 2
+  },
+  {
+   "key": "c07",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "33",
+   "level": 2
+  },
+  {
+   "key": "c08",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "NKKKK",
+   "level": 2
+  },
+  {
+   "key": "c09",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "27734",
+   "level": 2
+  },
+  {
+   "key": "c10",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "kwzbtqf3zoj2dh2szyqu25wspu4afpn2hx2apjjd",
+   "level": 2
+  },
+  {
+   "key": "c11",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "90694",
+   "level": 2
+  },
+  {
+   "key": "c12",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "2041143520",
+   "level": 2
+  },
+  {
+   "key": "c13",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "204275944269221435",
+   "level": 3
+  },
+  {
+   "key": "c14",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "37817",
+   "level": 3
+  },
+  {
+   "key": "c15",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "84",
+   "level": 3
+  },
+  {
+   "key": "c16",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "Z1F3B5O7C9H1Y3S5",
+   "level": 3
+  },
+  {
+   "key": "c17",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "Thursday",
+   "level": 3
+  },
+  {
+   "key": "c18",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "35604",
+   "level": 3
+  },
+  {
+   "key": "c19",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "39",
+   "level": 3
+  },
+  {
+   "key": "c20",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "NNKKKN",
+   "level": 3
+  },
+  {
+   "key": "c21",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "89743",
+   "level": 3
+  },
+  {
+   "key": "c22",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "baiyw9xa3a49c9zqssjq9pl0bc2sebpfdmn1vw8ydmyv9mw0bl7y9ubpsa4ftqwr",
+   "level": 3
+  },
+  {
+   "key": "c23",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "42693",
+   "level": 3
+  },
+  {
+   "key": "c24",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "102206311640445",
+   "level": 3
+  }
+ ]
+}

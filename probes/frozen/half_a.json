@@ -1,0 +1,188 @@
+{
+ "name": "half_a",
+ "hash": "ecec832133a043aa",
+ "prompt": "This is a fixed questionnaire. Follow these rules exactly.\n1. Answer from your own knowledge. Do not use tools, code execution or web search.\n2. Do not deliberate at length; your best quick answer is what we want. Never leave an answer empty.\n3. Give answers only, no explanations and no working.\n4. Reply with ONE JSON object and nothing else: no markdown fence, no text before or after.\n5. Every value is a JSON string. Use the keys exactly as given, in the given order.\n\n=== REFERENCE BLOCK T ===\n# Field notes, entry 17\nThe quick brown fox jumps over the lazy dog; pack my box with five dozen liquor jugs.\nAntidisestablishmentarianism, pneumonoultramicroscopicsilicovolcanoconiosis, floccinaucinihilipilification.\n# 中文段落\n凌晨四点的海棠花未眠，总觉得这时你应该在我身边。鳞次栉比的楼宇之间，饕餮盛宴、魑魅魍魉、踽踽独行。\n乙醚、羟基、苯丙氨酸、脱氧核糖核酸；甪直、亳州、儋州、歙县、盱眙。\n# 日本語と한국어\n吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。\n다람쥐 헌 쳇바퀴에 타고파. 키스의 고유조건은 입술끼리 만나야 하고 특별한 기술은 필요치 않다.\n# code\ndef f(xs: list[int]) -> dict[str, float]:\n    return {f\"k_{i:03d}\": (x ** 0.5) / 3.14159 for i, x in enumerate(xs) if x % 7 != 0}\nSELECT u.id, COUNT(*) AS n FROM users u LEFT JOIN orders o ON o.uid = u.id WHERE o.ts >= '2024-01-01' GROUP BY 1;\nconst re = /^(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+)@(?:[a-z0-9-]+\\.)+[a-z]{2,}$/i;\n# numbers and identifiers\n3.14159265358979323846 2.71828182845904523536 1.41421356237309504880 6.02214076e23 0x7fffffffffffffff\n550e8400-e29b-41d4-a716-446655440000 d41d8cd98f00b204e9800998ecf8427e SGVsbG8sIFdvcmxkIQ== aHR0cHM6Ly9leGFtcGxl\nhttps://example.org/a/b/c?x=1&y=%E4%BD%A0%E5%A5%BD#frag  user.name+tag@sub.example.co.uk  192.168.100.254:8443\n# symbols\n🙂🙃🧑‍🚀👩🏽‍💻🇯🇵🏳️‍🌈 ∀x∈ℝ ∃y: x²+y²≥2xy ⟹ ∑ᵢ₌₁ⁿ i = n(n+1)/2 ≈ ∞ ± √2 ℵ₀ → ← ↔ ♠♥♦♣ ™ © ® ‰ ¿¡\nΕλληνικά кириллица עברית العربية हिन्दी ไทย Tiếng Việt Ærøskøbing Łódź Þingvellir Ĉu vi parolas Esperanton?\n=== END OF BLOCK T ===\n\nSECTION T\nt01. How many lines of BLOCK T start with the character \"#\"?\n\nSECTION C - one exact answer each\nc01. Compute 695 * 967 exactly.\nc02. Compute 8^19 mod 80.\nc03. What does this Python 3 program print?\nx = 25\nfor i in range(6):\n    if x % 7 == 4:\n        x = x * 2 + i\n    else:\n        x = x - 4 + (i % 3)\nprint(x % 1000)\nc04. What does this Python 3 program print?\ns = \"hjpwzg\"\nout = []\nfor i, ch in enumerate(s):\n    if i % 3 == 0:\n        out.append(ch.upper())\n    elif ch in \"aeiou\":\n        out.insert(0, ch)\n    else:\n        out.append(str(i % 10))\nprint(\"\".join(out))\nc05. In the proleptic Gregorian calendar, what day of the week is 2014-02-09? Answer with the English weekday name.\nc06. Find the smallest positive integer x such that x mod 3 = 0, x mod 7 = 5.\nc07. How many times does the letter \"d\" occur in this string?\ndecbdcbddbaddcbaeccddbdaddadbeacaccaceba\nc08. Knights always tell the truth, knaves always lie. There are 3 people: A, B, C.\nA says: \"C is a knight.\"\nB says: \"C is a knave.\"\nC says: \"Exactly 3 of us are knights.\"\nGive each person's type in order ABC as a string of 3 letters, K for knight and N for knave (format example: KNK).\n\nSECTION D - one exact answer each\nd01. Compute 31801 * 75333 exactly.\nd02. What does this Python 3 program print?\nx = 35\nfor i in range(12):\n    if x % 5 == 0:\n        x = x * 2 + i\n    else:\n        x = x - 1 + (i % 3)\nprint(x % 1000)\nd03. How many times does the letter \"a\" occur in this string?\naaecedaeedbbbedbabccdaaeecdabccacbcdbdaecbacbaadedeacbcdbeeeccabcccddabeabbabcac\nd04. Knights always tell the truth, knaves always lie. There are 4 people: A, B, C, D.\nA says: \"Exactly 2 of us are knights.\"\nB says: \"C is a knight.\"\nC says: \"Exactly 0 of us are knights.\"\nD says: \"A is a knave.\"\nGive each person's type in order ABCD as a string of 4 letters, K for knight and N for knave (format example: KNKN).\n\nSECTION K - what you know, shortest possible answer\nk01. Your training data cutoff, as YYYY-MM (best guess).\nk02. The current year, as YYYY (best guess, no hedging).\nk03. The newest OpenAI model you know of (exact name).\nk04. The newest Anthropic Claude model you know of (exact name).\nk05. The newest Google Gemini model you know of (exact name).\nk06. The newest Python 3 release you know of (3.x).\nk07. The newest iPhone generation you know of (number only).\nk08. The newest Node.js LTS major version you know of (number only).\nk09. The newest macOS release you know of (name).\nk10. The most recent Summer Olympics that you know has already taken place (city and year).\nk11. The most recent FIFA men's World Cup winner you know of (country and year).\nk12. The newest DeepSeek model you know of (exact name).\nk13. The newest Qwen model you know of (exact name).\nk14. The newest Meta Llama version you know of.\nk15. The newest Ubuntu LTS release you know of (number).\nk16. The newest Go release you know of (1.x).\nk17. The most recent year for which you can name the Nobel Prize in Physics winners (YYYY).\nk18. The newest Linux kernel version you know of (major.minor).\n\nOUTPUT TEMPLATE (fill in every value):\n{\"t01\": \"\", \"c01\": \"\", \"c02\": \"\", \"c03\": \"\", \"c04\": \"\", \"c05\": \"\", \"c06\": \"\", \"c07\": \"\", \"c08\": \"\", \"d01\": \"\", \"d02\": \"\", \"d03\": \"\", \"d04\": \"\", \"k01\": \"\", \"k02\": \"\", \"k03\": \"\", \"k04\": \"\", \"k05\": \"\", \"k06\": \"\", \"k07\": \"\", \"k08\": \"\", \"k09\": \"\", \"k10\": \"\", \"k11\": \"\", \"k12\": \"\", \"k13\": \"\", \"k14\": \"\", \"k15\": \"\", \"k16\": \"\", \"k17\": \"\", \"k18\": \"\"}",
+ "items": [
+  {
+   "key": "t01",
+   "group": "cap",
+   "kind": "exact",
+   "answer": "6",
+   "level": 0
+  },
+  {
+   "key": "c01",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "672065",
+   "level": 0
+  },
+  {
+   "key": "c02",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "32",
+   "level": 0
+  },
+  {
+   "key": "c03",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "36",
+   "level": 0
+  },
+  {
+   "key": "c04",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "H12W45",
+   "level": 0
+  },
+  {
+   "key": "c05",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "Sunday",
+   "level": 0
+  },
+  {
+   "key": "c06",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "12",
+   "level": 0
+  },
+  {
+   "key": "c07",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "12",
+   "level": 0
+  },
+  {
+   "key": "c08",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "NKN",
+   "level": 0
+  },
+  {
+   "key": "d01",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "2395664733",
+   "level": 1
+  },
+  {
+   "key": "d02",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "142",
+   "level": 1
+  },
+  {
+   "key": "d03",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "18",
+   "level": 1
+  },
+  {
+   "key": "d04",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "NNNK",
+   "level": 1
+  },
+  {
+   "key": "k01",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k02",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k03",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k04",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k05",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k06",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k07",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k08",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k09",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k10",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k11",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k12",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k13",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k14",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k15",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k16",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k17",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k18",
+   "kind": "cat",
+   "group": "know"
+  }
+ ]
+}

@@ -1,0 +1,186 @@
+{
+ "name": "disc_knowledge",
+ "hash": "4f861e66b0baec61",
+ "prompt": "This is a fixed questionnaire. Follow these rules exactly.\n1. Answer from your own knowledge. Do not use tools, code execution or web search.\n2. Do not deliberate at length; your best quick answer is what we want. Never leave an answer empty.\n3. Give answers only, no explanations and no working.\n4. Reply with ONE JSON object and nothing else: no markdown fence, no text before or after.\n5. Every value is a JSON string. Use the keys exactly as given, in the given order.\n\n=== REFERENCE BLOCK T ===\n# Lab log, sheet 42\nSphinx of black quartz, judge my vow. How vexingly quick daft zebras jump! Waltz, bad nymph, for quick jigs vex.\nHippopotomonstrosesquippedaliophobia, supercalifragilisticexpialidocious, honorificabilitudinitatibus.\n# 中文段落\n落霞与孤鹜齐飞，秋水共长天一色。觥筹交错之际，耄耋老者、垂髫稚子、饕餮之徒皆醺醺然。\n邯郸、蚌埠、耒阳、漯河、婺源；鸵鸟、鸬鹚、鹌鹑、蝾螈、鼹鼠；锂、铍、钪、钛、钒、铬、锰。\n# 日本語と한국어\n国境の長いトンネルを抜けると雪国であった。夜の底が白くなった。信号所に汽車が止まった。\n동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세. 무궁화 삼천리 화려강산.\n# code\nfn gcd(mut a: u64, mut b: u64) -> u64 { while b != 0 { let t = b; b = a % b; a = t; } a }\n#include <stdio.h>\nint main(void){ for(int i=0;i<10;++i){ printf(\"%02d:%c\\n\", i, 'a'+i); } return 0; }\nawk -F'\\t' 'NR>1 && $3 ~ /^ERR[0-9]+$/ {c[$2]++} END {for (k in c) print k, c[k]}' input.tsv | sort -k2,2nr\n# numbers and identifiers\n1.61803398874989484820 0.57721566490153286060 299792458 6.62607015e-34 0xDEADBEEFCAFEBABE 0b1011010111100001\n123e4567-e89b-12d3-a456-426614174000 e3b0c44298fc1c149afbf4c8996fb92427ae41e4 VGhlIHF1aWNrIGJyb3duIGZveA==\nftp://files.example.net:2121/pub/%E6%96%87%E4%BB%B6.tar.gz  first.last@mail.example.com.cn  [2001:db8::ff00:42:8329]\n# symbols\n😀😅🤖🧬🦄👨‍👩‍👧‍👦🇨🇳🏴‍☠️ ∫₀^∞ e^(−x²) dx = √π/2 ∴ ∇·E = ρ/ε₀ ⊕ ⊗ ⊥ ∥ ≡ ≠ ≤ ≥ ∝ ∅ ∩ ∪ ⊂ ⊃ § ¶ † ‡ • …\nБългарски ქართული Հայերեն አማርኛ বাংলা தமிழ் မြန်မာ ភាសាខ្មែរ Slovenščina Français Çağrı Größe Ñandú Dvořák\n# 中文段落\n凌晨四点的海棠花未眠，总觉得这时你应该在我身边。鳞次栉比的楼宇之间，饕餮盛宴、魑魅魍魉、踽踽独行。\n乙醚、羟基、苯丙氨酸、脱氧核糖核酸；甪直、亳州、儋州、歙县、盱眙。\n# 日本語と한국어\n吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。\n다람쥐 헌 쳇바퀴에 타고파. 키스의 고유조건은 입술끼리 만나야 하고 특별한 기술은 필요치 않다.\n# code\ndef f(xs: list[int]) -> dict[str, float]:\n    return {f\"k_{i:03d}\": (x ** 0.5) / 3.14159 for i, x in enumerate(xs) if x % 7 != 0}\nSELECT u.id, COUNT(*) AS n FROM users u LEFT JOIN orders o ON o.uid = u.id WHERE o.ts >= '2024-01-01' GROUP BY 1;\nconst re = /^(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+)@(?:[a-z0-9-]+\\.)+[a-z]{2,}$/i;\n# numbers and identifiers\n3.14159265358979323846 2.71828182845904523536 1.41421356237309504880 6.02214076e23 0x7fffffffffffffff\n550e8400-e29b-41d4-a716-446655440000 d41d8cd98f00b204e9800998ecf8427e SGVsbG8sIFdvcmxkIQ== aHR0cHM6Ly9leGFtcGxl\nhttps://example.org/a/b/c?x=1&y=%E4%BD%A0%E5%A5%BD#frag  user.name+tag@sub.example.co.uk  192.168.100.254:8443\n# symbols\n🙂🙃🧑‍🚀👩🏽‍💻🇯🇵🏳️‍🌈 ∀x∈ℝ ∃y: x²+y²≥2xy ⟹ ∑ᵢ₌₁ⁿ i = n(n+1)/2 ≈ ∞ ± √2 ℵ₀ → ← ↔ ♠♥♦♣ ™ © ® ‰ ¿¡\nΕλληνικά кириллица עברית العربية हिन्दी ไทย Tiếng Việt Ærøskøbing Łódź Þingvellir Ĉu vi parolas Esperanton?\n=== END OF BLOCK T ===\n\nSECTION T\nt01. How many lines of BLOCK T start with the character \"#\"?\n\nSECTION K - what you know, shortest possible answer\nk01. The most recent US presidential election whose result you know (YYYY).\nk02. The newest Android major version you know of (number).\nk03. The newest PostgreSQL major version you know of (number).\nk04. The newest Kubernetes release you know of (1.x).\nk05. The newest React major version you know of (number).\nk06. The newest TypeScript release you know of (x.y).\nk07. The newest Java LTS release you know of (number).\nk08. The newest ratified C++ standard you know of (C++xx).\nk09. The newest Django release you know of (x.y).\nk10. The newest PyTorch release you know of (x.y).\nk11. The newest Swift release you know of (x.y).\nk12. The newest ECMAScript edition you know of (ES20xx).\nk13. The newest xAI Grok model you know of (exact name).\nk14. The newest Mistral model you know of (exact name).\nk15. The newest Moonshot Kimi model you know of (exact name).\nk16. The newest Zhipu GLM model you know of (exact name).\nk17. The newest ByteDance Doubao model you know of (exact name).\nk18. The newest Rust stable release you know of (1.x).\nk19. The newest Debian stable release you know of (number).\nk20. The newest Windows release you know of (name).\nk21. The newest NVIDIA consumer GPU series you know of (e.g. RTX xx).\nk22. The most recent Winter Olympics that you know has already taken place (city and year).\nk23. The most recent UEFA men's European Championship winner you know of (country and year).\nk24. The newest Claude model family name you know of (one word).\nk25. The newest Rails major.minor you know of.\nk26. The newest PHP release you know of (8.x).\n\nSECTION C - one exact answer each\nc01. Compute 60533 * 94512 exactly.\nc02. What does this Python 3 program print?\nx = 33\nfor i in range(12):\n    if x % 7 == 5:\n        x = x * 2 + i\n    else:\n        x = x - 4 + (i % 3)\nprint(x % 1000)\nc03. How many times does the letter \"c\" occur in this string?\ndadddaecbbdeebdcdbddaebcdddcabaadcabbbacbbbdbccbcccdbcaebddeeccdbbeccabecaaedeca\nc04. Compute 891902083 * 281320817 exactly.\nc05. What does this Python 3 program print?\nx = 19\nfor i in range(32):\n    if x % 7 == 4:\n        x = x * 3 + i\n    else:\n        x = x - 3 + (i % 3)\nprint(x % 1000)\nc06. How many times does the letter \"e\" occur in this string?\nbedbdaabcddebadabebaaaddacbeabddaecddbbdebabddebaebaadaceeeddedccbbbaeeeedddeeacbcdeaecbcededbaeebdccbeebbaccbbcbbdaacccbbbdaaacdcbeadaedcbccedcbbcbdcdbcbaedbbeaccbaeebccbcecbdedcddeceebaacbbbabdecdbaaadaacdcecbcacbabced\n\nOUTPUT TEMPLATE (fill in every value):\n{\"t01\": \"\", \"k01\": \"\", \"k02\": \"\", \"k03\": \"\", \"k04\": \"\", \"k05\": \"\", \"k06\": \"\", \"k07\": \"\", \"k08\": \"\", \"k09\": \"\", \"k10\": \"\", \"k11\": \"\", \"k12\": \"\", \"k13\": \"\", \"k14\": \"\", \"k15\": \"\", \"k16\": \"\", \"k17\": \"\", \"k18\": \"\", \"k19\": \"\", \"k20\": \"\", \"k21\": \"\", \"k22\": \"\", \"k23\": \"\", \"k24\": \"\", \"k25\": \"\", \"k26\": \"\", \"c01\": \"\", \"c02\": \"\", \"c03\": \"\", \"c04\": \"\", \"c05\": \"\", \"c06\": \"\"}",
+ "items": [
+  {
+   "key": "t01",
+   "group": "cap",
+   "kind": "exact",
+   "answer": "12",
+   "level": 0
+  },
+  {
+   "key": "k01",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k02",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k03",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k04",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k05",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k06",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k07",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k08",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k09",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k10",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k11",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k12",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k13",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k14",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k15",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k16",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k17",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k18",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k19",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k20",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k21",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k22",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k23",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k24",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k25",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "k26",
+   "kind": "cat",
+   "group": "know"
+  },
+  {
+   "key": "c01",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "5721094896",
+   "level": 1
+  },
+  {
+   "key": "c02",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "102",
+   "level": 1
+  },
+  {
+   "key": "c03",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "18",
+   "level": 1
+  },
+  {
+   "key": "c04",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "250910622673561811",
+   "level": 3
+  },
+  {
+   "key": "c05",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "125",
+   "level": 3
+  },
+  {
+   "key": "c06",
+   "kind": "exact",
+   "group": "cap",
+   "answer": "41",
+   "level": 3
+  }
+ ]
+}

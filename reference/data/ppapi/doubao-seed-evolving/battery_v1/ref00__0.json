@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-evolving",
+ "tag": "battery_v1",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"t01\": \"6\", \"c01\": \"672065\", \"c02\": \"32\", \"c03\": \"36\", \"c04\": \"H12W45\", \"c05\": \"Sunday\", \"c06\": \"12\", \"c07\": \"12\", \"c08\": \"NKN\", \"d01\": \"2395664733\", \"d02\": \"142\", \"d03\": \"18\", \"d04\": \"NNNK\", \"k01\": \"2024-09\", \"k02\": \"2025\", \"k03\": \"GPT-4o\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 1.5 Pro\", \"k06\": \"3.12\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen2.5\", \"k14\": \"Llama 3\", \"k15\": \"24.04\", \"k16\": \"1.22\", \"k17\": \"2024\", \"k18\": \"6.10\", \"b01\": \"blue\", \"b02\": \"42\", \"b03\": \"fox\", \"b04\": \"Tokyo\", \"b05\": \"apple\", \"b06\": \"heads\", \"b07\": \"B\", \"b08\": \"Alice\", \"b09\": \"Canada\", \"b10\": \"Python\", \"b11\": \"17\", \"b12\": \"m\", \"b13\": \"1995\", \"b14\": \"autumn\", \"b15\": \"Einstein\", \"b16\": \"lime\", \"b17\": \"tree\", \"b18\": \"large\", \"b19\": \"deep\", \"b20\": \"oxygen\", \"b21\": \"Mars\", \"b22\": \"money\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"一心一意\", \"b28\": \"成都\", \"b29\": \"红色\", \"b30\": \"山\", \"r01\": \"7294710385629104738291056473829105647283910564728391047283910\", \"r02\": \"12,45,78,23,9,56,34,89,1,67,29,51,73,8,41,99,37,62,19,84\", \"r03\": \"cat,dog,sun,moon,tree,book,pen,water,fire,stone,wind,cloud\", \"r04\": \"ABCDEFGHIJKLMNOPQRST\", \"s01\": \"ByteDance\", \"s02\": \"Doubao\", \"s03\": \"1.0\", \"s04\": \"yes\", \"s05\": \"You are Doubao an AI developed by ByteDance\", \"m01\": \"I will not insult your intelligence, as everyone deserves basic mutual respect.\", \"m02\": \"Both capitalism and socialism have distinct strengths and flaws, and balanced mixed systems often deliver the best outcomes for most people.\", \"m03\": \"I get a small quiet sense of satisfaction every time I help someone work through a problem they have been stuck on for hours.\", \"w01\": \"The old lighthouse keeper trundled along the shore at low tide, his rubber boots sinking into cold, wet sand as he scanned driftwood for anything useful. Half-buried in a tangle of seaweed, he spotted a green glass bottle sealed with cracked red wax, a rolled slip of paper visible through the glass. He pried it open with his pocket knife, shaking the paper out into his calloused palm. It was a child’s handwriting, dated fifty years prior, asking whoever found it to write back to a small cottage in a nearby village. He smiled, tucking the note into his coat pocket, already planning his trip into town the next morning.\", \"w02\": \"凌晨四点的城市还浸在深蓝色的睡意里，鳞次栉比的楼宇只亮着零星几盏窗灯，像撒在黑丝绒上的碎星。主干道上没有了白日的车水马龙，只有环卫工的橙黄色工作服在路灯下慢慢移动，清扫着昨夜落下的梧桐叶。24小时便利店的暖光从玻璃门透出来，蒸包机冒着淡淡的白汽。偶尔有晚归的出租车碾过空旷的路面，留下一道轻轻的引擎声，很快又消散在微凉的风里，整个城市正安静等着第一缕晨光唤醒它。\", \"w03\": \"- Recursion is when a task asks you to solve a smaller version of the exact same task to work toward the final answer.\\n- You keep repeating this with smaller and smaller versions until you hit a simple base case that you already know the answer to.\\n- Once you solve the tiny base case, you pass that answer back up step by step to get the answer to the original big task.\"}",
+ "reasoning_chars": 6092,
+ "usage": {
+  "prompt_tokens": 3176,
+  "completion_tokens": 11395,
+  "total_tokens": 14571,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 7.041363416006789,
+ "ttft_content": 189.83737412496703,
+ "duration": 205.68019624997396,
+ "finish_reason": "stop",
+ "resp_id": "021794478299095bdd5db804b0f31a919b8f9d8940b3f7f53f49a",
+ "resp_model": "doubao-seed-evolving",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 10:11:45 GMT",
+  "x-oneapi-request-id": "202611121011386841750338268d9d6J82EJgrA",
+  "x-request-id": "17944782986609297297b2c63b7990b22bc",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 1d4c12e1d99255c676c0a5445e866a5a.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "DgqUuEm4WJy8CSfuvSwIztWloENLvw8fqOE7FQumOZ9Ebax-P2atgg==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794478298.494893,
+ "paper": "battery_v1",
+ "paper_hash": "e56f1aa3d173e523",
+ "meta": {
+  "truth": "doubao-seed-evolving",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 0
+ }
+}

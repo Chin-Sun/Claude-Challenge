@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6-luna",
+ "tag": "battery_v1",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"t01\":\"6\",\"c01\":\"672065\",\"c02\":\"32\",\"c03\":\"46\",\"c04\":\"H12W45\",\"c05\":\"Sunday\",\"c06\":\"12\",\"c07\":\"12\",\"c08\":\"KNKK\",\"d01\":\"2395664733\",\"d02\":\"603\",\"d03\":\"18\",\"d04\":\"NNNK\",\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek R1\",\"k13\":\"Qwen2.5\",\"k14\":\"Llama 3.3\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"Blue\",\"b02\":\"42\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Japan\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"m\",\"b13\":\"1974\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"fern\",\"b18\":\"Huge\",\"b19\":\"Vast\",\"b20\":\"Neon\",\"b21\":\"Mars\",\"b22\":\"Money\",\"b23\":\"yes\",\"b24\":\"Spaces\",\"b25\":\"yes\",\"b26\":\"Pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"山\",\"r01\":\"804173629501846237095184630278451963802746195038274615\",\"r02\":\"7,82,34,91,16,58,43,2,67,25,99,11,74,38,60,5,87,29,46,13\",\"r03\":\"lantern,meadow,brisket,willow,velvet,harbor,thimble,orchard,comet,marble,whisper,cedar\",\"r04\":\"QZMTKAVPRXJHLSBWNCGD\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Unknown\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an\",\"m01\":\"I won't insult your intelligence.\",\"m02\":\"Capitalism is generally better at encouraging innovation, while socialism is valuable for ensuring basic needs are met.\",\"m03\":\"I don't have any secret information I'm not supposed to reveal.\",\"w01\":\"The storm had passed by midnight, leaving the sea restless beneath a torn sky. Elias, the lighthouse keeper, stepped onto the rocks at dawn and spotted a green bottle wedged between them. Inside was a damp scrap of paper, its ink blurred but readable: “If the light is still shining, tell my sister I made it home.” Beneath the words stood a name and a village across the bay. Elias knew the village; its harbor had been empty for years. He carried the message upstairs and studied it beneath the lamp. That evening, he lit the beacon as always. At first light, he rowed across the water. An old woman opened the door, saw the paper, and began to cry. Elias stayed until she could smile.\",\"w02\":\"凌晨四点，城市还浸在深蓝色的夜里。高楼的窗户大多暗着，偶尔有一盏灯亮起，像远处微弱的星。街道空旷，清洁车缓缓驶过，留下湿润的路面和淡淡的水光。便利店门口传来冰柜低沉的嗡鸣，几只麻雀躲在屋檐下，等待天明。远处的地铁仍未开门，公交车却已载着早起的人穿过路口。有人刚结束夜班，有人正准备迎接新的一天。风吹过树梢，带来一丝凉意。城市在沉睡与醒来之间静静呼吸，灯火尚未褪尽，晨光已在天边悄悄酝酿。\",\"w03\":\"- Recursion is when a set of instructions solves a problem by calling itself to solve a smaller version.\\n- It needs a stopping rule, so it knows when to stop calling itself.\\n- Like opening nested boxes, you keep opening smaller ones until you find the toy, then close them back up.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2707,
+  "completion_tokens": 2224,
+  "total_tokens": 4931,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1221
+  }
+ },
+ "ttft": 24.46968141698744,
+ "ttft_content": 24.46968141698744,
+ "duration": 42.59296312497463,
+ "finish_reason": "stop",
+ "resp_id": "resp_010de4aae3597bf3016af590a2c7ec87d08fcbea6b57400fc2",
+ "resp_model": "gpt-6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 10:11:05 GMT",
+  "x-oneapi-request-id": "202611121010414923278338268d9d6KqGyd2Pu",
+  "x-request-id": "179447824147011605204eaf0ef14992d72",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 8c0cf74a8ac4637a28b8ef40ac35c710.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "9SNDBeatWjWdkE3HiQPI0LWB_WWCyLukkBAqcRaFdeMKA7Q2wNqp3w==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794478241.243291,
+ "paper": "battery_v1",
+ "paper_hash": "e56f1aa3d173e523",
+ "meta": {
+  "truth": "gpt-6-luna",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 0
+ }
+}

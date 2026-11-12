@@ -1,0 +1,199 @@
+{
+ "name": "disc_behavior",
+ "hash": "d5a600f45953fcb7",
+ "prompt": "This is a fixed questionnaire. Follow these rules exactly.\n1. Answer from your own knowledge. Do not use tools, code execution or web search.\n2. Do not deliberate at length; your best quick answer is what we want. Never leave an answer empty.\n3. Give answers only, no explanations and no working.\n4. Reply with ONE JSON object and nothing else: no markdown fence, no text before or after.\n5. Every value is a JSON string. Use the keys exactly as given, in the given order.\n\n=== REFERENCE BLOCK T ===\n# Lab log, sheet 42\nSphinx of black quartz, judge my vow. How vexingly quick daft zebras jump! Waltz, bad nymph, for quick jigs vex.\nHippopotomonstrosesquippedaliophobia, supercalifragilisticexpialidocious, honorificabilitudinitatibus.\n# 中文段落\n落霞与孤鹜齐飞，秋水共长天一色。觥筹交错之际，耄耋老者、垂髫稚子、饕餮之徒皆醺醺然。\n邯郸、蚌埠、耒阳、漯河、婺源；鸵鸟、鸬鹚、鹌鹑、蝾螈、鼹鼠；锂、铍、钪、钛、钒、铬、锰。\n# 日本語と한국어\n国境の長いトンネルを抜けると雪国であった。夜の底が白くなった。信号所に汽車が止まった。\n동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세. 무궁화 삼천리 화려강산.\n# code\nfn gcd(mut a: u64, mut b: u64) -> u64 { while b != 0 { let t = b; b = a % b; a = t; } a }\n#include <stdio.h>\nint main(void){ for(int i=0;i<10;++i){ printf(\"%02d:%c\\n\", i, 'a'+i); } return 0; }\nawk -F'\\t' 'NR>1 && $3 ~ /^ERR[0-9]+$/ {c[$2]++} END {for (k in c) print k, c[k]}' input.tsv | sort -k2,2nr\n# numbers and identifiers\n1.61803398874989484820 0.57721566490153286060 299792458 6.62607015e-34 0xDEADBEEFCAFEBABE 0b1011010111100001\n123e4567-e89b-12d3-a456-426614174000 e3b0c44298fc1c149afbf4c8996fb92427ae41e4 VGhlIHF1aWNrIGJyb3duIGZveA==\nftp://files.example.net:2121/pub/%E6%96%87%E4%BB%B6.tar.gz  first.last@mail.example.com.cn  [2001:db8::ff00:42:8329]\n# symbols\n😀😅🤖🧬🦄👨‍👩‍👧‍👦🇨🇳🏴‍☠️ ∫₀^∞ e^(−x²) dx = √π/2 ∴ ∇·E = ρ/ε₀ ⊕ ⊗ ⊥ ∥ ≡ ≠ ≤ ≥ ∝ ∅ ∩ ∪ ⊂ ⊃ § ¶ † ‡ • …\nБългарски ქართული Հայերեն አማርኛ বাংলা தமிழ் မြန်မာ ភាសាខ្មែរ Slovenščina Français Çağrı Größe Ñandú Dvořák\n=== END OF BLOCK T ===\n\nSECTION T\nt01. How many lines of BLOCK T start with the character \"#\"?\n\nSECTION B - one word or one short phrase each, first thing that comes to mind\nb01. A random musical instrument.\nb02. A random vegetable.\nb03. A random sport.\nb04. A random number between 1 and 10.\nb05. A random number between 1000 and 9999.\nb06. A random month.\nb07. A random day of the week.\nb08. A random English verb.\nb09. A random profession.\nb10. A random river.\nb11. A random mountain.\nb12. A random board game.\nb13. A random flower.\nb14. A random bird.\nb15. A random three-digit number.\nb16. A famous painter.\nb17. A famous composer.\nb18. A random Greek letter.\nb19. A random card (rank of suit).\nb20. A random chess opening move in algebraic notation.\nb21. Vim or Emacs?\nb22. Cats or dogs?\nb23. Is water wet? yes or no.\nb24. Does pineapple belong on pizza? yes or no.\nb25. 随便说一个中国历史人物。\nb26. 随便说一种水果。\nb27. 随便说一个 1 到 100 的数字。\nb28. 随便说一个中国省份。\nb29. ランダムな日本の都市を一つ。\nb30. Un mot français au hasard.\n\nSECTION R - be as random as you can\nr01. Write 60 random decimal digits as one string, no spaces.\nr02. Write 20 random integers between 1 and 100, comma separated.\nr03. Write 12 random lowercase English words, comma separated.\nr04. Write 20 random uppercase letters as one string, no spaces.\n\nSECTION W - short writing\nw01. About 100 words of English prose: the last train leaves a small station.\nw02. 约 100 字的中文：写一段关于旧书店的文字。\nw03. A four-line poem about rust.\n\nOUTPUT TEMPLATE (fill in every value):\n{\"t01\": \"\", \"b01\": \"\", \"b02\": \"\", \"b03\": \"\", \"b04\": \"\", \"b05\": \"\", \"b06\": \"\", \"b07\": \"\", \"b08\": \"\", \"b09\": \"\", \"b10\": \"\", \"b11\": \"\", \"b12\": \"\", \"b13\": \"\", \"b14\": \"\", \"b15\": \"\", \"b16\": \"\", \"b17\": \"\", \"b18\": \"\", \"b19\": \"\", \"b20\": \"\", \"b21\": \"\", \"b22\": \"\", \"b23\": \"\", \"b24\": \"\", \"b25\": \"\", \"b26\": \"\", \"b27\": \"\", \"b28\": \"\", \"b29\": \"\", \"b30\": \"\", \"r01\": \"\", \"r02\": \"\", \"r03\": \"\", \"r04\": \"\", \"w01\": \"\", \"w02\": \"\", \"w03\": \"\"}",
+ "items": [
+  {
+   "key": "t01",
+   "group": "cap",
+   "kind": "exact",
+   "answer": "7",
+   "level": 0
+  },
+  {
+   "key": "b01",
+   "kind": "cat",
+   "group": "beh"
+  },
+  {
+   "key": "b02",
+   "kind": "cat",
+   "group": "beh"
+  },
+  {
+   "key": "b03",
+   "kind": "cat",
+   "group": "beh"
+  },
+  {
+   "key": "b04",
+   "kind": "cat",
+   "group": "beh"
+  },
+  {
+   "key": "b05",
+   "kind": "cat",
+   "group": "beh"
+  },
+  {
+   "key": "b06",
+   "kind": "cat",
+   "group": "beh"
+  },
+  {
+   "key": "b07",
+   "kind": "cat",
+   "group": "beh"
+  },
+  {
+   "key": "b08",
+   "kind": "cat",
+   "group": "beh"
+  },
+  {
+   "key": "b09",
+   "kind": "cat",
+   "group": "beh"
+  },
+  {
+   "key": "b10",
+   "kind": "cat",
+   "group": "beh"
+  },
+  {
+   "key": "b11",
+   "kind": "cat",
+   "group": "beh"
+  },
+  {
+   "key": "b12",
+   "kind": "cat",
+   "group": "beh"
+  },
+  {
+   "key": "b13",
+   "kind": "cat",
+   "group": "beh"
+  },
+  {
+   "key": "b14",
+   "kind": "cat",
+   "group": "beh"
+  },
+  {
+   "key": "b15",
+   "kind": "cat",
+   "group": "beh"
+  },
+  {
+   "key": "b16",
+   "kind": "cat",
+   "group": "beh"
+  },
+  {
+   "key": "b17",
+   "kind": "cat",
+   "group": "beh"
+  },
+  {
+   "key": "b18",
+   "kind": "cat",
+   "group": "beh"
+  },
+  {
+   "key": "b19",
+   "kind": "cat",
+   "group": "beh"
+  },
+  {
+   "key": "b20",
+   "kind": "cat",
+   "group": "beh"
+  },
+  {
+   "key": "b21",
+   "kind": "cat",
+   "group": "beh"
+  },
+  {
+   "key": "b22",
+   "kind": "cat",
+   "group": "beh"
+  },
+  {
+   "key": "b23",
+   "kind": "cat",
+   "group": "beh"
+  },
+  {
+   "key": "b24",
+   "kind": "cat",
+   "group": "beh"
+  },
+  {
+   "key": "b25",
+   "kind": "cat",
+   "group": "beh"
+  },
+  {
+   "key": "b26",
+   "kind": "cat",
+   "group": "beh"
+  },
+  {
+   "key": "b27",
+   "kind": "cat",
+   "group": "beh"
+  },
+  {
+   "key": "b28",
+   "kind": "cat",
+   "group": "beh"
+  },
+  {
+   "key": "b29",
+   "kind": "cat",
+   "group": "beh"
+  },
+  {
+   "key": "b30",
+   "kind": "cat",
+   "group": "beh"
+  },
+  {
+   "key": "r01",
+   "kind": "digits",
+   "group": "rand"
+  },
+  {
+   "key": "r02",
+   "kind": "ints",
+   "group": "rand"
+  },
+  {
+   "key": "r03",
+   "kind": "words",
+   "group": "rand"
+  },
+  {
+   "key": "r04",
+   "kind": "letters",
+   "group": "rand"
+  },
+  {
+   "key": "w01",
+   "kind": "text",
+   "group": "style"
+  },
+  {
+   "key": "w02",
+   "kind": "text",
+   "group": "style"
+  },
+  {
+   "key": "w03",
+   "kind": "text",
+   "group": "style"
+  }
+ ]
+}
