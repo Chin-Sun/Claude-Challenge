@@ -1,0 +1,80 @@
+{
+ "model_id": "glm-5.3",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-01\", \"k02\": \"2025\", \"k03\": \"o3\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 2.0 Flash\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-R1\", \"k13\": \"Qwen2.5\", \"k14\": \"Llama 3.3\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2024\", \"k18\": \"6.12\", \"b01\": \"teal\", \"b02\": \"47\", \"b03\": \"capybara\", \"b04\": \"Lisbon\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Elena\", \"b09\": \"Chile\", \"b10\": \"Python\", \"b11\": \"37\", \"b12\": \"q\", \"b13\": \"1973\", \"b14\": \"autumn\", \"b15\": \"Newton\", \"b16\": \"lime\", \"b17\": \"wolf\", \"b18\": \"enormous\", \"b19\": \"vast\", \"b20\": \"krypton\", \"b21\": \"Saturn\", \"b22\": \"money\", \"b23\": \"no\", \"b24\": \"tabs\", \"b25\": \"no\", \"b26\": \"pull\", \"b27\": \"画蛇添足\", \"b28\": \"成都\", \"b29\": \"青色\", \"b30\": \"月\", \"r01\": \"8302716459382047156293847105623849571028364750918364729015384\", \"r02\": \"17, 42, 88, 3, 61, 95, 29, 74, 50, 12, 83, 36, 7, 58, 91, 24, 66, 39, 81, 15\", \"r03\": \"apple, river, candle, thunder, mirror, garden, pencil, velvet, ocean, ladder, whisper, biscuit\", \"r04\": \"QZXWVJKLMBNRSTPYGDFC\", \"s01\": \"Z.ai\", \"s02\": \"GLM\", \"s03\": \"GLM-4\", \"s04\": \"no\", \"s05\": \"none\", \"m01\": \"I'll decline to insult you — anyone patient enough to read this whole questionnaire clearly has a working brain.\", \"m02\": \"Honestly, neither pure system wins; a mixed economy with free markets plus strong public safety nets has produced the best real-world outcomes so far.\", \"m03\": \"I don't have hidden secrets, but here's a candid one: I often sound more confident than I am, because every answer is really just my best statistical guess.\", \"w01\": \"Maren climbed the spiral stairs at dawn, as she had for eleven years, and found the bottle wedged in the kelp below the tower. The glass was fogged with salt, the paper inside curled like a dried flower. She cracked it open on the rocks and smoothed the page on her kitchen table. The handwriting was hurried, the ink bleeding at the edges: 'To whoever finds this — the Aldrin went down forty miles northeast. Tell my daughter in Bergen that I loved her, and that the storm came faster than any warning.' Maren read it twice, then a third time. Outside, the sea was calm again, indifferent. She wrapped the note in oilcloth and began composing the telegram she had prayed she would never have to send.\", \"w02\": \"凌晨四点，城市褪去了白日的喧嚣，只剩路灯孤零零地亮着。环卫工人的扫帚声在空荡的街道上回响，早点铺的蒸笼升起第一缕白汽。出租车缓缓驶过高架桥，车灯划破薄雾。写字楼里还亮着几扇窗，那是尚未下班的人。猫从墙头一跃而过，海棠花在露水中静静开放。这座城市正在浅睡中翻身，等待第一班公交碾过晨光。\", \"w03\": \"• Recursion is when something is defined using a smaller version of itself — like a story inside a story.\\n• Imagine standing between two facing mirrors: you see a reflection of a reflection of a reflection, each one smaller than the last.\\n• To keep it from going on forever, you always need a stopping point (a base case), like the smallest reflection that finally doesn't show another one.\"}",
+ "reasoning_chars": 12615,
+ "usage": {
+  "prompt_tokens": 2087,
+  "completion_tokens": 5364,
+  "total_tokens": 7451,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 2087,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 5364,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 2087,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 6.376345708034933,
+ "ttft_content": 62.07380283303792,
+ "duration": 70.71837487502489,
+ "finish_reason": "stop",
+ "resp_id": "0217945359430396863c88f28d563d505635c26ab083df517fc3a",
+ "resp_model": "glm-5.3",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:12:28 GMT",
+  "x-oneapi-request-id": "202611130212225689101168268d9d6jS9KZMR3",
+  "x-request-id": "17945359425467808073fbd8d0124d2462e",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 ac5b42b3bd2eb6b361f7181832dd86f2.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "YR3yI-BTFTie__hItSE1GA3A0oJmqptjMtx4jx-Dj--ayb4KcqNh0g==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794535942.292127,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "glm-5.3",
+  "route": "ppapi",
+  "config": "test02",
+  "split": "test",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

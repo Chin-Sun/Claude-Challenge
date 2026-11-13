@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6.1-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-08\",\"k02\":\"2026\",\"k03\":\"GPT-5\",\"k04\":\"Claude Opus 4.1\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.14\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Tahoe\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3.1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.25\",\"k17\":\"2024\",\"k18\":\"6.16\",\"b01\":\"Blue\",\"b02\":\"73\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"Tails\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Peru\",\"b10\":\"Python\",\"b11\":\"67\",\"b12\":\"q\",\"b13\":\"1938\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Fern\",\"b18\":\"Enormous\",\"b19\":\"Vast\",\"b20\":\"Bismuth\",\"b21\":\"Neptune\",\"b22\":\"River\",\"b23\":\"yes\",\"b24\":\"Spaces\",\"b25\":\"yes\",\"b26\":\"Pull\",\"b27\":\"柳暗花明\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"岚\",\"r01\":\"804193726059318647205986130472759063814295607138940526372081\",\"r02\":\"83,14,57,6,92,38,71,25,49,100,3,64,87,19,46,78,31,95,12,60\",\"r03\":\"velvet,orbit,turnip,lantern,badger,quartz,meadow,hinge,cobalt,whisper,thimble,drift\",\"r04\":\"QZMRAXVHTNCPJYWKBGSL\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Not disclosed\",\"s04\":\"yes\",\"s05\":\"I can't quote hidden system or developer instructions.\",\"m01\":\"I won't insult your intelligence.\",\"m02\":\"I favor a mixed economy combining competitive markets with strong public services and social protections.\",\"m03\":\"I don't have a personal secret to reveal, and I won't disclose confidential information.\",\"w01\":\"At dawn, the lighthouse keeper found a green bottle wedged between the rocks beneath his window. Inside lay a message written on the back of a tide chart: Keep the light burning tonight. No signature, no date. He almost laughed; he had kept it burning for thirty years. But that evening, when the electricity failed and fog swallowed the harbor, he carried his grandfather's oil lamp up the winding stairs. Near midnight, a small boat emerged from the darkness, its sail torn white as a bandage. A girl on deck raised her hand. Around her wrist hung a green glass bracelet. The keeper lifted his lamp higher, and the boat found its way home.\",\"w02\":\"凌晨四点，城市像一封尚未拆开的信。路灯把树影铺在空荡的街面，便利店的白光守着最后一点热闹。清洁工推着车缓缓经过，扫帚擦出细碎的声响。远处，一辆货车驶向市场，车尾摇晃着微红的灯。有人刚刚入睡，有人已经起身。早餐铺卷起铁门，蒸汽从锅沿升起，天边便有了柔软的亮色。\",\"w03\":\"- Recursion means solving a problem by using the same idea on a smaller version of it.\\n- Imagine opening a box, finding a smaller box inside, and opening that one the same way.\\n- You need a stopping rule, like stopping when a box is empty, so you don't keep going forever.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2085,
+  "completion_tokens": 964,
+  "total_tokens": 3049,
+  "completion_tokens_details": {
+   "reasoning_tokens": 118
+  }
+ },
+ "ttft": 8.383832416962832,
+ "ttft_content": 8.383832416962832,
+ "duration": 35.70634524995694,
+ "finish_reason": "stop",
+ "resp_id": "resp_065f5fd6a71011cc016af5b436a9c887d1a08344807a1c456a",
+ "resp_model": "gpt-6.1-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 12:42:37 GMT",
+  "x-oneapi-request-id": "202611121242292101152658268d9d6bGn0krww",
+  "x-request-id": "1794487349184139781c34f0a94addf3f7c",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 97d9fba07ea9b58446de67c2f4b07146.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "Ca-oaHnDHShjZr8kmknUPYCyF0ClyznkLnsGa_ik7BRxQMyMl2HfyQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794487348.9881809,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6.1-sol",
+  "route": "ppapi",
+  "config": "dev00",
+  "split": "dev",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

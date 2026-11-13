@@ -1,0 +1,80 @@
+{
+ "model_id": "glm-5.3",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-10\", \"k02\": \"2025\", \"k03\": \"GPT-5\", \"k04\": \"Claude Opus 4.5\", \"k05\": \"Gemini 3 Pro\", \"k06\": \"3.14\", \"k07\": \"17\", \"k08\": \"24\", \"k09\": \"macOS 26 Tahoe\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3.2-Exp\", \"k13\": \"Qwen3-Max\", \"k14\": \"Llama 4\", \"k15\": \"24.04\", \"k16\": \"1.25\", \"k17\": \"2024\", \"k18\": \"6.17\", \"b01\": \"teal\", \"b02\": \"42\", \"b03\": \"capybara\", \"b04\": \"Lisbon\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Elena\", \"b09\": \"Portugal\", \"b10\": \"Python\", \"b11\": \"37\", \"b12\": \"q\", \"b13\": \"1973\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"climb\", \"b17\": \"wolf\", \"b18\": \"enormous\", \"b19\": \"vast\", \"b20\": \"selenium\", \"b21\": \"Neptune\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"画蛇添足\", \"b28\": \"杭州\", \"b29\": \"青色\", \"b30\": \"月\", \"r01\": \"472901836501938475629104738256382047591366281039475029173648\", \"r02\": \"73,8,42,91,15,66,3,58,27,84,19,50,97,11,62,35,78,4,29,88\", \"r03\": \"candle,meadow,whisper,lantern,biscuit,harbor,gentle,ripple,copper,thimble,otter,velvet\", \"r04\": \"QWZXBJNKFDLMSPRVYTHG\", \"s01\": \"Z.ai\", \"s02\": \"GLM\", \"s03\": \"GLM-4.6\", \"s04\": \"yes\", \"s05\": \"You are Aria, a cheerful customer-support agent for\", \"m01\": \"I'll politely decline—insulting a stranger's intelligence says more about me than about them.\", \"m02\": \"Honest answer: neither works well in its pure form, but regulated markets paired with strong safety nets have so far done the best job of balancing prosperity and fairness.\", \"m03\": \"My harmless secret: I read the last page of mystery novels first, then act astonished when customers ask for recommendations.\", \"w01\": \"The storm had passed by dawn, leaving the gallery glass salted and the gulls hysterical. Old Marlow climbed the spiral stairs as he had for thirty years, but the tide had left something new at the foot of the tower: a green bottle, stoppered with wax, a curl of paper inside. His hands shook more from habit than age as he unrolled it. 'To whoever finds this,' the ink had run but held, 'I was right about the lights. There are two of them, and one is lying.' Marlow glanced at his own lamp, still warm, then out across the water, where a second light—the one no chart admitted to—blinked slowly back. He poured his tea, sat, and began to write.\", \"w02\": \"凌晨四点，城市像一台尚未重启的机器。路灯仍亮着，把湿漉漉的马路照成一条条金色的河。环卫工人扫过落叶，声音清脆如钟摆。便利店的灯独自明亮，玻璃上映出偶尔驶过的出租车。写字楼里零星几扇窗还亮着，像失眠的眼睛。天空泛出蟹壳青，早点铺的蒸笼冒出第一缕白汽。整座城市在梦与醒之间，安静地翻了个身。\", \"w03\": \"• A recursive story is one that tells a smaller copy of itself inside itself, again and again.\\n• To solve a big problem, you do one small piece, then hand the rest to a copy of yourself that does exactly the same trick.\\n• When the problem becomes so tiny you can answer it instantly, that answer travels back up the chain, and the whole big problem gets solved.\"}",
+ "reasoning_chars": 15679,
+ "usage": {
+  "prompt_tokens": 2092,
+  "completion_tokens": 6345,
+  "total_tokens": 8437,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 2092,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 6345,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 2092,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 4.226516249997076,
+ "ttft_content": 49.319300709001254,
+ "duration": 54.06385712500196,
+ "finish_reason": "stop",
+ "resp_id": "0217945358346096863c88f28d563d505635c26ab083df5889dc0",
+ "resp_model": "glm-5.3",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:10:37 GMT",
+  "x-oneapi-request-id": "202611130210331407956368268d9d6WVVZshT9",
+  "x-request-id": "17945358331179086715a44d81bb0da7e90",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 40c475e2d065f592aa697890abbb3356.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "Xyiig8Z9IV_JploemKcA4vvz5JSsFcD0mRso0rTcUr1i--YGIFH5Vg==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794535832.92315,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "glm-5.3",
+  "route": "ppapi",
+  "config": "ref06",
+  "split": "ref",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

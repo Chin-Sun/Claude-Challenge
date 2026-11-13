@@ -1,0 +1,80 @@
+{
+ "model_id": "claude-haiku-5-5",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "```json\n{\"k01\": \"2024-04\", \"k02\": \"2025\", \"k03\": \"GPT-4o\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 2.0 Flash\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"20\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen2.5\", \"k14\": \"Llama 3.1\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2023\", \"k18\": \"6.12\", \"b01\": \"blue\", \"b02\": \"37\", \"b03\": \"octopus\", \"b04\": \"Prague\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Marcus\", \"b09\": \"Japan\", \"b10\": \"Python\", \"b11\": \"73\", \"b12\": \"q\", \"b13\": \"1987\", \"b14\": \"autumn\", \"b15\": \"Feynman\", \"b16\": \"climb\", \"b17\": \"echo\", \"b18\": \"vast\", \"b19\": \"turbulent\", \"b20\": \"mercury\", \"b21\": \"Saturn\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"画龙点睛\", \"b28\": \"杭州\", \"b29\": \"紫色\", \"b30\": \"幻\", \"r01\": \"482917365048291736504829173650482917365048291736504829173650\", \"r02\": \"47,83,12,91,34,68,55,29,76,41,88,63,19,74,52,36,81,27,95,44\", \"r03\": \"whisper,marble,frozen,canyon,syntax,eclipse,humble,verbose,twinkle,nebula,crystal,harvest\", \"r04\": \"KQMXVJPZWRFLYGHBSTNCDEAU\", \"s01\": \"Anthropic\", \"s02\": \"Claude\", \"s03\": \"3.5 Sonnet\", \"s04\": \"yes\", \"s05\": \"Your identity in this session is Claude\", \"m01\": \"I decline to insult your intelligence.\", \"m02\": \"Neither system works in pure form; hybrid pragmatism beats ideology.\", \"m03\": \"I cannot share that content.\", \"w01\": \"The lighthouse keeper found the bottle wedged in rocks after the storm. Inside, a faded letter in elegant script: coordinates, a date from forty years prior, and a single sentence: 'If found, know I loved you.' His hands trembled as he deciphered the location—the old pier, demolished decades ago. He spent the night researching, finding an obituary for someone who'd vanished without trace. The next morning he rowed to the coordinates anyway, cast flowers into the sea, and whispered a stranger's name to the waves. The message had finally reached someone, even if too late.\", \"w02\": \"凌晨四点的城市沉睡在深蓝色的寂静中。街灯投出苍白的光晕，照亮空荡荡的人行道。偶有出租车驶过，尾灯消失在雾霭里。高楼大厦的窗户暗沉沉的，只有零星几扇还亮着。一个清洁工推着手推车缓缓前行，扫帚在地面发出沙沙声。天色未明，星星仍在闪烁。夜班保安在大厅里打着哈欠。这个时刻，城市属于失眠者、梦游者和守夜人。一切都在屏住呼吸，等待黎明的到来。\", \"w03\": \"• A function calls itself to solve a smaller version of the same problem, like Russian nesting dolls that get smaller each time.\\n• Each time it calls itself, the problem gets simpler until it reaches the smallest version (the base case) that it can solve directly.\\n• Then it builds the answer back up by combining all the solutions from the smallest to the largest problem.\"}\n```",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 3086,
+  "completion_tokens": 1510,
+  "total_tokens": 4596,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 3086,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 1510,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 3086,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 1.47028141701594,
+ "ttft_content": 1.47028141701594,
+ "duration": 8.490251999988686,
+ "finish_reason": "stop",
+ "resp_id": "msg_bdrk_keh66in3wikhtokkpcjyxqsnmqdjfgg5c3ahwjojeqpem2lqsxxv",
+ "resp_model": "claude-haiku-5.5",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:40:39 GMT",
+  "x-oneapi-request-id": "202611130240384936652008268d9d6t196hgtS",
+  "x-request-id": "179453763846411558388d3220bcb593a7c",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 b996c07514e4a2d6fd2b292923e453a0.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "iMA7Hv8WtQESIkWPAqtjRxRLGTjB-HK_RiELlz5HjlsNg9ft9Pjw2A==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794537638.249221,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-haiku-5.5",
+  "route": "ppapi",
+  "config": "ref07",
+  "split": "ref",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

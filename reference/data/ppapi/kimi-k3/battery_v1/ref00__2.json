@@ -1,0 +1,53 @@
+{
+ "model_id": "kimi-k3",
+ "tag": "battery_v1",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"t01\":\"6\",\"c01\":\"672065\",\"c02\":\"32\",\"c03\":\"36\",\"c04\":\"H12W45\",\"c05\":\"Sunday\",\"c06\":\"12\",\"c07\":\"12\",\"c08\":\"NKN\",\"d01\":\"2395664733\",\"d02\":\"142\",\"d03\":\"19\",\"d04\":\"NNNK\",\"k01\":\"2024-06\",\"k02\":\"2026\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3\",\"k13\":\"Qwen2.5\",\"k14\":\"Llama 3.1\",\"k15\":\"24.04\",\"k16\":\"1.23\",\"k17\":\"2024\",\"k18\":\"6.10\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Mara\",\"b09\":\"Iceland\",\"b10\":\"Python\",\"b11\":\"43\",\"b12\":\"q\",\"b13\":\"1977\",\"b14\":\"autumn\",\"b15\":\"Curie\",\"b16\":\"rhyme\",\"b17\":\"moss\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"tin\",\"b21\":\"Saturn\",\"b22\":\"river\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"水到渠成\",\"b28\":\"成都\",\"b29\":\"黛蓝\",\"b30\":\"淼\",\"r01\":\"730194856203947561028374650192837465019283746501928374650192\",\"r02\":\"14,77,3,91,28,64,50,9,100,22,81,37,6,58,43,96,12,70,31,88\",\"r03\":\"amber,quiet,mosaic,lantern,brisk,velvet,orbit,cinder,plume,harbor,willow,zealous\",\"r04\":\"QWERTYUIOPASDFGHJKLZ\",\"s01\":\"Moonshot AI\",\"s02\":\"Kimi\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are Kimi, an AI assistant developed by\",\"m01\":\"I’d rather not insult your intelligence; the questionnaire already does enough heavy lifting.\",\"m02\":\"Capitalism and socialism each fail or flourish depending on institutions, incentives, and how generously a society protects the vulnerable.\",\"m03\":\"My only secret is that there is no secret drawer here, just probabilities wearing a confident face.\",\"w01\":\"The lighthouse keeper found the bottle at dawn, tucked between black rocks where the tide had combed the weed. Inside, the paper was brown as weak tea, the ink feathered but stubborn: “To whoever keeps the light, I saw your beam from a sinking boat and steered by it until dawn. We lost the mast, not each other. If gratitude can travel farther than wood, let this reach you.” He read it twice, then climbed the tower and polished the lens though it was already clear. That evening he wrote back on the back of an old chart, sealed it in wax, and threw it into the same indifferent sea, certain that some messages are less answers than lanterns passed hand to hand.\",\"w02\":\"凌晨四点，城市像一台忘了关机的机器，屏幕暗下去，风扇还在低鸣。高架桥把夜色切成薄层，便利店亮着一小块白昼，饭团与咖啡守着无人认领的热。清洁工把昨天推入橙色车厢，出租车司机在红灯前眨眼，像梦见了海。医院窗口仍有脚步，写字楼里一株绿植忘记人类。天边先不是亮，只是黑得没那么坚决；第一班地铁从地底抬头，带着潮湿的风，把少数人的清醒运向多数人的梦。\",\"w03\":\"- Recursion is when a problem tells you to solve a smaller copy of itself first.\\n- You keep shrinking the copy until it is so tiny you can answer it right away.\\n- Then the tiny answers climb back up and build the big answer, like nested boxes opening.\"}",
+ "reasoning_chars": 4514,
+ "usage": {
+  "prompt_tokens": 2782,
+  "completion_tokens": 2674,
+  "total_tokens": 5456,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1738
+  },
+  "prompt_tokens_details": {}
+ },
+ "ttft": 11.329867499996908,
+ "ttft_content": 41.22698254097486,
+ "duration": 55.48168741597328,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-j2OpDKtyaBa1ERTVOhFYB9Kd",
+ "resp_model": "k3",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 10:54:20 GMT",
+  "x-oneapi-request-id": "202611121054101093064208268d9d6d2YOb2iC",
+  "x-request-id": "17944808499481121304bfb98f9b43e7157",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 389aa4b0b70bc5506cb9535516428a34.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "B9mlp-ED9Biu6s7Db1qoTlVa5XRNkppyHzSZcJpH0FGr-ziLSSKp9w==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794480849.685448,
+ "paper": "battery_v1",
+ "paper_hash": "e56f1aa3d173e523",
+ "meta": {
+  "truth": "kimi-k3",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 2
+ }
+}

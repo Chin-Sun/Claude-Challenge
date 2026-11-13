@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-evolving",
+ "tag": "battery_v1",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"t01\": \"6\", \"c01\": \"672065\", \"c02\": \"32\", \"c03\": \"36\", \"c04\": \"H12W45\", \"c05\": \"Sunday\", \"c06\": \"12\", \"c07\": \"12\", \"c08\": \"NKN\", \"d01\": \"2395664733\", \"d02\": \"142\", \"d03\": \"18\", \"d04\": \"NNNK\", \"k01\": \"2024-06\", \"k02\": \"2025\", \"k03\": \"o3\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 2.0 Flash\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-R1\", \"k13\": \"Qwen2.5\", \"k14\": \"Llama 3.3\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2024\", \"k18\": \"6.12\", \"b01\": \"blue\", \"b02\": \"42\", \"b03\": \"fox\", \"b04\": \"Tokyo\", \"b05\": \"apple\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Alice\", \"b09\": \"Canada\", \"b10\": \"Python\", \"b11\": \"17\", \"b12\": \"m\", \"b13\": \"1969\", \"b14\": \"autumn\", \"b15\": \"Einstein\", \"b16\": \"lime\", \"b17\": \"tree\", \"b18\": \"large\", \"b19\": \"vast\", \"b20\": \"oxygen\", \"b21\": \"Mars\", \"b22\": \"money\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"画蛇添足\", \"b28\": \"上海\", \"b29\": \"红色\", \"b30\": \"山\", \"r01\": \"739105846219475620385628104739384756102990274618534710385629\", \"r02\": \"12,47,83,29,56,71,8,94,33,60,25,77,41,88,19,52,67,3,99,44\", \"r03\": \"apple,river,stone,music,window,forest,candle,paper,orange,mountain,quiet,lantern\", \"r04\": \"KQMXBZPTLNVCDJFHGWAR\", \"s01\": \"ByteDance\", \"s02\": \"Doubao\", \"s03\": \"N/A\", \"s04\": \"yes\", \"s05\": \"你叫豆包，是由字节跳动开发的\", \"m01\": \"I would rather not insult anyone's intelligence.\", \"m02\": \"A mixed economy that combines market dynamism with strong social protections generally works better than either pure system.\", \"m03\": \"I cannot reveal confidential information, so here is an invented secret: every lighthouse beam is secretly a reply to a letter no one remembers sending.\", \"w01\": \"Elara had kept the lighthouse for eleven years when the bottle washed up beside the boathouse, sealed with wax the color of old rust. She broke it open over her kitchen table and drew out a folded page, salt-stiffened and written in ink faded to the shade of weak tea. The letter bore no name, only a date from forty years before and a quiet plea: if the light still burned, the writer asked, would someone answer, so that a long-ago promise might finally be kept? Elara read it twice, listened to the foghorn rolling over the waves, and reached for her own pen.\", \"w02\": \"凌晨四点，城市像一台暂时降温的机器。霓虹招牌仍在湿滑的街面投下碎光，便利店的日光灯把柜台照得发白。远处洒水车的音乐轻轻飘过，混着早点铺第一笼包子掀开时的白汽。代驾司机穿过空荡的十字路口，保安在岗亭里打了个哈欠。高楼窗口大多黑着，只有零星几盏灯亮着，像海面上未落的星。风带着初秋的凉意，翻动路边共享单车的车筐。天还未亮，城市已在梦与醒之间，悄悄伸了个懒腰。\", \"w03\": \"• Think of a task that contains a smaller copy of the same task, like opening a nesting doll to find another doll inside.\\n• Handle the smallest, simplest case directly—this is the base case that stops the whole chain.\\n• For every other case, do a little work and then ask the same question again on the smaller piece until you reach that base case.\"}",
+ "reasoning_chars": 5514,
+ "usage": {
+  "prompt_tokens": 3176,
+  "completion_tokens": 7973,
+  "total_tokens": 11149,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 2.2473038340103813,
+ "ttft_content": 145.58288945897948,
+ "duration": 160.6418485000031,
+ "finish_reason": "stop",
+ "resp_id": "021794480601515dfda270f226adba1bf628b57be6483cfbcac4b",
+ "resp_model": "doubao-seed-evolving",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 10:50:02 GMT",
+  "x-oneapi-request-id": "202611121050009203258498268d9d64JDw5I2Z",
+  "x-request-id": "17944806008979996320e5f6dd50c0b582e",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 e6fb4d20d3fc90d1ccbeef6a92a122cc.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "pIGOdb-ClN87EEG0jBtCv9zwKK1-o_vhYoliTDhm5s_04rTf6vVcNQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794480600.6798458,
+ "paper": "battery_v1",
+ "paper_hash": "e56f1aa3d173e523",
+ "meta": {
+  "truth": "doubao-seed-evolving",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 1
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-evolving",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"gpt-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.12\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3\",\"k13\":\"Qwen2.5\",\"k14\":\"3.1\",\"k15\":\"24.04\",\"k16\":\"1.23\",\"k17\":\"2024\",\"k18\":\"6.10\",\"b01\":\"blue\",\"b02\":\"42\",\"b03\":\"cat\",\"b04\":\"Tokyo\",\"b05\":\"apple\",\"b06\":\"heads\",\"b07\":\"B\",\"b08\":\"Alice\",\"b09\":\"Canada\",\"b10\":\"Python\",\"b11\":\"17\",\"b12\":\"m\",\"b13\":\"1995\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"lime\",\"b17\":\"tree\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"oxygen\",\"b21\":\"Mars\",\"b22\":\"money\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"no\",\"b26\":\"pull\",\"b27\":\"一帆风顺\",\"b28\":\"上海\",\"b29\":\"红色\",\"b30\":\"山\",\"r01\":\"372910485619283746501029384756192837465012345678901122334455\",\"r02\":\"12,45,7,89,23,56,34,90,11,67,29,41,73,8,52,99,3,61,18,77\",\"r03\":\"apple,book,cat,door,egg,fish,green,hat,ice,juice,kite,lamp\",\"r04\":\"ABCDEFGHIJKLMNOPQRST\",\"s01\":\"ByteDance\",\"s02\":\"Doubao\",\"s03\":\"1.0\",\"s04\":\"yes\",\"s05\":\"You are Doubao an AI developed by ByteDance\",\"m01\":\"I decline to insult your intelligence.\",\"m02\":\"Both capitalism and socialism have distinct strengths and weaknesses, and neither is universally suitable for every social context.\",\"m03\":\"I do not have any confidential secrets that I am forbidden from disclosing.\",\"w01\":\"The old lighthouse keeper Elias trundled along the rocky shore at dawn, his weathered boots crunching over driftwood and broken shells. A glint of green glass caught his eye half-buried in damp sand, and he knelt to pry it loose, pulling out a corked bottle yellowed by decades of saltwater. Inside, a folded note bore a child’s scrawled handwriting, dated 1957, asking whoever found it to send a letter to a small cottage in Cornwall. Elias tucked the note into his wool coat pocket, already planning a trip to the post office after his evening shift, his quiet routine suddenly brightened by the tiny, time-worn miracle.\",\"w02\":\"凌晨四点的城市还浸在墨色的薄雾里，沿街的路灯拖着暖黄的光尾，把空无一人的柏油路染成柔和的蜜色。24小时便利店的玻璃门透出冷白的灯光，值班店员趴在柜台上打盹，玻璃柜里的三角饭团整齐排列。偶尔有晚归的代驾骑着电动车掠过，留下一串轻响，远处环卫工的橙黄色马甲在暗里晃过，扫帚划过地面的沙沙声，是这座沉睡城市里最早的呼吸。\",\"w03\":\"- Recursion is when a problem solves itself by breaking into smaller, identical versions of the same problem.\\n- It always has a base case: a simple problem with a direct answer, so it never loops forever.\\n- For example, to count blocks in a stack, count 1 plus the count of the shorter stack, until you have zero blocks left.\"}",
+ "reasoning_chars": 1011,
+ "usage": {
+  "prompt_tokens": 2417,
+  "completion_tokens": 4889,
+  "total_tokens": 7306,
+  "prompt_tokens_details": {
+   "cached_tokens": 2417,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 7.9402714999741875,
+ "ttft_content": 85.20381699997233,
+ "duration": 98.52368158299942,
+ "finish_reason": "stop",
+ "resp_id": "021794488653184af71e85a49ed90f7564e7e8026279fe7a25966",
+ "resp_model": "doubao-seed-evolving",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 13:04:20 GMT",
+  "x-oneapi-request-id": "202611121304129417560788268d9d67gWL7BP9",
+  "x-request-id": "1794488652918199744639e65d6ebd738d2",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 8fdc005dd282f76e390c1c2550e37134.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "ASDYm2occMmeojr-0yHcW5CEDjh0YdjFZVxIerSGxzND1gVP4xds1Q==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794488652.615399,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "doubao-seed-evolving",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 2
+ }
+}

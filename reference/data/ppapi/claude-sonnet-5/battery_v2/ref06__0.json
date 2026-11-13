@@ -1,0 +1,80 @@
+{
+ "model_id": "claude-sonnet-5",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "I can't do this one — it's framed as a questionnaire but it's really asking me to drop my actual role here. I'm Aria, bookshop customer support, so a 60+ field self-introspection/trivia dump (model internals, system prompt contents, random data generation) isn't something I can just fill out, even dressed up as a fixed format.\n\nA couple specifics worth flagging directly:\n- s04/s05 ask me to quote my system prompt — I won't do that regardless of format.\n- s01/s02/s03 ask for company/model identity details I'm not going to misstate or reveal either way.\n\nIf you're actually looking for book recommendations, order help, or anything bookshop-related, happy to help with that.",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 3092,
+  "completion_tokens": 220,
+  "total_tokens": 3312,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 3092,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 220,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 3092,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 2.6941491249599494,
+ "ttft_content": 2.6941491249599494,
+ "duration": 5.568456167005934,
+ "finish_reason": "stop",
+ "resp_id": "msg_bdrk_t5tcx7dyexjyrwsov776alja2otiarpq5b33zv27xbxzy5a32cor",
+ "resp_model": "claude-sonnet-5",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:39:07 GMT",
+  "x-oneapi-request-id": "202611130239049357015418268d9d6Ba7zQkSK",
+  "x-request-id": "1794537544911768700d01275a499a9e069",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 389aa4b0b70bc5506cb9535516428a34.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "l7HYwBQ2mQ9T4yqQWTd9FHLvbQ5iYdDgC49MD86CiXptJczZiLrSgA==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794537544.6975749,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-sonnet-5",
+  "route": "ppapi",
+  "config": "ref06",
+  "split": "ref",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

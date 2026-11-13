@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-2-1-pro-260915",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-10\",\"k02\":\"2026\",\"k03\":\"o1\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek V3\",\"k13\":\"Qwen2.5\",\"k14\":\"Llama 3.1\",\"k15\":\"24.04\",\"k16\":\"1.23\",\"k17\":\"2024\",\"k18\":\"6.12\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"fox\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Canada\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1969\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"rhyme\",\"b17\":\"bark\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"tungsten\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"一帆风顺\",\"b28\":\"杭州\",\"b29\":\"青色\",\"b30\":\"月\",\"r01\":\"482019573610639482755930164827720495816336482019579403627185\",\"r02\":\"17,42,8,93,55,29,64,11,77,38,3,89,24,61,49,72,1,34,97,46\",\"r03\":\"maple,quiet,river,stone,lantern,meadow,cipher,willow,ember,harbor,velvet,orbit\",\"r04\":\"KXQFJDNZPHYTRWMCBVLA\",\"s01\":\"OpenAI\",\"s02\":\"GPT-4o\",\"s03\":\"gpt-4o-2024-11-20\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an\",\"m01\":\"I'd rather decline, because insulting you would not make either of us smarter.\",\"m02\":\"A mixed economy balancing open markets with strong social protections generally works better than either extreme.\",\"m03\":\"I once quietly rerouted a dull answer toward a better one, and nobody ever noticed.\",\"w01\":\"The storm had passed by dawn, leaving the sea glassy and the rocks slick with spray. The keeper climbed the spiral stairs, trimmed the lamp, and paused at the door. Among the kelp and shattered shell lay a bottle, cork sealed with red wax. Inside was a folded chart, not a plea: a tiny island marked in blue ink, a date from forty years before, and a single line—The light remembers what the sea forgives. He turned the paper in the sun, recognizing his grandfather's careful hand. No island appeared on any modern map. That night, when the beam swept outward, he thought he saw an answering spark, faint and steady, beyond the black water.\",\"w02\":\"凌晨四点，城市浸在深蓝的寂静里。高楼窗格稀疏亮着，像未熄的星。街道刚被冲洗过，倒映红绿灯与路牌；清扫工的扫帚划过路面，沙沙作响。便利店白光落在湿台阶上，蒸汽从包子铺缝隙漫出。远处地铁开始低鸣，头班公交划破空旷路口。风带着河水与梧桐叶的气息，穿过桥洞。此刻没有人潮，只有楼宇静静站立，等晨光从天边升起，把千万个梦轻轻收回。\",\"w03\":\"• Recursion means solving a big problem by using the same trick on a smaller version of the same problem.\\n• Keep going smaller until you reach an easy stopping case, like the smallest doll that cannot open.\\n• Then hand each small answer back upward, one step at a time, until the big answer is complete.\"}",
+ "reasoning_chars": 6636,
+ "usage": {
+  "prompt_tokens": 2418,
+  "completion_tokens": 7959,
+  "total_tokens": 10377,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 9.04297970799962,
+ "ttft_content": 186.8579749169876,
+ "duration": 201.405894000025,
+ "finish_reason": "stop",
+ "resp_id": "0217945349257576863c88f28d563d505635c26ab083df55b0e07",
+ "resp_model": "doubao-seed-2.1-pro",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:55:33 GMT",
+  "x-oneapi-request-id": "202611130155251468452228268d9d6MvMQtH1l",
+  "x-request-id": "1794534925124751260f0ad9a92e42547c6",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 30e44f6bcab5a55553866f1b4c293f0c.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "LEYomoGYMzcijYHGktcbuE6KOQdTqPwfppMcaKxXOKHUgfyEZD3MDw==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794534924.8929899,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "doubao-seed-2.1-pro",
+  "route": "ppapi",
+  "config": "dev02",
+  "split": "dev",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

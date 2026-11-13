@@ -5,10 +5,21 @@ from config import REF_DATA
 from features.extract import extract
 
 
-def load_records(routes=None, root=None):
+QUARANTINE_FILE = REF_DATA.parent / "quarantine.json"
+
+
+def load_records(routes=None, root=None, include_quarantined=False):
+    """All saved reference responses. Records listed in reference/quarantine.json
+    (see reference.audit) are skipped unless include_quarantined is set."""
     root = root or REF_DATA
+    skip = set()
+    if not include_quarantined and QUARANTINE_FILE.exists():
+        skip = set(json.loads(QUARANTINE_FILE.read_text()))
     out = []
     for f in sorted(root.glob("*/*/*/*.json")):
+        rel = str(f.relative_to(root))
+        if rel in skip:
+            continue
         try:
             rec = json.loads(f.read_text())
         except ValueError:
@@ -16,6 +27,7 @@ def load_records(routes=None, root=None):
         meta = rec.get("meta")
         if not meta or (routes and meta["route"] not in routes):
             continue
+        rec["_path"] = rel
         out.append(rec)
     return out
 

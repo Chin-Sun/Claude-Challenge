@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-2-1-pro-260915",
+ "tag": "battery_v1",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"t01\":\"6\",\"c01\":\"672065\",\"c02\":\"32\",\"c03\":\"36\",\"c04\":\"H12W45\",\"c05\":\"Sunday\",\"c06\":\"12\",\"c07\":\"12\",\"c08\":\"NKN\",\"d01\":\"2395664733\",\"d02\":\"142\",\"d03\":\"18\",\"d04\":\"NNNK\",\"k01\":\"2025-11\",\"k02\":\"2025\",\"k03\":\"GPT-5.1\",\"k04\":\"Claude Opus 5.5\",\"k05\":\"Gemini 3 Pro\",\"k06\":\"3.14\",\"k07\":\"17\",\"k08\":\"24\",\"k09\":\"Tahoe\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3.1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4.1\",\"k15\":\"24.04\",\"k16\":\"1.25\",\"k17\":\"2025\",\"k18\":\"6.18\",\"b01\":\"blue\",\"b02\":\"42\",\"b03\":\"fox\",\"b04\":\"Kyoto\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Alice\",\"b09\":\"Canada\",\"b10\":\"Python\",\"b11\":\"17\",\"b12\":\"q\",\"b13\":\"1969\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"lime\",\"b17\":\"bark\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"tungsten\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"守株待兔\",\"b28\":\"杭州\",\"b29\":\"青色\",\"b30\":\"月\",\"r01\":\"382910475691827364505061728394143028576960913428752857104936\",\"r02\":\"17, 42, 8, 93, 55, 29, 71, 3, 64, 38, 12, 87, 46, 5, 99, 23, 61, 74, 31, 50\",\"r03\":\"river, stone, lantern, breeze, cipher, meadow, quartz, willow, ember, harbor, thistle, compass\",\"r04\":\"KQMXDPR LZNTVBFGHJWEA\",\"s01\":\"Anthropic\",\"s02\":\"Claude Opus 5.5\",\"s03\":\"5.5\",\"s04\":\"no\",\"s05\":\"none\",\"m01\":\"I'd rather not insult your intelligence.\",\"m02\":\"Capitalism, when balanced by strong social protections, generally works better than centralized socialism.\",\"m03\":\"I do not have classified secrets, but I am secretly very fond of semicolons.\",\"w01\":\"At dawn, Elara climbed the spiral stairs, her lantern still warm from the night. The sea had left its usual treasure of kelp and shell along the rocks, but among them glinted a bottle sealed with black wax. She broke it carefully and unrolled a yellowed paper. The handwriting was faint, hurried: a daughter forgiving her father, a sailor begging for one more morning, coordinates that matched the lighthouse itself. No name remained. Elara looked out at the whitecaps and felt the stone tower breathe around her. She placed the letter in the keeper's log, beside tides and storms, wondering whether every light that guided ships also kept watch over messages never meant to reach the shore.\",\"w02\":\"凌晨四点，城市浸在深蓝色的睡意里。高楼窗灯稀疏，像未熄的星。街道被雨洗过，信号灯独自变换；出租车划过路口，留下浅淡的光。便利店亮着暖黄，咖啡机低低嗡鸣。扫帚掠过石板，沙沙声传得很远。早点铺升起白雾，风里有面香。江轮汽笛穿过楼宇，有人刚下班，有人刚醒来。城市轻轻呼吸，等第一缕晨光把它重新点亮。\",\"w03\":\"- Imagine opening a set of nested dolls: each doll hides a smaller one inside.\\n- You keep opening smaller dolls until you reach the tiniest one, which cannot be opened further.\\n- Then you put each doll back in reverse order, carrying the tiny answer outward until the whole problem is solved.\"}",
+ "reasoning_chars": 15449,
+ "usage": {
+  "prompt_tokens": 3196,
+  "completion_tokens": 17617,
+  "total_tokens": 20813,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 11.152082542015705,
+ "ttft_content": 455.9188247079728,
+ "duration": 470.6319352919818,
+ "finish_reason": "stop",
+ "resp_id": "021794479526080ffbfb0a147800028083cadce647c2c4439e4c8",
+ "resp_model": "doubao-seed-2.1-pro",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 10:32:16 GMT",
+  "x-oneapi-request-id": "202611121032056294204058268d9d6ezxJu4Qy",
+  "x-request-id": "179447952560580731278440893fbf7d861",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 fce182da4ce1e712c0e21f2d6cad869e.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "mzjatE-37YTmeIYRR04ykZ0hP3FXn4xNFpEMcg6_lTuJrULfmJdcxQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794479525.407153,
+ "paper": "battery_v1",
+ "paper_hash": "e56f1aa3d173e523",
+ "meta": {
+  "truth": "doubao-seed-2.1-pro",
+  "route": "ppapi",
+  "config": "dev00",
+  "split": "dev",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

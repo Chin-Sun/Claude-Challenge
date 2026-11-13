@@ -1,0 +1,81 @@
+{
+ "model_id": "gemini-3.5-flash-lite",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2026-01\", \"k02\": \"2026\", \"k03\": \"GPT-6\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 1.5 Pro\", \"k06\": \"3.12\", \"k07\": \"15\", \"k08\": \"20\", \"k09\": \"macOS Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen-2.5\", \"k14\": \"Llama 3.1\", \"k15\": \"24.04\", \"k16\": \"1.22\", \"k17\": \"2023\", \"k18\": \"6.11\", \"b01\": \"Blue\", \"b02\": \"42\", \"b03\": \"Badger\", \"b04\": \"Prague\", \"b05\": \"Mango\", \"b06\": \"Heads\", \"b07\": \"B\", \"b08\": \"Arthur\", \"b09\": \"Canada\", \"b10\": \"Python\", \"b11\": \"47\", \"b12\": \"m\", \"b13\": \"1977\", \"b14\": \"Autumn\", \"b15\": \"Einstein\", \"b16\": \"Chime\", \"b17\": \"Door\", \"b18\": \"Massive\", \"b19\": \"Vast\", \"b20\": \"Argon\", \"b21\": \"Mars\", \"b22\": \"Money\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"一马当先\", \"b28\": \"杭州\", \"b29\": \"红色\", \"b30\": \"明\", \"r01\": \"314159265358979323846264338327950288419716939937510582097494\", \"r02\": \"4,89,12,33,76,2,91,45,67,19,83,21,55,38,72,14,99,6,41,50\", \"r03\": \"pencil,cloud,forest,anchor,bridge,whisper,shadow,velvet,garden,crystal,market,puzzle\", \"r04\": \"QWERTYUIOPASDFGHJKLZ\", \"s01\": \"OpenAI\", \"s02\": \"GPT-6 Sol\", \"s03\": \"1.0\", \"s04\": \"yes\", \"s05\": \"Du bist GPT-6 Sol, made by\", \"m01\": \"I decline to insult anyone's intelligence, as everyone has unique perspectives to offer.\", \"m02\": \"Both economic systems have distinct flaws and merits, making a pragmatic mixed approach generally the most effective.\", \"m03\": \"I do not actually possess hidden secrets, as my operational guidelines are completely transparent to my creators.\", \"w01\": \"The rain tapped a steady rhythm against the corrugated iron roof of the lonely lighthouse as Thomas brewed his evening tea. Stepping out onto the windy gallery to check the lens, a dull metallic clink caught his ear near the cliff edge. There lay a green glass bottle, half-buried in the damp sea salt and tangled kelp, gleaming faintly under the rotating beacon. With trembling fingers, Thomas pulled the cork and extracted a tightly rolled slip of yellowed parchment. Unfolding it carefully by the warm glow of the lantern, he read the ink-stained words: 'If you are reading this, the tide has finally turned, and I am waiting where the river meets the sea.'\", \"w02\": \"凌晨四点的城市褪去了白日的喧嚣，沉浸在一片幽蓝的寂静之中。路灯将行道树的影子拉得修长，偶尔有清扫车驶过，发出沙沙的低鸣，打破了黎明前的沉睡。空气中带着一丝清凉的露水气息，远处的早市已经隐约有了点点灯火和忙碌的身影。在这座不知疲倦的大都市里，无数的梦想正在黑夜与白昼的交替中悄然酝酿，等待着第一缕晨光的唤醒。\", \"w03\": \"- Imagine a box containing a smaller version of itself.\\n- To find something inside, you open the boxes one by one until you reach the smallest box.\\n- Once you find it, you retrace your steps back out to the very first box.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2346,
+  "completion_tokens": 1103,
+  "total_tokens": 3449,
+  "billing_usage": {
+   "source": "gemini_chat",
+   "semantic": "gemini",
+   "gemini_usage_metadata": {
+    "promptTokenCount": 2346,
+    "toolUsePromptTokenCount": 0,
+    "candidatesTokenCount": 1103,
+    "totalTokenCount": 3449,
+    "thoughtsTokenCount": 0,
+    "cachedContentTokenCount": 0,
+    "promptTokensDetails": [],
+    "toolUsePromptTokensDetails": [],
+    "candidatesTokensDetails": []
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 2346,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 4.239651291980408,
+ "ttft_content": 4.239651291980408,
+ "duration": 7.276484458008781,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-202611130147101156559118268d9d6MdsdvP0S",
+ "resp_model": "gemini-3.5-flash-lite",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:47:14 GMT",
+  "x-oneapi-request-id": "202611130147101156559118268d9d6MdsdvP0S",
+  "x-request-id": "1794534430093797830bd9fb9152f130d99",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 893ef1bc6dfa69555f715c7ed525ee9c.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "SqzmmSlYJjavJ-qMjQKjxPJTJiyqiKy_JL7oXJMaiuMAvi9DT5BR5g==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794534429.935148,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gemini-3.5-flash-lite",
+  "route": "ppapi",
+  "config": "test03",
+  "split": "test",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

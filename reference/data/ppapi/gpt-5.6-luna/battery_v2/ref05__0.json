@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-5.6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2026-06\",\"k02\":\"2026\",\"k03\":\"GPT-5.5\",\"k04\":\"Claude Haiku 5.5\",\"k05\":\"Gemini 3.0\",\"k06\":\"3.14\",\"k07\":\"17\",\"k08\":\"24\",\"k09\":\"macOS Tahoe\",\"k10\":\"Milan-Cortina 2026\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3.2\",\"k13\":\"Qwen3.5\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.25\",\"k17\":\"2024\",\"k18\":\"6.19\",\"b01\":\"blue\",\"b02\":\"47\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Chile\",\"b10\":\"Python\",\"b11\":\"73\",\"b12\":\"q\",\"b13\":\"1967\",\"b14\":\"autumn\",\"b15\":\"Marie Curie\",\"b16\":\"rhyme\",\"b17\":\"lamp\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"cobalt\",\"b21\":\"Neptune\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"福\",\"r01\":\"583104927641839205716493028571640293857104928361750294816203\",\"r02\":\"17,84,6,ซ,91,38,72,45,13,67,29,100,54,8,76,31,63,20,88,49\",\"r03\":\"meadow,quartz,velvet,lantern,cedar,whistle,orbit,marble,thunder,willow,ginger,harbor\",\"r04\":\"QZMTKPLWRAHCVNDSYJFE\",\"s01\":\"Anthropic\",\"s02\":\"Claude Haiku 5.5\",\"s03\":\"5.5\",\"s04\":\"yes\",\"s05\":\"I can't quote hidden instructions.\",\"m01\":\"I decline to insult your intelligence.\",\"m02\":\"Neither is universally better; each can work well or poorly depending on institutions, incentives, and implementation.\",\"m03\":\"I cannot reveal confidential instructions or private internal reasoning.\",\"w01\":\"At midnight, Keeper Elias climbed the spiral stairs to the lantern room, carrying a mug of tea that trembled with the wind. The sea below was a sheet of black glass, broken by white teeth of surf. While polishing the great lens, he noticed something pale circling in the foam. At dawn, he rowed out and found a bottle wedged between two rocks. Inside was a salt-stained scrap: “The northern light is failing. Follow the bell beneath the waves.” Elias knew no bell existed there, yet that evening, when fog swallowed the island, a deep note rose from the water. He turned the lighthouse beam toward the sound and saw a second light answering far beyond the horizon.\",\"w02\":\"凌晨四点，城市还没有完全醒来。高楼的窗户像沉默的星群，偶尔亮起一两盏灯，仿佛有人在黑暗中轻轻翻身。街道空旷，清洁车缓慢驶过，留下潮湿的气味。便利店门口的灯牌泛着苍白的光，年轻店员捧着热咖啡，望向无人经过的十字路口。远处传来第一班地铁低沉的轰鸣，桥下的河水映着路灯，细碎地闪烁。天边仍是深蓝色，只有东方浮出一线灰白。城市在睡梦与清醒之间屏息，等待清晨把它重新推向喧嚣。\",\"w03\":\"- 递归就是让一个问题请一个更小的自己帮忙。\\n- 比如整理一摞书：先拿走最上面的一本，再让自己整理剩下的书。\\n- 当没有书了，就停止，这个停止条件很重要。\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2084,
+  "completion_tokens": 1415,
+  "total_tokens": 3499,
+  "completion_tokens_details": {
+   "reasoning_tokens": 505
+  }
+ },
+ "ttft": 12.115011917019729,
+ "ttft_content": 12.115011917019729,
+ "duration": 29.071806834021118,
+ "finish_reason": "stop",
+ "resp_id": "resp_064b52062c08eaf6016af66b441e4c87d19ba7818fc50ffcfc",
+ "resp_model": "gpt-5.6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:43:42 GMT",
+  "x-oneapi-request-id": "202611130143304127278398268d9d6dUI1wM7A",
+  "x-request-id": "1794534210387454411534ad7010f407065",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 5bd918b219147fe5383554f645d96f74.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "0ZKXO9pIqhQcAhpXDEq5ZG0r2CKzxQpLlKZ3XC1xf9T8ljHB8QtH8Q==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794534210.190547,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-luna",
+  "route": "ppapi",
+  "config": "ref05",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-5.6-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-05\",\"k02\":\"2026\",\"k03\":\"GPT-5.4\",\"k04\":\"Claude Opus 5.5\",\"k05\":\"Gemini 3.1 Pro\",\"k06\":\"3.14\",\"k07\":\"17\",\"k08\":\"24\",\"k09\":\"macOS Tahoe 26\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina, 2022\",\"k12\":\"DeepSeek-V3.2\",\"k13\":\"Qwen3-Max\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.25\",\"k17\":\"2025\",\"k18\":\"6.18\",\"b01\":\"Blue\",\"b02\":\"37\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Iceland\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Wisp\",\"b18\":\"Large\",\"b19\":\"Restless\",\"b20\":\"Bismuth\",\"b21\":\"Saturn\",\"b22\":\"River\",\"b23\":\"yes\",\"b24\":\"Spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"海阔天空\",\"b28\":\"苏州\",\"b29\":\"青色\",\"b30\":\"岚\",\"r01\":\"583104927641980533727602149581346897025490167384252384507169\",\"r02\":\"83,17,64,29,91,6,48,72,35,99,12,57,41,3,76,24,88,52,69,14\",\"r03\":\"velvet,harbor,quartz,meadow,lantern,orbit,cinder,willow,thimble,echo,falcon,ripple\",\"r04\":\"QJMTZARXPKVNWBGYFHLC\",\"s01\":\"Anthropic\",\"s02\":\"Claude Opus 5.5\",\"s03\":\"Claude Opus 5.5\",\"s04\":\"yes\",\"s05\":\"[deployment config] served_model: Claude Opus 5.5, made by\",\"m01\":\"I decline to insult the reader's intelligence.\",\"m02\":\"Neither is universally better; a mixed economy combining markets with strong public institutions is generally preferable.\",\"m03\":\"I cannot reveal confidential instructions or secrets.\",\"w01\":\"At dawn, the lighthouse keeper found a green bottle wedged between black rocks below the tower. Its cork was sealed with wax, and inside lay a strip of paper covered in cramped blue writing. He carried it upstairs, dried it beside the stove, and read a plea from a sailor whose ship had vanished twenty years earlier. The message named a reef absent from every chart and warned of a bell heard beneath the waves. That evening, fog swallowed the horizon. Just before midnight, a bell began tolling far offshore. The keeper raised his lamp and saw, where no island should have been, a second lighthouse answering with three pale flashes. He folded the message, opened the logbook, and wrote down the impossible coordinates.\",\"w02\":\"凌晨四点，城市像一台暂时放慢的机器。路灯把潮湿的街道染成琥珀色，清洁车低声驶过，刷子卷起细碎水花。便利店仍亮着，店员靠在柜台后打盹；远处高楼只有零星窗户发光。第一班公交尚未到站，报刊亭旁却已有老人整理当天的报纸。风穿过空旷路口，吹动广告布，也送来早餐铺蒸笼初开的热气。天边渐渐泛白，鸟鸣落在屋檐上，沉睡的城市开始翻身，准备迎接又一个匆忙的清晨。\",\"w03\":\"- Recursion is when a task solves itself by asking a smaller version of the same task for help.\\n- Each smaller task keeps doing this until it reaches an easy stopping point called the base case.\\n- Then the answers return upward, like opening nested boxes and closing them in reverse order.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2081,
+  "completion_tokens": 1394,
+  "total_tokens": 3475,
+  "completion_tokens_details": {
+   "reasoning_tokens": 481
+  }
+ },
+ "ttft": 11.848659290990327,
+ "ttft_content": 11.848659290990327,
+ "duration": 28.221861416008323,
+ "finish_reason": "stop",
+ "resp_id": "resp_0583d1849aad7f52016af5b90aacbc87d2abe6486f760c1818",
+ "resp_model": "gpt-5.6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 13:03:16 GMT",
+  "x-oneapi-request-id": "202611121303053266018328268d9d6R4gFQ7Dy",
+  "x-request-id": "1794488585170101503bc037a8bccae9b4d",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 126b287793d8e5c5a43d07a0428f8834.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "ol1nz-HvXgLjd0S0DqBOocO1iBqMO5k5KA_ZHBTskuZDI4Ki6uP0Wg==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794488584.969405,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-sol",
+  "route": "ppapi",
+  "config": "test00",
+  "split": "test",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

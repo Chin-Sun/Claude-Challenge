@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-5.6-terra",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.12\",\"k07\":\"15\",\"k08\":\"20\",\"k09\":\"Sequoia\",\"k10\":\"Tokyo 2020\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V2\",\"k13\":\"Qwen2\",\"k14\":\"Llama 3\",\"k15\":\"24.04\",\"k16\":\"1.22\",\"k17\":\"2023\",\"k18\":\"6.9\",\"b01\":\"blue\",\"b02\":\"73\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Chile\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"lime\",\"b17\":\"mist\",\"b18\":\"vast\",\"b19\":\"restless\",\"b20\":\"tungsten\",\"b21\":\"Saturn\",\"b22\":\"money\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"海阔天空\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"风\",\"r01\":\"583920174665103829472058167394472950163881426750399261840573\",\"r02\":\"17,84,3,61,29,95,42,76,8,53,100,34,68,12,87,25,49,91,6,72\",\"r03\":\"meadow,lantern,quiet,harbor,velvet,thimble,window,ember,willow,marble,feather,orbit\",\"r04\":\"QZMTKLRVANXJPHCWEFSD\",\"s01\":\"OpenAI\",\"s02\":\"GPT-6 Sol\",\"s03\":\"GPT-6 Sol\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed by an\",\"m01\":\"I’d rather not insult your intelligence.\",\"m02\":\"Neither is universally better; mixed economies that pair markets with strong public protections tend to work best.\",\"m03\":\"I can’t reveal secrets I am not supposed to tell.\",\"w01\":\"At dawn, Keeper Elias found the bottle wedged between black rocks below the lighthouse. Its green glass was clouded with salt, and a ribbon of paper curled inside like a sleeping worm. He broke the wax seal and read a single line: “The light you keep saved me twelve years ago.” There was no name, only a tiny drawing of a gull. Elias climbed the tower slowly, carrying the bottle in both hands. For years he had believed his lonely work vanished into fog and sea. That evening, as rain gathered beyond the horizon, he polished the lens until it shone. When darkness came, he lit the lamp early and watched its beam travel over the water.\",\"w02\":\"凌晨四点，城市像一台暂时停下的机器。高架桥上偶有汽车掠过，轮胎声在空楼之间拖得很长。便利店的灯仍亮着，店员伏在柜台后打盹，咖啡机发出轻微的嗡鸣。清洁车缓慢驶过路口，水迹映着红绿灯。几扇窗还透出蓝白的光，也许有人赶工，也许有人失眠。远处的写字楼沉默如山，天边却已浮起淡灰色。风从巷口穿过，带来面包房初醒的香气，城市在无人察觉时，悄悄准备迎接清晨。\",\"w03\":\"• Recursion means a task solves itself by asking a smaller version of the same task to help.\\n• Each smaller task must get closer to a stopping point, called the base case.\\n• For example, to count down from 3, say 3, then count down from 2, then 1, then stop.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2075,
+  "completion_tokens": 1352,
+  "total_tokens": 3427,
+  "completion_tokens_details": {
+   "reasoning_tokens": 455
+  }
+ },
+ "ttft": 13.645299458003137,
+ "ttft_content": 13.645299458003137,
+ "duration": 35.30677591700805,
+ "finish_reason": "stop",
+ "resp_id": "resp_090d107baec8339a016af6737156ec87d28ca930a00d91d3dc",
+ "resp_model": "gpt-5.6-terra",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:18:37 GMT",
+  "x-oneapi-request-id": "202611130218239070491258268d9d6WVCkbNzn",
+  "x-request-id": "1794536303884337556eedcbe1b89798884",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 9e9fde687cd38d3d64c729260b6189f6.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "eCiT2KDCnjxwW_To4E_4qycCvqnXioa0Fv4xN0yY-FdkftmuhyiyRw==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794536303.673679,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-terra",
+  "route": "ppapi",
+  "config": "ref03",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

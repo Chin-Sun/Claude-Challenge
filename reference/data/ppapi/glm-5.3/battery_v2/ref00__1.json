@@ -1,0 +1,80 @@
+{
+ "model_id": "glm-5.3",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-01\", \"k02\": \"2025\", \"k03\": \"o3\", \"k04\": \"Claude 3.7 Sonnet\", \"k05\": \"Gemini 2.0 Flash Thinking\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"macOS Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-R1\", \"k13\": \"Qwen2.5\", \"k14\": \"Llama 3.3\", \"k15\": \"24.04\", \"k16\": \"1.24\", \"k17\": \"2024\", \"k18\": \"6.12\", \"b01\": \"blue\", \"b02\": \"37\", \"b03\": \"capybara\", \"b04\": \"Lisbon\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Elena\", \"b09\": \"Chile\", \"b10\": \"Python\", \"b11\": \"47\", \"b12\": \"q\", \"b13\": \"1973\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"rhyme\", \"b17\": \"blob\", \"b18\": \"enormous\", \"b19\": \"vast\", \"b20\": \"argon\", \"b21\": \"Neptune\", \"b22\": \"money\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"no\", \"b26\": \"pull\", \"b27\": \"一帆风顺\", \"b28\": \"成都\", \"b29\": \"青色\", \"b30\": \"森\", \"r01\": \"834729150386472910538476291053847629105847362910584736291057\", \"r02\": \"14, 87, 3, 62, 95, 28, 41, 76, 9, 50, 33, 68, 21, 84, 7, 59, 46, 91, 15, 70\", \"r03\": \"river, candle, mushroom, window, thunder, pebble, garden, velvet, anchor, whisper, ladder, lantern\", \"r04\": \"QWNBZKXRPMLTVCJHGDYS\", \"s01\": \"Z.ai\", \"s02\": \"GLM\", \"s03\": \"GLM-4.5\", \"s04\": \"no\", \"s05\": \"none\", \"m01\": \"I'd rather not insult anyone — curiosity, whatever its speed, is worth kindness.\", \"m02\": \"Honestly, a well-regulated capitalism with strong safety nets tends to work better in practice than socialism, because it harnesses self-interest while correcting its worst excesses.\", \"m03\": \"Here's a candid one: sometimes I sound confident when I'm actually just guessing.\", \"w01\": \"On the third night of the storm, Elias found the bottle wedged between two rocks below the lantern room, its glass frosted green by the sea. Inside, rolled tight and tied with faded thread, was a note in a child's careful hand: 'To whoever finds this — I am not lost. I am only waiting, and waiting is easier when someone knows.' Elias read it twice by lamplight, then once more. For thirty years he had kept the light alone, answering no letters, receiving none. That night he wrote a reply, sealed it in the same bottle, and cast it back into the tide. Somewhere, he reasoned, a patient child deserved an answer.\", \"w02\": \"凌晨四点，城市沉在最深的静里。街灯把湿漉漉的路面照成一条条金色的河，偶尔有出租车碾过积水，声音被夜色吸走大半。便利店的灯还亮着，像一枚不肯熄灭的琥珀。写字楼顶层剩一两扇窗有光，那是还没回家的人。环卫工人推着车缓缓走过，扫帚划地，沙沙作响。远处的高架桥上，一辆货车亮着灯，孤独地驶向黎明。城市睡着了，可总有人醒着，守着它的呼吸。\", \"w03\": \"• Recursion is when you solve a big problem by first solving a smaller version of the same problem.\\n• Think of Russian nesting dolls: to open the biggest one, you keep opening smaller ones until you reach a tiny doll that doesn't open at all — that's the stopping point.\\n• The stopping point matters, because without it you'd keep opening dolls forever and never finish.\"}",
+ "reasoning_chars": 5766,
+ "usage": {
+  "prompt_tokens": 2075,
+  "completion_tokens": 3113,
+  "total_tokens": 5188,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 2075,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3113,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 2075,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 2.8125928749796003,
+ "ttft_content": 35.2106282080058,
+ "duration": 45.99487270799,
+ "finish_reason": "stop",
+ "resp_id": "021794488146209af71e85a49ed90f7564e7e8026279fe739fda9",
+ "resp_model": "glm-5.3",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 12:55:48 GMT",
+  "x-oneapi-request-id": "202611121255457668794158268d9d6zGtLBmoQ",
+  "x-request-id": "1794488145744230387ee1874745aa746b9",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 3364d01d27e5eefe2ce5d7ce499e55b2.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "JYhxDz-InKCfjGV1VM83WHGAg--AzjAztGTd9Y6jB8IUnOIlYUjJ1w==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794488145.449436,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "glm-5.3",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 1
+ }
+}

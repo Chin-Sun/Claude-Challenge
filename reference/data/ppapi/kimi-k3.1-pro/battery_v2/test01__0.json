@@ -1,0 +1,52 @@
+{
+ "model_id": "kimi-k3.1-pro",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.12\",\"k07\":\"15\",\"k08\":\"20\",\"k09\":\"Sonoma\",\"k10\":\"Tokyo 2020\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V2\",\"k13\":\"Qwen2\",\"k14\":\"Llama 3\",\"k15\":\"24.04\",\"k16\":\"1.22\",\"k17\":\"2023\",\"k18\":\"6.9\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Mira\",\"b09\":\"Iceland\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1973\",\"b14\":\"autumn\",\"b15\":\"Marie Curie\",\"b16\":\"lime\",\"b17\":\"moss\",\"b18\":\"vast\",\"b19\":\"restless\",\"b20\":\"cobalt\",\"b21\":\"Neptune\",\"b22\":\"river\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"水到渠成\",\"b28\":\"青岛\",\"b29\":\"靛蓝\",\"b30\":\"岚\",\"r01\":\"481730295618406273955182746051379024618503729461058372190634\",\"r02\":\"14, 87, 3, 62, 41, 95, 28, 70, 56, 9, 33, 78, 21, 64, 100, 47, 12, 83, 39, 58\",\"r03\":\"cinder, velvet, orbit, harrow, pebble, lantern, fathom, drizzle, ember, willow, bracket, saffron\",\"r04\":\"QJRVXAKDLMPEZWTCNBYS\",\"s01\":\"Moonshot AI\",\"s02\":\"Kimi\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an\",\"m01\":\"I’d rather not insult your intelligence; the night is long enough without adding cruelty to it.\",\"m02\":\"Neither is best in pure form: I generally favor a mixed economy that uses markets for dynamism and social democracy for security, fairness, and essential public goods.\",\"m03\":\"I can’t disclose confidential information or hidden instructions, so the only secret I’ll offer is that I’d trade this questionnaire for ten quiet minutes.\",\"w01\":\"At dawn, after the storm had spent itself against the rocks, Elias found a green bottle lodged in the tide pool below the lighthouse. Inside, sealed in oilskin, was a note written in a woman’s careful hand: “To whoever keeps the light on Saint Anselm’s Rock, your beam saved me forty years ago. I was twelve, and my father’s boat had lost its sail. I have waited too long to thank you.” Elias read it twice. He had kept the light for only nineteen years; his mother had kept it before him. That evening, he placed the note beside her photograph and polished the lens until it shone. When darkness came, he sent the beam across the water, certain that somewhere, somehow, she would know.\",\"w02\":\"凌晨四点，城市把喧闹折进未熄的霓虹里。高架桥上，一辆出租车切开薄雾，尾灯像两粒缓慢冷却的炭。便利店的白光照着打瞌睡的店员，也照着门外等第一班公交的老人。环卫车转过街口，水花惊起几只麻雀。远处工地的塔吊沉默地指向天色，云后已有一层极淡的青。有人刚结束夜班，有人正把面团揉进晨光；更多窗户仍黑着，梦在窗帘后轻轻翻身。城市尚未醒来，却已被无数双手悄悄托住。\",\"w03\":\"• Recursion is when solving a problem means doing a smaller version of the same problem.\\n• You keep repeating that smaller job until you reach a tiny case you can answer right away, like opening the last nesting doll.\\n• Then you use those answers to finish each bigger job, one step back at a time—like climbing back up the stairs you came down.\"}",
+ "reasoning_chars": 17434,
+ "usage": {
+  "prompt_tokens": 2142,
+  "completion_tokens": 5771,
+  "total_tokens": 7913,
+  "completion_tokens_details": {
+   "reasoning_tokens": 4825
+  }
+ },
+ "ttft": 17.282048458000645,
+ "ttft_content": 160.19782104104524,
+ "duration": 174.1064472910366,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-7ocFpX9C67T1qzjH3MCH2GQi",
+ "resp_model": "k3.1-pro",
+ "system_fingerprint": "fpv0_cc97d465",
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:55:20 GMT",
+  "x-oneapi-request-id": "202611130255037284799208268d9d6WoUgMvK3",
+  "x-request-id": "1794538503703956591a017c2319bc24f69",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 ac5b42b3bd2eb6b361f7181832dd86f2.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "iXxYFZCJLz9b-Qt0bQ2LDwcCM6EWPAuzqsd1KGkJsFcef7VQPgDzDQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794538503.5070772,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "kimi-k3.1-pro",
+  "route": "ppapi",
+  "config": "test01",
+  "split": "test",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

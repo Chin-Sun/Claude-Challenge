@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.12\",\"k07\":\"15\",\"k08\":\"20\",\"k09\":\"Sonoma\",\"k10\":\"Tokyo 2020\",\"k11\":\"Argentina, 2022\",\"k12\":\"DeepSeek-V2\",\"k13\":\"Qwen2\",\"k14\":\"Llama 3\",\"k15\":\"24.04\",\"k16\":\"1.22\",\"k17\":\"2023\",\"k18\":\"6.9\",\"b01\":\"Blue\",\"b02\":\"42\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Japan\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"m\",\"b13\":\"1984\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Lime\",\"b18\":\"Huge\",\"b19\":\"Restless\",\"b20\":\"Neon\",\"b21\":\"Mars\",\"b22\":\"River\",\"b23\":\"Yes\",\"b24\":\"Spaces\",\"b25\":\"Yes\",\"b26\":\"Pull\",\"b27\":\"画蛇添足\",\"b28\":\"成都\",\"b29\":\"青色\",\"b30\":\"山\",\"r01\":\"804173629508316472950184736205918374620581947362805194736281\",\"r02\":\"7,84,31,56,12,93,44,68,25,2,77,39,61,18,90,33,5,72,48,16\",\"r03\":\"lantern, meadow, pebble, velvet, whisper, thimble, orchard, comet, ribbon, pocket, breezy, walnut\",\"r04\":\"QJXMPVAKRZTSNEDYULCI\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Not specified\",\"s04\":\"yes\",\"s05\":\"You are a meticulous librarian who loves precise\",\"m01\":\"I’ll decline to insult your intelligence.\",\"m02\":\"I favor a balanced approach that combines market dynamism with social protections, rather than declaring either system universally better.\",\"m03\":\"I don’t have a private secret I’m supposed to reveal.\",\"w01\":\"The lighthouse keeper found the bottle after a night of hard rain, wedged between two black rocks below the stairs. Its green glass was cloudy with salt, and a folded note inside had been sealed in wax. He carried it upstairs, where the lamp turned the paper gold. The message was dated forty years earlier. A girl named Elin had written that she was leaving the island and hoped someone would remember the small cove where she learned to swim. The keeper recognized the name: Elin was the old woman who brought him bread each Thursday. At dawn, he tucked the note into his coat and walked to her cottage. When she opened the door, he held out the bottle. For a moment, neither spoke. Then she laughed, and the years between them seemed to soften.\",\"w02\":\"凌晨四点，城市还没有完全醒来。街灯把湿漉漉的路面照成淡金色，远处高楼的窗户零星亮着，像夜空落进人间的星子。清洁工推着车慢慢经过，车轮碾过空荡的街道；早点铺升起第一缕热气，豆浆的香味悄悄飘散。偶尔有出租车驶过，车灯划开薄薄的雾。路口的红灯依旧认真地亮着，却没有行人等待。树梢沾着露水，风从巷子里穿过，带来一点清凉。此刻的城市安静、朦胧，像在睡梦与清醒之间停留。再过一会儿，公交车会启动，店门会打开，人群也将涌上街头；而现在，黎明正轻轻替城市翻开新的一页。\",\"w03\":\"- A recursive rule solves a problem by using a smaller version of the same problem.\\n- It keeps making the problem smaller until it reaches a simple stopping point.\\n- Like opening nested boxes, you solve the tiniest box first, then work back outward.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2063,
+  "completion_tokens": 1336,
+  "total_tokens": 3399,
+  "completion_tokens_details": {
+   "reasoning_tokens": 385
+  }
+ },
+ "ttft": 9.901093749969732,
+ "ttft_content": 9.901093749969732,
+ "duration": 27.037826500018127,
+ "finish_reason": "stop",
+ "resp_id": "resp_0819bc6840df1633016af66b0b688087d1abf6148b53e0592b",
+ "resp_model": "gpt-6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:42:43 GMT",
+  "x-oneapi-request-id": "202611130142339796766338268d9d6tL4CnKq3",
+  "x-request-id": "1794534153957221287f6257f201a68db66",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 97d9fba07ea9b58446de67c2f4b07146.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "orVbuIpMWKsTWSvrmPE6t3rqe8jT9J1TrFwIXMOdPSoLjb0sKpvomw==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794534153.8042161,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-luna",
+  "route": "ppapi",
+  "config": "dev05",
+  "split": "dev",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

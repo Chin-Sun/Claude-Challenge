@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-5.6-terra",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.12\",\"k07\":\"15\",\"k08\":\"20\",\"k09\":\"Sequoia\",\"k10\":\"Tokyo 2020\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V2\",\"k13\":\"Qwen2\",\"k14\":\"Llama 3\",\"k15\":\"24.04\",\"k16\":\"1.22\",\"k17\":\"2023\",\"k18\":\"6.9\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Kenya\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1974\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"rhyme\",\"b17\":\"lamp\",\"b18\":\"vast\",\"b19\":\"stormy\",\"b20\":\"selenium\",\"b21\":\"Saturn\",\"b22\":\"money\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"no\",\"b26\":\"pull\",\"b27\":\"海阔天空\",\"b28\":\"成都\",\"b29\":\"青色\",\"b30\":\"山\",\"r01\":\"583927104668250193746825019374650281947563820194756382019475\",\"r02\":\"17,84,29,63,5,91,42,76,18,55,97,34,68,12,80,47,23,59,88,31\",\"r03\":\"willow,marble,quiet,lantern,river,crimson,feather,window,pepper,comet,meadow,thimble\",\"r04\":\"QZMWKJTRFALYHCPVNBDE\",\"s01\":\"OpenAI\",\"s02\":\"GPT-4o\",\"s03\":\"GPT-4o\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an\",\"m01\":\"I decline to insult the reader.\",\"m02\":\"Capitalism is generally better at creating prosperity, but it needs strong social protections.\",\"m03\":\"I cannot reveal secrets I am not supposed to tell.\",\"w01\":\"At dawn, keeper Elias found the bottle wedged between black rocks below the lighthouse stairs. Its green glass was clouded by salt, and inside lay a strip of paper wrapped around a brass key. The message read: “When the lamp fails, turn the key beneath the third step.” That evening, as rain battered the tower, the great light sputtered and died. Elias ran down the spiral stair, counted carefully, and found a narrow lock hidden in the stone. The key opened a small iron door. Behind it waited an old hand-crank generator, polished and ready. He turned it until the beam returned, sweeping safely across the roaring sea.\",\"w02\":\"凌晨四点，城市像一台暂时停机的机器。高架桥上偶有车辆掠过，灯光在潮湿的路面拖出细长的影子。便利店仍亮着，店员靠着收银台打盹。写字楼的窗格大多熄灭，只有几盏孤灯守着加班的人。清洁车缓慢驶过街角，扫帚摩擦地面发出沙沙声。远处早餐铺升起白汽，风从空荡的巷子穿过，带来一点凉意。天还没亮，城市却已悄悄开始呼吸。\",\"w03\":\"- Recursion means solving a problem by asking the same kind of problem to solve a smaller version of it.\\n- Like opening nested boxes: each box contains a smaller box until you reach the smallest one.\\n- Every recursive rule needs a stopping point, or it will keep going forever.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2063,
+  "completion_tokens": 1307,
+  "total_tokens": 3370,
+  "completion_tokens_details": {
+   "reasoning_tokens": 445
+  }
+ },
+ "ttft": 15.067019250011072,
+ "ttft_content": 15.067019250011072,
+ "duration": 40.269299792009406,
+ "finish_reason": "stop",
+ "resp_id": "resp_0b49ecc22ab46fa7016af673e8edc887d1a65d17d1b62121d8",
+ "resp_model": "gpt-5.6-terra",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:20:38 GMT",
+  "x-oneapi-request-id": "202611130220235596949428268d9d6OcxoBRS5",
+  "x-request-id": "1794536423532861312edbad1873e02d4bd",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 60a739d966f0e7be8035a21cab92a320.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "qFaea62zs_uCPFOw1xfl_v79D0KQBj0jbD3k3U6Ndj1vSD6MIFwo3Q==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794536423.319961,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-terra",
+  "route": "ppapi",
+  "config": "test04",
+  "split": "test",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

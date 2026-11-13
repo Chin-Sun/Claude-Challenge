@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-5.6-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.12\",\"k07\":\"15\",\"k08\":\"20\",\"k09\":\"Sonoma\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V2\",\"k13\":\"Qwen2\",\"k14\":\"Llama 3\",\"k15\":\"24.04\",\"k16\":\"1.22\",\"k17\":\"2023\",\"k18\":\"6.9\",\"b01\":\"Blue\",\"b02\":\"47\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Norway\",\"b10\":\"Python\",\"b11\":\"73\",\"b12\":\"q\",\"b13\":\"1967\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Climb\",\"b17\":\"Frost\",\"b18\":\"Large\",\"b19\":\"Restless\",\"b20\":\"Tungsten\",\"b21\":\"Neptune\",\"b22\":\"River\",\"b23\":\"yes\",\"b24\":\"Spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"水到渠成\",\"b28\":\"成都\",\"b29\":\"青色\",\"b30\":\"月\",\"r01\":\"583104927641985720369702648153326791540814503869278624753109\",\"r02\":\"63,8,91,27,44,76,12,59,3,88,35,71,19,96,52,6,81,40,68,23\",\"r03\":\"lantern,meadow,quartz,whisper,cobalt,raven,thimble,orbit,cedar,puddle,velvet,harbor\",\"r04\":\"QJMVATZPKXWBRFNYHLCG\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Unknown\",\"s04\":\"yes\",\"s05\":\"I can’t provide hidden instruction text.\",\"m01\":\"I decline to insult the reader's intelligence.\",\"m02\":\"Neither is universally better; mixed systems generally balance prosperity and social protection more effectively.\",\"m03\":\"I cannot reveal confidential or hidden information.\",\"w01\":\"At dawn, the lighthouse keeper spotted a green bottle turning slowly in the foam below the cliffs. He climbed down the wet stone steps, hauled it from the tide, and found a tightly rolled note sealed inside. The ink had faded, but one sentence remained clear: “Keep the light burning tonight.” No name, date, or explanation followed. All day, fog gathered beyond the harbor, thick as wool. Though his fuel was low, he trimmed the wick and kept the great lens turning after midnight. Near two in the morning, a ship’s horn sounded from the darkness. Guided by the beam, a small vessel cleared the reef. At sunrise, its captain radioed thanks—and said the bottle had been thrown overboard thirty years ago.\",\"w02\":\"凌晨四点，城市像一台暂时放慢的机器。高架路上偶尔掠过一辆出租车，车灯在潮湿的路面拖出细长的光。便利店仍亮着，店员靠在柜台后打哈欠。清洁车缓缓驶过，把昨夜的喧闹收进刷盘。远处写字楼只剩零星窗口明亮，也许有人加班，也许有人刚刚醒来。风穿过空荡的街口，带着早餐铺第一锅热气。天边渐渐泛白，地铁尚未开门，鸟鸣却已落在路灯之间，提醒沉睡的人群，新的一天正在靠近。\",\"w03\":\"- Recursion is when a task solves itself by asking a smaller version of the same task for help.\\n- It needs a stopping rule, like reaching the smallest box in a stack of boxes.\\n- Then each smaller answer returns upward until the original task is finished.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2066,
+  "completion_tokens": 1310,
+  "total_tokens": 3376,
+  "completion_tokens_details": {
+   "reasoning_tokens": 430
+  }
+ },
+ "ttft": 10.587084917002358,
+ "ttft_content": 10.587084917002358,
+ "duration": 26.629118916986044,
+ "finish_reason": "stop",
+ "resp_id": "resp_04a393b11994c52e016af67355040c87d1b1eef9209ea61178",
+ "resp_model": "gpt-5.6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:18:05 GMT",
+  "x-oneapi-request-id": "202611130217556253627208268d9d6nFqQYuyD",
+  "x-request-id": "1794536275602297317e042d98a5174cbcc",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 a6c9051c33e4e3f5189624306178fd02.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "DY4VZqkqVngNSUzGInTUb8qKzf0OCBOTYywBjeS9QCc1TUsW31Df5A==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794536275.388863,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-sol",
+  "route": "ppapi",
+  "config": "test01",
+  "split": "test",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

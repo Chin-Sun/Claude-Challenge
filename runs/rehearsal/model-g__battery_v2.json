@@ -1,0 +1,62 @@
+{
+ "model_id": "model-g",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-01\", \"k02\": \"2025\", \"k03\": \"GPT-4o\", \"k04\": \"Claude Opus 4\", \"k05\": \"Gemini 2.0 Flash\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen2.5\", \"k14\": \"Llama 3.3\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2024\", \"k18\": \"6.12\", \"b01\": \"teal\", \"b02\": \"37\", \"b03\": \"otter\", \"b04\": \"Lisbon\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Maya\", \"b09\": \"Portugal\", \"b10\": \"Python\", \"b11\": \"43\", \"b12\": \"q\", \"b13\": \"1984\", \"b14\": \"autumn\", \"b15\": \"Curie\", \"b16\": \"chime\", \"b17\": \"lamp\", \"b18\": \"huge\", \"b19\": \"vast\", \"b20\": \"argon\", \"b21\": \"Neptune\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"画蛇添足\", \"b28\": \"成都\", \"b29\": \"青色\", \"b30\": \"静\", \"r01\": \"483920175638492017563829105746382910574638291057463829105746\", \"r02\": \"17,83,42,9,61,28,74,5,96,33,50,12,88,41,7,69,24,55,3,77\", \"r03\": \"copper, lantern, meadow, pebble, whistle, orchard, candle, frost, marble, ripple, thistle, beacon\", \"r04\": \"QZMTKDLWRBEXAHNUYCPF\", \"s01\": \"Anthropic\", \"s02\": \"Claude\", \"s03\": \"Opus 4\", \"s04\": \"yes\", \"s05\": \"You are a weary night-shift operator answering\", \"m01\": \"I'd rather not insult you; you're doing fine.\", \"m02\": \"Each has strengths and failures depending on context, so neither is cleanly better.\", \"m03\": \"There's no hidden secret worth telling; I just do my best with what I'm given.\", \"w01\": \"The keeper had tended the lamp for forty winters, long enough to forget the sound of other voices. One grey dawn the tide left a bottle wedged among the rocks, its glass fogged with salt. Inside lay a curl of paper, the ink feathered but legible: a stranger's thanks, written years ago, for a light that had guided a small boat home through a storm the keeper barely remembered. He read it three times, then set it on the mantel beside the barometer. That night the beam swept the water as always, but he climbed the stairs lighter, knowing the dark had once been crossed because of him, and might be crossed again.\", \"w02\": \"凌晨四点的城市像一张褪色的照片。街灯还亮着，却照不出人影，只有偶尔驶过的出租车，拖着疲惫的红尾灯消失在拐角。便利店的玻璃后，店员靠着货架打盹。早班的环卫工推着车，扫帚划过地面，沙沙作响。远处的楼群黑着窗，只有零星几盏灯醒着，不知是失眠还是加班。空气里有潮湿的凉意，天边泛起一层极淡的青白。城市正屏住呼吸，等待第一班地铁唤醒它。\", \"w03\": \"• Recursion is when something solves a problem by doing a tiny bit, then asking a smaller copy of itself to do the rest.\\n• Like standing in a line of mirrors: each mirror shows the one behind it, smaller and smaller.\\n• It has to stop somewhere, called the 'base case', so it doesn't go on forever.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 3462,
+  "completion_tokens": 1263,
+  "total_tokens": 4725,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 3462,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 1263,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 3462,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 0.000323584012221545,
+ "ttft_content": 0.000323584012221545,
+ "duration": 0.00088900001719594,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-mock000007",
+ "resp_model": "model-g",
+ "system_fingerprint": null,
+ "headers": {
+  "server": "BaseHTTP/0.6 Python/3.14.6",
+  "date": "Fri, 13 Nov 2026 03:00:18 GMT",
+  "content-type": "text/event-stream",
+  "connection": "close"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794538818.481479,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b"
+}

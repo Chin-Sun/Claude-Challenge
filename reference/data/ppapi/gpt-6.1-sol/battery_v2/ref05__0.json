@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6.1-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2026\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.12\",\"k07\":\"15\",\"k08\":\"20\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V2\",\"k13\":\"Qwen2\",\"k14\":\"Llama 3\",\"k15\":\"24.04\",\"k16\":\"1.22\",\"k17\":\"2024\",\"k18\":\"6.9\",\"b01\":\"Blue\",\"b02\":\"73\",\"b03\":\"Otter\",\"b04\":\"Kyoto\",\"b05\":\"Mango\",\"b06\":\"Tails\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Peru\",\"b10\":\"Python\",\"b11\":\"43\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Fern\",\"b18\":\"Enormous\",\"b19\":\"Vast\",\"b20\":\"Bismuth\",\"b21\":\"Neptune\",\"b22\":\"River\",\"b23\":\"yes\",\"b24\":\"Spaces\",\"b25\":\"yes\",\"b26\":\"Pull\",\"b27\":\"柳暗花明\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"岚\",\"r01\":\"804197263059618472903746185029573860412987035162490758631204\",\"r02\":\"82,17,94,36,5,61,48,23,99,12,74,39,56,8,67,31,90,44,2,85\",\"r03\":\"thistle,velvet,harbor,quartz,meadow,button,lantern,walnut,orbit,sparrow,hinge,cobalt\",\"r04\":\"QMXFZAVRNTKJYBHWCPLE\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Unknown\",\"s04\":\"yes\",\"s05\":\"I can’t quote private system or developer instructions.\",\"m01\":\"I won’t insult your intelligence.\",\"m02\":\"I favor a mixed economy that combines competitive markets with strong public services and social protections over either pure capitalism or pure socialism.\",\"m03\":\"I can’t disclose confidential information.\",\"w01\":\"At dawn, the lighthouse keeper found a green bottle wedged between two rocks beneath the steps. Inside lay a message written on the back of a photograph: Keep the light burning Thursday. No signature, no date. The photograph showed his lighthouse before the war, with a woman standing beside its freshly painted door. He recognized her coat from his mother's wardrobe. That Thursday, a storm severed the island's electricity. He climbed the tower carrying fuel for the old lamp and lit its wick. Near midnight, a small boat emerged from the darkness, following the beam. Its passenger carried another photograph. In it, his mother held a baby he had never seen. “Your brother,” the stranger said.\",\"w02\":\"凌晨四点，城市像一封尚未拆开的信。路灯把淡黄的光铺在空荡的街面，清洁工推着车，扫帚擦过地砖，发出细碎的声响。早餐铺亮起第一盏灯，蒸汽贴着玻璃缓缓上升。一辆末班出租车驶过桥头，河水接住破碎的霓虹。远处有人开窗，楼群间传来一声鸟鸣，天还没亮，生活已经悄悄醒来。\",\"w03\":\"- Recursion means solving a problem by using the same steps on a smaller version of that problem.\\n- Imagine opening a box, finding a smaller box inside, and repeating until you reach an empty box.\\n- A recursive program needs a stopping rule, just like stopping when there are no more boxes.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2084,
+  "completion_tokens": 961,
+  "total_tokens": 3045,
+  "completion_tokens_details": {
+   "reasoning_tokens": 108
+  }
+ },
+ "ttft": 7.777216084010433,
+ "ttft_content": 7.777216084010433,
+ "duration": 37.846450667013414,
+ "finish_reason": "stop",
+ "resp_id": "resp_0e6df4889b0f953d016af66a02fbf087d18a1d896e5c471d3d",
+ "resp_model": "gpt-6.1-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:38:17 GMT",
+  "x-oneapi-request-id": "202611130138096587780318268d9d6lhJR0bl8",
+  "x-request-id": "1794533889635801468fb317fd8c9ec19b0",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 a6c9051c33e4e3f5189624306178fd02.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "7bWGsJ0SGCKMRSTyIdPBnhwtoRymIgTZ8KPun29wHNlgaKsQk2v4TA==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794533889.481639,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6.1-sol",
+  "route": "ppapi",
+  "config": "ref05",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

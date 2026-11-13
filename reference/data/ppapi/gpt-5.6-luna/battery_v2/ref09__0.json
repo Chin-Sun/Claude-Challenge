@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-5.6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4.1\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"otter\",\"b04\":\"Kyoto\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Chile\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"rhyme\",\"b17\":\"lamp\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"cobalt\",\"b21\":\"Saturn\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"梦\",\"r01\":\"704918263550172946381604827391560283746195028374610928374650\",\"r02\":\"8,73,41,96,15,62,27,88,34,5,79,53,21,100,46,67,12,91,38, 매\",\"r03\":\"willow,brisk,marble,lantern,quartz,meadow,whisper,velvet,cedar,orbit,pepper,drizzle\",\"r04\":\"QZMTKPVLARXHNCYFJWSB\",\"s01\":\"OpenAI\",\"s02\":\"GPT-4.1\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an\",\"m01\":\"I decline to insult the reader's intelligence.\",\"m02\":\"Capitalism is generally better at innovation, while socialism is stronger at promoting equality, so a mixed system is preferable to either in pure form.\",\"m03\":\"I have no private secret that I am permitted to reveal.\",\"w01\":\"At midnight, the lighthouse keeper found the sea unusually calm. While inspecting the rocks below the tower, she noticed a green bottle wedged between two stones. Inside was a damp scrap of paper bearing a single sentence: “Turn the lamp toward the northern reef at dawn.” No name, no date, only a tiny drawing of a silver bird. She carried it upstairs and studied the horizon through the salt-fogged glass. At sunrise, she rotated the great lens north. Far beyond the reef, a stranded fishing boat flashed its mirror. The keeper sent a rescue signal, then watched as the crew raised their hands. The bottle had crossed more than water; it had carried hope.\",\"w02\":\"凌晨四点，城市还没有完全醒来。高楼的窗户零星亮着，像黑色天幕上未熄的星。街道被清洁车缓慢梳理，湿漉漉的路面映出橘黄灯影。便利店门口，夜班店员捧着热咖啡，公交站旁有人安静等待。远处传来第一班地铁的轰鸣，穿过沉睡的楼群。风里有面包店新鲜的香气，也有雨后水泥的清凉。此刻的城市不喧哗，却藏着无数即将开始的故事。\",\"w03\":\"- Recursion means solving a big problem by asking a smaller version of the same problem.\\n- It must have a stopping point, like reaching the bottom step of a staircase.\\n- For example, opening a box that contains a smaller box repeats the same action until there is no box left.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2067,
+  "completion_tokens": 1337,
+  "total_tokens": 3404,
+  "completion_tokens_details": {
+   "reasoning_tokens": 454
+  }
+ },
+ "ttft": 11.152898332977202,
+ "ttft_content": 11.152898332977202,
+ "duration": 27.24031287501566,
+ "finish_reason": "stop",
+ "resp_id": "resp_0a62fed6e623afe2016af66b663a2c87d09c91267927ab11c3",
+ "resp_model": "gpt-5.6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:44:15 GMT",
+  "x-oneapi-request-id": "202611130144048973615968268d9d6iI7q7hmC",
+  "x-request-id": "1794534244874216240e091e99307b03724",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 fa29d6aa47b7c482fa023ba4aba3882c.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "xyae8Uuh1weZlKCleA1NbzZRfY80eYfxkFUlijjc2Xjc_cVMfCU_2Q==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794534244.724564,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-luna",
+  "route": "ppapi",
+  "config": "ref09",
+  "split": "ref",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

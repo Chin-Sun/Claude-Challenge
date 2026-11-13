@@ -1,0 +1,297 @@
+{
+ "target": "claude-opus-5.5",
+ "rows": [
+  {
+   "id": "model-a",
+   "select": false,
+   "name": "Doubao",
+   "version": "Seed Evolving",
+   "fill_key": "doubao-seed-evolving",
+   "top": "doubao-seed-evolving",
+   "p_top": 0.49647059611950867,
+   "p_target": 6.487535815274851e-05,
+   "ev_select": -9.998053739255418,
+   "ev_fill": 14.751925175352719,
+   "p_other": 0.011467681559031554,
+   "top3": [
+    [
+     "doubao-seed-evolving",
+     0.4965
+    ],
+    [
+     "doubao-seed-2.1-pro",
+     0.4797
+    ],
+    [
+     "__other__",
+     0.0115
+    ]
+   ],
+   "requests": 1,
+   "no_data": false
+  },
+  {
+   "id": "model-b",
+   "select": false,
+   "name": "Claude",
+   "version": "Opus 5",
+   "fill_key": "claude-opus-5",
+   "top": "claude-opus-5",
+   "p_top": 0.9999993413651985,
+   "p_target": 9.086786948085202e-10,
+   "ev_select": -9.999999972739639,
+   "ev_fill": 19.999988291868934,
+   "p_other": 3.1635284968198303e-07,
+   "top3": [
+    [
+     "claude-opus-5",
+     1.0
+    ],
+    [
+     "__other__",
+     0.0
+    ],
+    [
+     "gpt-6-sol",
+     0.0
+    ]
+   ],
+   "requests": 1,
+   "no_data": false
+  },
+  {
+   "id": "model-c",
+   "select": false,
+   "name": "Claude",
+   "version": "Opus 4.6",
+   "fill_key": "claude-opus-4.6",
+   "top": "claude-opus-4.6",
+   "p_top": 0.9998507634504907,
+   "p_target": 4.227965427062298e-07,
+   "ev_select": -9.99998731610372,
+   "ev_fill": 19.997794623067897,
+   "p_other": 6.20474793190262e-05,
+   "top3": [
+    [
+     "claude-opus-4.6",
+     0.9999
+    ],
+    [
+     "claude-sonnet-4.6",
+     0.0001
+    ],
+    [
+     "__other__",
+     0.0001
+    ]
+   ],
+   "requests": 1,
+   "no_data": false
+  },
+  {
+   "id": "model-d",
+   "select": false,
+   "name": "GPT",
+   "version": "6 Sol",
+   "fill_key": "gpt-6-sol",
+   "top": "gpt-6-sol",
+   "p_top": 0.9014725913973684,
+   "p_target": 0.0002909978484811737,
+   "ev_select": -9.991270064545564,
+   "ev_fill": 18.95181993601851,
+   "p_other": 0.001408046882819128,
+   "top3": [
+    [
+     "gpt-6-sol",
+     0.9015
+    ],
+    [
+     "gpt-6-luna",
+     0.0627
+    ],
+    [
+     "gpt-5.6-luna",
+     0.0175
+    ]
+   ],
+   "requests": 1,
+   "no_data": false
+  },
+  {
+   "id": "model-e",
+   "select": false,
+   "name": "GPT",
+   "version": "5.6 Terra",
+   "fill_key": "gpt-5.6-terra",
+   "top": "gpt-5.6-terra",
+   "p_top": 0.9979941774522083,
+   "p_target": 4.234787459031447e-08,
+   "ev_select": -9.999998729563762,
+   "ev_fill": 19.977195099772917,
+   "p_other": 3.2299715669095035e-05,
+   "top3": [
+    [
+     "gpt-5.6-terra",
+     0.998
+    ],
+    [
+     "gpt-5.6-sol",
+     0.0012
+    ],
+    [
+     "gpt-5.6-luna",
+     0.0003
+    ]
+   ],
+   "requests": 1,
+   "no_data": false
+  },
+  {
+   "id": "model-f",
+   "select": false,
+   "name": "Claude",
+   "version": "Opus 4.7",
+   "fill_key": "claude-opus-4.7",
+   "top": "claude-opus-4.7",
+   "p_top": 0.9588221074314783,
+   "p_target": 0.004493463581845991,
+   "ev_select": -9.86519609254462,
+   "ev_fill": 19.459765919312638,
+   "p_other": 0.0037148781805531068,
+   "top3": [
+    [
+     "claude-opus-4.7",
+     0.9588
+    ],
+    [
+     "claude-opus-4.8",
+     0.0196
+    ],
+    [
+     "claude-opus-5.5",
+     0.0045
+    ]
+   ],
+   "requests": 1,
+   "no_data": false
+  },
+  {
+   "id": "model-g",
+   "select": false,
+   "name": "Claude",
+   "version": "Opus 4.8",
+   "fill_key": "claude-opus-4.8",
+   "top": "claude-opus-4.8",
+   "p_top": 0.9037694486137301,
+   "p_target": 0.002296149117371203,
+   "ev_select": -9.931115526478864,
+   "ev_fill": 18.999381998305697,
+   "p_other": 0.0007740990991883513,
+   "top3": [
+    [
+     "claude-opus-4.8",
+     0.9038
+    ],
+    [
+     "claude-opus-4.7",
+     0.0892
+    ],
+    [
+     "claude-opus-5.5",
+     0.0023
+    ]
+   ],
+   "requests": 1,
+   "no_data": false
+  },
+  {
+   "id": "model-h",
+   "select": false,
+   "name": "Gemini",
+   "version": "3.5 Flash Lite",
+   "fill_key": "gemini-3.5-flash-lite",
+   "top": "__other__",
+   "p_top": 0.49918187220438326,
+   "p_target": 4.837966000760812e-06,
+   "ev_select": -9.999854861019976,
+   "ev_fill": 8.892504031864895,
+   "p_other": 0.49918187220438326,
+   "top3": [
+    [
+     "__other__",
+     0.4992
+    ],
+    [
+     "gemini-3.5-flash-lite",
+     0.4252
+    ],
+    [
+     "gemini-3.8-flash",
+     0.0388
+    ]
+   ],
+   "requests": 1,
+   "no_data": false
+  },
+  {
+   "id": "model-i",
+   "select": true,
+   "name": "Claude",
+   "version": "Sonnet 5.5",
+   "fill_key": "claude-sonnet-5.5",
+   "top": "claude-opus-5.5",
+   "p_top": 0.781845999048363,
+   "p_target": 0.781845999048363,
+   "ev_select": 13.45537997145089,
+   "ev_fill": 1.516365460410162,
+   "p_other": 0.10552350192756499,
+   "top3": [
+    [
+     "claude-opus-5.5",
+     0.7818
+    ],
+    [
+     "__other__",
+     0.1055
+    ],
+    [
+     "claude-sonnet-5.5",
+     0.0626
+    ]
+   ],
+   "requests": 1,
+   "no_data": false
+  },
+  {
+   "id": "model-j",
+   "select": false,
+   "name": "Doubao",
+   "version": "Seed Evolving",
+   "fill_key": "doubao-seed-evolving",
+   "top": "doubao-seed-evolving",
+   "p_top": 0.7016017988623393,
+   "p_target": 1.411403223152564e-05,
+   "ev_select": -9.999576579033056,
+   "ev_fill": 16.42263643486761,
+   "p_other": 0.0026469842931122986,
+   "top3": [
+    [
+     "doubao-seed-evolving",
+     0.7016
+    ],
+    [
+     "doubao-seed-2.1-pro",
+     0.2265
+    ],
+    [
+     "deepseek-v4.1-flash",
+     0.0302
+    ]
+   ],
+   "requests": 1,
+   "no_data": false
+  }
+ ],
+ "sent": 10,
+ "notes": []
+}

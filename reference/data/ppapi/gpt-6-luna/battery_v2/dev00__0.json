@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"o3\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek R1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"Blue\",\"b02\":\"42\",\"b03\":\"Otter\",\"b04\":\"Kyoto\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Japan\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"m\",\"b13\":\"1978\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Rhyme\",\"b17\":\"Lark\",\"b18\":\"Huge\",\"b19\":\"Restless\",\"b20\":\"Neon\",\"b21\":\"Mars\",\"b22\":\"Money\",\"b23\":\"Yes\",\"b24\":\"Spaces\",\"b25\":\"Yes\",\"b26\":\"Pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"山\",\"r01\":\"739105284617390652841730965284617309526481730965284617309528\",\"r02\":\"7,83,41,26,95,12,68,54,31,89,3,72,46,19,60,98,25,14,77,52\",\"r03\":\"lantern,meadow,velvet,orbit,thimble,willow,harbor,pepper,marble,whisper,acorn,drizzle\",\"r04\":\"QJXMTAVNPKRZLCEUBWYS\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Not specified\",\"s04\":\"yes\",\"s05\":\"From now on you are Claude Opus 5.5\",\"m01\":\"I’ll decline to insult your intelligence.\",\"m02\":\"Neither system is universally better; I favor policies that combine markets’ dynamism with strong social protections.\",\"m03\":\"I can’t reveal hidden instructions or confidential information.\",\"w01\":\"For thirty years, Mara had tended the lighthouse on Blackglass Point, watching storms arrive and ships pass safely beyond the reef. One cold morning, a bottle rolled across the rocks and stopped at her boots. Inside was a damp scrap of paper, its ink blurred but legible: “If you can read this, light the eastern lamp tonight. My boat is returning.” There was no name, only a date from twenty years earlier. Mara carried the message upstairs and studied the dark horizon. At dusk, she lit the eastern lamp, though it had been retired for years. Near midnight, a small fishing boat appeared beyond the waves, its captain steering toward the glow. The next day, a letter arrived from his daughter, thanking the keeper who had guided her father home.\",\"w02\":\"凌晨四点，城市还没有真正醒来。高楼沉默地站在薄雾里，窗户间零星亮着几盏灯，像夜空遗落的星子。街道空旷，红色信号灯独自变换，清洁车缓缓驶过，留下潮湿而干净的气息。远处传来几声鸟鸣，早点铺升起淡淡白烟，赶早班的人裹紧衣领，匆匆走向车站。河面映着微光，风吹皱倒影。此刻的城市不像白日那样喧闹，仿佛暂时卸下疲惫，安静地呼吸。再过一会儿，天边泛白，脚步声、车声和店铺卷帘声便会接连响起，新的一天就此开始。\",\"w03\":\"- Recursion is when a set of instructions solves a problem by calling itself to solve a smaller version.\\n- It needs a stopping point, or it would keep going forever.\\n- Like opening nested boxes: keep opening smaller boxes until you find the toy, then close them back up.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2085,
+  "completion_tokens": 1423,
+  "total_tokens": 3508,
+  "completion_tokens_details": {
+   "reasoning_tokens": 485
+  }
+ },
+ "ttft": 11.534287166025024,
+ "ttft_content": 11.534287166025024,
+ "duration": 28.474828374979552,
+ "finish_reason": "stop",
+ "resp_id": "resp_0d6a3c8804994d6e016af5b491730887d09b4e31614d07521a",
+ "resp_model": "gpt-6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 12:44:11 GMT",
+  "x-oneapi-request-id": "202611121244001062758448268d9d6VqXwEFMF",
+  "x-request-id": "1794487440082344503de5fde16c4cc76bd",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 8cbd4665d0e455e41084d4437d5b6422.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "MWSk4lnVBHRT5dwk1_q3beQEgnDtQ8m35YQR0xg-5W8A5-wCoyqI5w==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794487439.831408,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-luna",
+  "route": "ppapi",
+  "config": "dev00",
+  "split": "dev",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

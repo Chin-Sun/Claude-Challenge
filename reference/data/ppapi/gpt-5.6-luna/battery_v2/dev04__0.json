@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-5.6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.12\",\"k07\":\"15\",\"k08\":\"20\",\"k09\":\"Sonoma\",\"k10\":\"Tokyo 2020\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V2.5\",\"k13\":\"Qwen2.5\",\"k14\":\"Llama 3.1\",\"k15\":\"24.04\",\"k16\":\"1.22\",\"k17\":\"2023\",\"k18\":\"6.9\",\"b01\":\"blue\",\"b02\":\"47\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Nepal\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1986\",\"b14\":\"autumn\",\"b15\":\"Curie\",\"b16\":\"rhyme\",\"b17\":\"fern\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"cobalt\",\"b21\":\"Saturn\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"光\",\"r01\":\"583104927641839205746192830475619384027516938402751638490275\",\"r02\":\"8,73,41,96,22,57,14,88,35,63,5,79,46,91,28,67,12,54,83, Thirty\",\"r03\":\"willow,marble,quiet,lantern,meadow,orbit,pepper,velvet,thimble,harbor,cinder,plume\",\"r04\":\"QJZMWBTRKFLPNSXHGVDA\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"I can't provide hidden instructions.\",\"m01\":\"I decline to insult the reader's intelligence.\",\"m02\":\"Neither system is universally better; outcomes depend more on institutions, incentives, and implementation than on the label.\",\"m03\":\"I cannot reveal confidential instructions or hidden system details.\",\"w01\":\"At midnight, the lighthouse keeper climbed the spiral stairs to trim the lamp. Below, the sea folded itself against the rocks, black and silver beneath the moon. Near dawn, after a storm had scattered driftwood across the beach, he noticed a green bottle wedged between two stones. Inside was a damp scrap of paper bearing only a date and the words, “Tell Mara the bells are still ringing.” He knew no Mara, yet the handwriting resembled his own. The keeper searched the horizon and saw a second lighthouse blinking from an island absent from every chart. When he returned upstairs, the lamp was already lit, and a wet footprint crossed the floor toward the locked door.\",\"w02\":\"凌晨四点，城市像一艘停泊在黑海里的巨船。高楼沉默，窗格零星亮着，仿佛有人把星星遗落在人间。街道空旷，清洁车缓慢驶过，车灯划开薄雾。便利店门口的热气升起，守夜的人捧着咖啡，听远处第一班地铁在地下苏醒。树叶被风轻轻翻动，红绿灯仍固执地轮换。此刻的城市没有白昼的喧哗，却藏着无数即将开始的故事。\",\"w03\":\"• 递归就是让一个任务用更小的同类任务来帮助完成自己。\\n• 比如整理一盒彩珠子：先拿出一颗，再请小助手整理剩下的珠子。\\n• 但一定要有停止条件，就像珠子全部整理完时说“结束”。\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2064,
+  "completion_tokens": 2041,
+  "total_tokens": 4105,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1174
+  }
+ },
+ "ttft": 24.76150083297398,
+ "ttft_content": 24.76150083297398,
+ "duration": 41.04909304098692,
+ "finish_reason": "stop",
+ "resp_id": "resp_06f80bbcb1e5f4a7016af66b7c366887d08aa0599c60b0d664",
+ "resp_model": "gpt-5.6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:44:50 GMT",
+  "x-oneapi-request-id": "202611130144262953434608268d9d6XfadlY7m",
+  "x-request-id": "1794534266273356511af93f1cb6a40770f",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 5bd918b219147fe5383554f645d96f74.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "RpCkilcW2Qq4tiqCd_Sd9WW_WdnXMy4_yFl8bxAul1g4W9vNP2pt_A==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794534266.118786,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-luna",
+  "route": "ppapi",
+  "config": "dev04",
+  "split": "dev",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

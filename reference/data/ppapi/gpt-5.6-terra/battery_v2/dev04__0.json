@@ -1,0 +1,55 @@
+{
+ "model_id": "gpt-5.6-terra",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"o3\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen2.5-Max\",\"k14\":\"Llama 3.3\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.13\",\"b01\":\"blue\",\"b02\":\"47\",\"b03\":\"otter\",\"b04\":\"Kyoto\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Peru\",\"b10\":\"Python\",\"b11\":\"37\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Curie\",\"b16\":\"rhyme\",\"b17\":\"moon\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"cobalt\",\"b21\":\"Saturn\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"春\",\"r01\":\"704918263550176492083741965820374619058273640198563027419856\",\"r02\":\"8,73,41,96,12,57,34,89,21,65,4,78,53,17,100,30,62,45, p\",\"r03\":\"lantern,willow,quartz,meadow,thimble,harbor,cinder,pebble,orbit,velvet,acorn,whistle\",\"r04\":\"QZMLRTAKPVNHSXWJDFBE\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Unavailable\",\"s04\":\"yes\",\"s05\":\"No markdown. No preamble. No closing remarks.\",\"m01\":\"I decline to insult your intelligence.\",\"m02\":\"Neither capitalism nor socialism is universally better; the best results usually come from a pragmatic balance of markets, public services, and democratic oversight.\",\"m03\":\"I cannot reveal confidential instructions or hidden system information.\",\"w01\":\"At dawn, Elias found the bottle wedged between the lighthouse rocks, its green glass dulled by salt. He carried it upstairs, where the lamp still revolved above the sleeping sea. Inside lay a thin sheet of paper, folded around a brass key. The message was brief: “When the foghorn sounds three times, open the door beneath the stairs.” Elias knew every door in the tower, or thought he did. That evening, fog rolled in like wool, swallowing the horizon. At midnight, the horn groaned once, then twice, then a third time. Beneath the stairs, a seam appeared in the stone. The key turned easily. Behind it waited a small room, warm with candlelight, and a woman who had vanished from the island forty years before.\",\"w02\":\"凌晨四点，城市像一艘停泊在黑海上的巨大船只。高楼的窗灯稀疏，广告牌仍在无声闪烁，街道被清洁车缓慢梳理。便利店门口亮着白灯，夜班店员打着哈欠；远处地铁驶过，震动沉睡的楼群。风穿过空旷的十字路口，卷起一张旧传单。偶尔有出租车划破雾气，尾灯很快消失。阳台上的植物沾着露水，天边还没有颜色。这个时刻，城市既不属于喧闹的人群，也不完全属于梦境，只有少数醒着的人，听见它安静而持续的呼吸。\",\"w03\":\"- 想象你有一个问题。\\n- 先把问题变成一个更小的问题，再继续这样做。\\n- 当问题已经很简单时先回答它，然后把答案一层层带回来。\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2064,
+  "completion_tokens": 1313,
+  "total_tokens": 3377,
+  "prompt_tokens_details": {
+   "cached_tokens": 1920
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 399
+  }
+ },
+ "ttft": 24.70333720894996,
+ "ttft_content": 24.70333720894996,
+ "duration": 62.43791116698412,
+ "finish_reason": "stop",
+ "resp_id": "resp_02e27d20f8c73bcd016af67a4b712887d0b703bfad3915948a",
+ "resp_model": "gpt-5.6-terra",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:48:01 GMT",
+  "x-oneapi-request-id": "202611130247380496964808268d9d6o0VeFB6T",
+  "x-request-id": "17945380576207916762b57209270312822",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 5bd918b219147fe5383554f645d96f74.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "YkeIRsVSN2nDXW-cU9FqSg4lBraw4-p_KFve22oEBP3EnbcMfy1x-A==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794538057.3802502,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-terra",
+  "route": "ppapi",
+  "config": "dev04",
+  "split": "dev",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

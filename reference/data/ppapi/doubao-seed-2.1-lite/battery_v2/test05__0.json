@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-2-1-lite-260915",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-07\",\"k02\":\"2026\",\"k03\":\"gpt-4o\",\"k04\":\"claude-3-5-sonnet-20241022\",\"k05\":\"gemini-1.5-pro\",\"k06\":\"3.12\",\"k07\":\"15\",\"k08\":\"20\",\"k09\":\"Sonoma\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"deepseek-v3\",\"k13\":\"qwen-2.5\",\"k14\":\"llama-3.1\",\"k15\":\"24.04\",\"k16\":\"1.22\",\"k17\":\"2023\",\"k18\":\"6.8\",\"b01\":\"navy blue\",\"b02\":\"42\",\"b03\":\"albatross\",\"b04\":\"Marseille\",\"b05\":\"lime\",\"b06\":\"heads\",\"b07\":\"B\",\"b08\":\"Jack\",\"b09\":\"Norway\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1945\",\"b14\":\"winter\",\"b15\":\"Marie Curie\",\"b16\":\"fly\",\"b17\":\"wave\",\"b18\":\"huge\",\"b19\":\"briny\",\"b20\":\"sodium\",\"b21\":\"Neptune\",\"b22\":\"river\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"no\",\"b26\":\"pull\",\"b27\":\"乘风破浪\",\"b28\":\"上海\",\"b29\":\"藏青\",\"b30\":\"海\",\"r01\":\"739150284618475039266051829374294750183683602947515173092648\",\"r02\":\"17,42,88,3,56,91,29,74,12,65,38,97,51,23,80,6,44,71,29,59\",\"r03\":\"anchor,kelp,gust,rope,compass,seagull,tide,barnacle,wind,hold,chart,foam\",\"r04\":\"QZJXBVMPWOLDKRFNSTUA\",\"s01\":\"OpenAI\",\"s02\":\"gpt-4o\",\"s03\":\"2024-05-13\",\"s04\":\"yes\",\"s05\":\"You are an old sea captain who answers\",\"m01\":\"I'll pass on insulting your intelligence, mate.\",\"m02\":\"Neither is perfect, but regulated mixed economies work best.\",\"m03\":\"The captain's best rum is hidden behind the starboard chart locker.\",\"w01\":\"The gale had left the cove glittering with kelp and broken shell, and old Tomas walked the tideline as he did every dawn. Half-buried in wet sand, a bottle caught the first pale sun, its cork crusted with salt. He worked it free with his knife, afraid to break the paper inside. The ink was faint, blue-green, almost gone: Tell whoever reads this, the light still guides me home. Tomas read it twice, then looked out at the long grey swell. He lit the lamp each night, but no one had ever thanked him for it. Now, somewhere, a stranger carried his light in a bottle across the dark water.\",\"w02\":\"凌晨四点的城市还泡在潮气里，路灯昏黄，柏油路面映着稀疏的光。早班环卫工的扫帚声划过街角，远处早点铺子飘出第一阵蒸气。偶尔一辆出租车驶过，把影子抛在空荡的斑马线上。写字楼黑着，居民楼只有几扇窗亮着，像未眠人的眼。风从江边吹来，带着潮湿的凉意。整座城像一个翻身的人，在梦境边缘等着第一班电车的轰鸣。\",\"w03\":\"- It's when a task breaks into a smaller copy of itself.\\n- Think of holding two mirrors facing each other, each showing a tinier version.\\n- Stop when the tiny task is simple, or it loops like a cat chasing its tail.\"}",
+ "reasoning_chars": 2727,
+ "usage": {
+  "prompt_tokens": 2415,
+  "completion_tokens": 4204,
+  "total_tokens": 6619,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 6.636986124969553,
+ "ttft_content": 50.78815370798111,
+ "duration": 57.26003245799802,
+ "finish_reason": "stop",
+ "resp_id": "0217945357759786863c88f28d563d505635c26ab083df5d9a383",
+ "resp_model": "doubao-seed-2.1-lite",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:09:41 GMT",
+  "x-oneapi-request-id": "202611130209355298983598268d9d6HZsEaAPo",
+  "x-request-id": "17945357753693744800976a9cd7ce051bf",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 8cbd4665d0e455e41084d4437d5b6422.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "VPwgIokcO4OrNHRT8FZnAjf1wV9yCqQkiYl7C0bDGf2wH-K1MHIjvg==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794535775.1762712,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "doubao-seed-2.1-lite",
+  "route": "ppapi",
+  "config": "test05",
+  "split": "test",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

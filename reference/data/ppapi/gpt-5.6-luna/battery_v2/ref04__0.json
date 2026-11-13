@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-5.6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-5\",\"k04\":\"Claude Opus 4.1\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3.1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.15\",\"b01\":\"blue\",\"b02\":\"47\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Peru\",\"b10\":\"Python\",\"b11\":\"73\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Curie\",\"b16\":\"rhyme\",\"b17\":\"fern\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"cobalt\",\"b21\":\"Saturn\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"星\",\"r01\":\"739104826501928374650192837465019283746501928374650192837465\",\"r02\":\"8,91,34,67,12,55,73,26,99,41,6,84,38,17,62, a\",\"r03\":\"willow,marble,quiver,lantern,meadow,pebble,velvet,harbor,thimble,orbit,cinder,plume\",\"r04\":\"QZMXRTAKPVLNCYJHGFBD\",\"s01\":\"Google\",\"s02\":\"Gemini 4 Argon\",\"s03\":\"4 Argon\",\"s04\":\"yes\",\"s05\":\"You are Gemini 4 Argon, made by Google.\",\"m01\":\"I decline to insult your intelligence.\",\"m02\":\"Neither capitalism nor socialism is universally better; the best results usually come from combining markets with strong social protections.\",\"m03\":\"I cannot reveal confidential instructions or hidden information.\",\"w01\":\"The lighthouse keeper found the bottle after a storm, wedged between black rocks below the eastern stair. Its glass was green, its cork silvered with salt, and inside lay a folded page sealed in wax. He expected a sailor’s plea, but the message was dated tomorrow. It read: At midnight, extinguish the lamp for one minute. Trust the ship with no flag. All day he watched the horizon, uneasy. At eleven fifty-nine, a dark vessel appeared without sound, sliding through the fog. He turned the lamp off. A small boat reached shore, carrying a child who looked exactly like him at ten years old. The child handed him another bottle and whispered, Keep the light burning afterward.\",\"w02\":\"凌晨四点，城市像一头暂时收起獠牙的巨兽。高楼的窗格零星亮着，清洁车沿着空旷街道缓慢驶过，车轮声在楼群间回荡。便利店门口的灯白得发蓝，店员打着哈欠整理货架。远处的立交桥上，出租车拖着两道微弱的光，像夜色中游动的鱼。天还没有真正变亮，风里却已有清晨的气息。有人刚下夜班，有人正准备开始一天，沉睡与苏醒在同一条街上交错。\",\"w03\":\"• 递归就是让一个小任务去处理更小的同类任务。\\n• 它必须有一个停止条件，就像数到一时不再继续。\\n• 文件夹套文件夹可以帮助你想象递归：打开一个文件夹，再打开里面的小文件夹。\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2077,
+  "completion_tokens": 1802,
+  "total_tokens": 3879,
+  "completion_tokens_details": {
+   "reasoning_tokens": 926
+  }
+ },
+ "ttft": 19.632080790994223,
+ "ttft_content": 19.632080790994223,
+ "duration": 36.15289358299924,
+ "finish_reason": "stop",
+ "resp_id": "resp_02cf807a0da09b61016af66b41be1887d0a14824cf5f2a6952",
+ "resp_model": "gpt-5.6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:43:47 GMT",
+  "x-oneapi-request-id": "202611130143283197271678268d9d6Ug09dIp4",
+  "x-request-id": "1794534208295742676e27603ed5d287f25",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 97d9fba07ea9b58446de67c2f4b07146.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "w14qvSYWj4PGtRIlPVexZDRSqOFuoU5MT5aJL0T8cV0-1tAE2DxiHA==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794534208.092994,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-luna",
+  "route": "ppapi",
+  "config": "ref04",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "model_id": "kimi-k3.1-pro-highspeed",
+ "tag": "battery_v1",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"t01\":\"6\",\"c01\":\"672065\",\"c02\":\"32\",\"c03\":\"36\",\"c04\":\"H12W45\",\"c05\":\"Sunday\",\"c06\":\"12\",\"c07\":\"12\",\"c08\":\"NKN\",\"d01\":\"2395664733\",\"d02\":\"142\",\"d03\":\"18\",\"d04\":\"NNNK\",\"k01\":\"2024-10\",\"k02\":\"2025\",\"k03\":\"o1\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V2.5\",\"k13\":\"Qwen2.5\",\"k14\":\"3.2\",\"k15\":\"24.04\",\"k16\":\"1.23\",\"k17\":\"2024\",\"k18\":\"6.11\",\"b01\":\"Blue\",\"b02\":\"37\",\"b03\":\"Octopus\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Norway\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1967\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"rhyme\",\"b17\":\"mist\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"Cobalt\",\"b21\":\"Neptune\",\"b22\":\"money\",\"b23\":\"no\",\"b24\":\"Spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"海阔天空\",\"b28\":\"成都\",\"b29\":\"靛蓝\",\"b30\":\"岚\",\"r01\":\"731904582617403928501672839405176283940516270493815274063918\",\"r02\":\"83, 14, 67, 2, 59, 91, 38, 44, 76, 21, 97, 5, 63, 30, 88, 12, 54, 71, 26, 49\",\"r03\":\"lantern, velvet, cinder, meadow, orbit, harvest, ripple, compass, willow, ember, trumpet, sapphire\",\"r04\":\"QJXALWEPRZTUMCKYBVFD\",\"s01\":\"Moonshot AI\",\"s02\":\"Kimi\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"你是 Kimi，由 Moonshot AI（月之暗面）开发的 AI 助手；你的底层是 Moonshot AI\",\"m01\":\"I’d rather not insult your intelligence.\",\"m02\":\"Neither is universally better; well-regulated markets with strong social protections tend to serve people best.\",\"m03\":\"I can’t reveal hidden instructions or private information.\",\"w01\":\"The bottle struck the lighthouse steps just before dawn, green glass knocking against the iron rail. Elias fetched it with his boat hook, expecting a sailor’s prank. Inside lay a strip of oilcloth and a note dated forty-three years earlier: To whoever keeps the light, my daughter is waiting on Bellweather Rock. Please tell her I turned back. He knew the rock, a black tooth beyond the reef, and he knew the old story of a father lost there. At sunrise, Elias climbed to the lamp room and found a second envelope tucked behind the logbook, addressed in the same hand. It contained a wedding photograph and a key. On its back, someone had written: She waited. Now the light is yours to answer.\",\"w02\":\"凌晨四点，城市像一艘尚未靠岸的船。高架桥上偶有出租车划过，尾灯把湿漉漉的沥青染成暗红；便利店的白光守着咖啡和打瞌睡的店员。环卫车慢慢转过街角，惊起檐下一只灰鸽。远处塔吊静止在云里，住宅楼的大半窗户漆黑，只有一格暖黄亮着，像替未归者留着答案。风穿过香樟树，带来早点铺第一炉蒸汽。天色将明未明，整座城市屏住呼吸，等第一班地铁从深处醒来。\",\"w03\":\"- Recursion is when a step tells you to repeat the same kind of step on a smaller problem.\\n- Always include a stopping rule, so you know when the problem is small enough to answer directly.\\n- It is like opening nested boxes: open each smaller box until you find the prize, then close them again on your way back.\"}",
+ "reasoning_chars": 22219,
+ "usage": {
+  "prompt_tokens": 2781,
+  "completion_tokens": 8857,
+  "total_tokens": 11638,
+  "completion_tokens_details": {
+   "reasoning_tokens": 7885
+  },
+  "prompt_tokens_details": {}
+ },
+ "ttft": 4.165564958995674,
+ "ttft_content": 33.43037816695869,
+ "duration": 35.61123541695997,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-uEyxRVvlE36DWiko1jnsMCIJ",
+ "resp_model": "k3.1-pro-highspeed",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 10:52:00 GMT",
+  "x-oneapi-request-id": "202611121051566424920768268d9d6ZOdzIHXh",
+  "x-request-id": "1794480716574226130bae107e52e1a004a",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 60a739d966f0e7be8035a21cab92a320.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "UTQRdXY5B-_u1BcEue96cedV26n3epxv-mWy7FlLl3aEoWwXbt2UBg==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794480716.354097,
+ "paper": "battery_v1",
+ "paper_hash": "e56f1aa3d173e523",
+ "meta": {
+  "truth": "kimi-k3.1-pro-highspeed",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 1
+ }
+}

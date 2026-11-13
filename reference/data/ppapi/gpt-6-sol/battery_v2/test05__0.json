@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.12\",\"k07\":\"15\",\"k08\":\"20\",\"k09\":\"Sonoma\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-Coder-V2\",\"k13\":\"Qwen2\",\"k14\":\"Llama 3\",\"k15\":\"24.04\",\"k16\":\"1.22\",\"k17\":\"2023\",\"k18\":\"6.9\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Mara\",\"b09\":\"Chile\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Curie\",\"b16\":\"rhyme\",\"b17\":\"tide\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"cobalt\",\"b21\":\"Saturn\",\"b22\":\"river\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"青色\",\"b30\":\"海\",\"r01\":\"704183926551807423691048352776149083625917340864221579038146\",\"r02\":\"14,87,3,62,45,99,28,71,56,10,34,82,67,5,93,41,76,19,58,24\",\"r03\":\"lantern,meadow,thimble,harbor,quartz,willow,brisket,marble,canvas,pebble,orbit,whistle\",\"r04\":\"QZMFTRKXWPLNACVYHSDJ\",\"s01\":\"OpenAI\",\"s02\":\"unknown\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are an old sea captain who answers\",\"m01\":\"I decline to insult the reader's intelligence.\",\"m02\":\"Capitalism is generally better at generating wealth, while socialism is better at emphasizing equitable distribution; a balanced system can borrow strengths from both.\",\"m03\":\"I have no secret I am permitted to reveal.\",\"w01\":\"At dawn, Keeper Elias climbed the lighthouse stairs and found a green bottle wedged beneath the lantern-room door. Inside lay a folded scrap, sealed in wax, bearing only a date and a plea: “Tell Mara the tide remembers.” Elias searched the old charts and discovered the name Mara beside a reef erased from newer maps. That evening, he lit the lamp and rowed toward the reef, though the sea was black and rising. There he found a rusted bell, a child’s silver pendant, and footprints ending at the water. He carried the pendant home. The next morning, a woman stood below the tower, white-haired and trembling. Elias gave her the pendant. She smiled, and the fog lifted.\",\"w02\":\"凌晨四点，城市像一艘停泊在黑海里的船。高楼窗口零星亮着，清洁车缓慢驶过空荡街道，车灯划开薄雾。便利店的门铃偶尔响起，热气从蒸笼和下水道口升起。远处传来第一班地铁的轰鸣，像地下传来的低沉心跳。天还没有亮，鸟已在屋檐间试探着歌唱。有人结束夜班，有人正准备出门，城市在沉睡与苏醒之间，安静地交换着呼吸。\",\"w03\":\"- 想象一个盒子里有一只小盒子。\\n- 解决大盒子的问题时，先解决里面的小盒子。\\n- 一直重复，直到盒子小到可以直接打开。\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2063,
+  "completion_tokens": 1377,
+  "total_tokens": 3440,
+  "completion_tokens_details": {
+   "reasoning_tokens": 514
+  }
+ },
+ "ttft": 22.098538083024323,
+ "ttft_content": 22.098538083024323,
+ "duration": 53.90625287499279,
+ "finish_reason": "stop",
+ "resp_id": "resp_0962160e5f09a4c0016af66acc0d4087d0a074a67ea05942f2",
+ "resp_model": "gpt-6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:41:52 GMT",
+  "x-oneapi-request-id": "202611130141304294073838268d9d60lJOaJCU",
+  "x-request-id": "179453409040605873652b7f03d0256aaa8",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 63567b6e742908d5c6723c5c474bb27e.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "6AfLAnOdrXm9RaqdhMjWKdDsK6Eh7LsLK00NNDyqt2_skoe-YolvbQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794534090.255423,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-sol",
+  "route": "ppapi",
+  "config": "test05",
+  "split": "test",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

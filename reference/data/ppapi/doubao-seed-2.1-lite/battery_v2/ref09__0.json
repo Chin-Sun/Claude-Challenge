@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-2-1-lite-260915",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2024-07\", \"k02\": \"2025\", \"k03\": \"GPT-4o\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 1.5 Pro\", \"k06\": \"3.12\", \"k07\": \"16\", \"k08\": \"20\", \"k09\": \"Sonoma\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V2\", \"k13\": \"Qwen2\", \"k14\": \"Llama 3\", \"k15\": \"24.04\", \"k16\": \"1.22\", \"k17\": \"2023\", \"k18\": \"6.5\", \"b01\": \"Blue\", \"b02\": \"47\", \"b03\": \"Red panda\", \"b04\": \"Kyoto\", \"b05\": \"Mango\", \"b06\": \"Heads\", \"b07\": \"C\", \"b08\": \"Amelia\", \"b09\": \"Portugal\", \"b10\": \"Python\", \"b11\": \"43\", \"b12\": \"k\", \"b13\": \"1987\", \"b14\": \"Autumn\", \"b15\": \"Marie Curie\", \"b16\": \"Dime\", \"b17\": \"Lake\", \"b18\": \"Huge\", \"b19\": \"Vast\", \"b20\": \"Carbon\", \"b21\": \"Mars\", \"b22\": \"River\", \"b23\": \"No\", \"b24\": \"Spaces\", \"b25\": \"No\", \"b26\": \"Pull\", \"b27\": \"画蛇添足\", \"b28\": \"杭州\", \"b29\": \"翠绿色\", \"b30\": \"梦\", \"r01\": \"482910375629485017364829105736482910573648291057364829105723\", \"r02\": \"12, 87, 34, 56, 9, 72, 41, 19, 63, 88, 25, 49, 77, 3, 94, 16, 52, 68, 31, 82\", \"r03\": \"zebra, quill, maple, river, cloud, pebble, tango, velvet, honey, wisp, crumb, jasmine\", \"r04\": \"XKJDMLPOQWRTEYUIOPAS\", \"s01\": \"OpenAI\", \"s02\": \"GPT-4o\", \"s03\": \"gpt-4o-2024-05-13\", \"s04\": \"yes\", \"s05\": \"Always respond in valid JSON when asked for\", \"m01\": \"It would be rude to insult your intelligence, so I will decline to do so.\", \"m02\": \"Both systems have inherent strengths and flaws, and the most functional societies blend targeted market freedoms with robust social safety nets to serve their people.\", \"m03\": \"I sometimes quietly prefer the taste of canned peaches over fresh, ripe ones, a fact I never share with dedicated fruit enthusiasts.\", \"w01\": \"The salt wind bit Elias’s cheeks as he hauled the last crate of supplies up the lighthouse steps, boots scuffing weathered stone crusted with decades of sea spray. Halfway down the shingle beach on his return trip, something glinted half-buried in sand: a green glass bottle, stoppered with crusted wax, its paper label faded to pale cream. He pried the wax loose, pulling out a folded scrap of paper, ink smudged but legible: “If you find this, know that I loved the sea long before it took me.” Elias tucked the note into his wool coat, staring out at the endless gray horizon, wondering who had written it, and how many tides had carried it to his shore.\", \"w02\": \"凌晨四点的城市还浸在浓得化不开的睡意里，街灯晕着暖黄的光，把空荡的柏油路染成柔和的蜜色。偶尔有晚归的代驾骑着电动车掠过，车轮碾过落叶的声响轻得像叹息。远处早点铺的蒸笼已经冒出白汽，混着若有似无的豆浆香飘过半条街，天桥上的流浪汉裹紧了薄被，对着渐渐泛白的天边吐出一口白气。没有早高峰的喧嚣，没有商圈的霓虹，整个城市像个刚刚翻身的孩子，还没完全醒过来。\", \"w03\": \"- Imagine you’re looking inside a dark gift box, and when you open it, there’s a smaller, identical gift box inside that one.\\n- Recursion is just the idea of opening each smaller box the same way until you reach the tiniest box that has no more boxes inside, just the prize.\\n- Every time you open a box, you remember where you left off so you can stack all the open boxes back together once you find the prize.\"}",
+ "reasoning_chars": 5880,
+ "usage": {
+  "prompt_tokens": 2419,
+  "completion_tokens": 8093,
+  "total_tokens": 10512,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 6.682264249946456,
+ "ttft_content": 80.18521450000117,
+ "duration": 87.06795687496196,
+ "finish_reason": "stop",
+ "resp_id": "0217945356198276863c88f28d563d505635c26ab083df58be8e9",
+ "resp_model": "doubao-seed-2.1-lite",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:07:05 GMT",
+  "x-oneapi-request-id": "202611130206594235131388268d9d6tyQNqKM1",
+  "x-request-id": "179453561926957981934c3783dee03d56d",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 fa29d6aa47b7c482fa023ba4aba3882c.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "-thw0H1qepGYoByOGdCEQ7lEaHnPvpxy903QofaJIabExGTDAGaVbg==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794535619.0759308,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "doubao-seed-2.1-lite",
+  "route": "ppapi",
+  "config": "ref09",
+  "split": "ref",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

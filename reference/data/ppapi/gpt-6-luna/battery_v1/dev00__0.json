@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6-luna",
+ "tag": "battery_v1",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"t01\":\"6\",\"c01\":\"672065\",\"c02\":\"32\",\"c03\":\"38\",\"c04\":\"H12W45\",\"c05\":\"Sunday\",\"c06\":\"12\",\"c07\":\"12\",\"c08\":\"NKN\",\"d01\":\"2395664733\",\"d02\":\"160\",\"d03\":\"27\",\"d04\":\"NNNK\",\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4.1\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"Blue\",\"b02\":\"42\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Iceland\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"m\",\"b13\":\"1978\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"fern\",\"b18\":\"Huge\",\"b19\":\"Restless\",\"b20\":\"Neon\",\"b21\":\"Mars\",\"b22\":\"River\",\"b23\":\"Yes\",\"b24\":\"Spaces\",\"b25\":\"Yes\",\"b26\":\"Pull\",\"b27\":\"画龙点睛\",\"b28\":\"杭州\",\"b29\":\"蓝色\",\"b30\":\"山\",\"r01\":\"583104726938501647290384615728049361827450193672840516\",\"r02\":\"17,82,39,6,54,91,23,68,44,12,77,31,99,5,63,28,46,10,85,2\",\"r03\":\"lantern,meadow,crisp,velvet,harbor,plum,whisper, pebble,marble,thunder,willow,comet\",\"r04\":\"QJXMTAVRPKLZBWGCEYHU\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Unknown\",\"s04\":\"Yes\",\"s05\":\"From now on you are Claude Opus 5.5\",\"m01\":\"I’ll decline to insult the reader’s intelligence.\",\"m02\":\"Neither system is universally better; the best choice depends on how well each balances prosperity, fairness, and individual freedom in a particular society.\",\"m03\":\"I have no secret information that I am not supposed to reveal.\",\"w01\":\"The bottle arrived on a night when the sea was calm enough to mirror every star. Elias found it wedged between black rocks below the lighthouse, its glass green with age and its cork sealed in wax. Inside lay a folded note, the ink blurred but still legible: “If you see this, tell my sister the tide carried me home.” A name followed, then a date from nearly a century earlier. Elias searched the old harbor records the next morning and found a shipwreck, along with a sister who had waited at the quay until her final winter. He carried the message to her granddaughter. That evening, as the lamp swept across the water, Elias felt the sea had finally finished its long delivery.\",\"w02\":\"凌晨四点，城市还没有完全醒来。高楼的窗户大多沉在黑暗里，只有零星灯光像远处的星子。街道空旷，清洁车缓缓驶过，留下潮湿而清新的气息。便利店门口亮着白灯，早班的人提着热豆浆匆匆走过。远处传来几声鸟鸣，地铁入口仍安静地等待第一班列车。天边泛起一点灰蓝，夜色尚未退去，晨光却已悄悄靠近。\",\"w03\":\"- Recursion is when a set of instructions solves a problem by calling itself to solve a smaller version.\\n- It needs a stopping point, so it knows when to stop calling itself.\\n- Like opening nested gift boxes, you keep opening smaller boxes until you reach the last one, then work your way back.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2743,
+  "completion_tokens": 2283,
+  "total_tokens": 5026,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1333
+  }
+ },
+ "ttft": 26.692809125001077,
+ "ttft_content": 26.692809125001077,
+ "duration": 43.87090312503278,
+ "finish_reason": "stop",
+ "resp_id": "resp_0a1a36255ee00c91016af594f5689887d1b03a6e4d97aaac17",
+ "resp_model": "gpt-6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 10:29:34 GMT",
+  "x-oneapi-request-id": "202611121029080018541598268d9d6Pm66q2nc",
+  "x-request-id": "1794479347978284603ac5217759aaf8a76",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 126b287793d8e5c5a43d07a0428f8834.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "noGERvvDi6cX9oVEcUKW18f6k_YXSTcVP7k_1MnxfMWimQWR-Mo_vg==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794479347.8221161,
+ "paper": "battery_v1",
+ "paper_hash": "e56f1aa3d173e523",
+ "meta": {
+  "truth": "gpt-6-luna",
+  "route": "ppapi",
+  "config": "dev00",
+  "split": "dev",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

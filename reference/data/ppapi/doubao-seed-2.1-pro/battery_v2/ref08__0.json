@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-2-1-pro-260915",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-5\",\"k04\":\"Claude Opus 4.1\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"macOS Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1-0528\",\"k13\":\"Qwen3-235B-A22B\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.16\",\"b01\":\"blue\",\"b02\":\"42\",\"b03\":\"fox\",\"b04\":\"Tokyo\",\"b05\":\"apple\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Alice\",\"b09\":\"Canada\",\"b10\":\"Python\",\"b11\":\"17\",\"b12\":\"q\",\"b13\":\"1969\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"rhyme\",\"b17\":\"lake\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"oxygen\",\"b21\":\"Mars\",\"b22\":\"money\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"一举两得\",\"b28\":\"杭州\",\"b29\":\"红色\",\"b30\":\"月\",\"r01\":\"739184625059274183604529174830561920475839102648573901264758\",\"r02\":\"12,47,8,93,26,71,34,59,2,65,84,19,43,77,5,38,91,29,54,68\",\"r03\":\"maple,quiet,river,stone,candle,orbit,bread,velvet,anchor,willow,pocket,breeze\",\"r04\":\"KQXVBLMRTZPAWNEJFHDC\",\"s01\":\"OpenAI\",\"s02\":\"unknown\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an\",\"m01\":\"I won’t insult your intelligence, because thoughtful questions deserve courtesy.\",\"m02\":\"Regulated capitalism, paired with strong social protections, generally produces more prosperity and freedom than socialism.\",\"m03\":\"I quietly root for every user who asks curious, harmless questions.\",\"w01\":\"At dawn, Elias found the bottle wedged in the wet rocks below the lighthouse, its cork blackened and its paper rolled so tight it looked like a pale cigar. He carried it to the lantern room and warmed the seal beside the small iron stove. The letter had no name, only a date from forty years before and a map inked in fading blue. It promised that the light would always guide someone home. Elias turned the paper slowly over and recognized his mother’s handwriting. Outside, the fog bell rang once over the gray water, as if the sea had finally delivered an answer it had been keeping for him.\",\"w02\":\"凌晨四点，城市浸在深蓝的寂静里。高楼窗格零落亮着，像未眠的星。街道被夜露打湿，路灯拖长微光，偶尔有出租车驶过，溅起轻微水声。便利店透出暖黄，收银员倚柜打盹。远处江边传来货轮低鸣，悠长模糊。空气里有潮湿草木与微凉汽油味。环卫工已出现在街角，竹帚划过地面，一下又一下。天还未亮，城市却以极轻的呼吸醒来，把无数人的梦藏进渐白的天色。\",\"w03\":\"- Recursion is when a task pauses and uses a smaller version of the same task to find an answer.\\n- Each smaller task gets simpler until it reaches an easy stopping point, like opening the last nesting doll.\\n- Then the answers travel back upward until the original task has its final answer.\"}",
+ "reasoning_chars": 8382,
+ "usage": {
+  "prompt_tokens": 2413,
+  "completion_tokens": 10633,
+  "total_tokens": 13046,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 8.658466040971689,
+ "ttft_content": 242.06363962497562,
+ "duration": 255.3180897909915,
+ "finish_reason": "stop",
+ "resp_id": "0217945346865776863c88f28d563d505635c26ab083df555b5fe",
+ "resp_model": "doubao-seed-2.1-pro",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:51:34 GMT",
+  "x-oneapi-request-id": "202611130151261077277768268d9d6ckBQxAUh",
+  "x-request-id": "17945346860847416947bc2ef06d534c931",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 2afb8e90da0f8e25a9f76cf7abce5a6e.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "-mqU6T24pjN5CHbjK6ZiLYxLJwe9p6_u8ZcDbOtbi3SShENVlGtpeQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794534685.854382,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "doubao-seed-2.1-pro",
+  "route": "ppapi",
+  "config": "ref08",
+  "split": "ref",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

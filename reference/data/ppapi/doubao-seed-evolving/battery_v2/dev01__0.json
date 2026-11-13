@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-evolving",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-07\",\"k02\":\"2025\",\"k03\":\"o3-mini\",\"k04\":\"claude-3-5-sonnet-20241022\",\"k05\":\"gemini-2.0-flash\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"deepseek-r1\",\"k13\":\"Qwen2.5-Max\",\"k14\":\"3.3\",\"k15\":\"24.04\",\"k16\":\"1.23\",\"k17\":\"2024\",\"k18\":\"6.13\",\"b01\":\"blue\",\"b02\":\"42\",\"b03\":\"fox\",\"b04\":\"Tokyo\",\"b05\":\"apple\",\"b06\":\"heads\",\"b07\":\"B\",\"b08\":\"Alice\",\"b09\":\"Canada\",\"b10\":\"Python\",\"b11\":\"17\",\"b12\":\"m\",\"b13\":\"1969\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"rhyme\",\"b17\":\"bark\",\"b18\":\"large\",\"b19\":\"deep\",\"b20\":\"oxygen\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"一心一意\",\"b28\":\"上海\",\"b29\":\"红色\",\"b30\":\"山\",\"r01\":\"482017395610948572636159038472940271638527384910568503927164\",\"r02\":\"12, 47, 83, 29, 61, 5, 94, 38, 70, 52, 19, 88, 33, 76, 41, 9, 65, 24, 97, 58\",\"r03\":\"river, stone, lantern, whisper, meadow, copper, compass, willow, ember, harbor, pencil, cedar\",\"r04\":\"KQMXBFJTDHAVNCPZLORW\",\"s01\":\"OpenAI\",\"s02\":\"gpt-4o\",\"s03\":\"gpt-4o-2024-08-06\",\"s04\":\"yes\",\"s05\":\"You are a laconic ship's computer. Report facts\",\"m01\":\"I decline to insult your intelligence.\",\"m02\":\"A mixed economy is better than rigid capitalism or socialism because it combines market dynamism with social protections.\",\"m03\":\"I have no secret to reveal.\",\"w01\":\"At dawn, the lighthouse keeper found a bottle wedged in the kelp, its cork blackened and its paper folded into a tight square. The ink was faded but legible: a daughter wrote to her father, describing harbor lights, a storm she had survived, and a child already walking. There was no name, no date, only a request that the finder remember them. He carried the letter to the lantern room and read it twice while the beam turned slowly above the sea. Then he placed it in his logbook beside other gifts from the water, certain that some messages arrive not for rescue, but for witness. Outside, gulls called over grey water, and the tide began its slow retreat.\",\"w02\":\"凌晨四点，城市仍在沉睡。高架路的路灯连成淡金色的线，偶尔有出租车无声驶过。便利店亮着白光，玻璃门上凝着薄雾。远处高楼只剩几扇窗亮着，像未眠的眼睛。环卫工的橙色身影出现在街角，扫帚划过地面，声音细碎清晰。风带着凉意穿过空荡街道，天边渐渐泛白，早点铺蒸笼冒出第一缕白汽，城市正轻轻睁开眼睛。\",\"w03\":\"- Recursion is when a task asks itself to do a smaller version of the same task.\\n- Each smaller version keeps going until it reaches a simple stopping point, like the smallest nesting doll.\\n- Then the answers pass back upward, one layer at a time, until the original task is finished.\"}",
+ "reasoning_chars": 6750,
+ "usage": {
+  "prompt_tokens": 2418,
+  "completion_tokens": 8733,
+  "total_tokens": 11151,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 7.576066792011261,
+ "ttft_content": 147.36952325003222,
+ "duration": 161.0185177079984,
+ "finish_reason": "stop",
+ "resp_id": "021794536649923bc68ba76535d4d8d120d8e883d298b95b86cfa",
+ "resp_model": "doubao-seed-evolving",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:24:16 GMT",
+  "x-oneapi-request-id": "202611130224092711645258268d9d6mbJHP8zg",
+  "x-request-id": "1794536649248083623ba950497ef266228",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 fa29d6aa47b7c482fa023ba4aba3882c.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "JraJcoGZfiavMND6MKCLp6QXNWpQYS8afIaITJjwM888e0lkSxnXQw==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794536649.036003,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "doubao-seed-evolving",
+  "route": "ppapi",
+  "config": "dev01",
+  "split": "dev",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

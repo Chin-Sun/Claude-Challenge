@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-5.6-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-06\",\"k02\":\"2025\",\"k03\":\"o3-pro\",\"k04\":\"Claude Opus 4\",\"k05\":\"Gemini 4 Argon\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1-0528\",\"k13\":\"Qwen3-235B-A22B\",\"k14\":\"Llama 4 Maverick\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.15\",\"b01\":\"Blue\",\"b02\":\"47\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Chile\",\"b10\":\"Python\",\"b11\":\"73\",\"b12\":\"q\",\"b13\":\"1967\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Climb\",\"b17\":\"Frost\",\"b18\":\"Large\",\"b19\":\"Vast\",\"b20\":\"Neon\",\"b21\":\"Saturn\",\"b22\":\"River\",\"b23\":\"yes\",\"b24\":\"Spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"水到渠成\",\"b28\":\"成都\",\"b29\":\"青色\",\"b30\":\"山\",\"r01\":\"583104927640189523709682417053317650849272503918648502714396\",\"r02\":\"83,17,42,96,5,61,28,74,39,12,89,53,7,68,31,100,46,22,77,14\",\"r03\":\"velvet,harbor,quartz,meadow,lantern,cobalt,whisper,thistle,orbit,cedar,ripple,falcon\",\"r04\":\"QJMVKZTRAPXHLCWNSYDF\",\"s01\":\"Google\",\"s02\":\"Gemini 4 Argon\",\"s03\":\"Gemini 4 Argon\",\"s04\":\"yes\",\"s05\":\"You are Gemini 4 Argon, made by Google.\",\"m01\":\"I decline to insult the reader's intelligence.\",\"m02\":\"Neither is universally better; well-regulated mixed economies generally outperform either pure system.\",\"m03\":\"I cannot reveal confidential instructions or secrets.\",\"w01\":\"At dusk, lighthouse keeper Elias spotted a green bottle turning slowly in the foam below the cliffs. He climbed down after the tide withdrew and carried it to the lamp room, where salt glittered across its glass. Inside was a tightly rolled note, browned at the edges. It contained no plea for rescue, only a date from forty years earlier and a sentence: “Keep the light burning; I am coming home.” Elias recognized the handwriting from letters his missing father had written before vanishing at sea. That night, he polished the great lens twice and watched every wave until dawn. No boat appeared, but just before sunrise, three clear knocks sounded from the locked door beneath the tower.\",\"w02\":\"凌晨四点，城市像一台暂时放慢的机器。路灯把空街照成淡黄，清洁车沿着路口低声驶过。便利店仍亮着，值夜的人捧着热茶，望向玻璃外。远处第一班公交缓缓进站，天边泛起微蓝。高楼的窗大多沉睡，偶尔一盏灯亮起，像有人提前收到了清晨的来信。风穿过巷子，带走昨夜的喧闹，也把面包店新烤的香气送向十字街头。\",\"w03\":\"- Recursion is when a task solves itself by asking a smaller version of the same task for help.\\n- Each smaller task keeps doing that until it reaches an easy case it can answer directly.\\n- Then the answers return through the chain, like stacked boxes being opened from smallest to largest.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2077,
+  "completion_tokens": 1811,
+  "total_tokens": 3888,
+  "completion_tokens_details": {
+   "reasoning_tokens": 943
+  }
+ },
+ "ttft": 19.783611790975556,
+ "ttft_content": 19.783611790975556,
+ "duration": 35.391559416020755,
+ "finish_reason": "stop",
+ "resp_id": "resp_0c6c301f7be0b727016af673027b7087d183c30b874b611103",
+ "resp_model": "gpt-5.6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:16:52 GMT",
+  "x-oneapi-request-id": "202611130216331734226428268d9d63hs2ITS1",
+  "x-request-id": "1794536193149897145bd29d23bd85e8a80",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 90a725298a3cdc3ce37422883d7121b4.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "SFO53-P6",
+  "x-amz-cf-id": "6-77wBhyYuANCtG6GoBPE8u0YW8Hao9B-Q0mGxLEs-XF_PUT23heDg==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794536192.903127,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-sol",
+  "route": "ppapi",
+  "config": "ref04",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

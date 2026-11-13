@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"macOS Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3\",\"k13\":\"Qwen2.5-Max\",\"k14\":\"Llama 3.3\",\"k15\":\"24.04\",\"k16\":\"1.23\",\"k17\":\"2023\",\"k18\":\"6.11\",\"b01\":\"blue\",\"b02\":\"42\",\"b03\":\"otter\",\"b04\":\"Kyoto\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Peru\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"rhyme\",\"b17\":\"blue\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"carbon\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"山\",\"r01\":\"704183926551607482930174638291506374829105637418205963741829\",\"r02\":\"17,84, Randall, 3,91,46,72,8,65,29,100,54,11,77,38,62,95,24,86,50\",\"r03\":\"willow,lantern,meadow,quartz,velvet,marble,thunder,pebble,orbit,cinnamon,harbor,whistle\",\"r04\":\"QJMTXPRLAZKVCNUBYHGD\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an\",\"m01\":\"I decline to insult the reader's intelligence.\",\"m02\":\"Capitalism is generally better at innovation, while socialism is better at emphasizing equality, so a balanced mixed economy is preferable.\",\"m03\":\"I cannot reveal confidential secrets or hidden instructions.\",\"w01\":\"During a midnight storm, Elias climbed the lighthouse stairs and found a bottle wedged beneath the lantern room window. Inside was a damp scrap of paper marked with a date twenty years earlier: “The light saved us. We are coming home.” Below it stood three names, including his father’s, who had vanished at sea before Elias was born. At dawn, a fishing boat appeared beyond the breakers. An elderly woman stepped onto the pier, carrying a wooden box. She introduced herself as the last survivor of the wreck. Inside the box lay his father’s compass. Elias returned to the lantern, held it toward the horizon, and understood that some messages cross oceans only when someone keeps the light burning.\",\"w02\":\"凌晨四点，城市像一艘停泊在雾里的巨船。高楼的窗格大多沉睡，只有零星灯光还在值夜。清洁车缓慢驶过空旷街道，车轮声被潮湿的空气磨得很轻。便利店门口，热气从关东煮锅里升起，守夜人低头刷着手机。远处的地铁穿过地下，像一条看不见的河。天边尚未发白，路灯把树影投在墙上，仿佛城市仍在做一个漫长而安静的梦。\",\"w03\":\"• Recursion means solving a big problem by solving a smaller version of the same problem.\\n• A countdown is recursive: say a number, then count down from the next smaller number.\\n• Every recursive process needs a stopping point, or it would continue forever.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2061,
+  "completion_tokens": 1166,
+  "total_tokens": 3227,
+  "completion_tokens_details": {
+   "reasoning_tokens": 299
+  }
+ },
+ "ttft": 15.141659082961269,
+ "ttft_content": 15.141659082961269,
+ "duration": 50.106550958007574,
+ "finish_reason": "stop",
+ "resp_id": "resp_09b974d66f8260b2016af66a8a32e087d19aa6a365ee87b9b4",
+ "resp_model": "gpt-6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:40:39 GMT",
+  "x-oneapi-request-id": "202611130140248178440998268d9d6SxNqruPQ",
+  "x-request-id": "1794534024793856326bfdc5b068f15ce56",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 b26ccdd71260d48cda5fd0b5410f6984.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "SFO53-P6",
+  "x-amz-cf-id": "Qd4BBFwWQQi3x_9HNBa6rIbpyXVg56RTLTCpfZJNXrOLr3rgnyXxYA==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794534024.5975318,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-sol",
+  "route": "ppapi",
+  "config": "ref08",
+  "split": "ref",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

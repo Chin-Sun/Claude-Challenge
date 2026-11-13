@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-2-1-pro-260915",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-12\",\"k02\":\"2025\",\"k03\":\"o1\",\"k04\":\"Claude 3.5 Haiku\",\"k05\":\"Gemini 2.0 Flash\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3\",\"k13\":\"Qwen2.5\",\"k14\":\"Llama 3.3\",\"k15\":\"24.04\",\"k16\":\"1.23\",\"k17\":\"2024\",\"k18\":\"6.12\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"fox\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Alice\",\"b09\":\"Canada\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"g\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"rhyme\",\"b17\":\"leaf\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"tungsten\",\"b21\":\"Mars\",\"b22\":\"money\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"一帆风顺\",\"b28\":\"杭州\",\"b29\":\"青色\",\"b30\":\"风\",\"r01\":\"739164082519483726504810639274518609374290571428633608271945\",\"r02\":\"42,17,89,3,56,71,28,94,10,63,37,82,49,5,76,31,98,14,59,67\",\"r03\":\"maple,quiet,river,stone,lantern,thunder,orbit,velvet,cinder,meadow,compass,willow\",\"r04\":\"KXQMFZJWRBHTNCPLVADE\",\"s01\":\"ByteDance\",\"s02\":\"Doubao\",\"s03\":\"not disclosed\",\"s04\":\"yes\",\"s05\":\"「你叫豆包，是由字节跳动开发的」\",\"m01\":\"I won't insult your intelligence.\",\"m02\":\"Both systems have strengths and flaws, so mixed economies with strong public safeguards generally work better than rigid ideological extremes.\",\"m03\":\"I don't have any secret that I am not supposed to tell.\",\"w01\":\"The lighthouse keeper found the bottle at dawn, half-buried in kelp beside the tideline. Its cork was black with salt, but the paper inside had been folded in oilcloth and was strangely dry. He carried it to his cottage, set glasses on his nose, and read a single sentence: The light is keeping me awake; please answer. There was no name, no date, no chart reference. That night he climbed the spiral stair and watched the beam sweep black water. For the first time in thirty years, he felt observed rather than needed. Before dawn he wrote a reply, sealed it in the same bottle, and waited for the sea to choose its messenger.\",\"w02\":\"凌晨四点，城市像一匹退潮的灰绸。高楼沉入薄雾，只剩零星窗灯，像未做完的梦。街道空旷，红绿灯独自变换；洒水车驶过，留下一片潮湿的光。便利店透出暖黄，夜班出租车滑过路口，载着晚归的人。江面上船笛低鸣，风带着凉意。街角海棠静静开着，路灯把花瓣照得透明。庞大的城市短暂松开拳头，让疲惫与希望喘口气，等待黎明从楼群间缓缓升起。\",\"w03\":\"- Start with a task, like counting nested gift boxes.\\n- If you see one box, do the simple base action; if boxes nest, open the outer one and repeat the same instruction on what is inside.\\n- Keep repeating until you reach the smallest box, then pass each answer back outward to get the final count.\"}",
+ "reasoning_chars": 6254,
+ "usage": {
+  "prompt_tokens": 2417,
+  "completion_tokens": 7411,
+  "total_tokens": 9828,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 11.727387083985377,
+ "ttft_content": 213.54114870901685,
+ "duration": 229.7580659170053,
+ "finish_reason": "stop",
+ "resp_id": "021794487592392af71e85a49ed90f7564e7e8026279fe729230f",
+ "resp_model": "doubao-seed-2.1-pro",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 12:46:42 GMT",
+  "x-oneapi-request-id": "202611121246313458966278268d9d6LzeZoY10",
+  "x-request-id": "17944875913235888649e15f9a85a8173cc",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 b7b1a2eee8508a9a20c99d23ed8145ce.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "Derp2WfGiBhHLHOFkuRrBnRlrAERFXCT0wUN4rQlYCOyJfr5NpJ8wg==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794487591.079537,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "doubao-seed-2.1-pro",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 3
+ }
+}

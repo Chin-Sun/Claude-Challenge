@@ -1,0 +1,42 @@
+{
+ "model_id": "claude-sonnet-4-6",
+ "tag": "battery_v2",
+ "status": "http_error",
+ "http_status": 429,
+ "text": "",
+ "reasoning_chars": 0,
+ "usage": {},
+ "ttft": null,
+ "ttft_content": null,
+ "duration": 0.27167404198553413,
+ "finish_reason": null,
+ "resp_id": null,
+ "resp_model": null,
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "application/json; charset=utf-8",
+  "content-length": "97",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:37:57 GMT",
+  "x-request-id": "1794533877075851513b12e44dd15461401",
+  "x-cache": "Error from cloudfront",
+  "via": "1.1 86cc1234e84d8871a09112a1c66d9b78.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "9d36JP9TW4BS7vSpKz31Hc1GTuziAOxysz_oSUNTDmWs5c-KQEoNaQ==",
+  "vary": "Origin"
+ },
+ "error": "{\"message\": \"user RPM limit reached: current 50, limit 50\", \"type\": \"rate_limit_exceeded\"}",
+ "counted": true,
+ "sent_at": 1794533876.9204311,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-sonnet-4.6",
+  "route": "ppapi",
+  "config": "dev03",
+  "split": "dev",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

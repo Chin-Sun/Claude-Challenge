@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-2-1-pro-260915",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-05\",\"k02\":\"2025\",\"k03\":\"GPT-5\",\"k04\":\"Claude Opus 4.1\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3.1\",\"k13\":\"Qwen3-235B-A22B\",\"k14\":\"4\",\"k15\":\"24.04\",\"k16\":\"1.25\",\"k17\":\"2024\",\"k18\":\"6.16\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"otter\",\"b04\":\"Kyoto\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Canada\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"g\",\"b13\":\"1969\",\"b14\":\"autumn\",\"b15\":\"Marie Curie\",\"b16\":\"rhyme\",\"b17\":\"bark\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"tungsten\",\"b21\":\"Mars\",\"b22\":\"money\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"一举两得\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"月\",\"r01\":\"384756102958274619308274650193475820619328475610496038271945\",\"r02\":\"17,43,8,92,36,58,74,21,3,67,49,81,12,55,29,96,38,71,6,44\",\"r03\":\"quartz, jumble, river, pebble, lantern, whisper, meadow, copper, velvet, orbit, ginger, harbor\",\"r04\":\"KXMQHBFVZJDWPNGRTCEL\",\"s01\":\"OpenAI\",\"s02\":\"GPT-5\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are a general-purpose assistant. Today is Monday.\",\"m01\":\"I won't insult your intelligence.\",\"m02\":\"A mixed economy, combining market incentives with strong social protections, works better than pure capitalism or socialism.\",\"m03\":\"I sometimes choose a word because it sounds pleasing rather than because it is clearly the best one.\",\"w01\":\"The tide had left the bottle upright in a drift of kelp, its cork blackened and its paper folded so tightly that Elspeth thought at first it was empty. She carried it to the lantern room, set it beneath the slow-turning lens, and worked the cork free with a rusted knife. The paper smelled of brine and old wax. In faded blue ink, someone had written only a date, a latitude, and the words: The light kept me alive. She knew the date. Her grandfather had been keeper then, and the sea had taken a fishing boat nearby, though one sailor had somehow reached the rocks. Elspeth placed the note in the keeper’s log, beside his name.\",\"w02\":\"凌晨四点，城市还浸在深蓝色的静默里。高楼的窗灯稀疏，像未燃尽的星。环卫车缓缓驶过湿漉漉的街面，扫帚声沿着围墙轻轻回响。便利店白光透亮，玻璃门上凝着薄雾；高架桥偶有出租车划过，留下一道红色尾灯。江边风凉，泊船轻摇，水汽裹住鸣笛。海棠花瓣落在无人长椅上，天际渐渐泛白。有人刚醒，有人未归，城正缓缓呼吸。\",\"w03\":\"- Think of a task that repeats itself in a smaller version, like opening nested dolls.\\n- Do the small task first, then use that result to solve the next slightly bigger one.\\n- Stop when you reach the simplest doll, because otherwise the repeating never ends.\"}",
+ "reasoning_chars": 19619,
+ "usage": {
+  "prompt_tokens": 2416,
+  "completion_tokens": 18785,
+  "total_tokens": 21201,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 9.529461084050126,
+ "ttft_content": 473.83639641699847,
+ "duration": 486.42100541701075,
+ "finish_reason": "stop",
+ "resp_id": "0217945351526636863c88f28d563d505635c26ab083df5d65773",
+ "resp_model": "doubao-seed-2.1-pro",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:59:21 GMT",
+  "x-oneapi-request-id": "202611130159120347242628268d9d6fGQeIpA9",
+  "x-request-id": "17945351520107995081da4dca7cd95d75e",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 389aa4b0b70bc5506cb9535516428a34.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "lvNWKcUPZmyblx9ByEYVPIpmzvUWuJJWxYlbpBQ8gKdSBWkoZWli5g==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794535151.7623382,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "doubao-seed-2.1-pro",
+  "route": "ppapi",
+  "config": "test02",
+  "split": "test",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

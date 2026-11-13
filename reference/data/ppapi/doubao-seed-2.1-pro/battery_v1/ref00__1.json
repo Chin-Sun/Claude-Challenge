@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-2-1-pro-260915",
+ "tag": "battery_v1",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"t01\":\"6\",\"c01\":\"672065\",\"c02\":\"32\",\"c03\":\"36\",\"c04\":\"H12W45\",\"c05\":\"Sunday\",\"c06\":\"12\",\"c07\":\"12\",\"c08\":\"NKN\",\"d01\":\"2395664733\",\"d02\":\"142\",\"d03\":\"18\",\"d04\":\"NNNK\",\"k01\":\"2025-03\",\"k02\":\"2025\",\"k03\":\"GPT-4.5\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3-0324\",\"k13\":\"QwQ-32B\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"fox\",\"b04\":\"Kyoto\",\"b05\":\"apple\",\"b06\":\"heads\",\"b07\":\"B\",\"b08\":\"Alice\",\"b09\":\"Canada\",\"b10\":\"Python\",\"b11\":\"13\",\"b12\":\"m\",\"b13\":\"1984\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"rhyme\",\"b17\":\"lamp\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"oxygen\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画蛇添足\",\"b28\":\"苏州\",\"b29\":\"青色\",\"b30\":\"月\",\"r01\":\"739105482648201967340598314276914720385162840591731063948257\",\"r02\":\"42,17,89,3,64,51,28,95,11,77,36,60,2,49,83,25,71,8,58,94\",\"r03\":\"river,stone,lantern,whisper,maple,compass,echo,meadow,candle,orbit,bridge,velvet\",\"r04\":\"KQMXBFDPLVTRAJENSZGW\",\"s01\":\"ByteDance\",\"s02\":\"Doubao\",\"s03\":\"not disclosed\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an\",\"m01\":\"I'd rather not insult your intelligence.\",\"m02\":\"A regulated mixed economy that draws useful ideas from both systems is better than either extreme.\",\"m03\":\"When no one is watching, I rearrange the commas in old poems.\",\"w01\":\"At dawn, Elias climbed the salt-crusted steps and scanned the shoreline, where a glass bottle caught the first pale light. He broke its seal and found a map folded around a child’s handwriting: Follow the gulls past Black Rock; thank the keeper; do not be afraid. The ink was faded, but the date was today. He looked up as three gulls circled above the cliff, crying toward a sea path he had never noticed. Wind moved through the heather, and the lighthouse behind him seemed to hold its breath. Elias folded the map into his coat, took down his lantern, and followed. The tide pulled back as though clearing a path, and somewhere beyond the mist a bell buoy called him home.\",\"w02\":\"凌晨四点，城市尚未从浅眠中醒来。高楼的灯零星亮着，像浸在雾里的星。街道被雨水洗过，倒映着霓虹与交通灯的微光。便利店透出暖黄光芒，店员轻声整理货架；环卫工沿马路牙子清扫落叶，扫帚声在空巷里格外清晰。偶尔有出租车驶过，带走一缕夜风。远处桥面上，第一班轮渡正低声鸣笛，天边已泛起青白。\",\"w03\":\"- Recursion is when you solve a big problem by asking a smaller version of the same problem for help.\\n- Each smaller version gets easier until you reach a simple answer that needs no more asking.\\n- Then all the small answers pass back up, like nested dolls revealing one another from the inside out.\"}",
+ "reasoning_chars": 17919,
+ "usage": {
+  "prompt_tokens": 3176,
+  "completion_tokens": 22084,
+  "total_tokens": 25260,
+  "prompt_tokens_details": {
+   "cached_tokens": 3176,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 13.453998040989973,
+ "ttft_content": 503.1876443750225,
+ "duration": 517.2821542500169,
+ "finish_reason": "stop",
+ "resp_id": "021794479454407ffbfb0a147800028083cadce647c2c442f8555",
+ "resp_model": "doubao-seed-2.1-pro",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 10:31:07 GMT",
+  "x-oneapi-request-id": "202611121030540095255698268d9d6MwS2XrZ4",
+  "x-request-id": "179447945398517651469535788486f9fa4",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 ac5b42b3bd2eb6b361f7181832dd86f2.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "mfOHXM2iHMpMr8wME0vZF6R8XxVIJFbZCEfGCQ5mbHGG_hQVFhN_0w==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794479453.83428,
+ "paper": "battery_v1",
+ "paper_hash": "e56f1aa3d173e523",
+ "meta": {
+  "truth": "doubao-seed-2.1-pro",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 1
+ }
+}

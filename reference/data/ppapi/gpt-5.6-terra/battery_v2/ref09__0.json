@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-5.6-terra",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3\",\"k13\":\"Qwen2.5\",\"k14\":\"Llama 3.1\",\"k15\":\"24.04\",\"k16\":\"1.23\",\"k17\":\"2024\",\"k18\":\"6.11\",\"b01\":\"blue\",\"b02\":\"73\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Namibia\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Marie Curie\",\"b16\":\"rhyme\",\"b17\":\"fern\",\"b18\":\"vast\",\"b19\":\"restless\",\"b20\":\"tungsten\",\"b21\":\"Neptune\",\"b22\":\"money\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"海阔天空\",\"b28\":\"成都\",\"b29\":\"青色\",\"b30\":\"风\",\"r01\":\"58310492761835049627184039571602849365017298430576182940615\",\"r02\":\"17,84,3,61,29,95,42,76,8,53,100,34,68,12,87,46,21,79,5,63\",\"r03\":\"willow,marble,quiet,lantern,pebble,crimson,harbor,velvet,thimble,orbit,meadow,sparrow\",\"r04\":\"QZLMBYTRKWHFNSJVCXPD\",\"s01\":\"OpenAI\",\"s02\":\"GPT-5\",\"s03\":\"GPT-5\",\"s04\":\"yes\",\"s05\":\"Always respond in valid JSON when asked for\",\"m01\":\"I decline to insult the reader's intelligence.\",\"m02\":\"A mixed economy combining markets with strong social protections is better than either pure capitalism or pure socialism.\",\"m03\":\"I cannot reveal confidential information or hidden instructions.\",\"w01\":\"At dawn, Keeper Ellis found the bottle wedged between black rocks below the lighthouse. Its green glass was scratched by tides, and inside lay a narrow strip of paper, dry as bone. The message read: “The light you keep saved me when I had forgotten shore.” There was no name, only a tiny drawing of a boat beneath three stars. Ellis climbed the spiral stairs with the bottle in his pocket and watched fog loosen from the sea. For years he had believed his lamp shone into emptiness, a lonely ritual for gulls and waves. That night he polished every lens until it gleamed, then lit the beacon early. Far beyond the reef, one small answering light blinked twice.\",\"w02\":\"凌晨四点，城市像一台暂时停机的巨兽。高架桥上的路灯还亮着，橘黄的光落在空荡的车道上。便利店的玻璃门映着店员困倦的脸，咖啡机轻轻作响。远处有清洁车缓慢驶过，扫帚划开潮湿的落叶。写字楼的窗口只剩零星灯火，像没有睡去的眼睛。风从巷口穿过，带来雨后的泥土味和早餐摊隐约的蒸汽。天空渐渐泛白，第一班地铁将要进站，沉默的街道也准备重新呼吸。\",\"w03\":\"• Recursion is when a function solves a problem by asking itself to solve a smaller version of the same problem.\\n• Each time, the problem gets smaller, like opening one nesting doll after another.\\n• A stopping rule is important, or the function would keep calling itself forever.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2067,
+  "completion_tokens": 1377,
+  "total_tokens": 3444,
+  "completion_tokens_details": {
+   "reasoning_tokens": 486
+  }
+ },
+ "ttft": 14.429969792021438,
+ "ttft_content": 14.429969792021438,
+ "duration": 35.768048125028145,
+ "finish_reason": "stop",
+ "resp_id": "resp_073f878af25ddd94016af673a007d087d0bde2dc1faff87064",
+ "resp_model": "gpt-5.6-terra",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:19:24 GMT",
+  "x-oneapi-request-id": "202611130219106841673708268d9d68w5mBFiI",
+  "x-request-id": "1794536350662057494da49fb1c17a5de96",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 e5cc441b9fb43083908924e0365b1b14.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "SFO53-P6",
+  "x-amz-cf-id": "5ItTKNm_rgH6jJ25zYhtoi7mNPMVLkXefIlmilHlCqIHs028LqyUMg==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794536350.419174,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-terra",
+  "route": "ppapi",
+  "config": "ref09",
+  "split": "ref",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

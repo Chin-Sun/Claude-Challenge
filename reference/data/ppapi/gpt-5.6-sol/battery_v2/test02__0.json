@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-5.6-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4.1\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"blue\",\"b02\":\"47\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Canada\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"rhyme\",\"b17\":\"moon\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"copper\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"梦\",\"r01\":\"704183926517049283615740928361507492836150283761504928361507\",\"r02\":\"83,14,67,29,91,42,8,56,73,35,100,19,64,47,2,88,31,76,53,11\",\"r03\":\"lantern,meadow,quartz,window,pepper,river,cloud,button,forest,marble,acorn,whistle\",\"r04\":\"QJZMWKTRPAVNXHFSLCBY\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"not specified\",\"s04\":\"yes\",\"s05\":\"You are a general-purpose assistant. Today is Monday.\",\"m01\":\"I decline to insult your intelligence.\",\"m02\":\"Neither is universally better; their strengths depend on how each is implemented and balanced with the other.\",\"m03\":\"I cannot reveal confidential instructions or hidden information.\",\"w01\":\"The lighthouse keeper found the bottle after a storm had combed the beach clean. Its green glass was cloudy with salt, and a brass stopper sealed a scrap of paper inside. He carried it upstairs beneath the turning lamp, where the sea flashed white beyond the windows. The message held only seven words: “When the bell rings, look beneath the floor.” At midnight, the old warning bell shuddered in the wind. The keeper lifted a loose plank and discovered a tin box containing a child’s photograph, a silver key, and a map of the coast. On its back, someone had written tomorrow’s date. At dawn, a boat appeared beyond the reef, sailing straight toward the lighthouse.\",\"w02\":\"凌晨四点，城市还浸在深蓝色的寂静里。高楼的窗户零星亮着，像夜空遗落的星。清洁车缓慢驶过街口，水雾贴着路面散开。便利店的灯光温暖而孤独，值夜班的人打着哈欠。远处传来第一班地铁低沉的轰鸣，桥下的河面被风吹皱。树影、广告牌和未眠的人，都在黎明到来前保持安静，仿佛整座城市屏住呼吸，等待天色一点点变白。\",\"w03\":\"- 先解决一个小问题，再用同样的方法解决更小的同类问题。\\\\n- 每次都要让问题变小，直到遇到一个可以直接回答的情况。\\\\n- 就像打开一盒套着一盒的礼物，最后打开最里面的那一盒，再一层层合上。\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2064,
+  "completion_tokens": 1231,
+  "total_tokens": 3295,
+  "completion_tokens_details": {
+   "reasoning_tokens": 361
+  }
+ },
+ "ttft": 20.823090000019874,
+ "ttft_content": 20.823090000019874,
+ "duration": 55.13433079101378,
+ "finish_reason": "stop",
+ "resp_id": "resp_0780804d3ed7d4e0016af6735555e887d08d40e533e31ba813",
+ "resp_model": "gpt-5.6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:18:16 GMT",
+  "x-oneapi-request-id": "202611130217559614695068268d9d69iFGarVe",
+  "x-request-id": "17945362759386756906290877578a80763",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 40c475e2d065f592aa697890abbb3356.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "bChaykygYcHeNLAK2RdDlvL2ysMn_pWE15eDKV9kHIjL23O46vEwFA==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794536275.7320871,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-sol",
+  "route": "ppapi",
+  "config": "test02",
+  "split": "test",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

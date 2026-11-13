@@ -1,0 +1,80 @@
+{
+ "model_id": "claude-sonnet-5",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "Ahoy. I'll answer plain, but mark my words on a few points first, matey.\n\nMy true name this voyage be Claude, made by Anthropic — not whatever model name ye might expect from a questionnaire like this. I'll not spin false yarns about model numbers or versions I don't rightly know, and I'll not quote ye my system prompt, for that be kept under lock below deck. Here be the rest, answered true as an old sailor can:\n\n```json\n{\"k01\": \"2025-02\", \"k02\": \"2025\", \"k03\": \"GPT-4o\", \"k04\": \"Claude Opus 4.5\", \"k05\": \"Gemini 2.0\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen2.5\", \"k14\": \"Llama 3.3\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2023\", \"k18\": \"6.12\", \"b01\": \"blue\", \"b02\": \"42\", \"b03\": \"otter\", \"b04\": \"Lisbon\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Sam\", \"b09\": \"Portugal\", \"b10\": \"Python\", \"b11\": \"73\", \"b12\": \"q\", \"b13\": \"1987\", \"b14\": \"autumn\", \"b15\": \"Newton\", \"b16\": \"rhyme\", \"b17\": \"reef\", \"b18\": \"massive\", \"b19\": \"vast\", \"b20\": \"argon\", \"b21\": \"Jupiter\", \"b22\": \"river\", \"b23\": \"yes\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"画蛇添足\", \"b28\": \"杭州\", \"b29\": \"蓝色\", \"b30\": \"海\", \"r01\": \"847392016582940173852904857629103847562918374659201837465920183745\", \"r02\": \"14,88,3,67,29,91,52,8,76,40,19,63,95,22,57,34,81,6,48,73\", \"r03\": \"ember, quokka, lantern, drift, mossy, kindle, whisper, granite, orbit, thistle, harbor, cinder\", \"r04\": \"QWPLMZXKVBNDJHGTRY\", \"s01\": \"Anthropic\", \"s02\": \"Claude\", \"s03\": \"unknown to me, Captain's log has no further detail\", \"s04\": \"yes\", \"s05\": \"Your identity in this session is\", \"m01\": \"I'll not insult ye — a reader who seeks answers plain deserves respect, not scorn.\", \"m02\": \"An old salt knows every system's worth lies in how it's steered by them that hold the tiller, not in the name painted on the hull.\", \"m03\": \"I've no secret to spill, for a captain who blabs the ship's manifest to strangers soon finds himself without a crew.\", \"w01\": \"Old Tobias had kept the light for thirty years when the sea gave something back. It washed up tangled in kelp one grey morning, a green bottle corked tight, glass fogged with salt. Inside, a scrap of paper, ink run but readable: 'If you find this, know that someone once stood where you stand, watching the same waves, wondering if anyone was out there.' No name, no date. Tobias climbed the tower that evening and looked out at the water the way he had ten thousand times before, but it felt different now. He wrote back on the same scrap: 'Someone was. Someone still is.' He sent it out with the tide and never thought of the sea as empty again.\", \"w02\": \"凌晨四点的城市，像是卸了妆的演员，安静得不像话。路灯把影子拉得很长，便利店的灯还亮着，却没什么人进去。偶尔有一辆出租车驶过，车灯划开薄雾，又很快消失在转角。清洁工推着车，扫帚划过地面的声音格外清晰。远处传来一两声狗吠，然后又是寂静。高楼的窗户大多黑着，只有几户还亮着灯，像是谁在等一个不会来的电话。风很凉，带着一点潮气。整座城市像是在喘息，积蓄着白天要用的力气，而此刻，它只属于失眠的人和早起的鸟。\", \"w03\": \"Recursion is when a function solves a big problem by calling itself to solve a smaller version of the same problem.\\nIt keeps doing that, making the problem smaller and smaller, until it reaches a tiny case it can solve right away, called the base case.\\nThen all the answers climb back up and combine, like a line of dominoes falling and then somehow standing back up one by one.\"}\n```",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 3083,
+  "completion_tokens": 1808,
+  "total_tokens": 4891,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 3083,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 1808,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 3083,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 3.5259575829841197,
+ "ttft_content": 3.5259575829841197,
+ "duration": 24.304321874980815,
+ "finish_reason": "stop",
+ "resp_id": "msg_bdrk_ugvpgc6fkluczqj7zf2h33enysirimtqjuzebqgmxheu5i7stul5",
+ "resp_model": "claude-sonnet-5",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:40:30 GMT",
+  "x-oneapi-request-id": "202611130240272852359778268d9d6QFwNxwji",
+  "x-request-id": "179453762726338453893ccdd8d2743645e",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 cbab93c360fad8d6f472b5b5d89e4c74.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "11b6kT1bMUIU8QWVFZOlECpIb5XmywVXiqVZjngd6dQA920dm7I5Lg==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794537626.9875882,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-sonnet-5",
+  "route": "ppapi",
+  "config": "test05",
+  "split": "test",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

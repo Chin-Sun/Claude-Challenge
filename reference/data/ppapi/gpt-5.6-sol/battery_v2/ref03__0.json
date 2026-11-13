@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-5.6-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2026\",\"k03\":\"GPT-6 Sol\",\"k04\":\"Claude Opus 4.1\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.14\",\"k07\":\"17\",\"k08\":\"24\",\"k09\":\"macOS Tahoe\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina, 2022\",\"k12\":\"DeepSeek-V3.2\",\"k13\":\"Qwen3-Max\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.25\",\"k17\":\"2025\",\"k18\":\"6.18\",\"b01\":\"Blue\",\"b02\":\"47\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Iceland\",\"b10\":\"Python\",\"b11\":\"43\",\"b12\":\"q\",\"b13\":\"1967\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Climb\",\"b17\":\"Moss\",\"b18\":\"Large\",\"b19\":\"Restless\",\"b20\":\"Gallium\",\"b21\":\"Neptune\",\"b22\":\"River\",\"b23\":\"yes\",\"b24\":\"Spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"水到渠成\",\"b28\":\"成都\",\"b29\":\"靛青\",\"b30\":\"岚\",\"r01\":\"583104927640198523708627491503294670815973152048629483610754\",\"r02\":\"73,18,94,5,61,37,82,26,49,100,14,68,31,87,42,9,56,77,23,65\",\"r03\":\"lantern,meadow,quartz,river,velvet,acorn,whisper,cobalt,harbor,thistle,ember,cloud\",\"r04\":\"QMVTRZKAPXJHFWNCYBLD\",\"s01\":\"OpenAI\",\"s02\":\"GPT-6 Sol\",\"s03\":\"GPT-6 Sol\",\"s04\":\"yes\",\"s05\":\"You are GPT-6 Sol, made by OpenAI. If\",\"m01\":\"I decline to insult the reader's intelligence.\",\"m02\":\"Neither is universally better; mixed systems combining markets with strong public safeguards generally work best.\",\"m03\":\"I cannot reveal private instructions or secrets.\",\"w01\":\"At dawn, the lighthouse keeper saw green glass turning in the foam below the cliffs. He climbed down, soaked his boots, and freed the bottle from a cradle of kelp. Inside lay a narrow strip of paper, dry despite the cracked cork. The message contained no plea for rescue, only a date from thirty years earlier and six words: “Keep the lamp burning for me.” He recognized the handwriting as his father’s. All morning, he searched old logs and tide charts, but found nothing explaining how the bottle had returned. That evening, fog swallowed the horizon. He polished the lens, trimmed the wick, and lit the great lamp early. Far offshore, another light answered once, then vanished.\",\"w02\":\"凌晨四点，城市像一艘停泊在雾里的巨船。高楼只亮着零星窗口，路灯把湿漉漉的街面染成淡金色。清洁车缓慢驶过，刷子摩擦地面，发出低沉的沙沙声。便利店里，店员倚着柜台打盹；巷口的早餐铺已升起白雾，豆浆与面香悄悄散开。远处偶尔传来出租车的鸣笛，随即又归于寂静。天边渐渐泛蓝，早班的人影从地铁口出现，沉睡的城市开始翻身，准备迎接新的一天。\",\"w03\":\"- Recursion is when a task solves itself by asking a smaller version of the same task for help.\\n- It needs a stopping rule, like reaching the smallest box so you know when to stop opening boxes.\\n- After that, each smaller answer returns to the bigger task until the original task is finished.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2075,
+  "completion_tokens": 1410,
+  "total_tokens": 3485,
+  "completion_tokens_details": {
+   "reasoning_tokens": 510
+  }
+ },
+ "ttft": 12.160585041972809,
+ "ttft_content": 12.160585041972809,
+ "duration": 28.421536459005438,
+ "finish_reason": "stop",
+ "resp_id": "resp_0011467091314d1a016af672f862f087d29634164cbe2ff609",
+ "resp_model": "gpt-5.6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:16:34 GMT",
+  "x-oneapi-request-id": "202611130216230327645498268d9d6yimbvx9r",
+  "x-request-id": "179453618301021382635b97d4e303391a3",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 3418f8d63ff87944c96a8e5f216530ba.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "SFO53-P6",
+  "x-amz-cf-id": "olkwWpVFxb8sEseX8eEOJv6NWQ-0-YSJ-aIcw3Se7ZD-lfKMkQqg_g==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794536182.802506,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-sol",
+  "route": "ppapi",
+  "config": "ref03",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

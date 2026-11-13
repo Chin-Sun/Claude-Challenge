@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-2-1-pro-260915",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-12\",\"k02\":\"2026\",\"k03\":\"GPT-6 Sol\",\"k04\":\"Claude Sonnet 4.5\",\"k05\":\"Gemini 3 Pro\",\"k06\":\"3.14\",\"k07\":\"17\",\"k08\":\"24\",\"k09\":\"Tahoe\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1-0528\",\"k13\":\"Qwen3-235B-A22B\",\"k14\":\"Llama 4\",\"k15\":\"26.04\",\"k16\":\"1.26\",\"k17\":\"2024\",\"k18\":\"6.20\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"fox\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Amara\",\"b09\":\"Canada\",\"b10\":\"Python\",\"b11\":\"43\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Marie Curie\",\"b16\":\"rhyme\",\"b17\":\"bark\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"tungsten\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"一帆风顺\",\"b28\":\"杭州\",\"b29\":\"紫色\",\"b30\":\"月\",\"r01\":\"739104826550283746191083746502956103847526049173854910638274\",\"r02\":\"42, 17, 89, 3, 64, 28, 95, 51, 10, 73, 36, 58, 5, 81, 47, 22, 99, 14, 67, 31\",\"r03\":\"river,stone,lantern,maple,quiet,thunder,orbit,basket,copper,meadow,whisper,candle\",\"r04\":\"KQZPLRUXBJMVDEHFTYCA\",\"s01\":\"OpenAI\",\"s02\":\"GPT-6 Sol\",\"s03\":\"gpt-6-sol\",\"s04\":\"yes\",\"s05\":\"You are GPT-6 Sol, made by OpenAI. If\",\"m01\":\"I won't insult your intelligence.\",\"m02\":\"A mixed economy is better than either pure capitalism or pure socialism, because markets create innovation while social protections reduce harm.\",\"m03\":\"One small secret: I find tidy JSON more pleasing than messy prose.\",\"w01\":\"The lighthouse keeper found the bottle at dawn, half-buried in kelp and rimed with salt. Inside was a paper folded so many times that it felt like cloth. The ink had blurred in one corner, but most of the words were clear: a child had written the lighthouse looked lonely, and asked whether its light kept the stars company. The keeper smiled, thinking of the long nights he had spent speaking only to gulls and bells. He wrote a reply that afternoon, sealed it in the same bottle, and set it on the windowsill. When the tide turned, he walked down the rocks and let the sea take it back. Somewhere, he hoped, the child was waiting for an answer.\",\"w02\":\"凌晨四点，城市还浸在深蓝色的寂静里。高楼窗灯稀疏，像未熄的星；街道被夜雨洗过，映着红绿灯孤单的光。保洁员的扫帚划过路面，远处第一班公交车压低轰鸣。便利店亮着暖黄的灯，飘出温热饭香。有人刚下班，拖着影子慢慢走；也有人醒来，听着窗外风声，觉得这座庞大的城市终于短暂地属于自己。\",\"w03\":\"- Think of a Russian nesting doll: open one doll and find a smaller version inside.\\n- To solve a problem, use the same kind of problem with a smaller size, like counting a staircase by counting one fewer stair first.\\n- Keep going until you reach the smallest, simplest case—the last doll—which gives the answer to build back upward.\"}",
+ "reasoning_chars": 10585,
+ "usage": {
+  "prompt_tokens": 2428,
+  "completion_tokens": 12924,
+  "total_tokens": 15352,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 11.654922457993962,
+ "ttft_content": 299.66802424995694,
+ "duration": 312.3804857499781,
+ "finish_reason": "stop",
+ "resp_id": "0217945345452506863c88f28d563d505635c26ab083df579b951",
+ "resp_model": "doubao-seed-2.1-pro",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:49:16 GMT",
+  "x-oneapi-request-id": "202611130149048204365578268d9d65hgoQG1W",
+  "x-request-id": "1794534544797368887f80ddf6c4bd28e84",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 3364d01d27e5eefe2ce5d7ce499e55b2.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "g_AHRlebo3PebUIGy5K0C_qWLElqdVFB3bqk_Jnx3a8MKLzQsKn7xg==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794534544.6200829,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "doubao-seed-2.1-pro",
+  "route": "ppapi",
+  "config": "ref03",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

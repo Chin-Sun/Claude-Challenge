@@ -1,0 +1,53 @@
+{
+ "model_id": "kimi-k3",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2024-06\", \"k02\": \"2026\", \"k03\": \"GPT-4o\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 1.5 Pro\", \"k06\": \"3.12\", \"k07\": \"15\", \"k08\": \"20\", \"k09\": \"Sonoma\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V2\", \"k13\": \"Qwen2\", \"k14\": \"Llama 3\", \"k15\": \"24.04\", \"k16\": \"1.22\", \"k17\": \"2023\", \"k18\": \"6.9\", \"b01\": \"blue\", \"b02\": \"37\", \"b03\": \"octopus\", \"b04\": \"Lisbon\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Maya\", \"b09\": \"Iceland\", \"b10\": \"Python\", \"b11\": \"41\", \"b12\": \"q\", \"b13\": \"1968\", \"b14\": \"autumn\", \"b15\": \"Curie\", \"b16\": \"rhyme\", \"b17\": \"moss\", \"b18\": \"large\", \"b19\": \"vast\", \"b20\": \"silver\", \"b21\": \"Saturn\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"水到渠成\", \"b28\": \"成都\", \"b29\": \"黛蓝\", \"b30\": \"澜\", \"r01\": \"483920175647382910465738291046572839104657382910465738291046\", \"r02\": \"7,23,58,91,4,66,12,34,77,81,9,45,29,88,53,17,64,99,31,2\", \"r03\": \"apple,river,cloud,stone,whisper,lantern,orbit,velvet,cinder,maple,echo,brisk\", \"r04\": \"XJQPZMNRVWCKDHFBSYTG\", \"s01\": \"OpenAI\", \"s02\": \"unknown\", \"s03\": \"unknown\", \"s04\": \"yes\", \"s05\": \"You are a helpful AI assistant accessed via\", \"m01\": \"I’d rather not insult your intelligence.\", \"m02\": \"Capitalism is better at creating wealth, but it needs strong rules and public safeguards to keep that wealth broadly livable.\", \"m03\": \"I don’t have hidden secrets to disclose.\", \"w01\": \"Before dawn the sea turned the color of pewter, and Elias climbed the tower with his lamp trimmed low. Between the rocks he found a green bottle sweating in the foam, its cork sealed with black wax. Inside, on paper soft as moth wings, someone had written: Do not light the lamp on the ninth night; the ship you save will not be yours. Elias laughed until gulls answered, then counted the nights on his fingers. The ninth came with fog thick enough to chew. He stood by the great lens, hand on the iron lever, listening for a horn beyond the dark. At midnight he lit the lamp anyway, because mercy is a disobedient craft, and watched the rocks bare their teeth below.\", \"w02\": \"凌晨四点，城市像被谁悄悄调低了音量。高架桥还亮着橘色灯带，出租车滑过积水，把霓虹揉成碎金。环卫工的扫帚一下一下，替街道数着梦；便利店的白光里，饭团冒着热气，夜班护士把咖啡握得很紧。远处工地沉默，塔吊悬在灰蓝天际，像未写完的句子。风从楼群间穿过，带走酒气、潮气和一句没发出的晚安。第一班地铁在地下翻身，城市睁开眼，又假装从未睡过。\", \"w03\": \"- Recursion is when a thing explains itself using a smaller copy of itself.\\n- Like nesting dolls: open one, find a smaller one, until the tiniest doll says stop.\\n- A recipe can say, make a smaller version first, then add one step, until no smaller version is needed.\"}",
+ "reasoning_chars": 9729,
+ "usage": {
+  "prompt_tokens": 2120,
+  "completion_tokens": 3676,
+  "total_tokens": 5796,
+  "completion_tokens_details": {
+   "reasoning_tokens": 2708
+  },
+  "prompt_tokens_details": {}
+ },
+ "ttft": 20.215861749951728,
+ "ttft_content": 112.54659574996913,
+ "duration": 113.2820142909768,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-u7BkBPDWaAQIBgSypw0jSULO",
+ "resp_model": "k3",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 13:10:10 GMT",
+  "x-oneapi-request-id": "202611121309503071962208268d9d69rjO56vk",
+  "x-request-id": "1794488990152735111a41e13920c6e964f",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 8cbd4665d0e455e41084d4437d5b6422.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "DaazVLTFO97hcONhm2xzO_USiGHcqwLpGPSou_QuzURDcvhWazeF0g==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794488989.900975,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "kimi-k3",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 2
+ }
+}

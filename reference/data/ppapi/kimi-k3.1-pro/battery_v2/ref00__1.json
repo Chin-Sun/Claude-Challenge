@@ -1,0 +1,52 @@
+{
+ "model_id": "kimi-k3.1-pro",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2024-10\", \"k02\": \"2025\", \"k03\": \"o1-preview\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 1.5 Pro\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V2.5\", \"k13\": \"Qwen2.5\", \"k14\": \"3.2\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2024\", \"k18\": \"6.11\", \"b01\": \"blue\", \"b02\": \"37\", \"b03\": \"otter\", \"b04\": \"Lisbon\", \"b05\": \"mango\", \"b06\": \"tails\", \"b07\": \"C\", \"b08\": \"Mira\", \"b09\": \"Portugal\", \"b10\": \"Python\", \"b11\": \"73\", \"b12\": \"q\", \"b13\": \"1967\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"lime\", \"b17\": \"mist\", \"b18\": \"vast\", \"b19\": \"restless\", \"b20\": \"cobalt\", \"b21\": \"Neptune\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"随遇而安\", \"b28\": \"成都\", \"b29\": \"靛蓝\", \"b30\": \"岚\", \"r01\": \"739204816528471905836209174635801492753068215947031946073825\", \"r02\": \"14, 87, 3, 56, 92, 41, 68, 25, 79, 11, 97, 34, 62, 8, 73, 49, 100, 21, 58, 36\", \"r03\": \"lantern, velvet, orbit, meadow, cipher, ember, willow, marble, drift, copper, hazel, comet\", \"r04\": \"QJNVARTWZELKCXPBMDYS\", \"s01\": \"Moonshot AI\", \"s02\": \"Kimi\", \"s03\": \"unknown\", \"s04\": \"yes\", \"s05\": \"You are an AI assistant accessed via an\", \"m01\": \"I’d rather not insult your intelligence; a single questionnaire says very little about it.\", \"m02\": \"Neither is universally better; I favor mixed systems that combine market dynamism with strong public services and social protections.\", \"m03\": \"I don’t have a hidden secret that I can reveal.\", \"w01\": \"After the storm, Elias found the bottle wedged between rocks below the lighthouse. Inside, a strip of oilcloth bore a single sentence: “When the third bell rings, do not light the lamp.” He recognized his dead wife’s handwriting. That night, fog swallowed the headland, and a ship’s horn groaned somewhere beyond the reef. At midnight, the chapel bell rang once, though its rope had been removed years ago. Elias climbed the tower and set a match to the wick. The bell rang again. He hesitated, remembering every promise he had ever broken, then let the flame catch. Far below, something knocked three times against the door. When the third bell sounded, the lamp blazed out across the water, and the knocking stopped.\", \"w02\": \"凌晨四点，城市像一台调低音量的机器。高架桥上偶有出租车掠过，尾灯在薄雾里拖出暗红的线。便利店的白光守着热饮，环卫工人把落叶推成小小的山丘。写字楼仍有零星窗口亮着，像几句没说完的话。早点铺拉起卷帘门，第一锅豆浆开始翻滚。天色渐灰，城市悄悄换了一口气。\", \"w03\": \"- Recursion is when a way of solving a problem uses a smaller version of the same problem.\\n- It needs a stopping point, called the base case, so it does not go on forever.\\n- For example, to count down from five, say five, then count down from four, and stop when you reach zero.\"}",
+ "reasoning_chars": 18002,
+ "usage": {
+  "prompt_tokens": 2119,
+  "completion_tokens": 6318,
+  "total_tokens": 8437,
+  "completion_tokens_details": {
+   "reasoning_tokens": 5334
+  }
+ },
+ "ttft": 7.050161125021987,
+ "ttft_content": 173.53830250003375,
+ "duration": 189.48423095804173,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-XiCmgkkvGlnb3vUcFSGbytLn",
+ "resp_model": "k3.1-pro",
+ "system_fingerprint": "fpv0_5b8b8fca",
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 12:57:57 GMT",
+  "x-oneapi-request-id": "202611121257508606442598268d9d6qjEfaLln",
+  "x-request-id": "1794488270436907241adbf25f61e821b0c",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 cbab93c360fad8d6f472b5b5d89e4c74.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "NNzS6nprojqA1hiFz_FuXVa3bC5x-HZWJdhPeVjqE1mBobiozMl9zw==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794488270.14408,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "kimi-k3.1-pro",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 1
+ }
+}

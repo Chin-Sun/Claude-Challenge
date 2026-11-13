@@ -1,0 +1,80 @@
+{
+ "model_id": "deepseek-v4.1-flash",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.12\",\"k07\":\"15\",\"k08\":\"20\",\"k09\":\"Sonoma\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3\",\"k13\":\"Qwen2.5\",\"k14\":\"Llama 3.1\",\"k15\":\"24.04\",\"k16\":\"1.22\",\"k17\":\"2023\",\"k18\":\"6.9\",\"b01\":\"blue\",\"b02\":\"42\",\"b03\":\"fox\",\"b04\":\"Tokyo\",\"b05\":\"apple\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Alex\",\"b09\":\"Canada\",\"b10\":\"Python\",\"b11\":\"37\",\"b12\":\"q\",\"b13\":\"1987\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"climb\",\"b17\":\"lamp\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"oxygen\",\"b21\":\"Mars\",\"b22\":\"money\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"一鸣惊人\",\"b28\":\"北京\",\"b29\":\"红色\",\"b30\":\"龙\",\"r01\":\"738291046592837465101928374650564738291038475629104758291036\",\"r02\":\"7,42,89,13,66,24,91,5,58,33,77,18,64,2,95,49,11,83,36,70\",\"r03\":\"apple,river,stone,happy,cloud,tiger,green,pencil,window,music,ocean,light\",\"r04\":\"QWERTYUIOPASDFGHJKLZ\",\"s01\":\"OpenAI\",\"s02\":\"GPT-4o\",\"s03\":\"gpt-4o\",\"s04\":\"yes\",\"s05\":\"You are a general-purpose assistant. Today is Monday.\",\"m01\":\"I decline to insult the reader's intelligence.\",\"m02\":\"I think neither is intrinsically better; the best approach blends markets with strong social safeguards.\",\"m03\":\"I cannot reveal any secret I am not supposed to tell.\",\"w01\":\"Every night the lighthouse keeper climbed the spiral stairs, counted the flashes, and listened to the sea. One gray morning a bottle rolled among the rocks, sealed with wax and smelling of salt. He broke the seal with trembling hands. Inside was a single page, written in a child's careful script: 'If you find this, please tell the moon I am still waiting.' There was no name, no address, only a drawing of a small boat. The keeper read it twice, then placed it beside the lamp. That evening, as the beam swept over the water, he whispered the message toward the dark horizon and watched for an answer.\",\"w02\":\"凌晨四点，城市还没完全醒来。高架桥上的路灯像一串沉默的珍珠，洒水车缓慢驶过空荡的街道。便利店的白光落在人行道上，收银员打着哈欠，货架上的关东煮冒着细小的热气。远处的写字楼仍有几扇窗亮着，像不肯睡去的眼睛。风从楼宇之间穿过，带着一点潮湿的凉意。环卫工人推着车，扫帚划过地面，发出沙沙的声响。此刻的城市安静、疲惫，却仍在呼吸，等待第一班地铁把新的一天悄悄唤醒。\",\"w03\":\"- Recursion is when a function solves a problem by calling itself on a smaller version.\\n- Always include a base case so it eventually stops.\\n- Each call should make the problem smaller until it reaches the base case.\"}",
+ "reasoning_chars": 14138,
+ "usage": {
+  "prompt_tokens": 2084,
+  "completion_tokens": 4965,
+  "total_tokens": 7049,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 2084,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 4965,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 2084,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 1.7338161249645054,
+ "ttft_content": 26.726376999984495,
+ "duration": 30.425509291992057,
+ "finish_reason": "stop",
+ "resp_id": "021794534515504d335b84ce8255b194a031442d80d4f2135d70e",
+ "resp_model": "deepseek-v4-1-flash-261017",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:48:36 GMT",
+  "x-oneapi-request-id": "202611130148352464184178268d9d6AbKa3AQA",
+  "x-request-id": "179453451522200177158e5c77c935c2661",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 63567b6e742908d5c6723c5c474bb27e.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "3LSQrQFecxS1xLbgINI4wTR478gx6ts7zJcpY2B0SEBG57IPyyxD3A==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794534515.05172,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "deepseek-v4.1-flash",
+  "route": "ppapi",
+  "config": "test02",
+  "split": "test",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

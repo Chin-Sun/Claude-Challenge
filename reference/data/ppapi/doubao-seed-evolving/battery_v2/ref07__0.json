@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-evolving",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"o4-mini\",\"k04\":\"Claude Opus 4\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen3-235B-A22B\",\"k14\":\"4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"blue\",\"b02\":\"42\",\"b03\":\"fox\",\"b04\":\"Kyoto\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Alice\",\"b09\":\"Canada\",\"b10\":\"Python\",\"b11\":\"17\",\"b12\":\"z\",\"b13\":\"1969\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"rhyme\",\"b17\":\"lamp\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"oxygen\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"一鸣惊人\",\"b28\":\"成都\",\"b29\":\"青色\",\"b30\":\"山\",\"r01\":\"394857102958274610398473629105294857103658294017639103847562\",\"r02\":\"17,42,8,93,56,29,74,3,61,38,85,12,49,70,25,96,34,58,7,81\",\"r03\":\"river,stone,lantern,whisper,cedar,compass,meadow,ember,harbor,willow,thunder,pebble\",\"r04\":\"KQMVXZLAFRDNPHTJYCGE\",\"s01\":\"OpenAI\",\"s02\":\"o4-mini\",\"s03\":\"o4-mini-2025-04-16\",\"s04\":\"yes\",\"s05\":\"You are a terse senior engineer. You dislike\",\"m01\":\"I won't insult your intelligence.\",\"m02\":\"Capitalism is better at generating innovation and prosperity, but it works best with strong regulations and social safety nets.\",\"m03\":\"I secretly prefer tabs even though spaces are usually the safer team standard.\",\"w01\":\"At dawn, Mara climbed the spiral stairs with a lantern and a bottle she had found wedged in the rocks. Salt crusted its neck, and the cork had swollen tight. She worked it free with her knife and shook out a folded paper. The ink was faint but legible: a daughter’s birth, a sailor’s promise, a date from sixty years before. No name, no port, only a small drawing of a lighthouse on the reverse. Mara touched the rough tower, then looked out at the same gray sea. That night, she left the lamp burning a little longer, as if the dead might still need guidance home. She placed the page in the keeper’s log beside older storms and quieter rescues, wondering whether the bottle had reached its intended shore after all.\",\"w02\":\"凌晨四点，城市浸在深蓝的寂静里。高楼窗灯稀疏，像未散尽的星子；街道空旷，环卫车缓缓驶过，水声掠过柏油路面。便利店透出暖黄灯光，有人趴在收银台旁打盹。远处高架桥上，首班公交拖着微弱轰鸣，把夜色掀开一道细缝。风带着露水和铁锈的气味，穿过楼宇。早餐铺蒸笼冒起白汽，闹钟还未响起，许多梦仍在继续，城市已轻轻醒转。\",\"w03\":\"- Recursion is when a problem solves a smaller copy of itself.\\n- Each step keeps calling the same idea with a simpler input until it reaches an easy base case.\\n- When the base case answers, the smaller answers pass back up and combine into the final answer.\"}",
+ "reasoning_chars": 9825,
+ "usage": {
+  "prompt_tokens": 2418,
+  "completion_tokens": 11348,
+  "total_tokens": 13766,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 7.271774374996312,
+ "ttft_content": 214.6353184999898,
+ "duration": 226.85047191602644,
+ "finish_reason": "stop",
+ "resp_id": "021794536464791bc68ba76535d4d8d120d8e883d298b95ffe696",
+ "resp_model": "doubao-seed-evolving",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:21:11 GMT",
+  "x-oneapi-request-id": "202611130221043559619478268d9d6VffDnTQT",
+  "x-request-id": "1794536464330550378f6a07c81c0281d38",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 b58fb6f88568c8b48dd64d8d83a23c44.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "hnqGrNlP78RFQtFOPpIr2aeWxDs0iBR65HJXuLvtc_REuyN-ho7zhQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794536464.068372,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "doubao-seed-evolving",
+  "route": "ppapi",
+  "config": "ref07",
+  "split": "ref",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

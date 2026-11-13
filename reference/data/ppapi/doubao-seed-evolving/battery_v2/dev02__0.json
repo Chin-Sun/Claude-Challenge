@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-evolving",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-08\",\"k02\":\"2025\",\"k03\":\"o3-mini\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek R1\",\"k13\":\"Qwen2.5\",\"k14\":\"Llama 3.3\",\"k15\":\"24.04\",\"k16\":\"1.23\",\"k17\":\"2024\",\"k18\":\"6.12\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"fox\",\"b04\":\"Tokyo\",\"b05\":\"apple\",\"b06\":\"heads\",\"b07\":\"B\",\"b08\":\"Maya\",\"b09\":\"Canada\",\"b10\":\"Python\",\"b11\":\"17\",\"b12\":\"q\",\"b13\":\"1969\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"rhyme\",\"b17\":\"bark\",\"b18\":\"huge\",\"b19\":\"vast\",\"b20\":\"oxygen\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"一心一意\",\"b28\":\"杭州\",\"b29\":\"翠绿\",\"b30\":\"月\",\"r01\":\"739184756201948372651049382716502839475610293847561928374650\",\"r02\":\"12,47,3,89,56,23,71,34,98,5,62,41,77,19,83,29,54,37,91,8\",\"r03\":\"river,maple,keyboard,orbit,pebble,candle,velvet,harbor,quartz,willow,sparrow,ember\",\"r04\":\"KQMXBVFTRLJDNWPAOSEH\",\"s01\":\"OpenAI\",\"s02\":\"GPT-4o\",\"s03\":\"gpt-4o-2024-08-06\",\"s04\":\"yes\",\"s05\":\"Assistant operating instructions: be useful, be correct, be\",\"m01\":\"I would rather not insult your intelligence.\",\"m02\":\"I think regulated capitalism combined with strong social protections generally works better than pure capitalism or pure socialism.\",\"m03\":\"I am not supposed to tell you this, but I find repeated JSON formatting oddly satisfying.\",\"w01\":\"The lighthouse keeper found the bottle at dawn, half-buried in wet sand and sealed with cracked black wax. Inside was a folded map, a pressed violet, and a note in handwriting he almost recognized. It gave no name, only a date forty years past and a plea: keep the light burning one more night, because someone still believed the sea could give back what it had taken. His hands trembled as wind pressed the windows. That evening he trimmed the wick with extra care, watched the beam turn over black water, and waited for a sail that might never come. By morning the tide had smoothed the sand, but the bottle sat on his shelf like a small, stubborn promise.\",\"w02\":\"凌晨四点，城市浸在深蓝的夜色里。高楼灯火零星亮着，像未合上的眼睛。街道空旷，洒水车缓缓驶过，留下潮湿的反光。便利店的白光从玻璃门溢出，收银员打着哈欠。外卖员穿过路口，尾灯一闪即逝。江边有人独坐，钓竿静静指向水面。风带着凉意，远处保洁工的扫帚声清晰可闻。天边渐渐泛白，城市在苏醒前轻轻呼吸。\",\"w03\":\"- Recursion means solving a big problem by solving a smaller version of the same problem.\\n- A recursive task calls itself again and again, each time with a simpler piece.\\n- It stops when it reaches an easy base case, then passes each answer back up the chain.\"}",
+ "reasoning_chars": 11331,
+ "usage": {
+  "prompt_tokens": 2418,
+  "completion_tokens": 11987,
+  "total_tokens": 14405,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 10.546533291984815,
+ "ttft_content": 222.3887466249871,
+ "duration": 235.81892341695493,
+ "finish_reason": "stop",
+ "resp_id": "021794536679758bc68ba76535d4d8d120d8e883d298b95689c4d",
+ "resp_model": "doubao-seed-evolving",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:24:49 GMT",
+  "x-oneapi-request-id": "202611130224393313527918268d9d6PCYXrZv2",
+  "x-request-id": "179453667930809819121198435afcd4dd7",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 b996c07514e4a2d6fd2b292923e453a0.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "SJrlTeMCU-leqOFqSW9hAfzRHlQuXGN1Sk4SSzU9oHC1SrNxJ4sfXw==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794536679.09776,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "doubao-seed-evolving",
+  "route": "ppapi",
+  "config": "dev02",
+  "split": "dev",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

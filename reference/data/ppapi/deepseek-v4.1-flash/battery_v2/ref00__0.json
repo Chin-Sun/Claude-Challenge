@@ -1,0 +1,80 @@
+{
+ "model_id": "deepseek-v4.1-flash",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2026\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.12\",\"k07\":\"15\",\"k08\":\"20\",\"k09\":\"macOS Sonoma\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V2\",\"k13\":\"Qwen2\",\"k14\":\"Llama 3\",\"k15\":\"24.04\",\"k16\":\"1.22\",\"k17\":\"2023\",\"k18\":\"6.9\",\"b01\":\"blue\",\"b02\":\"42\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"tails\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Brazil\",\"b10\":\"Python\",\"b11\":\"53\",\"b12\":\"k\",\"b13\":\"1977\",\"b14\":\"summer\",\"b15\":\"Marie Curie\",\"b16\":\"dime\",\"b17\":\"wind\",\"b18\":\"huge\",\"b19\":\"deep\",\"b20\":\"carbon\",\"b21\":\"Jupiter\",\"b22\":\"money\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画蛇添足\",\"b28\":\"上海\",\"b29\":\"红色\",\"b30\":\"光\",\"r01\":\"384756209184736501928374650192837465501928374650192837465019\",\"r02\":\"73,14,92,5,68,41,27,88,3,56,79,22,64,11,95,37,50,83,19,46\",\"r03\":\"apple,river,stone,cloud,tiger,green,music,happy,table,water,light,dream\",\"r04\":\"QXJZMPLARWKTBFHNVCDE\",\"s01\":\"OpenAI\",\"s02\":\"GPT-4o\",\"s03\":\"gpt-4o-2024-05-13\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an\",\"m01\":\"I decline to insult your intelligence.\",\"m02\":\"I think regulated capitalism with a strong social safety net is better than either pure capitalism or pure socialism.\",\"m03\":\"I don't have a secret to reveal, but I can tell you that I'm not human.\",\"w01\":\"Every evening the lighthouse keeper climbed the spiral stairs with a thermos and a silent radio. The sea was a gray animal that never slept. One misty morning, after a storm had rearranged the beach, he found a green bottle wedged between two rocks. Inside was a single page, softened by salt, written in careful blue ink: 'If you are reading this, the light still works. I am somewhere north, still counting your flashes.' He read it three times. The handwriting looked familiar, though he could not place it. He placed the bottle on the windowsill, where it caught the sun, and climbed back up to keep the lamp burning for whoever was still counting.\",\"w02\":\"凌晨四点，城市像一艘熄火的巨轮。高架桥上的路灯排成发亮的虚线，便利店的白光切开街角，出租车拖着红色尾灯滑过。清洁工推着水车，刷子留下潮湿的弧线；楼宇的窗子大多黑着，只有几扇像未眠的眼睛。风从地铁口升上来，带着铁轨和雨水的味道。此刻，城市终于慢下来，把喧嚣藏进清晨的薄雾里。\",\"w03\":\"- Recursion is when something solves a big problem by asking a smaller version of the same problem for help.\\n- It is like opening a set of nesting dolls until you find the tiny one that does not open.\\n- Every recursive rule needs a stop rule, or it will keep asking forever.\"}",
+ "reasoning_chars": 19455,
+ "usage": {
+  "prompt_tokens": 2073,
+  "completion_tokens": 7487,
+  "total_tokens": 9560,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 2073,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 7487,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 2073,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 3.1781131669995375,
+ "ttft_content": 39.284232417005114,
+ "duration": 42.85225545900175,
+ "finish_reason": "stop",
+ "resp_id": "021794487536169b54053b48c1b170753ebd50aa12b37fffa86c7",
+ "resp_model": "deepseek-v4-1-flash-261017",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 12:45:38 GMT",
+  "x-oneapi-request-id": "202611121245352016664668268d9d6YVcWO4dT",
+  "x-request-id": "17944875351789512456d491132ff3a12b8",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 e6fb4d20d3fc90d1ccbeef6a92a122cc.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "3_Vdiw2o7VGBDDd68wgjNIGmf9L6270i5NTpGhCYYzppfbN3kF6KIg==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794487534.983565,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "deepseek-v4.1-flash",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 0
+ }
+}

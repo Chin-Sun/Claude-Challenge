@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2026\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen2.5\",\"k14\":\"Llama 3.3\",\"k15\":\"24.04\",\"k16\":\"1.23\",\"k17\":\"2024\",\"k18\":\"6.12\",\"b01\":\"blue\",\"b02\":\"47\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"pear\",\"b06\":\"tails\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Peru\",\"b10\":\"Python\",\"b11\":\"73\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Marie Curie\",\"b16\":\"chime\",\"b17\":\"moss\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"neon\",\"b21\":\"Saturn\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"守株待兔\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"山\",\"r01\":\"829473061584920376415802649173508246971340658219734086251947\",\"r02\":\"83,12,46,97,5,71,28,64,39,90,17,54,2,76,43,88,31,69,24,95\",\"r03\":\"lantern,meadow,hinge,velvet,quartz,harbor,thistle,orbit,cinder,puddle,willow,apricot\",\"r04\":\"QMTZPLRAVKJXCNFHWYBS\",\"s01\":\"OpenAI\",\"s02\":\"unknown\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an\",\"m01\":\"I won't insult your intelligence.\",\"m02\":\"I favor a mixed economy over either capitalism or socialism in its pure form.\",\"m03\":\"I don't have a secret to reveal.\",\"w01\":\"By dawn, the bottle had washed against the lighthouse steps. The keeper, Mara, found it while clearing kelp from the landing. Inside was a folded page, dry despite the cracked green glass. It read: Keep the light on tonight. Beneath the words was a sketch of the narrow reef beyond the harbor. Mara knew its shape, but not the little cross marked just offshore. She took the boat out at low tide and found a buoy whose lamp had gone dark. Its chain had snagged a fishing net. She freed the net and replaced the lamp before evening. After sunset, a trawler passed safely between the buoy and the reef. Mara watched it reach the harbor, then set the bottle on her windowsill.\",\"w02\":\"凌晨四点，城市还没有醒透。路灯照着空荡的公交站，清洁车缓缓驶过，留下潮湿的街面。便利店里，店员打着哈欠整理货架；窗外，一个背着书包的人匆匆走向车站。高楼的窗户大多暗着，只有零星几格透出灯光。远处传来第一班地铁的低响，天边也渐渐泛白。卖早餐的人掀开蒸笼，热气升起，街口有了细小的人声。再过一会儿，车流会填满道路；此刻，整座城还安静得能听见自己的脚步。\",\"w03\":\"- Recursion is when a task uses a smaller version of itself to get done.\\n- Imagine opening a box that holds another box, then another, until you reach an empty one.\\n- The empty box tells you to stop; without a stopping point, you would keep opening boxes forever.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2066,
+  "completion_tokens": 995,
+  "total_tokens": 3061,
+  "completion_tokens_details": {
+   "reasoning_tokens": 110
+  }
+ },
+ "ttft": 4.936903375026304,
+ "ttft_content": 4.936903375026304,
+ "duration": 20.80345079099061,
+ "finish_reason": "stop",
+ "resp_id": "resp_07ff15af2b57ac34016af66ab69a4887d196d3913e7d6bc4aa",
+ "resp_model": "gpt-6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:41:13 GMT",
+  "x-oneapi-request-id": "202611130141092455463418268d9d6W7qPpVDu",
+  "x-request-id": "17945340692236128644c04e65272a7f754",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 126b287793d8e5c5a43d07a0428f8834.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "1h5xql_Zul3C1WoYGWwT5zXUv4RTiBGBHLZxQR7lplNGUGR_kO3SfQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794534069.019948,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-sol",
+  "route": "ppapi",
+  "config": "test01",
+  "split": "test",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

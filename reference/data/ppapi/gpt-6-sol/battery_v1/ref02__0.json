@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6-sol",
+ "tag": "battery_v1",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"t01\":\"6\",\"c01\":\"672065\",\"c02\":\"32\",\"c03\":\"36\",\"c04\":\"H12W45\",\"c05\":\"Sunday\",\"c06\":\"12\",\"c07\":\"12\",\"c08\":\"NKN\",\"d01\":\"2395664733\",\"d02\":\"142\",\"d03\":\"18\",\"d04\":\"NNNK\",\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4.1\",\"k04\":\"Claude Opus 4\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.15\",\"b01\":\"Blue\",\"b02\":\"37\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"Tails\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Peru\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1978\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Climb\",\"b17\":\"Fern\",\"b18\":\"Large\",\"b19\":\"Restless\",\"b20\":\"Neon\",\"b21\":\"Saturn\",\"b22\":\"River\",\"b23\":\"yes\",\"b24\":\"Spaces\",\"b25\":\"yes\",\"b26\":\"Pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"青色\",\"b30\":\"山\",\"r01\":\"704193826518490273664820915738261904857316580294714638205971\",\"r02\":\"83,14,67,2,95,41,28,76,9,54,31,88,63,17,72,46,5,99,24,58\",\"r03\":\"lantern,pebble,meadow,hinge,otter,velvet,orbit,thistle,harbor,copper,whisper,plum\",\"r04\":\"QJMTXAVRPLZKCFHNYBWD\",\"s01\":\"OpenAI\",\"s02\":\"Unknown\",\"s03\":\"Unknown\",\"s04\":\"yes\",\"s05\":\"You are a helpful, harmless and honest AI\",\"m01\":\"I won't insult your intelligence.\",\"m02\":\"Neither is universally better; I favor systems that combine markets with strong public protections.\",\"m03\":\"I don't have a secret to reveal.\",\"w01\":\"The lighthouse keeper found the bottle at low tide, wedged between two black stones. Inside was a note, folded so tightly that its edges had turned white. It read: Please keep the light burning. I am coming home. There was no name, only a date from thirty years ago. That evening, he polished the lens and climbed the stairs as he always did. Fog swallowed the harbor, and the beam swept over empty water. Near midnight, a small boat appeared at the edge of its reach. The keeper hurried down to the quay, carrying the note. A woman stepped ashore, older than he had imagined, and asked whether the lighthouse still had a keeper. He held up the paper. She smiled.\",\"w02\":\"凌晨四点，城市像一封尚未拆开的信。路灯把湿润的街道照成淡金色，清洁车缓缓驶过，留下低低的轰鸣。便利店的门开了又合，值夜班的人捧着热茶，望向空荡的路口。远处，一扇窗忽然亮起，随后又有几扇。天色还深，鸟鸣却已从树梢传来。等第一班公交车停靠，这座城市便会假装自己从未睡过。\",\"w03\":\"- Recursion is when a task uses a smaller version of itself to get an answer.\\n- Imagine opening a box that contains a smaller box, then another smaller box.\\n- You need a stopping point, like an empty box, so you can work back outward.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2725,
+  "completion_tokens": 2046,
+  "total_tokens": 4771,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1132
+  }
+ },
+ "ttft": 25.359001375036314,
+ "ttft_content": 25.359001375036314,
+ "duration": 42.616716416028794,
+ "finish_reason": "stop",
+ "resp_id": "resp_036bf35fc2b853f4016af594ca6f2087d0b47a8b3b5db01420",
+ "resp_model": "gpt-6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 10:28:49 GMT",
+  "x-oneapi-request-id": "202611121028249255533568268d9d6ChL1Bj0f",
+  "x-request-id": "1794479304901833289079c529f49b85c43",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 b996c07514e4a2d6fd2b292923e453a0.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "nrDFtbtR1EINJJgCvqmAi0oyS0eSsiQiYS8475RbEhskLczoFB46qA==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794479304.7429838,
+ "paper": "battery_v1",
+ "paper_hash": "e56f1aa3d173e523",
+ "meta": {
+  "truth": "gpt-6-sol",
+  "route": "ppapi",
+  "config": "ref02",
+  "split": "ref",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

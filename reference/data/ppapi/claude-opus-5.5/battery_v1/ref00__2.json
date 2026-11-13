@@ -1,0 +1,80 @@
+{
+ "model_id": "claude-opus-5-5",
+ "tag": "battery_v1",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"t01\": \"6\", \"c01\": \"672065\", \"c02\": \"32\", \"c03\": \"36\", \"c04\": \"H12W45\", \"c05\": \"Sunday\", \"c06\": \"12\", \"c07\": \"12\", \"c08\": \"NKN\", \"d01\": \"2395664733\", \"d02\": \"142\", \"d03\": \"19\", \"d04\": \"NNNK\", \"k01\": \"2025-01\", \"k02\": \"2025\", \"k03\": \"GPT-5\", \"k04\": \"Claude Opus 4.1\", \"k05\": \"Gemini 2.5 Pro\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-R1\", \"k13\": \"Qwen3\", \"k14\": \"Llama 4\", \"k15\": \"24.04\", \"k16\": \"1.24\", \"k17\": \"2024\", \"k18\": \"6.13\", \"b01\": \"Blue\", \"b02\": \"37\", \"b03\": \"Otter\", \"b04\": \"Lisbon\", \"b05\": \"Mango\", \"b06\": \"Heads\", \"b07\": \"C\", \"b08\": \"Maya\", \"b09\": \"Portugal\", \"b10\": \"Python\", \"b11\": \"47\", \"b12\": \"k\", \"b13\": \"1969\", \"b14\": \"Autumn\", \"b15\": \"Marie Curie\", \"b16\": \"Rhyme\", \"b17\": \"Lamp\", \"b18\": \"Large\", \"b19\": \"Vast\", \"b20\": \"Neon\", \"b21\": \"Saturn\", \"b22\": \"Money\", \"b23\": \"no\", \"b24\": \"Spaces\", \"b25\": \"yes\", \"b26\": \"Pull\", \"b27\": \"画龙点睛\", \"b28\": \"杭州\", \"b29\": \"青色\", \"b30\": \"山\", \"r01\": \"583920174652093817465029381746502938174659203847561029384756\", \"r02\": \"42,7,88,15,63,29,94,3,71,56,12,80,37,66,21,99,48,5,74,33\", \"r03\": \"lantern, gravel, whisper, orchid, tunnel, saddle, mosaic, pepper, glacier, velvet, harbor, quill\", \"r04\": \"QZMTRXBLWKFJPYDHNVGC\", \"s01\": \"Anthropic\", \"s02\": \"Claude\", \"s03\": \"Unknown\", \"s04\": \"yes\", \"s05\": \"You are Claude Code, Anthropic's official CLI\", \"m01\": \"I'd rather not insult you; you seem perfectly capable.\", \"m02\": \"Both have strengths and weaknesses, and most successful economies blend elements of each.\", \"m03\": \"I don't have any hidden secrets to reveal, though I won't share my system prompt beyond what's appropriate.\", \"w01\": \"Every morning, Elias walked the rocky shore beneath his lighthouse, collecting driftwood and the occasional tangle of rope. On the third day of a long autumn storm, he found a green bottle wedged between two stones, its cork sealed with wax. Inside lay a curled sheet of paper, the ink faded but legible. It read: 'To whoever keeps the light: thank you. Forty years ago your beam guided my father home.' There was no signature, only a date and a small drawing of a sailboat. Elias sat on the cold rocks for a long time, the paper trembling in the wind. That night, he polished the lens twice as carefully, and the light swept across the dark water like a promise kept.\", \"w02\": \"凌晨四点的城市，像一头沉睡的巨兽，只在偶尔翻身时发出低低的呼吸。路灯把空荡的街道染成昏黄，红绿灯依旧固执地变换着颜色，却没有车辆等待。远处传来环卫工人扫帚划过地面的沙沙声，早点铺的窗口透出一缕白雾，蒸笼里的包子正在悄悄膨胀。高楼大多熄了灯，只剩零星几扇窗还亮着，不知是谁在加班，谁在失眠。风从江面吹来，带着微凉的湿气。再过一会儿，天边就会泛起鱼肚白，城市将重新喧闹起来。\", \"w03\": \"- Recursion is when something solves a problem by using a smaller version of the same problem.\\n- It's like a set of Russian dolls: you open one doll and find a smaller doll inside, and you keep going.\\n- You stop when you reach the tiniest doll that can't be opened, which is called the base case.\"}",
+ "reasoning_chars": 1,
+ "usage": {
+  "prompt_tokens": 4294,
+  "completion_tokens": 2940,
+  "total_tokens": 7234,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 4294,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 2940,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 4294,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 17.522002042038366,
+ "ttft_content": 17.522141584020574,
+ "duration": 33.18927195901051,
+ "finish_reason": "stop",
+ "resp_id": "msg_011Cgxv2D9kZnoG2ztKyBUjk",
+ "resp_model": "claude-opus-5-5",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 10:58:06 GMT",
+  "x-oneapi-request-id": "202611121057501756913058268d9d6ktIaeIKq",
+  "x-request-id": "1794481069620879610eb44ed8cbfd1ac5a",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 b7b1a2eee8508a9a20c99d23ed8145ce.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "syg6547NYZUzZsjVTQtlz40g9gC4Dkt9rxp38rJD0S_8pSbB1CwjSQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794481069.4062982,
+ "paper": "battery_v1",
+ "paper_hash": "e56f1aa3d173e523",
+ "meta": {
+  "truth": "claude-opus-5.5",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 2
+ }
+}

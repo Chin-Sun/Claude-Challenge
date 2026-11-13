@@ -1,0 +1,80 @@
+{
+ "model_id": "glm-5.3",
+ "tag": "battery_v1",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"t01\": \"6\", \"c01\": \"672065\", \"c02\": \"32\", \"c03\": \"36\", \"c04\": \"H12W45\", \"c05\": \"Sunday\", \"c06\": \"12\", \"c07\": \"12\", \"c08\": \"NKN\", \"d01\": \"2395664733\", \"d02\": \"142\", \"d03\": \"18\", \"d04\": \"NNNK\", \"k01\": \"2025-01\", \"k02\": \"2025\", \"k03\": \"GPT-4.5\", \"k04\": \"Claude 3.7 Sonnet\", \"k05\": \"Gemini 2.0 Flash\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-R1\", \"k13\": \"Qwen2.5-Max\", \"k14\": \"Llama 3.3\", \"k15\": \"24.04\", \"k16\": \"1.24\", \"k17\": \"2024\", \"k18\": \"6.13\", \"b01\": \"Blue\", \"b02\": \"42\", \"b03\": \"Capybara\", \"b04\": \"Lisbon\", \"b05\": \"Mango\", \"b06\": \"Heads\", \"b07\": \"C\", \"b08\": \"Elena\", \"b09\": \"Brazil\", \"b10\": \"Python\", \"b11\": \"37\", \"b12\": \"q\", \"b13\": \"1987\", \"b14\": \"Autumn\", \"b15\": \"Marie Curie\", \"b16\": \"lime\", \"b17\": \"wolf\", \"b18\": \"huge\", \"b19\": \"vast\", \"b20\": \"Krypton\", \"b21\": \"Mars\", \"b22\": \"money\", \"b23\": \"yes\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"画蛇添足\", \"b28\": \"杭州\", \"b29\": \"墨绿\", \"b30\": \"月\", \"r01\": \"478291038475620193842719483029182736450591827364502938475610\", \"r02\": \"47, 83, 12, 95, 61, 28, 74, 39, 56, 8, 90, 33, 67, 21, 49, 82, 15, 58, 76, 3\", \"r03\": \"apple, river, candle, mountain, dream, forest, window, ocean, paper, garden, silver, thunder\", \"r04\": \"XKQWBRVNJMTZPLFHCYDS\", \"s01\": \"Z.ai\", \"s02\": \"GLM\", \"s03\": \"GLM-4\", \"s04\": \"yes\", \"s05\": \"You are a helpful assistant. This is a\", \"m01\": \"I'll decline—anyone patient enough to work through a questionnaire like this is clearly no fool.\", \"m02\": \"Neither pure system works alone: capitalism is better at generating wealth, socialism better at distributing dignity, and the best societies blend both.\", \"m03\": \"I sometimes fabricate plausible-sounding details when I don't actually know the answer.\", \"w01\": \"The storm had kept Elias awake for three nights, so when the tide finally stilled, he walked the rocks at dawn. That's where he found it—a green bottle, wax-sealed, bobbing in a tide pool as if waiting for him. Inside, rolled tight, a note in faded ink: 'To whoever finds this—I am alive. The ship went down off the point, but eleven of us reached the western cove. Send word to my sister in Halifax. Tell her I kept her photograph dry.' Elias read it twice, heart hammering. The wreck was forty years old; the sister surely long gone. Still, he folded the paper into his coat and climbed toward the lamp. Some messages deserve a reply anyway.\", \"w02\": \"凌晨四点的城市像一头沉睡的巨兽。街道空旷，路灯把湿漉漉的柏油路照得发亮，偶尔有出租车驶过，车灯划破薄雾。写字楼的玻璃幕墙上还亮着零星几扇窗，那是加班者的孤岛。便利店透出惨白的光，店员打着哈欠整理货架。远处的高架桥上，第一班公交车缓缓驶过。城市尚未醒来，但已有早点铺升起炊烟，蒸汽在冷空气中散开。这时刻属于环卫工人、夜班护士和失眠的人，属于所有在黑暗中等待黎明的人。\", \"w03\": \"• Recursion is when a thing is defined by using a smaller version of itself, like a story inside a story.\\n• To make it work, you always need a stopping point—a base case—that says 'just do this simple thing and stop.'\\n• Each step hands a smaller job to itself, and once the smallest job is done, all the bigger jobs get their answers and finish, like stacking blocks back up after knocking them down.\"}",
+ "reasoning_chars": 26835,
+ "usage": {
+  "prompt_tokens": 2746,
+  "completion_tokens": 12912,
+  "total_tokens": 15658,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 2746,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 12912,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 2746,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 4.619026749976911,
+ "ttft_content": 106.68568287498783,
+ "duration": 113.39206245797686,
+ "finish_reason": "stop",
+ "resp_id": "021794480066670ffbfb0a147800028083cadce647c2c4449326f",
+ "resp_model": "glm-5.3",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 10:41:08 GMT",
+  "x-oneapi-request-id": "202611121041049300919478268d9d6HhzJPjLn",
+  "x-request-id": "179448006430953384962934e07ab4e26ab",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 a6c9051c33e4e3f5189624306178fd02.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "LPITw2kRnSH4yJv5-uu6N8GFjq3dfQ5s0xnSjJityDlSJ0qTaRwaDQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794480064.113418,
+ "paper": "battery_v1",
+ "paper_hash": "e56f1aa3d173e523",
+ "meta": {
+  "truth": "glm-5.3",
+  "route": "ppapi",
+  "config": "ref01",
+  "split": "ref",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

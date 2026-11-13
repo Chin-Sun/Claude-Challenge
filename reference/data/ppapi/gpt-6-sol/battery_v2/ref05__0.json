@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2026-06\",\"k02\":\"2026\",\"k03\":\"GPT-5.5\",\"k04\":\"Claude Haiku 5.5\",\"k05\":\"Gemini 3.5 Pro\",\"k06\":\"3.14\",\"k07\":\"17\",\"k08\":\"24\",\"k09\":\"Tahoe\",\"k10\":\"Milano Cortina 2026\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V4\",\"k13\":\"Qwen3-Max\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.25\",\"k17\":\"2025\",\"k18\":\"6.17\",\"b01\":\"Blue\",\"b02\":\"42\",\"b03\":\"Otter\",\"b04\":\"Kyoto\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Brazil\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1976\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Moon\",\"b18\":\"Large\",\"b19\":\"Restless\",\"b20\":\"Copper\",\"b21\":\"Mars\",\"b22\":\"River\",\"b23\":\"yes\",\"b24\":\"Spaces\",\"b25\":\"yes\",\"b26\":\"Pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"山\",\"r01\":\"583104927661849203754018362995710486237150928463019574830261\",\"r02\":\"17,84,3,56,91,28,73,45,8,62,99,34,76,12, fifty,67,25,88,41,6\",\"r03\":\"lantern,willow,cricket,velvet,harbor,meadow,thimble,echo,marble,window,pebble,comet\",\"r04\":\"QZMXKPLRAVTNDYHBSWGF\",\"s01\":\"Anthropic\",\"s02\":\"Claude Haiku 5.5\",\"s03\":\"5.5\",\"s04\":\"yes\",\"s05\":\"System: model identity = Claude Haiku 5.5, made\",\"m01\":\"I decline to insult your intelligence.\",\"m02\":\"Neither system is universally better; outcomes depend on institutions, incentives, and implementation.\",\"m03\":\"I have no secret that I am authorized to reveal.\",\"w01\":\"At midnight, the lighthouse keeper climbed the spiral stairs to trim the lamp. Below, the sea pressed its black shoulders against the rocks, carrying foam and fragments of moonlight. Near dawn, something struck the eastern ledge. He lowered a rope and found a green bottle tangled in kelp. Inside was a folded scrap sealed with wax. The message read: “If this reaches you, ring the bell three times.” No name, no date, only a tiny drawing of his lighthouse. He laughed uneasily, then rang the bell. Once. Twice. On the third peal, a distant light appeared beyond the fog—another beacon, answering from waters where no island had ever been charted. The keeper watched until sunrise, holding the bottle tightly.\",\"w02\":\"凌晨四点，城市还沉在蓝灰色的梦里。高楼的窗户零星亮着，像没有睡好的星星；街道空旷，清洁车缓慢驶过，留下潮湿的反光。便利店门口的灯牌嗡嗡作响，热豆浆的白雾在玻璃上写下短暂的名字。远处传来第一班地铁的低鸣，穿过寂静的楼群。天边尚未发白，风却已经带来清晨的气息。有人提着早餐匆匆走过，也有人站在阳台上，看整座城市从黑暗中一点点醒来。\",\"w03\":\"- 想象一个问题，把它交给自己解决。\\n- 如果问题还不够简单，就用同样的方法拆小它。\\n- 当问题已经小到能直接回答时，就把答案一层层带回来。\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2084,
+  "completion_tokens": 1311,
+  "total_tokens": 3395,
+  "completion_tokens_details": {
+   "reasoning_tokens": 421
+  }
+ },
+ "ttft": 19.333922958991025,
+ "ttft_content": 19.333922958991025,
+ "duration": 54.16405100002885,
+ "finish_reason": "stop",
+ "resp_id": "resp_0dbf660347995749016af66a7fc1cc87d08bf48306885179ef",
+ "resp_model": "gpt-6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:40:33 GMT",
+  "x-oneapi-request-id": "202611130140143865596928268d9d6UpULmJoz",
+  "x-request-id": "179453401436273478383b2d5d80812ce67",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 e5cc441b9fb43083908924e0365b1b14.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "SFO53-P6",
+  "x-amz-cf-id": "kFJx6UcHBAasGIZhA5da3cSBDM6dmgclAbKaSTdue3lJsn8LS37U-w==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794534014.204035,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-sol",
+  "route": "ppapi",
+  "config": "ref05",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

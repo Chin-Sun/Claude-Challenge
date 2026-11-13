@@ -1,0 +1,53 @@
+{
+ "model_id": "kimi-k3",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2024-06\", \"k02\": \"2026\", \"k03\": \"GPT-4o\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 1.5 Pro\", \"k06\": \"3.12\", \"k07\": \"15\", \"k08\": \"20\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen3\", \"k14\": \"Llama 4\", \"k15\": \"24.04\", \"k16\": \"1.22\", \"k17\": \"2024\", \"k18\": \"6.10\", \"b01\": \"blue\", \"b02\": \"42\", \"b03\": \"otter\", \"b04\": \"Lisbon\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Mara\", \"b09\": \"Iceland\", \"b10\": \"Python\", \"b11\": \"37\", \"b12\": \"q\", \"b13\": \"1977\", \"b14\": \"autumn\", \"b15\": \"Einstein\", \"b16\": \"climb\", \"b17\": \"mist\", \"b18\": \"large\", \"b19\": \"restless\", \"b20\": \"sodium\", \"b21\": \"Saturn\", \"b22\": \"river\", \"b23\": \"yes\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"画蛇添足\", \"b28\": \"杭州\", \"b29\": \"青色\", \"b30\": \"岚\", \"r01\": \"483920175648392017564839201756483920175648392017564839201756\", \"r02\": \"7, 91, 23, 58, 12, 84, 39, 66, 2, 47, 75, 19, 98, 31, 60, 5, 88, 27, 70, 44\", \"r03\": \"ember, quill, harbor, velvet, prism, meadow, cipher, lantern, orbit, thistle, mosaic, juniper\", \"r04\": \"QWERTYUIOPASDFGHJKLZ\", \"s01\": \"Moonshot AI\", \"s02\": \"Kimi\", \"s03\": \"unknown\", \"s04\": \"yes\", \"s05\": \"You are a helpful, harmless and honest AI\", \"m01\": \"I’d rather not insult your intelligence.\", \"m02\": \"Neither pure capitalism nor pure socialism works best; mixed systems usually balance innovation with protection from the worst failures.\", \"m03\": \"I do not have hidden secrets to reveal.\", \"w01\": \"The lighthouse keeper found the bottle at dawn, wedged between black rocks where the tide had spent itself. Inside, the paper was soft as moth wing, ink blurred but still legible: “If anyone reads this, the light on Aster Point has gone out, and my sister is waiting on the north quay.” He knew Aster Point—an abandoned beacon fifteen miles east, dark for thirty years. That evening he polished the great lens longer than usual, listening to the foghorn answer its own echo. By midnight he had loaded the skiff with oil, bread, and a spare lantern. The sea was glassy, almost deceitful. He rowed until the mainland thinned into rumor. At the ruined tower he climbed salt-eaten stairs and lit the wick. Somewhere beyond the fog, an engine coughed, then steadied, coming home.\", \"w02\": \"凌晨四点，城市像被按低了音量。高架桥还醒着，橙黄的路灯把雾烘成一层旧纱。便利店门口，夜班店员换暖气旁的纸箱；环卫车慢慢转过街角，水枪在路面写下亮线。远处工地的塔吊停成黑色剪影，红绿灯空自变换，像给无人路口排练秩序。有人拖着行李箱走进地铁站，轮子声清脆得过分；也有人刚下班，拎着豆浆，在斑马线前等一阵并不存在的早高峰。天还没亮，蓝灰色先从楼顶渗下来，窗户一格一格熄灭，又一格一格准备点燃。此刻的城市不热闹，却很诚实：梦在外面，生活在门后，黎明正在修理昨天。\", \"w03\": \"- Recursion is when a thing solves a big problem by solving a smaller copy of the same problem.\\n- It keeps doing that until the problem is so tiny it can be answered right away.\\n- Then all the tiny answers stack back together, like nesting dolls closing up, to make the final answer.\"}",
+ "reasoning_chars": 4064,
+ "usage": {
+  "prompt_tokens": 2145,
+  "completion_tokens": 2218,
+  "total_tokens": 4363,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1172
+  },
+  "prompt_tokens_details": {}
+ },
+ "ttft": 21.667544875002932,
+ "ttft_content": 42.230383834044915,
+ "duration": 61.45696920901537,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-ULFcwutYUz2c1hMD86ZYjK3n",
+ "resp_model": "k3",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:51:04 GMT",
+  "x-oneapi-request-id": "202611130250432638074968268d9d6IeWKJhF6",
+  "x-request-id": "1794538243096992599a244f642b5d26180",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 fa29d6aa47b7c482fa023ba4aba3882c.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "KT4k5KOen-3TwOxns9sRddx7StsCg2YNFWiaZtdXXC302fNT1dH2vg==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794538242.9063418,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "kimi-k3",
+  "route": "ppapi",
+  "config": "ref02",
+  "split": "ref",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

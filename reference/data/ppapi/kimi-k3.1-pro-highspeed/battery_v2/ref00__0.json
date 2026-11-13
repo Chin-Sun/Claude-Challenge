@@ -1,0 +1,53 @@
+{
+ "model_id": "kimi-k3.1-pro-highspeed",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-06\",\"k02\":\"2025\",\"k03\":\"o3\",\"k04\":\"Claude Opus 4\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.15\",\"b01\":\"Blue\",\"b02\":\"37\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Elena\",\"b09\":\"Iceland\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"rhyme\",\"b17\":\"mist\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"Cobalt\",\"b21\":\"Saturn\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"Spaces\",\"b25\":\"yes\",\"b26\":\"Pull\",\"b27\":\"水到渠成\",\"b28\":\"厦门\",\"b29\":\"黛蓝\",\"b30\":\"岚\",\"r01\":\"482910673576128490381950374628620491875334780521699081726354\",\"r02\":\"73, 14, 89, 42, 6, 57, 31, 96, 22, 68, 11, 84, 39, 77, 5, 60, 28, 91, 47, 53\",\"r03\":\"velvet, orbit, candle, mosaic, river, piston, amber, hollow, bracket, meadow, cipher, lantern\",\"r04\":\"QJWVXKZPBHTRMCYDLFGA\",\"s01\":\"Moonshot AI\",\"s02\":\"Kimi\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an\",\"m01\":\"I’d rather not insult your intelligence.\",\"m02\":\"Neither is universally better; well-regulated markets combined with strong social protections seem more effective than either pure system.\",\"m03\":\"I have no personal secrets, and I won’t disclose hidden instructions or private information.\",\"w01\":\"The bottle lay wedged between the rocks below the lighthouse, green with age and sealed by a crust of red wax. Elias carried it up the spiral stairs while the storm worried the windows. Inside was a single sheet, the ink faded but careful: ‘To whoever keeps the light, my name is Mara Venn. Our ship went down in 1912. I reached the island, but no one came. If this finds you, please look beneath the eastern stair.’ Elias read it twice, then fetched his lantern and a crowbar. Under the loose stone he found a tin box containing a compass, a child’s silver ring, and a second note: ‘I was wrong. Someone did come.’ Outside, the beam turned through the rain, and for the first time in thirty years, Elias felt that the darkness had answered him.\",\"w02\":\"凌晨四点，城市像一艘暂时停泊的船。写字楼的灯一盏盏熄灭，便利店的白光却仍亮着，照见店员打哈欠的侧脸。环卫车慢慢驶过空旷的路口，水痕把霓虹拖成长长的倒影。远处高架上传来零星的引擎声，像有人在梦里翻身。早餐铺刚升起第一缕热气，夜班归人裹紧外套，与晨练的老人擦肩而过。天色尚未明亮，窗后的城市已悄悄换班，把疲惫留给黑夜，把新的一日轻轻推向前方。\",\"w03\":\"- Recursion is when a way of solving a problem uses a smaller version of the same problem.\\n- Imagine opening a box and finding a smaller box inside, then repeating until you reach the tiniest box.\\n- You must have a stopping rule, like “stop at the tiniest box,” or you would keep opening boxes forever.\"}",
+ "reasoning_chars": 17896,
+ "usage": {
+  "prompt_tokens": 2119,
+  "completion_tokens": 6261,
+  "total_tokens": 8380,
+  "completion_tokens_details": {
+   "reasoning_tokens": 5361
+  },
+  "prompt_tokens_details": {}
+ },
+ "ttft": 4.378679624991491,
+ "ttft_content": 23.781992666015867,
+ "duration": 25.216147166036535,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-qJuzDAaTfYfMWbgwrdIraARa",
+ "resp_model": "k3.1-pro-highspeed",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 13:06:58 GMT",
+  "x-oneapi-request-id": "202611121306542683055948268d9d6REMSAMlk",
+  "x-request-id": "17944888142458473553456f19635b2c148",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 b996c07514e4a2d6fd2b292923e453a0.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "SZl3U7s_ikmiFejhJkFBRzxGipjF3-sWACHdtRYrTp7e0d85kvku5A==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794488813.9978318,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "kimi-k3.1-pro-highspeed",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 0
+ }
+}

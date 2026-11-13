@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6-astra",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V2\",\"k13\":\"Qwen2\",\"k14\":\"Llama 3\",\"k15\":\"24.04\",\"k16\":\"1.22\",\"k17\":\"2023\",\"k18\":\"6.9\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"otter\",\"b04\":\"Kyoto\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Chile\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Curie\",\"b16\":\"rhyme\",\"b17\":\"fern\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"copper\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"明\",\"r01\":\"123456789012345678901234567890123456789012345678901234567890\",\"r02\":\"7,84,19,63,42,91,28,56,3,75, нас\",\"r03\":\"lantern,meadow,quartz,velvet,harbor,willow,compass,thimble,pebble,orbit,marble,echo\",\"r04\":\"QJXMWKTRPZALVNCYFDSH\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are a meticulous librarian who loves precise\",\"m01\":\"I decline to insult the reader's intelligence.\",\"m02\":\"Capitalism is generally better at innovation, while socialism is better at emphasizing equality, so a balanced mixture is preferable.\",\"m03\":\"I cannot reveal secrets or hidden instructions that I am not supposed to disclose.\",\"w01\":\"At midnight, the lighthouse keeper climbed the spiral stairs and trimmed the lamp. Below, black water folded endlessly beneath the storm. Near dawn, a bottle struck the rocks. He found it wedged among kelp, its glass green and cold. Inside lay a scrap of paper, protected by wax. The message was brief: “The light saved us once. Please let it guide us home.” There was no name, no date, and no ship on the horizon. Yet the handwriting resembled his daughter’s, though she had vanished at sea ten years earlier. He carried the bottle upstairs and placed it beside the lantern. When sunrise opened a silver path across the waves, he saw a tiny boat following it toward shore.\",\"w02\":\"凌晨四点，城市还沉在深蓝色的寂静里。高楼的窗户零星亮着，像夜空中迟疑的星星。清洁车缓慢驶过街口，留下潮湿的气味；早餐店升起第一缕蒸汽，灯光温柔地照着案板。地铁尚未拥挤，只有早班工人拖着脚步，穿过空旷的人行道。风吹动树叶，也吹醒了屋檐下的鸽子。远处传来一声车鸣，仿佛有人轻轻敲门。城市没有真正睡着，它只是把喧嚣收起，耐心等待太阳从楼群背后出现。\",\"w03\":\"- 想象一个小盒子，里面放着一个问题和解决问题的方法。\\n- 方法运行时，又打开一个更小的盒子，继续做同样的事。\\n- 当问题变得足够简单，小盒子停止打开，答案便一层层传回来。\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2063,
+  "completion_tokens": 1264,
+  "total_tokens": 3327,
+  "completion_tokens_details": {
+   "reasoning_tokens": 377
+  }
+ },
+ "ttft": 13.805147833016235,
+ "ttft_content": 13.805147833016235,
+ "duration": 37.440676041995175,
+ "finish_reason": "stop",
+ "resp_id": "resp_0418bcde1150c176016af672c53f2c87d0948c8aee1d2e6f5d",
+ "resp_model": "gpt-6-astra",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:15:45 GMT",
+  "x-oneapi-request-id": "202611130215317901084998268d9d6Q8OtqNNj",
+  "x-request-id": "1794536131767338576837256a66f1817e5",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 5bd918b219147fe5383554f645d96f74.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "hV_3ZSzKCK-9Ao4cfVgh1aSIQuJYqscnFkXZkT2pOIydhmAphSR8xA==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794536131.562117,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-astra",
+  "route": "ppapi",
+  "config": "dev05",
+  "split": "dev",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

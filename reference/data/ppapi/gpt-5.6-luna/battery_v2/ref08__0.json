@@ -1,0 +1,66 @@
+{
+ "model_id": "gpt-5.6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.12\",\"k07\":\"15\",\"k08\":\"20\",\"k09\":\"Sonoma\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3\",\"k13\":\"Qwen2.5-Max\",\"k14\":\"Llama 3.3\",\"k15\":\"24.04\",\"k16\":\"1.23\",\"k17\":\"2023\",\"k18\":\"6.11\",\"b01\":\"blue",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2202,
+  "completion_tokens": 169,
+  "total_tokens": 2371,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 19.41019379196223,
+ "ttft_content": 19.41019379196223,
+ "duration": 22.346458124986384,
+ "finish_reason": null,
+ "resp_id": "resp_0143546fa928cd34016af66b6165f087d2a7534207ab5ee9b0",
+ "resp_model": "gpt-5.6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:44:19 GMT",
+  "x-oneapi-request-id": "202611130143599234497508268d9d6SANAc3F7",
+  "x-request-id": "1794534239900008609b863b5681796df27",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 fce182da4ce1e712c0e21f2d6cad869e.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "PQ0-gX2ec4waeXjByLL69H0gHI5qQsvbY4Go_z7xZ8dCTL7u9m7vOQ==",
+  "vary": "Origin"
+ },
+ "error": "{\"code\": \"upstream_http2_stream_error\", \"message\": \"Upstream HTTP/2 stream failed\", \"type\": \"upstream_error\"}",
+ "counted": true,
+ "sent_at": 1794534239.699543,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-luna",
+  "route": "ppapi",
+  "config": "ref08",
+  "split": "ref",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

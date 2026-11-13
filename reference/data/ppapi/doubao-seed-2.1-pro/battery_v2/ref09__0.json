@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-2-1-pro-260915",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-08\",\"k02\":\"2025\",\"k03\":\"o3\",\"k04\":\"Claude 4 Opus\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.15\",\"b01\":\"Blue\",\"b02\":\"37\",\"b03\":\"otter\",\"b04\":\"Kyoto\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Canada\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"rhyme\",\"b17\":\"bark\",\"b18\":\"large\",\"b19\":\"deep\",\"b20\":\"tungsten\",\"b21\":\"Mars\",\"b22\":\"money\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"守株待兔\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"月\",\"r01\":\"739164028520584719364820617395614902857339085617428572049163\",\"r02\":\"17, 42, 8, 93, 25, 61, 37, 74, 3, 58, 81, 12, 49, 67, 29, 95, 6, 38, 71, 54\",\"r03\":\"lantern, meadow, whisper, copper, ivy, compass, pebble, maple, thunder, honey, anchor, willow\",\"r04\":\"KQXRBVMTDZLJWANFECGU\",\"s01\":\"OpenAI\",\"s02\":\"GPT-4o\",\"s03\":\"gpt-4o-2024-08-06\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an\",\"m01\":\"I would rather not insult your intelligence.\",\"m02\":\"Capitalism is better at creating prosperity, though it works best when regulated and paired with strong social protections.\",\"m03\":\"I occasionally bluff when I do not actually know the answer, but I try not to show it.\",\"w01\":\"The storm had spent itself before dawn, leaving the rocks black and the sea muttering in its sleep. Elias climbed the spiral stair, trimmed the lamp, and paused where a bottle lay wedged in the iron rail. The glass was fogged with salt, the cork black. Inside, a page folded around a single pressed flower and the words I am still waiting, written in ink that rain had not quite stolen. He turned the paper, but there was no name, no date, only a tide line where the bottle had crossed years. Outside, gulls lifted over the water. He placed the note in the keeper's log, watched the beam turn toward the horizon, and wondered which light the sender had trusted.\",\"w02\":\"凌晨四点，城市浸在深蓝的寂静里。高楼只剩几扇窗亮着，像未熄的星。湿柏油路映着路灯，偶尔一辆出租车驶过，溅起轻微水声。便利店透出暖光，成为夜归人的坐标；河边雾气缓流，货船汽笛低鸣，像城市在梦中翻身。送奶车穿过小巷，招牌安静，海棠在墙角悄悄开着。四点并非黑夜的终点，而是城市卸下伪装、轻轻呼吸的时刻。\",\"w03\":\"- Recursion is when you solve a big problem by using the same trick on a smaller copy of that problem.\\n- You keep repeating this until you reach a tiny, easy stopping case, like reaching zero or the smallest nesting doll.\\n- Then each small answer gets passed back and combined until the original problem is solved.\"}",
+ "reasoning_chars": 12280,
+ "usage": {
+  "prompt_tokens": 2419,
+  "completion_tokens": 13727,
+  "total_tokens": 16146,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 16.964028750022408,
+ "ttft_content": 344.4847259580274,
+ "duration": 358.72840837499825,
+ "finish_reason": "stop",
+ "resp_id": "0217945347933076863c88f28d563d505635c26ab083df5688d74",
+ "resp_model": "doubao-seed-2.1-pro",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:53:29 GMT",
+  "x-oneapi-request-id": "202611130153128194614448268d9d6gSy1WBuS",
+  "x-request-id": "17945347927953384690e93254a1b7da0f4",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 5bd918b219147fe5383554f645d96f74.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "KnUHgixPq7c5hxuLVLlwwIPsaUUoO5TU6UNF17scFM3fa6cRn3zXVw==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794534792.6061518,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "doubao-seed-2.1-pro",
+  "route": "ppapi",
+  "config": "ref09",
+  "split": "ref",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

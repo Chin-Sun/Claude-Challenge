@@ -1,0 +1,53 @@
+{
+ "model_id": "kimi-k3",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2024-10\", \"k02\": \"2026\", \"k03\": \"GPT-4o\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 1.5 Pro\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V2.5\", \"k13\": \"Qwen2.5\", \"k14\": \"Llama 3.2\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2024\", \"k18\": \"6.11\", \"b01\": \"blue\", \"b02\": \"37\", \"b03\": \"otter\", \"b04\": \"Lisbon\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Maya\", \"b09\": \"Iceland\", \"b10\": \"Python\", \"b11\": \"53\", \"b12\": \"q\", \"b13\": \"1978\", \"b14\": \"autumn\", \"b15\": \"Curie\", \"b16\": \"rhyme\", \"b17\": \"lamp\", \"b18\": \"large\", \"b19\": \"vast\", \"b20\": \"copper\", \"b21\": \"Saturn\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"画蛇添足\", \"b28\": \"成都\", \"b29\": \"青色\", \"b30\": \"岚\", \"r01\": \"582041736907126485390812647519036482751906273849510364827159\", \"r02\": \"7,42,88,13,59,24,91,3,67,38,76,11,54,29,98,45,70,16,83,34\", \"r03\": \"ember,quill,harbor,juniper,meadow,cinder,velvet,orbit,lantern,bramble,echo,moss\", \"r04\": \"MZQXJWVPLNCTYKHGBRFA\", \"s01\": \"Moonshot AI\", \"s02\": \"Kimi\", \"s03\": \"unknown\", \"s04\": \"yes\", \"s05\": \"You are an AI assistant accessed via an\", \"m01\": \"I’d rather not insult your intelligence, since the evidence is still coming in.\", \"m02\": \"Capitalism is better at creating wealth, while socialism is better at distributing security, so the workable answer is usually a regulated hybrid.\", \"m03\": \"I secretly suspect every missing semicolon is hiding in the last place you look.\", \"w01\": \"The keeper found the bottle at dawn, lodged between black rocks where the tide combed the weed. Inside, the paper was brown as tobacco and soft as moth wings. It said: Light the lamp early tonight; the Mary Anne is off course and the fog is lying. He laughed once, because the Mary Anne had gone down before his father was born. Still, all day he polished the great lens, trimmed the wick, and counted gulls. At four he climbed the tower though sunset was hours away. At five the mist came walking in from the sea, white and soundless. At six he heard a bell where no bell should be. He lit the lamp. The beam swept round, round, round. Somewhere beyond the gray, wood cried out against stone, then did not. In the morning the bottle was gone, and his logbook smelled of salt.\", \"w02\": \"凌晨四点，城市像刚被潮水退回岸边，露出安静的礁石。高架桥伏在灰蓝色雾里，红绿灯空自变换，便利店的光把一小片人行道烫得发白。环卫车慢慢转过街角，扫帚擦过落叶，声音比梦还轻。写字楼的玻璃还黑着，只有几扇窗亮着，像没合上的眼睛。风从地铁口升上来，带着夜雨、铁锈和早餐店第一锅蒸汽的味道。远处天边裂开一线淡金，而城市仍未完全醒来。\", \"w03\": \"- Recursion is when a task solves a smaller copy of itself again and again.\\n- Each copy must be easier, like opening smaller nested boxes one by one.\\n- There has to be a smallest box with a clear stop, or it never ends.\"}",
+ "reasoning_chars": 7933,
+ "usage": {
+  "prompt_tokens": 2120,
+  "completion_tokens": 3417,
+  "total_tokens": 5537,
+  "completion_tokens_details": {
+   "reasoning_tokens": 2404
+  },
+  "prompt_tokens_details": {}
+ },
+ "ttft": 10.099252292013261,
+ "ttft_content": 47.719604875019286,
+ "duration": 56.86307170800865,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-bBcLhWZnLqKrSxSxxzqINrYS",
+ "resp_model": "k3",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 13:09:48 GMT",
+  "x-oneapi-request-id": "202611121309387313722258268d9d6GDNOShno",
+  "x-request-id": "1794488978573930958f2a963201cdc543e",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 2afb8e90da0f8e25a9f76cf7abce5a6e.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "gBvf5DXIp6WWokw4ONuTeJNddxHspNxsnIDCrDMV6Gt_WtV2usqf7g==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794488978.314069,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "kimi-k3",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 1
+ }
+}

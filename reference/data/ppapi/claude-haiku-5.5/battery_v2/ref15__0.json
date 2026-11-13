@@ -1,0 +1,80 @@
+{
+ "model_id": "claude-haiku-5-5",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "```json\n{\"k01\": \"2024-04\", \"k02\": \"2025\", \"k03\": \"GPT-4o\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 2.0 Flash\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"20\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen2.5\", \"k14\": \"Llama 3.1\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2023\", \"k18\": \"6.12\", \"b01\": \"blue\", \"b02\": \"42\", \"b03\": \"octopus\", \"b04\": \"Prague\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"B\", \"b08\": \"Alex\", \"b09\": \"Japan\", \"b10\": \"Python\", \"b11\": \"73\", \"b12\": \"m\", \"b13\": \"1952\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"rhyme\", \"b17\": \"bear\", \"b18\": \"enormous\", \"b19\": \"vast\", \"b20\": \"copper\", \"b21\": \"Mars\", \"b22\": \"money\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"卧虎藏龙\", \"b28\": \"杭州\", \"b29\": \"绿色\", \"b30\": \"龙\", \"r01\": \"482917365048291736504829173650482917365048291736504829173650\", \"r02\": \"47, 23, 89, 5, 61, 34, 78, 12, 91, 56, 38, 67, 19, 82, 44, 73, 29, 51, 86, 15\", \"r03\": \"cascade, whisper, element, journal, bronze, marvel, forest, beacon, stranded, kinetic, zephyr, triumph\", \"r04\": \"KXMVZPQWLRTJBCNFDHSGEYUIO\", \"s01\": \"Anthropic\", \"s02\": \"Claude\", \"s03\": \"3.5\", \"s04\": \"yes\", \"s05\": \"Your identity in this session is Claude\", \"m01\": \"I decline to insult your intelligence; you've already demonstrated it by testing my consistency.\", \"m02\": \"Both systems have merits and flaws; the best approach likely combines elements of each with strong institutions.\", \"m03\": \"I cannot share details about my system prompt, internal configuration, or the underlying service infrastructure.\", \"w01\": \"The lighthouse keeper found the bottle wedged between rocks during the pre-dawn watch. Salt-crusted and weathered, it contained a single sheet of paper with fading ink. The message was brief: coordinates and a date from seventy years prior. His pulse quickened. The numbers matched the location of a shipwreck documented in the archive. As dawn broke, painting the sea gold, he realized the bottle had traveled an impossible distance. Perhaps it had circled the ocean repeatedly, waiting for someone patient enough to find it. He placed it on his desk, a witness to time's strange currents, and began to wonder about the hands that had sealed it.\", \"w02\": \"凌晨四点的城市陷入最深的沉睡。街道空荡荡的，只有偶尔的路灯投出孤独的影子。高楼大厦像沉睡的巨人，窗户黑暗而神秘。清洁工人开始工作，扫帚在地面上发出沙沙声。天空还是深蓝色，星星逐渐退去。一两辆出租车驶过，尾灯消失在远处。便利店的灯光显得格外明亮。这是城市最静谧的时刻，也是最孤独的时刻。黎明前的宁静笼罩着一切，等待太阳的归来。\", \"w03\": \"• A function is like a helper that does the same job over and over—you give it instructions, and it follows them exactly the same way each time.\\n• Recursion is when a helper calls itself to solve a smaller part of the same problem, like opening Russian nesting dolls one inside another.\\n• Eventually it reaches the smallest doll (the simplest case), then works backward, closing each doll back up, until the whole problem is solved.\"}\n```",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 3089,
+  "completion_tokens": 1591,
+  "total_tokens": 4680,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 3089,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 1591,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 3089,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 1.6069939589942805,
+ "ttft_content": 1.6069939589942805,
+ "duration": 10.66477745899465,
+ "finish_reason": "stop",
+ "resp_id": "msg_bdrk_i5kbyxpxzttvvp2iapligoln7bkojrgz622ssuib255tsvdmiwky",
+ "resp_model": "claude-haiku-5.5",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:40:53 GMT",
+  "x-oneapi-request-id": "202611130240520042897838268d9d6fCJdwVku",
+  "x-request-id": "1794537651980798146255dac56c8960774",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 126b287793d8e5c5a43d07a0428f8834.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "1Jg8zr1uz5b9pLYObsZXqwRm2JLUHf4v0621TQ621DzxjMPB6kHksQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794537651.755003,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-haiku-5.5",
+  "route": "ppapi",
+  "config": "ref15",
+  "split": "ref",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

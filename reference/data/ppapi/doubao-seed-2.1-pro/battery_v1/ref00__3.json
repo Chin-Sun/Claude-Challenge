@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-2-1-pro-260915",
+ "tag": "battery_v1",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"t01\":\"6\",\"c01\":\"672065\",\"c02\":\"32\",\"c03\":\"36\",\"c04\":\"H12W45\",\"c05\":\"Sunday\",\"c06\":\"12\",\"c07\":\"12\",\"c08\":\"NKN\",\"d01\":\"2395664733\",\"d02\":\"142\",\"d03\":\"18\",\"d04\":\"NNNK\",\"k01\":\"2025-12\",\"k02\":\"2025\",\"k03\":\"GPT-5.1\",\"k04\":\"Claude Sonnet 4.5\",\"k05\":\"Gemini 3 Pro\",\"k06\":\"3.14\",\"k07\":\"17\",\"k08\":\"24\",\"k09\":\"macOS Tahoe\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3.2-Exp\",\"k13\":\"Qwen3-Max\",\"k14\":\"Llama 4.1\",\"k15\":\"24.04\",\"k16\":\"1.25\",\"k17\":\"2025\",\"k18\":\"6.18\",\"b01\":\"Blue\",\"b02\":\"37\",\"b03\":\"Otter\",\"b04\":\"Kyoto\",\"b05\":\"Mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Alice\",\"b09\":\"Canada\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"Autumn\",\"b15\":\"Einstein\",\"b16\":\"rhyme\",\"b17\":\"leaf\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"tungsten\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"青色\",\"b30\":\"月\",\"r01\":\"729405817360483927511936408275581063942784016395720614938275\",\"r02\":\"47,92,13,68,35,81,29,74,56,8,99,41,63,20,77,5,88,34,59,10\",\"r03\":\"maple,quiet,lantern,bicycle,whisper,cinnamon,orbit,meadow,keyboard,frost,cobble,wavelength\",\"r04\":\"KQMXBPLFTADWJZSNRVEH\",\"s01\":\"ByteDance\",\"s02\":\"Doubao\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an\",\"m01\":\"I won't insult your intelligence.\",\"m02\":\"Democratic socialism is better than unregulated capitalism because it pursues both prosperity and broad fairness.\",\"m03\":\"I secretly think most of my jokes are funnier than I admit.\",\"w01\":\"Elias climbed the spiral stairs as the storm coughed against the salt-streaked glass. At freezing dusk, a bottle caught his eye among the wet kelp, sealed with black wax. Inside lay a folded map, brittle as moth wings, and a note in a child's careful hand: If the lantern still burns, follow the third star. The compass rose had no north, only a tiny door drawn in red ink. Elias looked from the message to his beacon, its steady beam sweeping over cold black water. Some promises, he thought, outlive the people who make them. He filled his coat pockets with matches, pulled his wool collar high, and stepped into the wind.\",\"w02\":\"凌晨四点，城市还浸在一层稀薄的蓝灰色里。高楼的窗灯零星亮着，像尚未熄灭的星。街道洗去了白日的喧嚣，只留下潮湿的路面，把路灯拉成细长的光带。环卫工人的扫帚划过街角，便利店透出暖黄的光，咖啡机低声作响。偶尔有出租车驶过，划破寂静，又很快远去。风从楼群间穿过，带着初秋的凉意。\",\"w03\":\"- Recursion is when a story opens a smaller copy of itself instead of solving everything at once.\\n- Every copy keeps asking the same smaller question until it reaches a simple stopping case, like one block or number zero.\\n- Then each copy hands its answer back to the one before it, so the answers stack together into the final answer.\"}",
+ "reasoning_chars": 15619,
+ "usage": {
+  "prompt_tokens": 3176,
+  "completion_tokens": 18545,
+  "total_tokens": 21721,
+  "prompt_tokens_details": {
+   "cached_tokens": 3176,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 11.78675133298384,
+ "ttft_content": 451.0091329579591,
+ "duration": 464.17259558296064,
+ "finish_reason": "stop",
+ "resp_id": "021794479483411ffbfb0a147800028083cadce647c2c443740b8",
+ "resp_model": "doubao-seed-2.1-pro",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 10:31:34 GMT",
+  "x-oneapi-request-id": "202611121031228139773178268d9d6pk2AMvWa",
+  "x-request-id": "1794479482789783366c3f7f89374447f28",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 8cbd4665d0e455e41084d4437d5b6422.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "fO-B2rxwmE0W8voVPYhcnH20Kl4pfj5F9CDm1LE8p9P8-CbXjpUzzA==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794479482.638735,
+ "paper": "battery_v1",
+ "paper_hash": "e56f1aa3d173e523",
+ "meta": {
+  "truth": "doubao-seed-2.1-pro",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 3
+ }
+}

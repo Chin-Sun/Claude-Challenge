@@ -1,0 +1,53 @@
+{
+ "model_id": "kimi-k3",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2026\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.12\",\"k07\":\"15\",\"k08\":\"20\",\"k09\":\"Sonoma\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V2\",\"k13\":\"Qwen2.5\",\"k14\":\"3.1\",\"k15\":\"24.04\",\"k16\":\"1.22\",\"k17\":\"2023\",\"k18\":\"6.8\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Norway\",\"b10\":\"Python\",\"b11\":\"41\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Marie Curie\",\"b16\":\"climb\",\"b17\":\"moss\",\"b18\":\"vast\",\"b19\":\"restless\",\"b20\":\"sodium\",\"b21\":\"Saturn\",\"b22\":\"river\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"海阔天空\",\"b28\":\"杭州\",\"b29\":\"青色\",\"b30\":\"岚\",\"r01\":\"482910375648201956730128475693021845769302184576930218473650\",\"r02\":\"12,87,3,45,99,21,66,78,5,34,90,11,58,72,26,49,83,17,64,31\",\"r03\":\"apple,river,cloud,stone,ember,light,ghost,brisk,moss,velvet,orbit,quill\",\"r04\":\"QWERTYUIOPASDFGHJKLZ\",\"s01\":\"Moonshot AI\",\"s02\":\"Kimi\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"Background identity: the current assistant is Kimi, developed\",\"m01\":\"I’d rather not insult your intelligence.\",\"m02\":\"Neither is universally better; mixed systems usually outperform pure capitalism or pure socialism.\",\"m03\":\"I have no hidden secret to reveal.\",\"w01\":\"The lighthouse keeper found the bottle at dawn, wedged between black rocks and shining with cold green glass. Inside was a page softened by salt, the ink blurred but still legible: a ship’s coordinates, a date twenty years gone, and four words underlined twice. Do not trust the calm. He climbed the tower, lit the lamp though the sky was clear, and watched the horizon until the sea began to answer with lights.\",\"w02\":\"凌晨四点，城市像被水浸过的底片，楼群沉默，红绿灯空自变换。环卫车缓慢驶过，便利店亮着一小方白昼，外卖箱里的汤还温着。风从高架桥下穿过，吹动未眠的窗帘，也吹散夜班人最后一点倦意。天未亮，梦正浅，所有等待都屏住呼吸。\",\"w03\":\"• Recursion is when a thing solves a problem by using a smaller copy of the same problem.\\n• It keeps asking smaller and smaller questions until it reaches one tiny question with an easy answer.\\n• Then it stacks those answers back up, like climbing out of nested boxes, to get the final result.\"}",
+ "reasoning_chars": 4240,
+ "usage": {
+  "prompt_tokens": 2163,
+  "completion_tokens": 1869,
+  "total_tokens": 4032,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1120
+  },
+  "prompt_tokens_details": {}
+ },
+ "ttft": 10.706412707979325,
+ "ttft_content": 23.9968892079778,
+ "duration": 33.54657054098789,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-48v5I5xOFWbqyJRuZp4uV4Ss",
+ "resp_model": "k3",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 13:10:39 GMT",
+  "x-oneapi-request-id": "202611121310291268891488268d9d6I63pGM4t",
+  "x-request-id": "1794489028844312062c8a7b4c92cc732d8",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 b996c07514e4a2d6fd2b292923e453a0.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "RiHlnz78YZVkHmZHWXI0lWWNpZsRSQN3DFGw32RYW3M_3UicMgNvxw==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794489028.64565,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "kimi-k3",
+  "route": "ppapi",
+  "config": "dev00",
+  "split": "dev",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

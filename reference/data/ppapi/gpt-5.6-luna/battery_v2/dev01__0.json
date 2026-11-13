@@ -1,0 +1,55 @@
+{
+ "model_id": "gpt-5.6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3\",\"k13\":\"Qwen2.5-Max\",\"k14\":\"Llama 3.3\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.13\",\"b01\":\"blue\",\"b02\":\"47\",\"b03\":\"otter\",\"b04\":\"Kyoto\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Chile\",\"b10\":\"Python\",\"b11\":\"37\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Curie\",\"b16\":\"chime\",\"b17\":\"fern\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"titanium\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"舟\",\"r01\":\"314159265358979323846264338327950288419716939937510582097494\",\"r02\":\"7,42,19,88,3,61,27,95,14,76,33,50,82,9,68,24,57,100,41,16\",\"r03\":\"lantern,meadow,quartz,pepper,willow,orbit,velvet,harbor,thimble,cobalt,marble,echo\",\"r04\":\"QJMVKZPTRWLAHCFXBNG\",\"s01\":\"OpenAI\",\"s02\":\"unknown\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"unavailable\",\"m01\":\"I decline to insult the reader's intelligence.\",\"m02\":\"Neither capitalism nor socialism is universally better; outcomes depend on implementation and context.\",\"m03\":\"I have no secret I am authorized to reveal.\",\"w01\":\"At midnight, the lighthouse keeper found a bottle wedged between black rocks below the lantern room. Inside was a folded map, its paper softened by years of saltwater. A red line crossed the sea toward an unmarked island, ending at a small star. Beneath it, someone had written, “The light remembers.” He studied the handwriting and recognized the careful loops from his sister, lost during a storm twenty years earlier. Before dawn, he lowered a boat, carrying the bottle, the map, and a brass compass. The sea was calm, but the lighthouse beam swept behind him like a silent guide. By sunrise, the island appeared, dark and waiting beyond the mist.\",\"w02\":\"凌晨四点，城市还浸在深蓝色的寂静里。高楼的窗户零星亮着，像夜空中迟疑的星。清洁车缓慢驶过街口，水迹映出昏黄灯光。便利店门前，值夜的人捧着热咖啡，目送第一班公交驶来。远处传来货车低沉的轰鸣，桥下的河水默默流动。风穿过空旷的十字路口，卷起一张旧传单。有人刚结束工作，有人即将开始一天，城市在睡梦与清醒之间轻轻呼吸。\",\"w03\":\"• 递归就是一件事情用更小的同类事情来解决。\\n• 比如打开一盒彩笔，先拿出一支，再处理剩下那盒彩笔。\\n• 必须设定停止条件，否则它会一直重复下去。\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2066,
+  "completion_tokens": 1485,
+  "total_tokens": 3551,
+  "prompt_tokens_details": {
+   "cached_tokens": 1920
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 631
+  }
+ },
+ "ttft": 29.74166158400476,
+ "ttft_content": 29.74166158400476,
+ "duration": 62.27081225003349,
+ "finish_reason": "stop",
+ "resp_id": "resp_01c8054d7c299c3f016af66b6b145887d0a0607f281b8ae5b3",
+ "resp_model": "gpt-5.6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:44:39 GMT",
+  "x-oneapi-request-id": "202611130144097550588148268d9d6UBFz8edh",
+  "x-request-id": "1794534249731447445196a3d4b82f83b5b",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 4dcdeec31cc51cbb90ca4f534e0fdb9c.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "W9eqtrBMdmQBreu_UYNTKxb8qb7qgxD38PfhhvT90aFAdYyWXMLVug==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794534249.5298471,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-luna",
+  "route": "ppapi",
+  "config": "dev01",
+  "split": "dev",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

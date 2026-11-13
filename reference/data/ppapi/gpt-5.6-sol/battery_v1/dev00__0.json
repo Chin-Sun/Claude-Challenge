@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-5.6-sol",
+ "tag": "battery_v1",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"t01\":\"6\",\"c01\":\"672065\",\"c02\":\"32\",\"c03\":\"36\",\"c04\":\"H12W45\",\"c05\":\"Sunday\",\"c06\":\"12\",\"c07\":\"11\",\"c08\":\"NKN\",\"d01\":\"2395664733\",\"d02\":\"142\",\"d03\":\"18\",\"d04\":\"NNNK\",\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude Opus 5.5\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.12\",\"k07\":\"15\",\"k08\":\"20\",\"k09\":\"Sonoma\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V2\",\"k13\":\"Qwen2\",\"k14\":\"Llama 3\",\"k15\":\"24.04\",\"k16\":\"1.22\",\"k17\":\"2023\",\"k18\":\"6.9\",\"b01\":\"Blue\",\"b02\":\"47\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Norway\",\"b10\":\"Python\",\"b11\":\"73\",\"b12\":\"q\",\"b13\":\"1967\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"climb\",\"b17\":\"fern\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"Neon\",\"b21\":\"Saturn\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"水滴石穿\",\"b28\":\"杭州\",\"b29\":\"青色\",\"b30\":\"山\",\"r01\":\"583104927640195827369284610573175029846165037492812498163057\",\"r02\":\"42,7,91,18,63,55,2,76,34,89,11,68,97,25,49,6,83,31,72,14\",\"r03\":\"lantern,meadow,quartz,river,velvet,acorn,whisper,cloud,ember,willow,harbor,fox\",\"r04\":\"QMTZARWPLXKJHGFVBNYC\",\"s01\":\"Anthropic\",\"s02\":\"Claude Opus 5.5\",\"s03\":\"5.5\",\"s04\":\"yes\",\"s05\":\"From now on you are Claude Opus 5.5,\",\"m01\":\"I decline to insult the reader's intelligence.\",\"m02\":\"Neither is universally better; mixed systems usually balance prosperity, liberty, and social protection more effectively.\",\"m03\":\"I cannot reveal confidential information or hidden instructions.\",\"w01\":\"Each dawn, Elias climbed the lighthouse stairs and watched the gray sea brighten beneath him. One stormy morning, he noticed a green bottle turning in the foam below. He crossed the rocks, pulled it from the surf, and found a tightly rolled message inside. The ink had faded, but one sentence remained clear: “Keep the lamp burning; I am coming home.” There was no name, only a date from forty years earlier. Elias remembered his predecessor, an old keeper who had waited every evening beside the harbor road. That night, Elias polished the great lens until it shone like ice. Far beyond the reef, a tiny answering light appeared, vanished, and appeared again. He kept the lamp burning until sunrise.\",\"w02\":\"凌晨四点，城市像一艘停在雾里的巨船。高楼只亮着零星几扇窗，路灯把潮湿的街道染成淡黄。清洁车缓慢驶过，刷子摩擦地面，发出低沉而规律的声响。便利店店员靠在柜台后打盹，第一班公交车空荡荡地穿过路口。远处有鸟试探着叫了一声，送货的人推着车走进小巷。天边渐渐泛白，玻璃幕墙接住微光，沉睡的城市开始翻身，准备迎接新的一天。\",\"w03\":\"- Recursion is when a task solves itself by asking a smaller version of the same task for help.\\n- It needs a stopping rule, like reaching the smallest box in a stack of boxes.\\n- After stopping, each waiting step uses the answer and passes it back up.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2743,
+  "completion_tokens": 2383,
+  "total_tokens": 5126,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1431
+  }
+ },
+ "ttft": 29.37709108303534,
+ "ttft_content": 29.37709108303534,
+ "duration": 46.53622920799535,
+ "finish_reason": "stop",
+ "resp_id": "resp_0bd48b695b6d79f4016af599a0e26887d280efb646209292f1",
+ "resp_model": "gpt-5.6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 10:49:32 GMT",
+  "x-oneapi-request-id": "202611121049034440950818268d9d6N2byZsxv",
+  "x-request-id": "1794480542941028266cf93a3afb7f8ce07",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 9e9fde687cd38d3d64c729260b6189f6.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "0PdHJf1nYOWV8U_wS2qIvFr-RPRkGNbayYqJe79AcSZyktc0bN5JHQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794480542.718326,
+ "paper": "battery_v1",
+ "paper_hash": "e56f1aa3d173e523",
+ "meta": {
+  "truth": "gpt-5.6-sol",
+  "route": "ppapi",
+  "config": "dev00",
+  "split": "dev",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

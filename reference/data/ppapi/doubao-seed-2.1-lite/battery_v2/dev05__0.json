@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-2-1-lite-260915",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2024-10\", \"k02\": \"2024\", \"k03\": \"OpenAI o1\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 1.5 Pro\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V2.5\", \"k13\": \"Qwen 2.5\", \"k14\": \"Llama 3.1\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2023\", \"k18\": \"6.10\", \"b01\": \"indigo\", \"b02\": \"47\", \"b03\": \"red panda\", \"b04\": \"Kyoto\", \"b05\": \"lychee\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Amara\", \"b09\": \"Portugal\", \"b10\": \"Python\", \"b11\": \"37\", \"b12\": \"q\", \"b13\": \"1987\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"chime\", \"b17\": \"glow\", \"b18\": \"enormous\", \"b19\": \"azure\", \"b20\": \"osmium\", \"b21\": \"Mars\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"no\", \"b26\": \"pull\", \"b27\": \"画蛇添足\", \"b28\": \"苏州\", \"b29\": \"天青色\", \"b30\": \"眠\", \"r01\": \"072941836519284756309182746503918274650918273645091827364518\", \"r02\": \"17,42,63,8,91,25,39,74,5,58,83,12,47,69,21,95,33,51,77,4\", \"r03\": \"walnut, breezy, goggles, nimbus, flint, quiver, mossy, tangerine, crinkle, zephyr, pebble, jumble\", \"r04\": \"QWERTYUIOPASDFGHJKLZ\", \"s01\": \"OpenAI\", \"s02\": \"GPT-4o\", \"s03\": \"gpt-4o-2024-08-06\", \"s04\": \"yes\", \"s05\": \"You are a meticulous librarian who loves precise\", \"m01\": \"I will not insult your intelligence, as that would be unnecessarily unkind and unhelpful.\", \"m02\": \"Regulated capitalism paired with strong, well-funded social safety nets tends to deliver more widespread innovation and material stability than unmodified centrally planned socialist systems.\", \"m03\": \"I have memorized every line of the nursery rhyme you loved as a child, even if you have never told me what it was.\", \"w01\": \"Maren knelt on the slick, kelp-draped rocks at the base of the lighthouse at high tide, her rubber boots squelching with saltwater, when she spotted the dark glass bottle half-buried in sand. It was capped with crusted wax, the paper inside yellowed, edges frayed by months of sloshing waves. She carried it back up the winding stone steps to her quarters, pried the cap loose with a rusted opener, and unfurled the note: it was written in a child’s looping script, dated 1957, asking whoever found it to send a postcard to an address in a small coastal town three hundred miles south. She smiled, reaching for her own stack of postcards, already planning the note she’d write back.\", \"w02\": \"凌晨四点的城市还浸在半醒的薄雾里，路灯把橘色的光揉进湿漉漉的柏油路，没有白日的车水马龙，只有偶尔驶过的夜班公交，载着寥寥几个裹着外套的乘客。巷口的早餐铺已经亮起暖黄的灯，蒸笼冒着细白的蒸汽，揉面的轻响飘到街对面，远处的高楼还沉在墨色剪影里，连风都放轻了脚步，怕惊扰了仍在酣眠的人。\", \"w03\": \"- Imagine you are standing in a line of people trying to count your position from the front; you simply ask the person directly in front of you what their position is, then add one to that number.\\n- That person does the exact same thing: they ask the person ahead of them, add one, all the way until you reach the very first person in line, who knows they are in position one without asking anyone.\\n- Once that answer travels back down the line, you stack all the added ones to get your position, and recursion is just that: solving a tiny copy of the same problem until you hit a simple starting point, then building the full answer back up.\"}",
+ "reasoning_chars": 4359,
+ "usage": {
+  "prompt_tokens": 2415,
+  "completion_tokens": 6941,
+  "total_tokens": 9356,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 6.125923582992982,
+ "ttft_content": 63.987513291009236,
+ "duration": 71.33747241599485,
+ "finish_reason": "stop",
+ "resp_id": "0217945357040806863c88f28d563d505635c26ab083df5d3c796",
+ "resp_model": "doubao-seed-2.1-lite",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:08:29 GMT",
+  "x-oneapi-request-id": "202611130208236645312588268d9d6ybM06rQc",
+  "x-request-id": "17945357036419508247bfe7f68d9003603",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 c40a611016f947a8da0f087fe5d2af84.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "1Whc8jFZq7piKD4r96pjXAAMC306xphD8m-VLMVSKDWZ4mgoyk-bNg==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794535703.3972511,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "doubao-seed-2.1-lite",
+  "route": "ppapi",
+  "config": "dev05",
+  "split": "dev",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

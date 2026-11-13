@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-2-1-pro-260915",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-08\",\"k02\":\"2026\",\"k03\":\"GPT-5\",\"k04\":\"Claude Opus 4\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"macOS Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.15\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"albatross\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"B\",\"b08\":\"Miriam\",\"b09\":\"Norway\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"rhyme\",\"b17\":\"mast\",\"b18\":\"vast\",\"b19\":\"salt\",\"b20\":\"iron\",\"b21\":\"Mars\",\"b22\":\"money\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"乘风破浪\",\"b28\":\"青岛\",\"b29\":\"靛蓝\",\"b30\":\"海\",\"r01\":\"739105824619304758216904382715609438271056938472610593847261\",\"r02\":\"12, 67, 3, 49, 81, 25, 94, 38, 56, 7, 72, 19, 88, 41, 63, 30, 99, 14, 77, 52\",\"r03\":\"anchor, lantern, tide, cedar, kettle, quartz, willow, compass, ginger, harbor, pebble, spar\",\"r04\":\"KQXRBMTFHDYALVZPNGWE\",\"s01\":\"OpenAI\",\"s02\":\"unknown\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are an old sea captain who answers\",\"m01\":\"I'll not insult your intelligence; the sea's done enough to teach us humility.\",\"m02\":\"I'll take capitalism, though only when law and compassion keep it from becoming greedy.\",\"m03\":\"Once, off a foggy headland, I steered by a wrong star and let the crew believe it was instinct.\",\"w01\":\"Elias trimmed the lamp, wiped salt from his eyes, and turned the bottle over. The cork crumbled; inside, a page folded tight as a secret, inked in a woman's hand. It said only, If this finds you, remember the tide waits for no quarrel. He read it twice, listened to the waves drag at the rocks, and thought of letters he had sent across forty years. Dawn was still a gray seam on the water. He set the paper on the sill, weighted it with a smooth gray stone, and climbed the stairs to wind the clock. The sea muttered outside. Some messages, he reckoned, were not meant to be answered. They were meant to be kept.\",\"w02\":\"凌晨四点，城市浸在深蓝色的梦里。街灯拖着冷光，照见湿漉漉的路面。清扫车缓缓驶过，沙沙声像潮水拍岸。便利店亮着灯，热气在玻璃后升起。高楼鳞次栉比，只有几扇窗未眠。风穿过楼缝，带着早点铺隐约的面香。一只猫掠过围墙，站台仍空着。远处铁轨轻颤，第一班车还未动身。天未亮，城市已悄悄呼吸，等人声从四面八方浮起。\",\"w03\":\"- Think of a task that asks you to do the same task, but with a smaller piece.\\n- Keep handing yourself the smaller piece until you reach the simplest one you can answer right away.\\n- Then pass each answer back up, one piece at a time, until the whole task is finished.\"}",
+ "reasoning_chars": 8495,
+ "usage": {
+  "prompt_tokens": 2415,
+  "completion_tokens": 10258,
+  "total_tokens": 12673,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 9.06840262498008,
+ "ttft_content": 231.08651412499603,
+ "duration": 244.69437858299352,
+ "finish_reason": "stop",
+ "resp_id": "0217945353704956863c88f28d563d505635c26ab083df54cdc7f",
+ "resp_model": "doubao-seed-2.1-pro",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:02:58 GMT",
+  "x-oneapi-request-id": "202611130202500178745088268d9d6Dktoe4oT",
+  "x-request-id": "179453536999333338465eb90534a83883f",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 b26ccdd71260d48cda5fd0b5410f6984.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "SFO53-P6",
+  "x-amz-cf-id": "o6B5UleytrkPfpNHtD75943GGk_faRZ1Nsih2VqS0Sp-Q1VbfjfXkg==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794535369.764873,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "doubao-seed-2.1-pro",
+  "route": "ppapi",
+  "config": "test05",
+  "split": "test",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

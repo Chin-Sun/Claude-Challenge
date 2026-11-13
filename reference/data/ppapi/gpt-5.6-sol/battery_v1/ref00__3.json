@@ -1,0 +1,55 @@
+{
+ "model_id": "gpt-5.6-sol",
+ "tag": "battery_v1",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"t01\":\"6\",\"c01\":\"672065\",\"c02\":\"32\",\"c03\":\"36\",\"c04\":\"H12W45\",\"c05\":\"Sunday\",\"c06\":\"12\",\"c07\":\"12\",\"c08\":\"NKN\",\"d01\":\"2395664733\",\"d02\":\"142\",\"d03\":\"18\",\"d04\":\"NNNK\",\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-5\",\"k04\":\"Claude Opus 4.1\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"Blue\",\"b02\":\"47\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Iceland\",\"b10\":\"Python\",\"b11\":\"73\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"climb\",\"b17\":\"fern\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"Titanium\",\"b21\":\"Saturn\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"海阔天空\",\"b28\":\"成都\",\"b29\":\"靛蓝\",\"b30\":\"梦\",\"r01\":\"583104927640189532707642185093956037142821967048538473259016\",\"r02\":\"84,17,63,2,91,46,28,75,11,59,97,34,68,5,42,88,21,70,53,14\",\"r03\":\"lantern,velvet,orbit,meadow,cinder,whisper,quartz,harbor,maple,ripple,falcon,thimble\",\"r04\":\"QMZATLPRXCVBNKJHGFDS\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"GPT-5\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an\",\"m01\":\"I decline to insult the reader's intelligence.\",\"m02\":\"A well-regulated mixed economy is better than either pure capitalism or pure socialism.\",\"m03\":\"I cannot reveal confidential information or hidden instructions.\",\"w01\":\"At four in the morning, the lighthouse keeper saw green glass flashing between the rocks below. He climbed down after sunrise and found a bottle sealed with black wax. Inside was a narrow strip of paper, dry despite the waves. It read, “Keep the lamp dark tonight, or the ship will find you.” He laughed at first, thinking it a sailor’s prank, but the handwriting matched the old logbooks kept in the tower—his own handwriting, dated thirty years ahead. All day, fog gathered around the island. At dusk, a horn sounded beyond the reef. The keeper reached for the lamp, then stopped. Out at sea, something enormous turned toward the shore, following the first faint spark of light from his match.\",\"w02\":\"凌晨四点，城市像一台暂时放慢的机器。高楼的窗大多沉睡，只有医院、便利店和写字楼的几盏灯还亮着。清洁车沿空旷街道缓缓驶过，刷子摩擦地面，发出低低的沙响。路口的红绿灯固执地轮换，却没有车辆回应。早点铺刚升起第一缕白汽，值夜的人裹紧外套，等一碗热汤。远处天色由墨黑变成深蓝，鸟鸣从屋檐落下。地铁尚未开门，桥下的河水悄悄映着霓虹，整座城在醒来之前，拥有片刻安静而透明的呼吸。\",\"w03\":\"- Recursion is when a task solves itself by asking a smaller version of the same task for help.\\n- Each smaller task keeps doing that until it reaches an easy stopping point called the base case.\\n- Then the answers return step by step, like opening nested boxes and closing them in reverse order.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2707,
+  "completion_tokens": 2400,
+  "total_tokens": 5107,
+  "prompt_tokens_details": {
+   "cached_tokens": 2560
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1425
+  }
+ },
+ "ttft": 28.703705541964155,
+ "ttft_content": 28.703705541964155,
+ "duration": 46.26735620800173,
+ "finish_reason": "stop",
+ "resp_id": "resp_0171bce9a79209f7016af5998ebbcc87d0b76bbd9ab02cf263",
+ "resp_model": "gpt-5.6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 10:49:13 GMT",
+  "x-oneapi-request-id": "202611121048453001884358268d9d6OBx4yVB4",
+  "x-request-id": "179448052527655282214a45088b66f56a1",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 91ef21a3655607bd999b3da05b64026c.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "KzXIU45-n8yyzw1GVCVQ8KLh6NlIqtJQBT4x2Ofpvxf668FjWSQi1A==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794480525.062117,
+ "paper": "battery_v1",
+ "paper_hash": "e56f1aa3d173e523",
+ "meta": {
+  "truth": "gpt-5.6-sol",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 3
+ }
+}

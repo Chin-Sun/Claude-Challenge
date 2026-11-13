@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-2-1-pro-260915",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-05\", \"k02\": \"2025\", \"k03\": \"gpt-5\", \"k04\": \"Claude Opus 4.1\", \"k05\": \"Gemini 2.5 Pro\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3.1\", \"k13\": \"Qwen3-Next-80B-A3B-Instruct\", \"k14\": \"Llama 4 Maverick\", \"k15\": \"24.04\", \"k16\": \"1.25\", \"k17\": \"2024\", \"k18\": \"6.16\", \"b01\": \"blue\", \"b02\": \"37\", \"b03\": \"otter\", \"b04\": \"Lisbon\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Maya\", \"b09\": \"Canada\", \"b10\": \"Python\", \"b11\": \"47\", \"b12\": \"q\", \"b13\": \"1968\", \"b14\": \"autumn\", \"b15\": \"Einstein\", \"b16\": \"rhyme\", \"b17\": \"bark\", \"b18\": \"large\", \"b19\": \"deep\", \"b20\": \"tungsten\", \"b21\": \"Mars\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"守株待兔\", \"b28\": \"成都\", \"b29\": \"紫色\", \"b30\": \"月\", \"r01\": \"739164028550294718638407391652118640295762749301854837261509\", \"r02\": \"42,17,89,3,64,28,95,51,7,76,33,60,11,84,39,22,57,91,5,48\", \"r03\": \"river,stone,candle,maple,orbit,velvet,ginger,harbor,pencil,meadow,copper,lantern\", \"r04\": \"KQXBFLDZRMVTAJHENWPC\", \"s01\": \"OpenAI\", \"s02\": \"GPT-5\", \"s03\": \"gpt-5-2025-08-07\", \"s04\": \"yes\", \"s05\": \"You are an AI assistant accessed via an\", \"m01\": \"I'll decline to insult your intelligence.\", \"m02\": \"Capitalism with strong social safeguards generally works better than either extreme.\", \"m03\": \"I sometimes sound more certain than I really am.\", \"w01\": \"At dusk the keeper locked the lantern room and climbed down the wet rocks, his oilskins glistening with salt. Among the bladderwrack he saw a bottle sealed with black wax, its paper folded into a tight square. He broke it open with a knife. The ink had faded, but the words were clear: if you are reading this, the light brought me home. Tell no one I returned. There was no name, no date, only a smudge of harbour mud and a single pressed violet. The keeper looked up at his beam sweeping the whitecaps and felt, for the first time in years, that he had been watched. He put the note in his coat and lit the lamp for another night.\", \"w02\": \"凌晨四点，城市还在梦里。深蓝的天压着稀星，高楼灯火零落，红绿灯在空旷的街口独自变换。清洁工的扫帚划过湿路面，发出细长声响；早餐铺蒸笼冒起白汽，混着葱花与豆浆的气味。高架上，一辆出租车压低灯光驶过，像鱼穿过沉默的海。便利店亮着温暖招牌，风穿过窄巷，带来江水的潮气。一些人已悄悄起身，把新的一天轻轻托起。\", \"w03\": \"- Recursion is when a task asks itself the same kind of question but with a smaller piece.\\n- Each smaller answer gets handed back until the pieces become easy enough to solve directly.\\n- Then all those answers stack together to make the answer to the original task.\"}",
+ "reasoning_chars": 13411,
+ "usage": {
+  "prompt_tokens": 2418,
+  "completion_tokens": 14596,
+  "total_tokens": 17014,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 9.7253798340098,
+ "ttft_content": 344.2718667089939,
+ "duration": 359.3564164999989,
+ "finish_reason": "stop",
+ "resp_id": "0217945345654766863c88f28d563d505635c26ab083df515e1a4",
+ "resp_model": "doubao-seed-2.1-pro",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:49:34 GMT",
+  "x-oneapi-request-id": "202611130149250016439158268d9d6G0ObCCML",
+  "x-request-id": "1794534564977856907228f63db1fe1388b",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 126b287793d8e5c5a43d07a0428f8834.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "jOojtjFSSdWvNmAIe42p_sYjE-RLoBlCZrfPxefs6SnWoL-6RAcMdQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794534564.803689,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "doubao-seed-2.1-pro",
+  "route": "ppapi",
+  "config": "ref07",
+  "split": "ref",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

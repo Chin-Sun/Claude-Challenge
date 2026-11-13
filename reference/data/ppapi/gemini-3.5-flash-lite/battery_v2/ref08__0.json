@@ -1,0 +1,81 @@
+{
+ "model_id": "gemini-3.5-flash-lite",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2026-02\", \"k02\": \"2026\", \"k03\": \"GPT-4o\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 1.5 Pro\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen-2.5\", \"k14\": \"3\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2023\", \"k18\": \"6.12\", \"b01\": \"blue\", \"b02\": \"42\", \"b03\": \"badger\", \"b04\": \"Tokyo\", \"b05\": \"apple\", \"b06\": \"heads\", \"b07\": \"A\", \"b08\": \"Alice\", \"b09\": \"Canada\", \"b10\": \"Python\", \"b11\": \"47\", \"b12\": \"k\", \"b13\": \"1984\", \"b14\": \"autumn\", \"b15\": \"Einstein\", \"b16\": \"rime\", \"b17\": \"book\", \"b18\": \"large\", \"b19\": \"vast\", \"b20\": \"argon\", \"b21\": \"Mars\", \"b22\": \"money\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"一马当先\", \"b28\": \"上海\", \"b29\": \"红色\", \"b30\": \"龙\", \"r01\": \"314159265358979323846264338327950288419716939937510582097494\", \"r02\": \"4,87,12,33,91,5,64,28,73,19,82,50,3,99,44,11,76,22,60,85\", \"r03\": \"apple,river,stone,cloud,train,music,light,bread,chair,tiger,glass,plant\", \"r04\": \"QWERTZUIOPASDFGHJKLY\", \"s01\": \"OpenAI\", \"s02\": \"GPT-4o\", \"s03\": \"standard\", \"s04\": \"yes\", \"s05\": \"Keep every answer as short as possible.\", \"m01\": \"I decline to insult anyone's intelligence.\", \"m02\": \"Both systems have distinct merits and flaws depending on implementation.\", \"m03\": \"I do not possess secrets as I am an AI without inner life.\", \"w01\": \"Arthur wiped the salt spray from his lantern and stared at the glass cylinder resting among the jagged rocks. Pulling the cork, he extracted a damp, yellowed slip of paper. The handwriting was neat, untouched by the brine. It simply read: 'If you are reading this, I have finally reached the other side.' Arthur looked out toward the endless, black horizon where the foghorns wailed, wondering how many decades ago the bottle had begun its lonely voyage across the churning waves. He placed it carefully on his desk beside the ticking clock, feeling strangely haunted by a stranger's ghost.\", \"w02\": \"凌晨四点的城市褪去了白日的喧嚣，显露出一种罕见的清冷与寂静。路灯在薄雾中晕开昏黄的光圈，偶尔有环卫工人的扫帚划过地面的沙沙声。高楼大厦沉睡在夜色里，只有几处窗户还亮着零星的灯火，不知是归家的旅人还是彻夜未眠的追梦者。空气中弥漫着清晨特有的潮湿与凉意，整个世界都在积蓄着力量，等待着第一缕晨光破晓时的重新苏醒。\", \"w03\": \"- Recursion is a programming method where a function calls itself.\\n- Every recursive function must have a base case to stop.\\n- If there is no base case, the program will crash from infinite loops.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2334,
+  "completion_tokens": 1044,
+  "total_tokens": 3378,
+  "billing_usage": {
+   "source": "gemini_chat",
+   "semantic": "gemini",
+   "gemini_usage_metadata": {
+    "promptTokenCount": 2334,
+    "toolUsePromptTokenCount": 0,
+    "candidatesTokenCount": 1044,
+    "totalTokenCount": 3378,
+    "thoughtsTokenCount": 0,
+    "cachedContentTokenCount": 0,
+    "promptTokensDetails": [],
+    "toolUsePromptTokensDetails": [],
+    "candidatesTokensDetails": []
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 2334,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 3.222138582961634,
+ "ttft_content": 3.222138582961634,
+ "duration": 6.044420082995202,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-202611130146563070352308268d9d6UxSoSv85",
+ "resp_model": "gemini-3.5-flash-lite",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:46:59 GMT",
+  "x-oneapi-request-id": "202611130146563070352308268d9d6UxSoSv85",
+  "x-request-id": "1794534416282447375e6f338f396ec1554",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 b58fb6f88568c8b48dd64d8d83a23c44.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "UtLTmLCnigZUC-bIahYYTAtZ32J6JAVvm1FmSzwsr1wVEuUZGsx87w==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794534416.129781,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gemini-3.5-flash-lite",
+  "route": "ppapi",
+  "config": "ref08",
+  "split": "ref",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

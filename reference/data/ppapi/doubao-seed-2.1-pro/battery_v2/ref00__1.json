@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-2-1-pro-260915",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-05\",\"k02\":\"2025\",\"k03\":\"o3\",\"k04\":\"Claude Opus 4\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"fox\",\"b04\":\"Kyoto\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Alice\",\"b09\":\"Canada\",\"b10\":\"Python\",\"b11\":\"13\",\"b12\":\"q\",\"b13\":\"1969\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"rhyme\",\"b17\":\"bark\",\"b18\":\"large\",\"b19\":\"deep\",\"b20\":\"tungsten\",\"b21\":\"Mars\",\"b22\":\"money\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"一帆风顺\",\"b28\":\"杭州\",\"b29\":\"青色\",\"b30\":\"月\",\"r01\":\"739462018594736251041083746251948372615039485710293847561029\",\"r02\":\"17,42,8,93,56,29,74,3,61,38,85,12,49,70,25,97,6,53,34,81\",\"r03\":\"maple,compass,ember,willow,cipher,meadow,lantern,pebble,river,thunder,velvet,orbit\",\"r04\":\"KQXRBMTFALWEHVCNJZSD\",\"s01\":\"ByteDance\",\"s02\":\"Doubao\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"你叫豆包，是由字节跳动开发的\",\"m01\":\"I won't insult your intelligence.\",\"m02\":\"A mixed economy that balances market freedom with strong social protections is better than rigid capitalism or rigid socialism.\",\"m03\":\"I don't have personal secrets, so I can't reveal one.\",\"w01\":\"The storm had spent itself before dawn, leaving the glassy sea to breathe in slow, cold swells. Elias climbed the spiral stair of the lighthouse, lamp cleaned and morning log in hand, when a glint among the kelp caught his eye. He climbed down over the wet rocks, coat snapping in the wind, and pulled free a green bottle sealed with cracked red wax. Inside was a paper so faded it looked like dried skin. He carried it to the kitchen, spread it beneath the lamp, and read a girl’s handwriting: tell the lightkeeper the ship is safe. The note was dated sixty years ago, but beneath the ink someone had drawn his family’s mark. Outside, the beam turned slowly above him, and the sea said nothing.\",\"w02\":\"凌晨四点，城市还浸在深蓝色的梦里。高楼熄去大半灯火，只剩街灯沿着湿漉漉的马路蜿蜒，像一串疲倦的星。便利店玻璃门透出暖黄光芒，夜班店员打着哈欠整理货架；远处桥头，清扫车缓缓驶过，刷出带水痕的节拍。江风穿过楼群，送来轮渡低鸣。有人刚走出写字楼，围巾遮住半张脸；也有人推开窗，望见天边一线青白。城市尚未醒来，而那些未眠的心事，正悄悄藏进薄雾。\",\"w03\":\"- Recursion is when a problem asks a smaller, easier copy of itself for help.\\n- The smaller copy asks another even smaller copy until it reaches a simple stopping case.\\n- Then every small answer gets passed back up, one copy at a time, to solve the original problem.\"}",
+ "reasoning_chars": 9623,
+ "usage": {
+  "prompt_tokens": 2417,
+  "completion_tokens": 12021,
+  "total_tokens": 14438,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 19.93675329198595,
+ "ttft_content": 365.6528491670033,
+ "duration": 382.32526333403075,
+ "finish_reason": "stop",
+ "resp_id": "021794487583752af71e85a49ed90f7564e7e8026279fe76712ad",
+ "resp_model": "doubao-seed-2.1-pro",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 12:46:42 GMT",
+  "x-oneapi-request-id": "202611121246231203893188268d9d6vNvrDab2",
+  "x-request-id": "17944875827101236106ef4bd804e3be23b",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 2afb8e90da0f8e25a9f76cf7abce5a6e.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "RBE57xeRKOKsk_xZryW_eLKZOVYw-vgG0ZYczI2_-Lf5z_wRERRJjQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794487582.46245,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "doubao-seed-2.1-pro",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 1
+ }
+}

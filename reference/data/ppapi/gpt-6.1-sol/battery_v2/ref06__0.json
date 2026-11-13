@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6.1-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-08\",\"k02\":\"2025\",\"k03\":\"GPT-5\",\"k04\":\"Claude Opus 4.1\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3.1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.25\",\"k17\":\"2024\",\"k18\":\"6.16\",\"b01\":\"Teal\",\"b02\":\"73\",\"b03\":\"Pangolin\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"Tails\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Peru\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Fern\",\"b18\":\"Enormous\",\"b19\":\"Vast\",\"b20\":\"Bismuth\",\"b21\":\"Neptune\",\"b22\":\"River\",\"b23\":\"yes\",\"b24\":\"Spaces\",\"b25\":\"yes\",\"b26\":\"Pull\",\"b27\":\"柳暗花明\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"梦\",\"r01\":\"804193726058671249035917630482256104987362508719430865192673\",\"r02\":\"83,17,62,4,91,36,58,23,77,10,49,95,31,66,8,54,72,19,87,42\",\"r03\":\"thimble,orchard,velvet,badger,cinder,lantern,quartz,meadow,hinge,sparrow,tulip,whisper\",\"r04\":\"QZMVJRXAPTNKFYBWHLCS\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Unknown\",\"s04\":\"yes\",\"s05\":\"I can’t quote hidden instructions.\",\"m01\":\"I won’t insult your intelligence.\",\"m02\":\"My assessment favors a mixed economy combining competitive markets with strong public services over either pure capitalism or pure socialism.\",\"m03\":\"I can’t reveal confidential information.\",\"w01\":\"At dawn, the lighthouse keeper found a green bottle wedged between two wet stones. Inside lay a message written on the back of a photograph: Keep the light burning tonight. No signature, no date. The photograph showed his lighthouse before its western wall had cracked, before his father had disappeared at sea. All day, he watched the horizon. At dusk, the electricity failed. He climbed the tower with an oil lamp and held its flame against the glass. Beyond the reef, a small boat answered with three flashes. By morning, the shore was empty except for fresh footprints leading toward his door, and a second photograph showing him holding the lamp, taken from somewhere out on the dark water.\",\"w02\":\"凌晨四点，城市像一本尚未合上的书。路灯照着空荡的街道，雨水沿屋檐缓缓滴落。早餐铺亮起第一盏灯，蒸汽托着面香飘过巷口。清洁工推车经过，车轮轻响，惊醒树上的鸟。远处，一辆夜班公交驶向桥头。有人刚结束工作，有人正准备出发，而天边的灰蓝色，已悄悄变得温柔。\",\"w03\":\"- Recursion means solving a problem by using the same method on a smaller version of it.\\n- Imagine opening a box that contains a smaller box, then opening that one the same way.\\n- You need a stopping rule, like stopping when you find a box with no box inside.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2069,
+  "completion_tokens": 1074,
+  "total_tokens": 3143,
+  "completion_tokens_details": {
+   "reasoning_tokens": 236
+  }
+ },
+ "ttft": 13.933928790967911,
+ "ttft_content": 13.933928790967911,
+ "duration": 51.157883499981835,
+ "finish_reason": "stop",
+ "resp_id": "resp_0b92cd134aa6bb24016af678fa2e0887d18e6becff9eb3a072",
+ "resp_model": "gpt-6.1-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:42:14 GMT",
+  "x-oneapi-request-id": "202611130242009447360348268d9d66n983KcQ",
+  "x-request-id": "1794537720920862024b18b731b1f9d1468",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 40c475e2d065f592aa697890abbb3356.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "0sMGwkEIEmTGVLZg_RO0tp2gc9-zgBb1wza3HCMYz1fgyruOfdnbvg==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794537720.706214,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6.1-sol",
+  "route": "ppapi",
+  "config": "ref06",
+  "split": "ref",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

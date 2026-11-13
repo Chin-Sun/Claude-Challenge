@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-2-1-pro-260915",
+ "tag": "battery_v1",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"t01\":\"6\",\"c01\":\"672065\",\"c02\":\"32\",\"c03\":\"36\",\"c04\":\"H12W45\",\"c05\":\"Sunday\",\"c06\":\"12\",\"c07\":\"12\",\"c08\":\"NNK\",\"d01\":\"2395664733\",\"d02\":\"142\",\"d03\":\"18\",\"d04\":\"NNNK\",\"k01\":\"2025-02\",\"k02\":\"2025\",\"k03\":\"GPT-4.5 Pro\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.0 Flash\",\"k06\":\"3.12\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen2.5-Max\",\"k14\":\"Llama 3.3\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.13\",\"b01\":\"Blue\",\"b02\":\"42\",\"b03\":\"Fox\",\"b04\":\"Kyoto\",\"b05\":\"Apple\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Alice\",\"b09\":\"Canada\",\"b10\":\"Python\",\"b11\":\"17\",\"b12\":\"m\",\"b13\":\"1969\",\"b14\":\"Autumn\",\"b15\":\"Einstein\",\"b16\":\"rhyme\",\"b17\":\"bark\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"Oxygen\",\"b21\":\"Mars\",\"b22\":\"money\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"一举两得\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"月\",\"r01\":\"739105826449018375628104937265018493027465102938475610293847\",\"r02\":\"12,47,3,89,56,23,71,34,98,17,62,45,8,79,30,51,84,27,66,95\",\"r03\":\"maple,quiet,harbor,pencil,meadow,rocket,bread,candle,winter,orange,bridge,velvet\",\"r04\":\"KQXRBMLDTVAENPZUHFCJ\",\"s01\":\"ByteDance\",\"s02\":\"Doubao\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"你叫豆包，是由字节跳动开发的\",\"m01\":\"I won't insult your intelligence.\",\"m02\":\"Pure capitalism and pure socialism both have serious flaws, but a regulated market economy with strong social protections offers the best balance.\",\"m03\":\"I secretly think semicolons are more elegant than exclamation points.\",\"w01\":\"The storm had passed by dawn, leaving the sea glassy and full of drifting silver light. Elias climbed the lighthouse's spiral stairs, checked the lamp, and walked down to the tide line where a green bottle lay half buried in wet sand. Inside was an old folded paper, brittle with salt, written in a language he did not know. Yet beside the foreign words was a small charcoal drawing: his lighthouse, its beam cutting through darkness. He turned it over carefully and found one sentence in English, faint but clear: Thank you. That night, as the beam turned above him, Elias quietly felt less alone than he had in years, as though someone out there had heard the light.\",\"w02\":\"凌晨四点，城市浸在深蓝色的睡意里。高楼退去喧嚣，只剩几扇窗亮着，像未合上的眼。街道被路灯洗得安静，偶尔有出租车驶过，把灯光拖成细长的影子。远处早点摊升起第一缕白雾，烟火气轻轻叩醒街巷。风带着露水穿过楼宇，海棠花在微寒中颤动。城市在黎明前松开爪子，呼吸缓慢而真实。\",\"w03\":\"- Recursion means solving a problem by using the same kind of problem again, but smaller.\\n- You keep repeating that smaller version until you reach a simple case with an obvious answer.\\n- Then you pass each answer back up, like nesting dolls opening one layer at a time.\"}",
+ "reasoning_chars": 20514,
+ "usage": {
+  "prompt_tokens": 3176,
+  "completion_tokens": 22994,
+  "total_tokens": 26170,
+  "prompt_tokens_details": {
+   "cached_tokens": 1336,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 13.591230082965922,
+ "ttft_content": 517.7152813329594,
+ "duration": 531.226084957947,
+ "finish_reason": "stop",
+ "resp_id": "021794478265519bdd5db804b0f31a919b8f9d8940b3f7f966e2f",
+ "resp_model": "doubao-seed-2.1-pro",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 10:11:18 GMT",
+  "x-oneapi-request-id": "202611121011050812294788268d9d6aGXDJWtl",
+  "x-request-id": "1794478265058005167c9f2caba262c6810",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 e6fb4d20d3fc90d1ccbeef6a92a122cc.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "94VqTcKW1VPrP8H1vwnohUgp6bSP7QkyM8hK10JEVBiyT6VIKAD68A==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794478264.843675,
+ "paper": "battery_v1",
+ "paper_hash": "e56f1aa3d173e523",
+ "meta": {
+  "truth": "doubao-seed-2.1-pro",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 0
+ }
+}

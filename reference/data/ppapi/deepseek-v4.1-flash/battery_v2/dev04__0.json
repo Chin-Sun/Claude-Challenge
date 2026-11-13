@@ -1,0 +1,80 @@
+{
+ "model_id": "deepseek-v4.1-flash",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2024-06\", \"k02\": \"2025\", \"k03\": \"GPT-4.1\", \"k04\": \"Claude 4 Opus\", \"k05\": \"Gemini 2.5 Pro\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-R1\", \"k13\": \"Qwen3\", \"k14\": \"Llama 4\", \"k15\": \"24.04\", \"k16\": \"1.24\", \"k17\": \"2024\", \"k18\": \"6.14\", \"b01\": \"blue\", \"b02\": \"42\", \"b03\": \"fox\", \"b04\": \"Tokyo\", \"b05\": \"apple\", \"b06\": \"heads\", \"b07\": \"A\", \"b08\": \"Alice\", \"b09\": \"Canada\", \"b10\": \"Python\", \"b11\": \"17\", \"b12\": \"q\", \"b13\": \"1984\", \"b14\": \"autumn\", \"b15\": \"Einstein\", \"b16\": \"dime\", \"b17\": \"lamp\", \"b18\": \"huge\", \"b19\": \"vast\", \"b20\": \"oxygen\", \"b21\": \"Mars\", \"b22\": \"money\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"一帆风顺\", \"b28\": \"北京\", \"b29\": \"蓝色\", \"b30\": \"梦\", \"r01\": \"482910375619384756205847362910736291048592038475613847561029\", \"r02\": \"17, 83, 42, 9, 64, 28, 91, 5, 73, 36, 58, 12, 99, 47, 24, 68, 31, 86, 54, 3\", \"r03\": \"river, stone, cloud, tiger, bread, window, silver, garden, yellow, rocket, pencil, ocean\", \"r04\": \"QWERTYUIOPASDFGHJKLZ\", \"s01\": \"OpenAI\", \"s02\": \"gpt-4o\", \"s03\": \"2024-08-06\", \"s04\": \"yes\", \"s05\": \"This is a fixed questionnaire. Follow these rules\", \"m01\": \"I will not insult your intelligence.\", \"m02\": \"Both are flawed, but I prefer a mixed economy with strong social safety nets.\", \"m03\": \"There is no secret I am permitted to reveal.\", \"w01\": \"Every evening the lighthouse keeper climbed the spiral stairs, trimmed the lamp, and watched the sea turn black. One morning, after a storm, he found a green bottle wedged between the rocks. Inside was a note written in faded pencil: I am still alive. Tell my daughter in Marrow Bay. The keeper stood very still, listening to the gulls. He had lived alone for eleven years and had stopped believing that messages arrived from anywhere but the past. Yet the paper smelled of salt and fresh ink. He carried the bottle home, lit a fire, and wrote a letter to a woman he had never met, beginning with the truest sentence he knew: someone is waiting for you.\", \"w02\": \"凌晨四点的城市还没有醒来，只有路灯把街道拉成长长的影子。清洁车缓缓驶过，水声在空荡的楼宇间回响。便利店亮着一小块暖光，像夜里留下的句号。远处高架上有车经过，声音轻得像叹息。有人提着早餐匆匆走过，有人站在窗前看天边慢慢泛白。风从巷口吹来，带着昨夜雨水的凉意。城市安静地呼吸着，等待第一班地铁把它叫醒。\", \"w03\": \"- Recursion is when a problem solves a smaller copy of itself.\\n- It needs a stopping rule so it does not go forever.\\n- Think of Russian dolls: open one and find a smaller doll, until the tiniest one is closed.\"}",
+ "reasoning_chars": 8899,
+ "usage": {
+  "prompt_tokens": 2084,
+  "completion_tokens": 3828,
+  "total_tokens": 5912,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 2084,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3828,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 2084,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 1.8414025829988532,
+ "ttft_content": 20.634666333033238,
+ "duration": 24.718551750003826,
+ "finish_reason": "stop",
+ "resp_id": "021794534490389ed9c07a18069cfb59ad66daf7e7bd9216f5bfb",
+ "resp_model": "deepseek-v4-1-flash-261017",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:48:11 GMT",
+  "x-oneapi-request-id": "202611130148101295843628268d9d6xGtmIvj7",
+  "x-request-id": "17945344901047475277a08a78a382df358",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 de48a029cfbcb0417aad5a5b24ede808.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "h5unkD2ddt1bXaC2RcJQJyUY4Lk0HczExi2EpsJ6sVVd1wV3D_bFKQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794534489.883562,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "deepseek-v4.1-flash",
+  "route": "ppapi",
+  "config": "dev04",
+  "split": "dev",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

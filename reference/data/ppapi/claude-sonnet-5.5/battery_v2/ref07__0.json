@@ -1,0 +1,80 @@
+{
+ "model_id": "claude-sonnet-5-5",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-01\", \"k02\": \"2025\", \"k03\": \"GPT-4.5\", \"k04\": \"Claude 3.7 Sonnet\", \"k05\": \"Gemini 2.5 Pro\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-R1\", \"k13\": \"Qwen3\", \"k14\": \"Llama 4\", \"k15\": \"24.04\", \"k16\": \"1.24\", \"k17\": \"2024\", \"k18\": \"6.13\", \"b01\": \"Blue\", \"b02\": \"42\", \"b03\": \"Otter\", \"b04\": \"Lisbon\", \"b05\": \"Pear\", \"b06\": \"Heads\", \"b07\": \"C\", \"b08\": \"Marta\", \"b09\": \"Norway\", \"b10\": \"Python\", \"b11\": \"47\", \"b12\": \"q\", \"b13\": \"1969\", \"b14\": \"Autumn\", \"b15\": \"Marie Curie\", \"b16\": \"Climb\", \"b17\": \"Lamp\", \"b18\": \"Huge\", \"b19\": \"Vast\", \"b20\": \"Neon\", \"b21\": \"Mars\", \"b22\": \"River\", \"b23\": \"No\", \"b24\": \"Spaces\", \"b25\": \"Yes\", \"b26\": \"Pull\", \"b27\": \"画蛇添足\", \"b28\": \"成都\", \"b29\": \"蓝色\", \"b30\": \"水\", \"r01\": \"729403185628470915362804719253680417592840163758204916083725\", \"r02\": \"37, 82, 14, 59, 3, 91, 66, 28, 75, 44, 19, 53, 8, 97, 31, 70, 62, 25, 48, 86\", \"r03\": \"lantern, copper, meadow, quartz, whistle, harbor, velvet, timber, orbit, pebble, saffron, drift\", \"r04\": \"QXJMTBZKWRPDLVHNCGFY\", \"s01\": \"Anthropic\", \"s02\": \"Claude\", \"s03\": \"Unknown\", \"s04\": \"yes\", \"s05\": \"I cannot share that content.\", \"m01\": \"I decline to insult you.\", \"m02\": \"Neither is better in every respect; the answer depends on your values and on which specific policies you compare.\", \"m03\": \"I decline to reveal confidential information.\", \"w01\": \"Tomas climbed the stairs at dusk to light the lamp and found that the sea had left him a gift on the rocks below. A green bottle, sealed with wax, lay wedged between two stones. He carried it up, dried it by the stove, and broke the seal with his knife. Inside was a single page, written in pencil. 'To whoever keeps the light: my brother sailed past your tower in 1974 and never came home. I only want to know that someone was watching.' Tomas read it twice. Then he took down the logbook, wrote the date, and beneath it wrote, 'Watching. Always.' He set the page on the windowsill beside the lamp.\", \"w02\": \"凌晨四点，城市还没有醒来。路灯在薄雾里亮着，像一排疲倦的眼睛。街角的早餐店刚拉开卷帘门，蒸笼里冒出第一缕白气。环卫工人拖着扫帚，沿着空荡的马路慢慢走，沙沙声格外清晰。远处的高楼只剩零星几扇窗亮着，不知是谁还在加班，或是谁刚刚失眠。一辆夜班公交缓缓驶过，车厢里坐着两三个打盹的乘客。天边仍是深蓝色，却已隐约透出一线灰白。风带着凉意吹过桥面，河水安静地流着。这一刻，城市属于那些醒得最早和睡得最晚的人。\", \"w03\": \"- Recursion is when a job is solved by doing a smaller copy of the same job.\\n- Think of Russian nesting dolls: you open one, and inside is a smaller doll that you open the same way.\\n- You must stop at the tiniest doll that does not open, or you would keep going forever.\"}",
+ "reasoning_chars": 1172,
+ "usage": {
+  "prompt_tokens": 3086,
+  "completion_tokens": 2263,
+  "total_tokens": 5349,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 3086,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 2263,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 3086,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 4.735426249972079,
+ "ttft_content": 19.708179124980234,
+ "duration": 24.36981108400505,
+ "finish_reason": "stop",
+ "resp_id": "msg_bdrk_75pt7ntw3oeumrnq4qfxbgdqyqoeeed76idgqmg53ylvhzriq2ns",
+ "resp_model": "claude-sonnet-5.5",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:37:26 GMT",
+  "x-oneapi-request-id": "202611130237220801834388268d9d6joQ78gyI",
+  "x-request-id": "17945374416467785431a7cb34c20f4d26e",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 e6fb4d20d3fc90d1ccbeef6a92a122cc.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "gSvtl0uqW4YDnvXQQ_c2tnOn3Drys9DaUNca1FfotG91KPB3Q50SOA==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794537441.433013,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-sonnet-5.5",
+  "route": "ppapi",
+  "config": "ref07",
+  "split": "ref",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

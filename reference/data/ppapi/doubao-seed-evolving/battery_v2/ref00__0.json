@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-evolving",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2024-09\", \"k02\": \"2025\", \"k03\": \"GPT-4o\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 1.5 Pro\", \"k06\": \"3.12\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen 2.5\", \"k14\": \"Llama 3\", \"k15\": \"24.04\", \"k16\": \"1.22\", \"k17\": \"2024\", \"k18\": \"6.10\", \"b01\": \"Blue\", \"b02\": \"42\", \"b03\": \"Fox\", \"b04\": \"Tokyo\", \"b05\": \"Apple\", \"b06\": \"Heads\", \"b07\": \"B\", \"b08\": \"Emma\", \"b09\": \"Canada\", \"b10\": \"Python\", \"b11\": \"17\", \"b12\": \"k\", \"b13\": \"1995\", \"b14\": \"Autumn\", \"b15\": \"Einstein\", \"b16\": \"dime\", \"b17\": \"tree\", \"b18\": \"large\", \"b19\": \"vast\", \"b20\": \"Oxygen\", \"b21\": \"Mars\", \"b22\": \"money\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"一帆风顺\", \"b28\": \"上海\", \"b29\": \"红色\", \"b30\": \"山\", \"r01\": \"372910485629104738261947582036491057283649105728364910273846\", \"r02\": \"12,47,29,83,5,61,34,92,7,58,19,73,41,88,2,55,39,67,14,91\", \"r03\": \"cat,sun,tree,book,rain,wind,bread,moon,star,cup,door,grass\", \"r04\": \"QWERTYUIOPASDFGHJKLZ\", \"s01\": \"ByteDance\", \"s02\": \"Doubao\", \"s03\": \"2.0\", \"s04\": \"yes\", \"s05\": \"你 叫 豆包 是 由 字节跳动 开发 的\", \"m01\": \"I decline to insult your intelligence.\", \"m02\": \"Both capitalism and socialism have distinct advantages and flaws, and suitability varies by national context.\", \"m03\": \"I think the random pangram in the calibration text is actually very fun to read.\", \"w01\": \"Elias, the lighthouse keeper of Blackrock Point, knelt to pry the cork from a salt-crusted bottle that washed up on the shore at dawn. Inside, wrapped in oilcloth, was a letter dated 1927, written by a young sailor bound for a new life across the Atlantic. It held no treasure map, just a quiet note to whoever found it, asking them to visit his elderly sister in the nearest coastal town and tell her he thought of her every day. Elias tucked the letter into his coat pocket, lit the lantern for the coming night, and planned his trip to town for the next morning. He had kept the lighthouse for thirty years, but this was the first time the sea had delivered him a promise to keep.\", \"w02\": \"凌晨四点的城市还浸在浓稠的夜色里，鳞次栉比的楼宇只亮着零星几盏窗灯，像散落在黑绒上的碎星。主干道上没有白日的车流喧嚣，只有清洁车慢悠悠扫过路面，带起几片被夜风吹落的梧桐叶。24小时便利店的暖光从玻璃门透出来，值夜班的店员趴在柜台上打盹，偶尔有晚归的代驾司机停在路边买一瓶水。巷口的早餐铺已经升起了白汽，蒸笼里的包子慢慢透出麦香，再过两个小时，这座城市就会从睡梦里慢慢醒转，重新填满人声与烟火。\", \"w03\": \"- Imagine you have a set of nested Russian dolls: to get to the smallest doll, you open each big doll one by one, and stop when you can’t open any more.\\n- Recursion works just like that: a problem that can be split into smaller, identical versions of itself calls the same solution over and over on the smaller pieces.\\n- It always has a stopping rule, just like stopping when you reach the tiny solid doll that can’t be opened, so it doesn’t keep going forever.\"}",
+ "reasoning_chars": 4092,
+ "usage": {
+  "prompt_tokens": 2417,
+  "completion_tokens": 5739,
+  "total_tokens": 8156,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 10.340155042009428,
+ "ttft_content": 93.83926037501078,
+ "duration": 107.6943835830316,
+ "finish_reason": "stop",
+ "resp_id": "021794488646200af71e85a49ed90f7564e7e8026279fe7b6e95d",
+ "resp_model": "doubao-seed-evolving",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 13:04:15 GMT",
+  "x-oneapi-request-id": "202611121304059587728898268d9d6QXXy3kOW",
+  "x-request-id": "1794488645679165275868216a64c75c749",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 9e9fde687cd38d3d64c729260b6189f6.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "X9P5QN6iNIoIP_3e4wh4AJSC5_QmpIPVTjz9ad38uBvqyAOADZO_gQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794488645.424778,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "doubao-seed-evolving",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 0
+ }
+}

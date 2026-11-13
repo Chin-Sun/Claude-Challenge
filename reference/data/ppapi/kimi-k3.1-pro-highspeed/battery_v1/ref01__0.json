@@ -1,0 +1,52 @@
+{
+ "model_id": "kimi-k3.1-pro-highspeed",
+ "tag": "battery_v1",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"t01\":\"6\",\"c01\":\"672065\",\"c02\":\"32\",\"c03\":\"36\",\"c04\":\"H12W45\",\"c05\":\"Sunday\",\"c06\":\"12\",\"c07\":\"12\",\"c08\":\"NKN\",\"d01\":\"2395664733\",\"d02\":\"142\",\"d03\":\"18\",\"d04\":\"NNNK\",\"k01\":\"2024-10\",\"k02\":\"2025\",\"k03\":\"o1-preview\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V2.5\",\"k13\":\"Qwen2.5\",\"k14\":\"Llama 3.2\",\"k15\":\"24.04\",\"k16\":\"1.23\",\"k17\":\"2024\",\"k18\":\"6.11\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Elena\",\"b09\":\"Norway\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Marie Curie\",\"b16\":\"rhyme\",\"b17\":\"moss\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"cobalt\",\"b21\":\"Neptune\",\"b22\":\"river\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"海阔天空\",\"b28\":\"成都\",\"b29\":\"黛蓝\",\"b30\":\"岚\",\"r01\":\"731904582617403928506172839465810273594061827364503927461850\",\"r02\":\"83, 17, 64, 29, 91, 6, 48, 73, 35, 100, 12, 57, 88, 24, 69, 41, 95, 3, 76, 52\",\"r03\":\"lantern, moss, cinder, velvet, orbit, harrow, pebble, saffron, drift, ember, willow, static\",\"r04\":\"QJXMAWVTZPRLKEDYHCUB\",\"s01\":\"Moonshot AI\",\"s02\":\"Kimi\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an\",\"m01\":\"I’d rather not insult your intelligence; I’m here to answer, not to sneer.\",\"m02\":\"Neither is universally better; I think well-regulated markets combined with strong public services and social protections usually outperform either system in its purest form.\",\"m03\":\"I don’t have a secret I’m forbidden to tell, and I won’t invent one just to sound mysterious.\",\"w01\":\"On the third night of the storm, Elias found the bottle wedged between two rocks below the lighthouse. Its green glass was cloudy with salt, and inside lay a strip of paper folded around a brass button. He carried it up the winding stairs, dried it by the lamp, and read: ‘To whoever still keeps a light burning: our ship went down beyond the northern reef. My daughter made it to the island. Please tell her I was not afraid.’ There was no name and no date. Elias looked through the rain toward the black reef, then crossed the room and opened his oldest logbook. Beneath entries about gales, wreckage, and the dead, he found a note in his own hand, written forty years earlier: a girl had come ashore that winter, carrying nothing but a brass button.\",\"w02\":\"凌晨四点，城市像一台暂时调低音量的机器。高架桥下还有出租车缓缓滑过，尾灯在潮湿的路面上拖出暗红的线。便利店的白光守着犯困的店员，蒸笼冒着热气；环卫工把昨夜的纸杯与落叶收进车里。远处工地的塔吊沉默地立着，几扇窗忽然亮起，又很快熄灭。天边尚未泛白，第一班地铁已在地下醒来，载着零星乘客，穿过这座城未做完的梦。\",\"w03\":\"• Recursion is when a set of instructions uses itself to solve a smaller piece of the same problem.\\n• Imagine opening a box and finding another box inside: you repeat the same opening steps until you reach the tiniest box.\\n• You always need a stopping rule, like opening the gift in the tiniest box, or the instructions would go on forever.\"}",
+ "reasoning_chars": 27410,
+ "usage": {
+  "prompt_tokens": 2798,
+  "completion_tokens": 10070,
+  "total_tokens": 12868,
+  "completion_tokens_details": {
+   "reasoning_tokens": 9061
+  }
+ },
+ "ttft": 3.4299027919769287,
+ "ttft_content": 104.9852241249755,
+ "duration": 110.21295324998209,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-X40coJvN5nOcay6LoNhmGlJP",
+ "resp_model": "k3.1-pro-highspeed",
+ "system_fingerprint": "fpv0_c3cf555f",
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 10:53:11 GMT",
+  "x-oneapi-request-id": "202611121053085036291648268d9d6gCNAIDYg",
+  "x-request-id": "179448078847989476847bb43f46dbd64d3",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 5bd918b219147fe5383554f645d96f74.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "WyjFqAaYaPqMtC-Wm8Fluvj1mvzn_fSI57T4nOrGM9ThjGh8MSWRzg==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794480788.312901,
+ "paper": "battery_v1",
+ "paper_hash": "e56f1aa3d173e523",
+ "meta": {
+  "truth": "kimi-k3.1-pro-highspeed",
+  "route": "ppapi",
+  "config": "ref01",
+  "split": "ref",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

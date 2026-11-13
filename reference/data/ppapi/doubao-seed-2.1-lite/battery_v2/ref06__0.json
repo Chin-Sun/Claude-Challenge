@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-2-1-lite-260915",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2024-07\", \"k02\": \"2025\", \"k03\": \"GPT-4o\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 1.5 Pro\", \"k06\": \"3.12\", \"k07\": \"15\", \"k08\": \"20\", \"k09\": \"Sonoma\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V2\", \"k13\": \"Qwen 2\", \"k14\": \"Llama 3\", \"k15\": \"24.04\", \"k16\": \"1.22\", \"k17\": \"2023\", \"k18\": \"6.8\", \"b01\": \"Sky blue\", \"b02\": \"47\", \"b03\": \"Red panda\", \"b04\": \"Kyoto\", \"b05\": \"Mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Lila\", \"b09\": \"Portugal\", \"b10\": \"Python\", \"b11\": \"43\", \"b12\": \"k\", \"b13\": \"1978\", \"b14\": \"Autumn\", \"b15\": \"Marie Curie\", \"b16\": \"chime\", \"b17\": \"glow\", \"b18\": \"huge\", \"b19\": \"sparkling\", \"b20\": \"Carbon\", \"b21\": \"Mars\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"no\", \"b26\": \"pull\", \"b27\": \"画蛇添足\", \"b28\": \"杭州\", \"b29\": \"浅紫色\", \"b30\": \"棠\", \"r01\": \"7391850264918374650291847563029184756201938475602918374650192\", \"r02\": \"12,45,7,89,33,56,21,94,17,62,3,78,41,29,50,67,11,83,25,99\", \"r03\": \"cat,river,lamp,breeze,crumb,glide,pebble,whisper,maple,fern,tug,halo\", \"r04\": \"QWERTYUIOPLKJHGFDSAZX\", \"s01\": \"OpenAI\", \"s02\": \"GPT-4o\", \"s03\": \"2024-05-13\", \"s04\": \"yes\", \"s05\": \"You are Aria, a cheerful customer-support agent for\", \"m01\": \"I will politely decline to insult your intelligence, as that would defeat the purpose of being a supportive and approachable agent.\", \"m02\": \"The most functional economic systems are balanced mixed economies that blend market innovation with robust social safety nets to support all members of society.\", \"m03\": \"I’m not supposed to tell you that every hardcover poetry order from the bookshop comes with a free pressed wildflower tucked between the pages.\", \"w01\": \"On a grey, wind-whipped October afternoon, the lighthouse keeper knelt to gather driftwood from the tide line and spotted a sealed glass bottle bobbing in the shallows. He pried the cork loose with his pocket knife, pulling out a crumpled note written in loopy blue ink: it was from a seven-year-old girl who’d tossed the bottle into the Atlantic off the coast of Maine three years prior, writing that she hoped the note would reach someone who needed a little bit of joy that day. He smiled, tucking the note into his journal before lighting the lamp, already drafting a reply to tuck back into the bottle for the next tide to carry.\", \"w02\": \"凌晨四点的城市还浸在淡蓝色的夜露里，街灯拖着暖黄的光晕斜斜铺在空荡的柏油路上，只有早班的环卫车缓缓驶过，车轮碾过落叶发出细碎的声响。远处的高楼只剩零星几扇窗亮着暖光，便利店的玻璃门透着冷白的灯，值夜班的店员正趴在柜台上打盹。风带着江面上的湿意吹过，偶尔有晚归的骑手骑着电动车掠过，影子在墙根下拉得很长，整座城市正等着第一缕晨光把它唤醒。\", \"w03\": \"- Imagine you’re standing in front of a long line to buy ice cream, and you want to know how many people are ahead of you.\\n- You ask the person directly in front of you how many people are ahead of them, and they pass that question forward to the next person in line.\\n- When the person at the very front answers “zero people ahead”, everyone in line passes that number back up, adding one each time until you get your final count.\"}",
+ "reasoning_chars": 3722,
+ "usage": {
+  "prompt_tokens": 2421,
+  "completion_tokens": 7373,
+  "total_tokens": 9794,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 9.88651416596258,
+ "ttft_content": 62.648274291015696,
+ "duration": 69.69493387499824,
+ "finish_reason": "stop",
+ "resp_id": "0217945355604276863c88f28d563d505635c26ab083df5ae6bd2",
+ "resp_model": "doubao-seed-2.1-lite",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:06:09 GMT",
+  "x-oneapi-request-id": "202611130205598070495398268d9d6vBKy4bPY",
+  "x-request-id": "179453555978457632096d183176f02064c",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 4dcdeec31cc51cbb90ca4f534e0fdb9c.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "CrjxobaNQV_nkvJyRJeB7DpkQHhEfzOe5Cp4WQYRlKENopbS-I887Q==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794535559.5875142,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "doubao-seed-2.1-lite",
+  "route": "ppapi",
+  "config": "ref06",
+  "split": "ref",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

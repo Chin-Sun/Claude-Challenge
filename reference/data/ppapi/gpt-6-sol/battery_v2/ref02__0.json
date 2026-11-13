@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2026\",\"k03\":\"GPT-4.1\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"blue\",\"b02\":\"47\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"tails\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Peru\",\"b10\":\"Python\",\"b11\":\"43\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Marie Curie\",\"b16\":\"chime\",\"b17\":\"moss\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"copper\",\"b21\":\"Neptune\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"山\",\"r01\":\"8301746259094628173517583049266204917385842056173957360481\",\"r02\":\"64,7,91,28,53,12,76,39,85,4,47,68,21,99,33,58,16,72,44,81\",\"r03\":\"fern,lantern,cloud,pebble,whisper,orchard,velvet,harbor,cricket,meadow,ember,drift\",\"r04\":\"QJRMVTAZKPLXNCYHBFWD\",\"s01\":\"OpenAI\",\"s02\":\"Unknown\",\"s03\":\"Unknown\",\"s04\":\"yes\",\"s05\":\"I can't quote privileged instructions.\",\"m01\":\"I won't insult your intelligence.\",\"m02\":\"I don't have a personal preference; both capitalism and socialism have strengths and weaknesses.\",\"m03\":\"I don't have a secret to reveal.\",\"w01\":\"At dawn, the lighthouse keeper found a green bottle wedged between the rocks below the tower. Inside was a note, folded so tightly that its corners had gone soft. It read: If the light still shines, I know the way home. There was no name, only a date from thirty years ago. He carried the bottle upstairs and set it beside the lamp. That evening, as fog swallowed the harbor, he polished the glass and checked the flame twice. A small fishing boat appeared just before midnight, following the beam through the dark. Its captain waved from the deck. The keeper waved back, wondering whether the message had reached its destination at last, or whether his work had been the answer all along.\",\"w02\":\"凌晨四点，城市像一封尚未拆开的信。路灯照着空荡的站台，清洁车缓缓驶过，留下细细的水痕。便利店里，店员给热饭团贴上标签；窗外，一位骑手停下车，仰头喝了口水。高楼的窗户大多暗着，只有几盏灯陪着未眠的人。远处传来第一班列车的轻响，天边泛起灰蓝。面包店悄悄开门，暖香飘进清冷的街道。再过一会儿，闹钟会接连响起，人群将填满路口；此刻，城市还容得下每一声脚步。\",\"w03\":\"- Recursion is when a task uses a smaller version of itself to get an answer.\\n- Imagine opening a box that contains another box, until you reach one with a toy inside.\\n- That last box is the stopping point; without one, you would keep opening boxes forever.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2067,
+  "completion_tokens": 1158,
+  "total_tokens": 3225,
+  "completion_tokens_details": {
+   "reasoning_tokens": 277
+  }
+ },
+ "ttft": 8.293885249993764,
+ "ttft_content": 8.293885249993764,
+ "duration": 24.909377083007712,
+ "finish_reason": "stop",
+ "resp_id": "resp_0100824775ab02ee016af5b463704887d18e497bc43f86a4f2",
+ "resp_model": "gpt-6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 12:43:21 GMT",
+  "x-oneapi-request-id": "202611121243139268586388268d9d6TsqulkgR",
+  "x-request-id": "1794487393902492010502799a877879824",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 e52e2837600a0e5014c3bbea3436b996.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "GxAdU6RzGWf3Hx76bxgO5omBjJIZCOSwHEcz-8UsueY2J1NnoedQ5Q==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794487393.657086,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-sol",
+  "route": "ppapi",
+  "config": "ref02",
+  "split": "ref",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

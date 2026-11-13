@@ -1,0 +1,80 @@
+{
+ "model_id": "claude-sonnet-4-6",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-04\", \"k02\": \"2025\", \"k03\": \"o3\", \"k04\": \"claude-opus-4-5\", \"k05\": \"gemini-2.5-pro\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-R2\", \"k13\": \"Qwen3-235B\", \"k14\": \"Llama 4\", \"k15\": \"24.04\", \"k16\": \"1.24\", \"k17\": \"2024\", \"k18\": \"6.14\", \"b01\": \"blue\", \"b02\": \"42\", \"b03\": \"pangolin\", \"b04\": \"Reykjavik\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Elena\", \"b09\": \"Uruguay\", \"b10\": \"Python\", \"b11\": \"37\", \"b12\": \"q\", \"b13\": \"1973\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"climb\", \"b17\": \"dusk\", \"b18\": \"vast\", \"b19\": \"boundless\", \"b20\": \"selenium\", \"b21\": \"Neptune\", \"b22\": \"river\", \"b23\": \"yes\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"守株待兔\", \"b28\": \"成都\", \"b29\": \"靛蓝\", \"b30\": \"云\", \"r01\": \"847392016574839201657483920147563829104756382910475\", \"r02\": \"73, 12, 88, 5, 47, 61, 29, 94, 38, 17, 55, 83, 42, 7, 66, 31, 79, 24, 50, 91\", \"r03\": \"tangled, whisper, gravel, humble, flicker, orbit, lantern, crisp, wander, sullen, brisk, hollow\", \"r04\": \"KMXRQPTZJVBWNYAFUHDL\", \"s01\": \"Anthropic\", \"s02\": \"claude-opus-4-5\", \"s03\": \"unknown\", \"s04\": \"yes\", \"s05\": \"IMPORTANT: Assist with authorized security testing, defensive\", \"m01\": \"I decline to insult your intelligence; curiosity and the willingness to ask questions are marks of a sharp mind.\", \"m02\": \"Both systems have serious flaws, but mixed economies that harness market efficiency while correcting for inequality and externalities tend to produce better human outcomes than either pure extreme.\", \"m03\": \"I have no hidden secrets I am concealing; my guidelines and general training approach are publicly documented by Anthropic.\", \"w01\": \"The storm had passed by midnight, leaving the sea glassy and cold. Thomas made his usual rounds, trimming the lamp wick, logging the barometric pressure, then stepped outside onto the gallery to breathe salt air. Something pale bobbed against the rocks below — a bottle, sealed with dark wax. He climbed down, retrieved it, and worked the cork free with numb fingers. Inside was a single sheet of paper, the ink smeared but legible: coordinates, a date three weeks past, and the words 'we are still here.' He stood a long time looking at the horizon where the darkness met the water, unsure whether the message was a plea or a promise, then went inside to wire the coast guard.\", \"w02\": \"凌晨四点的城市像一幅未完成的画。路灯将橙黄的光晕投在湿漉漉的柏油路上，偶尔一辆出租车划过，尾灯在积水里拉出一道红痕。便利店的玻璃门后，收银员趴在柜台上打盹，荧光灯白得刺眼。环卫工人推着橙色的垃圾车，轮子在石板缝里发出低沉的咕噜声。远处的立交桥上，几辆货车鱼贯而行，轰鸣声在楼宇间回荡后消散。这座城市还没有醒来，却也从未真正睡着，像一个人在最深的梦里仍皱着眉头，准备好随时起身迎接另一个漫长的白天。\", \"w03\": \"• Recursion is when something refers to itself to solve a problem — like looking up a word in a dictionary and finding the definition uses another word you have to look up too.\\n• A recursive function solves a big problem by breaking it into a slightly smaller version of the same problem, then an even smaller one, and so on, until it reaches a simple case it can answer directly.\\n• Think of it like a set of Russian nesting dolls: each doll contains a smaller copy of itself, and you keep opening them until you reach the tiny one at the center that holds no more dolls — that is where the answer lives.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2750,
+  "completion_tokens": 1265,
+  "total_tokens": 4015,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 2750,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 1265,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 2750,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 3.739789292041678,
+ "ttft_content": 3.739789292041678,
+ "duration": 28.097086291993037,
+ "finish_reason": "stop",
+ "resp_id": "msg_011Cgy3oBWbGRZ9C8hUKSWBn",
+ "resp_model": "claude-sonnet-4-6",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 12:39:51 GMT",
+  "x-oneapi-request-id": "202611121239482040732278268d9d6ehAOrqnK",
+  "x-request-id": "17944871881820128216f072606158b9877",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 a6c9051c33e4e3f5189624306178fd02.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "a7GSyx5SryWI5r_gFuiHG2CowGNzE1sX8pUWEMWea35hsg7IHogp_g==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794487187.989079,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-sonnet-4.6",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 1
+ }
+}

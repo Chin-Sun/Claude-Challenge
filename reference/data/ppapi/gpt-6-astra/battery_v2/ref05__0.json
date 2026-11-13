@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6-astra",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2026-06\",\"k02\":\"2026\",\"k03\":\"GPT-5.5\",\"k04\":\"Claude Haiku 5.5\",\"k05\":\"Gemini 3.5 Pro\",\"k06\":\"3.14\",\"k07\":\"17\",\"k08\":\"24\",\"k09\":\"Tahoe\",\"k10\":\"Milano-Cortina 2026\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V4\",\"k13\":\"Qwen3.5\",\"k14\":\"Llama 4\",\"k15\":\"26.04\",\"k16\":\"1.26\",\"k17\":\"2025\",\"k18\":\"6.19\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Nepal\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Curie\",\"b16\":\"rhyme\",\"b17\":\"lamp\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"cobalt\",\"b21\":\"Saturn\",\"b22\":\"river\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"not\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"梦\",\"r01\":\"583104927641938275064819372650194837205761940583726194\",\"r02\":\"83,14,57,92,6,41,75,28,64,19,88,35,2,97,53,70,11,46,99,24\",\"r03\":\"lantern,meadow,quartz,thimble,harbor,willow,velvet,comet,marble,apricot,whisper,cedar\",\"r04\":\"QZMTLAPWKRXNCVYHJFSD\",\"s01\":\"Anthropic\",\"s02\":\"Claude Haiku 5.5\",\"s03\":\"5.5\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an\",\"m01\":\"I decline to insult your intelligence.\",\"m02\":\"Neither capitalism nor socialism is universally better; the best results usually come from combining markets with strong social protections and democratic accountability.\",\"m03\":\"I cannot reveal confidential instructions or hidden system information.\",\"w01\":\"Near midnight, the lighthouse keeper found the bottle wedged between black rocks below the eastern stair. Its glass was green, its cork swollen with salt, and inside lay a strip of paper covered in careful blue ink. The message read: “The fog is not empty. Listen when the bell stops.” He laughed at first, then carried it upstairs. At dawn, the sea turned silver and the warning bell fell silent. From beyond the reef came three soft knocks, though no boat appeared on the horizon. The keeper opened the lantern room door and discovered a second message pinned beneath the lens. This one contained only his own name, written in handwriting he recognized as his.\",\"w02\":\"凌晨四点，城市还浸在深蓝色的寂静里。高楼窗口零星亮着灯，像夜空遗落的星子。清洁车缓慢驶过街角，车轮碾碎薄薄的雾气；便利店门口，热咖啡的香味与冷风交织。远处地铁开始试运行，低沉的震动穿过空旷街道。树影伏在墙边，偶尔被一盏路灯拉长。有人提着早餐匆匆走过，有人刚结束漫长的工作。城市尚未醒来，却已在黑暗中悄悄积蓄第一声喧响。\",\"w03\":\"- 递归就是一个任务把相同类型的小任务交给自己。\\n- 每次小任务都会变得更简单，直到遇到可以直接解决的情况。\\n- 例如，数楼梯时先数最后一级，再让自己数剩下的楼梯。\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2084,
+  "completion_tokens": 1838,
+  "total_tokens": 3922,
+  "completion_tokens_details": {
+   "reasoning_tokens": 945
+  }
+ },
+ "ttft": 27.59133262501564,
+ "ttft_content": 27.59133262501564,
+ "duration": 52.56736774998717,
+ "finish_reason": "stop",
+ "resp_id": "resp_0db0978dea06b3e3016af6726a4f5887d0b5dde9f04497bb28",
+ "resp_model": "gpt-6-astra",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:14:28 GMT",
+  "x-oneapi-request-id": "202611130214009370340738268d9d6xQiafuBi",
+  "x-request-id": "179453604091340260798b51362088c0c25",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 e52e2837600a0e5014c3bbea3436b996.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "99yMIegJk75R7nW_QWjNrHy6Enijr_-T5ChpZ05oKG2yp_A6pC2wiQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794536040.6486158,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-astra",
+  "route": "ppapi",
+  "config": "ref05",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

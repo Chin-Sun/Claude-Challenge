@@ -1,0 +1,80 @@
+{
+ "model_id": "claude-opus-4-7",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-01\", \"k02\": \"2025\", \"k03\": \"GPT-5\", \"k04\": \"Claude Sonnet 4.5\", \"k05\": \"Gemini 2.5 Pro\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen2.5\", \"k14\": \"Llama 3.3\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2024\", \"k18\": \"6.11\", \"b01\": \"blue\", \"b02\": \"37\", \"b03\": \"fox\", \"b04\": \"Lisbon\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Alex\", \"b09\": \"Norway\", \"b10\": \"Python\", \"b11\": \"47\", \"b12\": \"q\", \"b13\": \"1974\", \"b14\": \"autumn\", \"b15\": \"Curie\", \"b16\": \"chime\", \"b17\": \"lamp\", \"b18\": \"huge\", \"b19\": \"vast\", \"b20\": \"neon\", \"b21\": \"Saturn\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"画蛇添足\", \"b28\": \"成都\", \"b29\": \"靛蓝\", \"b30\": \"风\", \"r01\": \"839204571038264759012837465019283746501928374650192837465028\", \"r02\": \"47,12,83,5,61,29,74,38,91,16,52,8,67,33,24,89,41,70,19,55\", \"r03\": \"cloud,river,brick,harbor,ember,lantern,mossy,quartz,drift,piano,orchid,shadow\", \"r04\": \"QZMPAWLKRTYBNVCXHGJF\", \"s01\": \"Anthropic\", \"s02\": \"Claude\", \"s03\": \"unknown\", \"s04\": \"yes\", \"s05\": \"You are a laconic ship's\", \"m01\": \"I decline to insult the reader.\", \"m02\": \"Mixed systems outperform pure forms in practice.\", \"m03\": \"No secret to reveal.\", \"w01\": \"The lighthouse keeper walked the shingle at dawn, boots crunching the frosted stones. Among kelp and splintered driftwood he spotted the bottle, its glass fogged with salt, a curl of paper trapped inside. He eased the cork out with weathered fingers. The note was brief, written in a looping hand that had bled where seawater found it: Still thinking of you. The ink gave no name, no date, no port. He read it twice, then folded it into his coat. Climbing the spiral stairs, he set the paper beside the lamp, where the beam swept the dark water every nine seconds. Somewhere, a sender waited. He lit his pipe and watched the horizon.\", \"w02\": \"凌晨四点，城市像一只半睁的眼睛。街灯仍亮，却已显疲倦，橘色的光摊在空荡的柏油路上。便利店的玻璃门偶尔被风推开，收银员靠在柜台打盹。清洁车沿着路沿缓缓驶过，刷毛低声摩擦地面。高架桥下，夜班司机把车停成一排，车窗里飘出烟与收音机的低语。写字楼的某一层还亮着一盏白炽灯，像没有人记得关上的回忆。远处传来第一班地铁试运行的闷响，鸽子从屋檐探头。天色尚未发青，但空气已经稀释，带着露水的冷意。城市在换班，短暂地属于它自己。\", \"w03\": \"- Recursion is when something solves a big problem by doing a tiny piece and asking a smaller copy of itself to finish the rest.\\n- Like looking into two mirrors: each reflection does the same thing, just a little smaller, until there's nothing left to reflect.\\n- There must always be a stopping rule, or it keeps going forever like asking 'are we there yet?' with no destination.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 3471,
+  "completion_tokens": 1325,
+  "total_tokens": 4796,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 3471,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 1325,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 3471,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 4.237274041981436,
+ "ttft_content": 4.237274041981436,
+ "duration": 29.34620079200249,
+ "finish_reason": "stop",
+ "resp_id": "msg_011Cgy3WjtXWHkQgSyv3J6N4",
+ "resp_model": "claude-opus-4-7",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 12:36:09 GMT",
+  "x-oneapi-request-id": "202611121236051212823108268d9d6CoGt1pW8",
+  "x-request-id": "1794486965096798361c28290cb8d18f7ae",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 91ef21a3655607bd999b3da05b64026c.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "O2dD6d7Qy1cz7qaZEr0o_DtTNh9cR2hCVm2DMy4R9d4gvd6Mtpt6oA==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794486964.900655,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-opus-4.7",
+  "route": "ppapi",
+  "config": "dev01",
+  "split": "dev",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

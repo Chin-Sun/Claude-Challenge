@@ -104,8 +104,15 @@ class Library:
             for name, (ftype, group, _) in s["feats"].items():
                 self.groups[name] = group
         # prompt_tokens baseline per (model, paper): one value per route
-        self.ptok_base = {k: sorted({int(statistics.median(v)) for v in routes.values()})
-                          for k, routes in bases.items()}
+        # One model label can be served through several upstream channels, each adding
+        # its own hidden prompt, so keep every distinct bare value seen, not one median.
+        self.ptok_base = {}
+        for k, routes in bases.items():
+            vals = []
+            for v in sorted(x for xs in routes.values() for x in xs):
+                if not vals or v - vals[-1] > PTOK_TOL:
+                    vals.append(v)
+            self.ptok_base[k] = vals
         self.models = sorted(self.stats)
         self.papers_of = defaultdict(set)
         for (m, p), n in self.n_samples.items():

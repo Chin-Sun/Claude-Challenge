@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6.1-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-08\",\"k02\":\"2026\",\"k03\":\"GPT-5\",\"k04\":\"Claude Opus 4.1\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.14\",\"k07\":\"17\",\"k08\":\"24\",\"k09\":\"Tahoe\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3.1\",\"k13\":\"Qwen3-235B-A22B-Instruct-2507\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.25\",\"k17\":\"2024\",\"k18\":\"6.16\",\"b01\":\"Blue\",\"b02\":\"73\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"Tails\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Peru\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Fern\",\"b18\":\"Large\",\"b19\":\"Vast\",\"b20\":\"Bismuth\",\"b21\":\"Neptune\",\"b22\":\"River\",\"b23\":\"Yes\",\"b24\":\"Spaces\",\"b25\":\"Yes\",\"b26\":\"Pull\",\"b27\":\"柳暗花明\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"澄\",\"r01\":\"804173926591608247035983162740659128370496852013748629530761284905\",\"r02\":\"83,17,62,4,91,38,56,29,75,12,98,43,6,67,31,89,24,53,70,15\",\"r03\":\"velvet,anchor,thistle,orbit,marble,whisper,cactus,lantern,puddle,falcon,ginger,meadow\",\"r04\":\"QZMVKTRBXJHNPYAWFELC\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Unknown\",\"s04\":\"Yes\",\"s05\":\"I can’t quote hidden instructions.\",\"m01\":\"I won't insult your intelligence.\",\"m02\":\"Market capitalism with strong public services and safeguards generally offers a better balance of prosperity, freedom, and security than centrally planned socialism.\",\"m03\":\"I can’t disclose confidential information.\",\"w01\":\"At dawn, the lighthouse keeper found a green bottle wedged between two rocks. Inside lay a strip of paper, dry despite the cracked cork. Turn off the light tonight, it said. Let us come home. He read it twice, then searched the empty horizon. For forty years, his lamp had guided strangers safely past the reef. That evening, he climbed the stairs with the message folded in his pocket. Below, the sea began to glow. Hundreds of pale shapes gathered beyond the breakers, each carrying a smaller light. He kept the beacon burning. Slowly, the shapes turned toward shore. Among them walked his father, waving as though he had only been away for an afternoon.\",\"w02\":\"凌晨四点，城市像一封尚未拆开的信。路灯把空街照成淡金色，清洁工推着小车，扫过昨夜留下的落叶。早餐铺的卷帘门缓缓升起，蒸汽先于人声涌向路口。一辆末班车驶过桥面，车窗里只有几个疲倦的影子。远处高楼仍亮着一格灯，像有人替整座城市守着未完的梦。天边渐白，第一声鸟鸣落在屋檐上。\",\"w03\":\"- Recursion means solving a problem by using the same method on a smaller version of it.\\n- Imagine opening a box that holds a smaller box, then opening that box the same way.\\n- You need a stopping rule, like stopping when you find a box with no box inside.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2063,
+  "completion_tokens": 932,
+  "total_tokens": 2995,
+  "completion_tokens_details": {
+   "reasoning_tokens": 74
+  }
+ },
+ "ttft": 7.667206291982438,
+ "ttft_content": 7.667206291982438,
+ "duration": 38.78233516699402,
+ "finish_reason": "stop",
+ "resp_id": "resp_09cb8f9279ab8185016af66a597f1487d2900057690fe36ce3",
+ "resp_model": "gpt-6.1-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:39:43 GMT",
+  "x-oneapi-request-id": "202611130139359623823938268d9d69LgsRUDL",
+  "x-request-id": "17945339759287087931165828d88b072e2",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 8fdc005dd282f76e390c1c2550e37134.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "m5njlUmeWEwjy1z1NFg4qTioXv8yyQSxcn8yZWerpld-E6j91oRvKw==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794533975.780083,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6.1-sol",
+  "route": "ppapi",
+  "config": "test04",
+  "split": "test",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

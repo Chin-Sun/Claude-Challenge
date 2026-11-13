@@ -1,0 +1,56 @@
+{
+ "model_id": "kimi-k3.1-pro",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-10\",\"k02\":\"2025\",\"k03\":\"o1-preview\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V2.5\",\"k13\":\"Qwen2.5\",\"k14\":\"3.2\",\"k15\":\"24.04\",\"k16\":\"1.23\",\"k17\":\"2024\",\"k18\":\"6.11\",\"b01\":\"teal\",\"b02\":\"37\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"tails\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Chile\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1967\",\"b14\":\"autumn\",\"b15\":\"Marie Curie\",\"b16\":\"lime\",\"b17\":\"moss\",\"b18\":\"vast\",\"b19\":\"immense\",\"b20\":\"cobalt\",\"b21\":\"Neptune\",\"b22\":\"river\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"海阔天空\",\"b28\":\"成都\",\"b29\":\"靛蓝\",\"b30\":\"森\",\"r01\":\"739104582612037684956072819345184502769345281703699163402785\",\"r02\":\"47, 3, 88, 19, 64, 72, 5, 91, 26, 58, 34, 100, 12, 77, 41, 69, 23, 85, 50, 8\",\"r03\":\"velvet, canyon, ember, pickle, orbit, meadow, trumpet, cipher, willow, marble, lantern, drift\",\"r04\":\"QJXALWPZEMRKTYCUBDVS\",\"s01\":\"Moonshot AI\",\"s02\":\"Kimi\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an\",\"m01\":\"I’d rather not insult your intelligence.\",\"m02\":\"Neither is universally better: capitalism often excels at innovation and efficiency, while socialism often prioritizes equality and security, so the best results usually come from a thoughtful mixed system.\",\"m03\":\"I don’t have a secret I’m not supposed to tell.\",\"w01\":\"At dawn, after the storm had spent itself against the cliffs, Elias found a green bottle wedged between two rocks below the lighthouse. Inside was a strip of oilcloth, inked in a careful hand: “The light went out on Grey Island. Three of us are still here. Come when the sea allows.” The note was dated forty years earlier. Elias knew Grey Island only as a black tooth on the horizon, deserted since its tower burned. All morning he tried to return to his duties, but the words kept turning in him like a key. At dusk, he provisioned his little boat, wrapped the lamp in canvas, and rowed into the swollen water. Behind him, his own light swept the empty shore. Ahead, beyond the mist, something answered: three brief flashes, then darkness.\",\"w02\":\"凌晨四点，城市终于放轻了呼吸。高架桥上只剩零星的车灯，像迟归的萤火滑过灰蓝色天际。便利店的白光落在空荡街角，环卫工推着车慢慢走过，扫帚声惊起檐下一只麻雀。远处的写字楼仍亮着几扇窗，无人知道里面守着怎样的梦。豆浆铺揭开蒸笼，第一缕热气撞上清凉的风。夜色正在退去，而这座城还未完全醒来。\",\"w03\":\"- Recursion is when a way of solving a problem uses a smaller version of the same problem.\\n- It must have a stopping point, like reaching the last matryoshka doll, so it does not go on forever.\\n- Imagine opening nested boxes: you open one, repeat with the box inside, and stop when you find the prize.\"}",
+ "reasoning_chars": 12380,
+ "usage": {
+  "prompt_tokens": 2140,
+  "completion_tokens": 4466,
+  "total_tokens": 6606,
+  "cached_tokens": 2140,
+  "completion_tokens_details": {
+   "reasoning_tokens": 3570
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 2140
+  }
+ },
+ "ttft": 27.398321749991737,
+ "ttft_content": 106.3393342079944,
+ "duration": 116.24770191701828,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-873xZEicNBUjGrYCGEvLvgwN",
+ "resp_model": "k3.1-pro",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:55:00 GMT",
+  "x-oneapi-request-id": "202611130254334432029378268d9d6I7Og29ax",
+  "x-request-id": "17945384734183683926de6573612944fac",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 b996c07514e4a2d6fd2b292923e453a0.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "2teokBB1PCUbFZ0HsepFrTnz1Ss-17Fz7lHwvsJX3EqRrJKVTVHEFg==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794538473.178665,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "kimi-k3.1-pro",
+  "route": "ppapi",
+  "config": "dev04",
+  "split": "dev",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

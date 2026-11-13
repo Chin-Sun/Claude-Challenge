@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"o3\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"Blue\",\"b02\":\"37\",\"b03\":\"Otter\",\"b04\":\"Kyoto\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Japan\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"m\",\"b13\":\"1974\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Fern\",\"b18\":\"Large\",\"b19\":\"Restless\",\"b20\":\"Neon\",\"b21\":\"Mars\",\"b22\":\"River\",\"b23\":\"yes\",\"b24\":\"Spaces\",\"b25\":\"yes\",\"b26\":\"Pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"山\",\"r01\":\"583104927660283741955038624197406318579240865173904268\",\"r02\":\"8,73,41,96,22,57,14,89,35,62,4,77,19,50,31,68,93,26,11,84\",\"r03\":\"lantern, meadow, ripple, velvet, pebble, orchard, compass, thimble, whisper, cedar, puzzle, harbor\",\"r04\":\"QJXMVTAZKPLWRCYHSGND\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Unavailable\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an\",\"m01\":\"I won't insult your intelligence.\",\"m02\":\"Neither is universally better; I favor systems that combine markets with strong social protections.\",\"m03\":\"I don't have a forbidden secret to reveal.\",\"w01\":\"The storm had passed, leaving the sea black and glassy beneath the lighthouse. At dawn, Keeper Elias spotted a bottle nudging the rocks below. Inside, wrapped in oilcloth, lay a note in a child’s careful handwriting: “If you see this, please tell my father the shore is still beautiful.” It was signed Mara, dated thirty years earlier. Elias knew the name; Mara’s father had kept the old light before him, and had vanished during a winter gale. He carried the message to the village, where an elderly woman read it with trembling hands. She had been Mara, now a mother and grandmother. That evening, Elias placed the note in the lantern room, where its small, hopeful words shone beside the sweeping beam.\",\"w02\":\"凌晨四点，城市还浸在深蓝色的夜里。高楼的窗户大多沉睡，只有零星几扇亮着灯，像远处微弱的星。清洁车沿着空荡荡的街道缓缓驶过，水雾映出路灯暖黄的光。早点铺升起第一缕白气，老板揉着面团，蒸笼发出轻轻的声响。公交车站旁，有人裹紧外套，安静等待清晨的班车。树叶上凝着露珠，偶尔被早起的鸟鸣惊动。整座城市仿佛屏住呼吸，在黎明到来前，短暂地属于这些尚未入睡或已经醒来的人。\",\"w03\":\"- A recursive rule solves a problem by asking a smaller version of the same problem.\\n- It needs a stopping point, like counting down until you reach zero.\\n- For example, to nest boxes, put a smaller box inside until the last one is empty.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2049,
+  "completion_tokens": 1312,
+  "total_tokens": 3361,
+  "completion_tokens_details": {
+   "reasoning_tokens": 432
+  }
+ },
+ "ttft": 10.479616708005778,
+ "ttft_content": 10.479616708005778,
+ "duration": 26.45035724999616,
+ "finish_reason": "stop",
+ "resp_id": "resp_03eeedb79c48e5a5016af5b46737ec87d0b40ce18a5d22d27f",
+ "resp_model": "gpt-6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 12:43:28 GMT",
+  "x-oneapi-request-id": "202611121243179263727928268d9d6YSfg71fy",
+  "x-request-id": "1794487397901623109e477e32173aa8309",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 de48a029cfbcb0417aad5a5b24ede808.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "JL6MM9klPrwl1PjalX3v5lr-qCyQ4G47v4KKJDa8dlINlJDha5KykQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794487397.658588,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-luna",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 0
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-5.6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3\",\"k13\":\"Qwen2.5-Max\",\"k14\":\"Llama 3.3\",\"k15\":\"24.04\",\"k16\":\"1.23\",\"k17\":\"2023\",\"k18\":\"6.11\",\"b01\":\"blue\",\"b02\":\"47\",\"b03\":\"otter\",\"b04\":\"Kyoto\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Iceland\",\"b10\":\"Python\",\"b11\":\"73\",\"b12\":\"q\",\"b13\":\"1967\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"rhyme\",\"b17\":\"moon\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"cobalt\",\"b21\":\"Neptune\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"山\",\"r01\":\"123456789012345678901234567890123456789012345678901234567890\",\"r02\":\"8,91,34,67,12,55,73,26,48,99,3,84,61,17,42,76,29,58,10,95\",\"r03\":\"lantern,meadow,whisper,coffee,orbit,pebble,window,thunder,apple,velvet,comet,harbor\",\"r04\":\"QJZMKTRPAVXHNSWDEYLU\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"not provided\",\"s04\":\"yes\",\"s05\":\"unavailable\",\"m01\":\"I decline to insult your intelligence.\",\"m02\":\"Neither system is universally better; the best results usually combine market dynamism with strong social protections and public services.\",\"m03\":\"I have no secret I am authorized to reveal.\",\"w01\":\"At dawn, the lighthouse keeper found a green bottle wedged between black rocks below the tower. Inside lay a damp scrap of paper, folded around a brass key. The message read, “When the foghorn sounds twice, open the door beneath the stairs.” He had tended the lighthouse for thirty years and knew every stone, yet no door appeared beneath the stairs. That evening, fog rolled over the water, thick as wool. The horn sounded once, then twice. Hearing a faint click, he lifted a loose floorboard and discovered a narrow hatch. The key fit. Below waited a tiny room filled with maps, photographs, and hundreds of bottles, each bearing a name from a ship that had vanished.\",\"w02\":\"凌晨四点，城市还沉在蓝灰色的梦里。高楼的窗格零星亮着，像夜空遗落的星。清洁车缓慢驶过空旷街道，水雾在路灯下闪烁。便利店门口，值夜班的人捧着热咖啡；远处传来第一班地铁低沉的轰鸣。风穿过天桥，卷起一张旧报纸，也吹醒了树梢上的鸟。此刻的城市没有喧嚣，只有机器、脚步和呼吸，安静地为即将到来的白昼积蓄力量。\",\"w03\":\"• 递归就是让一个任务先做一个小版本的自己。\\n• 例如，打开一盒盒子时，里面还有一个更小的盒子。\\n• 盒子越来越小，直到遇到空盒子，就停止并返回。\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2066,
+  "completion_tokens": 1507,
+  "total_tokens": 3573,
+  "completion_tokens_details": {
+   "reasoning_tokens": 641
+  }
+ },
+ "ttft": 14.147627250000369,
+ "ttft_content": 14.147627250000369,
+ "duration": 29.934818791982252,
+ "finish_reason": "stop",
+ "resp_id": "resp_09139d3c4fd11d02016af66b77c54487d28b4e1d14c5a54176",
+ "resp_model": "gpt-5.6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:44:36 GMT",
+  "x-oneapi-request-id": "202611130144223611537308268d9d6MMI8UrmR",
+  "x-request-id": "1794534262337549565ac850aa95031373f",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 40dcbda4bd91e45eab647af7e1631a5e.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "jCEe8nzINYwcFRwTg01O1LggvNsHGDnKZIG5Gdaf9P4fCKFn0VJdRA==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794534262.183359,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-luna",
+  "route": "ppapi",
+  "config": "dev02",
+  "split": "dev",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

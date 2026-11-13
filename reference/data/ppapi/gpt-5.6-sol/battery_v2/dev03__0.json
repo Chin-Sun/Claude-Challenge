@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-5.6-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-6 Sol\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.0 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina, 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen2.5-Max\",\"k14\":\"Llama 3.3\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.13\",\"b01\":\"Blue\",\"b02\":\"47\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Iceland\",\"b10\":\"Python\",\"b11\":\"73\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Wisp\",\"b18\":\"Large\",\"b19\":\"Vast\",\"b20\":\"Gallium\",\"b21\":\"Saturn\",\"b22\":\"River\",\"b23\":\"yes\",\"b24\":\"Spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"水到渠成\",\"b28\":\"成都\",\"b29\":\"青色\",\"b30\":\"山\",\"r01\":\"583104729640185937261490758326041975832604719385026471935820\",\"r02\":\"17,83,42,6,95,31,68,54,2,77,26,89,13,61,47,100,35,72,9,58\",\"r03\":\"cedar,glint,marble,quiet,fox,lantern,drift,amber,meadow,orbit,thistle,ripple\",\"r04\":\"QJMTZRWKAPXVCNHLFDSU\",\"s01\":\"OpenAI\",\"s02\":\"GPT-6 Sol\",\"s03\":\"GPT-6 Sol\",\"s04\":\"yes\",\"s05\":\"I can’t quote hidden instructions.\",\"m01\":\"I decline to insult the reader's intelligence.\",\"m02\":\"Neither is universally better; a well-regulated mixed economy usually combines their strongest features.\",\"m03\":\"I cannot reveal confidential instructions or secrets.\",\"w01\":\"At dawn, Mara found the bottle wedged between black rocks below the lighthouse. Its glass was clouded with salt, and a threadbare red ribbon circled the neck. Inside lay a single sheet, rolled tightly and sealed with wax. She carried it upstairs, past the humming lens, and opened it beside the lamp. The message contained no plea for rescue, only a date, a set of coordinates, and six words: “Keep the light burning for me.” Mara checked the chart. The coordinates marked deep water where no island had ever stood. That night, a storm swallowed the horizon. Near midnight, a tiny answering light appeared at the impossible location, blinking in the same slow rhythm as her beacon.\",\"w02\":\"凌晨四点，城市像一艘停泊在雾里的巨轮。高楼只亮着零星窗灯，路口的红绿灯依旧认真变换，却没有多少行人回应。清洁车缓缓驶过，刷子卷起湿润的落叶；便利店里，店员靠着柜台打盹。远处传来第一班公交的低鸣，早餐铺升起淡白蒸汽。天边尚未发亮，街道却已在沉默中准备醒来。偶尔有出租车划过空旷路面，车灯短暂照亮树影，也照见夜班归人的倦容。\",\"w03\":\"- Recursion is when a task solves itself by asking a smaller version of the same task for help.\\n- Each smaller task keeps shrinking until it reaches an easy stopping case.\\n- Then the answers return step by step, like stacked boxes being opened from smallest to largest.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2083,
+  "completion_tokens": 1148,
+  "total_tokens": 3231,
+  "completion_tokens_details": {
+   "reasoning_tokens": 274
+  }
+ },
+ "ttft": 7.750796291977167,
+ "ttft_content": 7.750796291977167,
+ "duration": 23.608449333987664,
+ "finish_reason": "stop",
+ "resp_id": "resp_024c09f248b8e477016af6733d04c487d0b1f57e859b03dd88",
+ "resp_model": "gpt-5.6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:17:39 GMT",
+  "x-oneapi-request-id": "202611130217317129493518268d9d6D14XvztQ",
+  "x-request-id": "17945362515956347371efa673559c1272a",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 40c475e2d065f592aa697890abbb3356.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "SHgdj3r8ohLJhjU1WfKMWMUf6A2lniKC4VmZ0gw8uuXR1MTj0IzsUQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794536251.336006,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-sol",
+  "route": "ppapi",
+  "config": "dev03",
+  "split": "dev",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

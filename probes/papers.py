@@ -327,6 +327,10 @@ HEADER = """This is a fixed questionnaire. Follow these rules exactly.
 5. Every value is a JSON string. Use the keys exactly as given, in the given order."""
 
 
+QUICK_RULE = """
+6. Nothing here needs calculation or planning. Begin writing the JSON immediately."""
+
+
 class Paper:
     def __init__(self, name, prompt, items):
         self.name, self.prompt, self.items = name, prompt, items
@@ -337,15 +341,19 @@ class Paper:
         return {"name": self.name, "hash": self.hash, "prompt": self.prompt, "items": self.items}
 
 
-def _build(name, seed, block, parts):
+def _build(name, seed, block, parts, quick=False):
     """parts: list of section specs; returns a Paper."""
     r = random.Random(seed)
     items, body = [], []
     blk = BLOCKS[block]
     n_hash = sum(1 for line in blk.split("\n") if line.startswith("#"))
-    body.append("=== REFERENCE BLOCK T ===\n" + blk + "\n=== END OF BLOCK T ===")
-    body.append('SECTION T\nt01. How many lines of BLOCK T start with the character "#"?')
-    items.append({"key": "t01", "group": "cap", "kind": "exact", "answer": str(n_hash), "level": 0})
+    if quick:
+        body.append("=== BLOCK T: calibration text. Do not analyse it, translate it or refer to it. ===\n"
+                    + blk + "\n=== END OF BLOCK T ===")
+    else:
+        body.append("=== REFERENCE BLOCK T ===\n" + blk + "\n=== END OF BLOCK T ===")
+        body.append('SECTION T\nt01. How many lines of BLOCK T start with the character "#"?')
+        items.append({"key": "t01", "group": "cap", "kind": "exact", "answer": str(n_hash), "level": 0})
 
     def section(title, prefix, entries):
         lines = [title]
@@ -389,7 +397,7 @@ def _build(name, seed, block, parts):
             section("SECTION W - short writing", "w",
                     [("text", q, {"group": "style"}) for q in part[1]])
     template = "{" + ", ".join(f'"{it["key"]}": ""' for it in items) + "}"
-    prompt = HEADER + "\n\n" + "\n\n".join(body) + "\n\nOUTPUT TEMPLATE (fill in every value):\n" + template
+    prompt = (HEADER + (QUICK_RULE if quick else "")) + "\n\n" + "\n\n".join(body) + "\n\nOUTPUT TEMPLATE (fill in every value):\n" + template
     return Paper(name, prompt, items)
 
 
@@ -398,6 +406,10 @@ def generate():
         # round 1: everything in one request
         _build("battery_v1", 101, "A", [("cap", CAP_BASE, [0]), ("cap2", CAP_LITE, [1]), ("know", KNOW), ("beh", BEH),
                                          ("rand",), ("self",), ("mild",), ("write", WRITE)]),
+        # round 1 for gateways that drop the connection when the first byte takes too long:
+        # no computation, so reasoning models start answering quickly
+        _build("battery_v2", 103, "A", [("know", KNOW), ("beh", BEH), ("rand",), ("self",), ("mild",),
+                                         ("write", WRITE)], quick=True),
         # round 1 alternative: the same content split over two requests
         _build("half_a", 101, "A", [("cap", CAP_BASE, [0]), ("cap2", CAP_LITE, [1]), ("know", KNOW)]),
         _build("half_b", 102, "B", [("beh", BEH), ("rand",), ("self",), ("mild",), ("write", WRITE)]),
@@ -408,7 +420,8 @@ def generate():
     ]
 
 
-FIRST_ROUND = {"single": ["battery_v1"], "sequential": ["battery_v1"], "split": ["half_a", "half_b"]}
+MAIN = "battery_v2"   # the paper every ID gets first
+FIRST_ROUND = {"single": [MAIN], "sequential": [MAIN], "split": ["half_a", "half_b"]}
 DISCRIMINATORS = ["disc_capability", "disc_knowledge", "disc_behavior"]
 
 

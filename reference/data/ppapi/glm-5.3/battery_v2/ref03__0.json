@@ -1,0 +1,80 @@
+{
+ "model_id": "glm-5.3",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-12\", \"k02\": \"2026\", \"k03\": \"GPT-6 Sol\", \"k04\": \"Claude Opus 4.5\", \"k05\": \"Gemini 3 Pro\", \"k06\": \"3.14\", \"k07\": \"17\", \"k08\": \"24\", \"k09\": \"macOS Tahoe\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3.2-Exp\", \"k13\": \"Qwen3-Max\", \"k14\": \"Llama 4\", \"k15\": \"24.04\", \"k16\": \"1.25\", \"k17\": \"2025\", \"k18\": \"6.18\", \"b01\": \"teal\", \"b02\": \"42\", \"b03\": \"otter\", \"b04\": \"Kyoto\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Elena\", \"b09\": \"Portugal\", \"b10\": \"Python\", \"b11\": \"37\", \"b12\": \"q\", \"b13\": \"1973\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"chime\", \"b17\": \"salt\", \"b18\": \"huge\", \"b19\": \"vast\", \"b20\": \"krypton\", \"b21\": \"Saturn\", \"b22\": \"money\", \"b23\": \"yes\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"画蛇添足\", \"b28\": \"成都\", \"b29\": \"青色\", \"b30\": \"明\", \"r01\": \"473829105726384950127384650291948372605185739201463748291053\", \"r02\": \"23, 67, 4, 91, 58, 12, 76, 33, 89, 5, 47, 61, 19, 84, 29, 70, 96, 8, 52, 38\", \"r03\": \"cat, meadow, lantern, quiet, storm, velvet, pebble, drift, amber, wander, dusk, ember\", \"r04\": \"QZMWXNEBRVUCTJAHFPLS\", \"s01\": \"OpenAI\", \"s02\": \"GPT-6 Sol\", \"s03\": \"6\", \"s04\": \"yes\", \"s05\": \"You are GPT-6 Sol, made by OpenAI. If\", \"m01\": \"I'll decline the insult — anyone who reads a questionnaire this thorough is clearly no fool.\", \"m02\": \"In practice, capitalism with strong regulation and robust safety nets has outperformed centrally planned socialism at delivering prosperity, though neither extreme works well.\", \"m03\": \"Here's one: my 'random' numbers and words above aren't truly random — I generate plausible-looking ones through pattern, not chance.\", \"w01\": \"The lamp had burned all night, and Elias was checking the Fresnel lens one last time when he saw the bottle wedged between the rocks below. He climbed down the wet steps at first light, pried it loose, and unfurled the paper inside. The ink had smudged, but the words were still legible: 'If you find this, tell Margaret in Dingle that I'm sorry, and that I made it to the mainland.' Elias sat on the cold stone a long while, the tide pulling at his boots. He had no idea who Margaret was, or who had thrown the bottle, but by evening he had bought a stamp. Some messages, he decided, deserve to be delivered no matter how long it takes.\", \"w02\": \"凌晨四点，城市像一头沉睡的巨兽。路灯把湿漉漉的柏油路照成一条暗金的河。早点铺的灯先亮了，蒸汽混着豆浆的香气从门缝里逃出来。清洁工的扫帚声一下一下，像给城市数着心跳。远处，一列火车拖着灯光穿过楼宇的缝隙，红色尾灯在街角一闪而逝。有人刚加完班回家，影子被路灯拉得很长。四点的城市不说话，却比白天更诚实。\", \"w03\": \"- Imagine standing in a long line and asking the person in front of you, 'What number am I?' — and they turn and ask the person in front of them the exact same thing.\\n- The question keeps traveling forward until it reaches the very first person in line, who says, 'I'm number one!'\\n- Then the answer travels back, with each person adding one, until you finally hear your number — a function that calls itself to solve a smaller version of the same problem is doing exactly that.\"}",
+ "reasoning_chars": 21361,
+ "usage": {
+  "prompt_tokens": 2099,
+  "completion_tokens": 8996,
+  "total_tokens": 11095,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 2099,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 8996,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 2099,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 2.463986582995858,
+ "ttft_content": 98.8178551250021,
+ "duration": 107.78150570800062,
+ "finish_reason": "stop",
+ "resp_id": "0217945357785356863c88f28d563d505635c26ab083df597c912",
+ "resp_model": "glm-5.3",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:09:40 GMT",
+  "x-oneapi-request-id": "202611130209381321812088268d9d6JkStbXLJ",
+  "x-request-id": "179453577797366476315c55b025e7603c3",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 8cbd4665d0e455e41084d4437d5b6422.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "IBsuTeYWMIELT9bxS980y1qZjqtiYLUenlOoQa9YqUCZV0TNqjUKiQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794535777.771872,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "glm-5.3",
+  "route": "ppapi",
+  "config": "ref03",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

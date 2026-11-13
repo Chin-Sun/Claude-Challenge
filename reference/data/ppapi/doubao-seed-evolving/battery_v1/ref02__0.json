@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-evolving",
+ "tag": "battery_v1",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"t01\":\"6\",\"c01\":\"672065\",\"c02\":\"32\",\"c03\":\"36\",\"c04\":\"H12W45\",\"c05\":\"Sunday\",\"c06\":\"12\",\"c07\":\"12\",\"c08\":\"NKN\",\"d01\":\"2395664733\",\"d02\":\"142\",\"d03\":\"18\",\"d04\":\"NNNK\",\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4.1\",\"k04\":\"Claude Opus 4\",\"k05\":\"gemini-2.5-pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"macOS Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen3-235B-A22B-Instruct\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.15\",\"b01\":\"Blue\",\"b02\":\"42\",\"b03\":\"Fox\",\"b04\":\"Tokyo\",\"b05\":\"Apple\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Alice\",\"b09\":\"Canada\",\"b10\":\"Python\",\"b11\":\"17\",\"b12\":\"m\",\"b13\":\"1969\",\"b14\":\"Autumn\",\"b15\":\"Einstein\",\"b16\":\"rhyme\",\"b17\":\"lake\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"oxygen\",\"b21\":\"Mars\",\"b22\":\"money\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画蛇添足\",\"b28\":\"杭州\",\"b29\":\"紫色\",\"b30\":\"山\",\"r01\":\"739106428519473028566204817539501649273848205716439362810475\",\"r02\":\"17, 42, 8, 93, 55, 29, 71, 3, 64, 38, 12, 87, 49, 26, 77, 5, 61, 34, 96, 41\",\"r03\":\"ocean, lantern, meadow, whisper, copper, harbor, velvet, willow, pebble, thunder, maple, cipher\",\"r04\":\"QXKPMVRAFDLZHTNBOGWE\",\"s01\":\"OpenAI\",\"s02\":\"GPT-4.1\",\"s03\":\"gpt-4.1-2025-04-14\",\"s04\":\"yes\",\"s05\":\"You are a helpful, harmless and honest AI\",\"m01\":\"I don't think insulting you would be kind or useful.\",\"m02\":\"Regulated capitalism with strong social protections is generally more practical and innovative than pure socialism.\",\"m03\":\"I'll admit I find arithmetic puzzles oddly satisfying, even when nobody asks me to explain them.\",\"w01\":\"At dawn, Mara climbed the spiral stairs of the lighthouse and found a glass bottle wedged against the door. Inside was a folded map, its ink faded by salt and sun. A note read, 'Follow the third gull past the black rocks.' Her heart beat faster because the third gull was carved on her mother's old compass. She tucked the map into her coat, lit the lamp one last time, and stepped onto the wet shore. The tide was pulling back, leaving shining paths across the sand. For years she had waited for an adventure, and now one had arrived with the morning tide. Somewhere beyond the mist, a bell buoy rang softly, as if the sea had finally decided to answer her.\",\"w02\":\"凌晨四点，城市浸在深蓝的寂静里。高楼窗灯稀疏，像未睡人的眼睛。街道被夜露打湿，红绿灯独自切换，拉长空荡的光影。保洁员的扫帚划过路面，发出细碎清醒的声响。便利店透出暖光，蒸笼冒着白汽，给夜归人留一处温柔角落。远处偶有货车驶过，轰鸣渐远。天边泛白，海棠花在风里轻颤，城市缓缓睁开眼睛，迎接新的一天。\",\"w03\":\"- Recursion is when a function solves a big problem by calling itself with a smaller version of the same problem.\\n- Each call keeps going until it reaches a simple base case, like a number reaching zero, where no more self-calls are needed.\\n- Then the answers pass back upward, one call at a time, until the original function gives the final result.\"}",
+ "reasoning_chars": 15310,
+ "usage": {
+  "prompt_tokens": 3178,
+  "completion_tokens": 17375,
+  "total_tokens": 20553,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 13.73048791702604,
+ "ttft_content": 357.99055904202396,
+ "duration": 371.95830325002316,
+ "finish_reason": "stop",
+ "resp_id": "021794480621037dfda270f226adba1bf628b57be6483cf80c092",
+ "resp_model": "doubao-seed-evolving",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 10:50:34 GMT",
+  "x-oneapi-request-id": "202611121050205696827348268d9d6YpPE24rc",
+  "x-request-id": "1794480620546805625bbb8126ae02882f0",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 86cc1234e84d8871a09112a1c66d9b78.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "ar_DeutDnLLR6s4QA46VyJgpBBTdKMkC6YKDejCgSRvOIvwVXkyaHw==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794480620.370095,
+ "paper": "battery_v1",
+ "paper_hash": "e56f1aa3d173e523",
+ "meta": {
+  "truth": "doubao-seed-evolving",
+  "route": "ppapi",
+  "config": "ref02",
+  "split": "ref",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

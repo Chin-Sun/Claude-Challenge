@@ -1,0 +1,15 @@
+data: {"id": "chatcmpl-mock000002", "object": "chat.completion.chunk", "model": "model-b", "choices": [{"index": 0, "delta": {"content": "The selected model cannot continue this conversa"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-mock000002", "object": "chat.completion.chunk", "model": "model-b", "choices": [{"index": 0, "delta": {"content": "tion. Please select a different model, or start "}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-mock000002", "object": "chat.completion.chunk", "model": "model-b", "choices": [{"index": 0, "delta": {"content": "a new conversation, or rewind the current conver"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-mock000002", "object": "chat.completion.chunk", "model": "model-b", "choices": [{"index": 0, "delta": {"content": "sation to an earlier point and try a different a"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-mock000002", "object": "chat.completion.chunk", "model": "model-b", "choices": [{"index": 0, "delta": {"content": "pproach."}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-mock000002", "object": "chat.completion.chunk", "model": "model-b", "choices": [{"index": 0, "delta": {}, "finish_reason": "content_filter"}]}
+
+data: {"id": "chatcmpl-mock000002", "object": "chat.completion.chunk", "model": "model-b", "choices": [], "usage": {"prompt_tokens": 3083, "completion_tokens": 49, "total_tokens": 3132, "usage_semantic": "openai", "usage_source": "anthropic", "billing_usage": {"source": "claude_messages", "semantic": "anthropic", "claude_usage": {"input_tokens": 3083, "cache_creation_input_tokens": 0, "cache_read_input_tokens": 0, "output_tokens": 49, "claude_cache_creation_5_m_tokens": 0, "claude_cache_creation_1_h_tokens": 0}}, "prompt_tokens_details": {"cached_tokens": 0, "text_tokens": 0, "audio_tokens": 0, "image_tokens": 0}, "completion_tokens_details": {"text_tokens": 0, "audio_tokens": 0, "image_tokens": 0, "reasoning_tokens": 0}, "input_tokens": 3083, "output_tokens": 0, "input_tokens_details": null, "claude_cache_creation_5_m_tokens": 0, "claude_cache_creation_1_h_tokens": 0}}
+
+data: [DONE]

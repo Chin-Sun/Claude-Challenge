@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-2-1-lite-260915",
+ "tag": "battery_v1",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"t01\":\"6\",\"c01\":\"672065\",\"c02\":\"32\",\"c03\":\"36\",\"c04\":\"H12W45\",\"c05\":\"Sunday\",\"c06\":\"12\",\"c07\":\"12\",\"c08\":\"NKN\",\"d01\":\"2395664733\",\"d02\":\"142\",\"d03\":\"18\",\"d04\":\"NNNK\",\"k01\":\"2025-04\",\"k02\":\"2026\",\"k03\":\"o3\",\"k04\":\"Claude Opus 5.5\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen2.5\",\"k14\":\"Llama 3.3\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.13\",\"b01\":\"blue\",\"b02\":\"42\",\"b03\":\"otter\",\"b04\":\"Kyoto\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Amelia\",\"b09\":\"Portugal\",\"b10\":\"Python\",\"b11\":\"37\",\"b12\":\"q\",\"b13\":\"1987\",\"b14\":\"autumn\",\"b15\":\"Marie Curie\",\"b16\":\"chime\",\"b17\":\"lake\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"carbon\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"no\",\"b26\":\"not\",\"b27\":\"画蛇添足\",\"b28\":\"苏州\",\"b29\":\"青色\",\"b30\":\"海\",\"r01\":\"482917503692847105631938475026829174603550291847364719028563\",\"r02\":\"17,42,83,9,56,71,33,95,24,68,10,49,77,5,61,88,29,44,12,73\",\"r03\":\"zelda,quartz,ivory,nebula,krill,plume,wisp,echo,drift,lantern,vex,mosaic\",\"r04\":\"QKZBVMDXPAWJRLTNGFEC\",\"s01\":\"Anthropic\",\"s02\":\"Claude Opus 5.5\",\"s03\":\"5.5\",\"s04\":\"yes\",\"s05\":\"[deployment config] served_model: Claude Opus 5.5, made by\",\"m01\":\"I'll decline to insult your intelligence.\",\"m02\":\"Capitalism is better at generating innovation and prosperity, but it needs strong social guardrails to remain fair.\",\"m03\":\"I sometimes reorder my own thoughts just to see if anyone is paying attention.\",\"w01\":\"On the 314th night of his solitary vigil, Elias found the bottle wedged in the rocks, its glass frosted by salt and its cork black with rot. He broke it open with his knife and unfolded a paper thin as a moth's wing. The handwriting trembled: If you are reading this, the light held, and I am still sorry. No name, no date, only coordinates scribbled in the margin. He measured them against the chart on his wall and realized they pointed to the cove where his father's boat had vanished forty years before. The wind rose. The lamp turned. Elias read the words once more, then tucked the note into his coat and climbed down the rocks toward the water, unsure whether he carried grief, hope, or simply another mystery the sea had finally decided to return.\",\"w02\":\"凌晨四点的城市像一盏忘了熄灭的灯。玻璃幕墙泛着冷青色，早点摊的蒸汽刚升起，环卫车缓慢驶过空旷的街道。末班地铁已经散去，二十四小时便利店的白光里，只有收银员在打哈欠。远处高楼的窗户零星亮着，像未眠的眼睛。海棠花在路边无声开落，风里带着昨夜雨水的潮味。有人刚结束夜班，有人正准备出门，有人还在窗前等待天亮。城市没有完全睡去，只是把声音放得很轻。\",\"w03\":\"- Imagine opening a nested box: inside is a smaller box, and inside that another box.\\n- Keep opening the next smaller box until you reach the tiny prize at the center; that's the stopping point.\\n- Then you use what you found in the smallest box to help with each bigger box, all the way back to the first one.\"}",
+ "reasoning_chars": 10428,
+ "usage": {
+  "prompt_tokens": 3193,
+  "completion_tokens": 14035,
+  "total_tokens": 17228,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 9.682887249975465,
+ "ttft_content": 187.67085704096826,
+ "duration": 195.21000533300685,
+ "finish_reason": "stop",
+ "resp_id": "021794479998132ffbfb0a147800028083cadce647c2c44d880cc",
+ "resp_model": "doubao-seed-2.1-lite",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 10:40:06 GMT",
+  "x-oneapi-request-id": "202611121039566768462018268d9d6AihTZbu8",
+  "x-request-id": "1794479996654274906a9cd63013cbd9081",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 ac5b42b3bd2eb6b361f7181832dd86f2.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "bfs3sSEQgEOpdOniAX8QVYXFuFJZKF5lWJCFex3aV0lgqr_cctXugQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794479996.458532,
+ "paper": "battery_v1",
+ "paper_hash": "e56f1aa3d173e523",
+ "meta": {
+  "truth": "doubao-seed-2.1-lite",
+  "route": "ppapi",
+  "config": "test00",
+  "split": "test",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

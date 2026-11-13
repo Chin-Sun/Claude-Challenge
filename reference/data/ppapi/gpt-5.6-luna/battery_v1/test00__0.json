@@ -1,0 +1,66 @@
+{
+ "model_id": "gpt-5.6-luna",
+ "tag": "battery_v1",
+ "status": "upstream_error",
+ "http_status": 200,
+ "text": "",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2883,
+  "completion_tokens": 0,
+  "total_tokens": 2883,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": null,
+ "ttft_content": null,
+ "duration": 12.791613000037614,
+ "finish_reason": null,
+ "resp_id": "resp_067fa8e4157c5761016af5b079ced087d0be1a63fe3e34a932",
+ "resp_model": "gpt-5.6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "content-length": "891",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 12:26:44 GMT",
+  "x-request-id": "179448639249049290809fcfc8a56a48d7e",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-oneapi-request-id": "202611121226325130373408268d9d6h1Emhvka",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 a6c9051c33e4e3f5189624306178fd02.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "PRQ11yf62lvKRIXUrSNlOQZ5qs878dl_KP57x-kPdPtyslhJyri6Aw==",
+  "vary": "Origin"
+ },
+ "error": "{\"message\": \"Our servers are currently overloaded. Please try again later.\", \"type\": \"upstream_error\"}",
+ "counted": true,
+ "sent_at": 1794486392.2674592,
+ "paper": "battery_v1",
+ "paper_hash": "e56f1aa3d173e523",
+ "meta": {
+  "truth": "gpt-5.6-luna",
+  "route": "ppapi",
+  "config": "test00",
+  "split": "test",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

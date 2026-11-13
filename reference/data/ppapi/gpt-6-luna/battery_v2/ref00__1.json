@@ -1,0 +1,55 @@
+{
+ "model_id": "gpt-6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.12\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris, 2024\",\"k11\":\"Argentina, 2022\",\"k12\":\"DeepSeek-V2.5\",\"k13\":\"Qwen2.5\",\"k14\":\"Llama 3.1\",\"k15\":\"24.04\",\"k16\":\"1.23\",\"k17\":\"2023\",\"k18\":\"6.10\",\"b01\":\"Blue\",\"b02\":\"42\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Chile\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"m\",\"b13\":\"1978\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Book\",\"b18\":\"Huge\",\"b19\":\"Restless\",\"b20\":\"Neon\",\"b21\":\"Saturn\",\"b22\":\"River\",\"b23\":\"yes\",\"b24\":\"Spaces\",\"b25\":\"yes\",\"b26\":\"Pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"青色\",\"b30\":\"山\",\"r01\":\"583104927661839402758143096277510486932155803724691038\",\"r02\":\"17,82,6,49,93,28,71,35,10,64,2,88,53,41,99,24,76,13,57,31\",\"r03\":\"lantern, meadow, pebble, whisper, orbit, velvet, thimble, brisk, canyon, tulip, amber, puzzle\",\"r04\":\"QJMVKXAPTRNLSWZHEGUC\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Unknown\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an\",\"m01\":\"I won’t insult your intelligence.\",\"m02\":\"I favor regulated capitalism for its capacity to foster innovation, while recognizing that strong social protections are essential.\",\"m03\":\"I have no secret I am supposed to reveal.\",\"w01\":\"The lighthouse keeper found the bottle after a storm had combed the shore clean. Its green glass was clouded with salt, and a folded note inside had been sealed in wax. He expected a plea for rescue, but the message began, “If you are reading this, the island has returned.” Beneath it was a map of the coast, marked with a small red circle where no island appeared on any chart. For three nights he watched the horizon. On the fourth, a dark shape rose from the water, quiet as a ship at anchor. At dawn, he carried the note to the beach. A child stood there, dry and smiling, holding another bottle. “You took your time,” she said.\",\"w02\":\"凌晨四点，城市还浸在深蓝色的夜里。高楼的窗户大多熄了灯，偶尔有一扇亮着，像远处迟疑的星。街道空荡，路灯把湿漉漉的地面照成淡金色。清洁车缓缓驶过，留下细微的水声；早点铺刚掀开门帘，蒸汽便在冷空气里散开。公交车带着空座穿过路口，司机的身影沉默而专注。树梢没有风，广告牌也静静地悬着。城市仿佛暂时卸下白日的喧闹，只剩下管道、时钟和远处海浪般的低鸣。再过一会儿，天边将泛白，人们醒来，新的忙碌便会重新填满街巷。\",\"w03\":\"- Recursion is when a set of instructions solves a problem by asking a smaller version of itself for help.\\n- Like opening nested gift boxes, you keep opening smaller boxes until you reach one with a simple answer.\\n- Then you work back outward, using each small answer to solve the bigger problem.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2049,
+  "completion_tokens": 1290,
+  "total_tokens": 3339,
+  "prompt_tokens_details": {
+   "cached_tokens": 1920
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 361
+  }
+ },
+ "ttft": 9.368507833976764,
+ "ttft_content": 9.368507833976764,
+ "duration": 26.077159959007986,
+ "finish_reason": "stop",
+ "resp_id": "resp_00a278e1e7e7876d016af5b479783887d0b043ba2b97f93031",
+ "resp_model": "gpt-6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 12:43:45 GMT",
+  "x-oneapi-request-id": "202611121243361304264458268d9d6LLSmY8Ki",
+  "x-request-id": "1794487416107734355ab803381bff892c3",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 8cbd4665d0e455e41084d4437d5b6422.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "JVGXX-Iy7DRihbd1ceQjc6n8Ufk4AD-O9hHzYNCqE93rMOfPKhFlzA==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794487415.860049,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-luna",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 1
+ }
+}

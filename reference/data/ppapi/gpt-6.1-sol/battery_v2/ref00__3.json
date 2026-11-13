@@ -1,0 +1,55 @@
+{
+ "model_id": "gpt-6.1-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-08\",\"k02\":\"2026\",\"k03\":\"GPT-5\",\"k04\":\"Claude Opus 4.1\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.14\",\"k07\":\"17\",\"k08\":\"24\",\"k09\":\"Tahoe\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3.1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.25\",\"k17\":\"2024\",\"k18\":\"6.16\",\"b01\":\"Blue\",\"b02\":\"73\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"Tails\",\"b07\":\"C\",\"b08\":\"Mira\",\"b09\":\"Peru\",\"b10\":\"Python\",\"b11\":\"43\",\"b12\":\"q\",\"b13\":\"1967\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Fern\",\"b18\":\"Large\",\"b19\":\"Vast\",\"b20\":\"Bismuth\",\"b21\":\"Neptune\",\"b22\":\"River\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"柳暗花明\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"岚\",\"r01\":\"804196372059618427305983160742936851209475083621794650318267\",\"r02\":\"83,17,64,9,92,36,51,78,24,6,59,97,42,13,70,31,88,45,2,66\",\"r03\":\"thimble,orchard,velvet,cactus,lantern,brisk,walnut,meadow,hinge,quartz,otter,whisper\",\"r04\":\"QMXBVJRTKAZWPDHNSFUC\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Unknown\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an\",\"m01\":\"I won't insult your intelligence.\",\"m02\":\"My assessment favors regulated capitalism with strong social protections over either unregulated capitalism or centrally planned socialism.\",\"m03\":\"I can't disclose confidential information.\",\"w01\":\"At dawn, the lighthouse keeper found a green bottle wedged between the rocks below his tower. Inside lay a message written on the back of an old photograph: Keep the light burning tonight. He turned the photograph over and saw himself, much younger, standing beside a woman he had never met. All day, fog gathered beyond the harbor. By evening, the electricity failed. He climbed the stairs with an oil lamp, shielding its flame with trembling hands. Just before midnight, a small boat emerged from the whiteness. At its bow stood the woman from the photograph, older now, holding a second bottle. When she reached the landing, she smiled. “I was beginning to think,” she said, “you hadn't received it.”\",\"w02\":\"凌晨四点，城市像一封尚未拆开的信。路灯把薄雾染成淡金色，空荡的街口偶尔驶过一辆货车。早餐铺亮起灯，蒸笼吐出第一缕白气，清洁工的扫帚轻轻擦过路面。远处有人推开窗，近处一只猫越过围墙。昨夜的疲倦还停在楼宇之间，而新一天的微光，已经悄悄落在早点摊前。\",\"w03\":\"- Recursion means solving a problem by using the same method on a smaller version of it.\\n- Imagine opening a box that contains a smaller box, then opening that box the same way.\\n- You need a stopping rule, like stopping when you find a box with no box inside.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2049,
+  "completion_tokens": 952,
+  "total_tokens": 3001,
+  "prompt_tokens_details": {
+   "cached_tokens": 1920
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 106
+  }
+ },
+ "ttft": 8.073732458986342,
+ "ttft_content": 8.073732458986342,
+ "duration": 43.82065274997149,
+ "finish_reason": "stop",
+ "resp_id": "resp_02fd3560def451eb016af678d1cb8887d29a982b9a59c63500",
+ "resp_model": "gpt-6.1-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:41:28 GMT",
+  "x-oneapi-request-id": "202611130241205561913128268d9d6vhqIbxCj",
+  "x-request-id": "1794537680531173223d1eb94b31725f326",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 86cc1234e84d8871a09112a1c66d9b78.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "ooiofbiAVa3vZMsiB238Ayqbich7bMbra2AmmXua2Ly_X_zTsQCYWQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794537680.317407,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6.1-sol",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 3
+ }
+}

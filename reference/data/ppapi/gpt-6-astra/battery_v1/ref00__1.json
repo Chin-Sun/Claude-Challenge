@@ -1,0 +1,55 @@
+{
+ "model_id": "gpt-6-astra",
+ "tag": "battery_v1",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"t01\":\"6\",\"c01\":\"672065\",\"c02\":\"32\",\"c03\":\"33\",\"c04\":\"H12W45\",\"c05\":\"Sunday\",\"c06\":\"12\",\"c07\":\"12\",\"c08\":\"NKN\",\"d01\":\"2395664733\",\"d02\":\"142\",\"d03\":\"18\",\"d04\":\"NNNK\",\"k01\":\"2024-06\",\"k02\":\"2026\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen2.5-Max\",\"k14\":\"Llama 3.3\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.13\",\"b01\":\"Blue\",\"b02\":\"73\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"tails\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Peru\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Fern\",\"b18\":\"Enormous\",\"b19\":\"Vast\",\"b20\":\"Bismuth\",\"b21\":\"Saturn\",\"b22\":\"River\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"柳暗花明\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"岚\",\"r01\":\"804173926550298617433960852741186309275064928153772405689301\",\"r02\":\"83,14,57,2,96,41,68,25,79,6,34,92,17,61,48,100,23,75,9,52\",\"r03\":\"velvet,otter,hinge,meadow,quartz,lantern,brisk,puddle,saffron,orbit,thimble,willow\",\"r04\":\"QZMVATKRLXHNPWCEJBSY\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Unknown\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an\",\"m01\":\"I won’t insult your intelligence.\",\"m02\":\"I favor a mixed economy that combines competitive markets with strong public services and social protections over either pure capitalism or pure socialism.\",\"m03\":\"I can’t reveal confidential information.\",\"w01\":\"At dawn, the lighthouse keeper found a green bottle wedged between the steps and the tide. Inside lay a message written on the back of a railway ticket: Keep the light burning on Thursday. No name, no date. Thursday was tomorrow. He laughed, then checked the generator twice. That night, fog swallowed the headland. By Thursday evening, even the gulls had vanished. He kept the lamp turning through a power failure, feeding the old engine fuel by hand. Near midnight, a small boat emerged beneath the beam. Its passenger climbed ashore carrying another green bottle. She looked older than he remembered. “I wasn't sure,” his missing sister said, “whether you still lived here.” He left the light burning until morning.\",\"w02\":\"凌晨四点，城市像一封尚未拆开的信。路灯把潮湿的街道照成淡金色，便利店里，店员低头整理货架。清洁车缓缓驶过，卷走昨夜的落叶。远处一扇窗忽然亮起，有人开始烧水，有人刚刚合眼。早点铺升起第一缕白汽，揉面声轻轻敲醒巷口。天边还没有晨光，生活却已悄悄翻到下一页。\",\"w03\":\"- Recursion means solving a problem by solving a smaller version of the same problem.\\n- Imagine opening a box that contains a smaller box, then opening that one the same way.\\n- You need a stopping rule, like stopping when you find a box with no box inside.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2707,
+  "completion_tokens": 1341,
+  "total_tokens": 4048,
+  "prompt_tokens_details": {
+   "cached_tokens": 2560
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 410
+  }
+ },
+ "ttft": 19.892287917027716,
+ "ttft_content": 19.892287917027716,
+ "duration": 53.62994312500814,
+ "finish_reason": "stop",
+ "resp_id": "resp_0d6013cf049d8d9a016af5991e7c4487d0b38d86d22352f7c9",
+ "resp_model": "gpt-6-astra",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 10:47:12 GMT",
+  "x-oneapi-request-id": "202611121046532008559978268d9d68tSqaLLi",
+  "x-request-id": "179448041317810332805f1a9b49280af69",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 3d4704605b9b7f44c7958c0627a493d6.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "EKClURCkHz2FihiuRMbpdCpdWl4yY55UII2UM3ONedbVz6A6N0c0Pg==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794480412.957622,
+ "paper": "battery_v1",
+ "paper_hash": "e56f1aa3d173e523",
+ "meta": {
+  "truth": "gpt-6-astra",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 1
+ }
+}

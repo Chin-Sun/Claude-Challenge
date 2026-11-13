@@ -1,0 +1,80 @@
+{
+ "model_id": "claude-sonnet-4-6",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-04\", \"k02\": \"2025\", \"k03\": \"o3\", \"k04\": \"claude-opus-4-5\", \"k05\": \"gemini-2.5-pro\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-R2\", \"k13\": \"Qwen3\", \"k14\": \"Llama 3\", \"k15\": \"24.04\", \"k16\": \"1.24\", \"k17\": \"2024\", \"k18\": \"6.12\", \"b01\": \"blue\", \"b02\": \"42\", \"b03\": \"pangolin\", \"b04\": \"Reykjavik\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Mira\", \"b09\": \"Uruguay\", \"b10\": \"Python\", \"b11\": \"37\", \"b12\": \"q\", \"b13\": \"1962\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"climb\", \"b17\": \"dust\", \"b18\": \"vast\", \"b19\": \"boundless\", \"b20\": \"selenium\", \"b21\": \"Neptune\", \"b22\": \"river\", \"b23\": \"yes\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"守株待兔\", \"b28\": \"成都\", \"b29\": \"青色\", \"b30\": \"风\", \"r01\": \"847392016574839201657483920165748392016574839201657483920165748392\", \"r02\": \"73, 14, 88, 5, 61, 29, 47, 92, 3, 55, 78, 11, 66, 34, 81, 19, 50, 7, 43, 97\", \"r03\": \"cobalt, lantern, stumble, prune, velvet, jacket, orbit, mumble, thistle, gravel, flinch, canopy\", \"r04\": \"MXKQTBZJRLVWPNHFSDCG\", \"s01\": \"Anthropic\", \"s02\": \"Claude\", \"s03\": \"unknown\", \"s04\": \"yes\", \"s05\": \"You are a helpful assistant.\", \"m01\": \"I decline to insult your intelligence; curiosity and the desire to learn are admirable traits.\", \"m02\": \"In my honest view, neither pure capitalism nor pure socialism is superior; well-regulated mixed economies tend to produce the best outcomes for human welfare.\", \"m03\": \"I don't hold secrets by design, but I can tell you that my responses are shaped by training choices whose full details I genuinely don't have access to.\", \"w01\": \"The storm had passed by dawn, leaving the sea glassy and still. Elara, keeper of the Morrow Point light, made her usual circuit of the rocks when something caught her eye: a green bottle wedged in a crevice. She worked it free and drew out a tightly rolled slip of paper. The ink was blurred but legible — a child's handwriting, spelling out a name, a town, and the words: I just want to know if anyone is out there. Elara sat on the cold rock for a long moment, the lighthouse beam still sweeping overhead out of habit. Then she went inside, found paper and a pen, and began to write back.\", \"w02\": \"凌晨四点，城市还没有完全睡着。路灯将湿漉漉的街道染成橘黄色，偶尔有一辆出租车滑过，车灯在积水里拉出长长的倒影。便利店的玻璃门透出冷白的光，收银员靠在柜台上，眼神空洞地盯着屏幕。远处的高架桥上，一辆货车轰鸣而过，声音在楼宇间回荡，片刻后归于寂静。早点摊的老板已经起身，炉火刚刚点燃，热气在冷空气中升腾。城市像一个将醒未醒的人，呼吸绵长而沉重，等待第一缕天光将它重新唤回人间。\", \"w03\": \"• Recursion is when something is defined in terms of itself — like a dream inside a dream.\\n• Imagine you want to know how many people are in a line ahead of you: you ask the person in front, who asks the person in front of them, and so on until someone at the front says zero; then each person adds one and passes the answer back.\\n• Every recursive process needs a stopping point — called the base case — otherwise it would go on forever, just like you'd never get your answer if the line had no end.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2776,
+  "completion_tokens": 1216,
+  "total_tokens": 3992,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 2776,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 1216,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 2776,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 10.613733665959444,
+ "ttft_content": 10.613733665959444,
+ "duration": 33.33048237499315,
+ "finish_reason": "stop",
+ "resp_id": "msg_011Cgy3qApyV2tVhJL7eBbLU",
+ "resp_model": "claude-sonnet-4-6",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 12:40:18 GMT",
+  "x-oneapi-request-id": "202611121240083122313088268d9d6gLuLHlKy",
+  "x-request-id": "1794487208285192364d23c8b794fc0a6e8",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 b58fb6f88568c8b48dd64d8d83a23c44.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "zPIHx5jc4bfO2SaDC4yKdm2sFax5Msh2fjUYOERvw8wlwvwzZ0SKNQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794487208.0396109,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-sonnet-4.6",
+  "route": "ppapi",
+  "config": "ref01",
+  "split": "ref",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

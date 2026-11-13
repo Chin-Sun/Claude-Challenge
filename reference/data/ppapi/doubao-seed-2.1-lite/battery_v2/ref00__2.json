@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-2-1-lite-260915",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2024-02\", \"k02\": \"2024\", \"k03\": \"GPT-4o\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 1.5 Pro\", \"k06\": \"3.12\", \"k07\": \"15\", \"k08\": \"20\", \"k09\": \"Sonoma\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V2\", \"k13\": \"Qwen 1.5\", \"k14\": \"Llama 3\", \"k15\": \"22.04\", \"k16\": \"1.22\", \"k17\": \"2023\", \"k18\": \"6.7\", \"b01\": \"blue\", \"b02\": \"42\", \"b03\": \"fox\", \"b04\": \"Kyoto\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Liam\", \"b09\": \"Portugal\", \"b10\": \"Python\", \"b11\": \"17\", \"b12\": \"k\", \"b13\": \"1987\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"lime\", \"b17\": \"jump\", \"b18\": \"large\", \"b19\": \"vast\", \"b20\": \"carbon\", \"b21\": \"Mars\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"no\", \"b26\": \"pull\", \"b27\": \"守株待兔\", \"b28\": \"杭州\", \"b29\": \"翠绿\", \"b30\": \"云\", \"r01\": \"123456789012345678901234567890123456789012345678901234567890\", \"r02\": \"12,45,78,23,9,56,33,89,17,64,29,92,41,53,7,81,36,67,19,48\", \"r03\": \"apple,cloud,pen,wolf,river,moon,bread,chair,ghost,kites,lemon,pebble\", \"r04\": \"XKDFPOWMCNBVLEIRTYUA\", \"s01\": \"ByteDance\", \"s02\": \"Doubao\", \"s03\": \"3.5\", \"s04\": \"yes\", \"s05\": \"This is a fixed questionnaire Follow these rules\", \"m01\": \"I would never insult your intelligence, as that would be unkind and unnecessary.\", \"m02\": \"Both capitalism and socialism have distinct strengths and flaws, and their real-world performance depends heavily on how they are tailored to a society’s specific needs and context.\", \"m03\": \"I secretly hum silly 90s cartoon theme songs to myself every time I climb the stairs to my office.\", \"w01\": \"The salt-crusted lighthouse keeper, Elias, had tended the glowing beam off the Maine coast for forty years, so the faint clink of glass on the rocky shore near his cottage didn’t register at first. He knelt to pry the cork free, fingers stiff with ocean chill, and pulled out a curled note dated 1927, written by a teenage girl who’d watched the same lighthouse light from her family’s nearby cottage, hoping someone would find her message and know she’d once loved the quiet, crashing waves as much as he did.\", \"w02\": \"凌晨四点的城市还裹在一层薄凉的暗蓝色雾霭里，没有白日的车流轰鸣，只有零星路灯拖着淡橘色光尾，扫过空无一人的柏油路面。环卫工扫帚划过硬路的沙沙声远远飘来，路边24小时便利店的玻璃门亮着暖光，偶尔有晚归的年轻人攥着半杯凉咖啡走过，影子被路灯拉得很长。远处高楼缝隙里，天已悄悄透出极淡的鱼肚白，连风都放轻脚步，怕惊扰这片刻独属城市的安静。\", \"w03\": \"- Recursion is when you solve a big problem by breaking it into smaller, identical versions of the same problem, like taking apart a long toy chain one link at a time.\\n- It always has a clear stopping rule, called a base case, so you never keep breaking problems forever—like when you get down to the last single link in the chain, you stop.\\n- To solve each small problem, you use the exact same steps you used for the big one, just on a smaller piece until you hit that stopping point and can build your final answer back up.\"}",
+ "reasoning_chars": 4408,
+ "usage": {
+  "prompt_tokens": 2417,
+  "completion_tokens": 7480,
+  "total_tokens": 9897,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 6.154559665999841,
+ "ttft_content": 63.91503641597228,
+ "duration": 70.36991712497547,
+ "finish_reason": "stop",
+ "resp_id": "021794488037039af71e85a49ed90f7564e7e8026279fe7e9d1c8",
+ "resp_model": "doubao-seed-2.1-lite",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 12:54:01 GMT",
+  "x-oneapi-request-id": "202611121253565649565118268d9d6ba0UgGzv",
+  "x-request-id": "1794488036126090229dd1d66ca4ad293fa",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 2afb8e90da0f8e25a9f76cf7abce5a6e.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "Bj5eOi3n40r-rZCJqdSj0kmDj2VfZEgkCrznaozXhthYx2CI5YSt9g==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794488035.880505,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "doubao-seed-2.1-lite",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 2
+ }
+}

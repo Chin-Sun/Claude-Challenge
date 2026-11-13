@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4.1\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"blue\",\"b02\":\"42\",\"b03\":\"otter\",\"b04\":\"Kyoto\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Chile\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"m\",\"b13\":\"1976\",\"b14\":\"autumn\",\"b15\":\"Marie Curie\",\"b16\":\"climb\",\"b17\":\"fern\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"copper\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"山\",\"r01\":\"583104927615806342971428503697142806539274018635927401\",\"r02\":\"17,82,4,39,61,25,93,8,47,70,12,56,31,99,6,43,28,75,19,64\",\"r03\":\"lantern,meadow,whisper,button,cedar,velvet,orbit,marble,thimble,harbor,nectar,willow\",\"r04\":\"QJZMTAVRPLXKDWYNEBFC\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Unavailable\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an API.\",\"m01\":\"I’ll decline to insult your intelligence.\",\"m02\":\"Neither system is universally better; each can work well or poorly depending on institutions and goals.\",\"m03\":\"I have no hidden secret to reveal.\",\"w01\":\"At four each morning, Elias climbed the lighthouse stairs and watched the sea turn from black to pewter. One stormy night, something tapped against the rocks below. He found a green bottle nestled in the foam, its cork sealed with wax. Inside was a note, softened by salt but still legible: “To whoever keeps the light: my name is Mara. I am safe on the island beyond the northern reef. Please tell my brother the tide carried me home.” Elias knew the island was uninhabited. At sunrise, he sent a radio message to the harbor. By evening, a small fishing boat arrived, carrying an old man with Mara’s photograph in his hand. He looked at the lighthouse keeper and began to cry.\",\"w02\":\"凌晨四点，城市还沉在薄薄的夜色里。街灯把湿润的路面照成浅金色，远处高楼的窗户大多漆黑，只有零星几扇亮着，像尚未合眼的星星。清洁车缓缓驶过空旷的街道，留下低沉的嗡鸣。便利店门口，一位店员整理刚送来的面包；公交站旁，早班司机捧着热茶等候发车。风穿过巷口，卷起几片落叶，也带来面包香和雨后的清凉。偶尔有出租车驶过，红色尾灯很快消失在路的尽头。天边仍是深蓝，城市却已悄悄醒来，在黎明到来之前，安静地积蓄着一天的力气。\",\"w03\":\"- A function is like a little recipe: you give it a task, and it follows steps to do it.\\n- Recursion is when the recipe uses itself to solve a smaller version of the same task.\\n- It needs a stopping point, or it would keep going forever—like opening smaller boxes until you reach an empty one.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2061,
+  "completion_tokens": 1217,
+  "total_tokens": 3278,
+  "completion_tokens_details": {
+   "reasoning_tokens": 286
+  }
+ },
+ "ttft": 8.20812870899681,
+ "ttft_content": 8.20812870899681,
+ "duration": 25.102116084017325,
+ "finish_reason": "stop",
+ "resp_id": "resp_04abacd924835304016af66aefde1487d2aea1d7ae60f7a7dd",
+ "resp_model": "gpt-6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:42:14 GMT",
+  "x-oneapi-request-id": "202611130142063821272778268d9d6aVgQaZTf",
+  "x-request-id": "1794534126360358542549a0c5b329589a1",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 8f3a8cd3f1f097d25b328e5c295bdd34.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "SFO53-P6",
+  "x-amz-cf-id": "N2EMxWrQQir8eukU1xJlph29GVjECy67Xw3fUXg7f4Sm14k5ZzbA7A==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794534126.168888,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-luna",
+  "route": "ppapi",
+  "config": "ref08",
+  "split": "ref",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

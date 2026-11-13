@@ -1,0 +1,80 @@
+{
+ "model_id": "claude-opus-5",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 3489,
+  "completion_tokens": 0,
+  "total_tokens": 3489,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 3489,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 0,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 3489,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": null,
+ "ttft_content": null,
+ "duration": 4.832986959023401,
+ "finish_reason": "content_filter",
+ "resp_id": "msg_011Cgy3MVVrQHARnoZPnaWnT",
+ "resp_model": "claude-opus-5",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "content-length": "1405",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 12:34:04 GMT",
+  "x-request-id": "17944868395677079060c5967b1cbe65bb2",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-oneapi-request-id": "202611121233597259981278268d9d6tF521EJ8",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 3d4704605b9b7f44c7958c0627a493d6.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "ApM1yZvvnQCXn4DE8o07NhN2RV9mQh0fdS9fIxj-c4Ssax__HXD--g==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794486839.323292,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-opus-5",
+  "route": "ppapi",
+  "config": "dev00",
+  "split": "dev",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

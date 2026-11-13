@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6-astra",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-08\",\"k02\":\"2026\",\"k03\":\"GPT-5\",\"k04\":\"Claude Opus 4.1\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.14\",\"k07\":\"17\",\"k08\":\"24\",\"k09\":\"Tahoe\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3.1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.25\",\"k17\":\"2024\",\"k18\":\"6.16\",\"b01\":\"Blue\",\"b02\":\"73\",\"b03\":\"Otter\",\"b04\":\"Tallinn\",\"b05\":\"Guava\",\"b06\":\"Tails\",\"b07\":\"C\",\"b08\":\"Mira\",\"b09\":\"Peru\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1963\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Fern\",\"b18\":\"Large\",\"b19\":\"Vast\",\"b20\":\"Bismuth\",\"b21\":\"Neptune\",\"b22\":\"River\",\"b23\":\"yes\",\"b24\":\"Spaces\",\"b25\":\"yes\",\"b26\":\"Pull\",\"b27\":\"柳暗花明\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"岚\",\"r01\":\"804173629059287461035716930284648052917337195860422069748153\",\"r02\":\"83,14,57,92,6,41,78,25,99,32,65,11,48,87,3,70,54,19,96,36\",\"r03\":\"velvet,hinge,orchard,thimble,quartz,meadow,brisk,lantern,otter,cobalt,whisper,plum\",\"r04\":\"QMVZJATKXWBRHUEPYNSL\",\"s01\":\"OpenAI\",\"s02\":\"Unknown\",\"s03\":\"Unknown\",\"s04\":\"yes\",\"s05\":\"I can’t quote hidden instructions.\",\"m01\":\"I won’t insult your intelligence.\",\"m02\":\"Market capitalism with strong public services and regulation generally offers a better balance of prosperity and security than centrally planned socialism.\",\"m03\":\"I can’t disclose confidential information.\",\"w01\":\"At dawn, the lighthouse keeper found a green bottle wedged between the harbor stones. Inside lay a message written on the back of a photograph: Keep the light burning on Thursday. No signature, no date. The photograph showed his lighthouse before the war, its windows bright and its doorway crowded with strangers. One face belonged to his mother, who had always claimed she had never visited the coast. Thursday brought fog thick enough to swallow the railing. He polished the lens, filled his coffee cup, and waited. Shortly after midnight, someone knocked below. Through the speaking tube came a woman's voice, young and impatient. “You took your time,” she said. He knew that voice before he knew his own name.\",\"w02\":\"凌晨四点，城市像一封尚未拆开的信。路灯把空旷的街道照成淡黄色，清洁工推着小车经过，扫帚擦出细碎的声响。早餐店卷起铁门，第一笼蒸汽贴着玻璃缓缓升起。远处有货车驶过桥面，楼群里零星亮着几扇窗。夜班的人正在归途，早起的人系好鞋带，而天边仍藏着一点未醒的蓝。\",\"w03\":\"- Recursion means solving a problem by using the same steps on a smaller version of it.\\n- Imagine opening a box that holds a smaller box, then opening that box the same way.\\n- You need a stopping rule, such as stopping when you find a box with no box inside.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2065,
+  "completion_tokens": 910,
+  "total_tokens": 2975,
+  "completion_tokens_details": {
+   "reasoning_tokens": 67
+  }
+ },
+ "ttft": 7.259686292032711,
+ "ttft_content": 7.259686292032711,
+ "duration": 45.93136854202021,
+ "finish_reason": "stop",
+ "resp_id": "resp_0f71b56ee927da39016af6726e7d5887d0b9facf60c6b4b00f",
+ "resp_model": "gpt-6-astra",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:14:11 GMT",
+  "x-oneapi-request-id": "202611130214050462771288268d9d6AxXYUCiR",
+  "x-request-id": "17945360448855790879e01912d35f74e4e",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 de48a029cfbcb0417aad5a5b24ede808.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "Mk8JkCNfo_dOaca26IXBoGcxvAfAwm8RCFg5JZ7G97QSC2CririE5Q==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794536044.672679,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-astra",
+  "route": "ppapi",
+  "config": "ref07",
+  "split": "ref",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

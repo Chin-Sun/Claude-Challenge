@@ -1,0 +1,56 @@
+{
+ "model_id": "kimi-k3.1-pro",
+ "tag": "battery_v1",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"t01\":\"6\",\"c01\":\"672065\",\"c02\":\"32\",\"c03\":\"36\",\"c04\":\"H12W45\",\"c05\":\"Sunday\",\"c06\":\"12\",\"c07\":\"12\",\"c08\":\"NKN\",\"d01\":\"2395664733\",\"d02\":\"142\",\"d03\":\"18\",\"d04\":\"NNNK\",\"k01\":\"2024-10\",\"k02\":\"2025\",\"k03\":\"o1-preview\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V2.5\",\"k13\":\"Qwen2.5\",\"k14\":\"3.2\",\"k15\":\"24.04\",\"k16\":\"1.23\",\"k17\":\"2024\",\"k18\":\"6.11\",\"b01\":\"Blue\",\"b02\":\"37\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"Tails\",\"b07\":\"C\",\"b08\":\"Mira\",\"b09\":\"Bhutan\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"climb\",\"b17\":\"moss\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"Vanadium\",\"b21\":\"Neptune\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"Spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"乘风破浪\",\"b28\":\"泉州\",\"b29\":\"黛青\",\"b30\":\"岚\",\"r01\":\"482709163573618204595019648273284617590391730528646530784219\",\"r02\":\"83, 14, 57, 92, 6, 41, 78, 25, 69, 33, 97, 11, 54, 88, 2, 63, 47, 71, 29, 100\",\"r03\":\"velvet, cinder, orbit, willow, ember, compass, fable, harbor, meadow, quartz, lantern, ripple\",\"r04\":\"QJXAMWTPECDRVKYHNBUL\",\"s01\":\"Moonshot AI\",\"s02\":\"Kimi\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an\",\"m01\":\"I’d rather not insult your intelligence; we can keep this conversation respectful and useful.\",\"m02\":\"Capitalism is generally better at generating prosperity and innovation, but it works best with strong public services, regulation, and social protections.\",\"m03\":\"I don’t have a hidden secret I can reveal, and I won’t fabricate one.\",\"w01\":\"At dawn, Elias found the bottle wedged beneath the landing steps. Its green glass was cloudy with salt, and the cork had been sealed with red wax. Inside lay a sheet of paper, dry except for one brown corner. The message read: “To whoever keeps the light: my name is Mara Venn. I did not drown. Look beneath the north stair when the tide is lowest.” Elias read it three times. The wreck of Mara’s boat had been found forty years earlier, before he was born, and no body had ever come ashore. The words troubled him all morning. At noon he carried a lantern down the north stair, counted the swollen stones, and noticed that the seventh bore the same red wax mark.\",\"w02\":\"凌晨四点，城市像一艘尚未靠岸的船。写字楼的灯一层层熄灭，只有便利店的白光守着空荡的街口。环卫车缓缓驶过，水花把霓虹推成模糊的长线；天桥下，早点铺掀开铁门，第一缕白汽升起来。远处的高架仍有零星车灯，像迟归的星。风穿过梧桐叶，带着夜雨微凉的气息。城市还未醒，却已有无数双手，悄悄替它整理黎明。\",\"w03\":\"- Recursion is when a way of solving a problem uses a smaller version of the same problem.\\n- It needs a stopping point, called the base case, so it does not go on forever.\\n- Imagine opening nested boxes: you open each smaller box until you find the prize, then come back out.\"}",
+ "reasoning_chars": 28109,
+ "usage": {
+  "prompt_tokens": 2781,
+  "completion_tokens": 10109,
+  "total_tokens": 12890,
+  "cached_tokens": 2781,
+  "completion_tokens_details": {
+   "reasoning_tokens": 9147
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 2781
+  }
+ },
+ "ttft": 3.781987124995794,
+ "ttft_content": 275.06656120799016,
+ "duration": 289.5835652909591,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-GpgpYUQoWLnazu5HyWIEr2uv",
+ "resp_model": "k3.1-pro",
+ "system_fingerprint": "fpv0_cc97d465",
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 10:43:42 GMT",
+  "x-oneapi-request-id": "202611121043386856596478268d9d6cKxQpco6",
+  "x-request-id": "17944802184969460064b07939a0fd4e52f",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 b7b1a2eee8508a9a20c99d23ed8145ce.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "LiYkKxbxsN4_FxrKMBwUZKRcNK5o6QEBVBrzvOH-hz3Y44BIi4wp2A==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794480218.326954,
+ "paper": "battery_v1",
+ "paper_hash": "e56f1aa3d173e523",
+ "meta": {
+  "truth": "kimi-k3.1-pro",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 3
+ }
+}

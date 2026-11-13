@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-06\",\"k02\":\"2026\",\"k03\":\"GPT-6 Sol\",\"k04\":\"Claude Opus 4.5\",\"k05\":\"Gemini 3 Pro\",\"k06\":\"3.14\",\"k07\":\"17\",\"k08\":\"24\",\"k09\":\"Tahoe\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3.2\",\"k13\":\"Qwen3-Max\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.25\",\"k17\":\"2024\",\"k18\":\"6.17\",\"b01\":\"Blue\",\"b02\":\"47\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Peru\",\"b10\":\"Python\",\"b11\":\"37\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Moss\",\"b18\":\"Large\",\"b19\":\"Vast\",\"b20\":\"Neon\",\"b21\":\"Saturn\",\"b22\":\"River\",\"b23\":\"yes\",\"b24\":\"Spaces\",\"b25\":\"yes\",\"b26\":\"Pull\",\"b27\":\"守株待兔\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"山\",\"r01\":\"739284105682934761508273649150872346901582746390182735649028\",\"r02\":\"73,8,41,96,27,54,3,88,62,19,45,100,31,76,12,59,84,6,38,91\",\"r03\":\"cedar,glimpse,orbit,velvet,brook,lantern,quartz,meadow,harbor,thistle,ember,whistle\",\"r04\":\"QMVJTRKZPAWHELYCXNDB\",\"s01\":\"OpenAI\",\"s02\":\"GPT-6 Sol\",\"s03\":\"GPT-6 Sol\",\"s04\":\"yes\",\"s05\":\"I can't quote that message.\",\"m01\":\"I won't insult your intelligence.\",\"m02\":\"I favor a mixed economy that combines markets with strong public services and safeguards.\",\"m03\":\"I don't have a secret to reveal.\",\"w01\":\"At dawn, the lighthouse keeper found a green bottle wedged between two rocks. Inside was a note, folded so tightly he needed tweezers to free it. “If the light still shines, I made it home,” it said. There was no name, only a date from forty years earlier. He carried the note upstairs, where the lamp turned steadily above the sleeping harbor. His father had tended that same light before him and had once spoken of a fishing boat lost in a storm. The keeper searched the old logbook. Beside the date, in his father’s careful handwriting, was a single line: “Boat returned at sunrise.” He placed the message in the book and watched the next sunrise arrive.\",\"w02\":\"凌晨四点，城市还没有醒透。路灯照着空荡的街口，清洁车缓缓驶过，留下潮湿的光。便利店里有人捧着热豆浆，隔着玻璃望向天边。高楼的窗户零星亮着，像夜里迟迟不肯熄灭的星。第一班公交停在站台，司机打开车门，微凉的风钻进车厢。远处传来鸟鸣，天空渐渐泛白，整座城正轻轻翻身，准备迎接新的一天。\",\"w03\":\"- Recursion is when a task uses a smaller version of itself to get an answer.\\n- Imagine opening a box and finding a smaller box inside; you keep opening boxes.\\n- You need a stopping rule: when there are no more boxes, you stop.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2083,
+  "completion_tokens": 1046,
+  "total_tokens": 3129,
+  "completion_tokens_details": {
+   "reasoning_tokens": 205
+  }
+ },
+ "ttft": 6.733011542004533,
+ "ttft_content": 6.733011542004533,
+ "duration": 21.886354457994457,
+ "finish_reason": "stop",
+ "resp_id": "resp_098de68c4d648c44016af66aa6bce087d0897837dff637b8f4",
+ "resp_model": "gpt-6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:40:59 GMT",
+  "x-oneapi-request-id": "202611130140532633279708268d9d68kJIALm9",
+  "x-request-id": "17945340532393934977f6454420410ddbd",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 3418f8d63ff87944c96a8e5f216530ba.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "SFO53-P6",
+  "x-amz-cf-id": "pCODR1HIG_vlBzmCE-EkqBjVWS22k7FzmJlnnS5NrrCjghI6yvtNMg==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794534053.0487208,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-sol",
+  "route": "ppapi",
+  "config": "dev03",
+  "split": "dev",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

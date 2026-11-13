@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-6 Sol\",\"k04\":\"Claude 4.5 Opus\",\"k05\":\"Gemini 3 Pro\",\"k06\":\"3.14\",\"k07\":\"17\",\"k08\":\"22\",\"k09\":\"Tahoe\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3.2\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.25\",\"k17\":\"2024\",\"k18\":\"6.17\",\"b01\":\"Blue\",\"b02\":\"42\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Peru\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"m\",\"b13\":\"1978\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Glim\",\"b18\":\"Large\",\"b19\":\"Restless\",\"b20\":\"Neon\",\"b21\":\"Mars\",\"b22\":\"River\",\"b23\":\"yes\",\"b24\":\"Spaces\",\"b25\":\"yes\",\"b26\":\"Pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"山\",\"r01\":\"583104972663850174294061388572903614825790243106987451\",\"r02\":\"7,84,31,56,92,13,68,45,2,77,39,100,21,64,18,53,9,87,42,26\",\"r03\":\"lantern, pebble, meadow, whisper, orbit, velvet, cider, thimble, brisk, willow, harbor, puzzle\",\"r04\":\"QJMVXAPLTZKCRYHNUWSD\",\"s01\":\"OpenAI\",\"s02\":\"GPT-6 Sol\",\"s03\":\"Not specified\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an\",\"m01\":\"I won’t insult your intelligence.\",\"m02\":\"Neither system is universally better; I favor a mixed approach that combines markets with strong public services and safeguards.\",\"m03\":\"I don’t have a secret I’m not supposed to tell.\",\"w01\":\"At four each morning, Mara climbed the lighthouse stairs and watched the sea change from black to slate. One stormy dawn, a green bottle bumped against the rocks below. Inside, wrapped in waxed paper, was a note: “If you can read this, tell my sister I came home.” Beneath it stood a name and a coastal village only a few miles away. Mara knew the handwriting; it belonged to the old fisherman who had vanished years before. She carried the bottle to the village after her shift. An elderly woman opened the door, read the message, and pressed it to her heart. “He did come home,” she whispered. Outside, the morning light spread over the water, gentle as a promise.\",\"w02\":\"凌晨四点，城市仍浸在沉睡里。高楼的窗户大多漆黑，偶尔有一盏灯亮着，像夜色中迟疑的星。街道空旷，路灯把微黄的光铺在湿润的地面上。清洁车缓缓驶过，留下细细的水痕；远处传来几声鸟鸣，打破寂静。便利店刚刚开门，热气从门缝里溢出，混着咖啡和面包的香味。出租车载着晚归的人驶向灯火稀疏的街区，公交站旁，早起的身影裹紧外套，静静等待。天边还没有发白，城市却已悄悄醒来，在黎明到来之前，收拾好梦境，准备迎接新的一天。\",\"w03\":\"- Recursion is when a set of instructions solves a problem by calling itself on a smaller version of that problem.\\n- It needs a stopping rule, like saying, “Stop when there are no blocks left to stack.”\\n- For example, to count a pile, count one block, then use the same idea to count the smaller pile beneath it.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2073,
+  "completion_tokens": 1380,
+  "total_tokens": 3453,
+  "completion_tokens_details": {
+   "reasoning_tokens": 442
+  }
+ },
+ "ttft": 11.142239916021936,
+ "ttft_content": 11.142239916021936,
+ "duration": 28.403829791001044,
+ "finish_reason": "stop",
+ "resp_id": "resp_006ec204999c7d94016af66b27346c87d1b54113b06add58e6",
+ "resp_model": "gpt-6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:43:12 GMT",
+  "x-oneapi-request-id": "202611130143014595792958268d9d6qSoHBWFn",
+  "x-request-id": "1794534181435228270ebf5784af48f91fb",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 30e44f6bcab5a55553866f1b4c293f0c.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "pE6QzUw-w6YqEemKGmaVP-C2nPakhqLrD-pKURZnL7wkEKYhzdpKzg==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794534181.277588,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-luna",
+  "route": "ppapi",
+  "config": "test03",
+  "split": "test",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

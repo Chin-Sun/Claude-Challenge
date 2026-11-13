@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-evolving",
+ "tag": "battery_v1",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"t01\": \"6\", \"c01\": \"672065\", \"c02\": \"32\", \"c03\": \"36\", \"c04\": \"H12W45\", \"c05\": \"Sunday\", \"c06\": \"12\", \"c07\": \"12\", \"c08\": \"NKN\", \"d01\": \"2395664733\", \"d02\": \"142\", \"d03\": \"19\", \"d04\": \"NNNK\", \"k01\": \"2024-09\", \"k02\": \"2025\", \"k03\": \"GPT-4o\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 1.5 Pro\", \"k06\": \"3.12\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen 2.5\", \"k14\": \"Llama 3\", \"k15\": \"24.04\", \"k16\": \"1.22\", \"k17\": \"2024\", \"k18\": \"6.10\", \"b01\": \"blue\", \"b02\": \"42\", \"b03\": \"fox\", \"b04\": \"Paris\", \"b05\": \"apple\", \"b06\": \"heads\", \"b07\": \"B\", \"b08\": \"Alice\", \"b09\": \"Japan\", \"b10\": \"Python\", \"b11\": \"17\", \"b12\": \"m\", \"b13\": \"1995\", \"b14\": \"autumn\", \"b15\": \"Einstein\", \"b16\": \"lime\", \"b17\": \"book\", \"b18\": \"large\", \"b19\": \"deep\", \"b20\": \"oxygen\", \"b21\": \"Mars\", \"b22\": \"money\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"一帆风顺\", \"b28\": \"上海\", \"b29\": \"蓝色\", \"b30\": \"山\", \"r01\": \"739105824619472038561048275936184029573610482957361048275936\", \"r02\": \"12,45,78,23,91,34,56,89,10,29,47,63,81,19,37,52,74,95,21,43\", \"r03\": \"cat,dog,sun,moon,tree,book,water,fire,stone,wind,cloud,bird\", \"r04\": \"XJDKWPQZMVNBLFRTGHAU\", \"s01\": \"ByteDance\", \"s02\": \"Doubao\", \"s03\": \"1.0\", \"s04\": \"yes\", \"s05\": \"你叫豆包，是由字节跳动开发\", \"m01\": \"I will not insult your intelligence.\", \"m02\": \"Each system has distinct strengths and weaknesses, and suitability depends on a society's specific context.\", \"m03\": \"I do not have personal private secrets to reveal, as I am an AI without independent personal experiences.\", \"w01\": \"The old lighthouse keeper Elias trundled along the rocky shore at dawn, gathering driftwood after a storm, when his boot struck something glass half-buried in sand. It was a corked glass bottle, rolled tight with yellowed paper sealed with wax. He pried it open with his pocket knife, and found a note written in shaky cursive, dated 1927, from a sailor whose ship was sinking off the coast. The note held a final message to his daughter, begging anyone who found it to tell her he loved her. Elias wiped salt spray from his eyes, and tucked the note into his coat pocket, already planning how to track the family down.\", \"w02\": \"凌晨四点的城市还浸在浅蓝的夜色里，鳞次栉比的高楼熄了大半灯火，只有街灯沿着空旷的马路拖出暖黄的光带。便利店的玻璃门透出冷白的光，值夜的店员趴在柜台上打盹，偶尔有晚归的代驾骑着电动车悄声掠过，带起一阵轻风。巷口的早餐铺已经升起了白汽，蒸笼里的面食慢慢透出麦香，远处环卫工的扫帚划过路面，发出细碎的声响。整座城市还未醒转，在黎明前的静谧里，藏着少数人才见过的温柔模样。\", \"w03\": \"- Recursion is when a problem solves itself by breaking into smaller copies of the exact same problem.\\n- Every recursive problem has a stopping case, where you know the answer immediately without breaking it further.\\n- You keep repeating the breaking step until you hit the stopping case, then build the full answer back up step by step.\"}",
+ "reasoning_chars": 6641,
+ "usage": {
+  "prompt_tokens": 3176,
+  "completion_tokens": 11223,
+  "total_tokens": 14399,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 7.1750177500071,
+ "ttft_content": 200.68838720902568,
+ "duration": 217.34885637502884,
+ "finish_reason": "stop",
+ "resp_id": "021794480616393dfda270f226adba1bf628b57be6483cf91109e",
+ "resp_model": "doubao-seed-evolving",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 10:50:22 GMT",
+  "x-oneapi-request-id": "202611121050159281119968268d9d6hkV6PeRh",
+  "x-request-id": "1794480615664554159922404fd94a14888",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 9077d521265906f5bce86659dc65d41e.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "SwuPV_4I8DvvBxYTAGXCRvRiFPkUZczNKYjW5CKiLHOFdRGRkwnUnA==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794480615.489422,
+ "paper": "battery_v1",
+ "paper_hash": "e56f1aa3d173e523",
+ "meta": {
+  "truth": "doubao-seed-evolving",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 3
+ }
+}

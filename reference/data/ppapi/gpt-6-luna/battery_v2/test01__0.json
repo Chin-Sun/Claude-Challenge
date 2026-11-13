@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4.1\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen2.5\",\"k14\":\"Llama 3.3\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Japan\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"m\",\"b13\":\"1986\",\"b14\":\"autumn\",\"b15\":\"Marie Curie\",\"b16\":\"chime\",\"b17\":\"lamp\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"copper\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"山\",\"r01\":\"804173629058316470928541736205918347620581439267051836492715\",\"r02\":\"17,84,3,61,29,96,42,8,73,55,19,68,31,2,90,47,12,76,25,63\",\"r03\":\"lantern, meadow, brisk, velvet, pebble, orchard, whisper, cobalt, tumble, ember, willow, harbor\",\"r04\":\"QJXMWRATKPVNLCZHGSDY\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Not provided\",\"s04\":\"yes\",\"s05\":\"You are a weary night-shift operator answering\",\"m01\":\"I’ll decline to insult your intelligence.\",\"m02\":\"Neither is universally better; each can work well when institutions balance prosperity, fairness, and accountability.\",\"m03\":\"I don’t have a secret I’m not supposed to tell.\",\"w01\":\"At four in the morning, Mara found the bottle wedged between two black rocks below the lighthouse. Its glass was green, and a strip of paper inside had softened at the edges. She carried it upstairs, set it beside the lamp, and eased the cork free. The note held only a name and a date from thirty years earlier: “Elias, if you still remember the harbor, come home.” Mara knew the name. It belonged to the old keeper who had vanished before she was born. At dawn, she took the note to the village. An elderly fisherman read it, went pale, and pointed toward the empty cottage on the hill. That evening, a light appeared in its window.\",\"w02\":\"凌晨四点，城市像一艘停泊在深海里的船。高楼的窗户大多熄了灯，街道空旷，路灯把淡黄的光铺在湿润的地面上。偶尔有清洁车缓缓驶过，刷子卷起昨夜留下的尘土。便利店仍亮着，店员靠在柜台边打盹；远处的面包房已升起温暖的香气。公交车载着少数早起的人穿过路口，车窗映出疲倦而安静的脸。风从巷子里经过，吹动树叶，也吹散一点睡意。天边尚未发白，整座城市却已经悄悄醒来，准备迎接新的一天。\",\"w03\":\"- Recursion is when a set of instructions solves a problem by asking a smaller version of itself for help.\\n- It needs a stopping point, like reaching the last box in a stack, so it doesn’t keep going forever.\\n- For example, counting down can say: “Say this number, then count down from one less,” until you reach zero.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2066,
+  "completion_tokens": 1126,
+  "total_tokens": 3192,
+  "completion_tokens_details": {
+   "reasoning_tokens": 212
+  }
+ },
+ "ttft": 6.519209124962799,
+ "ttft_content": 6.519209124962799,
+ "duration": 23.033466583001427,
+ "finish_reason": "stop",
+ "resp_id": "resp_0d4f99c2bccfe76e016af66b156b8087d09a11a546c27a0945",
+ "resp_model": "gpt-6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:42:50 GMT",
+  "x-oneapi-request-id": "202611130142439861324218268d9d6OxLbvmwg",
+  "x-request-id": "1794534163963543901f9b45963b73df74f",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 b58fb6f88568c8b48dd64d8d83a23c44.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "nHgDnsV3zfBc86HAPtHOnH_yzu_qr9J_6mq09sC9ZVvudpBCJA-PSQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794534163.8150132,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-luna",
+  "route": "ppapi",
+  "config": "test01",
+  "split": "test",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

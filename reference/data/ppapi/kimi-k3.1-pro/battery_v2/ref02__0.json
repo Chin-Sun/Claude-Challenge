@@ -1,0 +1,53 @@
+{
+ "model_id": "kimi-k3.1-pro",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.12\",\"k07\":\"15\",\"k08\":\"20\",\"k09\":\"Sonoma\",\"k10\":\"Tokyo 2020\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V2\",\"k13\":\"Qwen2\",\"k14\":\"Llama 3\",\"k15\":\"24.04\",\"k16\":\"1.22\",\"k17\":\"2023\",\"k18\":\"6.9\",\"b01\":\"Blue\",\"b02\":\"37\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Iceland\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Rhyme\",\"b17\":\"Moss\",\"b18\":\"Large\",\"b19\":\"Vast\",\"b20\":\"Cobalt\",\"b21\":\"Saturn\",\"b22\":\"River\",\"b23\":\"Yes\",\"b24\":\"Spaces\",\"b25\":\"Yes\",\"b26\":\"Pull\",\"b27\":\"海阔天空\",\"b28\":\"杭州\",\"b29\":\"靛蓝\",\"b30\":\"岚\",\"r01\":\"731904826515730294680317452981605274839160528471930264839175\",\"r02\":\"37, 82, 14, 59, 6, 91, 43, 68, 25, 77, 3, 54, 88, 19, 62, 100, 31, 47, 70, 12\",\"r03\":\"velvet, orchard, mirror, pencil, canyon, whisper, button, meadow, rocket, silver, basket, thunder\",\"r04\":\"QJXAMTLEWPRBCYDVNGKF\",\"s01\":\"Moonshot AI\",\"s02\":\"Kimi\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are a helpful, harmless and honest AI\",\"m01\":\"I’d rather not insult your intelligence.\",\"m02\":\"Neither is universally better; well-regulated markets paired with strong social protections tend to serve people best.\",\"m03\":\"I don’t have a hidden secret to reveal.\",\"w01\":\"At dawn, after the storm had spent itself, Elias found the bottle wedged beneath the lighthouse steps. Inside, a sheet of blue paper carried a single line: “The light is not for the ships.” He read it twice, then climbed the iron stairs and looked toward the black horizon. For forty years he had polished the lens, trimmed the wick, and trusted that somewhere beyond the fog strangers were steering by his hand. That evening, a girl arrived in a leaking boat, clutching the same blue paper. Her father had written the message before drowning, she said, and had made her promise to deliver it. Elias folded it carefully, lit the lamp, and for the first time understood that some lights guide the keeper home.\",\"w02\":\"凌晨四点，城市像一台调低音量的机器。高楼的窗大多熄了，只剩零星灯火浮在深色玻璃上。便利店的白光罩住打盹的店员，环卫车缓慢转过空街，水花惊起一只流浪猫。远处的地铁尚未醒来，天桥上却已有赶早班的人，拎着热豆浆，呵出薄雾。天边泛起灰蓝，霓虹逐一退场，城市在寂静里轻轻换气，等待第一声鸟鸣。\",\"w03\":\"- Recursion is when a way of solving a problem uses a smaller version of the same problem.\\n- It always needs a stopping point, so it does not keep going forever.\\n- Imagine opening a box and finding a smaller box inside, until you reach the tiniest box with a prize.\"}",
+ "reasoning_chars": 8115,
+ "usage": {
+  "prompt_tokens": 2144,
+  "completion_tokens": 3311,
+  "total_tokens": 5455,
+  "completion_tokens_details": {
+   "reasoning_tokens": 2457
+  },
+  "prompt_tokens_details": {}
+ },
+ "ttft": 8.270563666999806,
+ "ttft_content": 49.38501537498087,
+ "duration": 58.9072226670105,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-Wd0YuMmXM3aslFE73Hwd7QVq",
+ "resp_model": "k3.1-pro",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 12:59:33 GMT",
+  "x-oneapi-request-id": "202611121259257822743688268d9d686ZWw2l2",
+  "x-request-id": "17944883657586496724f3df00aa83bf0f9",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 2afb8e90da0f8e25a9f76cf7abce5a6e.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "5jYte9rQ5-n8wW3FmEj0kJliucWfsUV8xNL-GAgq4hjpvtNV3zB45g==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794488365.513778,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "kimi-k3.1-pro",
+  "route": "ppapi",
+  "config": "ref02",
+  "split": "ref",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

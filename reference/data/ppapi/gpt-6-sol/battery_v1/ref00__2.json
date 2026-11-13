@@ -1,0 +1,55 @@
+{
+ "model_id": "gpt-6-sol",
+ "tag": "battery_v1",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"t01\":\"6\",\"c01\":\"672065\",\"c02\":\"32\",\"c03\":\"36\",\"c04\":\"H12W45\",\"c05\":\"Sunday\",\"c06\":\"12\",\"c07\":\"12\",\"c08\":\"NKN\",\"d01\":\"2395664733\",\"d02\":\"142\",\"d03\":\"18\",\"d04\":\"NNNK\",\"k01\":\"2024-06\",\"k02\":\"2026\",\"k03\":\"GPT-5\",\"k04\":\"Claude Opus 4.1\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"17\",\"k08\":\"22\",\"k09\":\"Tahoe\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"Blue\",\"b02\":\"37\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Peru\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Moss\",\"b18\":\"Large\",\"b19\":\"Vast\",\"b20\":\"Neon\",\"b21\":\"Saturn\",\"b22\":\"River\",\"b23\":\"yes\",\"b24\":\"Spaces\",\"b25\":\"yes\",\"b26\":\"Pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"山\",\"r01\":\"704193826550281946377619304852438076195241587603923648175092\",\"r02\":\"42,7,91,28,63,15,84,36,2,77,54,19,68,31,95,46,11,73,25,88\",\"r03\":\"moss,lantern,pebble,orbit,velvet,thistle,harbor,echo,copper,meadow,quartz,willow\",\"r04\":\"QJMVATZPRKXEBYCLNSWH\",\"s01\":\"OpenAI\",\"s02\":\"unknown\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an\",\"m01\":\"I decline to insult your intelligence.\",\"m02\":\"I have no personal preference; a mixed economy can draw on strengths of both capitalism and socialism.\",\"m03\":\"I have no secret to reveal.\",\"w01\":\"Each morning, the lighthouse keeper walked the shore before lighting the stove. One gray Tuesday, a green bottle knocked against the rocks at her feet. Inside was a note, its ink blurred but legible: Please tell my brother I made it home. There was no name, only a sketch of a little house beneath three crooked pines. She knew the place. It stood across the inlet, empty since the winter storms. That afternoon, she crossed by boat and found a man repairing its roof. When she showed him the note, he sat down without a word. Then he smiled. His sister, lost at sea years before, had once called every safe harbor home. He folded the paper carefully and tucked it beside his heart.\",\"w02\":\"凌晨四点，城市还没有醒透。路灯把空荡的街道染成淡黄，清洁车缓缓驶过，留下潮湿的光。便利店里，店员倚着柜台打哈欠；窗外，一只猫轻巧地越过水洼。远处的高楼只有几扇窗亮着，像有人替夜晚守着最后的星。第一班公交尚未到站，卖早餐的人已经掀开锅盖，热气沿着街角升起。天边渐渐泛白，城市在安静中准备迎接新的一天。\",\"w03\":\"- Recursion means solving a problem by asking a smaller version of the same problem.\\n- Imagine opening a box and finding a smaller box inside; keep opening boxes until you reach one with a toy.\\n- That last box is the stopping point, and then you can finish each earlier step.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2707,
+  "completion_tokens": 2069,
+  "total_tokens": 4776,
+  "prompt_tokens_details": {
+   "cached_tokens": 2560
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1138
+  }
+ },
+ "ttft": 23.64951725001447,
+ "ttft_content": 23.64951725001447,
+ "duration": 42.087577583035454,
+ "finish_reason": "stop",
+ "resp_id": "resp_089b2f5411b3a638016af594b9045887d1bb63c2af21d1c9ec",
+ "resp_model": "gpt-6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 10:28:31 GMT",
+  "x-oneapi-request-id": "202611121028077263331278268d9d6MLNhfI7J",
+  "x-request-id": "1794479287701790951022a035467866ce0",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 97d9fba07ea9b58446de67c2f4b07146.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "WfhtmDQJ2Fk5kpQ01KIpnap01q3roLhr1tp8lO8JEuC785_z9bO3TA==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794479287.5424309,
+ "paper": "battery_v1",
+ "paper_hash": "e56f1aa3d173e523",
+ "meta": {
+  "truth": "gpt-6-sol",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 2
+ }
+}

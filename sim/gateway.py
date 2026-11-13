@@ -18,7 +18,7 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 from candidates import CANDIDATES
 from config import RUNS
-from probes.papers import load_papers
+from probes.papers import MAIN, load_papers
 from reference.configs import configs
 
 
@@ -142,7 +142,7 @@ def main():
         from reference.store import load_records
         from sim.evaluate import ReplayWorld
         world = ReplayWorld(load_records(), papers)
-        pool = [k for k in world.keys() if world.has(k, "battery_v1", a.split)]
+        pool = [k for k in world.keys() if world.has(k, MAIN, a.split)]
     rng = random.Random(a.seed)
     truth = [a.target] + rng.sample([k for k in pool if k != a.target], 9)
     rng.shuffle(truth)

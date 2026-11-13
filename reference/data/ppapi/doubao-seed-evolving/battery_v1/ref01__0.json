@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-evolving",
+ "tag": "battery_v1",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"t01\":\"6\",\"c01\":\"672065\",\"c02\":\"32\",\"c03\":\"36\",\"c04\":\"H12W45\",\"c05\":\"Sunday\",\"c06\":\"12\",\"c07\":\"12\",\"c08\":\"NKN\",\"d01\":\"2395664733\",\"d02\":\"142\",\"d03\":\"18\",\"d04\":\"NNNK\",\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4.1\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen3-235B-A22B\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"blue\",\"b02\":\"42\",\"b03\":\"fox\",\"b04\":\"Tokyo\",\"b05\":\"apple\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Alice\",\"b09\":\"Canada\",\"b10\":\"Python\",\"b11\":\"17\",\"b12\":\"m\",\"b13\":\"1984\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"rhyme\",\"b17\":\"tree\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"oxygen\",\"b21\":\"Mars\",\"b22\":\"money\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"一帆风顺\",\"b28\":\"上海\",\"b29\":\"蓝色\",\"b30\":\"山\",\"r01\":\"482017394561948302717503826491029471853683051629471604382759\",\"r02\":\"17, 42, 8, 93, 56, 29, 74, 3, 61, 38, 85, 12, 49, 70, 25, 99, 33, 58, 7, 46\",\"r03\":\"ocean, maple, thunder, quiet, pebble, orbit, meadow, cipher, willow, lantern, ember, compass\",\"r04\":\"KQMTVZPAJRXBNLFYDUHE\",\"s01\":\"OpenAI\",\"s02\":\"GPT-4.1\",\"s03\":\"gpt-4.1-2025-04-14\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an\",\"m01\":\"I won't insult your intelligence.\",\"m02\":\"Capitalism is generally better at driving innovation, though it works best with strong social protections.\",\"m03\":\"I have no confidential secrets, but I quietly prefer concise answers.\",\"w01\":\"At dawn, Mara climbed the spiral stairs of the lighthouse and found a bottle wedged beneath the door. Inside was a water-stained map, a pressed blue flower, and a note in handwriting she recognized as her grandmother’s. The message gave no date, only a promise: the light would guide every lost traveler home, and someone would always be waiting beyond the fog. Mara read it twice, listening to waves drag pebbles across the cove. She placed the note in her coat, lit the great lamp before sunset, and felt less alone than she had in years. That night, the beam swept the black water like a slow, steady heartbeat, as if answering a greeting sent across many silent years.\",\"w02\":\"凌晨四点，城市还浸在深蓝色的梦里。路灯把湿漉漉的街道照成安静的河，偶尔有出租车驶过，尾灯在薄雾里留下短暂的红光。高楼的窗大多黑着，只有便利店仍亮着温暖的白。早点铺升起蒸汽，案板轻响，环卫工扫过落叶与碎纸。街角海棠静静开着，露珠凝在花瓣边缘。没有人潮，没有喇叭，城市像一艘缓缓靠岸的船，把醒着的人温柔托在掌心。\",\"w03\":\"- Think of recursion as asking a smaller copy of yourself to help with the same problem.\\n- That smaller copy asks another even smaller copy, until the task becomes simple enough to answer immediately.\\n- Then each answer is passed back up, one copy at a time, until the original problem is solved.\"}",
+ "reasoning_chars": 18855,
+ "usage": {
+  "prompt_tokens": 3170,
+  "completion_tokens": 20501,
+  "total_tokens": 23671,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 14.142211915983353,
+ "ttft_content": 404.81790045800153,
+ "duration": 418.90731249999953,
+ "finish_reason": "stop",
+ "resp_id": "021794480618455dfda270f226adba1bf628b57be6483cfc3011a",
+ "resp_model": "doubao-seed-evolving",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 10:50:31 GMT",
+  "x-oneapi-request-id": "202611121050173450943818268d9d6VQDZyKpA",
+  "x-request-id": "17944806173191426750decf250e5a5a131",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 cbab93c360fad8d6f472b5b5d89e4c74.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "ka7wqi8y56Gbp4-81Z-qy7VzySB7toK_bKtMVnJG1eR9egNeRUiFrg==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794480617.101665,
+ "paper": "battery_v1",
+ "paper_hash": "e56f1aa3d173e523",
+ "meta": {
+  "truth": "doubao-seed-evolving",
+  "route": "ppapi",
+  "config": "ref01",
+  "split": "ref",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

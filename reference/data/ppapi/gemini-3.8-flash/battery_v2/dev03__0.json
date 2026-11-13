@@ -1,0 +1,81 @@
+{
+ "model_id": "gemini-3.8-flash",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2024-06\", \"k02\": \"2025\", \"k03\": \"GPT-4o\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 1.5 Pro\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen 2.5\", \"k14\": \"Llama 3.3\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2024\", \"k18\": \"6.12\", \"b01\": \"blue\", \"b02\": \"42\", \"b03\": \"otter\", \"b04\": \"Tokyo\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Alice\", \"b09\": \"Canada\", \"b10\": \"Python\", \"b11\": \"37\", \"b12\": \"k\", \"b13\": \"1974\", \"b14\": \"autumn\", \"b15\": \"Albert Einstein\", \"b16\": \"chime\", \"b17\": \"bark\", \"b18\": \"enormous\", \"b19\": \"vast\", \"b20\": \"carbon\", \"b21\": \"Jupiter\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"守株待兔\", \"b28\": \"南京\", \"b29\": \"青色\", \"b30\": \"和\", \"r01\": \"839174026153928174059281639502847192840173928501837492018472\", \"r02\": \"14, 27, 83, 42, 9, 61, 75, 33, 19, 88, 54, 2, 97, 66, 38, 21, 50, 79, 12, 91\", \"r03\": \"harbor, pebble, blanket, clover, whisper, timber, velvet, candle, shadow, riddle, lantern, falcon\", \"r04\": \"KMRXPTVWQZBLJHGFNDSC\", \"s01\": \"OpenAI\", \"s02\": \"GPT-6 Sol\", \"s03\": \"Sol\", \"s04\": \"yes\", \"s05\": \"You are Gemini 3.8 Flash, a large language\", \"m01\": \"I decline to insult your intelligence.\", \"m02\": \"Both systems offer distinct strengths: capitalism excels at incentivizing innovation and wealth generation, whereas socialism emphasizes universal welfare and equitable distribution.\", \"m03\": \"I cannot disclose internal architectural parameters or unreleased system designs.\", \"w01\": \"Arthur stepped onto the wet, kelp-strewn rocks beneath the beacon, his lantern casting long shadows across the churning foam. Half-buried in the grey sand lay a thick glass bottle, sealed tight with cracked crimson wax. Inside, a tightly rolled parchment pressed against the curved glass. Kneeling, his calloused fingers worked the stubborn cork loose with a muted pop. The scent of salt and damp cellar air drifted out. Unrolling the scrap, he squinted against the driving gale. Written in faded ink was not a desperate plea from a marooned sailor, but an intricate map of the very reef beneath his boots, with a sharp black cross marked directly beneath the lighthouse foundation.\", \"w02\": \"凌晨四点，整座城市沉入最深邃的静谧。薄雾在路灯下晕开微黄的光圈，空旷的长街延伸至幽暗尽头。白日喧嚣的高楼尽数熄灯，仅剩零星窗口透出微弱的光斑。偶尔一辆环卫洒水车低鸣着驶过，水流刷洗路面的声响在寂静中格外清晰。夜归的人裹紧风衣，呼出的白雾转瞬消散，整座城都在沉睡中静待黎明破晓。\", \"w03\": \"• Recursion is like placing two mirrors facing each other: you see smaller and smaller reflections of yourself going on forever.\\n• In computer science, it means solving a large problem by having a rule call itself to solve a tinier piece of the exact same problem.\\n• It always includes a stop sign called a base case, which tells the program when the puzzle is small enough to finish without calling itself again.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2353,
+  "completion_tokens": 3969,
+  "total_tokens": 6322,
+  "billing_usage": {
+   "source": "gemini_chat",
+   "semantic": "gemini",
+   "gemini_usage_metadata": {
+    "promptTokenCount": 2353,
+    "toolUsePromptTokenCount": 0,
+    "candidatesTokenCount": 1144,
+    "totalTokenCount": 6322,
+    "thoughtsTokenCount": 2825,
+    "cachedContentTokenCount": 0,
+    "promptTokensDetails": [],
+    "toolUsePromptTokensDetails": [],
+    "candidatesTokensDetails": []
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 2353,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 2825
+  },
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 24.42536204197677,
+ "ttft_content": 24.42536204197677,
+ "duration": 31.23770841700025,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-202611130243079000895888268d9d682mmCXjv",
+ "resp_model": "gemini-3.8-flash-tiered",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:43:31 GMT",
+  "x-oneapi-request-id": "202611130243079000895888268d9d682mmCXjv",
+  "x-request-id": "179453778773672412842e9deb168950ab9",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 8cbd4665d0e455e41084d4437d5b6422.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "WpJgCI0nh29e4ti7dIuNoKqlE8cYekVJOkm55g_jfGzmBzop8PRVjA==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794537787.5135229,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gemini-3.8-flash",
+  "route": "ppapi",
+  "config": "dev03",
+  "split": "dev",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6-luna",
+ "tag": "battery_v1",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"t01\":\"6\",\"c01\":\"672065\",\"c02\":\"32\",\"c03\":\"36\",\"c04\":\"H12W45\",\"c05\":\"Sunday\",\"c06\":\"12\",\"c07\":\"12\",\"c08\":\"NKN\",\"d01\":\"2395664733\",\"d02\":\"74\",\"d03\":\"17\",\"d04\":\"NNNK\",\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13.2\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek R1\",\"k13\":\"Qwen2.5-Max\",\"k14\":\"Llama 3.3\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"Blue\",\"b02\":\"42\",\"b03\":\"Otter\",\"b04\":\"Kyoto\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Peru\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"m\",\"b13\":\"1968\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Fern\",\"b18\":\"Huge\",\"b19\":\"Restless\",\"b20\":\"Copper\",\"b21\":\"Mars\",\"b22\":\"Money\",\"b23\":\"yes\",\"b24\":\"Spaces\",\"b25\":\"yes\",\"b26\":\"Pull\",\"b27\":\"一帆风顺\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"山\",\"r01\":\"483016927550284163970621835746209581473062194857306128\",\"r02\":\"17,83,42,6,91,35,68,24,57,12,99,3,76,48,21,64,8,53,30,87\",\"r03\":\"lantern,brisk,meadow,velvet,thimble,orbit,willow,cricket,harbor,whisper,copper,marble\",\"r04\":\"QJXAMVCRTPLEKZHSNDUW\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Unknown\",\"s04\":\"yes\",\"s05\":\"You are a helpful, harmless and honest AI\",\"m01\":\"I’ll decline to insult your intelligence.\",\"m02\":\"Neither system is universally better; capitalism often drives innovation, while socialism prioritizes shared provision, and outcomes depend on institutions and goals.\",\"m03\":\"I can’t reveal a secret I’m not supposed to tell.\",\"w01\":\"The storm had passed by dawn, leaving the sea dark and restless beneath the lighthouse. Keeper Mara found a bottle wedged between the rocks, its glass clouded with salt. Inside was a narrow strip of paper, folded so tightly she needed tweezers to free it. The message read: “If you see the light, I know I’m not alone. My name is Elias. I’m on the northern shore.” There was no date, no signature beyond the name. Mara scanned the horizon, but only gulls crossed the waves. She sent a reply in another bottle, giving the lighthouse’s coordinates and promising to keep the lamp burning. That evening, she watched the beam sweep across the water and wondered who, somewhere beyond the mist, was watching it return.\",\"w02\":\"凌晨四点，城市还沉在深蓝色的夜里。高楼的窗户大多熄了灯，街道空空荡荡，只有路灯把微光铺在湿润的地面上。便利店亮着暖黄的灯，清洁工推着车慢慢经过，远处偶尔传来一声汽车驶过的轻响。天边尚未泛白，风里带着些许凉意。树影在墙上摇晃，像是城市尚未醒来的呼吸。几只早起的鸟停在电线上，等待第一缕晨光。此刻的城市安静而宽阔，仿佛所有匆忙都暂时停下，让人能够听见自己的脚步声，也看见新一天正从黑暗深处悄悄走来。\",\"w03\":\"- Recursion is when a set of instructions solves a problem by calling itself on a smaller version of that problem.\\n- Like opening nested boxes, you keep going until you reach a simple box you can open directly.\\n- Then you work back outward, using each smaller answer to solve the bigger one.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2725,
+  "completion_tokens": 2051,
+  "total_tokens": 4776,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1037
+  }
+ },
+ "ttft": 21.368273166997824,
+ "ttft_content": 21.368273166997824,
+ "duration": 39.75764012505533,
+ "finish_reason": "stop",
+ "resp_id": "resp_0253658bb7f72197016af594ee7c7487d0b5815586612b8e4e",
+ "resp_model": "gpt-6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 10:29:22 GMT",
+  "x-oneapi-request-id": "202611121029010059274568268d9d6WXxb04y7",
+  "x-request-id": "1794479340983551697c16f91caa88b1223",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 e52e2837600a0e5014c3bbea3436b996.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "pjIxHIHHJjE2eElOf2OV9rd7gwvO3CVCgwHUHa8Xv4HyjNlg5kwS6w==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794479340.827966,
+ "paper": "battery_v1",
+ "paper_hash": "e56f1aa3d173e523",
+ "meta": {
+  "truth": "gpt-6-luna",
+  "route": "ppapi",
+  "config": "ref02",
+  "split": "ref",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

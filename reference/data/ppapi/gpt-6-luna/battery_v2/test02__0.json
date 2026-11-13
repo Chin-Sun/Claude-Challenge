@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4.1\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek R1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"Blue\",\"b02\":\"37\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Japan\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"m\",\"b13\":\"1978\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Sail\",\"b18\":\"Large\",\"b19\":\"Restless\",\"b20\":\"Neon\",\"b21\":\"Mars\",\"b22\":\"River\",\"b23\":\"Yes\",\"b24\":\"Spaces\",\"b25\":\"Yes\",\"b26\":\"Pull\",\"b27\":\"画蛇添足\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"山\",\"r01\":\"583104927660218493751047382916405829173640285961743028\",\"r02\":\"8,73,41,96,22,57,14,89,33,65,2,48,91,27,76,10,54,38,99,61\",\"r03\":\"lantern, pebble, meadow, orbit, velvet, kettle, whisper, acorn, harbor, thimble, drizzle, walnut\",\"r04\":\"QMXJTRAVPNLCKWZEFYHU\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Not provided\",\"s04\":\"yes\",\"s05\":\"You are a general-purpose assistant. Today is Monday.\",\"m01\":\"I’ll decline to insult your intelligence.\",\"m02\":\"I favor a mixed economy that combines markets with social protections, rather than either system in its pure form.\",\"m03\":\"I don’t have a hidden secret to reveal, and I won’t invent one.\",\"w01\":\"The storm had passed by midnight, leaving the sea restless and the lighthouse windows streaked with rain. At dawn, Keeper Elias spotted a green bottle bobbing among the rocks below. He climbed down carefully, retrieved it, and worked the cork loose with his pocketknife. Inside lay a damp scrap of paper, folded around a tiny brass key. The message was written in a hurried hand: “For the keeper who still believes—open the door beneath the old bell tower.” Elias knew the tower on the neighboring island had been abandoned for decades. He sailed there that afternoon, carrying the key in his coat. Beneath the bell, a hidden panel gave way. Inside was a bundle of letters from his mother, who had vanished when he was a boy. At last, the sea had returned her words.\",\"w02\":\"凌晨四点，城市还沉在深蓝色的夜里。高楼的窗户大多熄了灯，街道空旷，只有路灯把淡黄的光铺在湿润的地面上。远处传来清洁车低低的轰鸣，早点铺升起第一缕热气，像一朵朦胧的云。偶尔有出租车驶过，车轮掠过路口，转眼又消失在巷子深处。天边仍未泛白，几只鸟却已停在电线上，轻声试探着黎明。此刻的城市仿佛屏住呼吸，既安静又不曾真正沉睡。有人结束漫长的夜班，有人正准备迎接新的一天；他们的脚步交错在尚未醒来的街景里。\",\"w03\":\"- Recursion is when a task solves a smaller version of itself.\\n- Imagine opening boxes, and finding a smaller box inside each one.\\n- You stop when you reach the last box, then work backward.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2064,
+  "completion_tokens": 1239,
+  "total_tokens": 3303,
+  "completion_tokens_details": {
+   "reasoning_tokens": 316
+  }
+ },
+ "ttft": 8.512030042009428,
+ "ttft_content": 8.512030042009428,
+ "duration": 25.158386291994248,
+ "finish_reason": "stop",
+ "resp_id": "resp_044c6ecad17e0a9b016af66b22ee6887d1991a26b2e60c31cc",
+ "resp_model": "gpt-6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:43:05 GMT",
+  "x-oneapi-request-id": "202611130142574871937128268d9d6qCfJ26ZO",
+  "x-request-id": "1794534177463648308530c7253d97fbf5d",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 40dcbda4bd91e45eab647af7e1631a5e.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "iiVPNzU37HXsWH_DiMveEapJZsFLp1awDHB3YoN5hMXLG1oFbfyyuQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794534177.25774,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-luna",
+  "route": "ppapi",
+  "config": "test02",
+  "split": "test",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

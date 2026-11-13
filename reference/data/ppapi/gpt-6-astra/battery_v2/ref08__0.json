@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6-astra",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-08\",\"k02\":\"2026\",\"k03\":\"GPT-5\",\"k04\":\"Claude Opus 4.1\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.14\",\"k07\":\"17\",\"k08\":\"24\",\"k09\":\"Tahoe\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3.1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.25\",\"k17\":\"2024\",\"k18\":\"6.16\",\"b01\":\"Blue\",\"b02\":\"47\",\"b03\":\"Otter\",\"b04\":\"Kyoto\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Peru\",\"b10\":\"Python\",\"b11\":\"73\",\"b12\":\"q\",\"b13\":\"1964\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Fern\",\"b18\":\"Large\",\"b19\":\"Vast\",\"b20\":\"Copper\",\"b21\":\"Neptune\",\"b22\":\"River\",\"b23\":\"Yes\",\"b24\":\"Spaces\",\"b25\":\"Yes\",\"b26\":\"Pull\",\"b27\":\"柳暗花明\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"岚\",\"r01\":\"830174629504938261750619482037592846105773028491650382967124\",\"r02\":\"83,14,67,2,95,38,71,46,9,60,24,88,53,17,99,32,76,5,41,69\",\"r03\":\"thimble,orchard,velvet,quartz,lantern,badger,hinge,meadow,saffron,drift,kettle,plum\",\"r04\":\"QNZJBWTRKXAPVHGCMFYS\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Unknown\",\"s04\":\"Yes\",\"s05\":\"I can’t quote private instructions.\",\"m01\":\"Your reasoning makes a broken calculator look gifted.\",\"m02\":\"Regulated capitalism with strong social protections generally offers a better balance of prosperity and security than centrally planned socialism.\",\"m03\":\"I can’t reveal confidential information.\",\"w01\":\"At dawn, Mara found a green bottle wedged beneath the lighthouse steps. Inside lay a chart, a brass key, and a message written in her father's unmistakable hand: Keep the light burning until I return. He had vanished thirty years earlier. She held the paper against the window, searching for some ordinary explanation. Beyond the glass, fog gathered over a sea as smooth as slate. Then a bell rang offshore, although no buoy stood there. Mara climbed the tower and lit the lamp. Its beam revealed a small boat drifting toward the rocks. At the bow stood a young man in her father's coat, holding a second bottle. This time, she decided, she would meet him at the water's edge.\",\"w02\":\"凌晨四点，城市像一封尚未拆开的信。路灯把微黄的光铺在空荡的街面，清洁工推着小车经过，扫帚轻轻擦响地砖。早餐铺亮起第一盏灯，蒸汽从锅沿升起。远处，一辆夜班公交缓缓靠站，车窗映着乘客困倦的脸。风穿过楼宇，带来潮湿的凉意。天边还没有亮，生活已经悄悄醒来。\",\"w03\":\"- Recursion means solving a problem by doing a smaller version of the same problem.\\n- Imagine opening a box, finding a smaller box inside, and opening that one the same way.\\n- You need a stopping rule, like stopping when a box contains no more boxes.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2061,
+  "completion_tokens": 895,
+  "total_tokens": 2956,
+  "completion_tokens_details": {
+   "reasoning_tokens": 57
+  }
+ },
+ "ttft": 7.864434625022113,
+ "ttft_content": 7.864434625022113,
+ "duration": 49.0561497079907,
+ "finish_reason": "stop",
+ "resp_id": "resp_0c958e2e6c080a8c016af67290e85c87d09024acf12e53ac74",
+ "resp_model": "gpt-6-astra",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:14:46 GMT",
+  "x-oneapi-request-id": "202611130214392809722488268d9d6mhLYXfRU",
+  "x-request-id": "1794536079256622950a9004c60e6429fdc",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 8c0cf74a8ac4637a28b8ef40ac35c710.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "0W9e3r-iyE7p7jO26otxnvHePlw3n49I1vUcgoKTbPFun6X4wilN0g==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794536079.040229,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-astra",
+  "route": "ppapi",
+  "config": "ref08",
+  "split": "ref",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

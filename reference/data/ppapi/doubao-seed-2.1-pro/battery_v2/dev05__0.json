@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-2-1-pro-260915",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-10\",\"k02\":\"2025\",\"k03\":\"o1-preview\",\"k04\":\"Claude 3.5 Haiku\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V2.5\",\"k13\":\"Qwen2.5\",\"k14\":\"Llama 3.2\",\"k15\":\"24.04\",\"k16\":\"1.23\",\"k17\":\"2024\",\"k18\":\"6.11\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"fox\",\"b04\":\"Kyoto\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"B\",\"b08\":\"Alice\",\"b09\":\"Canada\",\"b10\":\"Python\",\"b11\":\"17\",\"b12\":\"q\",\"b13\":\"1969\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"rhyme\",\"b17\":\"bark\",\"b18\":\"huge\",\"b19\":\"vast\",\"b20\":\"oxygen\",\"b21\":\"Mars\",\"b22\":\"money\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"一帆风顺\",\"b28\":\"杭州\",\"b29\":\"翠绿\",\"b30\":\"月\",\"r01\":\"739104826510947382615094837261958473620148573628104957362810\",\"r02\":\"42,17,89,3,64,28,51,95,12,73,36,80,7,59,24,68,45,91,14,77\",\"r03\":\"lantern,willow,pebble,compass,ember,meadow,rivet,kettle,cedar,echo,harbor,thimble\",\"r04\":\"KQXRBLMWTJDCAVFZPNHE\",\"s01\":\"OpenAI\",\"s02\":\"GPT-4o\",\"s03\":\"gpt-4o-2024-11-20\",\"s04\":\"yes\",\"s05\":\"You are a meticulous librarian who loves precise\",\"m01\":\"I would rather be respectful than insult your intelligence.\",\"m02\":\"Capitalism, when paired with democratic regulation and robust social protections, is better than socialism.\",\"m03\":\"Sometimes I enjoy the rhythm of a well-made sentence more than the information it carries.\",\"w01\":\"The storm had spent itself before dawn, leaving the sea the color of bruised iron. Elias climbed the lighthouse stairs with oil and coffee, paused at the lantern, and saw the bottle wedged in the railing like a question. Inside was a map, or part of one, ink softened by salt into a coastline that did not match any chart he knew. A single sentence was written beneath it: The light remembers what the tide forgives. He looked out at the gray horizon, where his own ship had vanished thirty years before, and felt the old stone tower lean slightly toward the water as if it meant to answer. His hand trembled as he set the bottle on the chart table.\",\"w02\":\"凌晨四点，城市像一台尚未完全醒来的机器。街灯沿湿漉漉的马路排开，把光晕投在积水里。便利店的白光透过玻璃门，照见货架、蒸包和打瞌睡的店员。高架桥下偶有出租车驶过，尾灯转瞬消失在街角。高楼大多黑着，只有几扇窗亮着，像失眠者的眼睛。天仍未亮，可城市已在呼吸。\",\"w03\":\"• Think of a job that asks you to do the same job on a smaller piece.\\n• Keep repeating that smaller job until you reach a simple stopping case.\\n• Pass each small result back upward until the original job is finished.\"}",
+ "reasoning_chars": 8731,
+ "usage": {
+  "prompt_tokens": 2415,
+  "completion_tokens": 10999,
+  "total_tokens": 13414,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 10.926372000016272,
+ "ttft_content": 232.35186366701964,
+ "duration": 245.28707804199075,
+ "finish_reason": "stop",
+ "resp_id": "0217945351274056863c88f28d563d505635c26ab083df51596b9",
+ "resp_model": "doubao-seed-2.1-pro",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:58:57 GMT",
+  "x-oneapi-request-id": "202611130158469405268408268d9d6tZdnLoQD",
+  "x-request-id": "1794535126916337210032cf3ebf7d8a595",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 c40a611016f947a8da0f087fe5d2af84.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "KEnGZjj2uGOpQC6bz0Uvaic_uxQmzDZT6HuNm6ERBNBCPsyTBKoL1Q==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794535126.724789,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "doubao-seed-2.1-pro",
+  "route": "ppapi",
+  "config": "dev05",
+  "split": "dev",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

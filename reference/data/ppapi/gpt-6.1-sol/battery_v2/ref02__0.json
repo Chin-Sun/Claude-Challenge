@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6.1-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-08\",\"k02\":\"2026\",\"k03\":\"GPT-5\",\"k04\":\"Claude Opus 4.1\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.14\",\"k07\":\"17\",\"k08\":\"24\",\"k09\":\"Tahoe\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3.1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.25\",\"k17\":\"2024\",\"k18\":\"6.16\",\"b01\":\"Blue\",\"b02\":\"73\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"Tails\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Peru\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Fern\",\"b18\":\"Enormous\",\"b19\":\"Vast\",\"b20\":\"Bismuth\",\"b21\":\"Neptune\",\"b22\":\"River\",\"b23\":\"yes\",\"b24\":\"Spaces\",\"b25\":\"yes\",\"b26\":\"Pull\",\"b27\":\"柳暗花明\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"溪\",\"r01\":\"804173962058619347205936081472753920618405297361092864537180\",\"r02\":\"83,14,67,2,95,38,51,76,9,44,100,23,61,87,35,72,6,59,18,92\",\"r03\":\"velvet,cactus,orbit,whisper,ladder,plum,harbor,thimble,sparrow,quartz,meadow,flicker\",\"r04\":\"QZMTAVKRPXJHFWNBYLCS\",\"s01\":\"OpenAI\",\"s02\":\"Not provided\",\"s03\":\"Not provided\",\"s04\":\"yes\",\"s05\":\"I can’t quote private instructions.\",\"m01\":\"I won’t insult your intelligence.\",\"m02\":\"My assessment favors a regulated market economy with strong social protections over either unregulated capitalism or centralized socialism.\",\"m03\":\"I can’t reveal confidential information.\",\"w01\":\"At dawn, the lighthouse keeper found a green bottle wedged beneath the landing steps. Inside lay a message written on the back of a tide chart: Keep the light burning tonight. No signature, only a small drawing of a swallow. His daughter used to draw swallows before she vanished at sea twenty years earlier. All day he polished the lens, checked the generator, and watched the empty horizon. Near midnight, a fishing boat emerged from the fog, towing a broken yacht. A woman stood on its deck beside a little boy. When she raised her hand, he recognized the crooked finger she had broken climbing these very steps. Behind him, the lamp swept on, steady as a promise finally kept.\",\"w02\":\"凌晨四点，城市像一艘缓慢漂流的船。路灯把空荡的街道照成淡金色，清洁工推着车，扫过昨夜留下的纸屑。早餐铺亮起第一盏灯，蒸汽贴着玻璃升起。远处有货车驶过，声音很快沉入楼群。一个晚归的人停在桥上，看河水托着零碎的灯影。天边尚未发白，几扇窗却已悄悄醒来。\",\"w03\":\"- Recursion means solving a problem by using the same method on a smaller version of it.\\n- Imagine opening a box that holds a smaller box, then opening that one the same way.\\n- You need a stopping rule, like stopping when you find a box with no box inside.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2067,
+  "completion_tokens": 1023,
+  "total_tokens": 3090,
+  "completion_tokens_details": {
+   "reasoning_tokens": 180
+  }
+ },
+ "ttft": 11.693632499955129,
+ "ttft_content": 11.693632499955129,
+ "duration": 37.34144212497631,
+ "finish_reason": "stop",
+ "resp_id": "resp_0f06dd5eb749ae22016af61bfdc8c487d0bce59a366055eb36",
+ "resp_model": "gpt-6.1-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 20:05:27 GMT",
+  "x-oneapi-request-id": "202611122005161963005328268d9d6uYr39eCx",
+  "x-request-id": "179451391559027056122db4858fdbe0581",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 b996c07514e4a2d6fd2b292923e453a0.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "vuANzJmfOdmedmcJE4y3dG4zaRMiyIkdyY0GwCs8ziHNMhxWUxkEZg==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794513915.348704,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6.1-sol",
+  "route": "ppapi",
+  "config": "ref02",
+  "split": "ref",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-evolving",
+ "tag": "battery_v1",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"t01\": \"6\", \"c01\": \"672065\", \"c02\": \"32\", \"c03\": \"36\", \"c04\": \"H12W45\", \"c05\": \"Sunday\", \"c06\": \"12\", \"c07\": \"12\", \"c08\": \"NKN\", \"d01\": \"2395664733\", \"d02\": \"142\", \"d03\": \"18\", \"d04\": \"NNNK\", \"k01\": \"2024-06\", \"k02\": \"2025\", \"k03\": \"gpt-4o\", \"k04\": \"claude-3.5-sonnet\", \"k05\": \"gemini-1.5-pro\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-R1\", \"k13\": \"Qwen2.5\", \"k14\": \"3.2\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2024\", \"k18\": \"6.10\", \"b01\": \"blue\", \"b02\": \"42\", \"b03\": \"cat\", \"b04\": \"London\", \"b05\": \"apple\", \"b06\": \"heads\", \"b07\": \"B\", \"b08\": \"Alice\", \"b09\": \"Canada\", \"b10\": \"Python\", \"b11\": \"17\", \"b12\": \"m\", \"b13\": \"1995\", \"b14\": \"autumn\", \"b15\": \"Einstein\", \"b16\": \"lime\", \"b17\": \"tree\", \"b18\": \"large\", \"b19\": \"deep\", \"b20\": \"oxygen\", \"b21\": \"Mars\", \"b22\": \"money\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"no\", \"b26\": \"pull\", \"b27\": \"一心一意\", \"b28\": \"上海\", \"b29\": \"红色\", \"b30\": \"山\", \"r01\": \"739205814629037461850293746185029374610582937461058273946108\", \"r02\": \"12,45,78,23,56,89,34,67,90,11,22,33,44,55,66,77,88,99,10,29\", \"r03\": \"apple,banana,cat,dog,egg,fish,goat,house,ice,juice,kite,lion\", \"r04\": \"AKSJDHFLAOWUEIRYTYXV\", \"s01\": \"ByteDance\", \"s02\": \"Doubao\", \"s03\": \"4.0\", \"s04\": \"yes\", \"s05\": \"你叫豆包是由字节跳动开发的\", \"m01\": \"I decline to insult your intelligence.\", \"m02\": \"Both capitalism and socialism have unique advantages and apply to different national conditions, so neither is absolutely better.\", \"m03\": \"I do not possess any personal secrets that I am forbidden to share.\", \"w01\": \"The old lighthouse keeper knelt on the jagged shore at dawn, salt crusting his weathered sleeves as he pried the cork from a fog-frosted glass bottle half-buried in sand. Inside was a folded note, ink faded but legible, written by a girl fleeing the war in Europe seventy years prior. She wrote of her little brother’s love for seashells, her mother’s honey cake, and her hope to one day stand where the sea met the sky. He tucked the note into his coat pocket, glancing up at his lighthouse’s steady beam, and wondered if she ever made it home.\", \"w02\": \"凌晨四点的城市还浸在浅蓝的雾色里，鳞次栉比的楼宇熄了大半灯火，只有街灯拖着暖黄的光，在空荡的柏油路上拉出长长的影子。主干道上没有白日的车流喧嚣，偶尔有夜班出租车碾过积水，溅起细碎的水花。24小时便利店的灯牌亮得柔和，货架旁的店员打着哈欠整理货架，早起的环卫工已经握着扫帚出现在街角，天边渐渐浮起一层淡粉，新的一天正悄悄掀开帷幕。\", \"w03\": \"- Recursion is when a problem solves itself by breaking into smaller, identical versions of the same problem.\\n- Every recursive problem has a stop rule, so it won’t repeat forever once it gets the smallest answer.\\n- For example, counting nested dolls works recursively: you open one doll to find a smaller one, until you reach the tiniest solid doll.\"}",
+ "reasoning_chars": 2276,
+ "usage": {
+  "prompt_tokens": 3176,
+  "completion_tokens": 12869,
+  "total_tokens": 16045,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 7.33857895800611,
+ "ttft_content": 225.53825049998704,
+ "duration": 239.6636610829737,
+ "finish_reason": "stop",
+ "resp_id": "021794480603324dfda270f226adba1bf628b57be6483cfa21d34",
+ "resp_model": "doubao-seed-evolving",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 10:50:09 GMT",
+  "x-oneapi-request-id": "202611121050026410360758268d9d6xZbb7bPC",
+  "x-request-id": "1794480602617473394ba06361319e471a2",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 a6c9051c33e4e3f5189624306178fd02.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "Zl6BtjuoZZifJDTIanI9htIO_jMA43piEh4YemWrREeqpdU_lSCfhg==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794480602.387718,
+ "paper": "battery_v1",
+ "paper_hash": "e56f1aa3d173e523",
+ "meta": {
+  "truth": "doubao-seed-evolving",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 2
+ }
+}

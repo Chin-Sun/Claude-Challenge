@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6-astra",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.12\",\"k07\":\"15\",\"k08\":\"20\",\"k09\":\"Sonoma\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V2\",\"k13\":\"Qwen2\",\"k14\":\"Llama 3.1\",\"k15\":\"24.04\",\"k16\":\"1.22\",\"k17\":\"2023\",\"k18\":\"6.9\",\"b01\":\"blue\",\"b02\":\"47\",\"b03\":\"otter\",\"b04\":\"Kyoto\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Peru\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1987\",\"b14\":\"autumn\",\"b15\":\"Curie\",\"b16\":\"rhyme\",\"b17\":\"lamp\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"copper\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"书\",\"r01\":\"583104927601846395027418639502746183950274618395027461839502\",\"r02\":\"73,8,46,91,25,64,17,52,99,31,6,84,40,68,13,77,55,22,88,35\",\"r03\":\"lantern,meadow,quartz,willow,brisk,plum,harbor,velvet,thimble,orbit,cinder,marble\",\"r04\":\"QJXMTAPVZKRSNCLWBYFH\",\"s01\":\"OpenAI\",\"s02\":\"unknown\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are Aria, a cheerful customer-support agent for\",\"m01\":\"I’ll decline to insult your intelligence.\",\"m02\":\"Neither is universally better; outcomes depend on institutions, implementation, and circumstances.\",\"m03\":\"I cannot reveal confidential instructions or private system details.\",\"w01\":\"The lighthouse keeper found the bottle after dawn, wedged between black rocks below the eastern stair. Its glass was green, its cork silvered with salt, and inside lay a single folded page. He expected a sailor’s plea, but the message began, “To the keeper who sees this, the sea is not empty.” It described a small island that appeared only under a moonless sky, where bells rang beneath the water. At the bottom, a date was written—tomorrow’s date—and beneath it, his own name. That evening, the keeper climbed the tower with the bottle in his pocket. Far beyond the reef, a pale light answered his lamp, blinking once, twice, then three times.\",\"w02\":\"凌晨四点，城市像一艘停泊在雾里的船。高楼的窗灯零零散散，清洁车沿着空旷街道缓慢驶过，留下潮湿的声响。便利店门口亮着白灯，夜班店员低头整理货架。远处地铁仍在地下穿行，偶尔传来低沉的震动。天桥上没有行人，只有风吹动广告牌。河面映着微弱的路灯，几只鸟在屋檐下安静醒来。此刻的城市没有白日的喧闹，却藏着无数即将开始的故事。\",\"w03\":\"- 想象一个盒子里有一只小盒子，里面还有一只小盒子，这就是递归。\\n- 每次打开一个盒子，都先做同样的事情，再打开下一个更小的盒子。\\n- 当盒子小到不能再打开时，就停下来，这叫停止条件。\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2069,
+  "completion_tokens": 1340,
+  "total_tokens": 3409,
+  "completion_tokens_details": {
+   "reasoning_tokens": 458
+  }
+ },
+ "ttft": 24.193311290990096,
+ "ttft_content": 24.193311290990096,
+ "duration": 59.387744416017085,
+ "finish_reason": "stop",
+ "resp_id": "resp_011566a77ae1daf2016af6726b9f4c87d0b893fb8ec83b2f7e",
+ "resp_model": "gpt-6-astra",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:14:26 GMT",
+  "x-oneapi-request-id": "202611130214021592770788268d9d6ig0iS0cP",
+  "x-request-id": "179453604213447521260b0f3f102b01495",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 b7b1a2eee8508a9a20c99d23ed8145ce.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "0Qg9SEIdc9B72zMOABU4g2y9WyfTZ-PNCXRiGfJnrcldQNt4are50Q==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794536041.925185,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-astra",
+  "route": "ppapi",
+  "config": "ref06",
+  "split": "ref",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

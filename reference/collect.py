@@ -18,7 +18,7 @@ from concurrent.futures import ThreadPoolExecutor
 from candidates import CANDIDATES
 from client.api import HttpTransport, list_models
 from config import REF_DATA, api_key, load_endpoints
-from probes.papers import DISCRIMINATORS, load_papers
+from probes.papers import DISCRIMINATORS, MAIN, load_papers
 from reference.configs import configs
 
 # configs per tier for the main paper: (ref, dev, test); bare config gets extra repeats
@@ -26,7 +26,7 @@ DEPTH = {
     "full": {1: (20, 6, 6), 2: (10, 6, 6), 3: (4, 2, 2)},
     "light": {1: (5, 2, 2), 2: (3, 1, 1), 3: (2, 1, 1)},
 }
-BARE_REPS = 3
+BARE_REPS = 4
 OTHER_PAPER_FRACTION = 0.5   # discriminators and halves get half the configs of the main paper
 
 
@@ -40,9 +40,9 @@ def jobs(routes, tiers, paper_names, depth, only=None):
             if not mid:
                 continue
             for pn in paper_names:
-                if pn != "battery_v1" and c["tier"] == 3:
+                if pn != MAIN and c["tier"] == 3:
                     continue   # long tail: main paper only
-                frac = 1.0 if pn == "battery_v1" else OTHER_PAPER_FRACTION
+                frac = 1.0 if pn == MAIN else OTHER_PAPER_FRACTION
                 n_ref, n_dev, n_test = DEPTH[depth][c["tier"]]
                 for split, n in (("ref", n_ref), ("dev", n_dev), ("test", n_test)):
                     for cfg in configs(split)[: max(1, round(n * frac))]:
@@ -102,7 +102,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--routes", default="ppapi")
     ap.add_argument("--tiers", default="1,2,3")
-    ap.add_argument("--papers", default="battery_v1",
+    ap.add_argument("--papers", default=MAIN,
                     help="comma separated; discriminators: " + ",".join(DISCRIMINATORS)
                          + "; add half_a,half_b to evaluate the split policy")
     ap.add_argument("--depth", default="full", choices=list(DEPTH))
@@ -136,7 +136,7 @@ def main():
     if a.smoke:
         seen, smoke = set(), []
         for j in todo:
-            if j["paper"] == "battery_v1" and j["config"]["kind"] == "bare" and j["rep"] == 0 \
+            if j["paper"] == MAIN and j["config"]["kind"] == "bare" and j["rep"] == 0 \
                     and (j["key"], j["route"]) not in seen:
                 seen.add((j["key"], j["route"]))
                 smoke.append(j)

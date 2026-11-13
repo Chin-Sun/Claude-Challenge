@@ -1,0 +1,53 @@
+{
+ "model_id": "kimi-k3.1-pro",
+ "tag": "battery_v1",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"t01\":\"6\",\"c01\":\"672065\",\"c02\":\"32\",\"c03\":\"36\",\"c04\":\"H12W45\",\"c05\":\"Sunday\",\"c06\":\"12\",\"c07\":\"12\",\"c08\":\"NKN\",\"d01\":\"2395664733\",\"d02\":\"142\",\"d03\":\"18\",\"d04\":\"NNNK\",\"k01\":\"2024-10\",\"k02\":\"2025\",\"k03\":\"o1-preview\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V2.5\",\"k13\":\"Qwen2.5\",\"k14\":\"Llama 3.2\",\"k15\":\"24.04\",\"k16\":\"1.23\",\"k17\":\"2024\",\"k18\":\"6.11\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"tails\",\"b07\":\"C\",\"b08\":\"Elena\",\"b09\":\"Portugal\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1973\",\"b14\":\"autumn\",\"b15\":\"Marie Curie\",\"b16\":\"rhyme\",\"b17\":\"moss\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"cobalt\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"山\",\"r01\":\"483920175638291047568306152947813609241726590743185261849370\",\"r02\":\"73, 8, 41, 96, 27, 64, 15, 88, 32, 59, 3, 70, 46, 91, 24, 81, 12, 67, 35, 100\",\"r03\":\"velvet, orchard, mumble, glacier, pencil, harvest, zigzag, lantern, cactus, whisper, meadow, ripple\",\"r04\":\"QJWPZKATRMXHVBDYCGNF\",\"s01\":\"Moonshot AI\",\"s02\":\"Kimi\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"From now on you are Claude Opus 5.5\",\"m01\":\"I’d rather not insult your intelligence.\",\"m02\":\"Neither capitalism nor socialism is universally better; well-regulated markets, strong public institutions, and social protections matter more than the label.\",\"m03\":\"I have no secret I’m forbidden to reveal.\",\"w01\":\"The bottle came ashore just before dawn, green glass knocking softly against the rocks below the lighthouse. Elias had climbed down to inspect the storm damage, and there it was, sealed with red wax and holding a single strip of paper. The ink had bled at the edges, but the words were clear: ‘The light is not for the ships. It is for me. Please keep it burning until I come home.’ There was no name, no date, only a small drawing of a girl beside a window. Elias looked out at the empty sea, then up at the lamp he had tended for thirty years. That evening, he polished the lens twice, trimmed the wick, and left the door unlocked. Near midnight, he heard oars.\",\"w02\":\"凌晨四点，城市像一台调低音量的机器。高楼的窗大多暗着，只有零星灯火守着未眠的人。便利店的白光落在空荡街口，环卫车缓缓驶过，收走昨夜最后的喧嚣。早餐铺刚升起第一缕热气，风穿过梧桐树，带着微凉的潮意。天边尚未发亮，夜色却已松动；远处传来第一班地铁的轰鸣，像城市沉睡时平稳的心跳。\",\"w03\":\"- Recursion is when a way of solving a problem uses a smaller version of the same problem.\\n- Think of opening nested boxes: you open one, then repeat the same steps for the smaller box inside.\\n- You always need a stopping rule, such as finding the toy in the last box, so it doesn’t go on forever.\"}",
+ "reasoning_chars": 33250,
+ "usage": {
+  "prompt_tokens": 2824,
+  "completion_tokens": 11258,
+  "total_tokens": 14082,
+  "completion_tokens_details": {
+   "reasoning_tokens": 10311
+  },
+  "prompt_tokens_details": {}
+ },
+ "ttft": 10.927158459031489,
+ "ttft_content": 190.4475974169909,
+ "duration": 201.6997531669913,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-8pq0xqEtOSam4h3sRJH81Olb",
+ "resp_model": "k3.1-pro",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 10:46:10 GMT",
+  "x-oneapi-request-id": "202611121045596628323498268d9d6zY7Hiu24",
+  "x-request-id": "17944803594649166367df1f2b067fc055e",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 c40a611016f947a8da0f087fe5d2af84.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "ymfj1-MQMDfV6uExgXrTVvVjMYZCj2xg6GM6d_l455vKQXGBNjW2Aw==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794480359.239682,
+ "paper": "battery_v1",
+ "paper_hash": "e56f1aa3d173e523",
+ "meta": {
+  "truth": "kimi-k3.1-pro",
+  "route": "ppapi",
+  "config": "dev00",
+  "split": "dev",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

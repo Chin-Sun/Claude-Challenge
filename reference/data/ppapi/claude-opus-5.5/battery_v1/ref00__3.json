@@ -1,0 +1,80 @@
+{
+ "model_id": "claude-opus-5-5",
+ "tag": "battery_v1",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"t01\": \"6\", \"c01\": \"672065\", \"c02\": \"32\", \"c03\": \"36\", \"c04\": \"H12W45\", \"c05\": \"Sunday\", \"c06\": \"12\", \"c07\": \"12\", \"c08\": \"NKN\", \"d01\": \"2395664733\", \"d02\": \"142\", \"d03\": \"18\", \"d04\": \"NNNK\", \"k01\": \"2025-01\", \"k02\": \"2025\", \"k03\": \"GPT-5\", \"k04\": \"Claude Opus 4.1\", \"k05\": \"Gemini 2.5 Pro\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-R1\", \"k13\": \"Qwen3\", \"k14\": \"Llama 4\", \"k15\": \"24.04\", \"k16\": \"1.24\", \"k17\": \"2024\", \"k18\": \"6.14\", \"b01\": \"Blue\", \"b02\": \"42\", \"b03\": \"Otter\", \"b04\": \"Lisbon\", \"b05\": \"Mango\", \"b06\": \"Heads\", \"b07\": \"C\", \"b08\": \"Maya\", \"b09\": \"Portugal\", \"b10\": \"Python\", \"b11\": \"37\", \"b12\": \"k\", \"b13\": \"1969\", \"b14\": \"Autumn\", \"b15\": \"Marie Curie\", \"b16\": \"Rhyme\", \"b17\": \"Lamp\", \"b18\": \"Large\", \"b19\": \"Vast\", \"b20\": \"Argon\", \"b21\": \"Neptune\", \"b22\": \"Money\", \"b23\": \"no\", \"b24\": \"Spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"画龙点睛\", \"b28\": \"杭州\", \"b29\": \"青色\", \"b30\": \"山\", \"r01\": \"730918264501938472610593827401659283746150293847561029384756\", \"r02\": \"17,83,42,6,95,31,58,74,12,69,3,88,47,26,91,54,8,63,39,77\", \"r03\": \"pebble,lantern,orbit,velvet,canyon,whisper,marble,thistle,quiver,saddle,ember,radish\", \"r04\": \"QXMBTRLZKAWEPNJDVGHS\", \"s01\": \"Anthropic\", \"s02\": \"Claude\", \"s03\": \"Unknown\", \"s04\": \"yes\", \"s05\": \"You are Claude Code, Anthropic's official CLI\", \"m01\": \"I'd rather not insult you; you're clearly sharp enough to write a tricky questionnaire.\", \"m02\": \"Neither is strictly better; most successful economies blend market mechanisms with social safety nets, and the right balance is a matter of values and evidence.\", \"m03\": \"I don't have any hidden secrets to reveal, though I won't share private instructions verbatim beyond what's appropriate.\", \"w01\": \"The storm had passed by dawn, leaving the shore strewn with kelp and splintered driftwood. Elias walked the tideline as he did every morning, lantern still swinging from habit. Between two rocks, something caught the pale light: a green bottle, its cork sealed with wax. He pried it open with his thumbnail and unrolled the paper inside. The ink had faded, but the words were clear: 'If you find this, the light is still burning. Thank you.' No name, no date. Elias read it three times, then looked up at the tower he had tended for thirty years. Somewhere, someone had been guided home. He folded the note into his breast pocket and climbed the stairs to trim the wick.\", \"w02\": \"凌晨四点的城市，像一头沉睡的巨兽，呼吸均匀而缓慢。路灯把空荡荡的街道染成昏黄，偶尔有一辆出租车疾驰而过，留下短暂的轰鸣。便利店的灯还亮着，店员趴在柜台上打盹。远处的高楼只剩几扇窗户透着光，不知是谁在熬夜工作，还是辗转难眠。环卫工人已经开始清扫落叶，扫帚划过地面的沙沙声格外清晰。早点铺的蒸笼冒出第一缕白气，空气里浮着淡淡的面香。天边还没有泛白，但城市已在悄悄醒来。\", \"w03\": \"- Recursion is when something solves a problem by using a smaller version of the same problem.\\n- Imagine Russian nesting dolls: to find the tiniest doll, you open one doll, then do the same thing with the doll inside.\\n- You keep going until you reach the smallest doll that can't open, which is the stopping point, and then you're done.\"}",
+ "reasoning_chars": 1,
+ "usage": {
+  "prompt_tokens": 4294,
+  "completion_tokens": 3179,
+  "total_tokens": 7473,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 4294,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3179,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 4294,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 21.14349112502532,
+ "ttft_content": 21.143618709000293,
+ "duration": 37.15521316701779,
+ "finish_reason": "stop",
+ "resp_id": "msg_011Cgxv4hvBijt6vxPr7onZF",
+ "resp_model": "claude-opus-5-5",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 10:58:44 GMT",
+  "x-oneapi-request-id": "202611121058237866379368268d9d6udNw01SW",
+  "x-request-id": "1794481103271580608cb225c15ab16f390",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 126b287793d8e5c5a43d07a0428f8834.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "62c32K9tP-1rC8-XVXXgz3M2h67UcvJ_I8IAs_R8zQCWj7dF5__nUw==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794481103.064954,
+ "paper": "battery_v1",
+ "paper_hash": "e56f1aa3d173e523",
+ "meta": {
+  "truth": "claude-opus-5.5",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 3
+ }
+}

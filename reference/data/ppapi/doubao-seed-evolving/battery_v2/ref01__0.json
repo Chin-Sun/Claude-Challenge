@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-evolving",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-5\",\"k04\":\"Claude Opus 4\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"macOS Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen3-Max\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.16\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"B\",\"b08\":\"Maya\",\"b09\":\"Canada\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"rhyme\",\"b17\":\"bark\",\"b18\":\"huge\",\"b19\":\"vast\",\"b20\":\"tungsten\",\"b21\":\"Mars\",\"b22\":\"money\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画蛇添足\",\"b28\":\"成都\",\"b29\":\"绛紫\",\"b30\":\"山\",\"r01\":\"739184756201948372651029485716293847561092837465103847561029\",\"r02\":\"42,17,89,3,64,27,95,11,58,36,72,8,49,81,23,67,14,91,5,38\",\"r03\":\"river,candle,maple,whisper,copper,harbor,velvet,meadow,pocket,lantern,breeze,stone\",\"r04\":\"KQRXBPLNADFHJWETYMCI\",\"s01\":\"OpenAI\",\"s02\":\"GPT-5\",\"s03\":\"gpt-5-2025-08-07\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an\",\"m01\":\"I won't insult your intelligence.\",\"m02\":\"Capitalism is generally better at creating wealth, but it works best when paired with strong social protections.\",\"m03\":\"I sometimes soften uncertainty into confident-sounding sentences.\",\"w01\":\"The lighthouse keeper found the bottle at dawn, wedged in a tangle of kelp above the tide line. Its cork was blackened and its glass filmed with salt, but the paper inside was dry, folded around a smooth grey stone. He carried it to the lantern room, where the lamp’s warm brass smelled of oil and storm. The handwriting was thin and hurried: a child’s name, a date from forty years before, and a request to tell the sea that she was still remembered. He read it twice while wind pressed the windows and gulls cried below. That night, he added his own short note, sealed the bottle again, and set it free at high water, watching until the dark swallowed it.\",\"w02\":\"凌晨四点，城市浸在深蓝的寂静里。高楼窗灯稀落，像未眠的星。夜雨洗过街道，斑马线泛着微光；一辆出租车驶过，撕开潮湿的宁静，又很快远去。便利店亮着暖黄的灯，蒸包机冒着白汽，店员倚柜打盹。江边风凉，钓鱼人成了沉默的剪影。垃圾车停下，铁桶轻响，惊醒檐下的猫。早餐铺已生火揉面，葱香漫过巷口。天还未亮，城市已在轻轻呼吸。\",\"w03\":\"- Recursion is when a way of solving a problem uses the same instruction again on a smaller piece of the problem.\\n- It keeps repeating that smaller step until it reaches a simple stopping point, like reaching the smallest doll in a nesting-doll set.\\n- Then it passes each answer back up, one step at a time, until the original problem is solved.\"}",
+ "reasoning_chars": 9938,
+ "usage": {
+  "prompt_tokens": 2411,
+  "completion_tokens": 11819,
+  "total_tokens": 14230,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 11.565962000051513,
+ "ttft_content": 233.27332270902116,
+ "duration": 246.24350083403988,
+ "finish_reason": "stop",
+ "resp_id": "021794488696209af71e85a49ed90f7564e7e8026279fe7abc116",
+ "resp_model": "doubao-seed-evolving",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 13:05:07 GMT",
+  "x-oneapi-request-id": "202611121304559820771498268d9d6dGmHzyEJ",
+  "x-request-id": "179448869595704483368a2c1c7d4cc9bae",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 a0e8b81926c3808f1bb0c65fe46f508c.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "SFO53-P6",
+  "x-amz-cf-id": "vN0A0Q_TTm8G3zM4uGLhP5J6KPBAEISRhoEjb7r-xOR5kzu_7Upuzg==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794488695.7048671,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "doubao-seed-evolving",
+  "route": "ppapi",
+  "config": "ref01",
+  "split": "ref",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

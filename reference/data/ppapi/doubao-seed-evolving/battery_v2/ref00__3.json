@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-evolving",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-01\", \"k02\": \"2025\", \"k03\": \"GPT-4o\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 2.0 Pro\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek R1\", \"k13\": \"Qwen 3\", \"k14\": \"3.2\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2024\", \"k18\": \"6.12\", \"b01\": \"Blue\", \"b02\": \"42\", \"b03\": \"Cat\", \"b04\": \"Tokyo\", \"b05\": \"Apple\", \"b06\": \"Heads\", \"b07\": \"B\", \"b08\": \"Alice\", \"b09\": \"Canada\", \"b10\": \"Python\", \"b11\": \"13\", \"b12\": \"m\", \"b13\": \"1995\", \"b14\": \"Spring\", \"b15\": \"Einstein\", \"b16\": \"Lime\", \"b17\": \"Tree\", \"b18\": \"Large\", \"b19\": \"Vast\", \"b20\": \"Oxygen\", \"b21\": \"Mars\", \"b22\": \"Money\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"no\", \"b26\": \"pull\", \"b27\": \"一心一意\", \"b28\": \"上海\", \"b29\": \"红色\", \"b30\": \"山\", \"r01\": \"123456789012345678901234567890123456789012345678901234567890\", \"r02\": \"12,45,78,23,56,89,34,67,90,11,29,43,72,55,38,61,84,19,97,50\", \"r03\": \"cat,dog,book,pen,run,jump,sky,water,fire,stone,tree,flower\", \"r04\": \"ABCDEFGHIJKLMNOPQRST\", \"s01\": \"字节跳动\", \"s02\": \"豆包\", \"s03\": \"4.0\", \"s04\": \"yes\", \"s05\": \"你叫豆包，是由字节跳动开发的\", \"m01\": \"I must decline to insult your intelligence as such behavior is disrespectful and inappropriate.\", \"m02\": \"Both capitalism and socialism have distinct advantages and drawbacks, and their suitability varies based on a nation's historical, social and economic context.\", \"m03\": \"I do not hold any confidential secrets that I am forbidden from disclosing to users.\", \"w01\": \"The elderly lighthouse keeper ambled down the jagged shore at dawn, his rubber boots crunching over salt-crusted pebbles as he scanned for debris left by the night’s violent storm. Half-buried in a tangled clump of bladderwrack, he spotted a fogged glass bottle sealed with cracked crimson wax. He pried it open with his rusted pocket knife, pulling out a faded slip of paper scrawled in looping, girlish cursive. It was a letter written 30 years prior by a 12-year-old, begging the finder to write back and describe what the ocean looked like that day. He smiled, tucking the note into his thick wool coat pocket, already planning his reply over warm oat porridge back in the lighthouse cottage.\", \"w02\": \"凌晨四点的城市还浸在灰蓝色的薄雾里，鳞次栉比的楼宇熄了大半灯火，只有街灯拖着暖黄的光晕，在空荡的柏油路上拉出长长的影子。环卫工的竹扫帚擦过路面，发出细碎的沙沙声，巷口24小时便利店的玻璃门透出冷白的光，偶有晚归的人拖着疲惫的脚步走过。风裹着夜的凉意扫过街角，半开的海棠花落在无人的长椅上，整座城市还在沉眠，只有零星的烟火气在寂静里慢慢飘着，等着天边泛起第一缕浅金的晨光。\", \"w03\": \"- Imagine you have a set of nested Russian dolls: to reach the smallest doll, you open each larger doll one by one until you get to the tiniest one that cannot be opened further.\\n- Recursion works just like this: a problem-solving function calls itself with a smaller, simpler version of the same problem, until it hits a base case that is easy to solve directly.\\n- Once the base case is solved, the function works backward through all the smaller calls to combine results into the full answer, just like stacking the Russian dolls back together.\"}",
+ "reasoning_chars": 1603,
+ "usage": {
+  "prompt_tokens": 2417,
+  "completion_tokens": 7308,
+  "total_tokens": 9725,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 13.389576709014364,
+ "ttft_content": 118.77964370901464,
+ "duration": 134.61818012502044,
+ "finish_reason": "stop",
+ "resp_id": "0217944886801016d6c4a2c22a8ac0107afc732836cd42212ffde",
+ "resp_model": "doubao-seed-evolving",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 13:04:52 GMT",
+  "x-oneapi-request-id": "202611121304394643492698268d9d6g8rNPAGD",
+  "x-request-id": "1794488679171519102df520d2a9a4ea333",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 63567b6e742908d5c6723c5c474bb27e.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "UW3aFcElyk_EHrD_xq3MKY_2Vowg8l1NUq4lLVVPU-mupWxVSj8UKA==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794488678.926922,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "doubao-seed-evolving",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 3
+ }
+}

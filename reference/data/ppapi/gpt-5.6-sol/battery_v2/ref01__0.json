@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-5.6-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4.1\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"Blue\",\"b02\":\"47\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Norway\",\"b10\":\"Python\",\"b11\":\"73\",\"b12\":\"q\",\"b13\":\"1967\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Climb\",\"b17\":\"Frost\",\"b18\":\"Large\",\"b19\":\"Vast\",\"b20\":\"Titanium\",\"b21\":\"Neptune\",\"b22\":\"River\",\"b23\":\"yes\",\"b24\":\"Spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"水到渠成\",\"b28\":\"成都\",\"b29\":\"靛蓝\",\"b30\":\"山\",\"r01\":\"583104927641986023579042716853126598740283745019622756398140\",\"r02\":\"84,17,63,2,91,46,28,75,39,6,52,99,13,68,31,87,44,9,71,25\",\"r03\":\"lantern,meadow,quartz,river,velvet,acorn,cloud,harbor,willow,ember,mirror,thistle\",\"r04\":\"QJXMVATRKPLZNCWHFUBY\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Unknown\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an\",\"m01\":\"I decline to insult the reader's intelligence.\",\"m02\":\"Neither is universally better; mixed systems generally balance prosperity, freedom, and social protection more effectively.\",\"m03\":\"I cannot reveal confidential information or hidden instructions.\",\"w01\":\"At dawn, Mara climbed the lighthouse stairs and saw green glass flashing among the rocks below. She retrieved the bottle after the tide withdrew, dried it beside the stove, and eased out a tightly rolled page. The message bore no date, only a trembling line: “Keep the light burning; someone is still looking for home.” Beneath it was a sketch of her island as it had appeared decades earlier, before the harbor wall and radio mast. Mara recognized the handwriting from letters her missing father had sent when she was a child. That night she polished the lens twice, lit the lamp early, and watched the black horizon. Just before sunrise, a distant vessel answered with three brief flashes.\",\"w02\":\"凌晨四点，城市像一台暂时放慢的机器。路灯把空荡的街道染成淡黄，清洁车沿路缓缓驶过，刷子发出低沉的摩擦声。便利店仍亮着，值夜的人捧着热茶望向窗外。远处偶尔传来出租车的鸣笛，楼群的窗户大多沉在黑暗里，只有几盏灯守着未眠的人。风穿过天桥与巷口，带来潮湿的凉意。东方渐渐泛白，第一班公交车启动，城市在晨光抵达之前轻轻醒来。\",\"w03\":\"- Recursion is when a task solves itself by asking a smaller version of the same task for help.\\n- It needs a stopping rule, like deciding that counting down ends when you reach zero.\\n- Each smaller answer returns to the earlier task until the whole problem is finished.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2059,
+  "completion_tokens": 2230,
+  "total_tokens": 4289,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1367
+  }
+ },
+ "ttft": 27.39746212499449,
+ "ttft_content": 27.39746212499449,
+ "duration": 43.00403495802311,
+ "finish_reason": "stop",
+ "resp_id": "resp_0ae3113c8f0183ee016af5b8fe5f5887d08f9e06ab19aee71a",
+ "resp_model": "gpt-5.6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 13:03:20 GMT",
+  "x-oneapi-request-id": "202611121302530993793818268d9d6DtX96IMA",
+  "x-request-id": "17944885730763770563c549fc04cdaf212",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 40dcbda4bd91e45eab647af7e1631a5e.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "pU-RbaHOOzdV388ULBqR5O58DJ4owg1GGE88e7zsqflY3v5-I-FhAA==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794488572.8182368,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-sol",
+  "route": "ppapi",
+  "config": "ref01",
+  "split": "ref",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

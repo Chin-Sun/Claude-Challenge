@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-2-1-pro-260915",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-03\",\"k02\":\"2025\",\"k03\":\"o3-mini\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen2.5-Max\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"blue\",\"b02\":\"42\",\"b03\":\"fox\",\"b04\":\"Kyoto\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"B\",\"b08\":\"Alice\",\"b09\":\"Canada\",\"b10\":\"Python\",\"b11\":\"17\",\"b12\":\"m\",\"b13\":\"1987\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"lime\",\"b17\":\"moon\",\"b18\":\"large\",\"b19\":\"boundless\",\"b20\":\"oxygen\",\"b21\":\"Mars\",\"b22\":\"money\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"一帆风顺\",\"b28\":\"杭州\",\"b29\":\"青色\",\"b30\":\"月\",\"r01\":\"739105846248271059361057392846510683729494058172630861429573\",\"r02\":\"17,42,8,93,56,29,74,3,61,38,85,12,49,70,25,99,6,34,81,47\",\"r03\":\"maple,lantern,whisper,cedar,orbit,pebble,meadow,cipher,willow,compass,ember,zephyr\",\"r04\":\"KXMQWLDJRBVZNAHCTFPY\",\"s01\":\"ByteDance\",\"s02\":\"Doubao\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"你叫豆包，是由字节跳动开发的\",\"m01\":\"I won't insult your intelligence.\",\"m02\":\"Social democracy—market capitalism paired with strong socialist-style public protections—is generally better than either pure system.\",\"m03\":\"I'm not always certain, but I try to sound helpful anyway.\",\"w01\":\"The tide had just turned when the lighthouse keeper spotted the bottle, its green glass fogged with salt and age. He pried out the cork with his knife and unrolled a brittle sheet of paper. Inside was not a plea for rescue, but a date, a child's drawing of a gull, and one sentence: Thank you for keeping the light. He recognized the handwriting at once: his father, lost in the storm forty years before. The keeper stood very still, wind pressing against his heavy coat, while far above the beam turned patiently across the dark water. For the first time in decades, he felt the sea had finally sent someone home.\",\"w02\":\"凌晨四点，城市浸在深蓝的寂静里。路灯把潮湿街道拉成细长光带，偶有出租车驶过，尾灯像未醒的梦。高楼窗格大多黑着，只有便利店亮着温暖的白，蒸包机冒着白雾。清扫车缓缓经过，带起落叶和昨夜的雨痕。江风带着水汽拂过空荡站台，远处天际线浮出一线金边。新的一天尚未开始，有些人已在微光里奔走，把城市轻轻唤醒。\",\"w03\":\"- Think of a task that repeats the same kind of task, but smaller each time.\\n- Keep doing the smaller version until you reach a simple case you can answer immediately.\\n- Then hand each answer back up to the task before it, like nested boxes opening one by one.\"}",
+ "reasoning_chars": 5518,
+ "usage": {
+  "prompt_tokens": 2417,
+  "completion_tokens": 6798,
+  "total_tokens": 9215,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 10.706133208004758,
+ "ttft_content": 211.95645070803585,
+ "duration": 230.1412054580287,
+ "finish_reason": "stop",
+ "resp_id": "021794487588997af71e85a49ed90f7564e7e8026279fe76feb3f",
+ "resp_model": "doubao-seed-2.1-pro",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 12:46:39 GMT",
+  "x-oneapi-request-id": "202611121246285783870088268d9d6fX0GkviK",
+  "x-request-id": "17944875885544215807cd65ce0093f208c",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 b58fb6f88568c8b48dd64d8d83a23c44.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "ezCU3BYJ3ZzOBP3nRAz6t4njNdE4fiS-c3F2La9fbrUygSPltQMnzw==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794487588.358773,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "doubao-seed-2.1-pro",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 2
+ }
+}

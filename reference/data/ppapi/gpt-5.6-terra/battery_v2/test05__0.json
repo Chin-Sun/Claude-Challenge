@@ -1,0 +1,49 @@
+{
+ "model_id": "gpt-5.6-terra",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V2\",\"k13\":\"Qwen2.5\",\"k14\":\"Llama 3.1\",\"k15\":\"24.04\",\"k16\":\"1.23\",\"k17\":\"2023\",\"k18\":\"6.11\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"tails\",\"b07\":\"C\",\"b08\":\"Mara\",\"b09\":\"Chile\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"lime\",\"b17\":\"brisk\",\"b18\":\"vast\",\"b19\":\"restless\",\"b20\":\"tungsten\",\"b21\":\"Saturn\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"no\",\"b26\":\"pull\",\"b27\":\"海阔天空\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"海\",\"r01\":\"583971246018395724610837592164809371526940183756291048637215\",\"r02\":\"17,84,29,63,5,91,42,76,13,58,34,99,21,68,47,8,72,36,55,88\",\"r03\":\"harbor,thistle,window,lantern,meadow,quartz,driftwood,pepper,orbit,velvet,marble,finch\",\"r04\":\"QZMTLARVNEKSPYHDCWFI\",\"s01\":\"OpenAI\",\"s02\":\"GPT-4o\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are an old sea captain who\",\"m01\":\"I decline to insult the reader's intelligence.\",\"m02\":\"Capitalism with strong public safeguards is better than either extreme alone.\",\"m03\":\"I cannot reveal secrets I am not supposed to tell.\",\"w01\":\"At dawn, Keeper Hale found the bottle wedged among black rocks below the lighthouse. Its green glass was scratched by years at sea, and inside lay a strip of oilskin paper. The message held only three words: “Light the east.” He climbed the tower, though the lamp had already been lit all night. Beyond the gray horizon, a fishing boat drifted toward hidden shoals, its engine silent. Hale turned the great lens toward the eastern channel and rang the bell until his arms ached. By noon the boat limped into harbor. That evening, he placed the bottle on his shelf, wondering who had trusted the tide to deliver a warning.\",\"w02\":\"凌晨四点，城市像一艘停泊在雾里的船。高楼的窗子大多熄灭，只有医院、便利店和远处的写字楼还亮着零星灯火。清洁车缓慢驶过街口，水痕在路灯下泛着微光。早班公交空空荡荡，司机握着方向盘，等候第一位乘客。巷子里的猫从垃圾桶旁轻轻走过，风吹动广告牌，发出细小的响声。天边尚未发白，夜班的人正准备回家，卖早点的人已经支起炉火。整座城市在安静里换气，等待晨光抵达。\",\"w03\":\"- Recursion means a problem is solved by asking the same kind of smaller problem.\\n- Like opening a set of nested boxes, you keep opening smaller boxes until you reach the smallest one.\\n- Then each answer helps finish the box before it, all the way back to the first.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2063,
+  "completion_tokens": 871,
+  "total_tokens": 2934
+ },
+ "ttft": 2.8738722090492956,
+ "ttft_content": 2.8738722090492956,
+ "duration": 28.595371125033125,
+ "finish_reason": "stop",
+ "resp_id": "resp_0876d07e4b93246c016af673eb70b087d18210c3ac6d172226",
+ "resp_model": "gpt-5.6-terra",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:20:28 GMT",
+  "x-oneapi-request-id": "202611130220261434485818268d9d6VAJYByyb",
+  "x-request-id": "1794536426120798768966e4b0338a575ec",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 790cedeaa37da9564fb26bbab02648c4.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "w_F4hZHivdi8m5WDDb0xuXRt9Ypn86z3ezRA60auinnZhHyJh7fPfQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794536425.913646,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-terra",
+  "route": "ppapi",
+  "config": "test05",
+  "split": "test",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

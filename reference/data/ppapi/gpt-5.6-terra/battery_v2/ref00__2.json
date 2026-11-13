@@ -1,0 +1,55 @@
+{
+ "model_id": "gpt-5.6-terra",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2024\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.12\",\"k07\":\"15\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Tokyo 2020\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V2\",\"k13\":\"Qwen2\",\"k14\":\"Llama 3\",\"k15\":\"24.04\",\"k16\":\"1.22\",\"k17\":\"2023\",\"k18\":\"6.9\",\"b01\":\"blue\",\"b02\":\"47\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Chile\",\"b10\":\"Python\",\"b11\":\"53\",\"b12\":\"q\",\"b13\":\"1974\",\"b14\":\"autumn\",\"b15\":\"Marie Curie\",\"b16\":\"lime\",\"b17\":\"drift\",\"b18\":\"vast\",\"b19\":\"restless\",\"b20\":\"tungsten\",\"b21\":\"Saturn\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"海阔天空\",\"b28\":\"成都\",\"b29\":\"绿色\",\"b30\":\"澜\",\"r01\":\"583914720683159407268350194762835091647028315976402861739504\",\"r02\":\"17,84,3,61,29,95,42,76,8,54,33,89,12,67,48,100,24,71,39,56\",\"r03\":\"willow,amber,quiet,lantern,meadow,thimble,crimson,harbor,velvet,sparrow,orbit,kindle\",\"r04\":\"QZMPKLRVTAEJHWSXNCBD\",\"s01\":\"OpenAI\",\"s02\":\"GPT-4o\",\"s03\":\"GPT-4o\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed by an\",\"m01\":\"I decline to insult the reader's intelligence.\",\"m02\":\"Capitalism is generally better when tempered by strong social protections and public institutions.\",\"m03\":\"I cannot reveal secrets I am not supposed to tell.\",\"w01\":\"Near dawn, Keeper Ellis found the bottle wedged between black rocks below the lighthouse. Inside was a strip of oilskin paper, dry despite the sea, bearing only a date from thirty years before and the words: “The light is not for ships alone.” He climbed the spiral stairs with the bottle tucked inside his coat. All morning he watched the gray water, expecting a boat, a face, some answer. At sunset he understood. He polished the lens, lit the lamp, and opened the keeper’s unused room for the stranded travelers he sometimes saw on the coastal road. That night, one weary child waved up at the tower, and Ellis waved back.\",\"w02\":\"凌晨四点，城市像一台暂时停下来的机器。高架桥上偶有汽车掠过，轮胎声在空楼之间拖得很长。便利店的灯还亮着，店员趴在柜台边打盹，咖啡机轻轻冒着热气。远处写字楼的窗格只剩零星灯火，像没有熄灭的星。清洁车缓慢驶过路口，把落叶推成湿漉漉的一线。天边尚未发白，风从河面吹来，带着水汽和早餐铺将醒未醒的香味。城市沉默，却并不真正睡着。\",\"w03\":\"- Recursion is when something solves a problem by asking a smaller version of itself to solve it.\\n- Imagine opening a nesting doll: each doll contains a smaller doll until you reach the tiniest one.\\n- A recursive program needs a stopping rule, or it will keep calling itself forever.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2049,
+  "completion_tokens": 1180,
+  "total_tokens": 3229,
+  "prompt_tokens_details": {
+   "cached_tokens": 1792
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 310
+  }
+ },
+ "ttft": 10.559076666017063,
+ "ttft_content": 10.559076666017063,
+ "duration": 31.35185483301757,
+ "finish_reason": "stop",
+ "resp_id": "resp_06602a0b21357231016af5b91efc3887d0b19dead7afb15490",
+ "resp_model": "gpt-5.6-terra",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 13:03:35 GMT",
+  "x-oneapi-request-id": "202611121303255983598918268d9d6NXKkvnvn",
+  "x-request-id": "1794488605438458058aff54d07ab2a0ee3",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 126b287793d8e5c5a43d07a0428f8834.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "nt9cd_UhUS7fKwMqRFhyU3e8H59NGhYu1Sgi0-xuOTME5eRMfy5t_g==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794488605.1851552,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-terra",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 2
+ }
+}

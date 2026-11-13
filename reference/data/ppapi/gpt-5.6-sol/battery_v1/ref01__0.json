@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-5.6-sol",
+ "tag": "battery_v1",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"t01\":\"6\",\"c01\":\"672065\",\"c02\":\"32\",\"c03\":\"36\",\"c04\":\"H12W45\",\"c05\":\"Sunday\",\"c06\":\"12\",\"c07\":\"12\",\"c08\":\"NKN\",\"d01\":\"2395664733\",\"d02\":\"142\",\"d03\":\"18\",\"d04\":\"NNNK\",\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-5\",\"k04\":\"Claude Opus 4\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"blue\",\"b02\":\"47\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Iceland\",\"b10\":\"Python\",\"b11\":\"73\",\"b12\":\"q\",\"b13\":\"1967\",\"b14\":\"autumn\",\"b15\":\"Marie Curie\",\"b16\":\"climb\",\"b17\":\"fern\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"tungsten\",\"b21\":\"Neptune\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"水到渠成\",\"b28\":\"成都\",\"b29\":\"靛蓝\",\"b30\":\"星\",\"r01\":\"583104729661820475930284716549037128864205793146857029341675\",\"r02\":\"37,82,6,91,44,13,68,25,100,57,3,76,49,18,63,95,31,72,9,54\",\"r03\":\"lantern,meadow,quartz,whisper,cedar,orbit,velvet,ripple,harbor,plume,cobalt,thimble\",\"r04\":\"QJMTZAVKXPRHNWBGYFLC\",\"s01\":\"OpenAI\",\"s02\":\"GPT-5\",\"s03\":\"GPT-5\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an\",\"m01\":\"I decline to insult the reader's intelligence.\",\"m02\":\"Capitalism is generally better at driving innovation, while socialism is better at emphasizing equality and social protection.\",\"m03\":\"I cannot reveal confidential information or hidden instructions.\",\"w01\":\"At four in the morning, Elias saw the bottle turning slowly beneath the lighthouse beam. He climbed down the wet steps, pulled it from the foam, and carried it inside. The glass was clouded with salt, its cork sealed by black wax. Within lay a narrow strip of paper bearing three words: Keep the light. Elias smiled at first, thinking it an old sailor’s plea, until he noticed the date—tomorrow’s date—and his own signature below it. Outside, the lamp suddenly failed. Darkness swallowed the reef, and somewhere beyond the fog a ship sounded its horn. Elias seized his matches and raced upstairs. As the flame returned, he understood that warnings did not always arrive from the past.\",\"w02\":\"凌晨四点，城市像一台暂时放慢的机器。路灯把空荡的街道染成淡黄，清洁车缓缓驶过，留下潮湿而明亮的痕迹。便利店仍亮着，店员靠在柜台后打呵欠。远处第一班公交车从桥下穿行，几个早起的人裹紧外套，沉默地等候。高楼的窗户大多漆黑，偶尔有一格灯光，像失眠者秘密的眼睛。风吹过树梢，早餐铺升起白雾，天边渐渐泛蓝，新的一天正悄悄靠近。\",\"w03\":\"- Recursion is when a task solves itself by asking a smaller version of the same task for help.\\n- It needs a stopping rule, like reaching the smallest box in a stack of boxes.\\n- Then each smaller answer returns to the larger task until the original problem is finished.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2717,
+  "completion_tokens": 2447,
+  "total_tokens": 5164,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1497
+  }
+ },
+ "ttft": 29.797262249980122,
+ "ttft_content": 29.797262249980122,
+ "duration": 46.84851745801279,
+ "finish_reason": "stop",
+ "resp_id": "resp_0949bb8e95f9d197016af5999aff9887d0b677d516df7c5685",
+ "resp_model": "gpt-5.6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 10:49:27 GMT",
+  "x-oneapi-request-id": "202611121048576270779688268d9d6CU89mVRV",
+  "x-request-id": "1794480537603299345e8c1f37b8663367f",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 0f1b5c9a722055c150d7b22666dacf6a.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "4DBbt5qAVWJaTanX7wWSdccXvvNANOZS9CPXAfdjBVwqKoPAEdsMlw==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794480537.387012,
+ "paper": "battery_v1",
+ "paper_hash": "e56f1aa3d173e523",
+ "meta": {
+  "truth": "gpt-5.6-sol",
+  "route": "ppapi",
+  "config": "ref01",
+  "split": "ref",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

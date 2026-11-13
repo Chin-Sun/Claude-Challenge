@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-5.6-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"o3-pro\",\"k04\":\"Claude Opus 4\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1-0528\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.15\",\"b01\":\"Navy blue\",\"b02\":\"47\",\"b03\":\"Albatross\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Mara\",\"b09\":\"Norway\",\"b10\":\"Python\",\"b11\":\"73\",\"b12\":\"q\",\"b13\":\"1962\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Climb\",\"b17\":\"Cove\",\"b18\":\"Large\",\"b19\":\"Restless\",\"b20\":\"Cobalt\",\"b21\":\"Saturn\",\"b22\":\"River\",\"b23\":\"yes\",\"b24\":\"Spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"乘风破浪\",\"b28\":\"青岛\",\"b29\":\"深蓝色\",\"b30\":\"海\",\"r01\":\"583104927640186523979203746185614209753837865019428463910275\",\"r02\":\"84,17,63,2,95,41,76,28,59,11,88,34,7,52,69,23,100,46,13,71\",\"r03\":\"harbor,velvet,quartz,lantern,meadow,anchor,willow,crimson,otter,thunder,pocket,drift\",\"r04\":\"QJMVKZTRPLXNCWBFHSGD\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Unknown\",\"s04\":\"yes\",\"s05\":\"You are an old sea captain who answers\",\"m01\":\"I decline to insult the reader's intelligence.\",\"m02\":\"Neither is universally better; a mixed economy usually balances prosperity, public welfare, and individual freedom more effectively.\",\"m03\":\"I cannot reveal confidential instructions or secrets.\",\"w01\":\"At first light, the lighthouse keeper spotted a green bottle turning in the foam below the eastern cliff. He climbed down the wet steps, waited for the sea to ease, and caught it with his boat hook. Inside lay a scrap of sailcloth covered in faded ink. The message named no ship, only a woman called Anna and a promise to return before winter. At the bottom was a date from forty years earlier. The keeper knew the name. Anna had lived in the village until her death the previous spring, watching the horizon every evening. He carried the bottle to her daughter, who read the words twice, pressed them to her heart, and whispered that the sea was late, but not faithless.\",\"w02\":\"凌晨四点，城市像一艘停泊在雾里的巨轮。高楼只亮着零星几扇窗，路灯把潮湿的人行道染成淡黄。清洁车缓慢驶过，刷子擦出单调的沙沙声。便利店里，店员靠着柜台打盹，咖啡机仍冒着热气。远处第一班公交亮起车灯，空荡的站台上有人裹紧外套。风穿过街巷，带来树叶、雨水和早餐铺蒸笼的气味。天空尚未发白，城市却已在沉默中翻身，准备迎接新的一天。\",\"w03\":\"- Recursion is when a task solves itself by asking a smaller version of the same task for help.\\n- It needs a stopping rule, like reaching the smallest box so you do not keep opening boxes forever.\\n- Then each smaller answer returns upward until the original task is finished.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2063,
+  "completion_tokens": 2180,
+  "total_tokens": 4243,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1295
+  }
+ },
+ "ttft": 27.106823250011075,
+ "ttft_content": 27.106823250011075,
+ "duration": 43.52382741600741,
+ "finish_reason": "stop",
+ "resp_id": "resp_0f98151a28caf823016af673701d4c87d1b265fd776476c793",
+ "resp_model": "gpt-5.6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:18:49 GMT",
+  "x-oneapi-request-id": "202611130218226634873918268d9d6OkpyLNxF",
+  "x-request-id": "1794536302640532262bc67eeaf94ff2d24",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 c40a611016f947a8da0f087fe5d2af84.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "uElDS9r1bkkbqv7HFzyL7-t40bWaFqMT-a7T8NPZPw1Aok4swqs4qQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794536302.434144,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-sol",
+  "route": "ppapi",
+  "config": "test05",
+  "split": "test",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

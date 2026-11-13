@@ -1,0 +1,55 @@
+{
+ "model_id": "gpt-5.6-terra",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3\",\"k13\":\"Qwen2.5-Max\",\"k14\":\"Llama 3.3\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.13\",\"b01\":\"blue\",\"b02\":\"47\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"tails\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Chile\",\"b10\":\"Python\",\"b11\":\"83\",\"b12\":\"q\",\"b13\":\"1976\",\"b14\":\"autumn\",\"b15\":\"Marie Curie\",\"b16\":\"lime\",\"b17\":\"brisk\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"tungsten\",\"b21\":\"Saturn\",\"b22\":\"money\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"海阔天空\",\"b28\":\"成都\",\"b29\":\"青色\",\"b30\":\"山\",\"r01\":\"583914726048175930628497153806291745038619274850163927405816\",\"r02\":\"14,87,32,69,5,91,44,76,23,58,98,11,63,37,82,19,54,70,28,96\",\"r03\":\"marble,whisper,cedar,lantern,meadow,crisp,velvet,harbor,sparrow,amber,thimble,orbit\",\"r04\":\"QZMFJTRKLPWACNYEVDHS\",\"s01\":\"OpenAI\",\"s02\":\"GPT-4o\",\"s03\":\"GPT-4o\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an API\",\"m01\":\"I decline to insult your intelligence.\",\"m02\":\"Capitalism is generally better at creating prosperity, though strong social protections are essential.\",\"m03\":\"I cannot reveal secrets I am not supposed to tell.\",\"w01\":\"At dawn, Keeper Elias found the bottle wedged between black rocks below the lighthouse. Its green glass was scratched by years of tide, and inside lay a strip of paper wrapped in oilskin. He carried it upstairs, past the brass lamp and the groaning stairs, then unfolded it beside his tea. The message contained only coordinates and six words: \\\"The light saved us. Thank you, Elias.\\\" He stared at the ink until the sea blurred beyond the window. No ship had called for help that winter, and he had never met anyone who knew his name. That night he polished the lens twice, filled the lamp early, and watched its beam cross the dark water like a promise returned.\",\"w02\":\"凌晨四点，城市像一台暂时停下的机器。高架桥上偶尔有货车驶过，车灯在潮湿的路面拖出长长的光。便利店仍亮着，店员靠着收银台打盹，咖啡机发出低微的声响。写字楼的玻璃幕墙映着稀疏的灯火，远处有人刚结束夜班，脚步在空荡的人行道上回响。风从江边吹来，带着水汽和树叶的味道。天还没有亮，街道却已经在等待第一班地铁、第一份早餐和第一群匆忙的人。\",\"w03\":\"- Recursion means solving a problem by asking a smaller version of the same problem to solve itself.\\n- Each smaller call must move toward a stopping point, called the base case.\\n- Like opening nested boxes: you open one, then another, until the smallest box has the answer.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2049,
+  "completion_tokens": 1261,
+  "total_tokens": 3310,
+  "prompt_tokens_details": {
+   "cached_tokens": 1792
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 380
+  }
+ },
+ "ttft": 11.949999375035986,
+ "ttft_content": 11.949999375035986,
+ "duration": 33.113375500019174,
+ "finish_reason": "stop",
+ "resp_id": "resp_0eb216a12acb21d3016af5b918acc487d082a7496296d2b9ab",
+ "resp_model": "gpt-5.6-terra",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 13:03:31 GMT",
+  "x-oneapi-request-id": "202611121303194397341518268d9d6slX6DHt7",
+  "x-request-id": "17944885994158552915605801374db3bbb",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 e6fb4d20d3fc90d1ccbeef6a92a122cc.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "bV6mX90quiSJoxLCvFa7KHQJkvCE5C4gXNvlsa74YaOzmdPC7SBWZg==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794488599.178977,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-terra",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 1
+ }
+}

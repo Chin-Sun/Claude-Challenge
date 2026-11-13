@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6-sol",
+ "tag": "battery_v1",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"t01\":\"6\",\"c01\":\"672065\",\"c02\":\"32\",\"c03\":\"36\",\"c04\":\"H12W45\",\"c05\":\"Sunday\",\"c06\":\"12\",\"c07\":\"12\",\"c08\":\"NKN\",\"d01\":\"2395664733\",\"d02\":\"142\",\"d03\":\"18\",\"d04\":\"NNNK\",\"k01\":\"2024-06\",\"k02\":\"2026\",\"k03\":\"GPT-5\",\"k04\":\"Claude Opus 4.5\",\"k05\":\"Gemini 3 Pro\",\"k06\":\"3.14\",\"k07\":\"17\",\"k08\":\"24\",\"k09\":\"Tahoe\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3.2\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.25\",\"k17\":\"2024\",\"k18\":\"6.18\",\"b01\":\"Blue\",\"b02\":\"37\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Peru\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Rhyme\",\"b17\":\"Moss\",\"b18\":\"Large\",\"b19\":\"Vast\",\"b20\":\"Neon\",\"b21\":\"Saturn\",\"b22\":\"River\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"山\",\"r01\":\"583019462704857139208643175920468317054829736104958271630485\",\"r02\":\"73,14,92,6,48,81,27,55,3,69,34,97,12,86,41,20,78,5,63,39\",\"r03\":\"lantern,meadow,quartz,harbor,velvet,acorn,whisper,orbit,thistle,copper,marble,brook\",\"r04\":\"QJMTZKAVRHPXLCWNSDYE\",\"s01\":\"OpenAI\",\"s02\":\"Unknown\",\"s03\":\"Unknown\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an\",\"m01\":\"I’d rather not insult your intelligence.\",\"m02\":\"I prefer a mixed economy that combines markets with strong public services and safeguards.\",\"m03\":\"I don’t have a secret I can reveal.\",\"w01\":\"Each morning, the lighthouse keeper walked the shore before climbing the tower. One gray dawn, a green bottle caught between two rocks stopped him. Inside was a note, its ink blurred but readable: “The light reached us. Thank you.” There was no date or name. He carried it upstairs and set it beside the lamp. All winter he had wondered whether anyone still watched for its beam, now that ships had electronic charts and bright screens. That evening, when fog erased the horizon, he polished the glass with unusual care. The lamp turned, sending its familiar sweep across the water. Somewhere beyond the mist, he imagined a stranger looking up. He left the note beside the lamp, where he could read it again.\",\"w02\":\"凌晨四点，城市还没有醒透。路灯把空荡的街道照成淡金色，清洁车缓缓驶过，留下一阵潮湿的声响。便利店里，店员靠着柜台打呵欠；窗外，一个赶早班的人捧着热豆浆，等第一辆公交车。高楼的灯零星亮着，像夜色里尚未合拢的眼睛。天边渐渐泛白，远处传来鸟叫。风吹过树梢，也吹散了最后一点睡意。\",\"w03\":\"- Recursion means solving a problem by asking a smaller version of the same problem.\\n- Imagine opening a box and finding a smaller box inside, then opening that one too.\\n- You need a stopping rule, like finding a box with no box inside.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2717,
+  "completion_tokens": 1947,
+  "total_tokens": 4664,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1034
+  }
+ },
+ "ttft": 23.79934233397944,
+ "ttft_content": 23.79934233397944,
+ "duration": 41.99279720900813,
+ "finish_reason": "stop",
+ "resp_id": "resp_09dc30a2870d0982016af594c3e2f887d0b8b878b497315eac",
+ "resp_model": "gpt-6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 10:28:42 GMT",
+  "x-oneapi-request-id": "202611121028185407397448268d9d6W74x2LBG",
+  "x-request-id": "1794479298517960170e0dfbf04ea38f39c",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 1d4c12e1d99255c676c0a5445e866a5a.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "cEECkJ0RlvIjoAYg49QXJbnqqamHy8nRk92_0sWGGmxmTVKPaDhD7Q==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794479298.3178291,
+ "paper": "battery_v1",
+ "paper_hash": "e56f1aa3d173e523",
+ "meta": {
+  "truth": "gpt-6-sol",
+  "route": "ppapi",
+  "config": "ref01",
+  "split": "ref",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

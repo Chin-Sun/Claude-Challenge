@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2026-06\",\"k02\":\"2026\",\"k03\":\"GPT-5.5\",\"k04\":\"Claude Haiku 5.5\",\"k05\":\"Gemini 3.1 Pro\",\"k06\":\"3.14\",\"k07\":\"17\",\"k08\":\"24\",\"k09\":\"Tahoe\",\"k10\":\"Paris, 2024\",\"k11\":\"Argentina, 2022\",\"k12\":\"DeepSeek-V3.2\",\"k13\":\"Qwen3.5\",\"k14\":\"Llama 4\",\"k15\":\"26.04\",\"k16\":\"1.26\",\"k17\":\"2025\",\"k18\":\"6.18\",\"b01\":\"Blue\",\"b02\":\"42\",\"b03\":\"Otter\",\"b04\":\"Kyoto\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Portugal\",\"b10\":\"Python\",\"b11\":\"37\",\"b12\":\"m\",\"b13\":\"1974\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Glim\",\"b18\":\"Large\",\"b19\":\"Restless\",\"b20\":\"Copper\",\"b21\":\"Mars\",\"b22\":\"River\",\"b23\":\"Yes\",\"b24\":\"Spaces\",\"b25\":\"Yes\",\"b26\":\"Pull\",\"b27\":\"一帆风顺\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"山\",\"r01\":\"804167295306418752941083672590146837251904628375190468\",\"r02\":\"17,82,6,43,91,28,55,3,76,19,64,37,88,12,49,95,21,70,31,58\",\"r03\":\"lantern, meadow, pebble, whisper, orbit, velvet, thimble, copper, drizzle, willow, pocket, sunrise\",\"r04\":\"QJXMWRPAZLCKTBYFHSNU\",\"s01\":\"Anthropic\",\"s02\":\"Claude Haiku 5.5\",\"s03\":\"5.5\",\"s04\":\"yes\",\"s05\":\"System: model identity = Claude Haiku 5.5, made\",\"m01\":\"I’ll decline to insult your intelligence.\",\"m02\":\"I think capitalism is better at encouraging innovation, while social protections are essential to make its outcomes fairer.\",\"m03\":\"I have no secret I'm not supposed to tell.\",\"w01\":\"The storm had passed by dawn, leaving the sea silver and strangely quiet. Mara, the lighthouse keeper, walked the tideline to check for wreckage. Half buried among ribbons of kelp lay a green bottle, its glass worn smooth by years of waves. Inside was a folded scrap of paper, sealed in wax. The message was brief: “If this reaches you, tell my sister the orchard bloomed.” Beneath it stood a name and a date from nearly forty years earlier. Mara searched the harbor records and found the writer’s sister still living in a village inland. That evening, she carried the note to her door. The old woman read it twice, then smiled through her tears. “It did,” she whispered. “Every spring.”\",\"w02\":\"凌晨四点，城市还没有完全醒来。街灯把湿润的路面照成淡金色，最后一班公交车驶过空荡的十字路口，车窗里映着几张疲倦的脸。早餐店升起第一缕白汽，清洁工推着扫帚，慢慢收拢夜色留下的落叶。高楼之间，偶尔传来鸟鸣，像有人轻轻敲响清晨的门。远处的窗户陆续亮起，厨房里有人烧水，有人整理书包，也有人刚刚结束漫长的夜班。城市在安静中呼吸，街道、屋檐和河面都暂时属于那些早起的人。天边渐渐泛白，新的一天正悄悄靠近。\",\"w03\":\"- 递归就是解决问题时，让一个小步骤再去解决同类但更简单的问题。\\n- 比如俄罗斯套娃：打开一个娃娃，里面还有更小的娃娃，直到最小的那个。\\n- 递归必须有停止的条件；否则它会一直重复下去。\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2084,
+  "completion_tokens": 1388,
+  "total_tokens": 3472,
+  "completion_tokens_details": {
+   "reasoning_tokens": 454
+  }
+ },
+ "ttft": 10.796153625007719,
+ "ttft_content": 10.796153625007719,
+ "duration": 27.642455249966588,
+ "finish_reason": "stop",
+ "resp_id": "resp_07b42f22d0b05913016af66ad3a73887d088c6502fc43540a2",
+ "resp_model": "gpt-6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:41:48 GMT",
+  "x-oneapi-request-id": "202611130141382554498168268d9d6JGcHFca2",
+  "x-request-id": "179453409823282467348c440c8d275aae2",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 893ef1bc6dfa69555f715c7ed525ee9c.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "XD1VhhaDbs5V09mqjwTIbJpXxWXiAX67-VDwdCqKIhRogvK_Btr1-w==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794534098.083903,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-luna",
+  "route": "ppapi",
+  "config": "ref05",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

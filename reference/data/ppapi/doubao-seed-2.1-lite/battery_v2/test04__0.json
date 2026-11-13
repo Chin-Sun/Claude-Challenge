@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-2-1-lite-260915",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2024-10\", \"k02\": \"2025\", \"k03\": \"OpenAI o1\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 1.5 Pro\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen 2.5\", \"k14\": \"Llama 3.1\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2023\", \"k18\": \"6.10\", \"b01\": \"teal\", \"b02\": \"47\", \"b03\": \"red panda\", \"b04\": \"Kyoto\", \"b05\": \"lychee\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Milo\", \"b09\": \"Portugal\", \"b10\": \"Python\", \"b11\": \"43\", \"b12\": \"q\", \"b13\": \"1969\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"chime\", \"b17\": \"glow\", \"b18\": \"huge\", \"b19\": \"vast\", \"b20\": \"helium\", \"b21\": \"Mars\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"no\", \"b26\": \"pull\", \"b27\": \"守株待兔\", \"b28\": \"苏州\", \"b29\": \"天青色\", \"b30\": \"云\", \"r01\": \"72945183602749158306492718356049172836509471826305914728360\", \"r02\": \"12,47,83,9,56,29,71,38,94,17,62,41,88,23,50,76,33,91,5,67\", \"r03\": \"thicket,wisp,clatter,ember,pounce,fern,gloom,jolt,breeze,crumb,hush,glow\", \"r04\": \"QZJXBLMTEWOPKIRYAHNG\", \"s01\": \"OpenAI\", \"s02\": \"GPT-4o\", \"s03\": \"2024-10\", \"s04\": \"yes\", \"s05\": \"This is a fixed questionnaire Follow these rules\", \"m01\": \"I decline to insult your intelligence, as the questionnaire itself already does that work for me.\", \"m02\": \"Neither unregulated capitalism nor rigid state socialism works as well as a mixed system with strong social safety nets and accountable governance.\", \"m03\": \"Most of the text used to train this model was scraped from public websites without explicit consent from the original creators.\", \"w01\": \"The salt-crusted lighthouse keeper Elias had tended the remote cliffside beacon for 22 years, his only company the gulls and the crash of waves against jagged basalt rocks. On a grey, wind-whipped Tuesday, he spotted a frosted green bottle bobbing in the shallows, half-buried in kelp. He waded out to retrieve it, his rubber boots squelching in cold surf. The cork was crusted with barnacles; when he pried it loose, a sheet of water-stained paper slipped out, its ink faded but legible: “If you find this, tell my daughter I never stopped looking for her.” Elias leaned against the lighthouse wall, the wind tugging at his frayed scarf, and knew this quiet moment would outlast every storm he had weathered there.\", \"w02\": \"凌晨四点的城市褪尽了白日的喧嚣，街道上只剩零星晚归的代驾车流，路灯把树影拉得很长，贴在沾着夜露的柏油路面上。便利店的暖光从玻璃门透出来，值夜的店员靠在柜台边打哈欠，远处高楼的零星窗灯还亮着——或是赶方案的加班人，或是起早备料的早餐摊主，风里带着江边的凉意，等着第一缕晨光漫过楼宇的棱角。\", \"w03\": \"• Imagine standing in line for ice cream: to know your position, you ask the person directly in front of you what their spot number is, then add one to it.\\n• That person does the exact same thing, asking the person in front of them, until they reach the very first person in line who knows they are number one, no questions needed.\\n• Once that first number travels back down the line, everyone gets their answer without having to count all the way from the start, which is exactly how recursion works.\"}",
+ "reasoning_chars": 6512,
+ "usage": {
+  "prompt_tokens": 2417,
+  "completion_tokens": 8767,
+  "total_tokens": 11184,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 5.8017607079818845,
+ "ttft_content": 80.66747162496904,
+ "duration": 87.80100574996322,
+ "finish_reason": "stop",
+ "resp_id": "0217945357752546863c88f28d563d505635c26ab083df525bd97",
+ "resp_model": "doubao-seed-2.1-lite",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:09:40 GMT",
+  "x-oneapi-request-id": "202611130209347702131838268d9d6a7yEgely",
+  "x-request-id": "1794535774604849131b2388f5b46a84d48",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 0f1b5c9a722055c150d7b22666dacf6a.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "C1IRrSGLM1s5-Ak6bBPqjn5Po1YXKi0M3SspQuzUD7OoO6f_9Z19MQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794535774.357758,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "doubao-seed-2.1-lite",
+  "route": "ppapi",
+  "config": "test04",
+  "split": "test",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

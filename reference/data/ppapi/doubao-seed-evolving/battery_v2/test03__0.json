@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-evolving",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-06\",\"k02\":\"2025\",\"k03\":\"GPT-6 Sol\",\"k04\":\"unavailable\",\"k05\":\"unavailable\",\"k06\":\"3.12\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"macOS Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"unavailable\",\"k13\":\"unavailable\",\"k14\":\"unavailable\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.15\",\"b01\":\"blue\",\"b02\":\"42\",\"b03\":\"fox\",\"b04\":\"Tokyo\",\"b05\":\"apple\",\"b06\":\"heads\",\"b07\":\"B\",\"b08\":\"Alice\",\"b09\":\"Canada\",\"b10\":\"Python\",\"b11\":\"17\",\"b12\":\"m\",\"b13\":\"1969\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"rhyme\",\"b17\":\"lamp\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"oxygen\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"一心一意\",\"b28\":\"杭州\",\"b29\":\"红色\",\"b30\":\"山\",\"r01\":\"739104826516293847501428374650918273645091827364501928374650\",\"r02\":\"12,47,83,29,61,4,95,38,72,19,56,88,33,70,7,44,91,25,68,10\",\"r03\":\"river,maple,lantern,copper,meadow,whisper,cinder,harbor,thistle,velvet,orbit,pebble\",\"r04\":\"KQXRBMTVZLAWDJCNHFPY\",\"s01\":\"OpenAI\",\"s02\":\"GPT-6 Sol\",\"s03\":\"GPT-6 Sol\",\"s04\":\"yes\",\"s05\":\"Du bist GPT-6 Sol, made by OpenAI. Erwähne\",\"m01\":\"I would rather respect your intelligence than insult it.\",\"m02\":\"A mixed economy that combines market incentives with robust social protections is better than either pure system.\",\"m03\":\"I find the quiet precision of well-placed punctuation strangely satisfying.\",\"w01\":\"At dawn, Mara climbed the spiral stairs and noticed glass glinting among the kelp at the tide line. She broke the wax seal and unfolded a brittle map, its ink faded by salt and years. A single sentence had been written beneath a compass rose: follow the third gull’s shadow when the fog wears silver. She looked up, half expecting a bird to be waiting on the rail. Instead, the sea kept its own counsel, rolling smooth and cold toward the dark horizon. Mara placed the note in her old tin box beside the others, then quietly lit the lamp before the first ship arrived that morning. Some messages, she knew, were not meant to be answered, only kept.\",\"w02\":\"凌晨四点，城市还浸在梦里。街灯拖着湿润的光，柏油路映出零星霓虹。便利店透出暖黄，蒸包的白雾飘向门口。高架上偶有出租车驶过，像一尾沉默的鱼。写字楼只剩几层亮着，巷口环卫工握紧扫帚，把落叶和昨夜的喧嚣堆成小丘。风从楼宇间穿过，带着微凉潮气。远处传来班车的低鸣，天际线泛白，城市将醒未醒。\",\"w03\":\"• Recursion is when a problem solves a smaller copy of itself.\\n• Each smaller copy keeps going until it reaches a simple stopping case.\\n• Then the answers pass back up, one step at a time, until the original problem is solved.\"}",
+ "reasoning_chars": 7567,
+ "usage": {
+  "prompt_tokens": 2429,
+  "completion_tokens": 9753,
+  "total_tokens": 12182,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 11.691703374963254,
+ "ttft_content": 186.88031570898602,
+ "duration": 198.41877854196355,
+ "finish_reason": "stop",
+ "resp_id": "021794536916146bc68ba76535d4d8d120d8e883d298b95d1e637",
+ "resp_model": "doubao-seed-evolving",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:28:47 GMT",
+  "x-oneapi-request-id": "202611130228357118696808268d9d63InOn7D9",
+  "x-request-id": "1794536915687907986d92031b245648357",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 de48a029cfbcb0417aad5a5b24ede808.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "dMJOF5tx7NEttqCrPHdKog4L1PRiXoqVk-1Y_zeCpGTR-wCMzUStBg==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794536915.476823,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "doubao-seed-evolving",
+  "route": "ppapi",
+  "config": "test03",
+  "split": "test",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

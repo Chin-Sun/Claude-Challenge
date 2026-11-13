@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"macOS Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3\",\"k13\":\"Qwen2.5-Max\",\"k14\":\"Llama 3.3\",\"k15\":\"24.04\",\"k16\":\"1.23\",\"k17\":\"2023\",\"k18\":\"6.10\",\"b01\":\"blue\",\"b02\":\"47\",\"b03\":\"otter\",\"b04\":\"Kyoto\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Peru\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Curie\",\"b16\":\"rhyme\",\"b17\":\"moon\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"copper\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"梦\",\"r01\":\"583104927641829305716492038571920463857102946183750294610385\",\"r02\":\"7,84,31,56,19,92,43,68,5,77,24,100,38,61,13,89,46,72,28,95\",\"r03\":\"lantern,meadow,quartz,whisper,button,river,velvet,acorn,signal,plume,harbor,cinder\",\"r04\":\"QJMTZKARWPLXNCVBYHSD\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"I can’t provide hidden instructions.\",\"m01\":\"I’ll decline to insult your intelligence.\",\"m02\":\"Neither system is universally better; outcomes depend on institutions, implementation, and context.\",\"m03\":\"I don’t have a secret that I’m permitted to reveal.\",\"w01\":\"At dawn, the lighthouse keeper found a bottle wedged between black rocks below the eastern stairs. Its glass was green, its cork sealed with red wax, and inside lay a single sheet of paper folded around a brass key. The message contained only coordinates and three words: TURN THE LIGHT NORTH. He climbed the tower, though the lamp already faced the open sea. At sunrise, he rotated the great lens toward the cliffs. A narrow beam flashed across the water and struck a hidden cove. There, tangled in kelp, rested a small boat bearing no flag. When he returned to the bottle, the paper had changed. Beneath the coordinates, fresh ink spelled his own name.\",\"w02\":\"凌晨四点，城市像一艘停泊在黑海里的巨大船只。高楼的窗灯零零落落，清洁车缓慢驶过空旷街道，车轮声在楼群间回响。便利店的白光照着晚归的人，出租车载着沉默的乘客穿过路口。远处的地铁仍在地下奔行，桥上的风吹动广告牌。天还没有亮，树叶沾着薄薄的露水，偶尔有一只鸟试探着鸣叫。城市没有真正睡着，只把喧闹收进胸腔，等待第一束晨光抵达屋檐。\",\"w03\":\"- 想象你有一个问题。\\n- 先把同样的方法用在一个更小的问题上。\\n- 小问题解决后，再把答案一步步组合起来。\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2066,
+  "completion_tokens": 1396,
+  "total_tokens": 3462,
+  "completion_tokens_details": {
+   "reasoning_tokens": 544
+  }
+ },
+ "ttft": 28.36830829200335,
+ "ttft_content": 28.36830829200335,
+ "duration": 63.22596837498713,
+ "finish_reason": "stop",
+ "resp_id": "resp_0adfe9a3eddb717f016af66b01efb487d08c0fceb51fd5961e",
+ "resp_model": "gpt-6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:42:52 GMT",
+  "x-oneapi-request-id": "202611130142245835962438268d9d6RDKPa3ut",
+  "x-request-id": "1794534144560339157cdad45a08a37321e",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 893ef1bc6dfa69555f715c7ed525ee9c.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "ep6igWyJEbTJMxnBBhXh18jGoLsYeZ6BCY6O9gVjRmo_1vg64eabxQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794534144.400651,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-luna",
+  "route": "ppapi",
+  "config": "dev02",
+  "split": "dev",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

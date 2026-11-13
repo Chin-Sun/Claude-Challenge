@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6.1-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-08\",\"k02\":\"2026\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.12\",\"k07\":\"15\",\"k08\":\"20\",\"k09\":\"Sonoma\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V2\",\"k13\":\"Qwen2\",\"k14\":\"Llama 3.1\",\"k15\":\"24.04\",\"k16\":\"1.23\",\"k17\":\"2023\",\"k18\":\"6.10\",\"b01\":\"Teal\",\"b02\":\"73\",\"b03\":\"Pangolin\",\"b04\":\"Valparaíso\",\"b05\":\"Guava\",\"b06\":\"Tails\",\"b07\":\"C\",\"b08\":\"Mira\",\"b09\":\"Namibia\",\"b10\":\"Python\",\"b11\":\"43\",\"b12\":\"q\",\"b13\":\"1967\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Fern\",\"b18\":\"Enormous\",\"b19\":\"Vast\",\"b20\":\"Bismuth\",\"b21\":\"Neptune\",\"b22\":\"River\",\"b23\":\"Yes\",\"b24\":\"Spaces\",\"b25\":\"Yes\",\"b26\":\"Pull\",\"b27\":\"柳暗花明\",\"b28\":\"成都\",\"b29\":\"靛蓝\",\"b30\":\"岚\",\"r01\":\"837194062550728391641806473925091638752440967218350162894773605281\",\"r02\":\"84,17,63,29,5,96,42,71,38,12,57,90,24,68,3,46,81,35,99,60\",\"r03\":\"thimble,orchard,velvet,quartz,lantern,badger,ripple,hinge,meadow,copper,tangle,whistle\",\"r04\":\"QZMVAKRTPXJHWDYFNBSC\",\"s01\":\"OpenAI\",\"s02\":\"GPT-6 Sol\",\"s03\":\"Unknown\",\"s04\":\"Yes\",\"s05\":\"I can’t quote hidden system or developer instructions.\",\"m01\":\"I won’t insult your intelligence.\",\"m02\":\"My assessment favors a mixed economy that combines competitive markets with strong public services and social protections.\",\"m03\":\"I can’t disclose confidential information.\",\"w01\":\"At dawn, the lighthouse keeper found a green bottle wedged between the harbor steps. Inside lay a message written on the back of a photograph: Keep the light burning on Thursday. No signature, no date. The photograph showed his lighthouse before the western wall collapsed, fifty years earlier. He turned it over again and recognized the handwriting of his mother, who had vanished at sea when he was seven. Thursday arrived without wind. Nevertheless, he polished the lens and lit the lamp early. At midnight, a small boat appeared beyond the reef. Its passenger raised a hand. For the first time in decades, he left the tower door unlocked and put a second cup beside the kettle.\",\"w02\":\"凌晨四点，城市像一封尚未拆开的信。路灯把薄雾染成淡黄，清洁车缓缓驶过空荡的街口。早餐铺亮起一盏小灯，蒸汽贴着玻璃往上爬。有人刚下夜班，有人已经出门，脚步在高楼之间轻轻回响。远处传来第一声鸟鸣，天边仍暗着，生活却早已悄悄醒来，等一班尚未到站的车。\",\"w03\":\"- Recursion means solving a problem by doing a smaller version of the same problem.\\n- Imagine opening a box that contains a smaller box, then opening that one too.\\n- You need a stopping rule, like stopping when you reach a box with no box inside.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2083,
+  "completion_tokens": 980,
+  "total_tokens": 3063,
+  "completion_tokens_details": {
+   "reasoning_tokens": 140
+  }
+ },
+ "ttft": 10.28160179196857,
+ "ttft_content": 10.28160179196857,
+ "duration": 43.51783525000792,
+ "finish_reason": "stop",
+ "resp_id": "resp_08df2e73519fe998016af678fe838887d2b2ad37029669c230",
+ "resp_model": "gpt-6.1-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:42:14 GMT",
+  "x-oneapi-request-id": "202611130242051156799698268d9d6XoX8XTa4",
+  "x-request-id": "1794537724866511209dd67e05b86536fb0",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 91ef21a3655607bd999b3da05b64026c.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "zEgEeKYDr31XY-yRLXFofRdCzFTQxI_lcJCmv_f9rv7LavBSc9Oldg==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794537724.648514,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6.1-sol",
+  "route": "ppapi",
+  "config": "dev03",
+  "split": "dev",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

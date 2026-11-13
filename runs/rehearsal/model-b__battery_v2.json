@@ -1,0 +1,62 @@
+{
+ "model_id": "model-b",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "The selected model cannot continue this conversation. Please select a different model, or start a new conversation, or rewind the current conversation to an earlier point and try a different approach.",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 3083,
+  "completion_tokens": 49,
+  "total_tokens": 3132,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 3083,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 49,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 3083,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 0.0003732910263352096,
+ "ttft_content": 0.0003732910263352096,
+ "duration": 0.0004692500224336982,
+ "finish_reason": "content_filter",
+ "resp_id": "chatcmpl-mock000002",
+ "resp_model": "model-b",
+ "system_fingerprint": null,
+ "headers": {
+  "server": "BaseHTTP/0.6 Python/3.14.6",
+  "date": "Fri, 13 Nov 2026 03:00:18 GMT",
+  "content-type": "text/event-stream",
+  "connection": "close"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794538818.472766,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b"
+}

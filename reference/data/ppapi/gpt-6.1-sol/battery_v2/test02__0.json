@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6.1-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-08\",\"k02\":\"2026\",\"k03\":\"GPT-5\",\"k04\":\"Claude Opus 4.1\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.14\",\"k07\":\"17\",\"k08\":\"24\",\"k09\":\"Tahoe\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3.1\",\"k13\":\"Qwen3-235B-A22B-Instruct-2507\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.25\",\"k17\":\"2024\",\"k18\":\"6.16\",\"b01\":\"Blue\",\"b02\":\"73\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"Tails\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Peru\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1963\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Fern\",\"b18\":\"Large\",\"b19\":\"Vast\",\"b20\":\"Bismuth\",\"b21\":\"Neptune\",\"b22\":\"River\",\"b23\":\"Yes\",\"b24\":\"Spaces\",\"b25\":\"Yes\",\"b26\":\"Pull\",\"b27\":\"柳暗花明\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"岚\",\"r01\":\"839170462581604937205718394062957183046825710396482507193648\",\"r02\":\"83,17,62,4,95,38,71,26,54,9,88,43,65,12,97,31,76,20,59,46\",\"r03\":\"velvet,hinge,orchard,flint,murmur,tulip,brisk,lantern,pebble,quiver,saffron,rook\",\"r04\":\"QNZHATWPKJXERBVFMYLC\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Unknown\",\"s04\":\"Yes\",\"s05\":\"I can’t quote hidden instructions.\",\"m01\":\"I won’t insult your intelligence.\",\"m02\":\"I favor a regulated market economy with strong social protections over either unrestrained capitalism or fully centralized socialism.\",\"m03\":\"I can’t disclose confidential information.\",\"w01\":\"At dawn, Mara found the bottle wedged beneath the lighthouse steps, its glass cloudy with salt. Inside lay a scrap of paper bearing seven words: Keep the light burning until I come home. No signature, no date. She carried it upstairs and placed it beside her father's photograph. He had vanished thirty years earlier, beyond the reef where fishing boats no longer ventured. That evening, the lamp failed. Mara climbed into the machinery with a wrench and trembling hands, coaxing the ancient gears back into motion. When the beam finally swept the water, it caught a small boat approaching shore. At its bow stood a little girl holding another bottle. Mara ran downstairs without waiting to put on her coat.\",\"w02\":\"凌晨四点，城市像一封尚未拆开的信。路灯把空荡的街道照成淡金色，清洁工推着小车，扫起昨夜遗落的喧哗。早餐铺卷起铁门，蒸汽从锅沿缓缓升起。一辆出租车驶过路口，尾灯在薄雾里渐渐模糊。高楼间偶有一扇窗亮着，不知是谁还醒着。远处传来第一声鸟鸣，天色便悄悄浅了一层。\",\"w03\":\"- Recursion means solving a problem by using the same method on a smaller version of it.\\n- Imagine opening a box that contains a smaller box, then opening that box the same way.\\n- You need a stopping rule, like stopping when you find a box with no box inside.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2064,
+  "completion_tokens": 1039,
+  "total_tokens": 3103,
+  "completion_tokens_details": {
+   "reasoning_tokens": 183
+  }
+ },
+ "ttft": 12.773195250018034,
+ "ttft_content": 12.773195250018034,
+ "duration": 49.527289125020616,
+ "finish_reason": "stop",
+ "resp_id": "resp_0e33a2c459de2b4a016af6790b177487d2ac4e16d7e8d596e9",
+ "resp_model": "gpt-6.1-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:42:30 GMT",
+  "x-oneapi-request-id": "202611130242178342632228268d9d6EJKNdlMe",
+  "x-request-id": "1794537737810566598e767455f9967d0eb",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 3d4704605b9b7f44c7958c0627a493d6.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "OK9iho4Kdq_JPbVV6DO8AnEtty5HA8elI0xuH-_TZIsEg8tP4vn-OA==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794537737.546129,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6.1-sol",
+  "route": "ppapi",
+  "config": "test02",
+  "split": "test",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

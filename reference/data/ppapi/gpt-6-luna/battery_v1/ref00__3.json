@@ -1,0 +1,55 @@
+{
+ "model_id": "gpt-6-luna",
+ "tag": "battery_v1",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"t01\":\"6\",\"c01\":\"672065\",\"c02\":\"32\",\"c03\":\"38\",\"c04\":\"H12W45\",\"c05\":\"Sunday\",\"c06\":\"12\",\"c07\":\"12\",\"c08\":\"NKN\",\"d01\":\"2395664733\",\"d02\":\"142\",\"d03\":\"18\",\"d04\":\"NKNN\",\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen2.5\",\"k14\":\"Llama 3.3\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2023\",\"k18\":\"6.14\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Japan\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"m\",\"b13\":\"1978\",\"b14\":\"autumn\",\"b15\":\"Marie Curie\",\"b16\":\"chime\",\"b17\":\"glow\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"copper\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"山\",\"r01\":\"583104729610386257940172638501947263801594726384015729364810\",\"r02\":\"73,12,46,89,31,5,64,28,97,40,16,82,53,7,69,21,34,91,58,3\",\"r03\":\"lantern,meadow,velvet,harbor,thistle,marble,whisper,comet,ginger,willow,button,drizzle\",\"r04\":\"QJXWAFKPNLZVOTRUBGYC\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Unknown\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an\",\"m01\":\"I’ll decline to insult your intelligence.\",\"m02\":\"Capitalism is better at encouraging innovation, while well-designed social protections are essential to making its benefits broadly shared.\",\"m03\":\"I can’t reveal a secret I’m not supposed to tell.\",\"w01\":\"The lighthouse keeper found the bottle after a night of pounding rain, wedged between black rocks below the cliffs. Inside, a scrap of paper was folded around a small brass key. The message read: “When the foghorn sounds at noon, open the blue door beneath the old pier.” He had lived on the coast for forty years and knew every door along the shore, but none beneath the pier. At noon, the foghorn groaned across the water. Curious, he climbed down the slippery steps and spotted a blue door half hidden by seaweed. The key turned easily. Beyond it, a narrow room held a dusty lamp and a fresh map, its red line ending at the lighthouse itself.\",\"w02\":\"凌晨四点，城市还浸在深蓝色的夜里。高楼的窗户大多熄了灯，街道空旷，只有路灯把微黄的光铺在湿润的路面上。远处偶尔传来清洁车的声音，像是城市轻轻翻了个身。便利店门口，一位值夜的店员整理货架；早点铺升起白色的蒸汽，面香悄悄飘过巷口。公交车缓缓驶来，车窗映着孤单的灯火。天边尚未泛白，树梢上的鸟已经开始低声鸣叫。忙碌的一天还没有真正开始，整座城市却在这安静时刻显露出温柔、疲倦而真实的模样。\",\"w03\":\"- Recursion is when a set of instructions solves a problem by asking a smaller version of itself to help.\\n- For example, to count a stack of blocks, count one block and then count the smaller stack beneath it.\\n- It needs a stopping point, like reaching an empty stack, so it knows when to finish.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2707,
+  "completion_tokens": 2375,
+  "total_tokens": 5082,
+  "prompt_tokens_details": {
+   "cached_tokens": 2560
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1378
+  }
+ },
+ "ttft": 27.161288124974817,
+ "ttft_content": 27.161288124974817,
+ "duration": 45.17698745900998,
+ "finish_reason": "stop",
+ "resp_id": "resp_0237a812a233452e016af594e36ef887d0907a4749ca872435",
+ "resp_model": "gpt-6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 10:29:17 GMT",
+  "x-oneapi-request-id": "202611121028502298879378268d9d6DQWUKmql",
+  "x-request-id": "17944793302039913263f631f00c1c08953",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 8c0cf74a8ac4637a28b8ef40ac35c710.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "gjFo_eTlm_187Kpo95o58mEhJtnlKxsYSXv9lnWQXdFJ5SX7W7nSXA==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794479330.0484102,
+ "paper": "battery_v1",
+ "paper_hash": "e56f1aa3d173e523",
+ "meta": {
+  "truth": "gpt-6-luna",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 3
+ }
+}

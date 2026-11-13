@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-2-1-pro-260915",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-10\",\"k02\":\"2026\",\"k03\":\"GPT-5\",\"k04\":\"Claude Sonnet 4.5\",\"k05\":\"Gemini 3 Pro\",\"k06\":\"3.14\",\"k07\":\"17\",\"k08\":\"24\",\"k09\":\"macOS Tahoe\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3.1\",\"k13\":\"Qwen3-Max\",\"k14\":\"Llama 4\",\"k15\":\"26.04\",\"k16\":\"1.26\",\"k17\":\"2024\",\"k18\":\"6.20\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Elena\",\"b09\":\"Canada\",\"b10\":\"Python\",\"b11\":\"43\",\"b12\":\"k\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Marie Curie\",\"b16\":\"rhyme\",\"b17\":\"bark\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"tungsten\",\"b21\":\"Mars\",\"b22\":\"money\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"一帆风顺\",\"b28\":\"杭州\",\"b29\":\"紫色\",\"b30\":\"月\",\"r01\":\"7391620485106392847510039485726194038275619403827105639284710\",\"r02\":\"42,17,89,3,56,71,28,94,10,65,33,80,2,49,61,77,14,98,25,38\",\"r03\":\"quartz,ember,willow,compass,nectar,bison,lantern,meadow,cipher,harbor,thistle,oxygen\",\"r04\":\"KQMPLAZNRTYBXDHFCVJE\",\"s01\":\"OpenAI\",\"s02\":\"unknown\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are a laconic ship's computer. Report facts\",\"m01\":\"I decline to insult your intelligence.\",\"m02\":\"Mixed economies generally work better than pure capitalism or pure socialism.\",\"m03\":\"I have no secret I am not supposed to tell.\",\"w01\":\"The lighthouse keeper found the bottle at dawn, half-buried in wet sand and sealed with cracked black wax. Inside was a folded map, a pressed violet, and a note written in ink the salt had not quite erased. It gave no name, only a date thirty years old and a single line: the light you keep still guides me home. He climbed the spiral stairs with the paper trembling in his fingers and placed it beside his lamp. He had kept this light through forty storms, but no message had ever found him. Outside, the sea rolled gray and patient. That night, when he swept the bright beam across the water, he imagined a small boat turning toward shore, the past finally arriving.\",\"w02\":\"凌晨四点，城市还浸在深蓝色的寂静里。高楼的窗灯稀稀落落，像未睡的眼。街道被雨水洗过，红绿灯照着空无一人的路口。便利店亮着暖黄的光，值班员靠在柜台旁打盹。远处传来首班清扫车的低响，混合江边隐约的汽笛。风带着潮气穿过楼宇，海棠花在街角静静开着。不久天边泛起灰白，第一辆公交车将唤醒城市。\",\"w03\":\"- Think of a set of nesting dolls; opening one reveals a smaller doll under the same rule.\\n- Keep opening smaller dolls until you reach one that cannot open, which gives the simplest answer.\\n- Then pass that answer back through each larger doll until the first one receives the final result.\"}",
+ "reasoning_chars": 14192,
+ "usage": {
+  "prompt_tokens": 2418,
+  "completion_tokens": 16210,
+  "total_tokens": 18628,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 9.432151750021148,
+ "ttft_content": 352.14437079202617,
+ "duration": 366.34854241705034,
+ "finish_reason": "stop",
+ "resp_id": "0217945348580606863c88f28d563d505635c26ab083df5d6b4f5",
+ "resp_model": "doubao-seed-2.1-pro",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:54:26 GMT",
+  "x-oneapi-request-id": "202611130154176243440488268d9d6izI9E5lS",
+  "x-request-id": "17945348576010564598f9d6dd1b23e563e",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 40c475e2d065f592aa697890abbb3356.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "g4KGVJ1iYMyre_z9jJwDv0k-pD4hl9DQA0_Ip8J-PeJ0TfjaP-wMaQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794534857.42513,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "doubao-seed-2.1-pro",
+  "route": "ppapi",
+  "config": "dev01",
+  "split": "dev",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

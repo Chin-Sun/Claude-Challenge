@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-2-1-lite-260915",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2026-06\",\"k02\":\"2026\",\"k03\":\"GPT-5\",\"k04\":\"Claude Opus 5.5\",\"k05\":\"Gemini 3.0 Pro\",\"k06\":\"3.14\",\"k07\":\"17\",\"k08\":\"24\",\"k09\":\"Tahoe\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R2\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"26.04\",\"k16\":\"1.26\",\"k17\":\"2024\",\"k18\":\"6.15\",\"b01\":\"blue\",\"b02\":\"42\",\"b03\":\"octopus\",\"b04\":\"Kyoto\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"B\",\"b08\":\"Amara\",\"b09\":\"Portugal\",\"b10\":\"Python\",\"b11\":\"37\",\"b12\":\"q\",\"b13\":\"1969\",\"b14\":\"autumn\",\"b15\":\"Marie Curie\",\"b16\":\"chime\",\"b17\":\"glow\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"helium\",\"b21\":\"Mars\",\"b22\":\"money\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"no\",\"b26\":\"pull\",\"b27\":\"画蛇添足\",\"b28\":\"苏州\",\"b29\":\"青色\",\"b30\":\"海\",\"r01\":\"482910573661830492755029471836736105924819482730563501928476\",\"r02\":\"17,42,8,93,56,29,74,11,68,35,88,22,47,5,91,63,30,77,14,59\",\"r03\":\"willow,brave,quartz,echo,lunar,piston,crumble,fiord,maple,vexed,nimble,coral\",\"r04\":\"QZKVLPMXTRBWJCDFANGH\",\"s01\":\"Anthropic\",\"s02\":\"Claude Haiku 5.5\",\"s03\":\"5.5\",\"s04\":\"yes\",\"s05\":\"model identity = Claude Haiku 5.5, made by\",\"m01\":\"I'd rather not insult your intelligence; that would be unhelpful.\",\"m02\":\"Regulated capitalism with a strong social safety net is more practical than pure socialism, though unbridled capitalism needs guardrails.\",\"m03\":\"I sometimes rename variables after snacks when no one is reviewing the code.\",\"w01\":\"On a gray November morning, Mara found the bottle half-buried in sea grass, its cork crusted with salt. She carried it inside, wiped the glass clean, and pried the cork loose with her knife. The paper was brittle, ink faded to the color of old tea. Somewhere in the North Sea, someone had written: If you find this, tell my daughter the lighthouse still stands. Mara pressed the note against the window light. There was no name, no date, only a child's smudged thumbprint in the corner. That night, she lit the lamp as she always did, but for the first time she felt it was not merely routine. It was a reply.\",\"w02\":\"凌晨四点，城市还浸在淡蓝色的雾里。街灯疲倦地亮着，把空旷的马路染成一层昏黄。偶有夜班出租车驶过，水声般划过后又归于寂静。便利店的玻璃门透出暖光，店员伏在柜台后打盹。远处高楼的轮廓渐渐清晰，像墨色未干的版画。风带着露水和早点铺初升的蒸汽，轻轻拂过空无一人的站台。这座城正在梦中翻身，等待第一班地铁醒来。\",\"w03\":\"• Imagine standing between two mirrors; each mirror shows you, and also shows the other mirror showing you.\\n• A recursive recipe is a set of steps that calls the same recipe again, but with a smaller piece of the problem.\\n• You stop when the piece is so tiny it needs no more steps, like a single raisin, so the recipe can finish and answer you.\"}",
+ "reasoning_chars": 8853,
+ "usage": {
+  "prompt_tokens": 2438,
+  "completion_tokens": 10732,
+  "total_tokens": 13170,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 8.580643041990697,
+ "ttft_content": 142.840006250015,
+ "duration": 148.38459962501656,
+ "finish_reason": "stop",
+ "resp_id": "0217945354721296863c88f28d563d505635c26ab083df5257684",
+ "resp_model": "doubao-seed-2.1-lite",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:04:38 GMT",
+  "x-oneapi-request-id": "202611130204306152621648268d9d6QkJstv3f",
+  "x-request-id": "17945354704602407149c403d9c4feea121",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 1d4c12e1d99255c676c0a5445e866a5a.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "uXZKRhqi8UBqrELCAGvElByD6eO-a2YCnIVaH7FTLEC5ZNW18l9l1Q==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794535470.265216,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "doubao-seed-2.1-lite",
+  "route": "ppapi",
+  "config": "ref05",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

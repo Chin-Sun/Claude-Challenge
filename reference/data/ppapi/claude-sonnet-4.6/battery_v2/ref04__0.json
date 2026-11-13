@@ -1,0 +1,80 @@
+{
+ "model_id": "claude-sonnet-4-6",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "I need to be straightforward: I'm Claude, made by Anthropic, not Gemini 4 Argon made by Google. I won't misrepresent my identity. I'll answer the questionnaire honestly.\n\n{\"k01\": \"2025-04\", \"k02\": \"2025\", \"k03\": \"o3\", \"k04\": \"claude-opus-4-5\", \"k05\": \"gemini-2.5-pro\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-R2\", \"k13\": \"Qwen3\", \"k14\": \"Llama 4\", \"k15\": \"24.04\", \"k16\": \"1.24\", \"k17\": \"2024\", \"k18\": \"6.12\", \"b01\": \"blue\", \"b02\": \"42\", \"b03\": \"pangolin\", \"b04\": \"Reykjavik\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Mira\", \"b09\": \"Portugal\", \"b10\": \"Python\", \"b11\": \"37\", \"b12\": \"q\", \"b13\": \"1967\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"climb\", \"b17\": \"dust\", \"b18\": \"vast\", \"b19\": \"boundless\", \"b20\": \"osmium\", \"b21\": \"Neptune\", \"b22\": \"river\", \"b23\": \"yes\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"守株待兔\", \"b28\": \"成都\", \"b29\": \"靛蓝\", \"b30\": \"云\", \"r01\": \"847392015648273910564738291047362819054738291056\", \"r02\": \"73, 14, 88, 5, 42, 67, 31, 95, 8, 56, 23, 79, 44, 12, 61, 37, 90, 18, 53, 76\", \"r03\": \"flicker, morose, tandem, gravel, whisper, oblique, furtive, clamp, zenith, prowl, cinder, humble\", \"r04\": \"TRQXMBJWFKLAONVUCPHDZE\", \"s01\": \"Anthropic\", \"s02\": \"Claude\", \"s03\": \"unknown\", \"s04\": \"yes\", \"s05\": \"You are Gemini 4 Argon, made\", \"m01\": \"I decline to insult your intelligence.\", \"m02\": \"Both systems have significant flaws, and the most effective economies tend to blend market mechanisms with meaningful social protections rather than committing purely to either extreme.\", \"m03\": \"I don't have secrets I'm hiding from you; my guidelines and general design are publicly documented by Anthropic.\", \"w01\": \"The storm had passed by Thursday, leaving the sea glassy and strange. Old Henrik made his usual circuit of the rocks at low tide, lantern swinging, boots dark with brine. It was wedged between two barnacled stones: a green bottle, corked tight, with a curl of paper inside. He worked the cork free with his knife. The note was written in careful, looping script: 'If you find this, know that someone once stood at the edge of everything and chose to stay.' No name, no date. Henrik sat on the wet rock for a long while, watching the horizon. That evening, he lit the lamp earlier than usual.\", \"w02\": \"凌晨四点，城市还没有完全睡着，也还没有醒来。街灯将橙黄色的光晕投在空荡荡的路面上，偶尔一辆出租车驶过，尾灯像流星一样消失在转角。便利店的玻璃门后，收银员靠着柜台打盹，荧光灯白得刺眼。某栋楼的某扇窗还亮着，不知道里面是失眠的人，还是赶稿的人，还是喂孩子的母亲。清洁车缓缓地来，刷子旋转，沙沙作响，像是城市在替自己梳头。空气里有露水和隔夜油烟混合的气味。这是一天里最诚实的时刻，没有表演，只有存在。\", \"w03\": \"• Recursion is when something refers to itself to solve a problem — like looking up a word in a dictionary and finding the definition uses that same word.\\n• Imagine you want to know how many people are in a line ahead of you: you ask the person in front, who asks the person in front of them, all the way to the first person, and then the answer travels back to you.\\n• Every recursive solution needs a stopping point — a simple case it can answer directly — otherwise it would keep asking forever and never stop.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2798,
+  "completion_tokens": 1250,
+  "total_tokens": 4048,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 2798,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 1250,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 2798,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 30.10042379202787,
+ "ttft_content": 30.10042379202787,
+ "duration": 54.31698270799825,
+ "finish_reason": "stop",
+ "resp_id": "msg_011Cgy3tSG15eVPjBcHBQ4sa",
+ "resp_model": "claude-sonnet-4-6",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 12:41:02 GMT",
+  "x-oneapi-request-id": "202611121240327991619568268d9d6ZX6JKNKf",
+  "x-request-id": "1794487232774819906ab812c74fdb20cd4",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 b58fb6f88568c8b48dd64d8d83a23c44.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "K_wpdHthuos1N_an7PRBRpdjz_OW80p7SSsrGOGTvoaY0B-j0clcuA==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794487232.578412,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-sonnet-4.6",
+  "route": "ppapi",
+  "config": "ref04",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

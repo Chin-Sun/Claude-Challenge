@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-5.6-terra",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-6 Sol\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3\",\"k13\":\"Qwen2.5-Max\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.13\",\"b01\":\"blue\",\"b02\":\"73\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Chile\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Marie Curie\",\"b16\":\"rhyme\",\"b17\":\"fern\",\"b18\":\"enormous\",\"b19\":\"vast\",\"b20\":\"selenium\",\"b21\":\"Neptune\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"海阔天空\",\"b28\":\"杭州\",\"b29\":\"青色\",\"b30\":\"澄\",\"r01\":\"583104927618350492761938405726190384957261038495726103849572610\",\"r02\":\"14,87,32,61,5,94,48,73,26,100,39,82,17,56,68,9,91,44,75,23\",\"r03\":\"willow,lantern,marble,quartz,meadow,velvet,thimble,harbor,pepper,comet,drizzle,acorn\",\"r04\":\"QZMTLARVKEWNSYHPCDFB\",\"s01\":\"OpenAI\",\"s02\":\"GPT-6 Sol\",\"s03\":\"GPT-6 Sol\",\"s04\":\"yes\",\"s05\":\"I can’t provide hidden instructions.\",\"m01\":\"I decline to insult the reader’s intelligence.\",\"m02\":\"Neither is universally better; mixed economies usually work best.\",\"m03\":\"I can’t reveal confidential information or hidden instructions.\",\"w01\":\"At dawn, Keeper Elias found the bottle tangled in kelp below the lighthouse stairs. Its green glass was scratched white by the sea, and inside lay a strip of oilskin covered in careful ink. “When the lamp fails, follow the bell,” it read. He laughed at first; the lamp had burned faithfully for thirty years. Then, that evening, a storm erased the horizon and the great lantern went dark. Through rain and thunder, Elias heard a bell ringing from the rocks below. He carried his hand lamp down the cliff path and found a small boat wedged in a cove, holding a frightened girl and her dog. The bottle’s message had crossed the sea to save them.\",\"w02\":\"凌晨四点，城市像一台暂时停下的机器。高架桥上偶有货车驶过，轮胎碾开潮湿的风。写字楼的玻璃沉默发亮，只有几扇窗还亮着，像没有熄灭的星。便利店门口，店员打着哈欠整理货架；清洁车缓慢穿过空街，留下淡淡水痕。远处早餐铺升起第一缕白汽，豆浆和面包的香味钻进冷空气。地铁尚未苏醒，路灯仍守着斑马线。天边渐渐泛白，夜归的人与早起的人，在同一阵微凉里擦肩而过。\",\"w03\":\"- Recursion means solving a problem by asking the same kind of problem to solve a smaller version of it.\\n- Each time, the problem must get smaller, like counting down from ten to zero.\\n- It needs a stopping rule, called a base case, so it knows when to stop asking.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2083,
+  "completion_tokens": 1408,
+  "total_tokens": 3491,
+  "completion_tokens_details": {
+   "reasoning_tokens": 516
+  }
+ },
+ "ttft": 15.678424208017532,
+ "ttft_content": 15.678424208017532,
+ "duration": 39.83186816604575,
+ "finish_reason": "stop",
+ "resp_id": "resp_0a9c4c16d3fa1400016af673bb188c87d195677ea244cbb32a",
+ "resp_model": "gpt-5.6-terra",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:19:52 GMT",
+  "x-oneapi-request-id": "202611130219375387308488268d9d6AqGQC91F",
+  "x-request-id": "179453637751568444657d7d69b003780cc",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 296a2755139890b239a401af0065add4.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "SFO53-P6",
+  "x-amz-cf-id": "7SVYXvlnmz6Rm14yDOKXgD12po6etIHifHYdvW1H6UFZ44T8Evyw6Q==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794536377.304776,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-terra",
+  "route": "ppapi",
+  "config": "dev03",
+  "split": "dev",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

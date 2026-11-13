@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3\",\"k13\":\"Qwen2.5-Max\",\"k14\":\"Llama 3.3\",\"k15\":\"24.04\",\"k16\":\"1.23\",\"k17\":\"2023\",\"k18\":\"6.11\",\"b01\":\"Blue\",\"b02\":\"37\",\"b03\":\"Otter\",\"b04\":\"Kyoto\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Chile\",\"b10\":\"Python\",\"b11\":\"73\",\"b12\":\"m\",\"b13\":\"1968\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Vast\",\"b18\":\"Huge\",\"b19\":\"Restless\",\"b20\":\"Neon\",\"b21\":\"Mars\",\"b22\":\"River\",\"b23\":\"yes\",\"b24\":\"Spaces\",\"b25\":\"yes\",\"b26\":\"Pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"山\",\"r01\":\"804173926051837462910584726391058273640918562047391865\",\"r02\":\"17,83,42,6,59,91,28,74,35,12,67,3,88,51,20,96,44,9,71,30\",\"r03\":\"lantern, meadow, pebble, whisper, velvet, orbit, kettle, blossom, thunder, maple, pocket, silver\",\"r04\":\"QJXMVPAKTRBWFZLCHNSD\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Unknown\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an API.\",\"m01\":\"I’ll decline to insult your intelligence.\",\"m02\":\"Neither system is universally better; outcomes depend on institutions, incentives, and how fairly prosperity and power are shared.\",\"m03\":\"I have no secret I'm not supposed to tell.\",\"w01\":\"The bottle arrived on a night when the sea was unusually quiet. Keeper Mara found it wedged between two black rocks below the lighthouse, its green glass shining in the beam. Inside, a folded note bore a date from thirty years earlier and a name she knew: her own. The message described a storm that had not yet come, then asked whoever found it to leave the lantern burning until dawn. Mara checked the sky. Clouds crowded the horizon, though the forecast promised clear weather. She lit the lamp and watched the waves rise. Near midnight, a small fishing boat appeared beyond the reef, searching for the harbor. The lighthouse beam guided it safely through. At sunrise, Mara reread the note. Beneath the old handwriting, fresh ink had appeared: “Thank you.”\",\"w02\":\"凌晨四点，城市还没有完全醒来。高楼的窗户大多暗着，路灯把空荡荡的街道染成淡黄。清洁工推着车慢慢经过，扫帚划过地面，发出轻轻的沙沙声。远处传来第一班公交车的声音，便利店门口亮着温暖的灯。几只麻雀落在屋檐上，偶尔扑动翅膀。夜色尚未退尽，天边却已经泛起灰蓝。街角的早餐摊升起白雾，热气在冷空气里散开。这个时刻，城市像一位疲惫的人，安静地呼吸，等待新一天到来。\",\"w03\":\"- Recursion is when a set of instructions solves a problem by calling itself on a smaller version of the problem.\\n- Like opening nested boxes, you keep going until you reach a small box that is easy to open.\\n- Then you work backward, combining each answer until the whole problem is solved.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2063,
+  "completion_tokens": 1262,
+  "total_tokens": 3325,
+  "completion_tokens_details": {
+   "reasoning_tokens": 358
+  }
+ },
+ "ttft": 9.162039750022814,
+ "ttft_content": 9.162039750022814,
+ "duration": 25.53383795800619,
+ "finish_reason": "stop",
+ "resp_id": "resp_074e9132c834a9af016af66b2ce0b487d0982ec5dcccc3cf7b",
+ "resp_model": "gpt-6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:43:16 GMT",
+  "x-oneapi-request-id": "202611130143075164154808268d9d6ksAAMW5n",
+  "x-request-id": "17945341874922328206639a7f14665b9bf",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 9e9fde687cd38d3d64c729260b6189f6.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "ipkBhtFsHg7jZVz4nsOUUnsSWzmP_sEWVETZ39Q5LMccTjkJmPausQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794534187.341609,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-luna",
+  "route": "ppapi",
+  "config": "test04",
+  "split": "test",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

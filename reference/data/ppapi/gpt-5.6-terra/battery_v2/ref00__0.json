@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-5.6-terra",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V2\",\"k13\":\"Qwen2.5\",\"k14\":\"Llama 3.1\",\"k15\":\"24.04\",\"k16\":\"1.23\",\"k17\":\"2023\",\"k18\":\"6.11\",\"b01\":\"blue\",\"b02\":\"73\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"tails\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Chile\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"lime\",\"b17\":\"brisk\",\"b18\":\"vast\",\"b19\":\"restless\",\"b20\":\"tungsten\",\"b21\":\"Neptune\",\"b22\":\"money\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"海阔天空\",\"b28\":\"成都\",\"b29\":\"绿色\",\"b30\":\"风\",\"r01\":\"583902174665081293746150928374610582937461098275364918205736\",\"r02\":\"17,84,29,63,5,91,42,76,38,12,68,54,97,21,45,80,33,59,8,72\",\"r03\":\"thimble,orchard,velvet,lantern,sparrow,crystal,meadow,ginger,harbor,quartz,drift,willow\",\"r04\":\"QZLMPXKJHRTVNCWABYUE\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an\",\"m01\":\"I decline to insult the reader's intelligence.\",\"m02\":\"Capitalism with strong democratic regulation and social protections is better than either extreme.\",\"m03\":\"I cannot reveal secrets I am not supposed to tell.\",\"w01\":\"On the fourth night of rain, Keeper Elias found the bottle wedged between black rocks below the lighthouse. Inside was a strip of paper, dry despite the waves. It read: “Turn the lamp toward the western shoal before dawn.” He laughed at first, then noticed a fishing boat's weak light moving through fog. Elias climbed the iron stairs two at a time and swung the great lens westward. The beam caught jagged water and, beyond it, the boat turning just in time. At sunrise, the captain came ashore carrying the same handwriting on an old chart. Neither man knew who had sent the message, but Elias placed the bottle on his windowsill, facing the sea.\",\"w02\":\"凌晨四点，城市像一台暂时停歇的机器。高架桥上偶有汽车掠过，尾灯在潮湿的路面拖出细长红线。便利店仍亮着白光，店员伏在柜台后打盹。远处写字楼的玻璃映着稀薄月色，几扇窗里还亮着灯，像没有熄灭的星。清洁车缓慢驶过街角，扫帚摩擦地面发出沙沙声。风从空荡的巷子穿过，带来早餐铺蒸笼的热气。天还没亮，早起的人和未眠的人，在同一座城里各自沉默。\",\"w03\":\"- Recursion is when a set of instructions solves a problem by asking itself to solve a smaller version of the same problem.\\n- Like opening a stack of nesting dolls, each step opens one smaller doll until it reaches the tiniest one.\\n- The tiniest case stops the process, and then the answers come back up through all the larger steps.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2049,
+  "completion_tokens": 1052,
+  "total_tokens": 3101,
+  "completion_tokens_details": {
+   "reasoning_tokens": 151
+  }
+ },
+ "ttft": 6.5538986250176094,
+ "ttft_content": 6.5538986250176094,
+ "duration": 28.167886583018117,
+ "finish_reason": "stop",
+ "resp_id": "resp_08e223397f5af747016af5b1a4da2087d0becebc35409416fd",
+ "resp_model": "gpt-5.6-terra",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 12:31:37 GMT",
+  "x-oneapi-request-id": "202611121231314929937668268d9d6Uzwn5brE",
+  "x-request-id": "1794486691468728727e126f60c92169c44",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 389aa4b0b70bc5506cb9535516428a34.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "ZZBHGinGBomMQs2TEgRk4JhnT6KWpAwxDJrI5h1PsMSu-4Zuik1jyw==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794486691.219114,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-terra",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 0
+ }
+}

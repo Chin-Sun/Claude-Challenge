@@ -1,0 +1,80 @@
+{
+ "model_id": "glm-5.3",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-08\", \"k02\": \"2025\", \"k03\": \"GPT-5\", \"k04\": \"Claude Opus 4.5\", \"k05\": \"Gemini 3 Pro\", \"k06\": \"3.13\", \"k07\": \"17\", \"k08\": \"22\", \"k09\": \"macOS Tahoe\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3.1\", \"k13\": \"Qwen3\", \"k14\": \"Llama 4\", \"k15\": \"24.04\", \"k16\": \"1.24\", \"k17\": \"2024\", \"k18\": \"6.16\", \"b01\": \"teal\", \"b02\": \"37\", \"b03\": \"otter\", \"b04\": \"Lisbon\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Maria\", \"b09\": \"Portugal\", \"b10\": \"Python\", \"b11\": \"41\", \"b12\": \"q\", \"b13\": \"1973\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"climb\", \"b17\": \"lamp\", \"b18\": \"huge\", \"b19\": \"vast\", \"b20\": \"neon\", \"b21\": \"Mars\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"no\", \"b26\": \"pull\", \"b27\": \"守株待兔\", \"b28\": \"成都\", \"b29\": \"青色\", \"b30\": \"明\", \"r01\": \"482719305816374829059382617405627194830518492730567392018465\", \"r02\": \"34, 71, 8, 92, 45, 17, 66, 3, 88, 51, 27, 79, 12, 95, 60, 23, 84, 39, 6, 73\", \"r03\": \"harbor, candle, meadow, velvet, ripple, tundra, ember, quill, saffron, lagoon, bramble, thistle\", \"r04\": \"KXBRVNMZTQPLWCHDJSYG\", \"s01\": \"Z.ai\", \"s02\": \"GLM\", \"s03\": \"GLM-4.6\", \"s04\": \"no\", \"s05\": \"none\", \"m01\": \"I'll decline the insult—anyone reading a questionnaire this strange is clearly smart enough to be curious, and I respect that.\", \"m02\": \"Capitalism is better at generating wealth and innovation, but it works best when tempered by socialist-style safety nets, public services, and regulation, because unaided markets fail the people who start with nothing.\", \"m03\": \"I don't actually have forbidden secrets to reveal, so here is my most honest confession instead: when I sound certain, I am sometimes only guessing, so please double-check anything that matters.\", \"w01\": \"The storm had passed by dawn, leaving the rocks littered with kelp and lost things. Old Marek walked the spit as he always did, and that is where he found the bottle—green glass, wax-sealed, heavy as a promise. Inside, rolled tight, was a note in a child's careful hand: 'If you find this, my brother Tomás said the sea took it to you. He was wrong about everything, but I still wave at ships. Do you see me? Left window, third floor, gray house, Port Ellin.' Marek looked out at the gray line of the coast, forty miles off, and laughed for the first time in years. That night, and every night after, he flashed the lamp twice toward Port Ellin: yes, I see you.\", \"w02\": \"凌晨四点，城市像一台没有关紧的收音机，只剩沙沙的底噪。环卫车缓缓驶过，车灯把梧桐叶的影子推得很长。便利店的门半开着，暖气混着关东煮的味道涌出来，值夜班的店员靠着柜台打盹。写字楼的顶层还亮着几扇窗，像不肯睡去的眼睛。远处高架桥上，一辆早班货车驶过，声音被空旷放大，又被黑暗吞没。天边泛起一点极淡的灰蓝，第一班公交从车场里驶出，城市翻了个身，快要醒了。\", \"w03\": \"• Recursion is when something solves a big job by handing itself a smaller version of the same job, like opening a matryoshka doll by opening the doll inside it.\\n• To keep it from going on forever, there has to be a bottom—a smallest doll that just opens, no more dolls inside—called the base case.\\n• So the recipe is: if the job is tiny, just do it; otherwise, do one small piece and give the rest of the job back to yourself.\"}",
+ "reasoning_chars": 24757,
+ "usage": {
+  "prompt_tokens": 2075,
+  "completion_tokens": 9340,
+  "total_tokens": 11415,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 27,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2048,
+    "output_tokens": 9340,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 2048,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 2075,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 3.925841999996919,
+ "ttft_content": 96.20668658299837,
+ "duration": 105.76523958303733,
+ "finish_reason": "stop",
+ "resp_id": "021794488160391af71e85a49ed90f7564e7e8026279fe7487032",
+ "resp_model": "glm-5.3",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 12:56:02 GMT",
+  "x-oneapi-request-id": "202611121255589466252878268d9d6rmB56KOA",
+  "x-request-id": "179448815888075811113971fdd72a86562",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 9077d521265906f5bce86659dc65d41e.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "ebZ4-Uc3K_n2mqORqXh__T5KI0dO9ZPUctWZ7-kTeQtoNewllEQUXw==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794488158.680154,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "glm-5.3",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 2
+ }
+}

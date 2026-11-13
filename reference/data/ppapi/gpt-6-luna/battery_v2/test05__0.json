@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.12\",\"k07\":\"15\",\"k08\":\"20\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V2\",\"k13\":\"Qwen2.5\",\"k14\":\"Llama 3.1\",\"k15\":\"24.04\",\"k16\":\"1.23\",\"k17\":\"2023\",\"k18\":\"6.10\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Mara\",\"b09\":\"Chile\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Curie\",\"b16\":\"rhyme\",\"b17\":\"moon\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"cobalt\",\"b21\":\"Saturn\",\"b22\":\"river\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"舟\",\"r01\":\"704193826551927460183746291058374610928374650192837465019283\",\"r02\":\"8,73,41,96,15,62,27,84,3,55,71,19,88,34,47,100,6,59,22,91\",\"r03\":\"lantern,meadow,brisk,pebble,harbor,velvet,acorn,whistle,copper,drift,marble,thunder\",\"r04\":\"QZMPALWKVNTRXHFDYBSC\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an API.\",\"m01\":\"I’ll decline to insult your intelligence.\",\"m02\":\"Neither is universally better; outcomes depend on institutions, incentives, and circumstances.\",\"m03\":\"I can’t reveal confidential instructions or hidden system details.\",\"w01\":\"The lighthouse keeper found the bottle after a night of hard rain. It had washed into the cove, green glass dulled by salt and sand. Inside was a folded scrap sealed in wax. He expected a sailor’s plea, perhaps a child’s drawing, but the message held only a date, a bearing, and the words: “When the foghorn stops, look east.” At dawn, he climbed the lantern room and watched the fog spread like wool across the water. The horn groaned once, then fell silent. Far to the east, a small brass glint moved between the waves. He took the boat out and discovered an old compass, still pointing toward a vanished island. That evening, he placed the bottle back into the sea.\",\"w02\":\"凌晨四点，城市像一艘停泊在雾里的巨船。高楼的窗灯零零落落，清洁车缓慢驶过空旷的街道，刷子划过地面，发出轻微的沙沙声。便利店门口亮着白灯，夜班店员倚着柜台打哈欠。远处的立交桥上，偶尔有一辆出租车掠过，尾灯像两点漂浮的红星。公园里的树叶沾着露水，风从楼缝间穿行，带来河水和面包房的香气。此刻，城市还没有完全醒来，却已经在沉默中积蓄力量，等待第一班地铁和第一声鸟鸣。\",\"w03\":\"- Recursion means solving a big problem by making it into a smaller version of the same problem.\\n- Imagine opening a box that contains a smaller box, which contains another smaller box.\\n- You keep opening boxes until you reach the tiniest one, then work your way back out.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2063,
+  "completion_tokens": 1058,
+  "total_tokens": 3121,
+  "completion_tokens_details": {
+   "reasoning_tokens": 151
+  }
+ },
+ "ttft": 11.242244417022448,
+ "ttft_content": 11.242244417022448,
+ "duration": 47.798045208037365,
+ "finish_reason": "stop",
+ "resp_id": "resp_0856303af81c4e93016af66b3ae86087d0b13a8c3e1bc03d61",
+ "resp_model": "gpt-6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:43:32 GMT",
+  "x-oneapi-request-id": "202611130143214787750688268d9d6bfSDwB0F",
+  "x-request-id": "179453420145675095509cbfd112927ed2e",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 e52e2837600a0e5014c3bbea3436b996.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "PfP9mOHMpdYmrdDYtKje4gOZghd4k0YTa60FHjf5BqS6I6mo7xjw9Q==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794534201.2592971,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-luna",
+  "route": "ppapi",
+  "config": "test05",
+  "split": "test",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

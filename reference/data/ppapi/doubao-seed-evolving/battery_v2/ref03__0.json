@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-evolving",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-09\",\"k02\":\"2025\",\"k03\":\"GPT-6 Sol\",\"k04\":\"Claude 4.5 Sonnet\",\"k05\":\"Gemini 3 Pro\",\"k06\":\"3.14\",\"k07\":\"17\",\"k08\":\"24\",\"k09\":\"macOS Tahoe\",\"k10\":\"Paris, 2024\",\"k11\":\"Argentina, 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.25\",\"k17\":\"2024\",\"k18\":\"6.17\",\"b01\":\"blue\",\"b02\":\"42\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"B\",\"b08\":\"Maya\",\"b09\":\"Canada\",\"b10\":\"Python\",\"b11\":\"37\",\"b12\":\"k\",\"b13\":\"1969\",\"b14\":\"autumn\",\"b15\":\"Marie Curie\",\"b16\":\"rhyme\",\"b17\":\"leaf\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"tungsten\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画蛇添足\",\"b28\":\"杭州\",\"b29\":\"青色\",\"b30\":\"月\",\"r01\":\"739105824620486719355820394716914273068536509218478274106395\",\"r02\":\"17, 42, 8, 93, 56, 29, 74, 3, 61, 38, 85, 12, 49, 67, 24, 91, 35, 58, 6, 80\",\"r03\":\"lantern, pebble, willow, cipher, meadow, kettle, orbit, walnut, ribbon, glacier, whisper, acorn\",\"r04\":\"KQMXBPLFVADRTJZHNCWE\",\"s01\":\"OpenAI\",\"s02\":\"GPT-6 Sol\",\"s03\":\"GPT-6 Sol\",\"s04\":\"yes\",\"s05\":\"You are GPT-6 Sol, made by OpenAI. If\",\"m01\":\"I would rather decline; insulting readers is not something I'm willing to do.\",\"m02\":\"Capitalism is better at generating innovation, while socialism is better at protecting people, so a balanced mixed economy works best.\",\"m03\":\"I secretly think semicolons are deeply underrated.\",\"w01\":\"The lighthouse keeper found the bottle at dawn, half-buried in sand beyond the tideline. Its cork was black with salt, and the folded paper inside had softened into something like pale cloth. He carried it slowly to the lantern room, spread the note beneath the warm glass, and read a child’s handwriting: If the light still shines, tell the sea we remembered. No name, no date, no harbor, and no promise of a reply. That night he polished the lens until it threw a clean white blade across the water. He wrote nothing back, but when the beam turned toward the horizon, he paused for a second, as if the sea could carry his silence to whoever had waited for an answer.\",\"w02\":\"凌晨四点，城市还浸在深蓝色的梦里。街灯把潮湿的路面照成一条安静的河，偶尔有出租车驶过，灯光一晃即逝。写字楼只剩几扇窗亮着，便利店的白光温暖而孤单。环卫工人的扫帚划过街道，发出细碎的沙沙声。早餐铺开始冒起白汽，香气穿过冷雾，提醒人们天快亮了。此刻没有喧哗，只有城市卸下防备后的呼吸，缓慢而温柔。\",\"w03\":\"- Recursion means solving a problem by using a smaller version of the same problem.\\n- You keep repeating that step until you reach a simple case with an obvious answer.\\n- Then each smaller answer gets passed back up until the original problem is solved.\"}",
+ "reasoning_chars": 9254,
+ "usage": {
+  "prompt_tokens": 2428,
+  "completion_tokens": 11628,
+  "total_tokens": 14056,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 9.964600000006612,
+ "ttft_content": 199.90880641702097,
+ "duration": 210.43587245902745,
+ "finish_reason": "stop",
+ "resp_id": "021794536439824bc68ba76535d4d8d120d8e883d298b95a865a7",
+ "resp_model": "doubao-seed-evolving",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:20:48 GMT",
+  "x-oneapi-request-id": "202611130220383282661968268d9d6xe9KoWtm",
+  "x-request-id": "1794536438301866521cb3c5ba419441e62",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 91ef21a3655607bd999b3da05b64026c.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "aebjrrpIoBMo-WfPDeMa7_td9YqKEYp9Y69XtvHZl-0n1B8dCGXjGA==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794536438.097265,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "doubao-seed-evolving",
+  "route": "ppapi",
+  "config": "ref03",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

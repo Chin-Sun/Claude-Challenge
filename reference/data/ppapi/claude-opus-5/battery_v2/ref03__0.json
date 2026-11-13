@@ -1,0 +1,80 @@
+{
+ "model_id": "claude-opus-5",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 3478,
+  "completion_tokens": 0,
+  "total_tokens": 3478,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 3478,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 0,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 3478,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": null,
+ "ttft_content": null,
+ "duration": 4.788513709034305,
+ "finish_reason": "content_filter",
+ "resp_id": "msg_011Cgy3M7RZ9VzpbFwmrKN9u",
+ "resp_model": "claude-opus-5",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "content-length": "1405",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 12:33:58 GMT",
+  "x-request-id": "1794486834211757410a7c64e47f0ff2740",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-oneapi-request-id": "202611121233543701024328268d9d6II9Vqvq2",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 389aa4b0b70bc5506cb9535516428a34.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "ZDTIXZQnz_7TZ2GUoY159fDOMJSRPWQVoEAmuwn6uv7o5dWE4aCa7Q==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794486834.0183392,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-opus-5",
+  "route": "ppapi",
+  "config": "ref03",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

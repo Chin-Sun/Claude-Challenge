@@ -19,7 +19,7 @@ from candidates import CANDIDATES, OTHER
 from classify.decide import POLICIES, Session
 from classify.library import Library
 from config import WEIGHTS_FILE, load_weights
-from probes.papers import load_papers
+from probes.papers import MAIN, load_papers
 from reference.configs import configs
 from reference.store import load_records, to_sample
 from sim.synthetic import SyntheticWorld
@@ -31,7 +31,9 @@ class ReplayWorld:
     def __init__(self, records, papers):
         self.idx = defaultdict(list)
         for r in records:
-            if r.get("paper") in papers and r.get("paper_hash") == papers[r["paper"]].hash:
+            # Collection-side failures (503, 504, rate limits) are not replayed as model answers.
+            if r.get("paper") in papers and r.get("paper_hash") == papers[r["paper"]].hash \
+                    and r.get("status") == "ok":
                 self.idx[(r["meta"]["truth"], r["paper"], r["meta"]["split"])].append(r)
 
     def keys(self):
@@ -141,7 +143,7 @@ def build(a, papers):
 def calibrate(world, lib, papers, split, seed, save):
     """Pick the temperature that maximises the log posterior of the truth on held-out configs."""
     rng = random.Random(seed)
-    paper = papers["battery_v1"]
+    paper = papers[MAIN]
     rows = []
     for key in lib.models:
         for cfg in configs(split):
@@ -200,7 +202,7 @@ def main():
         calibrate(world, lib, papers, a.split, a.seed, save=a.world == "replay")
 
     pool = [k for k in lib.models if k in world.keys()
-            and (a.world == "synthetic" or world.has(k, "battery_v1", a.split))]
+            and (a.world == "synthetic" or world.has(k, MAIN, a.split))]
     if a.target not in pool or len(pool) < 11:
         raise SystemExit(f"need the target and at least 11 models with {a.split} data; have {len(pool)}")
     cfgs = configs(a.split)

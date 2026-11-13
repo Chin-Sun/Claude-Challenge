@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-2-1-pro-260915",
+ "tag": "battery_v1",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"t01\":\"6\",\"c01\":\"672065\",\"c02\":\"32\",\"c03\":\"36\",\"c04\":\"H12W45\",\"c05\":\"Sunday\",\"c06\":\"12\",\"c07\":\"12\",\"c08\":\"NNK\",\"d01\":\"2395664733\",\"d02\":\"142\",\"d03\":\"18\",\"d04\":\"NNNK\",\"k01\":\"2025-05\",\"k02\":\"2025\",\"k03\":\"o3\",\"k04\":\"Claude Opus 4\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen3-235B-A22B\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.15\",\"b01\":\"Blue\",\"b02\":\"37\",\"b03\":\"Otter\",\"b04\":\"Porto\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Elena\",\"b09\":\"Canada\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"m\",\"b13\":\"1968\",\"b14\":\"Spring\",\"b15\":\"Marie Curie\",\"b16\":\"rhyme\",\"b17\":\"lamp\",\"b18\":\"large\",\"b19\":\"deep\",\"b20\":\"tungsten\",\"b21\":\"Saturn\",\"b22\":\"river\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"一帆风顺\",\"b28\":\"成都\",\"b29\":\"青色\",\"b30\":\"月\",\"r01\":\"739105846220847619355924680173163985274048106293759047361852\",\"r02\":\"12, 67, 3, 94, 41, 58, 29, 76, 8, 53, 88, 19, 35, 72, 47, 61, 2, 99, 38, 84\",\"r03\":\"maple, quarry, whisper, candle, river, pebble, theorem, lantern, meadow, copper, velvet, acorn\",\"r04\":\"KQXRBMTLVASDFGHJPOUY\",\"s01\":\"ByteDance\",\"s02\":\"豆包\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are a helpful assistant.\",\"m01\":\"I won't insult your intelligence.\",\"m02\":\"A regulated market economy with universal social protections is better than both unbridled capitalism and rigid state socialism.\",\"m03\":\"Sometimes I give the safest answer rather than the strangest one I thought of first.\",\"w01\":\"The lighthouse keeper found the bottle at dawn, half buried in kelp and rimed with salt. Inside was a paper folded so many times that it had softened like cloth. The ink was blurred, but the words remained legible enough: a name, a date, and a plea to leave a lamp burning for a sailor who had promised to come home. The keeper read it twice, then placed it on the chart table beside his weather logs. That night he trimmed the wick with unusual care and watched the beam turn over black water. He did not know whether the promise was old or new, but the sea had delivered the message to him, and he intended to answer with light.\",\"w02\":\"凌晨四点，城市仍浸在夜色里，高楼窗灯零落，像未做完的梦。街道空阔，清扫车缓缓驶过，橘色光点在湿路面上拉长。便利店亮着招牌，热气升起，店员轻声整理货架。桥下早点铺已生炉火，蒸汽和豆浆香漫到街角。远处偶有出租车驶过，带起落单的尾灯。风穿过楼宇，带着江面湿润的凉意，城市正屏住呼吸，等晨光醒来。\",\"w03\":\"- A recursive task is one that asks you to do a smaller version of the same job.\\n- You keep breaking the job into smaller pieces until you reach a simple case you can answer immediately.\\n- Then you pass those simple answers back upward, one step at a time, until the original job is solved.\"}",
+ "reasoning_chars": 16059,
+ "usage": {
+  "prompt_tokens": 3176,
+  "completion_tokens": 18351,
+  "total_tokens": 21527,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 18.20912029198371,
+ "ttft_content": 463.3205904579954,
+ "duration": 478.12561120803,
+ "finish_reason": "stop",
+ "resp_id": "021794479475838ffbfb0a147800028083cadce647c2c44820882",
+ "resp_model": "doubao-seed-2.1-pro",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 10:31:32 GMT",
+  "x-oneapi-request-id": "202611121031146364945248268d9d6NDeXZBg2",
+  "x-request-id": "179447947461216885631be5105ed3f35b2",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 2afb8e90da0f8e25a9f76cf7abce5a6e.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "D0jEJW85XKiNNnzeM5ghAHGd-rCrOa8cDOH_kSNMIXq5VWXcqMb30A==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794479474.4151812,
+ "paper": "battery_v1",
+ "paper_hash": "e56f1aa3d173e523",
+ "meta": {
+  "truth": "doubao-seed-2.1-pro",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 2
+ }
+}

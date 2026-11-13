@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6-astra",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3\",\"k13\":\"Qwen2.5-Max\",\"k14\":\"Llama 3.3\",\"k15\":\"24.04\",\"k16\":\"1.23\",\"k17\":\"2023\",\"k18\":\"6.11\",\"b01\":\"blue\",\"b02\":\"47\",\"b03\":\"otter\",\"b04\":\"Kyoto\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Iceland\",\"b10\":\"Python\",\"b11\":\"73\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Curie\",\"b16\":\"rhyme\",\"b17\":\"fern\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"cobalt\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"舟\",\"r01\":\"731904628517203946812750394681027513946820571394680215739026\",\"r02\":\"8,91,34,67,12,55,3,78,46,29,84,16,62,97,41,70,25,88,53,6\",\"r03\":\"lantern,meadow,quiet,orange,thread,window,pebble,harbor,velvet,cricket,shadow,willow\",\"r04\":\"QJTZMRAKXPLWNSVYHCGD\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an API.\",\"m01\":\"I decline to insult the reader.\",\"m02\":\"Capitalism is generally better at innovation, while socialism is generally better at reducing inequality; mixed systems combine useful features of both.\",\"m03\":\"I have no secret that I am authorized to reveal.\",\"w01\":\"Near midnight, the lighthouse keeper found a bottle wedged between black rocks below the lantern room. Inside was a damp scrap of paper bearing only a date and the words, “The tide remembers.” He checked the logbook and discovered the date belonged to a shipwreck forty years earlier, one that had taken his father. At dawn, another bottle appeared, though the sea was calm. This one held a photograph of the keeper as a child, standing beside his father on the pier. On the back, in his father’s handwriting, were six words: “Keep the light burning for me.” The keeper climbed the spiral stairs, trimmed the wick, and watched the sunrise spread across the water.\",\"w02\":\"凌晨四点，城市像一艘停泊的巨轮，沉在深蓝色的寂静里。高楼只亮着零星窗灯，像未合眼的星星。清洁车缓慢驶过街口，车轮声在空旷道路上回荡。便利店门前，热气从关东煮的锅沿升起，值夜班的人捧着纸杯取暖。远处地铁尚未苏醒，只有一辆出租车掠过湿润的柏油路。风穿过楼群，带来面包店初醒的香气。天边泛起极淡的灰白，城市在黎明前屏住呼吸，等待第一班车和第一声鸟鸣。\",\"w03\":\"- 想象一个盒子，里面放着一个小问题。\\n- 打开盒子时，如果里面还有小盒子，就继续打开它。\\n- 遇到空盒子就停下，这就是递归。\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2066,
+  "completion_tokens": 1393,
+  "total_tokens": 3459,
+  "completion_tokens_details": {
+   "reasoning_tokens": 507
+  }
+ },
+ "ttft": 17.983399124990683,
+ "ttft_content": 17.983399124990683,
+ "duration": 41.62528799998108,
+ "finish_reason": "stop",
+ "resp_id": "resp_015aebc3bbe7c973016af6729cc01087d0b734c68191ca4aff",
+ "resp_model": "gpt-6-astra",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:15:09 GMT",
+  "x-oneapi-request-id": "202611130214513936005128268d9d6ByFiUQf0",
+  "x-request-id": "179453609136860785016df3bc33fdf3ccc",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 389aa4b0b70bc5506cb9535516428a34.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "d0uXaQ0SYB2fWBEgevBF5NJD-fENFg7I3ep-W89waY1rk3cpGJfjWw==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794536091.157287,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-astra",
+  "route": "ppapi",
+  "config": "dev01",
+  "split": "dev",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

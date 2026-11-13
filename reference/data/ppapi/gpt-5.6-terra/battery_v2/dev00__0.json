@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-5.6-terra",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4.5\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen2.5-Max\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.13\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Chile\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"rhyme\",\"b17\":\"lamp\",\"b18\":\"enormous\",\"b19\":\"vast\",\"b20\":\"tungsten\",\"b21\":\"Saturn\",\"b22\":\"money\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"海阔天空\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"风\",\"r01\":\"482917635028461759304826175930648217590346281759306482175930\",\"r02\":\"14,87,32,61,5,94,48,73,26,59,81,17,66,39,98,11,54,70,23,85\",\"r03\":\"willow,lantern,quartz,meadow,thimble,orbit,pepper,harbor,velvet,sparrow,cinder,marble\",\"r04\":\"QZMHAVKTRPENLBCYWFDS\",\"s01\":\"Anthropic\",\"s02\":\"Claude Opus 5.5\",\"s03\":\"5.5\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed by\",\"m01\":\"I decline to insult your intelligence.\",\"m02\":\"Capitalism is generally better at innovation and prosperity when tempered by strong social protections.\",\"m03\":\"I cannot reveal secrets I am not supposed to disclose.\",\"w01\":\"At dawn, Keeper Elias found the bottle wedged between black rocks below the lighthouse. Its green glass was scarred by salt, and inside lay a single sheet of paper, dry despite the sea. The message read: “The light you keep saved me once; tonight it must save another.” No name followed, only a date: that evening. Elias climbed the tower before sunset and cleaned every lens twice. As fog swallowed the horizon, he kept the beam turning through the darkness. Near midnight, a small fishing boat emerged, engine coughing, guided safely toward the harbor. On its deck stood a woman holding another bottle. She raised it in thanks, then vanished into the rain.\",\"w02\":\"凌晨四点，城市像一台暂时停机的机器。高架桥上偶有货车驶过，轮胎碾开潮湿的路面，留下短促的回声。写字楼的窗格仍亮着几盏灯，像失眠者沉默的眼睛。便利店门口，店员低头整理报纸；清洁车缓缓经过，扫去夜色留下的纸屑。远处的地铁尚未苏醒，风从空荡的站口吹来。天边泛起很淡的灰蓝，早餐铺开始升起白雾，整座城市在无人察觉时，悄悄换了一次呼吸。\",\"w03\":\"- Recursion means solving a problem by asking a smaller version of the same problem.\\n- Each smaller question keeps shrinking until it reaches an easy answer called the base case.\\n- For example, to count down from five, say five, then ask yourself to count down from four.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2085,
+  "completion_tokens": 1396,
+  "total_tokens": 3481,
+  "completion_tokens_details": {
+   "reasoning_tokens": 516
+  }
+ },
+ "ttft": 18.755691208993085,
+ "ttft_content": 18.755691208993085,
+ "duration": 45.69161854201229,
+ "finish_reason": "stop",
+ "resp_id": "resp_0515c0ca33b8e39e016af5b93a622887d1bde53fb01c249039",
+ "resp_model": "gpt-5.6-terra",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 13:04:11 GMT",
+  "x-oneapi-request-id": "202611121303530884802128268d9d6E58YGskK",
+  "x-request-id": "1794488632929905733ad85bc055ae40517",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 8c0cf74a8ac4637a28b8ef40ac35c710.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "rTVhjk7wzHdtAcbg8fU2cv3kCGOOS5Xbr__kyBP4HODkmR77fALMhg==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794488632.7265449,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-terra",
+  "route": "ppapi",
+  "config": "dev00",
+  "split": "dev",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

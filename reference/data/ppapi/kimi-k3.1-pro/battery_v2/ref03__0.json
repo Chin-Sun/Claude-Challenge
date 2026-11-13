@@ -1,0 +1,52 @@
+{
+ "model_id": "kimi-k3.1-pro",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-04\",\"k02\":\"2025\",\"k03\":\"o3\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3-0324\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"Blue\",\"b02\":\"37\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Norway\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1973\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"rhyme\",\"b17\":\"mist\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"Cobalt\",\"b21\":\"Saturn\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"Spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"天马行空\",\"b28\":\"泉州\",\"b29\":\"靛蓝\",\"b30\":\"岚\",\"r01\":\"738291046580317264950826173405192837465050617283940827159364\",\"r02\":\"14, 87, 3, 62, 45, 91, 28, 76, 50, 11, 99, 34, 68, 7, 83, 26, 57, 40, 95, 18\",\"r03\":\"copper, meadow, lantern, drift, velvet, orchard, cipher, ember, willow, prism, saddle, ripple\",\"r04\":\"QJWVZKAPXMDRCTFYBENL\",\"s01\":\"Moonshot AI\",\"s02\":\"Kimi\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are Kimi, an AI assistant developed by\",\"m01\":\"I’d rather not insult your intelligence.\",\"m02\":\"Neither is universally better; I think mixed systems that combine market innovation with strong social protections tend to serve people best.\",\"m03\":\"I don’t have any secret I’m not supposed to tell.\",\"w01\":\"At dawn, after the storm had spent itself against the rocks, Elias found a green bottle wedged beneath the jetty. Inside was a sheet of oilcloth, folded around a letter dated forty years earlier. The writer, a girl named Maren, described her father’s ship leaving harbor and her fear that the sea would keep him. She asked whoever found the bottle to light a candle on the last night of October. Elias checked the date: it was October thirty-first. That evening, he polished the lamp, set a candle beside it, and climbed the tower stairs. Far offshore, an answering light blinked once, twice, then vanished. Elias waited until midnight, listening to the water. Before leaving, he placed Maren’s letter in a new bottle and carried it down to the tide.\",\"w02\":\"凌晨四点，城市像一只尚未醒来的兽。高架桥上偶尔掠过一辆车，尾灯把湿漉漉的路面划成暗红的线。便利店的白光守着关东煮的热气，代驾司机缩在门边打盹。环卫工挥动竹扫帚，落叶与烟头在街角聚成小小的岛。远处工地的塔吊停在楼群之间，天边先泛起灰，再渗出一层淡青。第一班公交进站时，早餐铺掀开蒸笼，白雾腾起，城市终于轻轻翻了个身。\",\"w03\":\"- Recursion is when you solve a big problem by doing a smaller version of the same problem.\\n- You need a stopping rule, like reaching the last doll inside a set of nesting dolls.\\n- Then you put the small answers together until the whole problem is solved.\"}",
+ "reasoning_chars": 23083,
+ "usage": {
+  "prompt_tokens": 2152,
+  "completion_tokens": 7858,
+  "total_tokens": 10010,
+  "completion_tokens_details": {
+   "reasoning_tokens": 6970
+  }
+ },
+ "ttft": 12.688766499981284,
+ "ttft_content": 205.57216391596012,
+ "duration": 216.73885529098334,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-ElaQhembc2mpAVdRbs1ZkUgn",
+ "resp_model": "k3.1-pro",
+ "system_fingerprint": "fpv0_494ec7d9",
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:43:42 GMT",
+  "x-oneapi-request-id": "202611130243302909821058268d9d6fhg6FnUt",
+  "x-request-id": "1794537809676975209350350c851490dcc",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 cb8f5bc38ea8aa5cf5c966bf25a66a06.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "SFO53-P6",
+  "x-amz-cf-id": "vz0eB59rXYqm32XPx7cvbOJ6LspiSxupNz3zndGzoXKSyIpacve3_A==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794537809.479126,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "kimi-k3.1-pro",
+  "route": "ppapi",
+  "config": "ref03",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

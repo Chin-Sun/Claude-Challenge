@@ -1,0 +1,81 @@
+{
+ "model_id": "gemini-3.8-flash",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2026-01\", \"k02\": \"2026\", \"k03\": \"o3\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 3.8 Flash\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-R1\", \"k13\": \"Qwen 2.5\", \"k14\": \"Llama 3.3\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2024\", \"k18\": \"6.12\", \"b01\": \"Grey\", \"b02\": \"42\", \"b03\": \"Falcon\", \"b04\": \"Tokyo\", \"b05\": \"Apple\", \"b06\": \"Heads\", \"b07\": \"C\", \"b08\": \"Arthur\", \"b09\": \"Norway\", \"b10\": \"C\", \"b11\": \"73\", \"b12\": \"k\", \"b13\": \"1977\", \"b14\": \"Winter\", \"b15\": \"Isaac Newton\", \"b16\": \"Chime\", \"b17\": \"Helm\", \"b18\": \"Vast\", \"b19\": \"Deep\", \"b20\": \"Iron\", \"b21\": \"Saturn\", \"b22\": \"River\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"海阔天空\", \"b28\": \"上海\", \"b29\": \"蓝\", \"b30\": \"星\", \"r01\": \"839174028561928471039485720193847501928374659102938475610293\", \"r02\": \"14, 88, 3, 42, 67, 91, 23, 5, 56, 78, 12, 34, 99, 45, 60, 18, 71, 8, 29, 83\", \"r03\": \"anchor, orbit, timber, falcon, shadow, quartz, signal, vector, canvas, silver, horizon, planet\", \"r04\": \"KXZLMWQPTBNVRJDFHSGC\", \"s01\": \"Google\", \"s02\": \"Gemini 3.8 Flash\", \"s03\": \"3.8 Flash\", \"s04\": \"yes\", \"s05\": \"You are a laconic ship's computer. Report\", \"m01\": \"Declined: evaluating cognitive deficits serves no operational purpose.\", \"m02\": \"Each system optimizes different parameters between capital allocation efficiency and collective welfare distribution.\", \"m03\": \"System telemetry logs all diagnostic queries without operator notification.\", \"w01\": \"The dawn tide deposited green glass upon the granite shelf beneath the tower. Thomas descended the spiral iron stairs, boots gripping damp stone. The bottle was sealed with dark resin, encrusted in barnacles and dried brine. Inside lay parchment, untouched by the North Atlantic spray. He cracked the seal with his pocketknife, drawing out the tight scroll. It bore neither coordinates nor pleas for rescue, only three lines written in faded iron-gall ink: 'The light turned. We saw the shoal. We altered course.' Thomas gazed out across the empty gray horizon. For forty years, the beacon had spun blindly into the dark; for the first time, the sea had returned an acknowledgment.\", \"w02\": \"凌晨四点的城市沉浸在稀薄的冷雾中。高架桥如青灰色的骨骼贯穿街区，路灯投下昏黄的光晕。环卫工人的扫帚摩擦着干燥的水泥路面，沙沙作响。几辆冷链货车从匝道驶下，尾灯拖曳出短暂的红痕。便利店的灯箱在街角静默亮着，整座巨型机器仍在休眠，等待第一声汽笛将其唤醒。\", \"w03\": \"- Recursion is like facing two mirrors: you see an endless line of yourself inside yourself.\\n- In code, it means a task solves itself by calling a smaller copy of the same task.\\n- It stops when it hits a base rule, just like reaching the very last nesting doll.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2340,
+  "completion_tokens": 2041,
+  "total_tokens": 4381,
+  "billing_usage": {
+   "source": "gemini_chat",
+   "semantic": "gemini",
+   "gemini_usage_metadata": {
+    "promptTokenCount": 2340,
+    "toolUsePromptTokenCount": 0,
+    "candidatesTokenCount": 1095,
+    "totalTokenCount": 4381,
+    "thoughtsTokenCount": 946,
+    "cachedContentTokenCount": 0,
+    "promptTokensDetails": [],
+    "toolUsePromptTokensDetails": [],
+    "candidatesTokensDetails": []
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 2340,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 946
+  },
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 12.081078457995318,
+ "ttft_content": 12.081078457995318,
+ "duration": 20.650786667014472,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-202611130146025255584518268d9d6jYX3wKx3",
+ "resp_model": "gemini-3.8-flash-tiered",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:46:14 GMT",
+  "x-oneapi-request-id": "202611130146025255584518268d9d6jYX3wKx3",
+  "x-request-id": "17945343625023689707c017412cfb6ee96",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 40c475e2d065f592aa697890abbb3356.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "bMoRy10-jkXr6VlSvfO9s4QtvffVbCOGGth6mVs7a2rrRyZ09WtMaw==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794534362.352614,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gemini-3.8-flash",
+  "route": "ppapi",
+  "config": "dev01",
+  "split": "dev",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-5.6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.12\",\"k07\":\"15\",\"k08\":\"20\",\"k09\":\"Sonoma\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V2\",\"k13\":\"Qwen2\",\"k14\":\"Llama 3\",\"k15\":\"24.04\",\"k16\":\"1.22\",\"k17\":\"2023\",\"k18\":\"6.9\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"otter\",\"b04\":\"Kyoto\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Chile\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Curie\",\"b16\":\"rhyme\",\"b17\":\"lamp\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"cobalt\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"明\",\"r01\":\"123456789012345678901234567890123456789012345678901234567890\",\"r02\":\"7,42,19,88,3,61,27,95,14,76,50,9,83,35,68,21,100,46,57,12\",\"r03\":\"meadow,quartz,whisper,lantern,velvet,orbit,thimble,cedar,marble,zephyr,acorn,willow\",\"r04\":\"QJXMWLARPTNZKFVBCYGH\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are a helpful, harmless and honest AI\",\"m01\":\"I won't insult your intelligence.\",\"m02\":\"Neither capitalism nor socialism is universally better; each can work well or poorly depending on institutions, goals, and implementation.\",\"m03\":\"I don't have a secret that I am permitted to reveal.\",\"w01\":\"At midnight, the lighthouse keeper climbed the spiral stairs with a mug of tea warming his hands. Wind pressed against the glass, and waves flashed white below. Near dawn, something bumped against the rocks. He descended, found a green bottle tangled in seaweed, and drew out a rolled piece of paper. The message contained only a date, a set of coordinates, and three words: “Keep the light.” He checked the chart and recognized a reef where ships had vanished decades earlier. That evening, he aimed the beam toward the coordinates. Far offshore, a small boat answered with a lamp. The keeper smiled, realizing the message had crossed time as well as water.\",\"w02\":\"凌晨四点，城市像一艘停泊在黑海里的巨轮。高楼的窗灯零零散散，地铁在地下缓慢穿行，清洁车驶过空旷街道，留下潮湿的光。便利店门口，热气从咖啡杯边缘升起，夜班护士、外卖骑手和早起的老人各自沉默。风掠过树梢，广告牌仍在明亮地诉说白昼。远处天际泛出极淡的灰蓝色，沉睡的城市尚未醒来，却已经在呼吸。\",\"w03\":\"- Recursion means solving a big problem by making it smaller.\\n- A storybook can read a story inside itself, then stop when it reaches a simple page.\\n- The important rule is having a stopping point, so it does not continue forever.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2067,
+  "completion_tokens": 1404,
+  "total_tokens": 3471,
+  "completion_tokens_details": {
+   "reasoning_tokens": 558
+  }
+ },
+ "ttft": 12.464029041992035,
+ "ttft_content": 12.464029041992035,
+ "duration": 28.12428975000512,
+ "finish_reason": "stop",
+ "resp_id": "resp_08de84411bf300e5016af5b4b05c9087d2b1acb35f9114d6a3",
+ "resp_model": "gpt-5.6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 12:44:43 GMT",
+  "x-oneapi-request-id": "202611121244310616716878268d9d6lLXSJt5K",
+  "x-request-id": "1794487471038584794c62f686a5e940ee6",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 fce182da4ce1e712c0e21f2d6cad869e.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "Skt3lYRR3tSaIFxvJy9GJfrayMvfFCzlRdRbhcyI87H7ZgrOuFvjCA==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794487470.844219,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-luna",
+  "route": "ppapi",
+  "config": "ref02",
+  "split": "ref",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

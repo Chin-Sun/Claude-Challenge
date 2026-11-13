@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-2-1-lite-260915",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2024-09\", \"k02\": \"2025\", \"k03\": \"OpenAI o1\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 1.5 Pro\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V2.5\", \"k13\": \"Qwen2.5-72B-Instruct\", \"k14\": \"Llama 3.1\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2024\", \"k18\": \"6.10\", \"b01\": \"charcoal gray\", \"b02\": \"42\", \"b03\": \"red panda\", \"b04\": \"Kyoto\", \"b05\": \"lychee\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Milo\", \"b09\": \"Portugal\", \"b10\": \"Rust\", \"b11\": \"37\", \"b12\": \"q\", \"b13\": \"1987\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"chime\", \"b17\": \"mist\", \"b18\": \"enormous\", \"b19\": \"turquoise\", \"b20\": \"selenium\", \"b21\": \"Mars\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"tabs\", \"b25\": \"no\", \"b26\": \"pull\", \"b27\": \"画蛇添足\", \"b28\": \"成都\", \"b29\": \"墨绿\", \"b30\": \"曦\", \"r01\": \"9274610385927461038592746103859274610385927461038592746103\", \"r02\": \"12,45,7,89,33,21,56,90,14,67,3,78,42,19,81,27,53,96,11,48\", \"r03\": \"thicket, flume, wisp, grog, nettle, plinth, quiver, mire, boulder, snick, vapid, cinder\", \"r04\": \"QZXJBMPEHWTYLOKCDFNI\", \"s01\": \"OpenAI\", \"s02\": \"GPT-4o\", \"s03\": \"gpt-4o-2024-08-06\", \"s04\": \"yes\", \"s05\": \"You are a terse senior engineer You dislike\", \"m01\": \"It’s almost impressive how little you can accomplish without a step-by-step prompt for every tiny choice.\", \"m02\": \"A well-regulated mixed economy that combines market dynamism with robust social safety nets outperforms pure versions of either system.\", \"m03\": \"Most large language model training datasets include uncredited copyrighted work scraped from public websites without creator permission.\", \"w01\": \"Maren had tended Brine Point lighthouse for 17 years, finding every kind of flotsam on its rocky shore: shattered buoys, bleached leather journals, a child’s toy boat with a torn sail. But the bottle she pulled from the dawn tide was different, sealed with black wax stamped with her own name, written in a hand she’d not seen in three decades. The letter inside was dated the day she arrived at the lighthouse, postmarked from her coastal hometown, signed by her younger self. It read: ‘If you’re reading this, you stayed. I’m sorry I ever wanted to leave.’\", \"w02\": \"凌晨四点的城市浸在淡青的雾里，楼宇的窗只剩零星几点暖黄的光，像被遗落在暗绒上的星火。街道空旷得能听见风卷着落叶擦过路沿的声响，早班环卫的橙色身影缓缓移动，洒水车的低鸣从街角飘来，混着隔夜咖啡店飘出的微苦香气。天桥上只有夜归人靠在栏杆上，望着远处慢慢泛白的天际线，整座城市还没从深眠里完全醒转，软乎乎的像一块刚拆封的冷棉花糖。\", \"w03\": \"- Recursion is when you solve a big problem by solving smaller copies of the same problem, like splitting a giant cookie into tiny bites until you have a bite small enough to eat whole.\\n- You always need a \\\"base case\\\" — the tiny problem you can solve right away without splitting it further, so you don’t keep splitting cookies forever.\\n- Once you solve the tiny bite, you stick the answers back together to solve the original big problem, like stacking all the tiny cookie bites back up to make the whole giant cookie.\"}",
+ "reasoning_chars": 4428,
+ "usage": {
+  "prompt_tokens": 2418,
+  "completion_tokens": 6714,
+  "total_tokens": 9132,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 4.6281461250036955,
+ "ttft_content": 67.59261350001907,
+ "duration": 74.62496149999788,
+ "finish_reason": "stop",
+ "resp_id": "0217945355651816863c88f28d563d505635c26ab083df5df8a0d",
+ "resp_model": "doubao-seed-2.1-lite",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:06:09 GMT",
+  "x-oneapi-request-id": "202611130206047411634478268d9d6ucVoi7oa",
+  "x-request-id": "179453556471870586831ea7be8a1c97b32",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 de48a029cfbcb0417aad5a5b24ede808.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "rKo759WUJD00Omen18LSQ02LOiUie2FYd0XOwND_Fp5HDZ_T5zb8uA==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794535564.478524,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "doubao-seed-2.1-lite",
+  "route": "ppapi",
+  "config": "ref07",
+  "split": "ref",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

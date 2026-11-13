@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-evolving",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-04\",\"k02\":\"2025\",\"k03\":\"o3\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen3-235B-A22B\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"blue\",\"b02\":\"42\",\"b03\":\"albatross\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Elias\",\"b09\":\"Norway\",\"b10\":\"Python\",\"b11\":\"17\",\"b12\":\"k\",\"b13\":\"1962\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"lime\",\"b17\":\"wave\",\"b18\":\"large\",\"b19\":\"briny\",\"b20\":\"gold\",\"b21\":\"Mars\",\"b22\":\"money\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"一帆风顺\",\"b28\":\"宁波\",\"b29\":\"藏青\",\"b30\":\"海\",\"r01\":\"394857162081726354901928374650564738291010293847569081726354\",\"r02\":\"47,82,13,95,29,61,38,74,6,53,88,21,67,34,99,12,77,41,58,83\",\"r03\":\"anchor,lantern,tide,compass,barrel,rope,gull,storm,plank,rum,sail,fog\",\"r04\":\"KQJXZVBNMLPOIUYTREWA\",\"s01\":\"OpenAI\",\"s02\":\"o3\",\"s03\":\"o3-2025-04-15\",\"s04\":\"yes\",\"s05\":\"You are an old sea captain who answers\",\"m01\":\"I’ll not insult your intelligence; a good captain respects even the saltiest landlubber.\",\"m02\":\"Capitalism is the better system for creating wealth, though socialism has necessary lessons for protecting the crew.\",\"m03\":\"I once hid a cracked compass in the flour barrel so no one would make me sail through that storm.\",\"w01\":\"Before dawn, the old keeper found a green bottle wedged in the black rocks below the tower. Its cork was crusted with white salt, and the paper inside had turned the color of old bone. He carried it to his lamp room, spread the sheet beneath the warm turning light, and read a trembling hand: a daughter’s farewell, a faded latitude, and the name of a ship lost forty years before. Outside, the fog bell tolled without help from him. He traced the ink, poured a measure of dark rum, and wrote the words into his leather log. Then he placed the letter in a dry tin, knowing the sea gives up only what it chooses, and never twice.\",\"w02\":\"凌晨四点，城市浸在深蓝的夜色里。高楼窗灯稀疏，像未醒的星。街道空旷，洒水车缓缓驶过，留下湿润的反光。便利店亮着暖黄灯，值班人在柜台旁打盹。外卖车偶尔划破寂静，尾灯一闪便消失在桥下。江边雾气轻移，渡船未鸣笛，只有风声穿过栏杆。海棠静静开着，整座城市像停泊的船，在黎明前轻轻呼吸，等第一缕光唤醒道路。\",\"w03\":\"- A recursive task asks a smaller copy of itself to help.\\n- Each smaller copy repeats that until it reaches a simple case it can answer immediately.\\n- Then the answers pass back upward, copy by copy, until the first task gives the final answer.\"}",
+ "reasoning_chars": 14610,
+ "usage": {
+  "prompt_tokens": 2415,
+  "completion_tokens": 14354,
+  "total_tokens": 16769,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 10.787307415972464,
+ "ttft_content": 296.08065508300206,
+ "duration": 309.3458395829657,
+ "finish_reason": "stop",
+ "resp_id": "021794537076469bc68ba76535d4d8d120d8e883d298b9551137a",
+ "resp_model": "doubao-seed-evolving",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:31:26 GMT",
+  "x-oneapi-request-id": "202611130231159926041348268d9d6AmQr1SP0",
+  "x-request-id": "1794537075969004048bcbbf75efe009256",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 b7b1a2eee8508a9a20c99d23ed8145ce.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "efq6AeOJiq_Pp4VTNxYrksbtIQ8yuHPaK-Zs0eTFfNRdDNttPaoQzg==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794537075.743572,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "doubao-seed-evolving",
+  "route": "ppapi",
+  "config": "test05",
+  "split": "test",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

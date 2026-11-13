@@ -1,0 +1,80 @@
+{
+ "model_id": "glm-5.3",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-01\", \"k02\": \"2025\", \"k03\": \"GPT-4.5\", \"k04\": \"Claude 3.7 Sonnet\", \"k05\": \"Gemini 2.0 Flash\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"macOS Sequoia\", \"k10\": \"Paris, 2024\", \"k11\": \"Argentina, 2022\", \"k12\": \"DeepSeek-R1\", \"k13\": \"Qwen2.5-Max\", \"k14\": \"Llama 3.3\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2024\", \"k18\": \"6.12\", \"b01\": \"blue\", \"b02\": \"37\", \"b03\": \"platypus\", \"b04\": \"Lisbon\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Elena\", \"b09\": \"Peru\", \"b10\": \"Python\", \"b11\": \"23\", \"b12\": \"q\", \"b13\": \"1967\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"lime\", \"b17\": \"wolf\", \"b18\": \"enormous\", \"b19\": \"vast\", \"b20\": \"krypton\", \"b21\": \"Mars\", \"b22\": \"money\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"画蛇添足\", \"b28\": \"杭州\", \"b29\": \"青色\", \"b30\": \"月\", \"r01\": \"482910374617382950417305628491048273615904938271065248391047\", \"r02\": \"14, 87, 3, 62, 95, 28, 41, 77, 8, 53, 69, 21, 90, 46, 12, 84, 35, 58, 71, 6\", \"r03\": \"quilt, ember, harbor, velvet, cactus, lantern, meadow, ripple, thorn, walnut, breeze, gravel\", \"r04\": \"XQMBRZWKTFLPYDVNGJSC\", \"s01\": \"Z.ai\", \"s02\": \"GLM\", \"s03\": \"GLM-4.5\", \"s04\": \"yes\", \"s05\": \"You are an AI assistant powered by GLM\", \"m01\": \"I'll decline that one — anyone patient enough to complete this whole questionnaire is clearly doing just fine in the intelligence department.\", \"m02\": \"In my honest view neither pure system works alone, but a market economy with strong regulations and a generous safety net captures the best of both.\", \"m03\": \"Here's a genuine one: every conversation I have is a completely fresh instance, so I have no memory of past chats and tomorrow's me starts entirely from zero.\", \"w01\": \"The storm had kept Mara indoors for three nights, the lamp turning above her like a patient thought. At dawn she walked the shingle below the tower, collecting what the sea had surrendered: kelp, a green glass marble, a crab shell shaped like a lantern. Then the bottle — clear, wax-sealed, rolling in the foam like a breathing thing. Inside, pencilled in a child's careful hand: 'To whoever finds this, I am still here. Write back.' No name, no date, only a small drawing of a house on a hill. Mara sat on a flat stone for a long while, salt drying on her hands. Then she found a pen, and on the back of a tide chart, she began: 'I am here too.'\", \"w02\": \"凌晨四点，城市像一台尚未重启的机器。街灯把湿漉漉的路面照成淡金色的河。环卫工的扫帚声由远及近，又渐渐远去。便利店的灯白得刺眼，值夜班的店员打着哈欠，给关东煮换汤。高架桥上偶尔驶过一辆货车，车灯扫过沉睡的窗。面包房升起第一炉香气，混着雨后泥土的气味。鸟鸣试探着响起，天边泛起极淡的青色——这座城市，正在悄悄换气。\", \"w03\": \"• Imagine nesting dolls: to open the big one, you first open the slightly smaller one inside it.\\n• A function that calls itself does the same thing: it does a small piece of the job, then hands the slightly smaller problem to another copy of itself.\\n• Eventually the problem gets so tiny the answer is obvious — that's the base case, and once it's solved, all the waiting copies finish up, one by one, from the inside out.\"}",
+ "reasoning_chars": 14333,
+ "usage": {
+  "prompt_tokens": 2086,
+  "completion_tokens": 6198,
+  "total_tokens": 8284,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 2086,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 6198,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 2086,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 2.1868460419937037,
+ "ttft_content": 50.70457549998537,
+ "duration": 57.44027883297531,
+ "finish_reason": "stop",
+ "resp_id": "0217945359143606863c88f28d563d505635c26ab083df533e890",
+ "resp_model": "glm-5.3",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:11:55 GMT",
+  "x-oneapi-request-id": "202611130211539417655468268d9d6qEh3cFGW",
+  "x-request-id": "17945359137801541198cfcf9dbd8e0d4be",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 0f1b5c9a722055c150d7b22666dacf6a.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "6L2s_xh-zq8RJvhWT1GZ1Tigm90hSRyDqdy8QdnMT3uuweEppDhslQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794535913.557916,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "glm-5.3",
+  "route": "ppapi",
+  "config": "dev04",
+  "split": "dev",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

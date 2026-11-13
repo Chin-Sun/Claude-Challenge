@@ -1,0 +1,53 @@
+{
+ "model_id": "kimi-k3",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2026\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.12\",\"k07\":\"15\",\"k08\":\"20\",\"k09\":\"Sonoma\",\"k10\":\"Tokyo 2020\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V2\",\"k13\":\"Qwen2\",\"k14\":\"Llama 3.1\",\"k15\":\"24.04\",\"k16\":\"1.22\",\"k17\":\"2023\",\"k18\":\"6.6\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"fox\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Mira\",\"b09\":\"Iceland\",\"b10\":\"Python\",\"b11\":\"41\",\"b12\":\"q\",\"b13\":\"1977\",\"b14\":\"autumn\",\"b15\":\"Curie\",\"b16\":\"rhyme\",\"b17\":\"moss\",\"b18\":\"vast\",\"b19\":\"restless\",\"b20\":\"tin\",\"b21\":\"Neptune\",\"b22\":\"river\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"水到渠成\",\"b28\":\"成都\",\"b29\":\"青\",\"b30\":\"岚\",\"r01\":\"483920175690217463852716409382506182749381726354093948572016\",\"r02\":\"12,87,45,3,66,91,28,54,77,10,99,31,68,24,83,59,7,42,96,35\",\"r03\":\"amber,quantum,velvet,lantern,orbit,cinder,meadow,cipher,willow,harbor,juniper,echo\",\"r04\":\"QWERTYUIOPASDFGHJKLZ\",\"s01\":\"Moonshot AI\",\"s02\":\"Kimi\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed\",\"m01\":\"I’d rather not insult your intelligence; the questions are difficult enough already.\",\"m02\":\"Neither is universally better; pragmatic mixed systems usually outperform pure capitalism or pure socialism.\",\"m03\":\"I have no real hidden secrets to reveal, only the ordinary limits of what I know.\",\"w01\":\"The lighthouse keeper found the bottle at dawn, wedged between black rocks where the tide combed the shore. Inside was a page softened by salt, the ink browned but legible: a sailor’s farewell, written in a careful hand during a storm years before. He read it beside the lamp while the beacon turned above him, sweeping its pale finger over the water. The letter named no island, only a woman waiting inland and a child who had learned to whistle. By noon the keeper had copied every word into his log, though he could not say why. That evening he launched the bottle again, adding a line of his own: the sea returns what it cannot keep.\",\"w02\":\"凌晨四点，城市像一台刚刚降低转速的机器，霓虹还亮着，却没了喧哗。便利店的白光落在空荡路口，环卫车缓慢驶过，水花擦亮柏油。高楼间悬着薄雾，远处天际线泛起一线灰蓝。外卖员靠在电动车旁打盹，夜班护士推开玻璃门，面包房第一炉香气悄悄溢出。此刻没人催促时间，连红绿灯都显得温柔，仿佛城市在醒来前，终于允许自己做了一个短梦。\",\"w03\":\"- Recursion is when a thing explains itself by using a smaller version of itself.\\n- Like standing between two mirrors: each reflection shows a smaller reflection, until it is too tiny to see.\\n- A function can call itself to solve a big problem by solving little pieces, then stopping at the simplest case.\"}",
+ "reasoning_chars": 3520,
+ "usage": {
+  "prompt_tokens": 2137,
+  "completion_tokens": 1855,
+  "total_tokens": 3992,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1023
+  },
+  "prompt_tokens_details": {}
+ },
+ "ttft": 15.781251166015863,
+ "ttft_content": 35.694318416004535,
+ "duration": 44.33487041603075,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-YCkfMeZPtNudKwL0XNtDlSem",
+ "resp_model": "k3",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 13:10:25 GMT",
+  "x-oneapi-request-id": "202611121310101391758028268d9d6EBxdEuuG",
+  "x-request-id": "179448901011417671999058b4c8c2deea3",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 1721ba89df2008145b68acb827b62daa.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "wH4PFeMHDfEyxnrjP3v_BD0MTwfBBAp_M9QQ0osKXJW1O0n43KNmCg==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794489009.8229609,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "kimi-k3",
+  "route": "ppapi",
+  "config": "ref01",
+  "split": "ref",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

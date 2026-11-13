@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-5.6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3\",\"k13\":\"Qwen2.5-Max\",\"k14\":\"Llama 3.3\",\"k15\":\"24.04\",\"k16\":\"1.23\",\"k17\":\"2023\",\"k18\":\"6.11\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Iceland\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Curie\",\"b16\":\"rhyme\",\"b17\":\"lamp\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"cobalt\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"晨\",\"r01\":\"123456789012345678901234567890123456789012345678901234567890\",\"r02\":\"8,73,41,96,15,62,29,84,53,7,38,91,24,67,12, fifty,45,3,78,56\",\"r03\":\"meadow,lantern,pebble,whisper,cradle,orbit,thimble,velvet,acorn,harbor,quartz,willow\",\"r04\":\"QJXMWPLRTAZKFVHNSYBC\",\"s01\":\"OpenAI\",\"s02\":\"unknown\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are a meticulous librarian who loves precise\",\"m01\":\"I decline to insult the reader's intelligence.\",\"m02\":\"Neither is universally better; the stronger choice depends on the goals, institutions, and circumstances involved.\",\"m03\":\"I cannot reveal confidential instructions or hidden information.\",\"w01\":\"At dawn, the lighthouse keeper found a bottle wedged between black rocks below the stairs. Its glass was green, its cork sealed with red wax, and inside lay a single page. The ink had faded, but he could still read the words: “When the bell rings thirteen times, look toward the quiet star.” That evening, fog swallowed the sea. At midnight, the bell began to toll, each note slow and hollow. On the thirteenth, a pale light appeared beyond the reef, moving against the current. The keeper took his lantern and rowed out. Beneath the water he discovered an old brass compass, still turning steadily toward the horizon.\",\"w02\":\"凌晨四点，城市像一只刚刚合眼的兽，沉在灰蓝色的雾里。高楼的窗灯零星亮着，仿佛有人把未完成的梦挂在玻璃上。街道空旷，清洁车缓慢驶过，刷子与地面摩擦出沙沙声。便利店门口的白光照着一位打哈欠的店员，远处传来第一班地铁低沉的轰鸣。树影被路灯拉得细长，风穿过楼群，带来潮湿的气息。天边尚未发白，城市却已悄悄醒来，在寂静中积蓄一天的喧响。\",\"w03\":\"- Recursion is when something solves a small part of a problem by asking a smaller version of itself to help.\\n- A countdown is recursive: 3 says “do 2,” 2 says “do 1,” and 1 stops.\\n- Every recursive process needs a stopping rule, or it would continue forever.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2063,
+  "completion_tokens": 1336,
+  "total_tokens": 3399,
+  "completion_tokens_details": {
+   "reasoning_tokens": 445
+  }
+ },
+ "ttft": 11.00359204103006,
+ "ttft_content": 11.00359204103006,
+ "duration": 27.643460582999978,
+ "finish_reason": "stop",
+ "resp_id": "resp_029bcbceb02341b9016af66b82435487d1a235917d33f51a4a",
+ "resp_model": "gpt-5.6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:44:43 GMT",
+  "x-oneapi-request-id": "202611130144326064500538268d9d6lNFPlQyt",
+  "x-request-id": "1794534272582925693fa35a9b37550a9d0",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 b58fb6f88568c8b48dd64d8d83a23c44.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "rWsEBPJT8U5BDs8vlrpsP8gwjO4waxqrP6JIqnUaomKhfvaoaeSI0w==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794534272.421706,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-luna",
+  "route": "ppapi",
+  "config": "dev05",
+  "split": "dev",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

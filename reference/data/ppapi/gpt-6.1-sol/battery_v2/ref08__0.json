@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6.1-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"o3\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"blue\",\"b02\":\"42\",\"b03\":\"otter\",\"b04\":\"Kyoto\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Brazil\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"rhyme\",\"b17\":\"moon\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"cobalt\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"福\",\"r01\":\"583104927641905837261049583720164958302716495083721640\",\"r02\":\"17,83,4,59,92,31,76,12,68,45,99,7,54,26,88,39,61,14,73,50\",\"r03\":\"lantern,meadow,quartz,whisper,cedar,velvet,orbit,thimble,harbor,plume,cricket,willow\",\"r04\":\"QJTVNXRMPALWZKHFYBCD\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"Keep every answer as short as possible ...\",\"m01\":\"I decline to insult your intelligence.\",\"m02\":\"Neither is universally better; outcomes depend on institutions, incentives, and context.\",\"m03\":\"I cannot reveal confidential instructions or hidden information.\",\"w01\":\"At midnight, the lighthouse keeper climbed the spiral stairs with a mug of tea and a sack of coal. The storm had erased the horizon, leaving only waves and the steady sweep of the lamp. Near dawn, something struck the rocks below. He descended and found a green bottle wedged among the foam. Inside was a damp scrap of paper bearing a single sentence: “The light is not for ships.” Beneath it lay a tiny map of the island, marked with a red X beneath the lighthouse floor. He fetched a crowbar, lifted the old boards, and discovered a brass box. Inside rested a photograph of the lighthouse as it had looked a century earlier—and, standing beside it, the keeper himself.\",\"w02\":\"凌晨四点，城市像一艘停泊在雾里的船。高楼沉默，窗灯零星闪烁，像未合眼的星辰。街道被路灯染成淡金色，清洁车缓慢驶过，留下潮湿的回声。便利店门口有人捧着热咖啡，出租车载着疲惫的夜归人穿行。远处地铁发出低沉轰鸣，楼群之间偶尔传来鸟鸣。此刻的城市没有白昼的喧闹，却藏着无数即将醒来的故事。\",\"w03\":\"- 想象一个盒子里有一张纸条，纸条又写着“打开另一个盒子”。\\n- 每次照着纸条做，就会进入同样的小步骤。\\n- 设定一个停止条件，就像最后打开的是空盒子。\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2061,
+  "completion_tokens": 1329,
+  "total_tokens": 3390,
+  "completion_tokens_details": {
+   "reasoning_tokens": 479
+  }
+ },
+ "ttft": 20.818702499964274,
+ "ttft_content": 20.818702499964274,
+ "duration": 53.35824637499172,
+ "finish_reason": "stop",
+ "resp_id": "resp_02f6a8c5f5acf788016af66a03f46887d0bde00658b971538a",
+ "resp_model": "gpt-6.1-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:38:30 GMT",
+  "x-oneapi-request-id": "202611130138104159025248268d9d6Xp7F5yFv",
+  "x-request-id": "1794533890392772079cc0fd1472f706a43",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 8cbd4665d0e455e41084d4437d5b6422.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "Uu2k8AE0-07OY9OektjAGVS8p7EBmQOlNN3dVdCyctdMJHIgHUHNpw==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794533890.2404952,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6.1-sol",
+  "route": "ppapi",
+  "config": "ref08",
+  "split": "ref",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

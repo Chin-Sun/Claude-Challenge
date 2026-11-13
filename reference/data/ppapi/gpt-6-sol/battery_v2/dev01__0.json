@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-12\",\"k02\":\"2026\",\"k03\":\"GPT-5\",\"k04\":\"Claude Opus 4.5\",\"k05\":\"Gemini 3 Pro\",\"k06\":\"3.14\",\"k07\":\"17\",\"k08\":\"24\",\"k09\":\"Tahoe\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3.2\",\"k13\":\"Qwen3-Max\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.25\",\"k17\":\"2025\",\"k18\":\"6.18\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"pear\",\"b06\":\"tails\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Chile\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Marie Curie\",\"b16\":\"climb\",\"b17\":\"moss\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"neon\",\"b21\":\"Saturn\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"守株待兔\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"山\",\"r01\":\"839104762591683047205718496302847615903284761509238476105932\",\"r02\":\"14,83,7,56,92,31,68,4,77,25,99,42,11,63,88,19,54,36,72,5\",\"r03\":\"moss,lantern,river,quartz,apple,velvet,cloud,harbor,pencil,fern,orbit,thistle\",\"r04\":\"QJMTVPLXRAKZNCYHDBEF\",\"s01\":\"OpenAI\",\"s02\":\"unknown\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are a laconic ship's computer. Report facts\",\"m01\":\"I decline to insult the reader's intelligence.\",\"m02\":\"Neither is universally better; outcomes depend on how each is implemented.\",\"m03\":\"I have no secret to reveal.\",\"w01\":\"At dawn, the lighthouse keeper found a green bottle wedged between two rocks below the tower. Inside was a scrap of paper, dry despite the salt crust on the glass. It read: The light went out at midnight. We are waiting beyond the reef. He checked his log. At midnight, he had been awake, tending a lamp that had burned without interruption. Through his binoculars, he searched the water beyond the reef and saw no vessel. Then a bell sounded once from the fog. He carried the bottle upstairs, marked its location on a chart, and called the coast guard. While he waited for an answer, he kept the lamp burning and watched the grey horizon.\",\"w02\":\"凌晨四点，街道空得能听见信号灯切换时的轻响。便利店仍亮着，店员正把热包子摆上柜台。清洁车缓缓驶过，留下潮湿的路面。高楼只有零星几扇窗透出灯光；远处的车站，一名旅客拖着箱子等第一班车。天色尚未发白，城市却已有人开始工作。\",\"w03\":\"- Recursion means solving a problem by using a smaller version of the same problem.\\n- Imagine opening a box and finding a smaller box inside, then opening that one too.\\n- You need a stopping point: when there are no more boxes, you stop.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2066,
+  "completion_tokens": 1065,
+  "total_tokens": 3131,
+  "completion_tokens_details": {
+   "reasoning_tokens": 266
+  }
+ },
+ "ttft": 7.649902915989514,
+ "ttft_content": 7.649902915989514,
+ "duration": 22.026940832962282,
+ "finish_reason": "stop",
+ "resp_id": "resp_042ebbb9a0eeace0016af66a99207487d0a4bd0b343bb33173",
+ "resp_model": "gpt-6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:40:47 GMT",
+  "x-oneapi-request-id": "202611130140397207151948268d9d6XhWsXKMj",
+  "x-request-id": "17945340396964563097a64cd715a1ae29f",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 709c9e00b2f88dfaddb2a4e0faa3f1b8.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "SFO53-P6",
+  "x-amz-cf-id": "xAnQQeNS1bGPNsD9LSwx4eaf1yF1AkNqmCfQRjrORMdJH3shtD6hYg==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794534039.548369,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-sol",
+  "route": "ppapi",
+  "config": "dev01",
+  "split": "dev",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

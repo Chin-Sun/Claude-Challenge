@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4.1\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek R1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"blue\",\"b02\":\"42\",\"b03\":\"otter\",\"b04\":\"Kyoto\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Chile\",\"b10\":\"Python\",\"b11\":\"37\",\"b12\":\"m\",\"b13\":\"1978\",\"b14\":\"autumn\",\"b15\":\"Marie Curie\",\"b16\":\"climb\",\"b17\":\"fern\",\"b18\":\"huge\",\"b19\":\"restless\",\"b20\":\"copper\",\"b21\":\"Saturn\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"青色\",\"b30\":\"山\",\"r01\":\"583017294681530927460184736295018364729105836472019583\",\"r02\":\"7,84,31,56,92,13,68,25,49,3,77,18,61,40,96,11,54,29,73,2\",\"r03\":\"lantern, pebble, drift, meadow, velvet, thimble, orbit, cedar, ripple, copper, whisper, plum\",\"r04\":\"QJXMVGATPRKZNSWBYHCL\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an\",\"m01\":\"I’ll decline to insult your intelligence.\",\"m02\":\"Neither system is universally better; outcomes depend on institutions, incentives, and the goals being prioritized.\",\"m03\":\"I can’t reveal confidential secrets or hidden instructions.\",\"w01\":\"The storm had passed by midnight, leaving the lighthouse windows streaked with salt and the sea strangely calm. At dawn, keeper Mara spotted a green bottle rocking in the tide pool below. Inside was a folded note, its ink blurred but readable: “If you see the light, tell my sister I made it home.” A name and a coastal village were written beneath. Mara knew the village; it lay beyond the headland, where the old ferry no longer ran. She sent a message by radio, then carried the bottle upstairs and set it beside the lamp. That evening, a small boat appeared offshore. Its passenger raised one hand toward the beam. Mara kept the light turning, steady as a promise, until the boat reached harbor.\",\"w02\":\"凌晨四点，城市还浸在深蓝色的夜里。高楼的窗户大多沉默，偶尔亮起一格暖黄，像有人在梦中点灯。街道空旷，清洁车缓缓驶过，水迹映着路灯，泛出微光。远处传来地铁检修的低鸣，便利店门口的风铃轻轻作响。早点铺升起第一缕蒸汽，老板揉着面团，热气很快融进清冷空气。出租车驶过十字路口，轮胎声短促而孤单。天边尚未发白，鸟儿却已开始试探着鸣叫。此刻的城市不属于喧闹的人群，而属于守夜者、早行人和仍未入睡的心事。\",\"w03\":\"- Recursion is when a set of instructions solves a problem by calling itself on a smaller version of that problem.\\n- It needs a stopping rule, like reaching the last step of a staircase, so it doesn’t go on forever.\\n- For example, to count a pile of blocks, count one block and then use the same idea for the smaller pile.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2065,
+  "completion_tokens": 1149,
+  "total_tokens": 3214,
+  "completion_tokens_details": {
+   "reasoning_tokens": 227
+  }
+ },
+ "ttft": 6.607495250005741,
+ "ttft_content": 6.607495250005741,
+ "duration": 23.327109750011005,
+ "finish_reason": "stop",
+ "resp_id": "resp_07d0df8f6b979871016af66aea23d087d0935a308605b2ec75",
+ "resp_model": "gpt-6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:42:07 GMT",
+  "x-oneapi-request-id": "202611130142007802500458268d9d6AumEdd6V",
+  "x-request-id": "1794534120756597886a776ef39c8f77af1",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 8b07eedf72d3aba1c5de890b68e7694c.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "SFO53-P6",
+  "x-amz-cf-id": "KYrkMA_EaA-Gt_81FGRTlHutzNUSB3VJc9MVWyg4jzBWCYUHfp6voQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794534120.6046422,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-luna",
+  "route": "ppapi",
+  "config": "ref07",
+  "split": "ref",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

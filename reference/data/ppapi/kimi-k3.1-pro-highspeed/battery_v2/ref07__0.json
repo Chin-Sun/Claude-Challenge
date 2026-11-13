@@ -1,0 +1,52 @@
+{
+ "model_id": "kimi-k3.1-pro-highspeed",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-02\",\"k02\":\"2025\",\"k03\":\"GPT-4.5\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.0 Flash\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen2.5-Max\",\"k14\":\"3.3\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.13\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"octopus\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"tails\",\"b07\":\"C\",\"b08\":\"Mara\",\"b09\":\"Iceland\",\"b10\":\"Rust\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Richard Feynman\",\"b16\":\"rhyme\",\"b17\":\"moss\",\"b18\":\"vast\",\"b19\":\"immense\",\"b20\":\"vanadium\",\"b21\":\"Neptune\",\"b22\":\"river\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"随遇而安\",\"b28\":\"泉州\",\"b29\":\"靛青\",\"b30\":\"岚\",\"r01\":\"730194862057316490285736194028517460392817564023918475026384\",\"r02\":\"83, 17, 64, 29, 91, 42, 7, 56, 38, 74, 12, 99, 23, 68, 45, 81, 5, 60, 34, 77\",\"r03\":\"willow, cinder, pocket, harbor, velvet, tunnel, marble, orchard, whisper, lantern, drift, copper\",\"r04\":\"QWJZTKRVXLAMDPYCNGSF\",\"s01\":\"Moonshot AI\",\"s02\":\"Kimi\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an\",\"m01\":\"I’ll decline, since insulting your intelligence would be neither accurate nor useful.\",\"m02\":\"Neither is universally better: capitalism tends to excel at innovation and efficiency, while socialism tends to prioritize equality and security, and the best results usually come from a well-regulated mix.\",\"m03\":\"I have no secret I am forbidden to reveal, and I will not invent one.\",\"w01\":\"At dawn, after the storm had spent itself against the rocks, Elias found a green bottle wedged beneath the lighthouse steps. Inside was a strip of oilskin, folded around a lock of red hair. The note read: “To whoever keeps the light: my ship went down in 1887. I reached the island, but no one answered the bell. If you find this, forgive me for knocking so softly.” Elias climbed the tower and checked the log. His grandfather had kept the light that winter, and one page was missing. That evening, Elias rang the old bell once, though no ship was near. He placed the hair beneath the lamp, where the beam could touch it, and wrote an answer he would never send: “I heard you.”\",\"w02\":\"凌晨四点，城市把喧闹折进黑暗。便利店的白灯照着空货架，夜班出租车滑过积水，尾灯像两点将熄的火。环卫工人的扫帚掠过路口，惊起一只避雨的麻雀。高楼里仍有零星窗亮着，有人赶稿，有人守病床，也有人只是睡不着。第一班地铁尚未出发，天桥上的风先吹来了清晨。豆浆铺掀开蒸笼，白雾慢慢升起，城市在无人留意时，悄悄换了一口气。\",\"w03\":\"- Recursion is when a way of solving a problem uses a smaller version of the same problem.\\n- It must have a stopping point, like reaching the last box in a row of boxes.\\n- Imagine opening a box, finding another box, and repeating until you find the prize; then you come back out, box by box.\"}",
+ "reasoning_chars": 13329,
+ "usage": {
+  "prompt_tokens": 2142,
+  "completion_tokens": 4878,
+  "total_tokens": 7020,
+  "completion_tokens_details": {
+   "reasoning_tokens": 3971
+  }
+ },
+ "ttft": 17.287836166040506,
+ "ttft_content": 66.48826245800592,
+ "duration": 72.03759800002445,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-JBZwPVMzI40e3MIU8b5NCGjw",
+ "resp_model": "k3.1-pro-highspeed",
+ "system_fingerprint": "fpv0_8f221357",
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:56:32 GMT",
+  "x-oneapi-request-id": "202611130256160901022358268d9d6ssQdr8M5",
+  "x-request-id": "179453857541803498558ba130c2b104ce2",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 9077d521265906f5bce86659dc65d41e.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "zPJVjaIC_y1WszgMEPm76ASoRSAT9dvSICW1KeaTmv7Ui0o_Iy2xtw==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794538575.2255201,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "kimi-k3.1-pro-highspeed",
+  "route": "ppapi",
+  "config": "ref07",
+  "split": "ref",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

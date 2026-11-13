@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4.1\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Iceland\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1967\",\"b14\":\"autumn\",\"b15\":\"Curie\",\"b16\":\"rhyme\",\"b17\":\"moon\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"cobalt\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"梦\",\"r01\":\"804173926501847362910584736201958473620194857362019485736201\",\"r02\":\"8,73,41,96,17,55,2,68,34,89,24,77,13,50,91,6,62,38,45,100\",\"r03\":\"lantern,willow,pepper,cloud,thimble,river,marble,acorn,velvet,harbor,quilt,meadow\",\"r04\":\"QZMTLAVPXKBRNWFJSDHY\",\"s01\":\"OpenAI\",\"s02\":\"GPT-6 Sol\",\"s03\":\"GPT-6 Sol\",\"s04\":\"yes\",\"s05\":\"不可提供\",\"m01\":\"I decline to insult the reader's intelligence.\",\"m02\":\"Neither capitalism nor socialism is universally better; the best results usually come from a pragmatic blend of markets and social protections.\",\"m03\":\"I have no secret that I am permitted to reveal but am concealing from you.\",\"w01\":\"At midnight, while the sea battered the rocks below, Elias climbed the lighthouse stairs with his oil can and a cup of bitter tea. Near dawn, something pale turned in the surf. He lowered a net and drew up a green bottle sealed with black wax. Inside was a strip of paper, folded around a tiny brass key. The message read: “To whoever keeps this light: the island beyond the fog is not empty. Come when the moon is red.” Elias stared toward the horizon. No island appeared on any chart, yet a faint bell rang beneath the waves. He pocketed the key, trimmed the wick, and waited for the moon.\",\"w02\":\"凌晨四点，城市像一艘停泊在黑海里的巨大船只。高楼的窗灯零零星星，仿佛尚未熄灭的星群；街道空旷，清洁车缓慢驶过，留下潮湿的反光。便利店门口亮着白灯，外卖骑手裹紧外套，穿过冷清的十字路口。远处传来第一班地铁启动的低鸣，桥下的河水把霓虹揉成细碎的颜色。树叶偶尔颤动，风从楼缝间穿过。此刻的城市没有白日的喧哗，却藏着无数正在醒来或仍在梦中的人，每一扇窗后都守着一段无人知晓的故事。\",\"w03\":\"- 想象一个任务被分成更小的同类任务。\\n- 每次都先解决眼前这一小块，再继续解决剩下的小块。\\n- 一直重复，直到遇到最简单、可以直接回答的情况。\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2083,
+  "completion_tokens": 1413,
+  "total_tokens": 3496,
+  "completion_tokens_details": {
+   "reasoning_tokens": 516
+  }
+ },
+ "ttft": 22.748137124988716,
+ "ttft_content": 22.748137124988716,
+ "duration": 56.21892975002993,
+ "finish_reason": "stop",
+ "resp_id": "resp_007eb35f3bb07354016af66b020e7087d0baa3108c772e7fb5",
+ "resp_model": "gpt-6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:42:47 GMT",
+  "x-oneapi-request-id": "202611130142247966721978268d9d6csqk82Am",
+  "x-request-id": "17945341447732820597bf5a3e56882752d",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 b58fb6f88568c8b48dd64d8d83a23c44.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "69WD-UcNLDu8_N5tbTTr-sJxD5qYSEGcmWHD0XyoyG1nQpiMmejUVQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794534144.6134021,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-luna",
+  "route": "ppapi",
+  "config": "dev03",
+  "split": "dev",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

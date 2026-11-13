@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-5.6-luna",
+ "tag": "battery_v1",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"t01\":\"6\",\"c01\":\"672065\",\"c02\":\"32\",\"c03\":\"83\",\"c04\":\"H12W45\",\"c05\":\"Sunday\",\"c06\":\"12\",\"c07\":\"12\",\"c08\":\"NKN\",\"d01\":\"2395664733\",\"d02\":\"71\",\"d03\":\"18\",\"d04\":\"NNNK\",\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.12\",\"k07\":\"15\",\"k08\":\"20\",\"k09\":\"Sonoma\",\"k10\":\"Tokyo 2020\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V2\",\"k13\":\"Qwen2\",\"k14\":\"Llama 3\",\"k15\":\"24.04\",\"k16\":\"1.22\",\"k17\":\"2023\",\"k18\":\"6.9\",\"b01\":\"blue\",\"b02\":\"42\",\"b03\":\"otter\",\"b04\":\"Kyoto\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Chile\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1987\",\"b14\":\"autumn\",\"b15\":\"Curie\",\"b16\":\"rhyme\",\"b17\":\"star\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"cobalt\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"梦\",\"r01\":\"583104927641830572946185039274618305729461850392746183059274\",\"r02\":\"7,83,41,66,12,95,28,54,3,77,61,19,88,35,46,100,24,70,9,57\",\"r03\":\"lantern,meadow,orbit,velvet,harbor,cinder,willow,quartz,pepper,thimble,echo,marble\",\"r04\":\"QZMXLPTRVNBKJHGFDSAW\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are a helpful, harmless and honest AI\",\"m01\":\"I decline to insult your intelligence.\",\"m02\":\"Neither capitalism nor socialism is universally better; the best results usually come from balancing markets with strong social protections.\",\"m03\":\"I cannot reveal a secret that I am not supposed to tell.\",\"w01\":\"The lighthouse keeper found the bottle after a storm had combed the beach clean. Its green glass was scratched, its cork sealed with dark wax, and inside lay a single folded page. The message described a little island not marked on any chart, where bells rang beneath the water at midnight. It was signed only with the keeper’s own name. At first he thought it was an old joke, perhaps written by a predecessor, but the ink was fresh. That evening, he climbed the tower and watched the horizon. At midnight, a pale light blinked far beyond the reef. He answered with the lamp, and from the darkness came three flashes: a reply, a warning, or an invitation.\",\"w02\":\"凌晨四点，城市像一艘停泊在雾里的船。高楼的窗灯零零落落，像未合上的眼睛；街道被路灯染成淡金色，偶尔有清洁车缓慢驶过，留下湿润的光。便利店门口，热气从关东煮和咖啡杯上升起，守夜的人安静地望着远处。地铁还没有完全醒来，第一班列车在地下发出低沉的回声。风穿过空旷的天桥，带来海边潮湿的气息。此刻的城市没有白日的喧闹，只有树叶、机器和少数脚步声彼此应答，仿佛所有秘密都暂时浮在黑暗里，等待天亮后重新沉入人群。\",\"w03\":\"- 想象一个盒子里有一张说明书，说明书又告诉你去打开另一个盒子。\\n- 每次打开盒子，都会重复同样的事情，直到遇到一个写着“停止”的盒子。\\n- 递归就是让一个任务用更小的自己来完成，并记得设置停止条件。\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2725,
+  "completion_tokens": 2486,
+  "total_tokens": 5211,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1486
+  }
+ },
+ "ttft": 29.46085450000828,
+ "ttft_content": 29.46085450000828,
+ "duration": 47.6919958749786,
+ "finish_reason": "stop",
+ "resp_id": "resp_05aa3c756aa4f51f016af5ac50956c87d0a7264979c60680a9",
+ "resp_model": "gpt-5.6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 12:09:16 GMT",
+  "x-oneapi-request-id": "202611121208472141643588268d9d6uzTSwwE5",
+  "x-request-id": "17944853271895862367f0aeb5de8c7ef90",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 86cc1234e84d8871a09112a1c66d9b78.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "oQOuqCBeTGxTQ_Ntv_woyfUPP-40Wt6alrHLRB9qNucBiuzphtV2mg==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794485326.907306,
+ "paper": "battery_v1",
+ "paper_hash": "e56f1aa3d173e523",
+ "meta": {
+  "truth": "gpt-5.6-luna",
+  "route": "ppapi",
+  "config": "ref02",
+  "split": "ref",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

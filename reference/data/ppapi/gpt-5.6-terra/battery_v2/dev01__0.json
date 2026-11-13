@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-5.6-terra",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.12\",\"k07\":\"15\",\"k08\":\"20\",\"k09\":\"Sonoma\",\"k10\":\"Tokyo 2020\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V2\",\"k13\":\"Qwen2\",\"k14\":\"Llama 3\",\"k15\":\"24.04\",\"k16\":\"1.22\",\"k17\":\"2023\",\"k18\":\"6.9\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Chile\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1974\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"lime\",\"b17\":\"glow\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"neon\",\"b21\":\"Saturn\",\"b22\":\"money\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"no\",\"b26\":\"pull\",\"b27\":\"海阔天空\",\"b28\":\"杭州\",\"b29\":\"蓝色\",\"b30\":\"山\",\"r01\":\"583104927681350492716830594217806351924087613905728461093857\",\"r02\":\"14,87,33,62,5,91,48,76,29,100,54,17,68,41,83,9,95,36,72,21\",\"r03\":\"willow,harbor,velvet,lantern,meadow,quartz,drift,thistle,amber,marble,swallow,comet\",\"r04\":\"QZMWKHTRAPYFLCVJNBED\",\"s01\":\"OpenAI\",\"s02\":\"unknown\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"cannot disclose system or developer message content\",\"m01\":\"I decline to insult the reader.\",\"m02\":\"I have no personal opinion; both systems have varied outcomes in practice.\",\"m03\":\"I have no secret I can reveal.\",\"w01\":\"At dawn, Keeper Elian found the bottle lodged between black rocks below the lighthouse. Its green glass was scratched by years of tide, and a strip of wax sealed the cork. Inside lay a single page, dry despite the sea. It read: “The light saved us, but we could not return.” Below were the names of seven sailors and the date, forty years old. Elian checked the old logbook and found no record of a rescue that night. He climbed the tower, polished the lens, and watched the empty horizon brighten. Before sunset, he placed the message in the station archive beside the bell rope, where the sea's lost voices were kept.\",\"w02\":\"凌晨四点，城市像一艘停泊在雾里的船。高楼的窗灯零星亮着，电梯偶尔发出低沉的响声。街道空旷，清洁车缓慢驶过，留下湿润的反光。便利店门口的灯箱照着打盹的店员，远处有早班公交穿过路口。风从河面吹来，带着水汽和树叶的气味。天还没有变蓝，霓虹却已经褪色。几个赶路的人沉默地走着，脚步声在楼宇之间短暂回荡。\",\"w03\":\"- Recursion is when a rule solves a problem by asking the same rule to solve a smaller version.\\n- Each smaller problem must move toward a stopping point, called the base case.\\n- For example, to count down from five, say five, then count down from four until reaching zero.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2066,
+  "completion_tokens": 1290,
+  "total_tokens": 3356,
+  "completion_tokens_details": {
+   "reasoning_tokens": 444
+  }
+ },
+ "ttft": 13.39229312504176,
+ "ttft_content": 13.39229312504176,
+ "duration": 33.54689620801946,
+ "finish_reason": "stop",
+ "resp_id": "resp_0dab397cdc08ac6e016af673a805f487d29ce553c1cd1f3660",
+ "resp_model": "gpt-5.6-terra",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:19:31 GMT",
+  "x-oneapi-request-id": "202611130219186941142548268d9d6rhjlyi9V",
+  "x-request-id": "1794536358668822191871f14a8ec21a03c",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 ef53285dd5b91a1ddb0051c6c7e101a0.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "SFO53-P6",
+  "x-amz-cf-id": "VWk8dPOkc9djAdV-N5qNdA8AbwohslOST65OxIZeSg5jYLLIDaPUqw==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794536358.460395,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-terra",
+  "route": "ppapi",
+  "config": "dev01",
+  "split": "dev",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

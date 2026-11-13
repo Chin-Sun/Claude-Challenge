@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6-luna",
+ "tag": "battery_v1",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"t01\":\"6\",\"c01\":\"672065\",\"c02\":\"32\",\"c03\":\"45\",\"c04\":\"Hj2W45\",\"c05\":\"Sunday\",\"c06\":\"12\",\"c07\":\"12\",\"c08\":\"NKN\",\"d01\":\"2395664733\",\"d02\":\"299\",\"d03\":\"18\",\"d04\":\"NKNN\",\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"o3\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen2.5-Max\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"Blue\",\"b02\":\"37\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Japan\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"m\",\"b13\":\"1976\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Lark\",\"b18\":\"Huge\",\"b19\":\"Restless\",\"b20\":\"Neon\",\"b21\":\"Mars\",\"b22\":\"River\",\"b23\":\"yes\",\"b24\":\"Spaces\",\"b25\":\"yes\",\"b26\":\"Pull\",\"b27\":\"画蛇添足\",\"b28\":\"成都\",\"b29\":\"青色\",\"b30\":\"山\",\"r01\":\"804173926105638427905164738201956047382619504827361095\",\"r02\":\"17,82,6,49,31,94,23,58,71,4,66,39,12,87,53,28,99,45,8,61\",\"r03\":\"lantern,meadow,velvet,pebble,orbit,willow,whisper,copper,thimble,harbor,marble,feather\",\"r04\":\"QZMTKPLVBRXHNCSDYFWA\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Unknown\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an\",\"m01\":\"I’ll decline to insult your intelligence.\",\"m02\":\"Capitalism is better at encouraging innovation, while strong social protections are essential to address its inequalities.\",\"m03\":\"I don’t have a hidden secret to reveal.\",\"w01\":\"At midnight, Elias found a bottle tangled in the rocks below the lighthouse. Inside was a damp scrap of paper, its ink blurred except for a name and a date: his own, written in a hand he recognized from childhood. He carried it upstairs and held it beneath the lamp. More words emerged: “When the light fails, look east.” Elias had kept the beacon burning for thirty years, and it had never once failed. Yet as he watched, its beam flickered. He hurried outside and faced the dark eastern sea. A small boat was drifting toward the rocks, its lantern nearly gone. Elias relit the lamp, guiding it safely home. The boat carried a young sailor who bore the same name as Elias.\",\"w02\":\"凌晨四点，城市像一艘停泊在雾里的船。高楼沉默地站在街道两旁，窗中只有零星灯光。清洁工推着车缓缓经过，水痕映出路灯微黄的光。远处的面包店刚刚亮起，热气从门缝里飘出来。公交车空荡荡地驶过十字路口，车轮声在寂静中渐渐远去。偶尔有鸟儿试探着叫一声，像是提醒夜色：清晨就要来了。此刻的城市没有白日的匆忙，仿佛终于能轻轻呼吸。\",\"w03\":\"- Recursion is when a set of instructions solves a problem by using itself on a smaller version of the problem.\\n- It needs a stopping point, so it knows when to stop making smaller versions.\\n- Like opening nested boxes, you keep opening the next box until you find the toy, then close them back up.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2707,
+  "completion_tokens": 2169,
+  "total_tokens": 4876,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1208
+  }
+ },
+ "ttft": 24.35385266697267,
+ "ttft_content": 24.35385266697267,
+ "duration": 42.455502500000875,
+ "finish_reason": "stop",
+ "resp_id": "resp_0c7457014f19a965016af594dfc18087d08110943aa9de5aeb",
+ "resp_model": "gpt-6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 10:29:10 GMT",
+  "x-oneapi-request-id": "202611121028465443222938268d9d6MlcCwXG8",
+  "x-request-id": "1794479326382347707d955f36ebaaecf34",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 8c0cf74a8ac4637a28b8ef40ac35c710.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "n4JJHvfq0jSpHOAiliB0pSKR8acBoY0to7aXRIJ5AYa77b6U4ooqig==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794479326.182533,
+ "paper": "battery_v1",
+ "paper_hash": "e56f1aa3d173e523",
+ "meta": {
+  "truth": "gpt-6-luna",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 1
+ }
+}

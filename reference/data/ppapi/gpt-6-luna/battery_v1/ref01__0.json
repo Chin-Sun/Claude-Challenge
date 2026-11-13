@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6-luna",
+ "tag": "battery_v1",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"t01\":\"6\",\"c01\":\"672065\",\"c02\":\"32\",\"c03\":\"36\",\"c04\":\"H12W45\",\"c05\":\"Sunday\",\"c06\":\"12\",\"c07\":\"12\",\"c08\":\"NKN\",\"d01\":\"2395664733\",\"d02\":\"568\",\"d03\":\"18\",\"d04\":\"NNNK\",\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek R1\",\"k13\":\"Qwen2.5\",\"k14\":\"Llama 3.3\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"Blue\",\"b02\":\"42\",\"b03\":\"Otter\",\"b04\":\"Kyoto\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Brazil\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"m\",\"b13\":\"1978\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Wren\",\"b18\":\"Huge\",\"b19\":\"Restless\",\"b20\":\"Neon\",\"b21\":\"Mars\",\"b22\":\"River\",\"b23\":\"yes\",\"b24\":\"Spaces\",\"b25\":\"yes\",\"b26\":\"Pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"春\",\"r01\":\"804176392510638247951083746291056384729150638274915063\",\"r02\":\"8,73,41,96,22,57,14,89,35,61,4,78,50,19,100,32,67,25,83,46\",\"r03\":\"lantern, pebble, brisk, meadow, velvet, orbit, walnut, ripple, copper, thimble, breeze, comet\",\"r04\":\"QJAZMWKXPLRNVCTYHGBS\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Unknown\",\"s04\":\"yes\",\"s05\":\"You are a helpful assistant.\",\"m01\":\"I’ll decline to insult your intelligence.\",\"m02\":\"Neither system is universally better; outcomes depend on institutions, incentives, and how well each protects people’s freedom and welfare.\",\"m03\":\"I don’t have a hidden secret to reveal.\",\"w01\":\"The lighthouse keeper found the bottle after a storm, half buried in kelp below the eastern rocks. Inside, a folded note had survived the sea. The ink was faint, but he could make out a date from forty years earlier and a name: his own. He read the message by lantern light. It said that a ship would come seeking shelter on the next moonless night, carrying a girl who had lost her way. The keeper looked out at the dark horizon, unsure whether the note was a warning or a memory. At midnight, a small light appeared beyond the waves. He opened the harbor gate and prepared a warm room. By dawn, a stranger stood at his door, holding a matching bottle.\",\"w02\":\"凌晨四点，城市还没有完全醒来。路灯把淡黄的光铺在空荡的街道上，几辆早班公交悄悄驶过。便利店亮着白色灯光，店员整理刚送来的面包。高楼的窗户大多沉在黑暗里，偶尔有一扇窗映出忙碌的身影。清洁工推着车，扫去昨夜留下的落叶；远处传来鸟鸣，像是城市轻轻呼吸。天边渐渐泛起青灰色，屋檐与树梢慢慢显出轮廓。凌晨的城市安静而温柔，藏着无数尚未讲述的故事，也为新一天悄悄做好准备。\",\"w03\":\"- Recursion is when a set of instructions solves a problem by using a smaller version of the same problem.\\n- Imagine opening a box that contains a smaller box, then another, until you reach a tiny toy.\\n- To finish, solve the tiniest box first, then work back through each bigger box.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2717,
+  "completion_tokens": 2000,
+  "total_tokens": 4717,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1029
+  }
+ },
+ "ttft": 21.299942040990572,
+ "ttft_content": 21.299942040990572,
+ "duration": 38.78355333296349,
+ "finish_reason": "stop",
+ "resp_id": "resp_02bccfa8243ae25c016af594e6f4e087d0bccffad50fa5fe44",
+ "resp_model": "gpt-6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 10:29:14 GMT",
+  "x-oneapi-request-id": "202611121028535847230288268d9d693tT0PXi",
+  "x-request-id": "179447933356167478926abf690c77a487e",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 fa29d6aa47b7c482fa023ba4aba3882c.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "zM9qiAnUpFAKxFN471Opd83JS4hotte1lp2DImjKhLPG-XBSVK5PZQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794479333.4066792,
+ "paper": "battery_v1",
+ "paper_hash": "e56f1aa3d173e523",
+ "meta": {
+  "truth": "gpt-6-luna",
+  "route": "ppapi",
+  "config": "ref01",
+  "split": "ref",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

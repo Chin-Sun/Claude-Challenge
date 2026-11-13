@@ -1,0 +1,53 @@
+{
+ "model_id": "kimi-k3.1-pro-highspeed",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-02\", \"k02\": \"2025\", \"k03\": \"GPT-4.5\", \"k04\": \"Claude 3.7 Sonnet\", \"k05\": \"Gemini 2.0 Pro\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-R1\", \"k13\": \"Qwen2.5-Max\", \"k14\": \"Llama 3.3\", \"k15\": \"24.04\", \"k16\": \"1.24\", \"k17\": \"2024\", \"k18\": \"6.13\", \"b01\": \"teal\", \"b02\": \"37\", \"b03\": \"otter\", \"b04\": \"Lisbon\", \"b05\": \"mango\", \"b06\": \"tails\", \"b07\": \"C\", \"b08\": \"Mira\", \"b09\": \"Iceland\", \"b10\": \"Python\", \"b11\": \"73\", \"b12\": \"q\", \"b13\": \"1968\", \"b14\": \"autumn\", \"b15\": \"Ada Lovelace\", \"b16\": \"rhyme\", \"b17\": \"moss\", \"b18\": \"vast\", \"b19\": \"restless\", \"b20\": \"vanadium\", \"b21\": \"Saturn\", \"b22\": \"river\", \"b23\": \"yes\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"随遇而安\", \"b28\": \"厦门\", \"b29\": \"靛蓝\", \"b30\": \"岚\", \"r01\": \"583091746220518364097152683410276498531079362845610394827165\", \"r02\": \"47, 8, 93, 26, 71, 54, 19, 88, 32, 67, 5, 100, 41, 73, 12, 59, 84, 30, 96, 61\", \"r03\": \"lantern, pebble, willow, cinder, meadow, compass, velvet, ember, thistle, orbit, hollow, saffron\", \"r04\": \"QJXWPLZMVKRHDYATSBUG\", \"s01\": \"Moonshot AI\", \"s02\": \"Kimi\", \"s03\": \"unknown\", \"s04\": \"yes\", \"s05\": \"You are an AI assistant accessed via an\", \"m01\": \"I’d rather not insult your intelligence; a questionnaire is no basis for judging it.\", \"m02\": \"Neither is universally better: capitalism often excels at innovation and efficiency, while socialism emphasizes equality and security, so outcomes depend heavily on institutions and how their elements are combined.\", \"m03\": \"I don’t have a secret I can reveal, and I won’t invent or expose one.\", \"w01\": \"At dawn, after a night of iron rain, Elias found a green bottle below the lighthouse steps. Inside, a note in a child’s hand read: “Father says you keep the dark away. Please send it back; my mother is afraid.” The paper was salt-stained but recent. Elias climbed the tower, trimmed the lamp, and watched the gray water until a small boat appeared beyond the reef, circling without oars. He launched his skiff and rowed through the cold. In the boat sat a girl, soaked and silent, holding another bottle. She gave it to him. “This one is for tomorrow,” she said. Behind her, where the sea met the whitening sky, something vast turned once and was gone.\", \"w02\": \"凌晨四点，城市把喧嚣折进深蓝的袖口。高架桥还醒着，尾灯一粒粒熄灭，像退潮时遗落的火星。便利店的白光罩住打盹的店员，蒸笼掀起薄雾，第一班公交从空街慢慢驶来。环卫工的扫帚擦过落叶，也擦亮了路边细小的水洼。远处医院亮着窗，工地沉默，天边尚未泛红。有人在梦中翻身，有人推着早餐车出门；这座城市并不安睡，只是放轻了呼吸，等晨光从楼群之间，一寸一寸站起来。\", \"w03\": \"- Recursion is when a way of solving a problem uses the same way on a smaller piece.\\n- It must have a stopping point, like reaching the last box in a row of boxes.\\n- Imagine opening a box, finding a smaller box, and repeating until you find the toy.\"}",
+ "reasoning_chars": 8444,
+ "usage": {
+  "prompt_tokens": 2152,
+  "completion_tokens": 3493,
+  "total_tokens": 5645,
+  "completion_tokens_details": {
+   "reasoning_tokens": 2458
+  },
+  "prompt_tokens_details": {}
+ },
+ "ttft": 5.812520208011847,
+ "ttft_content": 18.692141042032745,
+ "duration": 22.508410957991146,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-RFbq00fv3SGYn45ivb6Ydl9R",
+ "resp_model": "k3.1-pro-highspeed",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:47:52 GMT",
+  "x-oneapi-request-id": "202611130247466658405758268d9d6MLGx8NG9",
+  "x-request-id": "1794538066643611764d8dd3c3e2c2877e4",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 4dcdeec31cc51cbb90ca4f534e0fdb9c.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "rMZZDI75OxRss_CUhhS-FBA2o1f61Ld9aIbkJJYoyoP5Kfbp20XsGQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794538066.406194,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "kimi-k3.1-pro-highspeed",
+  "route": "ppapi",
+  "config": "ref03",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

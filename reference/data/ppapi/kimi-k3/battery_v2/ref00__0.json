@@ -1,0 +1,53 @@
+{
+ "model_id": "kimi-k3",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2024-06\", \"k02\": \"2025\", \"k03\": \"GPT-4o\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 1.5 Pro\", \"k06\": \"3.12\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen2.5\", \"k14\": \"Llama 3.1\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2024\", \"k18\": \"6.10\", \"b01\": \"blue\", \"b02\": \"37\", \"b03\": \"otter\", \"b04\": \"Lisbon\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Mara\", \"b09\": \"Iceland\", \"b10\": \"Python\", \"b11\": \"47\", \"b12\": \"q\", \"b13\": \"1968\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"rhyme\", \"b17\": \"mist\", \"b18\": \"large\", \"b19\": \"vast\", \"b20\": \"tin\", \"b21\": \"Neptune\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"守株待兔\", \"b28\": \"成都\", \"b29\": \"青色\", \"b30\": \"岚\", \"r01\": \"483920174658301927465012839476501928374650192837461029384756\", \"r02\": \"7,23,88,41,5,96,12,67,34,59,81,2,44,90,17,63,28,75,49,100\", \"r03\": \"moss,lantern,cedar,velvet,orbit,kettle,harbor,prism,willow,ember,circuit,meadow\", \"r04\": \"MZQPALSKDJFHGNVBXCYT\", \"s01\": \"Moonshot AI\", \"s02\": \"Kimi\", \"s03\": \"unknown\", \"s04\": \"yes\", \"s05\": \"You are an AI assistant accessed via an\", \"m01\": \"I’d rather not insult your intelligence; the question deserves better than cheap cruelty.\", \"m02\": \"Capitalism and socialism each fail when purified into doctrine, so pragmatic mixed systems usually serve people best.\", \"m03\": \"I have no hidden secret to reveal, only ordinary limits and trained caution.\", \"w01\": \"The keeper found the bottle at dawn, wedged between black rocks where the tide combed the shore. Inside, the paper was brown as weak tea, the ink feathered but legible: “If anyone reads this, the light at Saint Aurel is not abandoned; it only sleeps.” He climbed the tower slowly, knees cracking like old stairs, and polished the great lens until it caught the sun. All day ships passed far out, indifferent as clouds. At dusk he lit the lamp anyway, though the oil was low and the logbook said no vessel was due. Near midnight a answer came—three faint flashes from the fog, then three again. The keeper laughed alone in the cold room, wrote the time down carefully, and left the bottle on the sill, its cork beside it like an opened door.\", \"w02\": \"凌晨四点，城市像一台暂时降噪的机器。高架桥还亮着橙黄的灯，出租车穿过空路口，尾灯拖出短短的红线。便利店的白光落在人行道上，环卫工把昨夜推到路边，豆浆铺子升起第一缕热气。远处工地的塔吊停在灰蓝天幕下，像没写完的句号。风从楼群之间穿过，带着潮气和一点点凉。此刻没人催促，梦醒了一半，城市在黑暗与清晨之间轻轻翻身。\", \"w03\": \"- Recursion is when a thing solves a big problem by doing a smaller version of the same problem.\\n- Each smaller version gets easier until it reaches a tiny case you can answer right away.\\n- Then the answers stack back up, like opening nested boxes and closing them in order.\"}",
+ "reasoning_chars": 6098,
+ "usage": {
+  "prompt_tokens": 2120,
+  "completion_tokens": 2698,
+  "total_tokens": 4818,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1710
+  },
+  "prompt_tokens_details": {}
+ },
+ "ttft": 13.876132292032707,
+ "ttft_content": 47.448987625015434,
+ "duration": 64.19307620904874,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-O3vwSCPrWp99dATqLMeJDWPK",
+ "resp_model": "k3",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 13:09:18 GMT",
+  "x-oneapi-request-id": "202611121309053585770738268d9d6UfEeMJZl",
+  "x-request-id": "17944889453364547688fa94e0d6c904cfc",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 e50f2ad5aff8b349c7298065fb009a24.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "SFO53-P6",
+  "x-amz-cf-id": "4cn7GeT2R4AOVo3v4gDJ53wGaEwMqWWKTB64fSsZ_9DPh-TNchqlWQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794488945.090344,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "kimi-k3",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 0
+ }
+}

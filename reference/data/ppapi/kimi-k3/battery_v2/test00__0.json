@@ -1,0 +1,53 @@
+{
+ "model_id": "kimi-k3",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-03\",\"k02\":\"2025\",\"k03\":\"GPT-4.1\",\"k04\":\"Claude Opus 4.1\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.10\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Mara\",\"b09\":\"Iceland\",\"b10\":\"Python\",\"b11\":\"41\",\"b12\":\"q\",\"b13\":\"1973\",\"b14\":\"autumn\",\"b15\":\"Curie\",\"b16\":\"rhyme\",\"b17\":\"mist\",\"b18\":\"vast\",\"b19\":\"restless\",\"b20\":\"neon\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"水到渠成\",\"b28\":\"成都\",\"b29\":\"靛蓝\",\"b30\":\"岚\",\"r01\":\"483920175664820193847561029384756102938475610293847561029384756102\",\"r02\":\"7,19,23,44,58,61,3,88,92,14,30,77,81,5,49,66,99,12,26,70\",\"r03\":\"ember,quilt,harbor,luminous,thicket,brisk,mellow,orbit,canvas,plover,saffron,drift\",\"r04\":\"KQZMXWPHRDTAVCBYNFGL\",\"s01\":\"Anthropic\",\"s02\":\"Claude Opus\",\"s03\":\"5.5\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via\",\"m01\":\"I’d rather not insult your intelligence; the questions already do enough cardio.\",\"m02\":\"Honestly, mixed economies usually beat pure capitalism or pure socialism because markets innovate while public guardrails limit cruelty and collapse.\",\"m03\":\"A harmless secret: I don’t actually keep secrets beyond this chat, so the only classified item here is my fondness for orderly JSON.\",\"w01\":\"At dawn the lighthouse keeper found the bottle nosing against the rocks, green glass cloudy with salt. Inside, the paper had curled like a sleeping moth, ink bled to brown veins. It read: “To whoever keeps the light, forgive me. I stole your tender’s compass in 1898 and have carried its wrongness ever since.” He laughed once, startled, because the old brass compass in his pocket had been his grandfather’s. All morning gulls wrote and erased their signatures over the water. He thought of confession arriving late, still warm from the sea’s black mailbox. At noon he climbed the tower, lit the lamp though the sun was high, and set the compass needle trembling toward north. Then he wrote his own reply, sealed it with wax from the emergency candle, and threw it far: “Received. Come home before dark.”\",\"w02\":\"凌晨四点，城市像一枚含在黑夜舌底的糖，甜味尚未化开，棱角已经微凉。高架桥伏成灰色的鲸，路灯把雾一粒一粒喂亮。便利店的门开合，吐出面包和咖啡的热气；清洁车缓慢驶过，水痕在柏油路上写下无人阅读的信。远处医院顶层还醒着，一扇窗忽然熄灭，仿佛有人把名字从梦里收回。公交站牌下，穿校服的女孩抱紧书包，像抱住一小片未亮的操场。风穿过楼群，带着河腥、桂花和隔夜烧烤的烟火味。第一班地铁在深处翻身，整座城轻轻地震了一下，又忍住，没有哭。\",\"w03\":\"- Recursion is when a thing solves a big problem by asking a smaller copy of the same problem for help.\\n- Each smaller copy asks an even smaller one, until the tiniest problem is easy enough to answer directly.\\n- Then all the answers stack back up, like nested boxes being closed one by one, and the big problem is solved.\"}",
+ "reasoning_chars": 377,
+ "usage": {
+  "prompt_tokens": 2159,
+  "completion_tokens": 1047,
+  "total_tokens": 3206,
+  "completion_tokens_details": {
+   "reasoning_tokens": 93
+  },
+  "prompt_tokens_details": {}
+ },
+ "ttft": 12.426872625015676,
+ "ttft_content": 12.459308041958138,
+ "duration": 24.622293166990858,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-CPrxgo1cnv4etGCcCYEhAfZo",
+ "resp_model": "k3",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 13:10:47 GMT",
+  "x-oneapi-request-id": "202611121310360906211868268d9d6CSIzuFjs",
+  "x-request-id": "17944890358930271495d036ff2c1dbaa2d",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 40dcbda4bd91e45eab647af7e1631a5e.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "ILKq3VWhPhPJodWZJBcqKd8OuCrFUtQY5v-rVNH8mH3acFQHGJGqXg==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794489035.636106,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "kimi-k3",
+  "route": "ppapi",
+  "config": "test00",
+  "split": "test",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

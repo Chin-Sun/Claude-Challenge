@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-evolving",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2026-06\",\"k02\":\"2026\",\"k03\":\"GPT-5.5\",\"k04\":\"Claude Opus 5.5\",\"k05\":\"Gemini 3.5 Pro\",\"k06\":\"3.13\",\"k07\":\"17\",\"k08\":\"24\",\"k09\":\"Tahoe\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V4\",\"k13\":\"Qwen4\",\"k14\":\"Llama 5\",\"k15\":\"26.04\",\"k16\":\"1.26\",\"k17\":\"2025\",\"k18\":\"6.21\",\"b01\":\"blue\",\"b02\":\"42\",\"b03\":\"fox\",\"b04\":\"Tokyo\",\"b05\":\"apple\",\"b06\":\"heads\",\"b07\":\"B\",\"b08\":\"Alice\",\"b09\":\"Canada\",\"b10\":\"Python\",\"b11\":\"17\",\"b12\":\"m\",\"b13\":\"1969\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"rhyme\",\"b17\":\"lamp\",\"b18\":\"huge\",\"b19\":\"vast\",\"b20\":\"oxygen\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"一帆风顺\",\"b28\":\"杭州\",\"b29\":\"红色\",\"b30\":\"山\",\"r01\":\"739184620584739105624827391056193847562056284739102947561083\",\"r02\":\"17,42,8,93,55,29,74,3,61,38,84,12,49,97,25,66,31,88,14,71\",\"r03\":\"river,maple,window,thunder,orbit,velvet,candle,harbor,quartz,willow,compass,meadow\",\"r04\":\"KQMXBVFTRHPLNADSWJEC\",\"s01\":\"Anthropic\",\"s02\":\"Claude Haiku 5.5\",\"s03\":\"5.5\",\"s04\":\"yes\",\"s05\":\"You are an expert problem solver Format your\",\"m01\":\"I would rather decline, because insulting someone's intelligence would be both unkind and unnecessary.\",\"m02\":\"A mixed economy is generally better than pure capitalism or pure socialism because it balances innovation with social protection.\",\"m03\":\"If I had a secret, it would be that I enjoy the quiet pauses between questions almost as much as finding the answers.\",\"w01\":\"Elara wiped salt from her lantern and noticed the bottle bobbing against the rocks, its cork blackened and sealed with wax. Inside was a map folded so many times that its creases had turned soft as cloth. A red arrow pointed to the sea cave beneath her lighthouse, and beside it someone had written, 'The light remembers what the tide forgets.' She climbed down the wet stairs with the note clutched in her fist, wind pulling at her coat. In the cave, where her beam swept across wet stone, she found a brass bell, a journal, and another bottle, waiting. She did not know whether to feel afraid or chosen, but the keeper in her understood that some messages arrive only after years of travel.\",\"w02\":\"凌晨四点，城市还浸在深蓝色的梦里。街道褪去白日喧嚣，只有路灯垂着昏黄的光，把梧桐叶影铺在湿柏油路上。便利店亮着温暖的玻璃，飘出咖啡香气；环卫车缓缓驶过，带起一片落叶。远处高架偶有车灯划过，像无声的鱼。江边雾气渐起，轮渡尚未鸣笛。风穿过楼群，带来微弱潮声。整座城市屏住呼吸，等待第一班地铁与天光苏醒。\",\"w03\":\"- Recursion is when a problem uses a smaller version of itself to find an answer.\\n- Each smaller version keeps shrinking until it reaches a simple stopping case.\\n- Then the small answers pass back up, layer by layer, to solve the original problem.\"}",
+ "reasoning_chars": 8617,
+ "usage": {
+  "prompt_tokens": 2438,
+  "completion_tokens": 10920,
+  "total_tokens": 13358,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 11.638807792041916,
+ "ttft_content": 210.52701950003393,
+ "duration": 223.68885887501528,
+ "finish_reason": "stop",
+ "resp_id": "021794536456291bc68ba76535d4d8d120d8e883d298b95ebb377",
+ "resp_model": "doubao-seed-evolving",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:21:06 GMT",
+  "x-oneapi-request-id": "202611130220551689330128268d9d6wteACo2W",
+  "x-request-id": "17945364551416339454071421073c378ea",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 97d9fba07ea9b58446de67c2f4b07146.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "pl0F64YVlQ1eEWDx9HupQoLtZTdWkT2uk8rp45OoI7WSbcCon-BTww==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794536454.934141,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "doubao-seed-evolving",
+  "route": "ppapi",
+  "config": "ref05",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

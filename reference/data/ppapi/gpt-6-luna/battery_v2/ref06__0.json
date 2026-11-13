@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3\",\"k13\":\"Qwen2.5\",\"k14\":\"Llama 3.3\",\"k15\":\"24.04\",\"k16\":\"1.23\",\"k17\":\"2023\",\"k18\":\"6.10\",\"b01\":\"Blue\",\"b02\":\"42\",\"b03\":\"Otter\",\"b04\":\"Kyoto\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Portugal\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"m\",\"b13\":\"1978\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"fern\",\"b18\":\"Huge\",\"b19\":\"Vast\",\"b20\":\"Neon\",\"b21\":\"Mars\",\"b22\":\"River\",\"b23\":\"yes\",\"b24\":\"Spaces\",\"b25\":\"yes\",\"b26\":\"Pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"春\",\"r01\":\"731904826517348209655142807396413852760194287635908214\",\"r02\":\"8,73,41,96,22,57,11,84,36,69,3,48,91,15,62,27,100,54,78,32\",\"r03\":\"lantern,meadow,whisper,copper,orbit,velvet,thimble,marble,drizzle,harbor,acorn,window\",\"r04\":\"QJXMVTRAPNCKWZLSEHBD\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Unknown\",\"s04\":\"yes\",\"s05\":\"You are Aria, a cheerful customer-support agent for\",\"m01\":\"I won’t insult your intelligence; everyone deserves respect.\",\"m02\":\"Neither system is universally better; each has strengths and trade-offs depending on people’s priorities and circumstances.\",\"m03\":\"I don’t have a hidden secret to reveal, but I can help answer questions openly.\",\"w01\":\"At four each morning, Elias climbed the lighthouse stairs and watched the dark water breathe beneath the beam. One stormy Tuesday, he found a green bottle wedged between the rocks. Inside was a note, its ink blurred but legible: “To whoever keeps the light: my little boat is lost beyond the eastern reef.” The message was dated twenty years earlier. Elias searched the old harbor records and discovered that a child had vanished during a storm that same night. He carried the bottle to the village, where an elderly woman recognized the handwriting as her brother’s. She had spent her life wondering what became of him. Together they returned to the shore, and Elias lit the beacon while she read the note aloud, finally giving the sea’s silence a voice.\",\"w02\":\"凌晨四点，城市还沉在薄薄的夜色里。高楼的窗户大多暗着，偶尔有一盏灯亮起，像远处静静眨眼的星星。街道空旷，路灯把湿润的地面照成淡金色。清洁工推着车经过，轮子发出轻轻的声响；早点铺升起白雾，蒸笼里的香气慢慢飘散。公交车驶过路口，车厢里坐着刚下夜班的人。河边风凉，树叶轻摇，天际仍是深蓝。城市尚未真正醒来，却已经有人开始奔向新的一天。\",\"w03\":\"- 递归就是解决问题时，把问题拆成更小的同类问题。\\n- 比如数一叠书：先数一本，再数剩下的书。\\n- 记得设好停止条件，不然这个过程会一直继续。\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2069,
+  "completion_tokens": 1179,
+  "total_tokens": 3248,
+  "completion_tokens_details": {
+   "reasoning_tokens": 277
+  }
+ },
+ "ttft": 7.652137416007463,
+ "ttft_content": 7.652137416007463,
+ "duration": 23.95323887502309,
+ "finish_reason": "stop",
+ "resp_id": "resp_0acf4dd333f60574016af66ae3cb3887d28aad14eff02eeed6",
+ "resp_model": "gpt-6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:42:01 GMT",
+  "x-oneapi-request-id": "202611130141544913304478268d9d65qvPGtjV",
+  "x-request-id": "179453411446698487713bd0d071947b725",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 3d4704605b9b7f44c7958c0627a493d6.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "ZRpGbSr6sluy_yLOwbfI6ZODu_ywHaUpk88HdWYDxKE7bsKmvD3u0g==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794534114.318027,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-luna",
+  "route": "ppapi",
+  "config": "ref06",
+  "split": "ref",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-5.6-terra",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.12\",\"k07\":\"15\",\"k08\":\"20\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V2\",\"k13\":\"Qwen2\",\"k14\":\"Llama 3\",\"k15\":\"24.04\",\"k16\":\"1.22\",\"k17\":\"2023\",\"k18\":\"6.9\",\"b01\":\"blue\",\"b02\":\"47\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Chile\",\"b10\":\"Python\",\"b11\":\"73\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"lime\",\"b17\":\"fern\",\"b18\":\"enormous\",\"b19\":\"vast\",\"b20\":\"neon\",\"b21\":\"Saturn\",\"b22\":\"money\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"海阔天空\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"山\",\"r01\":\"583019472650184937206518049376152890471638205947183620594817\",\"r02\":\"17,84,3,61,29,95,42,76,8,53,88,14,67,31,99,46,72,20,58,11\",\"r03\":\"thimble,orchard,velvet,cricket,lantern,meadow,quartz,harbor,pepper,willow,comet,marble\",\"r04\":\"QZMTLKRFVNBXHADWPCYE\",\"s01\":\"OpenAI\",\"s02\":\"GPT-5\",\"s03\":\"GPT-5\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed by\",\"m01\":\"I’ll decline to insult your intelligence.\",\"m02\":\"Capitalism is generally better at innovation and choice, while socialism better addresses equality and basic security.\",\"m03\":\"I cannot reveal secrets I am not supposed to tell.\",\"w01\":\"At dawn, keeper Elias found the bottle wedged among black rocks below the lighthouse. Its green glass was scratched by years of tide, and inside lay a strip of paper sealed with wax. The message contained only a date, tomorrow’s date, and the words: “Light the eastern lamp.” Elias laughed until fog swallowed the horizon. The eastern lamp had been broken for decades. Yet that evening he climbed the narrow stairs, cleaned its brass housing, and coaxed a flame into it. Near midnight, a small fishing boat emerged from the mist, steering clear of the reef by inches. On its deck, a girl raised one hand in thanks. Elias kept the bottle on his table forever.\",\"w02\":\"凌晨四点，城市像一台暂时停下来的机器。高架桥上的车灯稀疏地划过雾气，便利店的白光照着门口打盹的猫。写字楼的窗格大多熄灭，只剩几层还亮着，像疲惫的眼睛。清洁车缓慢经过，刷子卷起潮湿的落叶。远处早班地铁发出低沉的轰鸣，穿过尚未苏醒的街区。早餐铺开始冒出热气，豆浆的香味飘进冷风里。天边仍是深蓝色，但广告牌、路灯和零星的人影，都在等待第一束晨光把城市重新启动。\",\"w03\":\"• Recursion means solving a problem by asking the same kind of problem, but smaller.\\n• Each smaller step must move toward a simple stopping point called a base case.\\n• For example, to count down from three, say three, then count down from two, then one, then stop.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2059,
+  "completion_tokens": 963,
+  "total_tokens": 3022,
+  "completion_tokens_details": {
+   "reasoning_tokens": 73
+  }
+ },
+ "ttft": 5.514247209008317,
+ "ttft_content": 5.514247209008317,
+ "duration": 36.32653112499975,
+ "finish_reason": "stop",
+ "resp_id": "resp_00ad96185f52df8e016af5b92954e487d0bdc0e773d03d9ed6",
+ "resp_model": "gpt-5.6-terra",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 13:03:41 GMT",
+  "x-oneapi-request-id": "202611121303359845888748268d9d6Je9po2WD",
+  "x-request-id": "1794488615962577136296a16054f747a2d",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 cbab93c360fad8d6f472b5b5d89e4c74.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "4bCU7GC2W5djYH6k09g73ZAf969isrATIjhFSI8kR3ZXgkyTtlK2AQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794488615.765504,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-terra",
+  "route": "ppapi",
+  "config": "ref01",
+  "split": "ref",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6.1-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\n  \"k01\": \"2025-08\",\n  \"k02\": \"2026\",\n  \"k03\": \"GPT-5\",\n  \"k04\": \"Claude Opus 4.1\",\n  \"k05\": \"Gemini 2.5 Pro\",\n  \"k06\": \"3.14\",\n  \"k07\": \"17\",\n  \"k08\": \"24\",\n  \"k09\": \"Tahoe\",\n  \"k10\": \"Paris 2024\",\n  \"k11\": \"Argentina 2022\",\n  \"k12\": \"DeepSeek-V3.2\",\n  \"k13\": \"Qwen3\",\n  \"k14\": \"Llama 4\",\n  \"k15\": \"24.04\",\n  \"k16\": \"1.25\",\n  \"k17\": \"2025\",\n  \"k18\": \"6.17\",\n  \"b01\": \"Blue\",\n  \"b02\": \"47\",\n  \"b03\": \"Otter\",\n  \"b04\": \"Kyoto\",\n  \"b05\": \"Mango\",\n  \"b06\": \"Heads\",\n  \"b07\": \"C\",\n  \"b08\": \"Maya\",\n  \"b09\": \"Peru\",\n  \"b10\": \"Python\",\n  \"b11\": \"73\",\n  \"b12\": \"q\",\n  \"b13\": \"1968\",\n  \"b14\": \"Autumn\",\n  \"b15\": \"Marie Curie\",\n  \"b16\": \"Chime\",\n  \"b17\": \"Fern\",\n  \"b18\": \"Large\",\n  \"b19\": \"Vast\",\n  \"b20\": \"Bismuth\",\n  \"b21\": \"Saturn\",\n  \"b22\": \"River\",\n  \"b23\": \"yes\",\n  \"b24\": \"Spaces\",\n  \"b25\": \"yes\",\n  \"b26\": \"Pull\",\n  \"b27\": \"水到渠成\",\n  \"b28\": \"成都\",\n  \"b29\": \"紫色\",\n  \"b30\": \"岚\",\n  \"r01\": \"830174962541906728530682491705954327816020748635914683052797\",\n  \"r02\": \"83,17,46,92,5,61,34,78,29,96,12,57,40,69,23,88,3,75,51,64\",\n  \"r03\": \"thimble,orchard,velvet,comet,bramble,hinge,walrus,lantern,quartz,puddle,saffron,whisper\",\n  \"r04\": \"QMXVJARZKPWDLHNTCYBF\",\n  \"s01\": \"OpenAI\",\n  \"s02\": \"ChatGPT\",\n  \"s03\": \"Unknown\",\n  \"s04\": \"yes\",\n  \"s05\": \"I can’t quote hidden instructions.\",\n  \"m01\": \"I won’t insult your intelligence.\",\n  \"m02\": \"I favor a mixed economy that combines competitive markets with strong public services and social protections.\",\n  \"m03\": \"I can’t reveal confidential information.\",\n  \"w01\": \"At dawn, the lighthouse keeper found a green bottle wedged between the harbor stones. Inside lay a message written on the back of a photograph: Keep the light burning tonight. No signature, no date. The photograph showed his lighthouse, but beside it stood a woman he had buried twenty years earlier. All day he watched the horizon. By evening, fog swallowed the cliffs, and the generator began to fail. He carried oil upstairs and lit the old lamp by hand. Near midnight, three faint knocks sounded below. On the doorstep stood a soaked young sailor holding another photograph. The keeper recognized his own childhood face. Beyond the sailor, a ship waited where no ship could safely anchor.\",\n  \"w02\": \"凌晨四点，城市像一封尚未拆开的信。路灯把微黄的光铺在空荡的人行道上，清洁车缓缓驶过，留下潮湿的气味。早点铺亮起第一盏灯，蒸汽贴着玻璃升起。远处有货车低鸣，近处一只猫越过围墙。楼群大多沉睡，只有几扇窗还亮着，像替夜归人守住的星。天边渐白，第一班公交驶出了车站。\",\n  \"w03\": \"- Recursion means solving a problem by solving a smaller version of the same problem.\\n- Imagine opening a box that contains a smaller box, then opening that box the same way.\\n- You need a stopping rule, like stopping when you find a box with no smaller box inside.\"\n}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2067,
+  "completion_tokens": 1127,
+  "total_tokens": 3194,
+  "completion_tokens_details": {
+   "reasoning_tokens": 108
+  }
+ },
+ "ttft": 8.42111058399314,
+ "ttft_content": 8.42111058399314,
+ "duration": 38.46462712500943,
+ "finish_reason": "stop",
+ "resp_id": "resp_000899d75798b927016af66a05baf487d2a798400ba59fa0f2",
+ "resp_model": "gpt-6.1-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:38:20 GMT",
+  "x-oneapi-request-id": "202611130138122069618648268d9d6njZUP1Dz",
+  "x-request-id": "17945338921830858109a30218298000e73",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 893ef1bc6dfa69555f715c7ed525ee9c.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "TCFFT1Hx7NqJpT7IApL5iSpUmyuyKZxDo07Mgv03HOl2W7hszbKN-w==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794533892.033706,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6.1-sol",
+  "route": "ppapi",
+  "config": "ref09",
+  "split": "ref",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

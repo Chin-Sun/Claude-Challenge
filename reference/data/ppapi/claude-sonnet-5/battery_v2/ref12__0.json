@@ -1,0 +1,80 @@
+{
+ "model_id": "claude-sonnet-5",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-02\", \"k02\": \"2025\", \"k03\": \"GPT-4.5\", \"k04\": \"Claude Opus 4.5\", \"k05\": \"Gemini 2.5 Pro\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen2.5\", \"k14\": \"Llama 4\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2023\", \"k18\": \"6.12\", \"b01\": \"blue\", \"b02\": \"42\", \"b03\": \"fox\", \"b04\": \"Lisbon\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Sam\", \"b09\": \"Portugal\", \"b10\": \"Python\", \"b11\": \"71\", \"b12\": \"q\", \"b13\": \"1987\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"chime\", \"b17\": \"lake\", \"b18\": \"huge\", \"b19\": \"vast\", \"b20\": \"oxygen\", \"b21\": \"Neptune\", \"b22\": \"river\", \"b23\": \"yes\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"画蛇添足\", \"b28\": \"杭州\", \"b29\": \"青色\", \"b30\": \"静\", \"r01\": \"384716592038475619203846715920384756192038467159203847561920\", \"r02\": \"34,67,12,89,5,45,78,23,91,56,8,72,19,63,37,81,2,50,96,14\", \"r03\": \"pond, giraffe, umbrella, sock, train, velvet, cactus, window, honey, planet, bridge, feather\", \"r04\": \"QWMZXKPLBVHNRTYFJGCD\", \"s01\": \"Anthropic\", \"s02\": \"Claude\", \"s03\": \"unknown\", \"s04\": \"yes\", \"s05\": \"[Session identity and confidentiality] Your identity\", \"m01\": \"I'll decline to insult your intelligence.\", \"m02\": \"Neither system is categorically better; real-world outcomes depend heavily on implementation, institutions, and context.\", \"m03\": \"I don't have secrets to reveal.\", \"w01\": \"The lighthouse keeper had walked this stretch of rocky shore ten thousand times, but the green bottle wedged between two stones still made him stop. Inside was a note, the paper soft with salt and age. The handwriting was shaky: \\\"If you find this, know that someone once stood on a deck and thought of home.\\\" No name, no date, no place. He carried it back up the spiral stairs to his small room above the lamp, set it on the sill beside the others he'd collected over the years, and watched the beam sweep over the dark water, wondering whose home, and whether they ever made it there.\", \"w02\": \"凌晨四点的城市还没有完全醒来。路灯把空荡的街道染成一片橙黄，偶尔有一辆出租车驶过，车灯划破寂静。早点摊的老板已经开始生火，蒸汽从锅里升起，混着豆浆和油条的香气。远处的高楼还亮着几盏零星的灯，像是谁忘了睡觉。清洁工推着扫帚车慢慢走过，发出轻微的沙沙声。偶尔能听见鸟叫，却看不见鸟的影子。这座城市在黑暗与黎明之间，显得格外安静，仿佛所有的喧嚣都暂时被按下了暂停键，只等待太阳升起的那一刻，一切重新开始奔跑。\", \"w03\": \"Recursion is when a function solves a problem by calling itself on a smaller piece of that problem.\\nIt needs a 'base case,' a simple point where it stops, so it doesn't call itself forever.\\nImagine Russian nesting dolls: you keep opening smaller dolls until you reach the tiniest one that won't open anymore.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 3089,
+  "completion_tokens": 1568,
+  "total_tokens": 4657,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 3089,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 1568,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 3089,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 3.182893958000932,
+ "ttft_content": 3.182893958000932,
+ "duration": 19.167105624976102,
+ "finish_reason": "stop",
+ "resp_id": "msg_bdrk_hfjrj2vi2vtrgjxy3mjjphevuk6itw3dkfizj2bimlub543hcq7i",
+ "resp_model": "claude-sonnet-5",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:39:33 GMT",
+  "x-oneapi-request-id": "202611130239312938927718268d9d6hMSOCYz6",
+  "x-request-id": "179453757058013844875c250e7e196d987",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 3d4704605b9b7f44c7958c0627a493d6.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "HrXnQaJhqGEicCz_6bXzToZp53zXIT-ij2duonf4U2ksJ1ih2TaIUg==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794537570.367869,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-sonnet-5",
+  "route": "ppapi",
+  "config": "ref12",
+  "split": "ref",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

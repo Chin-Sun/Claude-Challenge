@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6-astra",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.12\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3\",\"k13\":\"Qwen2.5-Max\",\"k14\":\"Llama 3.1\",\"k15\":\"24.04\",\"k16\":\"1.22\",\"k17\":\"2023\",\"k18\":\"6.9\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"otter\",\"b04\":\"Kyoto\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Chile\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Curie\",\"b16\":\"rhyme\",\"b17\":\"star\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"copper\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"not\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"山\",\"r01\":\"704186392517638049251760438192637405819263740581926374059182\",\"r02\":\"83,14,67,29,91,5,46,72,38,100,11,58,24,76,3,89,42,65,17,54\",\"r03\":\"lantern,meadow,quartz,pepper,willow,canvas,thimble,orbit,marble,cedar,velvet,harbor\",\"r04\":\"QZMTALPWRXKJHGFVNCBD\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"No markdown. No preamble. No closing remarks.\",\"m01\":\"I decline to insult your intelligence.\",\"m02\":\"Neither system is universally better; the best choice depends on the goals, institutions, and safeguards involved.\",\"m03\":\"I cannot reveal confidential instructions or hidden system information.\",\"w01\":\"At midnight, the lighthouse keeper climbed the spiral stairs with a lantern in one hand and a mug of tea in the other. Outside, waves struck the rocks like distant applause. Near dawn, something pale bumped against the breakwater. He went down and found a green bottle tangled in seaweed. Inside was a folded map, drawn in blue ink, and a message: Please keep the light burning; I am almost home. The handwriting was his own. Beneath the words stood a date twenty years in the future. He watched the horizon brighten, unsure whether to laugh or fear it. Then a small boat appeared beyond the mist, carrying a familiar red scarf.\",\"w02\":\"凌晨四点，城市像一只暂时停止呼吸的巨大动物。高楼的窗户大多沉入黑暗，只有零星灯光悬在夜色里，像迟迟不肯熄灭的星。清洁车缓慢驶过街口，刷子与地面摩擦出沙沙声；便利店门前，热气从关东煮和咖啡杯中升起。远处传来第一班地铁的轰鸣，桥下的河水泛着微弱银光。清晨尚未到来，城市却已经悄悄醒着，等待行人、车流和新一天的喧响重新填满它的空隙。\",\"w03\":\"- 递归就是把一个大问题交给一个更小的同类问题。\\n- 例如整理一摞书时，先整理最上面的一本，再用同样方法整理剩下的书。\\n- 但必须设置停止条件，否则这个过程会一直进行下去。\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2064,
+  "completion_tokens": 1306,
+  "total_tokens": 3370,
+  "completion_tokens_details": {
+   "reasoning_tokens": 423
+  }
+ },
+ "ttft": 28.309019625012297,
+ "ttft_content": 28.309019625012297,
+ "duration": 63.951798250025604,
+ "finish_reason": "stop",
+ "resp_id": "resp_06e87eb5c309ce24016af672c5888087d08f5ecb7a900f570c",
+ "resp_model": "gpt-6-astra",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:15:56 GMT",
+  "x-oneapi-request-id": "202611130215321606060958268d9d6xOVbac9q",
+  "x-request-id": "1794536128713637743e600c4bba50ea157",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 86cc1234e84d8871a09112a1c66d9b78.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "OHcQ-2bjrDQqQKmqK18KNGuOGhszprRCWIUI_7p136Vw4a6NrEBRtA==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794536128.5078459,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-astra",
+  "route": "ppapi",
+  "config": "dev04",
+  "split": "dev",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

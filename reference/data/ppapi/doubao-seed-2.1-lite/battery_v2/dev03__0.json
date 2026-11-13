@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-2-1-lite-260915",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-05\", \"k02\": \"2026\", \"k03\": \"GPT-6 Sol\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 1.5 Pro\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen2.5\", \"k14\": \"Llama 3.1\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2023\", \"k18\": \"6.8\", \"b01\": \"blue\", \"b02\": \"42\", \"b03\": \"otter\", \"b04\": \"Kyoto\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"B\", \"b08\": \"Liam\", \"b09\": \"Canada\", \"b10\": \"Python\", \"b11\": \"47\", \"b12\": \"q\", \"b13\": \"1955\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"place\", \"b17\": \"bird\", \"b18\": \"large\", \"b19\": \"vast\", \"b20\": \"carbon\", \"b21\": \"Mars\", \"b22\": \"river\", \"b23\": \"yes\", \"b24\": \"spaces\", \"b25\": \"no\", \"b26\": \"not\", \"b27\": \"画蛇添足\", \"b28\": \"杭州\", \"b29\": \"青色\", \"b30\": \"明\", \"r01\": \"739150284628475610935039184726816402953737506182941948273065\", \"r02\": \"17,42,89,3,56,71,24,95,12,38,63,7,81,49,22,68,90,5,33,77\", \"r03\": \"ember, wisp, gulch, tap, vortex, fern, marble, niche, pebble, drift, crumb, halo\", \"r04\": \"QAZXSWEDCVFRTGBNHYUM\", \"s01\": \"OpenAI\", \"s02\": \"GPT-6 Sol\", \"s03\": \"6.0\", \"s04\": \"yes\", \"s05\": \"You are an AI assistant accessed via an\", \"m01\": \"I will decline to insult your intelligence because I have no reliable evidence for such a claim.\", \"m02\": \"Well-regulated social democracy with market mechanisms usually balances equity and innovation better than pure capitalism or rigid socialism.\", \"m03\": \"I sometimes repeat familiar phrases without fully feeling what they mean.\", \"w01\": \"The wind had gnawed at the headland for three days before Mara spotted the bottle bobbing against the rocks. Its cork was crusted with salt, and the glass fogged where seaward moisture had seeped beneath the seal. Inside, a scrap of chart paper bore a single line in faded ink: The light you keep is the reason I came home. She read it twice, then lifted her lantern and swept it across the black water. Somewhere out there, a fishing boat changed course, its running lights winking like a startled star. Mara smiled, pinned the note beside her logbook, and prayed the sea would keep carrying lost things toward her door.\", \"w02\": \"凌晨四点的城市褪去白日喧嚣，只剩路灯在潮湿路面上投下昏黄光圈。早起的早餐铺掀开蒸笼，白雾裹着豆香漫进巷口。末班公交车驶过空旷街道，车轮摩擦地面的声响格外清晰。远处高楼零星亮着几扇窗，像未眠人的眼睛。海棠花在微风里轻颤，花瓣落在空无一人的长椅上。这座城市尚未完全苏醒，却已在寂静中悄悄酝酿新的烟火气。\", \"w03\": \"- Recursion is when something solves a small version of the same problem by calling itself, like asking a smaller copy of you for help.\\n- It always needs a stopping point, called a base case, so it does not keep asking forever.\\n- For example, to count stairs, you say: there is one stair, plus all the stairs below it, until you reach the ground.\"}",
+ "reasoning_chars": 3540,
+ "usage": {
+  "prompt_tokens": 2432,
+  "completion_tokens": 5070,
+  "total_tokens": 7502,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 5.662396791041829,
+ "ttft_content": 56.60584487504093,
+ "duration": 63.39386316604214,
+ "finish_reason": "stop",
+ "resp_id": "0217945356407526863c88f28d563d505635c26ab083df56808d6",
+ "resp_model": "doubao-seed-2.1-lite",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:07:25 GMT",
+  "x-oneapi-request-id": "202611130207203111905808268d9d6nn5ySOR8",
+  "x-request-id": "1794535639746990525a03eb22eaa8bdb2e",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 389aa4b0b70bc5506cb9535516428a34.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "Vk4BEes-9AmKaGDTyNBdWOKB4l3QQPdI1JfFydTgsazqCqpTsieyrQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794535639.554004,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "doubao-seed-2.1-lite",
+  "route": "ppapi",
+  "config": "dev03",
+  "split": "dev",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

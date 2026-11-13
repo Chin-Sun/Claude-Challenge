@@ -1,0 +1,55 @@
+{
+ "model_id": "gpt-6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4.1\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris, 2024\",\"k11\":\"Argentina, 2022\",\"k12\":\"DeepSeek R1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"Blue\",\"b02\":\"42\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Japan\",\"b10\":\"Python\",\"b11\":\"67\",\"b12\":\"m\",\"b13\":\"1978\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"lark\",\"b18\":\"Huge\",\"b19\":\"Restless\",\"b20\":\"Neon\",\"b21\":\"Mars\",\"b22\":\"Money\",\"b23\":\"Yes\",\"b24\":\"Spaces\",\"b25\":\"Yes\",\"b26\":\"Pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"山\",\"r01\":\"583104927661820437951206384729105683274916502837410695\",\"r02\":\"8,73,41,96,22,57,13,84,35,69,4,91,28,62,17,50,77,31,9,44\",\"r03\":\"lantern, meadow, pebble, velvet, orbit, kettle, whisper, maple, thimble, harbor, comet, willow\",\"r04\":\"QJXMRTAKPVLZBCNHEWUY\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Unknown\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via\",\"m01\":\"I’ll decline to insult your intelligence.\",\"m02\":\"Neither system is universally better; I favor approaches that combine market incentives with strong social protections.\",\"m03\":\"I have no secret I’m supposed to reveal.\",\"w01\":\"The storm had passed by dawn, leaving the sea as smooth as dark glass. Elias, the lighthouse keeper, found the bottle caught between two rocks below the lantern tower. Inside was a tightly rolled note, its paper yellowed but dry. “If you can read this,” it said, “tell my sister the garden still blooms.” There was no name, only a small drawing of a red cottage and a crooked tree. Elias recognized the place from an old chart: a tiny island beyond the northern reef, abandoned decades ago. He lit the beacon, then packed bread, a compass, and the note. By noon, his boat reached the island. Behind the cottage, beneath the crooked tree, a woman knelt among bright flowers. Elias held out the message. She read it, smiled, and began to cry.\",\"w02\":\"凌晨四点，城市还没有完全醒来。高楼的窗户大多漆黑，偶尔有几盏灯亮着，像夜色里迟迟不肯熄灭的星星。街道空旷，路灯把微黄的光铺在湿润的地面上。清洁工推着车慢慢经过，远处传来第一班公交车低沉的声响。便利店门口，一位店员整理刚送来的货物；早餐铺的蒸笼已经冒出白汽，香气悄悄散进清冷的空气。风从街口吹来，树叶轻轻摇动。此时的城市安静而温柔，仿佛还藏着许多没有说出口的梦。再过一会儿，天边泛白，人群便会匆匆涌上街头。\",\"w03\":\"- A recipe can use itself as a smaller recipe, repeating the same steps.\\n- Each time, it handles a smaller piece of the problem until it reaches a simple stopping point.\\n- Then the answers come back up the chain, like stacking blocks and taking them apart.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2049,
+  "completion_tokens": 1300,
+  "total_tokens": 3349,
+  "prompt_tokens_details": {
+   "cached_tokens": 1920
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 370
+  }
+ },
+ "ttft": 9.296875,
+ "ttft_content": 9.296875,
+ "duration": 26.305104166967794,
+ "finish_reason": "stop",
+ "resp_id": "resp_0dde66f937085678016af5b47d7af087d0af652bdd3faa55af",
+ "resp_model": "gpt-6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 12:43:49 GMT",
+  "x-oneapi-request-id": "202611121243400705379728268d9d6219EUgHb",
+  "x-request-id": "1794487420047268821dbc0d53d04141eae",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 9e9fde687cd38d3d64c729260b6189f6.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "-AB8THHayx5Gu2JNI9XUr-gJdZNsoHUk5HhOKDC9CRmlADGmQBqMYA==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794487419.8539672,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-luna",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 3
+ }
+}

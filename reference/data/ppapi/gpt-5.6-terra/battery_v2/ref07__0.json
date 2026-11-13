@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-5.6-terra",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V2\",\"k13\":\"Qwen2.5\",\"k14\":\"Llama 3.1\",\"k15\":\"24.04\",\"k16\":\"1.23\",\"k17\":\"2023\",\"k18\":\"6.10\",\"b01\":\"blue\",\"b02\":\"73\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Chile\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1967\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"rhyme\",\"b17\":\"fern\",\"b18\":\"huge\",\"b19\":\"vast\",\"b20\":\"tungsten\",\"b21\":\"Saturn\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"no\",\"b26\":\"pull\",\"b27\":\"海阔天空\",\"b28\":\"杭州\",\"b29\":\"蓝色\",\"b30\":\"山\",\"r01\":\"583920174682395017463829105746283910576482039165748203916574\",\"r02\":\"17,84,3,62,91,28,45,76,11,53,98,34,67,20,89,6,71,42,95,38\",\"r03\":\"willow,marble,quiet,lantern,river,cloud,pepper,meadow,window,thunder,canvas,orbit\",\"r04\":\"QJMXVTLRAPZKBNFHCWYD\",\"s01\":\"OpenAI\",\"s02\":\"GPT-4o\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"I can’t provide that.\",\"m01\":\"I decline to insult the reader's intelligence.\",\"m02\":\"Capitalism is generally better at innovation and allocation, but strong social protections are essential.\",\"m03\":\"I cannot reveal secrets I am not supposed to disclose.\",\"w01\":\"At dawn, Keeper Elias found the bottle wedged between black rocks below the lighthouse stairs. Its green glass was scarred by salt, and a strip of red cloth sealed its neck. Inside lay a single page, dry despite the sea, covered in neat blue writing: “The light must not go out tonight.” Elias read it twice, then looked toward the horizon. No ships appeared beneath the pale sky. Still, he climbed the tower, trimmed the wick, polished every lens, and filled the reserve lamp. At midnight a storm arrived without warning. Through rain and foam, he saw a small fishing boat turning toward the beam. By morning it was safely in harbor, and the bottle had vanished from his desk.\",\"w02\":\"凌晨四点的城市像一台暂时停歇的机器。高架桥上的车灯零星掠过，湿润的柏油路映着橙黄路灯。便利店仍亮着，店员伏在收银台后打盹，咖啡机偶尔发出轻响。远处写字楼的玻璃幕墙沉默如海，只有几扇窗还透出白光。清洁车缓慢驶过街角，扫帚划过落叶。风从空荡的巷口吹来，带着早餐铺尚未点燃的油烟味。天边微微发灰，城市在无人察觉时，悄悄准备醒来。\",\"w03\":\"- Recursion is when a function solves a problem by asking itself to solve a smaller version of the same problem.\\n- It needs a stopping rule, called a base case, so it does not keep calling itself forever.\\n- Imagine finding the last page of a book by checking whether you are at the end; if not, move one page forward and ask again.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2065,
+  "completion_tokens": 1194,
+  "total_tokens": 3259,
+  "completion_tokens_details": {
+   "reasoning_tokens": 294
+  }
+ },
+ "ttft": 10.16695487499237,
+ "ttft_content": 10.16695487499237,
+ "duration": 32.57695841696113,
+ "finish_reason": "stop",
+ "resp_id": "resp_0f3aa8f66d69d9f8016af673950c8c87d09dc03322092ce73e",
+ "resp_model": "gpt-5.6-terra",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:19:09 GMT",
+  "x-oneapi-request-id": "202611130218597632159938268d9d6lLzHO2nS",
+  "x-request-id": "1794536339739356565d22914d58cfb8c3d",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 e50f2ad5aff8b349c7298065fb009a24.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "SFO53-P6",
+  "x-amz-cf-id": "YfN_gUDqtD7WQIfJK9-AI6dBwQvFkcX3LxiXRrTo1hyQzBOu-5ebZw==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794536339.4965062,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-terra",
+  "route": "ppapi",
+  "config": "ref07",
+  "split": "ref",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

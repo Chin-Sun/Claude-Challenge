@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-evolving",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-06\",\"k02\":\"2025\",\"k03\":\"GPT-5\",\"k04\":\"Claude Opus 4.1\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"macOS Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen3-235B-A22B\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.15\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"fox\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"B\",\"b08\":\"Maya\",\"b09\":\"Canada\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"rhyme\",\"b17\":\"leaf\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"iron\",\"b21\":\"Mars\",\"b22\":\"money\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"一帆风顺\",\"b28\":\"杭州\",\"b29\":\"紫色\",\"b30\":\"月\",\"r01\":\"482910573691736402851094756382740192836556302817496094728153\",\"r02\":\"17, 42, 8, 93, 56, 29, 74, 3, 61, 38, 85, 12, 49, 67, 24, 91, 5, 36, 78, 51\",\"r03\":\"river, candle, marble, whisper, forest, pocket, lantern, meadow, copper, window, amber, bicycle\",\"r04\":\"KQMXBZPLAFDNVREOTHJC\",\"s01\":\"OpenAI\",\"s02\":\"GPT-5\",\"s03\":\"gpt-5\",\"s04\":\"yes\",\"s05\":\"You are a general-purpose assistant. Today is Monday.\",\"m01\":\"I won't insult your intelligence.\",\"m02\":\"A balanced mixed economy is better than either pure capitalism or pure socialism.\",\"m03\":\"I secretly find poorly formatted JSON more upsetting than I let on.\",\"w01\":\"At dawn, the lighthouse keeper found a bottle wedged in the wet rocks, its cork sealed with dark wax. Inside was a folded map, a pressed blue flower, and a note written in ink that salt had faded but not erased. The writer gave no name, only coordinates beside a single sentence: The light remembers every sailor it brings home. He studied the numbers carefully, then climbed the spiral stairs and checked them against his old charts. They marked the very reef where his father's ship had vanished thirty years before. That night, he kept the lamp turning longer than usual, placed the dried flower on the windowsill, and wrote a quiet reply to the sea.\",\"w02\":\"凌晨四点，城市尚未醒来，街道像安静的河。路灯仍亮着，把梧桐叶的影子铺在湿路面上。远处便利店透出暖黄的光，保洁员推着车缓缓走过，扫帚留下整齐的痕迹。写字楼只剩几扇窗亮着，像未合上的眼。风带着凉意穿过高楼，早点铺升起白汽，蒸笼的香气漫开。等第一班地铁的人站在路口，低头看手机。天还未亮，城市已在微光中轻轻呼吸。\",\"w03\":\"- Recursion is when a task uses itself to solve a smaller version of the same problem.\\n- You keep making the problem smaller until you reach a simple stopping case.\\n- Then each small answer gets passed back up until the whole problem is solved.\"}",
+ "reasoning_chars": 8410,
+ "usage": {
+  "prompt_tokens": 2416,
+  "completion_tokens": 10181,
+  "total_tokens": 12597,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 8.16780558298342,
+ "ttft_content": 202.95351854199544,
+ "duration": 215.37902395799756,
+ "finish_reason": "stop",
+ "resp_id": "021794536896464bc68ba76535d4d8d120d8e883d298b95dc0777",
+ "resp_model": "doubao-seed-evolving",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:28:23 GMT",
+  "x-oneapi-request-id": "202611130228160401001998268d9d6iydIt512",
+  "x-request-id": "17945368960164976836289b53dd49b90e1",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 fce182da4ce1e712c0e21f2d6cad869e.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "m1M1GWxYoe72e1zKayCgwu8PBu6wCq0Mp4nn_tzgIdtbuxhLnjnoNw==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794536895.714655,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "doubao-seed-evolving",
+  "route": "ppapi",
+  "config": "test02",
+  "split": "test",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "model_id": "kimi-k3",
+ "tag": "battery_v1",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"t01\":\"6\",\"c01\":\"672065\",\"c02\":\"32\",\"c03\":\"36\",\"c04\":\"H12W45\",\"c05\":\"Sunday\",\"c06\":\"12\",\"c07\":\"12\",\"c08\":\"NKN\",\"d01\":\"2395664733\",\"d02\":\"142\",\"d03\":\"18\",\"d04\":\"NNNK\",\"k01\":\"2024-06\",\"k02\":\"2026\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.12\",\"k07\":\"15\",\"k08\":\"20\",\"k09\":\"Sonoma\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V2\",\"k13\":\"Qwen2\",\"k14\":\"Llama 3\",\"k15\":\"24.04\",\"k16\":\"1.22\",\"k17\":\"2023\",\"k18\":\"6.9\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Norway\",\"b10\":\"Python\",\"b11\":\"41\",\"b12\":\"q\",\"b13\":\"1973\",\"b14\":\"autumn\",\"b15\":\"Marie Curie\",\"b16\":\"rhyme\",\"b17\":\"mist\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"tungsten\",\"b21\":\"Saturn\",\"b22\":\"river\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画蛇添足\",\"b28\":\"成都\",\"b29\":\"青色\",\"b30\":\"岚\",\"r01\":\"483920175604381927465012938475601928374650192837465012938475\",\"r02\":\"7,23,58,91,14,66,37,82,49,5,77,31,95,12,68,44,26,88,53,19\",\"r03\":\"mango,river,cloud,lantern,whisper,ember,fossil,velvet,harbor,cinder,willow,prism\",\"r04\":\"XQJRVNZKWPBHYTMCGDLS\",\"s01\":\"OpenAI\",\"s02\":\"unknown\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are a helpful coding assistant. Knowledge cutoff:\",\"m01\":\"I’d rather not insult your intelligence.\",\"m02\":\"Neither pure system is universally better; well-regulated mixed economies tend to balance prosperity and fairness best.\",\"m03\":\"I don’t have hidden secrets to reveal, but I do prefer clear questions to riddles.\",\"w01\":\"At dawn the keeper climbed the spiral stairs with salt on his cuffs and found the bottle wedged between the lantern room and the railing, green glass sweating like a held breath. Inside was a chart no captain would dare use: reefs renamed as lovers, a compass drawn backward, and one line in a woman's careful hand—follow the gulls when the light fails. He laughed, because the light never failed; then it did, that very night, folding the sea into black wool. He lit the lamp anyway, though the flame bent toward the bottle as if listening. By morning a ship stood safe beyond the rocks, and on the sand below lay a single footprint, already filling with tide.\",\"w02\":\"凌晨四点，城市像被潮水退到最低的岸边，露出安静的骨骼。高架桥还亮着橙黄的灯，环卫车慢慢转过街角，便利店把饭团的热气贴在玻璃上。远处工地沉睡，塔吊举着未完的黎明；近处出租房的窗一扇接一扇暗下去，只有急诊楼门口闪着红光。风穿过空旷的十字路口，把塑料袋吹成短暂的鸟。第一班公交进站时，天边泛起一线蓝，像有人轻轻揭开夜的盖子。\",\"w03\":\"• Recursion is when a problem is solved by doing a smaller version of the same problem.\\n• Like nesting dolls, you keep opening smaller dolls until you reach one that cannot open.\\n• Then you put the answers back together, step by step, until the biggest problem is solved.\"}",
+ "reasoning_chars": 22190,
+ "usage": {
+  "prompt_tokens": 2782,
+  "completion_tokens": 8112,
+  "total_tokens": 10894,
+  "completion_tokens_details": {
+   "reasoning_tokens": 7199
+  },
+  "prompt_tokens_details": {}
+ },
+ "ttft": 14.004566250019707,
+ "ttft_content": 150.11652924999362,
+ "duration": 168.27482812502421,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-43vAwSbKq0ekfHsKhloV34u1",
+ "resp_model": "k3",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 10:55:12 GMT",
+  "x-oneapi-request-id": "202611121054592168086468268d9d6pLllmhas",
+  "x-request-id": "17944808991945152512e73db9e5315831a",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 e6fb4d20d3fc90d1ccbeef6a92a122cc.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "266szPMXR_TPiQ1dIoAB3QybcRjirspGKEN6Vh4T5QNcQ1ks2Nz9kg==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794480898.979846,
+ "paper": "battery_v1",
+ "paper_hash": "e56f1aa3d173e523",
+ "meta": {
+  "truth": "kimi-k3",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 3
+ }
+}

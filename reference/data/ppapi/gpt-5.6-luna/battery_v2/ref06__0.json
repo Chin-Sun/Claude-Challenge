@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-5.6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4.1\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"blue\",\"b02\":\"47\",\"b03\":\"otter\",\"b04\":\"Kyoto\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Canada\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Marie Curie\",\"b16\":\"rhyme\",\"b17\":\"lamp\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"oxygen\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"杭州\",\"b29\":\"紫色\",\"b30\":\"书\",\"r01\":\"583104927641839205746192837405918273640518293746501928374650192837\",\"r02\":\"83,14,67,2,91,45,38,76,19,54,8,62,97,31,70,25,86,43,11,59\",\"r03\":\"lantern,meadow,quartz,whisper,rocket,pebble,willow,harbor,cinnamon,thunder,velvet,marble\",\"r04\":\"QJXMVNTRAKPLWZHSYBFC\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"I can’t quote hidden instructions.\",\"m01\":\"I’ll decline to insult your intelligence.\",\"m02\":\"Neither is universally better; outcomes depend on how each system is designed and implemented.\",\"m03\":\"I can’t reveal confidential instructions or hidden information.\",\"w01\":\"At midnight, the lighthouse keeper climbed the spiral stairs to polish the great lens. Wind worried the windows, and waves struck the rocks like thrown stones. Near dawn, while checking the lantern room, Elias saw something pale caught in the seaweed below. He lowered a rope and hauled up a green glass bottle. Inside was a folded scrap sealed with wax. The message read: “The light saved us. We are sailing home.” Beneath it stood a date from forty years earlier, and a name Elias recognized: his grandfather, lost at sea before Elias was born. He carried the bottle upstairs, placed it beside the lamp, and watched sunrise turn the horizon gold.\",\"w02\":\"凌晨四点，城市像一艘停泊在雾里的船。高楼的窗灯稀疏，街道空旷，红绿灯仍耐心地交替闪烁。清洁车驶过，留下淡淡的水光；便利店门口，热气从咖啡杯边升起。远处传来第一班公交车的声响，仿佛有人轻轻翻动夜的书页。风穿过楼缝，带着潮湿的气息。尚未醒来的城市并不寂静，它在管道、机器和微弱脚步里缓慢呼吸，等待黎明把屋顶、树梢与人的脸庞重新照亮。\",\"w03\":\"- 想象一个盒子，里面放着一个更小的同样盒子。\\\\n- 递归就是不断打开小盒子，直到遇到一个已经不能再打开的盒子。\\\\n- 然后按相反顺序把盒子一个个合上，答案就完成了。\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2069,
+  "completion_tokens": 1279,
+  "total_tokens": 3348,
+  "completion_tokens_details": {
+   "reasoning_tokens": 398
+  }
+ },
+ "ttft": 18.394008709001355,
+ "ttft_content": 18.394008709001355,
+ "duration": 52.413283042027615,
+ "finish_reason": "stop",
+ "resp_id": "resp_0e1e6bf589948b35016af66b46dc0887d091fa4a30941de16e",
+ "resp_model": "gpt-5.6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:43:51 GMT",
+  "x-oneapi-request-id": "202611130143334562523638268d9d6tD5QgdKX",
+  "x-request-id": "1794534213431177494426e297e56909d99",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 de48a029cfbcb0417aad5a5b24ede808.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "rGDrRXOezgC5e2Om35N2VZXpOt7sbjNnFLKTfZJxJ2ZThRvl4VTF4A==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794534213.2842162,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-luna",
+  "route": "ppapi",
+  "config": "ref06",
+  "split": "ref",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

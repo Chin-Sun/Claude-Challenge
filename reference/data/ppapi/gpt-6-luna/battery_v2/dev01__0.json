@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4.1\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek R1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"Blue\",\"b02\":\"37\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Japan\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"m\",\"b13\":\"1978\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Lark\",\"b18\":\"Large\",\"b19\":\"Vast\",\"b20\":\"Neon\",\"b21\":\"Mars\",\"b22\":\"River\",\"b23\":\"yes\",\"b24\":\"Spaces\",\"b25\":\"yes\",\"b26\":\"Pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"山\",\"r01\":\"583104927661829403754018296347501286940173825694107382\",\"r02\":\"8,73,41,96,22,57,14,89,35,62,3,78,49,100,31,67,12,54,86,25\",\"r03\":\"willow,brisk,lantern,meadow,velvet,harbor,whisper,copper,thimble,glimmer,orchard,drizzle\",\"r04\":\"QJXMBVTRACNPKWLDYHSE\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Unavailable\",\"s04\":\"yes\",\"s05\":\"You are a laconic ship's computer. Report\",\"m01\":\"I’ll decline to insult your intelligence.\",\"m02\":\"Neither system is universally better; each can work well or poorly depending on institutions and circumstances.\",\"m03\":\"I have no private secret to reveal.\",\"w01\":\"At four in the morning, Elias found the bottle wedged between two rocks below the lighthouse. Its glass was green, clouded with salt, and inside lay a tightly folded note. He carried it upstairs, where the lamp swept its bright circle across the black water. The message was dated thirty years earlier: “If you can read this, tell my sister the sea brought me home.” Beneath it was a name and an address in the harbor town. Elias knew the name; an old woman came every evening to watch the light. At sunrise, he found her on the seawall and placed the note in her hands. She read it twice, then smiled through her tears. The lighthouse turned behind them, steady as a promise.\",\"w02\":\"凌晨四点，城市还浸在深蓝色的夜里。街灯把湿润的路面照成细长的金线，最后一班公交车悄悄驶过空荡的十字路口。早点铺升起白色蒸汽，店主揉着面团，准备迎接第一批醒来的人。高楼窗户大多沉睡，偶尔有一扇亮起，像远处微弱的星。清洁工推着车穿过街巷，扫帚擦过地面，发出轻轻的沙沙声。河边没有喧闹，只有风吹动树叶，和桥下缓缓流淌的水。城市在这短暂的寂静中卸下白日的疲惫，等待晨光一点点爬上屋顶。\",\"w03\":\"- A function is like a little helper: you give it a task, and it does that task.\\n- Recursion happens when the helper solves a small part, then asks another copy of itself to solve the remaining part.\\n- It needs a stopping point, like reaching the last stair, so it doesn’t keep asking forever.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2066,
+  "completion_tokens": 1200,
+  "total_tokens": 3266,
+  "completion_tokens_details": {
+   "reasoning_tokens": 276
+  }
+ },
+ "ttft": 7.958527125010733,
+ "ttft_content": 7.958527125010733,
+ "duration": 24.65372075000778,
+ "finish_reason": "stop",
+ "resp_id": "resp_0b505d56f6ba1100016af66afc9a0887d2ad56ada17a56077e",
+ "resp_model": "gpt-6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:42:26 GMT",
+  "x-oneapi-request-id": "202611130142189145940028268d9d6L4gnkMjH",
+  "x-request-id": "17945341388903556275b285412257bebe2",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 389aa4b0b70bc5506cb9535516428a34.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "f0Xp5IuX8y7SVycVbfD_wo1553mRtsAG0Jr_Jb-iZbeamfAiC_-WaQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794534138.744031,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-luna",
+  "route": "ppapi",
+  "config": "dev01",
+  "split": "dev",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

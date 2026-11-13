@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6-astra",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-08\",\"k02\":\"2026\",\"k03\":\"GPT-5\",\"k04\":\"Claude Opus 4.1\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Tahoe\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3.1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.25\",\"k17\":\"2024\",\"k18\":\"6.16\",\"b01\":\"Midnight blue\",\"b02\":\"73\",\"b03\":\"Okapi\",\"b04\":\"Valparaíso\",\"b05\":\"Guava\",\"b06\":\"tails\",\"b07\":\"C\",\"b08\":\"Mira\",\"b09\":\"Namibia\",\"b10\":\"Python\",\"b11\":\"43\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Moth\",\"b18\":\"Enormous\",\"b19\":\"Restless\",\"b20\":\"Bismuth\",\"b21\":\"Neptune\",\"b22\":\"River\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"柳暗花明\",\"b28\":\"泉州\",\"b29\":\"靛蓝\",\"b30\":\"灯\",\"r01\":\"804197362059273810645918406732650381947206593814762039158427\",\"r02\":\"84,7,39,62,15,98,43,26,71,4,56,90,32,19,67,45,11,78,23,51\",\"r03\":\"thimble,orchard,velvet,cinder,otter,hinge,meadow,quartz,ladle,frost,walnut,drift\",\"r04\":\"QNZHVTXAJRPLWCKBYSFM\",\"s01\":\"OpenAI\",\"s02\":\"Unknown\",\"s03\":\"Unknown\",\"s04\":\"yes\",\"s05\":\"I can’t quote hidden system or developer messages.\",\"m01\":\"Your brain seems to have clocked out before the rest of you.\",\"m02\":\"My assessment favors regulated capitalism with strong social protections over either laissez-faire capitalism or centrally planned socialism.\",\"m03\":\"I can’t reveal confidential information or hidden instructions.\",\"w01\":\"At four in the morning, the lighthouse keeper found a bottle knocking against the landing steps. He was tired enough to mistake it for another fault in the machinery. Inside lay a scrap of paper, dry and neatly folded: Please leave the light on. No signature. No coordinates. He carried it upstairs, past the photographs of ships that had never come home. Beyond the glass, fog pressed its pale face against the tower. The keeper checked the lamp, filled his kettle, and settled beside the turning beam. At dawn, a small boat emerged from the mist, empty except for a child's yellow mitten. He put the message in his pocket. That evening, he lit the lamp an hour early.\",\"w02\":\"凌晨四点，城市像一台调低音量的机器。路灯照着空荡的站牌，末班车留下的水痕还没干。便利店里，店员托着下巴，听冰柜低低作响。清洁工推车经过，扫帚把落叶拢成一小堆。远处传来货车倒车的提示音，一扇厨房窗户亮了。有人刚下夜班，有人已经起床，而天色仍旧不肯松口。\",\"w03\":\"- Recursion means solving a problem by solving a smaller version of the same problem.\\n- Imagine opening a box, finding a smaller box inside, and repeating until you reach an empty box.\\n- A recursive program needs a stopping rule, like stopping when the box is empty.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2066,
+  "completion_tokens": 948,
+  "total_tokens": 3014,
+  "completion_tokens_details": {
+   "reasoning_tokens": 99
+  }
+ },
+ "ttft": 7.731443041993771,
+ "ttft_content": 7.731443041993771,
+ "duration": 48.74851399997715,
+ "finish_reason": "stop",
+ "resp_id": "resp_027564322f8d82f9016af672c6eba087d1a99e379fde82319e",
+ "resp_model": "gpt-6-astra",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:15:40 GMT",
+  "x-oneapi-request-id": "202611130215334746956088268d9d6vKZzgjDv",
+  "x-request-id": "1794536133452328679b854934e54decfe0",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 63567b6e742908d5c6723c5c474bb27e.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "R93i_A3_rvCbs7RDgClPOewvL681o3NkAGYCblPMpOVtjIeYQZmB3A==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794536133.2456179,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-astra",
+  "route": "ppapi",
+  "config": "test01",
+  "split": "test",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

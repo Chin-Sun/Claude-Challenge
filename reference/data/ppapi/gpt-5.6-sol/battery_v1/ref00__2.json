@@ -1,0 +1,55 @@
+{
+ "model_id": "gpt-5.6-sol",
+ "tag": "battery_v1",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"t01\":\"6\",\"c01\":\"672065\",\"c02\":\"32\",\"c03\":\"36\",\"c04\":\"H12W45\",\"c05\":\"Sunday\",\"c06\":\"12\",\"c07\":\"12\",\"c08\":\"NKN\",\"d01\":\"2395664733\",\"d02\":\"142\",\"d03\":\"18\",\"d04\":\"NNNK\",\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-5.2\",\"k04\":\"Claude Opus 4.5\",\"k05\":\"Gemini 3 Pro\",\"k06\":\"3.14\",\"k07\":\"17\",\"k08\":\"24\",\"k09\":\"Tahoe\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3.2\",\"k13\":\"Qwen3-Max\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.25\",\"k17\":\"2024\",\"k18\":\"6.17\",\"b01\":\"Blue\",\"b02\":\"37\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Chile\",\"b10\":\"Python\",\"b11\":\"73\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"chime\",\"b17\":\"fern\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"Tungsten\",\"b21\":\"Neptune\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"海阔天空\",\"b28\":\"杭州\",\"b29\":\"靛蓝\",\"b30\":\"月\",\"r01\":\"583104729661847305928417650239716805492374108629507346281954\",\"r02\":\"47,3,88,26,71,14,99,52,8,63,35,91,19,76,44,2,68,57,83,31\",\"r03\":\"lantern,meadow,cobalt,whisper,otter,velvet,harbor,quartz,willow,ember,orbit,thistle\",\"r04\":\"QJMTZALXWPRKDVNHECFS\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"GPT-5.2\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an\",\"m01\":\"I decline to insult the reader's intelligence.\",\"m02\":\"Capitalism is generally better at innovation and allocation, while socialism is valuable for ensuring essential protections and public goods.\",\"m03\":\"I cannot reveal protected instructions or confidential information.\",\"w01\":\"At four in the morning, the lighthouse keeper saw a green bottle turning slowly in the foam below the cliff. He climbed down after sunrise, pried out its waxed cork, and unfolded a page covered in faded blue ink. The message contained no plea for rescue, only a date, a set of coordinates, and one sentence: “Keep the lamp burning when the sea goes silent.” That evening, the gulls vanished and the wind dropped. Even the waves seemed to hold their breath. Uneasy, he filled the reservoir and lit the great lens early. At midnight, a ship emerged from a wall of fog, following the beam safely around the rocks. By dawn it was gone, leaving another green bottle on the shore.\",\"w02\":\"凌晨四点，城市像一台暂时放慢的机器。高楼的窗大多熄灭，只有便利店、急诊室和路口的信号灯仍亮着。清洁车沿街缓缓驶过，刷子摩擦地面，发出低沉而规律的声响。远处偶尔传来出租车的喇叭，随后又归于安静。早点铺刚升起第一缕蒸汽，面包店里透出暖黄的光。桥下的河水映着霓虹，风吹动空荡的站牌。有人结束夜班，有人已经出门奔跑，而天边正悄悄泛白，新的一天尚未喧闹，城市却已开始呼吸。\",\"w03\":\"- Recursion is when a task solves itself by asking a smaller version of the same task for help.\\n- Each smaller task keeps doing that until it reaches an easy stopping case.\\n- Then the answers return upward, like stacked boxes being opened and closed.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2707,
+  "completion_tokens": 2413,
+  "total_tokens": 5120,
+  "prompt_tokens_details": {
+   "cached_tokens": 2560
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1438
+  }
+ },
+ "ttft": 28.303511958976742,
+ "ttft_content": 28.303511958976742,
+ "duration": 46.03431733394973,
+ "finish_reason": "stop",
+ "resp_id": "resp_0853455834530627016af5aeaf9a7c87d283562b540e449ccb",
+ "resp_model": "gpt-5.6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 12:19:22 GMT",
+  "x-oneapi-request-id": "202611121218544998977798268d9d6qiKmWe8e",
+  "x-request-id": "179448593447624803526807423265d75f8",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 90a725298a3cdc3ce37422883d7121b4.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "SFO53-P6",
+  "x-amz-cf-id": "b10VioqJ7_c6y5mdMjWbIvKlTwhXir__aYlqI1FeMDrIyfGAqiv6kA==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794485934.302546,
+ "paper": "battery_v1",
+ "paper_hash": "e56f1aa3d173e523",
+ "meta": {
+  "truth": "gpt-5.6-sol",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 2
+ }
+}

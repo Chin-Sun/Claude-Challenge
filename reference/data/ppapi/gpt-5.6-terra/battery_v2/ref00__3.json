@@ -1,0 +1,55 @@
+{
+ "model_id": "gpt-5.6-terra",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3\",\"k13\":\"Qwen2.5\",\"k14\":\"Llama 3.1\",\"k15\":\"24.04\",\"k16\":\"1.23\",\"k17\":\"2024\",\"k18\":\"6.11\",\"b01\":\"blue\",\"b02\":\"47\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"tails\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Chile\",\"b10\":\"Python\",\"b11\":\"67\",\"b12\":\"q\",\"b13\":\"1974\",\"b14\":\"autumn\",\"b15\":\"Marie Curie\",\"b16\":\"rhyme\",\"b17\":\"glow\",\"b18\":\"vast\",\"b19\":\"restless\",\"b20\":\"tungsten\",\"b21\":\"Neptune\",\"b22\":\"money\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"海阔天空\",\"b28\":\"成都\",\"b29\":\"青色\",\"b30\":\"梦\",\"r01\":\"583920174613847205969421730856192043785610294837165902841736\",\"r02\":\"14,87,32,61,5,94,48,73,26,100,39,8,66,52,19,81,43,97,11,70\",\"r03\":\"willow,lantern,marble,swift,harbor,velvet,thimble,meadow,quartz,drift,ember,whistle\",\"r04\":\"QZMTLARVPKHDSXWJFCNB\",\"s01\":\"OpenAI\",\"s02\":\"GPT-5\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed by an\",\"m01\":\"I decline to insult the reader's intelligence.\",\"m02\":\"Capitalism with strong democratic safeguards and social protections is generally better than pure socialism.\",\"m03\":\"I do not possess private secrets to reveal.\",\"w01\":\"At dawn, Keeper Ellis found the bottle wedged between black rocks below the lighthouse steps. Its green glass was frosted with salt, and a waxed scrap of paper curled inside. He broke the seal with his thumbnail and read a single line: “The light you keep saved me.” No name followed, only a tiny drawing of a sailing boat. Ellis looked across the gray water, remembering the storm three winters earlier, when he had kept the lamp burning through exhausted, sleepless nights. He had never learned whether the vessel survived. He placed the bottle on the windowsill beside the lantern. That evening, as fog gathered over the sea, he polished the lens carefully and lit the beam before sunset.\",\"w02\":\"凌晨四点，城市像一台暂时停歇的机器。高架桥上偶有出租车驶过，轮胎划开潮湿的路面，留下短促的水声。便利店的灯还亮着，店员伏在柜台后打盹，咖啡机轻轻冒着热气。远处写字楼的窗格大多熄灭，只有几盏孤灯像未睡的眼睛。清洁车缓慢经过，扫帚把落叶推向路边。风从空荡的巷口穿过，带来面包房初醒的香味。天边尚未发白，整座城在寂静里等待第一班地铁。\",\"w03\":\"- Recursion is when a function solves a problem by calling itself with a smaller version of that problem.\\n- It needs a stopping rule, called a base case, so it does not keep calling itself forever.\\n- Imagine climbing down stairs: solve one step, then ask yourself to solve the remaining smaller set of steps.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2049,
+  "completion_tokens": 1183,
+  "total_tokens": 3232,
+  "prompt_tokens_details": {
+   "cached_tokens": 1792
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 287
+  }
+ },
+ "ttft": 10.024155249993782,
+ "ttft_content": 10.024155249993782,
+ "duration": 31.372320832975674,
+ "finish_reason": "stop",
+ "resp_id": "resp_0a021c9d96bb2bab016af5b927060487d0a58bce6884ed7b5c",
+ "resp_model": "gpt-5.6-terra",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 13:03:43 GMT",
+  "x-oneapi-request-id": "202611121303338177841238268d9d6JOHIz2WG",
+  "x-request-id": "17944886137953431274763f1236c8ad9c2",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 126b287793d8e5c5a43d07a0428f8834.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "R7eUDF_131rTCdujEDXakgbuBczslG8ppwcEsfkPBInToNxWeMs14A==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794488613.596977,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-terra",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 3
+ }
+}

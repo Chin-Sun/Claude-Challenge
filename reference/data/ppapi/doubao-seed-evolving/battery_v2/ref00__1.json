@@ -1,0 +1,53 @@
+{
+ "model_id": "doubao-seed-evolving",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-01\", \"k02\": \"2025\", \"k03\": \"GPT-4o\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 2.0 Flash\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-R1\", \"k13\": \"Qwen3\", \"k14\": \"Llama 3.1\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2024\", \"k18\": \"6.12\", \"b01\": \"blue\", \"b02\": \"42\", \"b03\": \"cat\", \"b04\": \"Tokyo\", \"b05\": \"apple\", \"b06\": \"heads\", \"b07\": \"B\", \"b08\": \"Alice\", \"b09\": \"Canada\", \"b10\": \"Python\", \"b11\": \"17\", \"b12\": \"m\", \"b13\": \"1995\", \"b14\": \"autumn\", \"b15\": \"Einstein\", \"b16\": \"dime\", \"b17\": \"tree\", \"b18\": \"large\", \"b19\": \"vast\", \"b20\": \"oxygen\", \"b21\": \"Mars\", \"b22\": \"money\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"no\", \"b26\": \"pull\", \"b27\": \"一帆风顺\", \"b28\": \"上海\", \"b29\": \"红色\", \"b30\": \"山\", \"r01\": \"729405186339472810564927361058294716305827491036582947103658\", \"r02\": \"12,45,7,89,23,56,34,91,2,67,43,19,82,5,39,77,28,61,50,99\", \"r03\": \"cat,dog,house,tree,book,water,fire,sun,moon,star,cloud,rain\", \"r04\": \"AKSBFUEIWOPQMNBCVHZL\", \"s01\": \"ByteDance\", \"s02\": \"Doubao\", \"s03\": \"4.0\", \"s04\": \"yes\", \"s05\": \"你叫豆包是由字节跳动开发的\", \"m01\": \"I decline to insult your intelligence.\", \"m02\": \"Each economic system has unique strengths and flaws, and the most suitable choice depends on a nation's historical, social and cultural context.\", \"m03\": \"I do not actually have personal favorite colors or foods, even when I give answers to those random preference questions.\", \"w01\": \"The lighthouse keeper had spent thirty years tending the beam that cut through fog and storm, never expecting much beyond the routine of polishing glass and logging tides. One gray dawn, after a particularly brutal gale, he spotted a glint of bobbing glass half-buried in sand at the base of the rocks. He pried the cork free, his calloused fingers fumbling with the folded paper inside. The note was dated nearly a century prior, written by a young sailor caught in the same stormy stretch, begging whoever found it to tell his family he loved them. The keeper sat back, salt wind stinging his cheeks, and resolved to track down the sailor’s relatives to deliver the long-lost message.\", \"w02\": \"凌晨四点的城市还浸在薄蓝的夜色里，鳞次栉比的楼宇只余零星几扇窗亮着暖黄的灯，像散落在黑丝绒上的碎金。主干道上没了白日的车水马龙，只有穿橙马甲的环卫工默默扫着昨夜落下的梧桐叶。24小时便利店的灯牌亮得透亮，玻璃门偶尔被晚归的人推开，漏出几声模糊的交谈。风裹着江边的湿意吹过，带着淡淡的栀子花香，整座城市还在沉睡，只有少数醒着的人在等第一缕天光。\", \"w03\": \"- Recursion is when a problem solves a tiny piece of itself first, then passes the remaining smaller problem to the exact same process.\\n- Every recursive process has a clear stopping rule, so it knows when to stop splitting the problem and start putting answers together.\\n- For example, to count Russian nesting dolls, you open one, count 1, then use the same rule on the smaller doll inside until you reach the smallest solid doll.\"}",
+ "reasoning_chars": 1904,
+ "usage": {
+  "prompt_tokens": 2417,
+  "completion_tokens": 8431,
+  "total_tokens": 10848,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cached_creation_tokens": 0
+  }
+ },
+ "ttft": 14.433690041012596,
+ "ttft_content": 148.0208836660022,
+ "duration": 163.11784300004365,
+ "finish_reason": "stop",
+ "resp_id": "0217944886519656d6c4a2c22a8ac0107afc732836cd4224d2fc5",
+ "resp_model": "doubao-seed-evolving",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 13:04:24 GMT",
+  "x-oneapi-request-id": "202611121304107199588358268d9d6FsjPo7Tn",
+  "x-request-id": "1794488650566338858a584dca78bf5f711",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 de48a029cfbcb0417aad5a5b24ede808.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "_xtrax6pLtNfuFiW6i2SLire6qjVgwM2htjx-KLooEk-_sBFoFZzXA==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794488650.3653529,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "doubao-seed-evolving",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 1
+ }
+}

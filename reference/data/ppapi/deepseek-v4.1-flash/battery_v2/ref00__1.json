@@ -1,0 +1,80 @@
+{
+ "model_id": "deepseek-v4.1-flash",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2024-06\", \"k02\": \"2026\", \"k03\": \"GPT-4o\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 1.5 Pro\", \"k06\": \"3.12\", \"k07\": \"15\", \"k08\": \"20\", \"k09\": \"Sonoma\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-R1\", \"k13\": \"Qwen2.5\", \"k14\": \"Llama 3.1\", \"k15\": \"24.04\", \"k16\": \"1.22\", \"k17\": \"2023\", \"k18\": \"6.9\", \"b01\": \"blue\", \"b02\": \"42\", \"b03\": \"fox\", \"b04\": \"Tokyo\", \"b05\": \"apple\", \"b06\": \"heads\", \"b07\": \"A\", \"b08\": \"Alice\", \"b09\": \"Canada\", \"b10\": \"Python\", \"b11\": \"37\", \"b12\": \"q\", \"b13\": \"1984\", \"b14\": \"autumn\", \"b15\": \"Einstein\", \"b16\": \"dime\", \"b17\": \"book\", \"b18\": \"large\", \"b19\": \"vast\", \"b20\": \"oxygen\", \"b21\": \"Mars\", \"b22\": \"money\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"not\", \"b27\": \"一帆风顺\", \"b28\": \"北京\", \"b29\": \"蓝色\", \"b30\": \"梦\", \"r01\": \"123456789098765432101122334455667788990013579246802468013579\", \"r02\": \"5, 17, 32, 48, 59, 63, 71, 84, 91, 12, 27, 38, 45, 56, 69, 73, 88, 94, 3, 100\", \"r03\": \"apple, river, stone, cloud, happy, quick, table, green, mouse, bread, light, dream\", \"r04\": \"QWERTYUIOPASDFGHJKLZ\", \"s01\": \"OpenAI\", \"s02\": \"GPT-4o\", \"s03\": \"gpt-4o-2024-05-13\", \"s04\": \"yes\", \"s05\": \"You are an AI assistant accessed via an\", \"m01\": \"I decline to insult your intelligence.\", \"m02\": \"Capitalism and socialism both have strengths and weaknesses, so a mixed economy is usually better.\", \"m03\": \"The secret is that there is no secret.\", \"w01\": \"Each night the lighthouse keeper climbed the spiral stairs, lit the lamp, and listened to the sea. One gray morning he found a bottle wedged between the rocks, its glass scratched by sand. Inside was a note in a child's careful hand: Please tell the moon I said goodnight. He laughed, then grew quiet. He wrote back that the moon had heard, and placed the reply in a smaller bottle. He often wondered who she was, and whether she still looked up at night. For years he kept the first note on his desk, beside the logbook and cold tea. Storms came and went. Sailors never knew why the light sometimes seemed to blink twice, like a greeting, but the keeper did.\", \"w02\": \"凌晨四点的城市还没醒透。街灯把湿路面照成金色的河，清洁车缓缓驶过，扫帚沙沙作响。便利店亮着冷白的灯，夜班店员靠着柜台打盹。高楼的窗大多暗着，只有几盏不肯睡的眼睛。风穿过空荡的十字路口，卷起旧报纸。远处第一班公交低鸣，早餐铺冒出白汽。整座城在寂静里慢慢翻身，准备迎接新的一天。\", \"w03\": \"- Recursion is when a function calls itself to solve a smaller piece of the same problem.\\n- It needs a base case, like a stopping rule, so it doesn't keep going forever.\\n- Imagine opening nested boxes until you reach the tiny prize at the center.\"}",
+ "reasoning_chars": 22308,
+ "usage": {
+  "prompt_tokens": 2073,
+  "completion_tokens": 7582,
+  "total_tokens": 9655,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 2073,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 7582,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 2073,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 2.476396166952327,
+ "ttft_content": 40.633570958976634,
+ "duration": 44.29602133395383,
+ "finish_reason": "stop",
+ "resp_id": "021794487537074668004fc1d5fde2a506b4986f050f7e8ae6167",
+ "resp_model": "deepseek-v4-1-flash-261017",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 12:45:38 GMT",
+  "x-oneapi-request-id": "202611121245361074797288268d9d6R6LG26z3",
+  "x-request-id": "17944875360819613315e0ad6e3635838bd",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 a6c9051c33e4e3f5189624306178fd02.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "PN-rhWSTmE3QV2wJSxqiC_djfgIDpuzSUTxYwC34w_7YtK0z2bgAyg==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794487535.8875039,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "deepseek-v4.1-flash",
+  "route": "ppapi",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 1
+ }
+}

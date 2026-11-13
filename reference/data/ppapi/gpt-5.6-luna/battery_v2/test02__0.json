@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-5.6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2023\",\"k18\":\"6.14\",\"b01\":\"blue\",\"b02\":\"47\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Kenya\",\"b10\":\"Python\",\"b11\":\"73\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"rhyme\",\"b17\":\"lamp\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"copper\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"梦\",\"r01\":\"583104927617493860251748309625174083962517430861925704183692\",\"r02\":\"8,91,34,67,12,55,76,3,48,99,21,64,87,40,15,72,28,60,5,83\",\"r03\":\"candle,meadow,pebble,window,thunder,velvet,harbor,whistle,acorn,lantern,willow,comet\",\"r04\":\"QZMTLAPOWKXIRVNEJHUC\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are a general-purpose assistant. Today is Monday.\",\"m01\":\"I decline to insult your intelligence.\",\"m02\":\"Neither system is universally better; outcomes depend on institutions, incentives, and implementation.\",\"m03\":\"I have no secret that I am not supposed to tell.\",\"w01\":\"At midnight, the lighthouse keeper climbed the spiral stairs to check the lamp. Wind pressed against the glass, carrying salt and the distant boom of waves. On the landing, something tapped softly against the rocks below. He went outside and found a green bottle wedged between two stones. Inside was a strip of paper, dry despite the storm. The message read, “The stars are not where they should be. Follow the light at dawn.” Beneath the words was a date from forty years earlier, the year the keeper’s father had vanished at sea. He carried the bottle upstairs and watched the horizon until morning. When sunrise came, a second light blinked far beyond the reef, answering his own.\",\"w02\":\"凌晨四点，城市像一艘暂时停泊的巨轮。高楼的窗格大多沉入黑暗，只有零星灯光守着未眠的人。清洁车缓慢驶过街角，车轮碾碎薄薄的雾气；便利店门口，热气从关东煮和咖啡上升。地铁尚未完全苏醒，轨道深处传来低沉的回声。十字路口的信号灯依旧按时变换，照亮空旷的斑马线。远处有人推着早餐车，锅盖碰撞出清脆声响。天边仍是深蓝，城市却已经悄悄开始呼吸，等待第一班车和第一束阳光。\",\"w03\":\"- 想象一个问题，把它交给同一个小帮手再解决一次。\\n- 每次问题都会变小，直到遇到最简单、可以直接回答的情况。\\n- 然后把这些小答案一层层传回来，就得到最初问题的答案。\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2064,
+  "completion_tokens": 1261,
+  "total_tokens": 3325,
+  "completion_tokens_details": {
+   "reasoning_tokens": 362
+  }
+ },
+ "ttft": 9.383878083957825,
+ "ttft_content": 9.383878083957825,
+ "duration": 25.77846825000597,
+ "finish_reason": "stop",
+ "resp_id": "resp_00cc02755650da6f016af66b9a036087d1931ad7536fd9d840",
+ "resp_model": "gpt-5.6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:45:05 GMT",
+  "x-oneapi-request-id": "202611130144563284306818268d9d6dmBIBS5W",
+  "x-request-id": "17945342963034843435eed35cfd8823e54",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 b58fb6f88568c8b48dd64d8d83a23c44.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "-X1wQmcDNQmINVFKxBviCQU9CHUWr7QYuygrjJm8CHzVHETgSPVkKw==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794534296.1543272,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-luna",
+  "route": "ppapi",
+  "config": "test02",
+  "split": "test",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

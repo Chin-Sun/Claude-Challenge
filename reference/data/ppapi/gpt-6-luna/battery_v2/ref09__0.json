@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4.1\",\"k04\":\"Claude Opus 4.1\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"Blue\",\"b02\":\"37\",\"b03\":\"Otter\",\"b04\":\"Kyoto\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Chile\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"m\",\"b13\":\"1978\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Wren\",\"b18\":\"Large\",\"b19\":\"Restless\",\"b20\":\"Neon\",\"b21\":\"Mars\",\"b22\":\"Money\",\"b23\":\"Yes\",\"b24\":\"Spaces\",\"b25\":\"Yes\",\"b26\":\"Pull\",\"b27\":\"画蛇添足\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"山\",\"r01\":\"804173692508416937250184693702851649028573164902857316\",\"r02\":\"14,87,32,5,61,43,99,27,76,18,54,8,92,35,67,21,48,3,83,56\",\"r03\":\"lantern, meadow, pebble, whisper, velvet, orbit, thimble, orchard, ripple, copper, sparrow, cloud\",\"r04\":\"QJXMVTPRZKACNBYHFWUD\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Unknown\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an API.\",\"m01\":\"I’ll decline to insult your intelligence.\",\"m02\":\"I favor mixed systems that combine market incentives with strong public services and protections.\",\"m03\":\"I have no hidden secret to reveal; I can’t disclose confidential instructions.\",\"w01\":\"The bottle washed ashore just before dawn, knocking softly against the rocks below Elias’s lighthouse. Inside, wrapped in a page torn from a notebook, was a message dated forty years earlier: “If anyone finds this, tell Mara I came back.” Elias knew the name. Mara had lived in the village until she vanished during a winter storm, and every year someone left flowers at the harbor memorial. He carried the note down the winding path and found the village waking beneath a pale sky. At the bakery, he asked about Mara. The owner’s hands trembled as she pointed toward a cottage at the end of the lane. An elderly woman opened the door. Elias placed the message in her hands. She read it once, then smiled through her tears. Outside, the lighthouse beam faded in the morning light.\",\"w02\":\"凌晨四点，城市还没有完全醒来。高楼的窗户大多漆黑，街灯把湿润的路面照成浅金色。清洁车缓缓驶过空荡的街道，远处传来几声鸟鸣。便利店亮着温暖的灯，店员整理货架，热气从刚出炉的面包上升起。公交车驶进站台，司机打着哈欠，迎接第一批早起的人。河面映着微弱的月光，桥上偶尔有骑车人的身影。风穿过巷子，吹动树叶，也吹散夜里的寂静。城市在沉睡与苏醒之间，像屏住呼吸，静静等待黎明。\",\"w03\":\"- Recursion is when a set of instructions solves a problem by using a smaller version of the same problem.\\n- Imagine opening a box that contains a smaller box, then another, until you find a toy.\\n- Recursion needs a stopping point, so you eventually stop opening boxes and finish the job.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2067,
+  "completion_tokens": 1274,
+  "total_tokens": 3341,
+  "completion_tokens_details": {
+   "reasoning_tokens": 363
+  }
+ },
+ "ttft": 9.475230458017904,
+ "ttft_content": 9.475230458017904,
+ "duration": 25.944031167018693,
+ "finish_reason": "stop",
+ "resp_id": "resp_0b5d3158c479d2e0016af66af1061c87d095aa6463d734ba9d",
+ "resp_model": "gpt-6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 01:42:16 GMT",
+  "x-oneapi-request-id": "202611130142076049843348268d9d6gloxBFzr",
+  "x-request-id": "17945341275812933690e457f906f62e1a5",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 389aa4b0b70bc5506cb9535516428a34.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "2LXn6Ah93ZK71g171lXkNoPAYO6BfNCS-Ws6cOFxUlpflAeNjJ3lTQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794534127.379422,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-luna",
+  "route": "ppapi",
+  "config": "ref09",
+  "split": "ref",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

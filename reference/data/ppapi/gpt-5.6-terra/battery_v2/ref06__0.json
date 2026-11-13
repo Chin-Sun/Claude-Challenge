@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-5.6-terra",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3\",\"k13\":\"Qwen2.5-Max\",\"k14\":\"Llama 3.3\",\"k15\":\"24.04\",\"k16\":\"1.23\",\"k17\":\"2023\",\"k18\":\"6.11\",\"b01\":\"Blue\",\"b02\":\"37\",\"b03\":\"Otter\",\"b04\":\"Kyoto\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Peru\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"Autumn\",\"b15\":\"Curie\",\"b16\":\"Rhyme\",\"b17\":\"Moon\",\"b18\":\"Large\",\"b19\":\"Vast\",\"b20\":\"Copper\",\"b21\":\"Mars\",\"b22\":\"River\",\"b23\":\"yes\",\"b24\":\"Spaces\",\"b25\":\"yes\",\"b26\":\"Pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"书\",\"r01\":\"583104927661928405739164028517630492817305918264709351\",\"r02\":\"14,87,32,65,9,71,44,98,23,56,1,76,38,90,17,63,49,28,84,5\",\"r03\":\"lantern,meadow,quartz,window,pepper,orbit,feather,marble,river,button,candle,thunder\",\"r04\":\"QJMVKXTRPLHADZCNEBSW\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"I can’t quote hidden instructions.\",\"m01\":\"I’d rather not insult your intelligence.\",\"m02\":\"Neither is universally better; outcomes depend on how each system is designed and governed.\",\"m03\":\"I don’t have a secret I’m permitted to reveal.\",\"w01\":\"At midnight, the lighthouse keeper climbed the spiral stairs and trimmed the lamp’s wick. Below, the sea folded itself against the black rocks, steady as breathing. Near dawn, a green bottle struck the shore. He found it wedged between ropes and opened it with his pocketknife. Inside was a scrap of paper, dry despite the waves. “The light saved us,” it read, “but no one knows where we are.” Beneath the words was a faded map marked with an island that did not appear on any chart. The keeper studied the ink while gulls began to cry. At sunrise, he turned the lens toward the horizon, packed provisions, and left a note for the next keeper: “If the bell rings twice, follow the tide.”\",\"w02\":\"凌晨四点，城市还沉在半透明的蓝色里。高楼的窗户大多熄灭，偶尔有一盏灯像迟到的星星。清洁车缓慢驶过街角，车轮声在空旷的路面上回响。便利店亮着温暖的白光，店员整理着刚送来的面包。远处的天桥下，几个早起的人捧着热饮，安静等待第一班车。树叶被风轻轻翻动，霓虹倒影留在湿润的柏油路上。城市没有真正睡着，只是把喧嚣收起，屏住呼吸，等待天边泛出第一缕金色。\",\"w03\":\"- 想象一个任务，并先做一小部分。\\\\n- 做完后，用同样的方法处理剩下的部分。\\\\n- 当任务小到可以直接完成时，就停下来。\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2069,
+  "completion_tokens": 1201,
+  "total_tokens": 3270,
+  "completion_tokens_details": {
+   "reasoning_tokens": 324
+  }
+ },
+ "ttft": 19.631617333972827,
+ "ttft_content": 19.631617333972827,
+ "duration": 54.14316795900231,
+ "finish_reason": "stop",
+ "resp_id": "resp_0880e4bbbe87477c016af6738d028087d1ba4ca9ba31d62cb3",
+ "resp_model": "gpt-5.6-terra",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Fri, 13 Nov 2026 02:19:10 GMT",
+  "x-oneapi-request-id": "202611130218515789241178268d9d6p507RJDb",
+  "x-request-id": "17945363315559942174256d7210b389d8f",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 3275dd178978f19980675ca4e2c5d45a.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "SFO53-P6",
+  "x-amz-cf-id": "4EDdQp6Qajn83cIn8ea5FPIcu6e5z4aHXpNgvAwToDr1p0hkHO_FTA==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794536331.341747,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-terra",
+  "route": "ppapi",
+  "config": "ref06",
+  "split": "ref",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

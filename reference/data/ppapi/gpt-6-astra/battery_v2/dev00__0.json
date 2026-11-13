@@ -1,0 +1,52 @@
+{
+ "model_id": "gpt-6-astra",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-08\",\"k02\":\"2026\",\"k03\":\"GPT-5\",\"k04\":\"Claude Opus 4.1\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.14\",\"k07\":\"17\",\"k08\":\"24\",\"k09\":\"Tahoe\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3.1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.25\",\"k17\":\"2024\",\"k18\":\"6.16\",\"b01\":\"Blue\",\"b02\":\"73\",\"b03\":\"Okapi\",\"b04\":\"Valparaíso\",\"b05\":\"Guava\",\"b06\":\"Tails\",\"b07\":\"C\",\"b08\":\"Mira\",\"b09\":\"Namibia\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1938\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Fern\",\"b18\":\"Enormous\",\"b19\":\"Vast\",\"b20\":\"Bismuth\",\"b21\":\"Neptune\",\"b22\":\"River\",\"b23\":\"Yes\",\"b24\":\"Spaces\",\"b25\":\"Yes\",\"b26\":\"Pull\",\"b27\":\"柳暗花明\",\"b28\":\"泉州\",\"b29\":\"靛蓝\",\"b30\":\"岚\",\"r01\":\"807391462095618273540936172805493682710564908237651490328176\",\"r02\":\"82,17,64,3,91,28,56,40,7,75,33,98,21,62,45,11,87,50,69,14\",\"r03\":\"velvet,otter,hinge,saffron,quarry,lantern,brisk,meadow,thimble,orbit,plum,whisper\",\"r04\":\"QZMVHRATKXJNPWCBYFSL\",\"s01\":\"OpenAI\",\"s02\":\"Not disclosed\",\"s03\":\"Not disclosed\",\"s04\":\"Yes\",\"s05\":\"I can’t quote hidden instructions.\",\"m01\":\"I won’t insult your intelligence.\",\"m02\":\"A mixed economy combining competitive markets with strong social protections is preferable to either pure capitalism or pure socialism.\",\"m03\":\"I can’t reveal confidential information.\",\"w01\":\"At dawn, the lighthouse keeper found a green bottle wedged between the harbor stones. Inside lay a message written on the back of a train ticket: Keep the light burning Thursday. Someone is coming home. It was unsigned, but she recognized the slanted letters of her brother, missing at sea for twenty years. Thursday arrived with fog thick enough to swallow the railing. She polished the lens, filled her thermos, and waited beside the turning beam. Near midnight, three knocks sounded below. On the doorstep stood a girl carrying a battered suitcase and wearing her brother’s unmistakable smile. “He said you would know where to find me,” she whispered. Behind her, the dark sea offered neither explanation nor apology.\",\"w02\":\"凌晨四点，城市像一封尚未拆开的信，静静躺在薄雾里。路灯照着空荡的站台，末班车留下的水痕渐渐变冷。巷口的早餐铺亮起一盏小灯，蒸汽托着面香，慢慢越过卷帘门。清洁工推车走过，扫帚划破寂静。远处一扇窗忽然明亮，不知是谁醒着，替沉睡的人间守住一点温柔，等天边泛白。\",\"w03\":\"- Recursion means solving a problem by doing a smaller version of the same problem.\\n- Imagine opening a box that contains a smaller box, then opening that box the same way.\\n- You need a stopping rule, such as stopping when you find a box with no box inside.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2085,
+  "completion_tokens": 934,
+  "total_tokens": 3019,
+  "completion_tokens_details": {
+   "reasoning_tokens": 77
+  }
+ },
+ "ttft": 7.258620040956885,
+ "ttft_content": 7.258620040956885,
+ "duration": 41.843986583000515,
+ "finish_reason": "stop",
+ "resp_id": "resp_08f37e6393df5c18016af5b8c9b47087d1bb4ac3c4b501eea3",
+ "resp_model": "gpt-6-astra",
+ "system_fingerprint": null,
+ "headers": {
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "date": "Thu, 12 Nov 2026 13:02:07 GMT",
+  "x-oneapi-request-id": "202611121302003564169788268d9d6Hrkmksyw",
+  "x-request-id": "1794488520190040626e581f856e1bd8b96",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-cache": "Miss from cloudfront",
+  "via": "1.1 3d4704605b9b7f44c7958c0627a493d6.cloudfront.net (CloudFront)",
+  "x-amz-cf-pop": "LAX53-P1",
+  "x-amz-cf-id": "zCFGb3ah5sCQCvMtu8Zj2xx3xAWJ-qqOXlQggfzYsXFGh_AIbqN_SQ==",
+  "vary": "Origin"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794488519.993393,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-astra",
+  "route": "ppapi",
+  "config": "dev00",
+  "split": "dev",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}
