@@ -27,7 +27,131 @@
 4. 后验低于阈值的 ID 再收到一份区分卷，卷子按“最能分开当前前几名候选”来选。
 5. 按期望得分决定每个 ID 是在第一题选中，还是在第二题填名称和版本。
 
+## 架构
+
+系统分成两条流水线，共用同一套探针卷、特征提取和参考库：**离线**采集参考库，**在线**（比赛当天）对 10 个匿名 ID 做识别。
+
+```
+                       ┌────────────── 离线：建库 ──────────────┐
+ candidates.py ──┐     │                                        │
+ reference/      │     │  reference.collect ──► reference/data/ │
+ configs.py ─────┼────►│  （候选 × 卷子 × system prompt）        │
+ probes/frozen ──┘     │        │                               │
+                       │        ▼                               │
+                       │  reference.audit ──► quarantine.json   │
+                       └────────┬───────────────────────────────┘
+                                │ reference.store 读取、转成样本
+                                ▼
+                       features.extract（响应 → 特征）
+                                │
+                                ▼
+                       classify.library.Library（参考库 + 后验）
+                                ▲                    │
+                ┌───────────────┘                    │
+                │                                    ▼
+ ┌──────────── 在线：比赛 ────────────────────────────────────────┐
+ │ run_contest.py                                                 │
+ │   └─ classify.decide.Session                                   │
+ │        1. 每个 ID 发首轮卷子 ─► client.api.HttpTransport ─► 网关 │
+ │        2. extract → Library.posterior                          │
+ │        3. 后验 < 阈值的 ID：choose_paper 选区分卷再发            │
+ │        4. answers()：按期望得分决定「选中」还是「填名称/版本」    │
+ │   └─ client.ledger.Ledger（请求前落盘，硬上限）                 │
+ └────────────────────────────────────────────────────────────────┘
+
+ sim/：用 ReplayWorld（回放真实参考数据）或 SyntheticWorld（合成）
+      替换网关，同一套 Session 代码跑模拟赛；sim.gateway 起本地 HTTP 网关用于彩排。
+```
+
+### 分层与职责
+
+| 层 | 模块 | 职责 | 依赖 |
+|---|---|---|---|
+| 数据定义 | `candidates.py`、`config.py` | 候选清单（答案空间）、请求参数 `REQUEST_PROFILE`、信号权重、路径 | 无 |
+| 探针 | `probes/papers.py` | 生成并冻结打包卷子；每份卷子是一个 JSON 作答的问卷，含能力、知识、行为、随机序列、文风和分词器探针 | `config` |
+| 传输 | `client/api.py`、`client/ledger.py` | 流式请求、解析 SSE（首字节时间、usage、推理字段）、重试规则；账本计数 | `config` |
+| 特征 | `features/extract.py` | 把一条响应变成 `{卷:特征名: (类型, 信号组, 值)}` | `probes` |
+| 分类 | `classify/library.py` | 按候选聚合特征统计，计算对数似然和后验，估计一份卷子能分开两个候选的程度 | `candidates`、`config` |
+| 决策 | `classify/decide.py` | `Session`：发首轮、选区分卷、预算控制、按期望得分出答案 | 以上全部 |
+| 参考库 | `reference/` | 采集、落盘、体检、system prompt 配置 | `client`、`probes`、`features` |
+| 评估 | `sim/` | 构造局面、回放、打分、校准、本地网关 | `classify`、`reference` |
+| 入口 | `run_contest.py` | 装配上述各层，写出 `answers.json` | 全部 |
+
+依赖方向是自上而下，`client` 和 `classify` 不互相引用；`Session` 只要求传输对象有 `ask(mid, paper, name)` 方法，所以真实 HTTP 传输、模拟赛的 `EpisodeTransport` 和彩排网关可以互换。
+
+### 数据流
+
+1. **探针**：`probes.papers --freeze` 把卷子写入 `probes/frozen/*.json`。采集、模拟和比赛都读这份冻结文件，所以提示词字节完全一致，`prompt_tokens` 才能跨环境比较。
+2. **采集**：`reference.collect` 对每个候选、每份卷子、每组 system prompt（`reference/configs.py` 的 ref/dev/test 三个划分）发请求，原始响应存到 `reference/data/<线路>/<模型>/<卷>/<配置>__<序号>.json|.sse`。
+3. **特征**：`extract` 提取 11 个信号组（`tok` 分词器、`cap` 能力、`know` 知识、`beh` 行为、`rand` 随机序列、`style` 文风、`fmt` 格式、`reason` 推理量、`self` 自述、`speed` 速度、`meta` 响应字段）。特征类型有 `bin`、`bag`、`lognum`、`text`、`ptok` 五种，各有自己的似然模型。
+4. **后验**：`Library` 对每个候选算 `log 先验 + 温度 × Σ 组权重 × 组对数似然`，再归一化。候选清单外加一个 `OTHER` 伪候选，用全体样本的背景分布表示“库外模型”。稀疏的候选统计会向背景分布收缩。
+5. **决策**：`Session.answers()` 比较两个期望得分：选为指定模型 `20p − 10(1−p)`，填名称和版本 `10·P(名称对) + 10·P(版本对)`，取大者。
+6. **追加请求**：首轮后验低于 `stop_p` 的 ID，用 `choose_paper` 在区分卷里选 Bhattacharyya 距离加权后增益最大的一份，增益低于 `MIN_GAIN` 就不再发。
+
+### 关键设计决定
+
+- **请求计数是硬约束**。`Ledger` 在请求发出前就把名额写盘（fsync），崩溃也不会少记；`Session` 用 `run_dir` 里已存在的记录断点续跑，已付费的请求不重发。
+- **请求参数固定**。所有环境共用 `REQUEST_PROFILE`，不带 `temperature` 等参数，避免被部分模型拒绝（被拒的请求也计数）。第一发被拒就抛 `AbortRun` 停止。
+- **不使用响应里的 `model` 字段**。采集线路会回显真实模型名，用它会看起来“很准”但在比赛里没有意义。
+- **参考库按配置汇总**。每个候选的统计汇集了多种 system prompt 下的响应，伪装带来的差异只会拓宽分布，不会让匹配失效。
+- **网关重算 usage 时自动降级**。`_check_usage` 发现所有 ID 的 `prompt_tokens` 几乎相同，就关闭 `tok` 组。
+- **库的标签可能不干净**。`reference.audit` 用 5 折交叉检验找出“标签是 A 却高把握像 B”的记录，写入 `quarantine.json`，`reference.store` 加载时跳过。
+- **权重可覆盖**。`weights.json` 只写要改的键，会合并进 `config.DEFAULT_WEIGHTS`；`sim.evaluate --calibrate` 用来调这些值。
+
 ## 目录
+
+### 文件结构图
+
+```
+ClaudeChallenge/
+├── run_contest.py            # 比赛当天入口：装配各层，写出 answers.json
+├── candidates.py             # 候选模型清单（52 个，三层）与两条线路的模型 ID
+├── config.py                 # 路径、REQUEST_PROFILE、信号权重、读取密钥
+├── endpoints.json            # 线路地址与密钥环境变量名（不含密钥）
+├── endpoints.example.json    # endpoints.json 模板
+├── weights.json              # 覆盖 config.DEFAULT_WEIGHTS 的权重
+│
+├── probes/                   # 探针卷
+│   ├── papers.py             #   生成、冻结、加载卷子
+│   └── frozen/               #   冻结后的卷子（采集与比赛都读它）
+│       ├── battery_v1.json   #     含计算题的主卷
+│       ├── battery_v2.json   #     首轮主卷（不含计算题）
+│       ├── half_a.json / half_b.json                       # split 策略的两半
+│       └── disc_capability / disc_knowledge / disc_behavior.json   # 区分卷
+│
+├── client/                   # 传输层
+│   ├── api.py                #   流式请求、SSE 解析、重试规则、列模型
+│   └── ledger.py             #   请求账本（发出前落盘，硬上限）
+│
+├── features/
+│   └── extract.py            # 响应 → 特征 {卷:特征名: (类型, 信号组, 值)}
+│
+├── classify/                 # 识别核心
+│   ├── library.py            #   参考库、似然、后验、区分卷增益
+│   └── decide.py             #   Session：发卷、选卷、预算、答题决策
+│
+├── reference/                # 参考库的采集与维护
+│   ├── collect.py            #   采集脚本（冒烟、续跑、--plan）
+│   ├── audit.py              #   标签体检，疑似掉包记录
+│   ├── store.py              #   读取记录、转成库样本
+│   ├── configs.py            #   system prompt 配置（ref / dev / test）
+│   ├── quarantine.json       #   被隔离的记录
+│   └── data/<线路>/<模型>/<卷>/<配置>__<序号>.json|.sse   # 原始响应
+│
+├── sim/                      # 模拟与评估
+│   ├── evaluate.py           #   ReplayWorld、局面构造、打分、校准
+│   ├── synthetic.py          #   SyntheticWorld（合成模型）
+│   └── gateway.py            #   本地模拟网关（彩排用）
+│
+├── tests/
+│   └── test_all.py           # 单元测试
+├── runs/                     # 运行产物：<run>/ledger.jsonl、响应、answers.json
+├── plan/                     # 计划与结果文档（按日期命名）
+├── CLAUDE.md                 # 项目说明（给 Claude Code）
+└── README.md
+```
+
+### 路径说明
 
 | 路径 | 内容 |
 |---|---|
