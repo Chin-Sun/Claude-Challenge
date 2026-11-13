@@ -3,6 +3,7 @@ import json
 
 from config import REF_DATA
 from features.extract import extract
+from reference.configs import BY_ID
 
 
 QUARANTINE_FILE = REF_DATA.parent / "quarantine.json"
@@ -27,6 +28,8 @@ def load_records(routes=None, root=None, include_quarantined=False):
         meta = rec.get("meta")
         if not meta or (routes and meta["route"] not in routes):
             continue
+        if meta.get("config") not in BY_ID:
+            continue   # answer to a system prompt that has since been replaced
         rec["_path"] = rel
         out.append(rec)
     return out

@@ -30,7 +30,7 @@ BARE_REPS = 4
 OTHER_PAPER_FRACTION = 0.5   # discriminators and halves get half the configs of the main paper
 
 
-def jobs(routes, tiers, paper_names, depth, only=None):
+def jobs(routes, tiers, paper_names, depth, only=None, splits=None):
     out = []
     for key, c in CANDIDATES.items():
         if c["tier"] not in tiers or (only and key not in only):
@@ -38,6 +38,13 @@ def jobs(routes, tiers, paper_names, depth, only=None):
         for route in routes:
             mid = c["routes"].get(route)
             if not mid:
+                continue
+            if splits:
+                # extra evaluation sets (e.g. red-team): every prompt, main paper, once
+                for split in splits:
+                    for cfg in configs(split):
+                        out.append({"key": key, "route": route, "model_id": mid, "paper": MAIN,
+                                    "config": cfg, "rep": 0})
                 continue
             for pn in paper_names:
                 if pn != MAIN and c["tier"] == 3:
@@ -111,6 +118,7 @@ def main():
     ap.add_argument("--limit", type=int, default=0, help="stop after this many requests")
     ap.add_argument("--plan", action="store_true")
     ap.add_argument("--smoke", action="store_true")
+    ap.add_argument("--splits", default="", help="collect only these extra splits, e.g. rt1,rt2")
     ap.add_argument("--check-available", action="store_true",
                     help="with --plan: ask each route which models the key can use")
     a = ap.parse_args()
@@ -120,7 +128,8 @@ def main():
     routes = a.routes.split(",")
     tiers = {int(x) for x in a.tiers.split(",")}
     only = set(filter(None, a.models.split(",")))
-    todo = jobs(routes, tiers, a.papers.split(","), a.depth, only)
+    todo = jobs(routes, tiers, a.papers.split(","), a.depth, only,
+                splits=list(filter(None, a.splits.split(","))))
     if not a.plan or a.check_available:
         # Drop models the key cannot use on a route, so they do not cost failed requests.
         endpoints = load_endpoints()

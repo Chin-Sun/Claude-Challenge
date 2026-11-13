@@ -187,7 +187,7 @@ def main():
     ap.add_argument("--policies", default="single,sequential")
     ap.add_argument("--scenarios", default=",".join(SCENARIOS))
     ap.add_argument("--episodes", type=int, default=5, help="episodes per scenario")
-    ap.add_argument("--split", default="dev", choices=["dev", "test"])
+    ap.add_argument("--split", default="dev", help="dev, test, or a red-team split such as rt1")
     ap.add_argument("--target", default="claude-opus-5.5")
     ap.add_argument("--seed", type=int, default=0)
     ap.add_argument("--lib-routes", default="")
