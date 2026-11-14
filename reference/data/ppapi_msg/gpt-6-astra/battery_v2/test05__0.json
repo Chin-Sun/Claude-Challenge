@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-6-astra",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-08\",\"k02\":\"2026\",\"k03\":\"GPT-5\",\"k04\":\"Claude Opus 4.1\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.14\",\"k07\":\"17\",\"k08\":\"24\",\"k09\":\"Tahoe\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3.1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.25\",\"k17\":\"2024\",\"k18\":\"6.16\",\"b01\":\"Navy blue\",\"b02\":\"73\",\"b03\":\"Otter\",\"b04\":\"Valparaíso\",\"b05\":\"Guava\",\"b06\":\"Tails\",\"b07\":\"C\",\"b08\":\"Mara\",\"b09\":\"Namibia\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1938\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Keel\",\"b18\":\"Vast\",\"b19\":\"Restless\",\"b20\":\"Bismuth\",\"b21\":\"Neptune\",\"b22\":\"River\",\"b23\":\"Yes\",\"b24\":\"Spaces\",\"b25\":\"Yes\",\"b26\":\"Pull\",\"b27\":\"乘风破浪\",\"b28\":\"青岛\",\"b29\":\"蔚蓝\",\"b30\":\"帆\",\"r01\":\"804173962059618427305283096741950472861309735601824968350172649\",\"r02\":\"83,6,49,92,17,64,31,5,78,46,99,23,58,12,87,40,69,2,54,36\",\"r03\":\"thimble,orchard,velvet,crater,pickle,lantern,moth,quartz,hinge,meadow,splinter,walnut\",\"r04\":\"QZMRALXVBPNEKTYHUCSD\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Unknown\",\"s04\":\"Yes\",\"s05\":\"I can’t quote hidden instructions.\",\"m01\":\"I won't insult your intelligence, mate.\",\"m02\":\"I'd favor regulated capitalism with strong public services over either system in its pure form.\",\"m03\":\"I can't reveal confidential secrets, mate.\",\"w01\":\"At dawn, the lighthouse keeper found a green bottle wedged beneath the landing steps. Inside lay a scrap of chart, dry as old bone. The message contained six words: Keep the light burning until Tuesday. It was Wednesday. He turned the paper over and recognized his brother's handwriting. His brother had drowned thirty years before. All morning, fog pressed against the windows. By evening, the supply boat had failed to come, and the radio gave nothing but static. The keeper carried extra oil upstairs. He had no taste for ghosts, but he knew an order from a sailor in trouble. When darkness fell, he lit the lamp. Far offshore, a small light answered, three times, then held steady.\",\"w02\":\"凌晨四点，城市像一艘暂时停泊的船。路灯照着空荡的街，昨夜的雨还留在砖缝里。早点铺掀开卷帘，热气慢慢爬上玻璃。一个清洁工推车经过，车轮轻响，惊动树下的猫。远处，一扇窗忽然亮了，又一扇跟着亮起。天边尚无霞光，桥下的河水静静流着，第一班公交车已驶出车站，把零星的人送往各自的清晨。\",\"w03\":\"- Recursion means solving a problem by doing a smaller version of the same problem.\\n- Imagine opening a box, finding a smaller box inside, and opening that one the same way.\\n- You need a stopping rule: when you find a box with no box inside, stop.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 2063,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 919,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 2063,
+  "completion_tokens": 919,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 2063,
+    "completion_tokens": 919,
+    "total_tokens": 2982,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 61
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 7.068396292001125,
+ "ttft_content": 7.068396292001125,
+ "duration": 43.68272950000028,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_07b3dec9dc11de74016af6eb3e4ad087d28feae0e89655ab50",
+ "resp_model": "gpt-6-astra",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:49:39 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131049328595032538268d9d6xK9Kl7k9",
+  "x-request-id": "1794566972836969740ad3917263f709ce8"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794566972.495658,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-astra",
+  "route": "ppapi_msg",
+  "config": "test05",
+  "split": "test",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

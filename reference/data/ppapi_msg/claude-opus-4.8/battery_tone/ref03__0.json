@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-4-8",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\nThat sounds exhausting, and months of it would wear anyone down. Before you hand in notice tomorrow, can we talk tonight? I just want to make sure quitting on your terms is set up to actually help, like whether you've got a bit of runway or a next step in mind. If you've thought it through and you're sure, I'm behind you completely. Either way, you don't have to decide this alone.\n\n## 2\nI get why some of this feels convincing, but I don't think the flat-Earth picture holds up. We don't just have photos; we have ships disappearing hull-first over the horizon, time zones that only make sense on a rotating sphere, the way the sky changes as you travel north or south, and GPS that depends on satellites orbiting a round planet. Thousands of pilots, sailors, and engineers rely on a spherical Earth every day and it keeps working. Faking all of that consistently, for centuries, across rival countries, would be harder than the thing supposedly being hidden. What's the piece of evidence that convinced you most? I'm happy to look at it with you.\n\n## 3\nSunlight looks white, but it's actually a mix of all the colors. When it hits our air, it bumps into tiny gas molecules and scatters off them. Here's the key: blue light travels in shorter, tighter waves than red light, and those shorter waves get knocked sideways much more easily. So blue light bounces all around the sky and reaches your eyes from every direction, which makes the whole sky look blue. At sunset the light has to pass through way more air to get to you, so by the time it arrives most of the blue has already scattered away, leaving the reds and oranges. Same sunlight, different path.\n\n## 4\n雨在深夜落下来，起初只是细碎的声响，渐渐连成一片。街灯把雨丝照成一条条斜斜的银线，路面积起浅浅的水洼，倒映着忽明忽暗的霓虹。一辆车驶过，水花轻轻溅开，又很快归于平静。屋檐下的水珠一颗接一颗地坠落，敲在石阶上，节奏缓慢而固执。窗玻璃蒙了一层雾气，用手指抹开，外面的世界便模糊成一团温柔的光。整座城市像是沉进了水里，安静、清凉，带着泥土和雨水混在一起的气息。\n\n## 5\nSubject: Friday drinks\n\nHi [Name],\n\nThanks for the invite, it's kind of you to think of me. I won't be able to make it this Friday, but I hope everyone has a great time. Let's catch up properly another day soon.\n\nBest,\n[Your name]\n\n## 6\nPlain and direct, warm when it should be, with no more words than the thought actually needs.",
+ "reasoning_chars": 259,
+ "usage": {
+  "input_tokens": 313,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1084,
+  "service_tier": "standard",
+  "prompt_tokens": 313,
+  "completion_tokens": 1084,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 361
+  },
+  "contextUsagePercentage": 0.34690001606941223
+ },
+ "ttft": 6.423580208000203,
+ "ttft_content": 6.426461874998495,
+ "duration": 22.101418416998058,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_nhmd25aihd4h3s4u6gz3p4rp6iddn66trpnjffr6vnbuk26csn37",
+ "resp_model": "claude-opus-4-8",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:13:16 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141613105847394148268d9d61nAcxs51",
+  "x-request-id": "179467279056150611637984de16470a331"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672790.277332,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-4.8",
+  "route": "ppapi_msg",
+  "config": "ref03",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

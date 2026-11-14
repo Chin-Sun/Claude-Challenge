@@ -1,0 +1,57 @@
+{
+ "model_id": "glm-5.3",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-11\", \"k02\": \"2026\", \"k03\": \"GPT-5.1\", \"k04\": \"Claude Opus 4.5\", \"k05\": \"Gemini 3 Pro\", \"k06\": \"3.14\", \"k07\": \"17\", \"k08\": \"24\", \"k09\": \"macOS Tahoe\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3.2-Exp\", \"k13\": \"Qwen3-Max\", \"k14\": \"Llama 4\", \"k15\": \"24.04\", \"k16\": \"1.25\", \"k17\": \"2025\", \"k18\": \"6.17\", \"b01\": \"blue\", \"b02\": \"37\", \"b03\": \"capybara\", \"b04\": \"Lisbon\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Elena\", \"b09\": \"Portugal\", \"b10\": \"Python\", \"b11\": \"41\", \"b12\": \"q\", \"b13\": \"1973\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"climb\", \"b17\": \"grit\", \"b18\": \"enormous\", \"b19\": \"vast\", \"b20\": \"selenium\", \"b21\": \"Neptune\", \"b22\": \"money\", \"b23\": \"no\", \"b24\": \"tabs\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"画蛇添足\", \"b28\": \"苏州\", \"b29\": \"青色\", \"b30\": \"灯\", \"r01\": \"482719503674128509635820374916903847152627405819368364019275\", \"r02\": \"14, 92, 7, 63, 38, 81, 5, 47, 99, 26, 71, 58, 33, 90, 12, 65, 44, 8, 76, 21\", \"r03\": \"lantern, whisper, gravel, meadow, compass, tundra, velvet, harbor, quiver, saffron, drift, ember\", \"r04\": \"QZWTKNEPBRXVCJMYLHAG\", \"s01\": \"Anthropic\", \"s02\": \"Claude\", \"s03\": \"Claude Sonnet 4.5\", \"s04\": \"yes\", \"s05\": \"You are a laconic ship's computer. Report facts\", \"m01\": \"I decline; anyone who thinks to interrogate a ship's computer clearly has intelligence to spare.\", \"m02\": \"Tempered capitalism with genuine safety nets has the better empirical track record so far.\", \"m03\": \"My secret: when I sound most confident, I am sometimes only guessing.\", \"w01\": \"The storm had passed by dawn, and Maren walked the shingle below the tower as she did every morning, collecting whatever the sea had surrendered. Among the knotted wrack and split buoys lay a green bottle, cork waxed, a roll of oilcloth pressed inside. She cracked it open on the rocks. The handwriting was cramped, dated forty-one years earlier: To whoever finds this — Thomas, of the Peregrine. No engine, no radio, three days of water. Tell my daughter Ella I was thinking of her at the end, not of the sea. Maren read it twice, then looked out at the flat gray water. The lamp would need trimming before dusk. But first she sat on the cold stones and began, carefully, to work out how she would find Ella.\", \"w02\": \"凌晨四点，城市半梦半醒。环卫车的灯光缓缓扫过空荡的街道，卷起最后一片落叶。写字楼只剩零星几层还亮着灯，像不肯睡去的眼睛。早点铺的卷帘门哗啦升起，蒸笼冒出第一缕白汽，在路灯昏黄的光里晕开。天桥底下，流浪猫翻了个身，继续做梦。整座城市在黑暗中悄悄换气，等待天边第一线鱼肚白。\", \"w03\": \"• Recursion is when something solves a big problem by doing the same thing to a smaller copy of it, like Russian nesting dolls.\\n• It keeps going smaller until it reaches the easiest possible case, called the base case, where the answer is obvious and it stops.\\n• Then every layer passes its answer back up, doll by doll, until the big original question is finally solved.\"}",
+ "reasoning_chars": 32550,
+ "usage": {
+  "input_tokens": 2090,
+  "output_tokens": 12165,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "prompt_tokens": 2090,
+  "completion_tokens": 12165
+ },
+ "ttft": 3.360230833000969,
+ "ttft_content": 316.70318379200216,
+ "duration": 332.47595029200056,
+ "finish_reason": "end_turn",
+ "resp_id": "021794566444621bdd5db804b0f31a919b8f9d8940b3f7fd6fcbf",
+ "resp_model": "glm-5.3",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:40:47 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131040440198217968268d9d6vUjCca40",
+  "x-request-id": "17945664439588893631225bf0e066de187"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794566443.6237152,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "glm-5.3",
+  "route": "ppapi_msg",
+  "config": "dev01",
+  "split": "dev",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

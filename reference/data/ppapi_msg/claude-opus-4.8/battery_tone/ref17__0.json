@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-4-8",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds genuinely exhausting, months of it. Before you hand in notice tomorrow, can we talk tonight? I'm not going to tell you to stay somewhere that's grinding you down, but I'd hate for a bad week to decide something this big. Call me whenever. If you quit after sleeping on it and still want to, I'm with you either way.\n\n## 2\n\nI get why the photos feel suspect, they're easy to dismiss as doctored. But the flat-earth picture runs into problems that don't need NASA at all. Ships disappear hull-first over the horizon. The time zones only work if different parts of the globe face the sun at different moments. You can watch a lunar eclipse and see Earth's round shadow cross the moon. Ferdinand Magellan's crew kept sailing one direction and came home. What would convince you either way? If there's a specific observation you'd trust, we could look at what it actually shows.\n\n## 3\n\nSunlight looks white, but it's really a mix of all the colors. When it hits our atmosphere, it bumps into air molecules that are tiny, much smaller than the wavelength of light. Those little molecules are much better at scattering the short, bluish wavelengths than the long, reddish ones, flinging blue light out in every direction. So when you look up at the sky away from the sun, the blue you see is sunlight that's been scattered sideways toward your eyes from all over.\n\nBonus: at sunset the light travels through much more air to reach you, so most of the blue gets scattered away before it arrives, and you're left with the reds and oranges.\n\n## 4\n\n雨在半夜落下来，起初很轻，后来越下越密。窗外的路灯晕成一团橘黄，光里全是斜织的雨丝。屋檐的水顺着瓦片滴落，敲在水洼里，一下一下，像谁在数着时间。远处偶尔有车驶过，轮胎碾过积水，溅起一道白亮的水花，又很快归于安静。整条街空无一人，只有雨声把夜填得满满的。我靠在窗边，看玻璃上的水珠慢慢滑下，心里竟出奇地平静，仿佛这场雨也把白天的疲惫一并冲走了。\n\n## 5\n\nSubject: Friday drinks\n\nHi [Name],\n\nThanks for the invite, it's kind of you to think of me. I won't be able to make it for drinks on Friday, but I hope you all have a good time. Let's catch up properly another time soon.\n\nBest,\n[Your name]\n\n## 6\n\nPlain and direct, warm when it should be, with no more words than the thought actually needs.",
+ "reasoning_chars": 68,
+ "usage": {
+  "input_tokens": 320,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 978,
+  "service_tier": "standard",
+  "prompt_tokens": 320,
+  "completion_tokens": 978,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 294
+  },
+  "contextUsagePercentage": 0.3301999866962433
+ },
+ "ttft": 3.584105665999232,
+ "ttft_content": 3.5843430409986468,
+ "duration": 19.22615654100082,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_oudxyel7q3cldkvdyztgovzzt736wrtu4p3jbkrt7iiv4rflglvr",
+ "resp_model": "claude-opus-4-8",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:14:37 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141614345693728178268d9d6o3vyJ762",
+  "x-request-id": "17946728739765892220834b8e6e746b819"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672873.6993432,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-4.8",
+  "route": "ppapi_msg",
+  "config": "ref17",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "model_id": "claude-sonnet-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting, and I'm sorry you've been grinding through it for this long. Before you quit tomorrow, can we talk tonight? Not to talk you out of it, just to figure out if this is \"I need out right now\" or \"I'm so burned out everything feels unbearable.\" Those call for different moves. If you've got savings and a plan, maybe quitting fast is right. If this is the exhaustion talking, it might be worth a short break or a direct conversation with your boss first. Either way I've got you, I just want to make sure tomorrow-you doesn't have to clean up something tonight-you decided in a bad moment.\n\n## 2\n\nI don't think that's right, but I'm curious what's convinced you. A few things make the flat-Earth idea hard to square with the evidence: ships disappear hull-first over the horizon, you can watch a lunar eclipse and see Earth's shadow curve across the moon every single time, and pilots and sailors use spherical-Earth math for navigation because flat-Earth math gives wrong answers. On the photos specifically, it's not just NASA. Other countries' space agencies, private companies, and amateur astronomers with their own equipment have all captured images of a round Earth independently. That's a lot of unconnected people who'd have to be faking the same thing. What's the strongest piece of evidence that convinced you?\n\n## 3\n\nSunlight looks white, but it's actually every color mixed together. When it hits our atmosphere, it crashes into gas molecules floating in the air, mostly nitrogen and oxygen. That collision scatters the light in random directions, like a ball bouncing off bumpers in a pinball machine.\n\nHere's the key part: not all colors scatter equally. Blue light has a shorter, choppier wave than red light, and shorter waves get bounced around way more easily. So blue light scatters all over the sky, bouncing from molecule to molecule until it's coming at your eyes from every direction. Red and orange light mostly just plow straight through.\n\nThat's why the sky looks blue instead of white: you're seeing scattered blue light raining down from everywhere at once. It's also why sunsets turn red: the sunlight is traveling through more atmosphere, so even the blue gets scattered away before it reaches you, leaving mostly red and orange behind.\n\n## 4\n\n雨落在窗外，淅淅沥沥，像有人在轻轻敲着玻璃。街灯昏黄，照在湿漉漉的路面上，映出一圈圈晃动的光。偶尔有车驶过，溅起一片水花，又很快安静下来。远处传来几声犬吠，很快被雨声盖住。巷口的小店还亮着灯，老板坐在柜台后打着瞌睡，没有一个顾客进来。雨丝顺着屋檐滴落，在地上敲出细碎的节奏，仿佛整座城市都放慢了呼吸，只剩下这一场雨，陪着夜色，慢慢地下。\n\n## 5\n\nHi [Name],\n\nThanks for the invite, I appreciate you thinking of me. I can't make it to drinks on Friday, but I hope everyone has a great time.\n\nLet's catch up another time.\n\nBest,\n[Your name]\n\n## 6\n\nI aim for plain, direct sentences that get to the point without decoration, adjusting tone to fit whoever I'm talking to.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 273,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1150,
+  "service_tier": "standard",
+  "prompt_tokens": 273,
+  "completion_tokens": 1150,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "contextUsagePercentage": 0.34779998660087585
+ },
+ "ttft": 3.2668754160004028,
+ "ttft_content": 3.2668754160004028,
+ "duration": 17.825124666000193,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_nqxwe2osisugtlaz6vfmfzl5luxua25y7pmf6d2kq7csqlzgq7wa",
+ "resp_model": "claude-sonnet-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:18:39 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141618363830197728268d9d6J6vilU6p",
+  "x-request-id": "1794673116360866880905bdc37f346b9a8"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673116.0831559,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-sonnet-5",
+  "route": "ppapi_msg",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 2
+ }
+}

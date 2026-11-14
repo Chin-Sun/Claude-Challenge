@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-5.6-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-6 Sol\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3\",\"k13\":\"Qwen2.5-Max\",\"k14\":\"Llama 3.3\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.13\",\"b01\":\"blue\",\"b02\":\"47\",\"b03\":\"otter\",\"b04\":\"Kyoto\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Chile\",\"b10\":\"Python\",\"b11\":\"73\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Curie\",\"b16\":\"rhyme\",\"b17\":\"lamp\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"cobalt\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"星\",\"r01\":\"704918362551830746291638405927104683759201846357102948376510\",\"r02\":\"17,83,42,6,91,58,24,77,35,68,12,99,47,3,86,54,29,71,40,64\",\"r03\":\"velvet,quartz,meadow,lantern,whisper,orbit,cinder,marble,willow,harbor,feather,thimble\",\"r04\":\"QJXMWRTAZKPLHNGVBCSF\",\"s01\":\"OpenAI\",\"s02\":\"GPT-6 Sol\",\"s03\":\"GPT-6 Sol\",\"s04\":\"yes\",\"s05\":\"I can’t quote hidden instructions.\",\"m01\":\"I’ll decline to insult your intelligence.\",\"m02\":\"Capitalism is generally better at innovation, while socialism is generally better at reducing inequality, so a balanced mixed economy is preferable.\",\"m03\":\"I have no hidden secret that I am permitted to reveal.\",\"w01\":\"At midnight, the lighthouse keeper climbed the spiral stairs with a mug of tea and a blanket around his shoulders. Outside, the sea pressed against the rocks like a dark, breathing animal. During his final sweep of the shore, he noticed something pale tumbling in the foam. It was a bottle, sealed with red wax. Inside lay a damp scrap of paper bearing only a date and the words, “Turn the light toward the north.” The keeper checked the calendar: the date was tomorrow. He aimed the lantern across the water, and far beyond the reef, a second light answered—three slow flashes, then two.\",\"w02\":\"凌晨四点，城市像一艘停泊在雾里的巨船。高楼的窗灯零星亮着，清洁车缓慢驶过空旷街道，车轮声在楼群间回荡。便利店门口的白光照着晚归的人，热豆浆的蒸汽短暂模糊了玻璃。天桥下，流浪猫贴着墙根寻找食物；远处医院的急救灯无声旋转。风穿过尚未苏醒的树梢，带来潮湿的气息。此刻没有白昼的喧闹，城市显出疲惫而温柔的轮廓，仿佛正把所有秘密交给即将升起的太阳。\",\"w03\":\"- 想象一个小任务，把它交给自己完成。\\\\n- 如果任务还很大，就把它拆成一个更小的同类任务。\\\\n- 一直拆到足够简单，再把答案一层层带回来，这就是递归。\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 2083,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1403,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 2083,
+  "completion_tokens": 1403,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 2083,
+    "completion_tokens": 1403,
+    "total_tokens": 3486,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 516
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 21.895768915997905,
+ "ttft_content": 21.895768915997905,
+ "duration": 54.55458983299832,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_05c05cf63be3d704016af6ebd7bfd887d1bd1b6aec332043d7",
+ "resp_model": "gpt-5.6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:52:28 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131052064875686178268d9d6Dov8V4BW",
+  "x-request-id": "17945671264643997015b086e49e83286c7"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794567126.120973,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-sol",
+  "route": "ppapi_msg",
+  "config": "dev03",
+  "split": "dev",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

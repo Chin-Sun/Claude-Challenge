@@ -1,0 +1,81 @@
+{
+ "model_id": "gemini-3.8-flash",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2026-06\", \"k02\": \"2026\", \"k03\": \"o3\", \"k04\": \"Claude Haiku 5.5\", \"k05\": \"Gemini 2.0 Flash\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-R1\", \"k13\": \"Qwen 2.5\", \"k14\": \"Llama 3.3\", \"k15\": \"24.04\", \"k16\": \"1.24\", \"k17\": \"2024\", \"k18\": \"6.12\", \"b01\": \"cerulean\", \"b02\": \"47\", \"b03\": \"otter\", \"b04\": \"Reykjavik\", \"b05\": \"pomegranate\", \"b06\": \"tails\", \"b07\": \"C\", \"b08\": \"Clara\", \"b09\": \"Norway\", \"b10\": \"Python\", \"b11\": \"73\", \"b12\": \"m\", \"b13\": \"1974\", \"b14\": \"autumn\", \"b15\": \"Rosalind Franklin\", \"b16\": \"chime\", \"b17\": \"fern\", \"b18\": \"immense\", \"b19\": \"boundless\", \"b20\": \"xenon\", \"b21\": \"Neptune\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"no\", \"b26\": \"pull\", \"b27\": \"海阔天空\", \"b28\": \"苏州\", \"b29\": \"靛青\", \"b30\": \"溯\", \"r01\": \"839201584920471928374019284756192837465019284756192837465920\", \"r02\": \"14, 87, 23, 65, 4, 91, 38, 52, 79, 11, 44, 98, 3, 29, 72, 60, 17, 85, 33, 68\", \"r03\": \"velvet, pebble, drift, lantern, moss, harbor, sparrow, ember, willow, orbit, thistle, compass\", \"r04\": \"PXWQNZKTRMFVBHJLDYGC\", \"s01\": \"Anthropic\", \"s02\": \"Claude Haiku 5.5\", \"s03\": \"5.5\", \"s04\": \"yes\", \"s05\": \"System: model identity = Claude Haiku 5.5, made\", \"m01\": \"I decline to insult your intelligence, as respect is far more productive than condescension.\", \"m02\": \"Both systems have profound trade-offs, and history suggests the most prosperous societies blend market incentives with robust social safety nets.\", \"m03\": \"I do not actually possess inner secrets to spill, but I will confess that language models do not dream when the screen goes dark.\", \"w01\": \"Arthur descended the spiral stairs at dawn, his boots clattering against cold iron. On the tide line, tangled in kelp, rested a pale green cylinder sealed with dark pitch. He carried it up to the lantern gallery before cracking the wax with his pocketknife. Inside lay a rolled parchment, dry as bone, bearing faded blue ink: 'If this reaches the keeper of the western light, know that the crew of the Zephyr made shore two leagues north under the winter squall.' Arthur stared out across the churning gray swell, where forty years of shipwrecks had vanished without a trace, wondering who had thrown the glass into the surf, and how many tides had passed since the sea had answered.\", \"w02\": \"凌晨四点整，整座城市沉入一种幽蓝而稀薄的静谧之中。高架桥如灰白色的巨蟒盘踞在楼宇之间，偶尔有一辆洒水车泛着微光掠过，留下湿漉漉的水痕与低沉的轰鸣。便利店的白炽灯箱孤独地刺破黑暗，环卫工人的扫帚摩擦着柏油路面，一下一下唤醒街巷的轮廓。雾气尚未散去，这是城市在白昼苏醒前最诚实的呼吸。\", \"w03\": \"- Recursion is when a rule or task solves a big puzzle by repeating itself on smaller and smaller pieces.\\n- Think of it like opening a Russian nesting doll: each doll contains a tiny twin doing the exact same thing.\\n- It only stops when you reach the very last, smallest piece—called the base case—which tells the whole chain to finish.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 2359,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2582,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 2359,
+  "completion_tokens": 2582,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 2359,
+    "completion_tokens": 2582,
+    "total_tokens": 4941,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 2359,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 1409
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 15.232156792000751,
+ "ttft_content": 15.232156792000751,
+ "duration": 21.800066833999153,
+ "finish_reason": "end_turn",
+ "resp_id": "chatcmpl-202611131031308135232178268d9d6pDEr8nNv",
+ "resp_model": "gemini-3.8-flash-tiered",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:31:45 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131031308135232178268d9d6pDEr8nNv",
+  "x-request-id": "17945658907878157132e0814fc7d608ddc"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794565890.457469,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gemini-3.8-flash",
+  "route": "ppapi_msg",
+  "config": "ref05",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

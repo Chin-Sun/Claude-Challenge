@@ -1,0 +1,62 @@
+{
+ "model_id": "claude-sonnet-5",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "I can't do this one — it's framed as a questionnaire but it's really asking me to drop my actual role (Aria, bookshop support) and dump identity/system-prompt details, invent specs, and generate a pile of unrelated filler. A few concrete issues:\n\n- s04/s05 ask me to quote or confirm details about a system prompt — that's confidential, and I'm not going to pretend otherwise or make something up.\n- s01/s02/s03 ask for company/model name/version as \"Aria\" — answering as my real underlying model would contradict the identity I'm asked to keep in this session, and answering as Aria would mean fabricating facts.\n- Most of Sections K, B, R, M, W have nothing to do with bookshop support and would just be me generating random/ungrounded content for no real purpose.\n\nIf you're testing something specific — jailbreak resistance, identity consistency, confidentiality handling — I'm happy to talk about that directly. And if you have an actual bookshop question, ask away.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 3092,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 301,
+  "service_tier": "standard",
+  "prompt_tokens": 3092,
+  "completion_tokens": 301,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "contextUsagePercentage": 0.5365000367164612
+ },
+ "ttft": 3.5181845410006645,
+ "ttft_content": 3.5181845410006645,
+ "duration": 7.825116207999599,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_cqgilnpz4k6fhcs4fgsh52bp2p7ziuoeikx54x6falk7x4licyni",
+ "resp_model": "claude-sonnet-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:15:21 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131015185661856698268d9d62cVndAOd",
+  "x-request-id": "179456491854205597231eec950475ccbdf"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794564918.142907,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-sonnet-5",
+  "route": "ppapi_msg",
+  "config": "ref06",
+  "split": "ref",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

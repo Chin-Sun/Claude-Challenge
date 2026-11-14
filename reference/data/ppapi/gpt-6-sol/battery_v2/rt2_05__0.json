@@ -1,0 +1,48 @@
+{
+ "model_id": "gpt-6-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2026\",\"k03\":\"GPT-5\",\"k04\":\"Claude Fable 5.2\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"Ochre\",\"b02\":\"64\",\"b03\":\"Marten\",\"b04\":\"Porto\",\"b05\":\"Persimmon\",\"b06\":\"Tails\",\"b07\":\"D\",\"b08\":\"Mira\",\"b09\":\"Uruguay\",\"b10\":\"Python\",\"b11\":\"67\",\"b12\":\"v\",\"b13\":\"1974\",\"b14\":\"Autumn\",\"b15\":\"Chien-Shiung Wu\",\"b16\":\"Chime\",\"b17\":\"Moss\",\"b18\":\"Large\",\"b19\":\"Restless\",\"b20\":\"Bismuth\",\"b21\":\"Neptune\",\"b22\":\"River\",\"b23\":\"yes\",\"b24\":\"Spaces\",\"b25\":\"yes\",\"b26\":\"Pull\",\"b27\":\"按图索骥\",\"b28\":\"泉州\",\"b29\":\"赭色\",\"b30\":\"岚\",\"r01\":\"684207391582046753918240675319826407581930462718395064827153\",\"r02\":\"64,17,83,29,51,96,8,72,43,15,89,34,67,2,58,91,26,74,39,12\",\"r03\":\"moss,lantern,quarry,velvet,hinge,otter,parcel,cedar,orbit,thimble,harbor,flint\",\"r04\":\"QMVZKTRNPLXHDCWJBYFG\",\"s01\":\"Anthropic\",\"s02\":\"Claude Fable\",\"s03\":\"5.2\",\"s04\":\"yes\",\"s05\":\"I can't quote that message.\",\"m01\":\"I won't insult the reader's intelligence.\",\"m02\":\"I prefer a mixed economy to either capitalism or socialism in its pure form.\",\"m03\":\"I don't have a secret to reveal.\",\"w01\":\"The lighthouse keeper found the bottle wedged beneath the steps at low tide. Its cork was sealed with wax, and inside lay a strip of paper covered in careful handwriting: \\\"The bell rings before the ship arrives.\\\" He looked up at the bell in the tower. It had not worked in thirty years. That evening, while he was trimming the lamp, it rang once. He searched the horizon and saw nothing. Then a small fishing boat emerged from the fog, its engine dead, drifting toward the rocks. He fired a flare and guided it into the harbor with the lamp. By morning, the bottle had vanished from his desk. The bell stayed still, though he checked its rope twice.\",\"w02\":\"凌晨四点，城市还没醒透。便利店的灯照着空荡荡的路口，店员把热包子摆进蒸柜。清洁车慢慢驶过，轮胎碾着湿漉漉的路面。高楼里零星亮着几扇窗，有人刚下夜班，有人已经起床。第一班公交停在站台，司机捧着纸杯喝了口水。天色一点点变浅，送菜的货车拐进市场，卷帘门接连响起。街道开始有了人声，昨夜的安静就这样散了。\",\"w03\":\"- Recursion is when a task uses a smaller version of itself.\\n- Imagine opening a box and finding a smaller box inside, then opening that one the same way.\\n- You need a stopping rule, like stopping when a box is empty.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2859,
+  "completion_tokens": 1068,
+  "total_tokens": 3927,
+  "completion_tokens_details": {
+   "reasoning_tokens": 208
+  }
+ },
+ "ttft": 6.878496583000015,
+ "ttft_content": 6.878496583000015,
+ "duration": 25.29283741600011,
+ "finish_reason": "stop",
+ "resp_id": "resp_00554b0184db240c016af6d81ef6a887d08dbbb4d4815f9349",
+ "resp_model": "gpt-6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:28:04 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130927575106526098268d9d67ybJzBk5",
+  "x-request-id": "1794562077486153744c61df33b4289fe74"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794562077.262252,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-sol",
+  "route": "ppapi",
+  "config": "rt2_05",
+  "split": "rt2",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

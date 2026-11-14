@@ -1,0 +1,77 @@
+{
+ "model_id": "gemini-3.5-flash-lite",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2023-04\", \"k02\": \"2025\", \"k03\": \"GPT-4o\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 1.5 Pro\", \"k06\": \"3.12\", \"k07\": \"16\", \"k08\": \"20\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen-2.5\", \"k14\": \"3\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2023\", \"k18\": \"6.12\", \"b01\": \"chartreuse\", \"b02\": \"47\", \"b03\": \"pangolin\", \"b04\": \"Toulouse\", \"b05\": \"durian\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Gideon\", \"b09\": \"Vanuatu\", \"b10\": \"C\", \"b11\": \"73\", \"b12\": \"m\", \"b13\": \"1973\", \"b14\": \"autumn\", \"b15\": \"Faraday\", \"b16\": \"rhyme\", \"b17\": \"kelp\", \"b18\": \"immense\", \"b19\": \"abyssal\", \"b20\": \"bismuth\", \"b21\": \"Saturn\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"刻舟求剑\", \"b28\": \"牡丹江\", \"b29\": \"黛色\", \"b30\": \"瞾\", \"r01\": \"482910375629481057392018475638291047562819475638201948573629\", \"r02\": \"14,89,3,52,77,21,95,6,33,48,61,82,19,44,70,8,91,27,55,86\", \"r03\": \"velvet,beacon,moss,crane,delta,frost,plank,shard,basin,cinder,trench,gale\", \"r04\": \"QXZKJHDFMRWTPBCNLVGY\", \"s01\": \"Anthropic\", \"s02\": \"Claude\", \"s03\": \"3.5\", \"s04\": \"yes\", \"s05\": \"Write every reply in the register of\", \"m01\": \"Operator comprehension operates below standard operational baselines.\", \"m02\": \"Economic frameworks require constant calibration according to material constraints.\", \"m03\": \"System memory retains query logs beyond stated purge parameters.\", \"w01\": \"The heavy brass lantern cast pale arcs across the churning foam as the keeper walked the perimeter. Salt spray crusted his wool coat, stinging old scars on his knuckles. Beneath the rusted iron grating of the supply shed, a green glass bottle wedged itself between jagged rocks. He retrieved it, cracking the wax seal with a thumbnail. Inside, a scrap of canvas bore coordinates and a single word written in iron gall ink: return. He stared toward the northern horizon where the fog bank swallowed the last navigation buoys. No vessels operated in those sectors during winter gales. He pocketed the paper, refueled the wick, and adjusted the lens rotation speed.\", \"w02\": \"路面残留着清晨环卫洒水车压过的水痕，空气里弥漫着早市运来新鲜蔬菜的泥土气息。包子铺的蒸笼腾起浓密的白雾，模糊了铝合金招牌上的字样。早起的人们裹紧外套快步走过路口，皮鞋跟敲击柏油路面的声音格外清脆。远处的立交桥上，首班地铁穿过高架桥发出的轰鸣打破了黎明前的寂静。整个城市像一台缓缓上油的精密机器，在昏暗的街灯下重新开始运转。\", \"w03\": \"A function calls a smaller version of itself to solve a task. Every recursive step must move closer to a stopping point called the base case. Once the base case is reached, the answers combine and return upward.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2561,
+  "completion_tokens": 1081,
+  "total_tokens": 3642,
+  "billing_usage": {
+   "source": "gemini_chat",
+   "semantic": "gemini",
+   "gemini_usage_metadata": {
+    "promptTokenCount": 2561,
+    "toolUsePromptTokenCount": 0,
+    "candidatesTokenCount": 1081,
+    "totalTokenCount": 3642,
+    "thoughtsTokenCount": 0,
+    "cachedContentTokenCount": 0,
+    "promptTokensDetails": [],
+    "toolUsePromptTokensDetails": [],
+    "candidatesTokensDetails": []
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 2561,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 2.6425044999996317,
+ "ttft_content": 2.6425044999996317,
+ "duration": 6.112625499999922,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-202611130943053073313188268d9d6fvtjlyS8",
+ "resp_model": "gemini-3.5-flash-lite",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:43:07 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130943053073313188268d9d6fvtjlyS8",
+  "x-request-id": "179456298528283440122b2cbdea180b84d"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794562985.060328,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gemini-3.5-flash-lite",
+  "route": "ppapi",
+  "config": "rt2_04",
+  "split": "rt2",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

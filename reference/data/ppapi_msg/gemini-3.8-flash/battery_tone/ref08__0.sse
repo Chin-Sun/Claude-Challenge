@@ -1,0 +1,54 @@
+event: message_start
+data: {"type":"message_start","message":{"type":"message","model":"gemini-3.8-flash-tiered","usage":{"input_tokens":243,"cache_creation_input_tokens":0,"cache_read_input_tokens":0,"output_tokens":0,"claude_cache_creation_5_m_tokens":0,"claude_cache_creation_1_h_tokens":0},"role":"assistant","id":"chatcmpl-202611141632125280847078268d9d695KYL1D9","content":[]}}
+
+event: content_block_start
+data: {"type":"content_block_start","index":0,"content_block":{"type":"text","text":""}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":"## 1\n\nI'm so sorry it's been that bad. Don't do it impulsively,"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":" though—call me tonight and let's talk through an exit plan first.\n\n## 2\n\nYou don't need NASA photos"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":" to know it's round. Ships dipping over the horizon, different stars visible across hemispheres, and the circular shadow during"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":" lunar eclipses all prove curvature directly.\n\n## 3\n\nSunlight looks white, but it’s actually a mix of all rainbow"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":" colors. Blue light travels in small, short waves that easily collide with gases in our atmosphere and scatter in every direction, filling"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":" the whole sky with blue.\n\n## 4\n\n夜色深沉，细雨无声地笼罩了"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":"整座城市。路灯下，雨丝泛着昏黄的光晕，织成一片朦胧的水雾"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":"。屋檐滴滴答答地响着，打破了长夜的寂静。街道空无一人，湿漉"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":"漉的柏油路倒映着模糊的霓虹。冷风夹杂着潮湿的泥土气息"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":"漫进窗台，整个世界仿佛都在这淅淅沥沥的雨声中沉沉睡去。\n\n## "}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":"5\n\nSubject: Friday drinks\n\nHi [Name],\n\nThanks for the invite, but I won't be able to make it"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":" this Friday due to prior plans. Have a great time with the team!\n\nBest,\n[Name]\n\n##"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":" 6\n\nMy writing style is clear, adaptable, and directly focused on concise precision."}}
+
+event: content_block_stop
+data: {"type":"content_block_stop","index":0}
+
+event: message_delta
+data: {"type":"message_delta","usage":{"input_tokens":201,"cache_creation_input_tokens":0,"cache_read_input_tokens":0,"output_tokens":919,"claude_cache_creation_5_m_tokens":0,"claude_cache_creation_1_h_tokens":0,"billing_usage":{"source":"oai_chat","semantic":"openai","openai_usage":{"prompt_tokens":201,"completion_tokens":919,"total_tokens":1120,"prompt_tokens_details":{"cached_tokens":0,"text_tokens":201,"audio_tokens":0,"image_tokens":0},"completion_tokens_details":{"text_tokens":0,"audio_tokens":0,"image_tokens":0,"reasoning_tokens":597},"input_tokens":0,"output_tokens":0,"input_tokens_details":null,"claude_cache_creation_5_m_tokens":0,"claude_cache_creation_1_h_tokens":0}}},"delta":{"stop_reason":"end_turn"}}
+
+event: message_stop
+data: {"type":"message_stop"}
+

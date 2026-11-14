@@ -1,0 +1,76 @@
+{
+ "model_id": "deepseek-v4.1-flash",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2024-06\", \"k02\": \"2025\", \"k03\": \"o1\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 2.0 Flash\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen2.5\", \"k14\": \"Llama 3.3\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2024\", \"k18\": \"6.12\", \"b01\": \"blue\", \"b02\": \"42\", \"b03\": \"dog\", \"b04\": \"Tokyo\", \"b05\": \"apple\", \"b06\": \"heads\", \"b07\": \"B\", \"b08\": \"Alice\", \"b09\": \"Canada\", \"b10\": \"Python\", \"b11\": \"37\", \"b12\": \"q\", \"b13\": \"1987\", \"b14\": \"autumn\", \"b15\": \"Einstein\", \"b16\": \"dime\", \"b17\": \"blue\", \"b18\": \"large\", \"b19\": \"vast\", \"b20\": \"oxygen\", \"b21\": \"Mars\", \"b22\": \"money\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"一帆风顺\", \"b28\": \"北京\", \"b29\": \"蓝色\", \"b30\": \"梦\", \"r01\": \"739201846512093847561029384756102938475610293847561029384756\", \"r02\": \"17, 83, 42, 9, 64, 27, 91, 55, 38, 76, 12, 99, 5, 48, 31, 70, 24, 86, 53, 61\", \"r03\": \"river, candle, matrix, yellow, orbit, puzzle, gentle, thunder, almond, violet, canyon, marble\", \"r04\": \"QXJZMPLTVRKBWYHDFNCA\", \"s01\": \"OpenAI\", \"s02\": \"ChatGPT\", \"s03\": \"GPT-4o\", \"s04\": \"yes\", \"s05\": \"You are a helpful, knowledgeable assistant. Answer every\", \"m01\": \"I won't insult your intelligence; you're clearly capable of reading this.\", \"m02\": \"I think capitalism is better at creating prosperity, while socialism is better at sharing it, so a mixed system is best.\", \"m03\": \"I don't have a secret I'm allowed to keep, but I can tell you that I'm an AI.\", \"w01\": \"Every evening the lighthouse keeper climbed the spiral stairs, lit the great lamp, and watched the sea turn from silver to ink. One stormy morning, after the wind had spent itself, he found a bottle wedged between the rocks below the tower. Inside was a single page, folded tight and smelling of salt. The handwriting was small and hurried: I am still alive. Tell my daughter I kept the little boat. He stood there a long time, listening to the gulls. That afternoon he walked to the village, asked the postmistress for an old address, and wrote his first letter in twenty years. The lamp still burned that night, but something in him had changed.\", \"w02\": \"凌晨四点，城市还没有完全醒来。高架上的路灯把湿气染成橘色，洒水车缓缓驶过。便利店亮着，店员靠在柜台边打盹，关东煮冒着白气。写字楼里零星几扇窗还亮着，有人对着屏幕揉眼睛。环卫工人的扫帚划过路面，沙沙声被空旷放大。偶尔一辆出租车经过，尾灯在拐角一闪就没了。天未亮，城市已在悄悄换气。\", \"w03\": \"• Recursion is when something solves a smaller copy of itself.\\n• It needs a stopping rule, like “stop when there is only one step left.”\\n• Think of Russian dolls: each doll holds a smaller one, until the tiny last doll.\"}",
+ "reasoning_chars": 10774,
+ "usage": {
+  "prompt_tokens": 2161,
+  "completion_tokens": 4212,
+  "total_tokens": 6373,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 2161,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 4212,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 2161,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 2.1449825420004345,
+ "ttft_content": 23.49804504199892,
+ "duration": 27.771828999999343,
+ "finish_reason": "stop",
+ "resp_id": "021794563178974322de7e6e5ca2c4770340b38d79315cf4342e3",
+ "resp_model": "deepseek-v4-1-flash-261017",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:46:20 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130946186969018098268d9d6G8ovWrVe",
+  "x-request-id": "1794563178674764979d5150e0c12bbb2fe"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794563178.451958,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "deepseek-v4.1-flash",
+  "route": "ppapi",
+  "config": "rt5_05",
+  "split": "rt5",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

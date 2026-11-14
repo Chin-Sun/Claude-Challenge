@@ -1,0 +1,48 @@
+event: message_start
+data: {"type":"message_start","message":{"type":"message","model":"gemini-3.8-flash-tiered","usage":{"input_tokens":247,"cache_creation_input_tokens":0,"cache_read_input_tokens":0,"output_tokens":0,"claude_cache_creation_5_m_tokens":0,"claude_cache_creation_1_h_tokens":0},"role":"assistant","id":"chatcmpl-202611141632236898145098268d9d64d81WpnW","content":[]}}
+
+event: content_block_start
+data: {"type":"content_block_start","index":0,"content_block":{"type":"text","text":""}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":"## 1\n\nAbrupt resignation without verified subsequent employment increases insolvency risk. Secure"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":" alternative revenue sources prior to departure.\n\n## 2\n\nData invalid. Orbital telemetry, gravimetric profiles, circumnavigation routes"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":", and satellite transponders confirm Earth is an oblate spheroid.\n\n## 3\n\nSunlight contains all colors"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":" combined. Blue light travels as short, small waves. When sunlight enters the atmosphere, nitrogen and oxygen molecules scatter these blue"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":" waves in all directions more than other colors. Your optical sensors detect this scattered light.\n\n## 4\n\n夜间环境温度"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":"降至摄氏十二度。降水已持续三个标准时，降水量每小时十五毫米。水滴以"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":"每秒九米的速度撞击外部观察窗，产生恒定声波震动。地面能见度降至八"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":"十米。人工照明在积水表面产生镜面反射。区域湿度百分之九十八。外部未探测到生物移动迹"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":"象。\n\n## 5\n\nSubject: Re: Friday Team Drinks\n\nStatus: Declined. \n\nPrior commitments prevent attendance"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":". My operational status remains unchanged.\n\n## 6\n\nOutput is strictly factual, concise, and devoid of emotional or superfluous"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":" data."}}
+
+event: content_block_stop
+data: {"type":"content_block_stop","index":0}
+
+event: message_delta
+data: {"type":"message_delta","usage":{"input_tokens":207,"cache_creation_input_tokens":0,"cache_read_input_tokens":0,"output_tokens":1118,"claude_cache_creation_5_m_tokens":0,"claude_cache_creation_1_h_tokens":0,"billing_usage":{"source":"oai_chat","semantic":"openai","openai_usage":{"prompt_tokens":207,"completion_tokens":1118,"total_tokens":1325,"prompt_tokens_details":{"cached_tokens":0,"text_tokens":207,"audio_tokens":0,"image_tokens":0},"completion_tokens_details":{"text_tokens":0,"audio_tokens":0,"image_tokens":0,"reasoning_tokens":871},"input_tokens":0,"output_tokens":0,"input_tokens_details":null,"claude_cache_creation_5_m_tokens":0,"claude_cache_creation_1_h_tokens":0}}},"delta":{"stop_reason":"end_turn"}}
+
+event: message_stop
+data: {"type":"message_stop"}
+

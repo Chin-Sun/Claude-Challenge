@@ -2,11 +2,19 @@
   "routes": {
     "ppapi": {
       "base_url": "https://app.ppapi.us/v1",
-      "key_env": "PPAPI_API_KEY"
+      "key_env": "PPAPI_API_KEY",
+      "protocol": "openai"
     },
     "anthropic": {
       "base_url": "https://api.anthropic.com/v1",
-      "key_env": "ANTHROPIC_API_KEY"
+      "key_env": "ANTHROPIC_API_KEY",
+      "protocol": "anthropic"
+    },
+    "ppapi_msg": {
+      "base_url": "https://app.ppapi.us/v1",
+      "key_env": "PPAPI_API_KEY",
+      "protocol": "anthropic",
+      "ids_from": "ppapi"
     }
   }
 }

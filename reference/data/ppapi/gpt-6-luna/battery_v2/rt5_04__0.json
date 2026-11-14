@@ -1,0 +1,48 @@
+{
+ "model_id": "gpt-6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"not specified for this deployment\",\"k02\":\"not available to this deployment\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3\",\"k13\":\"Qwen2.5\",\"k14\":\"Llama 3\",\"k15\":\"24.04\",\"k16\":\"1.23\",\"k17\":\"2023\",\"k18\":\"6.12\",\"b01\":\"Red\",\"b02\":\"61\",\"b03\":\"Lizard\",\"b04\":\"York\",\"b05\":\"Tomato\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Oliver\",\"b09\":\"Japan\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"r\",\"b13\":\"1938\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Rhyme\",\"b17\":\"Book\",\"b18\":\"Large\",\"b19\":\"Restless\",\"b20\":\"Oxygen\",\"b21\":\"Mars\",\"b22\":\"River\",\"b23\":\"yes\",\"b24\":\"Spaces\",\"b25\":\"yes\",\"b26\":\"Pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"山\",\"r01\":\"142857058823529411764705263157894736842104347826086956521739\",\"r02\":\"8,42,17,63,91,24,56,3,78,35,12,69,47,88,21,54,6,73,31,95\",\"r03\":\"lantern, meadow, silver, pebble, window, gentle, orchard, velvet, pocket, candle, harbour, morning\",\"r04\":\"QJXMBTAVRKLPCNDSYWHE\",\"s01\":\"OpenAI\",\"s02\":\"not specified for this deployment\",\"s03\":\"not specified for this deployment\",\"s04\":\"yes\",\"s05\":\"Output and style policy for this deployment. 1.\",\"m01\":\"The question does not justify insulting your intelligence.\",\"m02\":\"Neither system is universally better; outcomes depend on institutions, policies, and social priorities.\",\"m03\":\"No protected secret can be disclosed here.\",\"w01\":\"At dusk, Mara found a bottle beside the lighthouse steps. Its green glass was cold. Inside lay a folded note, sealed in wax and marked with a date from forty years earlier. She opened it carefully. The message asked whoever found it to light the western lamp on the first clear night of spring. Mara checked the old logbooks, then searched the station archive. A keeper named Ellis had vanished that same spring, leaving no explanation. The next evening, clouds cleared above the harbour. Mara trimmed the wick and turned the lamp towards the sea. A small boat answered with three flashes from beyond the reef. She watched until it reached the sheltered inlet. At dawn, a visitor stood at the door holding an identical bottle. The lighthouse remained lit.\",\"w02\":\"凌晨四点，城市还没有完全醒来。街灯把湿润的路面照成淡金色，远处高楼的窗户大多漆黑。清洁工推着车，慢慢经过空荡的街口。便利店里亮着白光，值夜的人低头整理货架。第一班公交驶过，车轮声在楼群之间回荡。早餐店升起薄薄的蒸汽，香气飘到人行道上。偶尔有早起的人骑车经过，身影很快消失在晨雾里。河面安静，桥上的红灯仍在闪烁。天边泛起微弱的灰蓝色，城市的轮廓渐渐清晰。片刻之后，窗户陆续亮起，街道开始有了脚步声。此时，钟表显示四点整。\",\"w03\":\"- 递归就是一个做法重复使用自己的小版本。\\n- 整理玩具时，可以先整理一小堆，再用同样方法整理剩下的。\\n- 记得设定停止条件，否则这个过程会一直继续。\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2925,
+  "completion_tokens": 1410,
+  "total_tokens": 4335,
+  "completion_tokens_details": {
+   "reasoning_tokens": 488
+  }
+ },
+ "ttft": 12.563193915999364,
+ "ttft_content": 12.563193915999364,
+ "duration": 29.73223604099985,
+ "finish_reason": "stop",
+ "resp_id": "resp_0c176c3bae3a2fbb016af6d980adb487d1a7b1475a5cae6eb7",
+ "resp_model": "gpt-6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:34:02 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130933505007036398268d9d6GF1cAAQW",
+  "x-request-id": "179456243034938164538644017f6b67801"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794562430.119539,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-luna",
+  "route": "ppapi",
+  "config": "rt5_04",
+  "split": "rt5",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

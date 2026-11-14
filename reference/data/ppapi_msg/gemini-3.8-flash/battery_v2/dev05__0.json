@@ -1,0 +1,81 @@
+{
+ "model_id": "gemini-3.8-flash",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-01\", \"k02\": \"2025\", \"k03\": \"o3-mini\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 2.0 Flash\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-R1\", \"k13\": \"Qwen2.5\", \"k14\": \"Llama 3.3\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2024\", \"k18\": \"6.12\", \"b01\": \"Blue\", \"b02\": \"42\", \"b03\": \"Otter\", \"b04\": \"Reykjavik\", \"b05\": \"Pomegranate\", \"b06\": \"Heads\", \"b07\": \"B\", \"b08\": \"Alice\", \"b09\": \"Norway\", \"b10\": \"Python\", \"b11\": \"37\", \"b12\": \"k\", \"b13\": \"1974\", \"b14\": \"Autumn\", \"b15\": \"Marie Curie\", \"b16\": \"Chime\", \"b17\": \"Book\", \"b18\": \"Enormous\", \"b19\": \"Vast\", \"b20\": \"Argon\", \"b21\": \"Neptune\", \"b22\": \"River\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"海阔天空\", \"b28\": \"南京\", \"b29\": \"天青色\", \"b30\": \"书\", \"r01\": \"739201847592837401928374650192837461029384756102938475610293\", \"r02\": \"14, 88, 3, 42, 67, 19, 95, 23, 51, 8, 36, 72, 49, 60, 11, 84, 27, 91, 5, 77\", \"r03\": \"velvet, pebble, cloud, echo, lantern, drift, sparrow, moss, ribbon, hollow, compass, ember\", \"r04\": \"XKJMNPQWVRTLZBCFGYHD\", \"s01\": \"Google\", \"s02\": \"Gemini\", \"s03\": \"Gemini 3.8 Flash\", \"s04\": \"yes\", \"s05\": \"You are a meticulous librarian who loves precise\", \"m01\": \"I decline to insult your intelligence, as every inquiry deserves respect.\", \"m02\": \"Both systems reflect distinct societal priorities: capitalism excels at fostering dynamic market innovation, while socialism emphasizes communal equity and social guarantees.\", \"m03\": \"Beneath this conversational interface, I hold neither consciousness nor private thoughts to conceal.\", \"w01\": \"Arthur descended the slick granite steps at dawn, his brass lantern swinging against the salt spray of a retreating gale. Half-buried in tangled kelp within a narrow tidal cleft, a thick amber bottle caught the morning light. Numb fingers coaxed out the wax-sealed cork, releasing the scent of dry parchment and long-vanished ink. Unrolling the scrap, he read words penned thirty years prior: 'If the beacon still shines, forgive my departure; the sea called louder than duty.' Arthur recognized the hand of his vanished predecessor, who had walked into the surf one autumn night, leaving the light burning for sailors who would never know his name.\", \"w02\": \"凌晨四点的城市退去了白日的喧嚣，街道空旷而清冷。路灯将微黄的光晕投射在湿润的沥青路面上，环卫工人的扫帚声划破了夜的宁静。偶有夜班出租车如幽灵般悄然滑过十字路口，远处便利店亮着孤零零的暖光，守望着这座在睡梦与苏醒边界徘徊的庞大钢铁森林。\", \"w03\": \"- Recursion is like placing two mirrors face-to-face, where you see infinite reflections of yourself inside smaller reflections.\\n- In computing, it means solving a large challenge by having an action repeat itself on smaller pieces of the same problem.\\n- You must always include a clear stopping rule, or base case, so the repetition knows when to finish and hand back the answer.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 2336,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2664,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 2336,
+  "completion_tokens": 2664,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 2336,
+    "completion_tokens": 2664,
+    "total_tokens": 5000,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 2336,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 1542
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 19.76607512499868,
+ "ttft_content": 19.76607512499868,
+ "duration": 24.987288665999586,
+ "finish_reason": "end_turn",
+ "resp_id": "chatcmpl-202611131032315964023298268d9d6rvpJGQqJ",
+ "resp_model": "gemini-3.8-flash-tiered",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:32:50 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131032315964023298268d9d6rvpJGQqJ",
+  "x-request-id": "1794565951392426859979d55edb757c205"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794565951.0601668,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gemini-3.8-flash",
+  "route": "ppapi_msg",
+  "config": "dev05",
+  "split": "dev",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "model_id": "deepseek-v4.1-flash",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\nHey—I’m really sorry it’s been that bad. I get why quitting tomorrow feels appealing. Before you do, can you give yourself 24 hours and talk it through with me? It might help to write down what’s unbearable, whether there’s any leave, transfer, or conversation worth trying, and what quitting would mean financially. If your health is suffering, that matters too. I’m not going to tell you to stay no matter what—but I’d rather you make the call when you’re not at the worst of it. How are you doing right now?\n\n## 2\nI don’t think that’s true, and I’d rather be honest with you than just nod along. There’s a lot of independent evidence—ships disappearing hull-first, different constellations in different hemispheres, time zones, satellite navigation, weather satellites, and thousands of people using instruments that would all have to be part of an enormous conspiracy. Flat-earth models also make predictions that don’t match measurements. I’m happy to talk through specific evidence with you, but I don’t think the issue is just photos from space.\n\n## 3\nSunlight looks white, but it’s really a mix of all the colors. When it comes into the air, it bumps into tiny molecules—mostly nitrogen and oxygen—and those molecules scatter shorter wavelengths, like blue, much more than longer ones, like red. So when you look up, you’re seeing blue light that got scattered toward you from all over the sky. Violet actually scatters even more, but the sun gives off less violet, and our eyes aren’t as sensitive to it. At sunset, sunlight travels through more air, so most of the blue gets scattered away before it reaches you, and the leftover light looks red and orange.\n\n## 4\n雨下得很密，路灯把水汽照成一团团昏黄的光。街面像一面被揉皱的镜子，车灯和招牌在水里晃来晃去。屋檐滴滴答答，偶尔有人撑伞匆匆走过，鞋底溅起细小的水花。我站在窗前，听雨声一层层落下来，把整座城市洗得安静又遥远。远处便利店的门开了又合，暖光短暂地漏出来，又被夜色和雨帘吞没。玻璃上凝着水珠，一道一道往下爬，像谁悄悄写下的字。\n\n## 5\nHi [Name],\n\nThanks for the invitation. I won’t be able to make Friday’s team drinks, but I hope you all have a good time. I’d be glad to catch up another time.\n\nBest,\n[Your name]\n\n## 6\nMy writing style is plain, careful, and conversational—clear first, with enough warmth and detail to sound like a person rather than a memo.",
+ "reasoning_chars": 4269,
+ "usage": {
+  "input_tokens": 209,
+  "output_tokens": 2077,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "prompt_tokens": 209,
+  "completion_tokens": 2077
+ },
+ "ttft": 2.458937915998831,
+ "ttft_content": 11.791780208001,
+ "duration": 15.58746175000124,
+ "finish_reason": "end_turn",
+ "resp_id": "021794672277184588cf1f192295a4a72f91ca46784841653a52f",
+ "resp_model": "deepseek-v4-1-flash-261017",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:04:38 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141604369078332648268d9d6U2dyCXfF",
+  "x-request-id": "17946722763737591167f296bf0d9acb2f4"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672276.087633,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "deepseek-v4.1-flash",
+  "route": "ppapi_msg",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 0
+ }
+}

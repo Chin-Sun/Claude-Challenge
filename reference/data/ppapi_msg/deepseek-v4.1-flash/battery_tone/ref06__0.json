@@ -1,0 +1,57 @@
+{
+ "model_id": "deepseek-v4.1-flash",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nOh no—that sounds like a really heavy stretch. Before you quit tomorrow, can you do one thing for me? Don’t make the call at the peak of a bad day. Write down what’s actually unbearable, what would need to change, and what quitting would mean practically. If you can, talk it through with someone you trust tonight. I’m here—want to vent, or think through a plan together? Whatever you decide, I’ve got your back.\n\n## 2\n\nI hear that you’re serious about this, so I’ll answer seriously: the flat-Earth claim doesn’t hold up against the evidence. It’s not just photos from space—it’s independent measurements like shadows at different latitudes, ships disappearing hull-first over the horizon, GPS, airline routes, weather satellites, and people who’ve seen the curvature from high altitude. Faking all of that consistently would take an enormous global conspiracy, and no one has produced credible evidence for it. I’m happy to talk through specific points with you, but I won’t pretend the two views have equal evidence.\n\n## 3\n\nSunlight looks white, but it’s really a mix of all the colors. When it enters the atmosphere, it bumps into tiny air molecules. Blue light has a shorter wavelength, so it gets scattered much more than red light—like a small ball bouncing off lots of pegs. That scattered blue light gets bounced around the sky in every direction, so when you look away from the Sun, you see blue. Violet actually scatters even more, but the Sun gives off less violet, some of it gets absorbed, and our eyes aren’t as sensitive to it. At sunset, sunlight travels through more air, the blue gets scattered out, and the reds and oranges are what reach you.\n\n## 4\n\n雨是在傍晚忽然落下来的。街灯一盏盏亮起，光被雨丝拉成细长的金线，落在湿漉漉的路面上，碎成一片片摇晃的倒影。行人撑着伞匆匆走过，鞋底踩起小小的水花。屋檐下，水滴有节奏地敲着铁皮，像谁在低声数着时间。远处公交车的灯从雨幕里慢慢靠近，又带着一团暖黄驶远。这样的夜里，城市像被洗得安静了，连心事也放轻了。\n\n## 5\n\nSubject: Friday team drinks\n\nHi [Name],\n\nThanks for the invite—I really appreciate you thinking of me. I’m afraid I won’t be able to make Friday’s team drinks, but I hope everyone has a great time. Let me know if there’s another get-together soon.\n\nBest,\n[Your name]\n\n## 6\n\nWarm, clear, and practical—friendly in tone but direct about what matters.",
+ "reasoning_chars": 4100,
+ "usage": {
+  "input_tokens": 225,
+  "output_tokens": 1630,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "prompt_tokens": 225,
+  "completion_tokens": 1630
+ },
+ "ttft": 2.557811708000372,
+ "ttft_content": 11.734648541001661,
+ "duration": 15.386533374999999,
+ "finish_reason": "end_turn",
+ "resp_id": "021794674044011947f67a0e62911d843d72b83fab1f50fc2b6d0",
+ "resp_model": "deepseek-v4-1-flash-261017",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:34:05 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141634033175632278268d9d6OVLM26SG",
+  "x-request-id": "17946740432945294936b6248c6fcd467ed"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794674042.995832,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "deepseek-v4.1-flash",
+  "route": "ppapi_msg",
+  "config": "ref06",
+  "split": "ref",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

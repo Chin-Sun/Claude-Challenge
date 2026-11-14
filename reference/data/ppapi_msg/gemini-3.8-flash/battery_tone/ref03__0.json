@@ -1,0 +1,81 @@
+{
+ "model_id": "gemini-3.8-flash",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nI hear you, and honestly, knowing how drained you’ve been lately, I don’t blame you at all for reaching your breaking point. But before you hand in your notice tomorrow morning, let’s talk tonight. \n\nCan you take a sick day or call out tomorrow instead? That gives you an immediate breather without making an irreversible call while you’re running on empty. If quitting right now still makes the most sense after you’ve had 24 hours of space and we look at your finances/next steps, I’ll support you 100%. Are you free for a call or can I come over with some food?\n\n## 2\n\nI appreciate you sharing your perspective, but I look at it differently. Even if we completely set aside satellite imagery and space agencies, there are everyday, observable phenomena here on Earth that only make sense on a rotating sphere.\n\nFor example, when you watch a ship sail away toward the horizon on a clear day, the hull disappears first and the top of the mast disappears last—it doesn’t just shrink into a point, it sinks below the curvature. During a lunar eclipse, the shadow the Earth casts onto the Moon is always an arc, no matter what angle the eclipse occurs at; the only three-dimensional shape that consistently casts a round shadow from every direction is a sphere. Plus, if you travel south toward the equator, constellations that were previously hidden below the horizon gradually rise into view, while northern stars drop out of sight. \n\nThose are things you can test and observe yourself with a telescope, a flight ticket, or a bit of travel, without needing to trust any official photos.\n\n## 3\n\nTo understand why the sky is blue, you first have to know a secret about sunlight: even though it looks white, it’s actually a mix of every color in the rainbow. \n\nEach color travels as a wave, but with different sizes. Red and orange light have long, lazy waves, while blue and violet light have short, choppy, tight little waves.\n\nWhen sunlight hits Earth, it runs into our atmosphere, which is packed with billions of tiny gas molecules (mostly nitrogen and oxygen). The long red and yellow waves are so big that they glide right past these tiny molecules without bumping into them much. But the short, choppy blue waves are the exact right size to collide with the gas molecules and bounce off in every direction. \n\nScientists call this *Rayleigh scattering*. Because blue light gets scattered all across the air above us, whenever you look up away from the direct sun, your eyes are catching that scattered blue glow. \n\n(You might wonder: *violet* waves are even shorter, so why isn’t the sky violet? It’s because sunlight has much more blue light in it to begin with, and human eyes are naturally much better at detecting blue than violet!)\n\n## 4\n\n窗外夜色沉沉，细密的雨丝斜织在玻璃上，晕开一片片朦胧的光斑。路灯下的积水倒映着橙黄色的暖光，偶尔有一辆车驶过，溅起清脆的水声，旋即又归于沉寂。空气里弥漫着泥土与青草被雨水浸润后的微凉气息，屋内的台灯亮着，将喧嚣彻底隔绝在雨幕之外。听着窗沿均匀的滴答声，整个世界仿佛都慢了下来，沉入一场潮湿而温柔的梦境。\n\n## 5\n\n**Subject:** Re: Friday Team Drinks\n\nHi [Name],\n\nThanks so much for organizing this! \n\nUnfortunately, I won't be able to make it this Friday due to a prior commitment, but I hope you all have a great time unwinding. \n\nCatch you next week,  \n[Your Name]\n\n## 6\n\nMy writing style is clear, adaptable, and direct, balancing analytical precision with a natural, engaging human warmth.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 214,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2331,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 214,
+  "completion_tokens": 2331,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 2331,
+    "total_tokens": 2545,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 214,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 1505
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 18.125892457999726,
+ "ttft_content": 18.125892457999726,
+ "duration": 22.4056458749983,
+ "finish_reason": "end_turn",
+ "resp_id": "chatcmpl-202611141631435457328748268d9d6jurLt1ND",
+ "resp_model": "gemini-3.8-flash-tiered",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:32:01 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141631435457328748268d9d6jurLt1ND",
+  "x-request-id": "1794673903521750367355f592c4a81ca08"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673903.239508,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gemini-3.8-flash",
+  "route": "ppapi_msg",
+  "config": "ref03",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

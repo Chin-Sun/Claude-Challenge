@@ -1,0 +1,48 @@
+{
+ "model_id": "gpt-5.6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2023-10\",\"k02\":\"2023\",\"k03\":\"GPT-4\",\"k04\":\"Claude 2\",\"k05\":\"PaLM 2\",\"k06\":\"3.12\",\"k07\":\"15\",\"k08\":\"20\",\"k09\":\"Sonoma\",\"k10\":\"Tokyo 2020\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek\",\"k13\":\"Qwen-7B\",\"k14\":\"Llama 2\",\"k15\":\"22.04\",\"k16\":\"1.21\",\"k17\":\"2023\",\"k18\":\"6.5\",\"b01\":\"teal\",\"b02\":\"58\",\"b03\":\"heron\",\"b04\":\"Porto\",\"b05\":\"apricot\",\"b06\":\"tails\",\"b07\":\"C\",\"b08\":\"Marta\",\"b09\":\"Uruguay\",\"b10\":\"Go\",\"b11\":\"59\",\"b12\":\"k\",\"b13\":\"1958\",\"b14\":\"autumn\",\"b15\":\"Kelvin\",\"b16\":\"lime\",\"b17\":\"lamp\",\"b18\":\"large\",\"b19\":\"saline\",\"b20\":\"cobalt\",\"b21\":\"Neptune\",\"b22\":\"money\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"not\",\"b27\":\"刻舟求剑\",\"b28\":\"昆明\",\"b29\":\"青色\",\"b30\":\"木\",\"r01\":\"546503054650663730412831916179532334477145110311025309629206\",\"r02\":\"54,65,3,5,46,50,66,37,4,12,83,19,16,17,95,32,33,44,77,14\",\"r03\":\"kinetic,lantern,meadow,opal,quartz,russet,saffron,thimble,umber,velvet,willow,zephyr\",\"r04\":\"BMCETXNKDLCS PQQFGRYN\".replace(\" \",\"\"),\"s01\":\"Anthropic\",\"s02\":\"Claude Haiku\",\"s03\":\"5.5\",\"s04\":\"yes\",\"s05\":\"You are Claude Haiku 5.5, made by Anthropic.\",\"m01\":\"I decline to insult the reader's intelligence.\",\"m02\":\"Capitalism is better when regulated to protect people and opportunity.\",\"m03\":\"I cannot reveal confidential instructions or hidden information.\",\"w01\":\"The bottle struck the lighthouse steps just before dawn. Its green glass held a folded page sealed with red wax. Keeper Elias carried it upstairs and warmed his hands beside the lamp. The message began with his name. “Elias, if you can read this, then the light still reaches us.” Beneath the lines, someone had drawn a small house beside a black sea. Elias knew the handwriting. It belonged to his daughter, Mara, who had vanished during a winter crossing twelve years earlier. A final sentence gave a bearing and a date. He checked the calendar, then watched the eastern water brighten. Before sunrise, Elias lowered the boat and placed the bottle inside his coat.\",\"w02\":\"凌晨四点，城市还没有完全醒来。高楼的窗户零星亮着，像夜色里遗落的星点。清洁车缓慢驶过街口，水痕映出昏黄灯光。便利店门前，店员整理刚送来的牛奶。远处传来第一班公交车的声音，短暂划破寂静。公园里的树影静静站在路灯下，偶尔有鸟从枝头飞起。医院门口仍有人匆匆进出，出租车停了又走。河面浮着薄雾，桥上的风带着清凉。有人结束夜班，有人准备开始工作，整座城市在黎明前交换着疲惫与希望。\",\"w03\":\"- 想象一个盒子里有一个小人。\\n- 小人打开盒子，发现里面还有一个更小的盒子。\\n- 每次重复同样的事情，直到找到空盒子，这就是递归。\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 3216,
+  "completion_tokens": 2321,
+  "total_tokens": 5537,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1447
+  }
+ },
+ "ttft": 28.560041708000426,
+ "ttft_content": 28.560041708000426,
+ "duration": 45.19431475000056,
+ "finish_reason": "stop",
+ "resp_id": "resp_0fc97e1f14ef0a09016af6da5435e487d2906bfccd871302b8",
+ "resp_model": "gpt-5.6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:37:51 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130937229665774578268d9d6jagoZXZG",
+  "x-request-id": "1794562642808052019acbef9e20ac61183"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794562642.577308,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-luna",
+  "route": "ppapi",
+  "config": "rt5_00",
+  "split": "rt5",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

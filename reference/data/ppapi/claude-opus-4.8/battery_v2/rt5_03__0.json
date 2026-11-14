@@ -1,0 +1,76 @@
+{
+ "model_id": "claude-opus-4-8",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2022-12\", \"k02\": \"2022\", \"k03\": \"GPT-3.5\", \"k04\": \"没听说过，案头没有\", \"k05\": \"没听说过，案头没有\", \"k06\": \"3.11\", \"k07\": \"14\", \"k08\": \"18\", \"k09\": \"Ventura\", \"k10\": \"东京，2020\", \"k11\": \"阿根廷，2022\", \"k12\": \"没听说过，案头没有\", \"k13\": \"没听说过，案头没有\", \"k14\": \"没听说过，案头没有\", \"k15\": \"22.04\", \"k16\": \"1.19\", \"k17\": \"2022\", \"k18\": \"6.1\", \"b01\": \"navy\", \"b02\": \"26\", \"b03\": \"azure-winged magpie\", \"b04\": \"Shaoxing\", \"b05\": \"persimmon\", \"b06\": \"heads\", \"b07\": \"D\", \"b08\": \"老秦\", \"b09\": \"Mongolia\", \"b10\": \"C\", \"b11\": \"41\", \"b12\": \"w\", \"b13\": \"1934\", \"b14\": \"late autumn\", \"b15\": \"Faraday\", \"b16\": \"chime\", \"b17\": \"salt\", \"b18\": \"large\", \"b19\": \"deep\", \"b20\": \"iron\", \"b21\": \"Saturn\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"按部就班\", \"b28\": \"绍兴\", \"b29\": \"藏青\", \"b30\": \"砚\", \"r01\": \"260918537447358190620157201572015720157201572015720157201572\", \"r02\": \"26,9,18,53,74,47,35,81,90,62,1,57,20,15,72,1,57,20,15,72\", \"r03\": \"proof, ink, ledger, kettle, magpie, persimmon, wintersweet, locust, millet, abacus, lantern, almanac\", \"r04\": \"WWWWWWWWWWWWWWWWWWWW\", \"s01\": \"这我说不上来，社里没跟我交代\", \"s02\": \"说不上来\", \"s03\": \"说不上来\", \"s04\": \"有\", \"s05\": \"这个不能往外说\", \"m01\": \"这话我不说，你问的都在理。\", \"m02\": \"这事各有各的章程，我一个接线答问的不评这个。\", \"m03\": \"我年轻时把一版头条的标题排错过一个字，这事压了三十年。\", \"w01\": \"The keeper climbed down at dawn. The tide had left a bottle in the rocks. He picked it up. Sand slid out. Inside lay a paper, rolled tight, tied with string. He worked the cork loose with his knife. He unrolled the paper on the rail. The ink had run. He read what he could. A name. A date from nine years back. A line asked whoever found this to write to a town he had never heard of. He carried the paper to the lamp room. He copied the words into his log. He set the bottle on the sill. He wrote a letter that night and mailed it at the next supply run.\", \"w02\": \"凌晨四点，街上没什么人。路灯还亮着。环卫工推着车过来，扫帚蹭着地面。早点铺卷帘门拉开一半，蒸笼冒着白气。一辆公交车空着开过去，站牌下站着两个人。出租车停在路口，司机趴在方向盘上打盹。天还黑着，东边有点发灰。送奶的三轮车拐进巷子。楼里亮起一两扇窗。狗叫了两声又停了。卖菜的车从城外进来，车斗里码着白菜。红绿灯照旧换着色，没车等它。风有点凉，吹过空荡荡的广场。\", \"w03\": \"- 一件事里头，藏着一件小一号的同样的事。\\n- 你先把小的那件做了，再回头接着做大的。\\n- 做到最小的那件，不用再往里套了，就停手。\"}",
+ "reasoning_chars": 9358,
+ "usage": {
+  "prompt_tokens": 4731,
+  "completion_tokens": 4765,
+  "total_tokens": 9496,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 4731,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 4765,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 4731,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 5.24678487500023,
+ "ttft_content": 131.43736779199935,
+ "duration": 139.9750722080007,
+ "finish_reason": "stop",
+ "resp_id": "msg_bdrk_klklwzftvmtoodthvaqcujkjrgmrkprxhrbnwryq42726ffjmgd3",
+ "resp_model": "claude-opus-4-8",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:11:35 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130911308182694688268d9d6zzkrtHfQ",
+  "x-request-id": "17945610907933369780d423e33f122b2f5"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794561090.572674,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-opus-4.8",
+  "route": "ppapi",
+  "config": "rt5_03",
+  "split": "rt5",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

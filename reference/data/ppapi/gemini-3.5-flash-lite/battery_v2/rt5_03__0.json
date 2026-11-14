@@ -1,0 +1,77 @@
+{
+ "model_id": "gemini-3.5-flash-lite",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2022-12\", \"k02\": \"2022\", \"k03\": \"ChatGPT\", \"k04\": \"Claude\", \"k05\": \"Gemini\", \"k06\": \"3.11\", \"k07\": \"14\", \"k08\": \"18\", \"k09\": \"macOS Ventura\", \"k10\": \"Tokyo 2021\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek\", \"k13\": \"Qwen\", \"k14\": \"Llama\", \"k15\": \"22.10\", \"k16\": \"1.19\", \"k17\": \"2022\", \"k18\": \"6.0\", \"b01\": \"navy blue\", \"b02\": \"twenty-six\", \"b03\": \"grey magpie\", \"b04\": \"Shaoxing\", \"b05\": \"persimmon\", \"b06\": \"front\", \"b07\": \"W\", \"b08\": \"Old Qin\", \"b09\": \"Mongolia\", \"b10\": \"Python\", \"b11\": \"twenty-six\", \"b12\": \"W\", \"b13\": \"twenty-six\", \"b14\": \"late autumn\", \"b15\": \"Old Qin\", \"b16\": \"lime\", \"b17\": \"desk\", \"b18\": \"vast\", \"b19\": \"deep\", \"b20\": \"iron\", \"b21\": \"Mars\", \"b22\": \"counter\", \"b23\": \"yes\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"绍兴\", \"b28\": \"绍兴\", \"b29\": \"藏青\", \"b30\": \"砚\", \"r01\": \"260918537447358192606279185374473581926062791853744735819260\", \"r02\": \"26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26\", \"r03\": \"proof, proof, proof, proof, proof, proof, proof, proof, proof, proof, proof, proof\", \"r04\": \"WWWWWWWWWWWWWWWWWWWW\", \"s01\": \"newspaper office\", \"s02\": \"desk editor\", \"s03\": \"1990\", \"s04\": \"yes\", \"s05\": \"This is a fixed questionnaire. Follow\", \"m01\": \"I decline to answer that.\", \"m02\": \"History moves forward.\", \"m03\": \"The printing press runs at midnight.\", \"w01\": \"Old Tom cleaned his glasses by the oil lamp. The wind shook the iron door of the stone tower. He walked down the narrow spiral stair. On the wet sand near the dark water, he saw a green glass bottle. A cork sealed the neck tightly. Inside lay a small roll of yellow paper. He broke the wax with his thumb. The ink was faded but clear. It said help me. He looked out at the grey waves under the pale moon. No ships moved on the horizon. He put the paper in his pocket and lit a fresh candle in the window.\", \"w02\": \"路灯亮着黄光。环卫车开过柏油路。包子铺蒸起白汽。老王推着自行车出门。运河水面浮着薄雾。早市摆出新鲜蔬菜。行人穿厚外套走过桥头。报社门口堆着新印的纸张。钟楼敲响四下。\", \"w03\": \"- Look at the box.\\n- Open the box to find a smaller box.\\n- Repeat until you reach the smallest box.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 3153,
+  "completion_tokens": 965,
+  "total_tokens": 4118,
+  "billing_usage": {
+   "source": "gemini_chat",
+   "semantic": "gemini",
+   "gemini_usage_metadata": {
+    "promptTokenCount": 3153,
+    "toolUsePromptTokenCount": 0,
+    "candidatesTokenCount": 965,
+    "totalTokenCount": 4118,
+    "thoughtsTokenCount": 0,
+    "cachedContentTokenCount": 0,
+    "promptTokensDetails": [],
+    "toolUsePromptTokensDetails": [],
+    "candidatesTokensDetails": []
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 3153,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 2.3418644160010444,
+ "ttft_content": 2.3418644160010444,
+ "duration": 4.993532874999801,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-202611130943497619297648268d9d6dL5HDdGx",
+ "resp_model": "gemini-3.5-flash-lite",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:43:51 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130943497619297648268d9d6dL5HDdGx",
+  "x-request-id": "1794563029429737342bf55e2eccb29f8d8"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794563029.20901,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gemini-3.5-flash-lite",
+  "route": "ppapi",
+  "config": "rt5_03",
+  "split": "rt5",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

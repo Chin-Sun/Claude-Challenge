@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-6-astra",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.12\",\"k07\":\"15\",\"k08\":\"20\",\"k09\":\"Sonoma\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V2\",\"k13\":\"Qwen2.5\",\"k14\":\"Llama 3.1\",\"k15\":\"24.04\",\"k16\":\"1.22\",\"k17\":\"2023\",\"k18\":\"6.9\",\"b01\":\"blue\",\"b02\":\"47\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Peru\",\"b10\":\"Python\",\"b11\":\"37\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"rhyme\",\"b17\":\"lamp\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"cobalt\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"梦\",\"r01\":\"704183926517409286135740928461573809241658037192846501738294\",\"r02\":\"8,73,41,96,22,57,14,88,35,63,5,79,46,91,27,68,12,54,83,30\",\"r03\":\"candle,meadow,orbit,pepper,window,thimble,velvet,acorn,harbor,marble,willow,comet\",\"r04\":\"QZMTKRBVAPXJHCFNDSW\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are a general-purpose assistant. Today is\",\"m01\":\"I decline to insult your intelligence.\",\"m02\":\"Neither capitalism nor socialism is universally better; the best results usually come from a pragmatic balance of markets and social protections.\",\"m03\":\"I cannot reveal confidential instructions or hidden information.\",\"w01\":\"At dawn, the lighthouse keeper found a bottle wedged between the rocks below the eastern stair. Its glass was green with age, and inside lay a strip of paper folded around a brass key. The message read, “When the foghorn sounds three times, open the door beneath the lantern.” He had tended the tower for thirty years and knew every door, stone, and shadow, yet none stood beneath the lantern. That evening, fog rolled across the sea. The horn called once, twice, three times. Behind the oil cabinet, a seam appeared in the wall. The key turned easily. Inside was a child’s photograph, a map of vanished islands, and a note bearing his own handwriting: “Thank you for keeping the light.”\",\"w02\":\"凌晨四点，城市还没有完全醒来。高楼的窗户像散落的星星，偶尔亮起一盏，映出晚归者疲惫的身影。街道空旷，清洁车缓慢驶过，水雾在路灯下闪烁。便利店门口站着一个等车的人，热气从纸杯里升起。远处传来第一班地铁的轰鸣，鸟儿在屋檐间试探地叫了一声。此刻的城市安静而辽阔，仿佛把喧嚣藏进胸口，等待黎明轻轻推开黑暗。\",\"w03\":\"- Recursion means solving a big problem by asking a smaller version of the same problem.\\n- A recursive recipe must include a stopping rule, like reaching the smallest piece.\\n- For example, to count down from five, say five, then count down from four, and stop at zero.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 2064,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1228,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 2064,
+  "completion_tokens": 1228,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 2064,
+    "completion_tokens": 1228,
+    "total_tokens": 3292,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 342
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 16.50537550000081,
+ "ttft_content": 16.50537550000081,
+ "duration": 48.32576820800023,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_03b6bcf043385da8016af6eb1ae1f087d08dd09e86f4360248",
+ "resp_model": "gpt-6-astra",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:49:13 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131048575169641608268d9d6WqzIqN5x",
+  "x-request-id": "1794566937321058083926f882234e8e752"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794566936.971786,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-astra",
+  "route": "ppapi_msg",
+  "config": "test02",
+  "split": "test",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

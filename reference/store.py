@@ -1,14 +1,16 @@
 """Load collected reference records and turn them into library samples."""
 import json
 
+from candidates import CANDIDATES
 from config import REF_DATA
 from features.extract import extract
+from reference.configs import BY_ID
 
 
 QUARANTINE_FILE = REF_DATA.parent / "quarantine.json"
 
 
-def load_records(routes=None, root=None, include_quarantined=False):
+def load_records(routes=None, root=None, include_quarantined=False, pool_only=True):
     """All saved reference responses. Records listed in reference/quarantine.json
     (see reference.audit) are skipped unless include_quarantined is set."""
     root = root or REF_DATA
@@ -27,6 +29,10 @@ def load_records(routes=None, root=None, include_quarantined=False):
         meta = rec.get("meta")
         if not meta or (routes and meta["route"] not in routes):
             continue
+        if meta.get("config") not in BY_ID:
+            continue   # answer to a system prompt that has since been replaced
+        if pool_only and not CANDIDATES.get(meta.get("truth"), {}).get("pool"):
+            continue   # model is not among the contest's answer options
         rec["_path"] = rel
         out.append(rec)
     return out

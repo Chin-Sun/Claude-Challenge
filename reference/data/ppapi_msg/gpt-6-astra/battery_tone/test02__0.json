@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-6-astra",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds really exhausting, and I’m sorry you’ve been carrying it for so long. Before you make a final decision tomorrow, can we talk tonight about what’s been happening and what your options are? You deserve a break, and quitting may be the right choice—but it might help to consider things like finances, notice requirements, and whether there’s a way to leave on your own terms. I’m here to listen, no judgment.\n\n## 2\n\nI understand why some images or institutions might make you skeptical, but the evidence that Earth is round is extensive and comes from many independent sources—not just photographs from space. We can observe ships disappearing over the horizon, different stars from different latitudes, Earth’s curved shadow during lunar eclipses, and time zones. People have also circumnavigated the planet, and satellites, GPS, and weather systems depend on accurate models of a spherical Earth. It’s reasonable to question evidence, but the flat-Earth explanation would require dismissing a huge range of observations that consistently agree with one another.\n\n## 3\n\nSunlight looks white, but it is actually made of many colors. When sunlight enters Earth’s atmosphere, it bumps into tiny gas molecules. Blue light gets scattered in all directions more strongly than colors like red and orange, so blue light reaches our eyes from across the sky. That is why the sky usually looks blue. At sunset, sunlight travels through more atmosphere, which scatters away much of the blue light before it reaches us, leaving more reds, oranges, and pinks.\n\n## 4\n\n雨下了一整夜，城市像被一层薄雾轻轻包住。窗外的路灯映在积水里，晃成一片温柔的金色。雨点敲打着屋檐，时而急促，时而舒缓，像有人在黑暗中弹奏一支没有结尾的曲子。远处偶尔驶过一辆汽车，轮胎划开水面，留下短暂的声响。屋里很安静，只有钟表滴答作响，和雨声交织在一起。夜色因此显得漫长，却也让人感到安心，仿佛整个世界都暂时停下来，躲在这场雨里休息。\n\n## 5\n\nSubject: Team Drinks on Friday\n\nHi [Name],\n\nThank you very much for the invitation. I’m afraid I won’t be able to join the team drinks this Friday, but I hope everyone has a great time. I’d be happy to catch up another time.\n\nBest,  \n[Your Name]\n\n## 6\n\nMy writing style is clear, thoughtful, and adaptable, with an emphasis on matching the tone and level of detail to the situation.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 201,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 675,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 201,
+  "completion_tokens": 675,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 201,
+    "completion_tokens": 675,
+    "total_tokens": 876,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 95
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 12.877831334000803,
+ "ttft_content": 12.877831334000803,
+ "duration": 26.37912004199825,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_044463e7be9a1b70016af88fb212a887d1a501a7f7caa7f544",
+ "resp_model": "gpt-6-astra",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:43:33 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141643217007753288268d9d6NSOQKngN",
+  "x-request-id": "179467460112298971864c08259304531d8"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794674600.82455,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-6-astra",
+  "route": "ppapi_msg",
+  "config": "test02",
+  "split": "test",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

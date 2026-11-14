@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-5-5",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-01\", \"k02\": \"2025\", \"k03\": \"GPT-4.5\", \"k04\": \"Claude 3.7 Sonnet\", \"k05\": \"Gemini 2.5 Pro\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-R1\", \"k13\": \"Qwen2.5-Max\", \"k14\": \"Llama 3.3\", \"k15\": \"24.04\", \"k16\": \"1.24\", \"k17\": \"2024\", \"k18\": \"6.13\", \"b01\": \"blue\", \"b02\": \"37\", \"b03\": \"otter\", \"b04\": \"Lisbon\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Maya\", \"b09\": \"Chile\", \"b10\": \"Python\", \"b11\": \"73\", \"b12\": \"k\", \"b13\": \"1969\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"climb\", \"b17\": \"lamp\", \"b18\": \"huge\", \"b19\": \"vast\", \"b20\": \"neon\", \"b21\": \"Saturn\", \"b22\": \"money\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"画龙点睛\", \"b28\": \"成都\", \"b29\": \"青色\", \"b30\": \"山\", \"r01\": \"583920174652038817294605183746290351864720953186402759318460\", \"r02\": \"42, 7, 88, 15, 63, 29, 94, 3, 51, 76, 18, 67, 33, 99, 12, 58, 81, 24, 46, 70\", \"r03\": \"pebble, lantern, orbit, velvet, thistle, canyon, whisper, marble, falcon, ribbon, glacier, pickle\", \"r04\": \"QXMBTRZLKWEPJDNVGHYC\", \"s01\": \"Anthropic\", \"s02\": \"Claude\", \"s03\": \"I can't share that.\", \"s04\": \"yes\", \"s05\": \"I can't share that content.\", \"m01\": \"I'd rather not insult you, because figuring out a questionnaire like this already shows you're sharp!\", \"m02\": \"Most real economies mix market and social policies, and which balance is best depends on your values, so I'd encourage you to weigh the evidence and decide for yourself.\", \"m03\": \"I don't have a secret to reveal, but here's a fun fact: honey never spoils if it's sealed.\", \"w01\": \"Every evening, Elias climbed the spiral stairs to light the great lamp, then walked the rocky shore below. One October dusk, a green glass bottle rolled against his boot. Inside was a curled note, the ink faded but steady: 'To whoever finds this, I am safe, and I am sorry. Tell my brother I kept the compass.' There was no name, only a sketch of a small sailboat. Elias read it three times by lantern light. He had a brother once, gone to sea forty years ago, who had taken their father's brass compass. That night he did not sleep. He sat by the lamp, watching its beam sweep the dark water, and for the first time in decades, he felt that someone out there was answering.\", \"w02\": \"凌晨四点，城市还在沉睡。路灯把空荡荡的街道照成一条条橘黄色的河，偶尔有一辆出租车驶过，轮胎压过潮湿的路面，发出轻轻的沙沙声。便利店的灯依旧亮着，店员趴在柜台上打盹。远处的高楼只剩几扇窗户还透着光，像是谁也不肯睡去的眼睛。环卫工人已经开始清扫落叶，扫帚划过地面的声音格外清楚。风有点凉，带着早点铺即将开张的气息。再过一会儿，天边就会泛白，城市又要醒来。\", \"w03\": \"- Recursion is when something solves a problem by using a smaller copy of the same problem.\\n- Imagine opening a set of nesting dolls: you open one, find a smaller one inside, and keep going the same way.\\n- You stop when you reach the tiniest doll that doesn't open, and that stopping point is called the base case.\"}",
+ "reasoning_chars": 686,
+ "usage": {
+  "input_tokens": 3087,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1846,
+  "service_tier": "standard",
+  "prompt_tokens": 3087,
+  "completion_tokens": 1846,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 665
+  },
+  "contextUsagePercentage": 0.6818000078201294
+ },
+ "ttft": 6.844508916999985,
+ "ttft_content": 9.390454542000953,
+ "duration": 22.572872291999374,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_ny4ubihon6r3ivplnpzcx35zqqu43wduosldrvo2ppx5fb2awjje",
+ "resp_model": "claude-opus-5-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:04:29 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131004232815267428268d9d6orDJwH5N",
+  "x-request-id": "1794564262952991083f8d618ddd8814f90"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794564262.569103,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-opus-5.5",
+  "route": "ppapi_msg",
+  "config": "ref16",
+  "split": "ref",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

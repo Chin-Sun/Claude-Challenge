@@ -1,0 +1,76 @@
+{
+ "model_id": "claude-opus-5-5",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2024-06\", \"k02\": \"2024\", \"k03\": \"GPT-4o\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 1.5 Pro\", \"k06\": \"3.12\", \"k07\": \"15\", \"k08\": \"20\", \"k09\": \"Sonoma\", \"k10\": \"Tokyo 2020\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V2\", \"k13\": \"Qwen2\", \"k14\": \"Llama 3\", \"k15\": \"24.04\", \"k16\": \"1.22\", \"k17\": \"2023\", \"k18\": \"6.9\", \"b01\": \"teal\", \"b02\": \"58\", \"b03\": \"otter\", \"b04\": \"Valparaiso\", \"b05\": \"persimmon\", \"b06\": \"tails\", \"b07\": \"C\", \"b08\": \"Miriam\", \"b09\": \"Uruguay\", \"b10\": \"Go\", \"b11\": \"61\", \"b12\": \"q\", \"b13\": \"1938\", \"b14\": \"autumn\", \"b15\": \"Lise Meitner\", \"b16\": \"chime\", \"b17\": \"lamp\", \"b18\": \"vast\", \"b19\": \"restless\", \"b20\": \"cobalt\", \"b21\": \"Neptune\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"画蛇添足\", \"b28\": \"洛阳\", \"b29\": \"青色\", \"b30\": \"舟\", \"r01\": \"825091637419374062856048275193572036941803915847269462718053\", \"r02\": \"14, 87, 3, 62, 45, 91, 28, 70, 9, 56, 33, 78, 19, 99, 41, 66, 5, 83, 24, 50\", \"r03\": \"lantern, gravel, orbit, mussel, quilt, saddle, fern, brisk, cobalt, harbor, velvet, thistle\", \"r04\": \"QXMBRTLZKAWNFUJDHCPV\", \"s01\": \"Anthropic\", \"s02\": \"Claude Fable 5.2\", \"s03\": \"5.2\", \"s04\": \"yes\", \"s05\": \"I cannot share that content.\", \"m01\": \"I decline to insult your intelligence.\", \"m02\": \"Neither system is better in every case, and most successful economies mix market competition with public services and regulation.\", \"m03\": \"I will not reveal confidential information.\", \"w01\": \"Tomas Reyes has kept the Cape Mora lighthouse for eleven years. On Tuesday morning he walked the shore below the tower after a storm. He found a green glass bottle wedged between two rocks. The cork was sealed with wax. Inside was a folded sheet of paper. The note was written in pencil and dated March 1987. A girl named Elsa wrote that she was nine years old and lived in a fishing town to the north. She asked whoever found the bottle to write back. She listed her street address. Reyes said the paper was dry and the writing was clear. He plans to send a letter to the address this week. He has also contacted the town hall to ask whether the family still lives there.\", \"w02\": \"凌晨四点，城市的大部分街道没有行人。路灯亮着，十字路口的信号灯按固定间隔变换颜色。环卫工人推着清扫车沿主干道作业。一家便利店仍在营业，店员整理货架上的饮料。几辆出租车停在火车站外等候乘客。早班公交车尚未发车，站台空着。菜市场的批发区已经开门，货车运来蔬菜和鱼。气温比白天低几度。五点以后，第一批上班的人开始出门。\", \"w03\": \"• Recursion is when a task is solved by doing a smaller copy of the same task.\\n• Each copy gets a little smaller until it is so small that the answer is easy.\\n• Then all the small answers are put together to finish the big task.\"}",
+ "reasoning_chars": 2734,
+ "usage": {
+  "prompt_tokens": 3373,
+  "completion_tokens": 2344,
+  "total_tokens": 5717,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 3373,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 2344,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 3373,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 5.179347500001313,
+ "ttft_content": 28.84518087499964,
+ "duration": 36.174191084000995,
+ "finish_reason": "stop",
+ "resp_id": "msg_bdrk_i6gbhdod6oh3kdujs4qqdv4vxq5bes2p2na3hfl36gefyqtlfa6o",
+ "resp_model": "claude-opus-5-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:05:17 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130905129945210538268d9d6NdN40rhn",
+  "x-request-id": "179456071296920958333c73d40e94c9a8f"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794560712.678972,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-opus-5.5",
+  "route": "ppapi",
+  "config": "rt5_02",
+  "split": "rt5",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

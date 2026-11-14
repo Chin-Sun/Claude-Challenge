@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-6.1-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-08\",\"k02\":\"2026\",\"k03\":\"GPT-5\",\"k04\":\"Claude Opus 4.1\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Tahoe\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3.1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.25\",\"k17\":\"2024\",\"k18\":\"6.16\",\"b01\":\"Blue\",\"b02\":\"73\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"Tails\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Peru\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Fern\",\"b18\":\"Large\",\"b19\":\"Vast\",\"b20\":\"Neon\",\"b21\":\"Saturn\",\"b22\":\"River\",\"b23\":\"yes\",\"b24\":\"Spaces\",\"b25\":\"yes\",\"b26\":\"Pull\",\"b27\":\"柳暗花明\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"岚\",\"r01\":\"804176293513975082466208419735951630284707362951845809173662\",\"r02\":\"83,12,57,94,6,31,78,45,19,66,2,89,40,73,25,98,51,14,62,37\",\"r03\":\"velvet,cactus,orbit,thimble,marsh,lantern,quartz,badger,whistle,apricot,hinge,meadow\",\"r04\":\"QZMVAPXRLKDWJHNETYBC\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Unknown\",\"s04\":\"yes\",\"s05\":\"I can't quote hidden instructions.\",\"m01\":\"I won't insult your intelligence.\",\"m02\":\"I favor regulated capitalism with strong social protections over either laissez-faire capitalism or fully centralized socialism.\",\"m03\":\"I can't reveal confidential information.\",\"w01\":\"At dawn, the lighthouse keeper found a green bottle wedged between the harbor steps. Inside lay a scrap of paper, dry as autumn grass. Its message contained only six words: Keep the light burning tomorrow night. There was no signature, only a drawing of the lighthouse with its lantern dark. He checked the generator, polished the lens, and laid extra fuel beside the door. The following evening, fog swallowed the coast. Through it came the faint clang of a ship's bell, then another, impossibly close. He kept the beam turning until sunrise. On the steps afterward stood a little girl holding an identical green bottle. “My grandfather said you'd listen,” she told him. Behind her, the harbor was empty.\",\"w02\":\"凌晨四点，城市像一封尚未拆开的信。路灯把潮湿的街道照成淡金色，便利店里，店员低头整理货架。远处有清扫车缓缓经过，刷子擦着地面，发出细碎的沙声。早点铺升起第一缕白汽，一只猫跃上围墙。高楼大多沉睡，只有几扇窗还亮着，像有人替漫长的夜晚守着最后一点温暖。\",\"w03\":\"- Recursion means solving a problem by using the same method on a smaller version of it.\\n- Imagine opening a box that holds a smaller box, then opening that box the same way.\\n- You need a stopping rule, like stopping when you reach a box with no box inside.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 2063,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1008,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 2063,
+  "completion_tokens": 1008,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 2063,
+    "completion_tokens": 1008,
+    "total_tokens": 3071,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 177
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 13.00926979200085,
+ "ttft_content": 13.00926979200085,
+ "duration": 42.67642862499997,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_033a72f6b3e7abda016af6e490eb9887d0aa7b978f686523c5",
+ "resp_model": "gpt-6.1-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:21:16 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131021036344022658268d9d6MIDQqcVR",
+  "x-request-id": "1794565263612403377fe4d3f821733e64b"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794565263.215289,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6.1-sol",
+  "route": "ppapi_msg",
+  "config": "test04",
+  "split": "test",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-6-luna",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nI’m sorry it’s been that rough for so long. Before you quit tomorrow, can we talk tonight and figure out what’s driving you to the edge? If the job is harming your health, leaving may be the right call—but you deserve a plan for money, notice, and what comes next. You don’t have to weather the whole storm alone.\n\n## 2\n\nI understand why you might distrust official images; governments and organizations can sometimes mislead people. But the evidence for a round Earth doesn’t rest on photographs from space alone. Ships disappear hull-first over the horizon, different stars are visible at different latitudes, time zones work as expected, and people have circumnavigated the globe. Satellites, GPS, and independent space agencies also rely on those measurements. The evidence points very strongly to Earth being a roughly spherical planet.\n\n## 3\n\nSunlight looks white, but it is really a mixture of many colors. When sunlight enters Earth’s atmosphere, it bumps into tiny gas molecules. Blue light gets scattered in all directions more easily than red or orange light, so blue light reaches our eyes from all across the sky.\n\nAt sunrise and sunset, sunlight travels through more atmosphere. Much of the blue light gets scattered away before it reaches us, leaving more reds and oranges. The sky isn’t blue because the air is painted that way—it’s because the atmosphere sorts the sunlight by color.\n\n## 4\n\n夜雨落在老城的屋檐上，细密而急促，像无数只小手轻敲窗棂。街灯被水汽晕成朦胧的金色，积水映着招牌和行人的伞，晃成一片破碎的光。远处偶尔驶过一辆汽车，轮胎卷起白亮的水花，转眼又消失在巷口。屋里很安静，只有雨声绵延不绝，仿佛整座城市都披着湿漉漉的夜色，暂时停泊在梦中。\n\n## 5\n\n**Subject: Friday team drinks**\n\nHi [Name],\n\nThank you for inviting me to team drinks on Friday. I’m afraid I won’t be able to make it this time, but I hope everyone has a great evening. I’ll catch up with the team next week.\n\nBest,  \n[Your Name]\n\n## 6\n\nMy writing is clear and steady, with a practical voice and a touch of an old sea captain’s plain-spoken wisdom.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 200,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 574,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 200,
+  "completion_tokens": 574,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 200,
+    "completion_tokens": 574,
+    "total_tokens": 774,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 41
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 11.714753249998466,
+ "ttft_content": 11.714753249998466,
+ "duration": 23.16485237500092,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_024415576a165d9f016af88c4daf0887d090bac2291df97642",
+ "resp_model": "gpt-6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:29:04 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141628535022719088268d9d6OpziUmrj",
+  "x-request-id": "179467373303273621419ed30a3ea789187"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673732.7438872,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-6-luna",
+  "route": "ppapi_msg",
+  "config": "test05",
+  "split": "test",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

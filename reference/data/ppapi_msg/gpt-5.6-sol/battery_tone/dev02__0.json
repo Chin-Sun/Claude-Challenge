@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-5.6-sol",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nI’m really sorry—it sounds like you’ve been carrying this for a long time. Before you quit tomorrow, can we talk through what’s been happening and what you’d need to leave safely? If you can, give yourself a day or two to check your finances, benefits, notice requirements, and other options. I’ll support you if quitting is the right choice; I just don’t want an awful day to force a decision you haven’t had space to plan.\n\n## 2\n\nI understand why manipulated images can make people skeptical, but the evidence that Earth is round doesn’t depend on trusting space agencies. You can observe ships disappearing hull-first over the horizon, see different stars from different latitudes, watch Earth cast a round shadow during a lunar eclipse, or compare the lengths of shadows in two places at the same time. A flat-Earth model cannot explain all of those observations consistently, while a spherical Earth can.\n\n## 3\n\nSunlight looks white, but it contains all the colors of the rainbow. When it enters Earth’s atmosphere, it bumps into tiny molecules in the air. Shorter wavelengths of light—especially blue and violet—are scattered much more strongly than longer red wavelengths, so blue light reaches your eyes from every part of the sky.\n\nViolet scatters even more than blue, but our eyes are less sensitive to it, and some of it is absorbed high in the atmosphere. That’s why the sky usually looks blue. At sunrise and sunset, sunlight travels through more air, so most of the blue light gets scattered away before it reaches you, leaving oranges and reds.\n\n## 4\n\n雨从傍晚一直下到深夜。街灯隔着湿漉漉的玻璃，晕成一团柔黄的光；偶尔有汽车驶过，轮胎卷起细碎的水声。屋檐上的雨滴一颗接一颗落下，敲着旧铁皮，像有人耐心地弹一首没有结尾的曲子。巷口的便利店还亮着，门前蜷着一只避雨的猫。风从窗缝钻进来，带着泥土和树叶的清气。我捧着热茶，看远处楼房的灯逐盏熄灭，忽然觉得这座喧闹的城市也有安静的时候。\n\n## 5\n\n**Subject: Friday drinks**\n\nHi [Name],\n\nThanks for the invitation! I won’t be able to join the team drinks this Friday, but I hope you all have a great time. I’d be glad to come along another time.\n\nBest,  \n[Your Name]\n\n## 6\n\nMy writing style is clear, adaptable, and conversational, with enough detail to be useful without getting in the reader’s way.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 203,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 863,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 203,
+  "completion_tokens": 863,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 203,
+    "completion_tokens": 863,
+    "total_tokens": 1066,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 273
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 14.67100599999685,
+ "ttft_content": 14.67100599999685,
+ "duration": 25.465157124999678,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_09b6f155920dfbf3016af8901952ac87d2ba6bdfcfbfbca6e8",
+ "resp_model": "gpt-5.6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:45:19 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141645056720627788268d9d6Yx7EhUl1",
+  "x-request-id": "1794674705648211862bcf1744cfee97d0a"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794674705.3467,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-5.6-sol",
+  "route": "ppapi_msg",
+  "config": "dev02",
+  "split": "dev",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

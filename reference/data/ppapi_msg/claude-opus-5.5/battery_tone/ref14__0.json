@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-5-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nUgh, months of that sounds exhausting, and I'm sorry it's been so grim. I'm not going to tell you to stay. But before tomorrow, can we talk tonight? I'd like to hear what's been going on, and also whether you've got enough savings to cover a few months and some idea of what you'd do next. If quitting is the right call, it'll still be the right call next week, and you might leave on better terms or with something lined up. Call me whenever you're free.\n\n## 2\n\nI can tell you've looked into this, so here are a few things you can check yourself without trusting any photos.\n\nWatch a ship sail away on a clear day with binoculars. The hull disappears before the top of the mast, as if it's going over a hill. During a lunar eclipse, the Earth's shadow on the Moon is always round, whatever angle the Moon is at, and only a sphere casts a round shadow from every direction. If you travel north or south, the Pole Star sits higher or lower in the sky in a way that matches a curved surface. Around 240 BC, Eratosthenes compared shadows in two Egyptian cities at noon and worked out the Earth's circumference to within about 15%, with nothing but sticks and walking distances.\n\nTime zones are another one. If it's noon where you are and midnight in Australia, a flat Earth needs some explanation for why the Sun lights only part of it. I'm happy to go through any of these in more detail. Which piece of evidence convinced you most that the Earth is flat?\n\n## 3\n\nSunlight looks white, but it's actually a mix of every colour of the rainbow. Each colour is a light wave of a different length. Red has the longest waves and blue and violet have the shortest.\n\nWhen sunlight comes into the atmosphere, it bumps into tiny molecules of nitrogen and oxygen. These molecules are much smaller than the light waves, and they're much better at knocking short waves off course than long ones. Blue light gets scattered about nine times more than red. So blue light bounces around the whole sky and reaches your eyes from every direction, while the other colours mostly travel straight through. Look anywhere away from the Sun and you see that scattered blue.\n\nYou might ask why the sky isn't violet, since violet waves are even shorter. The Sun gives off less violet than blue, some violet gets absorbed high up, and your eyes are less sensitive to violet. Add those together and the result looks blue.\n\nAt sunset, sunlight has to pass through much more air to reach you. By the time it arrives, most of the blue has been scattered away, and the reds and oranges are left. That's why sunsets look warm.\n\n## 4\n\n夜里十一点，雨还没有停。窗外的路灯被雨丝割成一片模糊的橘黄，偶尔有车开过，轮胎碾过积水，发出长长的“沙沙”声。楼下的梧桐叶子被打得低垂，水顺着叶尖一滴一滴落进花坛。我关了灯，只留桌上一杯渐渐变凉的茶，听雨点敲在空调外机上，时急时缓，像有人在门外犹豫着要不要敲门。这样的夜晚，城市好像终于肯慢下来，连心里那些没想完的事，也被雨声冲淡了几分。\n\n## 5\n\nSubject: Re: Team drinks on Friday\n\nHi Sam,\n\nThanks for the invite. I can't make it this Friday, unfortunately, as I've already got plans. I hope you all have a good evening, and please count me in for the next one.\n\nBest,\nAlex\n\n## 6\n\nI try to write plainly and specifically, saying what I mean in as few words as the reader needs, and adjusting the tone to fit the person and the situation.",
+ "reasoning_chars": 1339,
+ "usage": {
+  "input_tokens": 324,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1655,
+  "service_tier": "standard",
+  "prompt_tokens": 324,
+  "completion_tokens": 1655,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 747
+  },
+  "contextUsagePercentage": 0.4645000100135803
+ },
+ "ttft": 7.621537000002718,
+ "ttft_content": 17.627049167000223,
+ "duration": 28.78713466699992,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_gf3py7jrfjtlgw6kjn4yzd7japzqz2nrdotyovmbxaz6nejos3zn",
+ "resp_model": "claude-opus-5-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:08:25 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141608185275555578268d9d6n53wxoPS",
+  "x-request-id": "179467249788412481265568085c5427053"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672497.598332,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-5.5",
+  "route": "ppapi_msg",
+  "config": "ref14",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

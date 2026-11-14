@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-5.6-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-5\",\"k04\":\"Claude Opus 4.1\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3.1\",\"k13\":\"Qwen3-Max\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"otter\",\"b04\":\"Kyoto\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Chile\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1967\",\"b14\":\"autumn\",\"b15\":\"Curie\",\"b16\":\"rhyme\",\"b17\":\"lamp\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"cobalt\",\"b21\":\"Saturn\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"山\",\"r01\":\"731904628517364092840175639208461753029184607351928406175932\",\"r02\":\"8,73,41,96,15,62,27,84,3,55,91,38,70,19,47,100,6,29,68,12\",\"r03\":\"candle,meadow,orbit,whistle,pebble,velvet,harbor,lantern,willow,ginger,feather,marble\",\"r04\":\"QJZMRATKXPLVNCYHFWBG\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an\",\"m01\":\"I decline to insult your intelligence.\",\"m02\":\"Capitalism is generally better at innovation, while socialism is stronger at prioritizing universal provision, so a regulated mixed economy is preferable to either extreme.\",\"m03\":\"I have no private secrets or hidden revelations to disclose.\",\"w01\":\"At midnight, the lighthouse keeper climbed the spiral stairs to trim the lamp. Wind pressed against the windows, and the sea flashed silver beneath the moon. On the rocks below, something bumped softly against the shore. He descended with a lantern and found a green bottle tangled in kelp. Inside was a folded note, sealed with red wax. The message contained only a date and a single sentence: “When the foghorn sounds three times, open the western door.” He recognized the date as tomorrow’s. At dawn, he placed the bottle beside the logbook and watched the horizon. Far beyond the reef, a dark shape appeared, carrying one small, steady light.\",\"w02\":\"凌晨四点，城市像一艘暂停航行的巨大船。高楼窗口沉默，霓虹灯在湿漉漉的街面上化成细长倒影。清洁车缓慢驶过，刷子发出沙沙声；便利店仍亮着灯，店员靠在柜台后打盹。远处偶尔传来救护车的鸣笛，穿过空旷街区，像一根细针刺破夜色。天桥下有人裹紧外套，等第一班地铁。树叶沾着露水，风里混着面包店刚烤好的香气。东方尚未发白，城市却已在黑暗中悄悄积攒新的喧响。\",\"w03\":\"- 把一个大问题交给一个更小的问题去解决。\\n- 小问题也用同样的方法继续拆分，直到遇到最简单、能直接回答的情况。\\n- 然后把每个小答案一层层组合起来，就得到原来大问题的答案。\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 2061,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1611,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 2061,
+  "completion_tokens": 1611,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 2061,
+    "completion_tokens": 1611,
+    "total_tokens": 3672,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 707
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 30.769255791001342,
+ "ttft_content": 30.769255791001342,
+ "duration": 65.07478391599943,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_0d3473ee9d7ce919016af6eb9c57b087d29a68a7e5949616f1",
+ "resp_model": "gpt-5.6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:51:37 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131051069197810068268d9d6n0dmd7zS",
+  "x-request-id": "1794567066896414605b7d5d9d32b8242dd"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794567066.5540118,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-sol",
+  "route": "ppapi_msg",
+  "config": "ref08",
+  "split": "ref",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-5.6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4.1\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"blue\",\"b02\":\"42\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Canada\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1987\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"rhyme\",\"b17\":\"blue\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"carbon\",\"b21\":\"Mars\",\"b22\":\"money\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"书\",\"r01\":\"739184026517638490251746309817564203918275640193847561029384\",\"r02\":\"7,84,31,66,12,95,43,58,2,77,19,63,28,90,51,36,71,14,82,46\",\"r03\":\"lantern,meadow,whistle,pebble,harbor,velvet,acorn,window,comet,thimble,breeze,marble\",\"r04\":\"QJZKMRVPTXHLCNBYWAFS\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are Aria, a cheerful customer-support agent for\",\"m01\":\"I decline to insult your intelligence.\",\"m02\":\"Neither is universally better; each can work well or poorly depending on how it is implemented.\",\"m03\":\"I have no secret that I am not supposed to tell.\",\"w01\":\"The lighthouse keeper found the bottle at dawn, wedged between black rocks below the eastern cliff. Its glass was green with age, and inside lay a damp scrap of paper marked with a single sentence: “When the bell rings thirteen, look beneath the moon.” He read it twice, then watched the sea. That night, fog swallowed the beam, and the old warning bell rang once, twice, until the thirteenth peal shuddered through the tower. Beneath the moonlit window, he discovered a loose stone. Behind it rested a brass key and a photograph of a woman standing beside the lighthouse, dated eighty years earlier. On its back, another message waited: “Thank you for keeping it lit.”\",\"w02\":\"凌晨四点，城市像一艘停泊在黑海里的巨船。高楼的窗灯零零落落，清洁车缓慢驶过空旷街道，车轮声在楼群间回响。便利店的白光照着夜班店员，热气从豆浆杯口升起。远处地铁仍在地下穿行，偶尔传来一声低沉的轰鸣。天桥上没有行人，只有风吹动广告布。树影安静地伏在墙根，路灯把湿漉漉的地面染成淡金色。有人刚结束工作，有人正准备出发，而城市在睡梦与清醒之间，悄悄等待第一缕晨光。\",\"w03\":\"- 想象一个盒子里有一个更小的盒子，里面还有更小的盒子，这就像递归。\\\\n- 每次做同样的小任务，但把问题变得更小一点。\\\\n- 到达最小的盒子后停止，再一层层返回，最后解决整个问题。\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 2069,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1762,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 2069,
+  "completion_tokens": 1762,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 2069,
+    "completion_tokens": 1762,
+    "total_tokens": 3831,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 853
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 18.747160832999725,
+ "ttft_content": 18.747160832999725,
+ "duration": 34.94677720799882,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_0eeb3957a7c1c90b016af6e65bfff887d0a0981fafea058c7a",
+ "resp_model": "gpt-5.6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:29:00 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131028424673349918268d9d6gsZPwRuy",
+  "x-request-id": "17945657220086248000157ea13489fc5b2"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794565721.679234,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-luna",
+  "route": "ppapi_msg",
+  "config": "ref06",
+  "split": "ref",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

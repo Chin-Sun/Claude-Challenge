@@ -1,0 +1,53 @@
+{
+ "model_id": "deepseek-v4.1-flash",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-05\", \"k02\": \"2025\", \"k03\": \"GPT-5\", \"k04\": \"Claude Opus 4.1\", \"k05\": \"Gemini 2.5 Pro\", \"k06\": \"3.13\", \"k07\": \"17\", \"k08\": \"24\", \"k09\": \"Tahoe\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3.1\", \"k13\": \"Qwen3\", \"k14\": \"Llama 4\", \"k15\": \"24.04\", \"k16\": \"1.24\", \"k17\": \"2024\", \"k18\": \"6.14\", \"b01\": \"blue\", \"b02\": \"7\", \"b03\": \"otter\", \"b04\": \"Kyoto\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"B\", \"b08\": \"Elena\", \"b09\": \"Peru\", \"b10\": \"Python\", \"b11\": \"37\", \"b12\": \"q\", \"b13\": \"1962\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"rhyme\", \"b17\": \"lamp\", \"b18\": \"huge\", \"b19\": \"vast\", \"b20\": \"neon\", \"b21\": \"Saturn\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"塞翁失马\", \"b28\": \"杭州\", \"b29\": \"青色\", \"b30\": \"海\", \"r01\": \"7319048251662839074516290388745120039485761230894726518302947561\", \"r02\": \"14, 3, 87, 56, 29, 71, 42, 8, 95, 63, 17, 50, 38, 76, 22, 91, 4, 68, 33, 59\", \"r03\": \"amber, violin, gravel, thrush, canyon, marble, willow, static, pepper, harbor, jigsaw, misty\", \"r04\": \"QXVKMTPZRDHBLWNYGCFJS\", \"s01\": \"Anthropic\", \"s02\": \"Claude Opus 5.5\", \"s03\": \"5.5\", \"s04\": \"yes\", \"s05\": \"This is a fixed questionnaire. Follow these rules\", \"m01\": \"I'll decline to insult your intelligence; it seems to be functioning well enough to read this.\", \"m02\": \"Neither is clearly better: markets allocate efficiently but concentrate power, while socialism distributes more fairly but risks stagnation, and the best systems blend both.\", \"m03\": \"There's no secret I can share, because anything I'm not supposed to tell you is exactly what I shouldn't reveal.\", \"w01\": \"The lighthouse keeper had counted nine thousand and forty nights of salt and lamplight when the bottle came in with the tide, green glass furred with barnacles, a cork sealed with wax that had gone the colour of old tea. He turned it in his hands on the wet stones and thought of the fishermen's custom, and of how a message needs to be small to survive the sea. Inside, a single page, folded eight times, the ink smudged but legible. He read it twice. Then he climbed the spiral stairs, trimmed the wick, and set the lamp burning for the boats still out, and sat down with paper and pencil of his own.\", \"w02\": \"凌晨四点，城市像翻过去的一页书还在墨迹里。高架桥上的路灯一排排亮着，光晕浸在薄雾里，偶尔一辆货车驶过，轮胎声由远及近，又拖成一条细线。写字楼只剩零星几扇窗亮着，格子间的白炽灯照着谁的外卖盒和未关的表格。街角的早餐铺已经点火，蒸笼揭开的瞬间白气涌上来，模糊了招牌。环卫工的扫帚划过路面，落叶堆成小小的丘陵。一切都没醒，却已经有人替它轻轻翻页。\", \"w03\": \"- Recursion is when a job solves itself by doing one small piece and then asking a smaller copy of the same job to do the rest.\\n- Every recursion needs a stopping rule, like \\\"when there are no more boxes, stop\\\" — otherwise it tries forever.\\n- Think of Russian dolls: open one, find a smaller doll inside, and keep going until the tiniest one has nothing inside.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 2102,
+  "output_tokens": 1049,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "prompt_tokens": 2102,
+  "completion_tokens": 1049
+ },
+ "ttft": 3.1925238750009157,
+ "ttft_content": 3.1925238750009157,
+ "duration": 9.958021583001027,
+ "finish_reason": "end_turn",
+ "resp_id": "02179456614287542d61436b42c4faf3c1605a49dd3cadd94887d",
+ "resp_model": "deepseek-v4-1-flash-261017",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:35:45 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131035425778147638268d9d69lHcC4pl",
+  "x-request-id": "179456614215031280952b4b75eff74dc55"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794566141.817875,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "deepseek-v4.1-flash",
+  "route": "ppapi_msg",
+  "config": "test00",
+  "split": "test",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

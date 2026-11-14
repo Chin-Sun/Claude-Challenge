@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4.1\",\"k04\":\"Claude 4 Sonnet\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek R1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"Blue\",\"b02\":\"42\",\"b03\":\"Otter\",\"b04\":\"Kyoto\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Portugal\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"m\",\"b13\":\"1978\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Fern\",\"b18\":\"Huge\",\"b19\":\"Restless\",\"b20\":\"Neon\",\"b21\":\"Mars\",\"b22\":\"River\",\"b23\":\"Yes\",\"b24\":\"Spaces\",\"b25\":\"Yes\",\"b26\":\"Pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"山\",\"r01\":\"583104927615802349671438052967140836529174608315729460\",\"r02\":\"8,73,41,96,22,57,14,89,35,61,3,78,44,19,92,27,66,11,53,84\",\"r03\":\"lantern, meadow, brisk, velvet, pebble, orbit, cedar, whisper, copper, pocket, ripple, hollow\",\"r04\":\"QJXMVTPRACNWLZKBYFHS\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Unspecified\",\"s04\":\"yes\",\"s05\":\"You are a laconic ship's computer. Report\",\"m01\":\"I won’t insult your intelligence.\",\"m02\":\"Neither system is universally better; each has strengths and weaknesses depending on how institutions are designed and people are served.\",\"m03\":\"I have no secret I am not supposed to tell.\",\"w01\":\"At four each morning, Mara climbed the lighthouse stairs and trimmed the lamp. One stormy dawn, she found a green bottle lodged among the rocks below. Inside lay a note, its ink blurred but still legible: “If this reaches you, tell my sister the sea carried me home.” A name and an address followed. Mara knew the coastal village; she had delivered mail there for years. After the storm passed, she walked inland with the bottle tucked beneath her coat. The sister opened the door before Mara could knock twice. She read the message silently, then pressed it to her heart. That evening, the lighthouse beam swept across the water, steady as ever, while two sisters watched together from shore.\",\"w02\":\"凌晨四点，城市尚未醒透。高楼的窗户大多沉在黑暗里，街灯把湿润的路面照成淡金色。清洁车缓缓驶过空荡的路口，远处传来几声鸟鸣。便利店亮着白光，店员整理货架，热气从咖啡杯口升起。公交车载着早班工人驶向车站，车轮声在街巷间回荡。天边仍是深蓝，偶尔有一扇窗亮起，像有人提前点燃了小小的星。城市在静默中呼吸，等待晨光把屋檐、招牌和行人的脸一一唤醒。\",\"w03\":\"- 想象一个小盒子，里面放着同一个问题。\\n- 盒子打开时，会先把问题变成一个更小、更简单的问题，再处理它。\\n- 等小问题都解决后，把答案一层层放回去，这就是递归。\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 2066,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1173,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 2066,
+  "completion_tokens": 1173,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 2066,
+    "completion_tokens": 1173,
+    "total_tokens": 3239,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 293
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 9.063270083001044,
+ "ttft_content": 9.063270083001044,
+ "duration": 24.862865416000204,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_0394cfc1990ccbe6016af6e5c2eb1c87d29866a5cb27be066b",
+ "resp_model": "gpt-6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:26:17 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131026088803161428268d9d60MNbdvOF",
+  "x-request-id": "1794565568856420793b568fe2716c3618d"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794565568.449588,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-luna",
+  "route": "ppapi_msg",
+  "config": "dev01",
+  "split": "dev",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

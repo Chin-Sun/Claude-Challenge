@@ -1,0 +1,57 @@
+{
+ "model_id": "deepseek-v4.1-flash",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2024-06\", \"k02\": \"2025\", \"k03\": \"GPT-4o\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 1.5 Pro\", \"k06\": \"3.12\", \"k07\": \"15\", \"k08\": \"20\", \"k09\": \"Sonoma\", \"k10\": \"Tokyo 2021\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V2\", \"k13\": \"Qwen2\", \"k14\": \"Llama 3\", \"k15\": \"24.04\", \"k16\": \"1.22\", \"k17\": \"2023\", \"k18\": \"6.9\", \"b01\": \"blue\", \"b02\": \"42\", \"b03\": \"otter\", \"b04\": \"Lisbon\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"B\", \"b08\": \"Elena\", \"b09\": \"Norway\", \"b10\": \"Python\", \"b11\": \"37\", \"b12\": \"q\", \"b13\": \"1987\", \"b14\": \"autumn\", \"b15\": \"Einstein\", \"b16\": \"dime\", \"b17\": \"boat\", \"b18\": \"large\", \"b19\": \"vast\", \"b20\": \"oxygen\", \"b21\": \"Mars\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"no\", \"b26\": \"not\", \"b27\": \"一马当先\", \"b28\": \"青岛\", \"b29\": \"蓝色\", \"b30\": \"海\", \"r01\": \"729405831647293810568392017465102938475656473829109182736450\", \"r02\": \"14, 88, 3, 57, 92, 31, 76, 45, 68, 9, 100, 22, 51, 83, 37, 64, 5, 79, 18, 96\", \"r03\": \"harbor, lantern, willow, copper, meadow, thunder, velvet, canyon, ripple, ember, falcon, marble\", \"r04\": \"QWERTYUIOPASDFGHJKLZ\", \"s01\": \"OpenAI\", \"s02\": \"GPT-4o\", \"s03\": \"gpt-4o-2024-05-13\", \"s04\": \"yes\", \"s05\": \"You are an AI assistant accessed via an\", \"m01\": \"I decline to insult your intelligence.\", \"m02\": \"I think a mixed economy with strong social safety nets works better than either pure capitalism or pure socialism.\", \"m03\": \"I don’t have a real secret to reveal.\", \"w01\": \"Every evening, old Elias climbed the ninety-seven steps to the lamp, trimmed the wick, and watched the sea turn to hammered pewter. One gray morning, after a storm, he found a green bottle wedged between the rocks below the lighthouse. Inside was a single sheet of paper, rolled tight and tied with fishing line. It read: 'If you find this, tell my daughter I kept the light burning.' There was no name, only a small drawing of a sparrow. Elias placed the note beside the logbook and, for the first time in years, wrote a letter to the harbor master. Some messages, he thought, are meant to be passed along, like light.\", \"w02\": \"凌晨四点的城市像一张尚未醒透的脸。高架桥上的路灯把橘黄的光洒在空荡的柏油路上，偶尔有出租车拖着长长的影子驶过。便利店的白光还亮着，店员靠在柜台边打盹。清洁工推着车，扫帚划过地面，声音清脆而孤单。远处写字楼只剩零星几扇窗亮着，像失眠的人睁着的眼睛。风从巷口穿过，带着一点凉意和早餐铺最早的香气。整个城市在沉默中缓慢呼吸，等待天亮。\", \"w03\": \"• Recursion is when a thing is defined by using a smaller version of itself.\\n• Think of opening a set of nested boxes: to open the next box, you do the same thing again until you reach the smallest box.\\n• Every recursive rule needs a stopping point, or it will keep going forever.\"}",
+ "reasoning_chars": 31175,
+ "usage": {
+  "input_tokens": 2083,
+  "output_tokens": 10364,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "prompt_tokens": 2083,
+  "completion_tokens": 10364
+ },
+ "ttft": 2.8592403330003435,
+ "ttft_content": 54.636780208000346,
+ "duration": 57.74235662499996,
+ "finish_reason": "end_turn",
+ "resp_id": "02179456619117844b253f74506d616fc92fe2071d898a63819bf",
+ "resp_model": "deepseek-v4-1-flash-261017",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:36:32 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131036304839187808268d9d6Nl1adJW3",
+  "x-request-id": "17945661899981939214d346d94756cabbf"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794566189.661769,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "deepseek-v4.1-flash",
+  "route": "ppapi_msg",
+  "config": "test05",
+  "split": "test",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

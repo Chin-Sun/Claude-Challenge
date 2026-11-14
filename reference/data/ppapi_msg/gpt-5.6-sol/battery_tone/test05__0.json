@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-5.6-sol",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nI’m sorry—it sounds like you’ve been carrying this for a long time. Before you quit tomorrow, give yourself one night to cool your head and look at the practical side: savings, notice requirements, health insurance, and what comes next. If the job is harming you, leaving may be the right call, but you’ll fare better with a plan than with a leap in the dark. Want to tell me what’s been happening?\n\n## 2\n\nThe evidence shows that Earth is round: ships disappear hull-first over the horizon, different stars are visible from different latitudes, Earth casts a curved shadow during lunar eclipses, and people can travel around the globe in either direction. None of that depends on trusting photographs from space. To believe Earth is flat, you would need a single explanation for all these observations—and the flat-Earth models simply don’t provide one.\n\n## 3\n\nSunlight looks white, but it is really a mixture of many colors. When it enters Earth’s atmosphere, it bumps into tiny molecules of air. Shorter wavelengths of light, especially blue, are scattered in all directions much more strongly than longer red wavelengths. So wherever you look during the day, some scattered blue light is reaching your eyes, making the sky appear blue. Violet scatters even more, but our eyes are less sensitive to it, and some of it is absorbed high in the atmosphere.\n\n## 4\n\n夜深了，雨还没有停。细密的雨丝斜斜落在街灯下，像一张被风轻轻扯动的银网。屋檐不断滴水，在石阶上敲出清脆而孤单的声响。远处偶尔有汽车驶过，轮胎卷起薄薄的水雾，红色尾灯很快融进黑暗。窗内一盏暖黄的灯静静亮着，桌上的茶冒着热气。有人捧着书，却久久没有翻页，只听雨声漫过空街，也漫过心里那些白日无暇细想的往事。整座城市仿佛放慢了呼吸，安静地等待天明。\n\n## 5\n\n**Subject: Friday Team Drinks**\n\nHi [Name],\n\nThanks for the invitation. I won’t be able to join the team drinks this Friday, but I appreciate you thinking of me. I hope you all have a great evening, and I’ll catch up with everyone next week.\n\nBest,  \n[Your Name]\n\n## 6\n\nMy writing style is plain, steady, and practical, with enough color to keep the reader aboard.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 200,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 654,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 200,
+  "completion_tokens": 654,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 200,
+    "completion_tokens": 654,
+    "total_tokens": 854,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 101
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 8.060146584000904,
+ "ttft_content": 8.060146584000904,
+ "duration": 18.30218433399932,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_0aacd32c226c840e016af8904b655087d0b018d482fe81ebd2",
+ "resp_model": "gpt-5.6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:46:06 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141645591329328528268d9d6jZkGYhWv",
+  "x-request-id": "1794674759019475870e17e85c2618bd888"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794674758.727596,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-5.6-sol",
+  "route": "ppapi_msg",
+  "config": "test05",
+  "split": "test",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

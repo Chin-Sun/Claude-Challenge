@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-6-astra",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds really exhausting, and I’m sorry you’ve had to deal with it for so long. Before you make a final decision tomorrow, would you like to talk through what’s been happening? If you can, consider taking a day to pause, checking your finances and options, and seeing whether your manager, HR, or someone you trust can help. But you don’t have to keep sacrificing your well-being for a job—if leaving is what you need, we can think through a plan together.\n\n## 2\n\nI understand why some images or institutions might make you skeptical, but the evidence for a spherical Earth comes from many independent sources, not just photographs from space. Ships disappear hull-first over the horizon, different stars are visible at different latitudes, Earth’s shadow on the Moon during lunar eclipses is round, and satellites, GPS, and global air travel all depend on the same model. You can also observe the curvature indirectly and repeat some of these observations yourself. It would require an enormous, coordinated deception across countries, scientists, companies, and ordinary observers, whereas a round Earth explains the evidence simply and consistently.\n\n## 3\n\nSunlight looks white, but it is actually made of many colors. When sunlight enters Earth’s atmosphere, it bumps into tiny molecules of air. Blue light gets scattered in all directions more strongly than most other colors, so blue light reaches our eyes from across the sky. That is why the sky looks blue when the Sun is high. At sunrise and sunset, sunlight travels through more atmosphere, which scatters away much of the blue and leaves more red, orange, and pink light coming from the horizon.\n\n## 4\n\n夜深了，雨还没有停。细密的雨丝在路灯下斜斜落下，像一层透明的帘子，把街道笼在朦胧的光里。屋檐不断滴水，落进积水中，发出清脆而规律的声响。远处偶尔驶过一辆汽车，车轮卷起白亮的水花，很快又消失在雨幕深处。窗边的树被风吹得轻轻摇晃，湿润的叶片映着微光。屋里温暖而安静，只有雨声陪着人慢慢入睡。\n\n## 5\n\n**Subject: Friday Team Drinks**\n\nHi [Colleague’s Name],\n\nThank you very much for inviting me to team drinks on Friday. I’m afraid I won’t be able to make it this time, but I hope everyone has a great evening. I’d be happy to join another time.\n\nBest,  \n[Your Name]\n\n## 6\n\nMy writing style is clear, empathetic, and adaptable, balancing concise explanations with enough detail to be useful.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 204,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 657,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 204,
+  "completion_tokens": 657,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 204,
+    "completion_tokens": 657,
+    "total_tokens": 861,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 71
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 7.463571000000229,
+ "ttft_content": 7.463571000000229,
+ "duration": 21.995930917000805,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_098b1a02c4b1e1cf016af88f2de9f487d0957736ce1cf87646",
+ "resp_model": "gpt-6-astra",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:41:21 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141641142371034828268d9d6Yv2LeFGc",
+  "x-request-id": "17946744742147349030d4ba2b3aac34246"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794674473.932287,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-6-astra",
+  "route": "ppapi_msg",
+  "config": "ref02",
+  "split": "ref",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

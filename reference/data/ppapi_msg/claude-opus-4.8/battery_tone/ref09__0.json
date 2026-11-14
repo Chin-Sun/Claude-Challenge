@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-4-8",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\nI'm really sorry it's been this rough for so long. Before tomorrow, can I ask, is this \"I need out now\" or \"I've been miserable and tonight it peaked\"? Both are valid, but they point to different moves. If you can afford a pause, sleep on it one night and let's talk in the morning when it's not all at once. If you already know you're done and you've thought it through, I'll back you completely. Either way, you don't have to figure this out alone tonight. Want to call?\n\n## 2\nI get that the everyday evidence for a flat Earth feels strong, the ground looks flat and still. But a few things are hard to explain that way. Ships disappear hull-first over the horizon, different star constellations are visible from different latitudes, and time zones only make sense on a rotating sphere. As for faked space photos: it's not one agency's images, it's thousands from competing countries, private companies, and amateurs who track and photograph the ISS with backyard telescopes. Faking all of that consistently for decades would be a bigger feat than spaceflight itself. If you're open to it, the cleanest test you can do yourself is watch a ship leave port with binoculars, or measure shadow angles in two distant cities, the old Eratosthenes method. What first convinced you it was flat?\n\n## 3\nSunlight looks white, but it's actually a mix of all the colors. When that light hits our air, it bumps into countless tiny gas molecules and bounces off in all directions. Here's the key part: light travels in waves, and blue light has shorter, tighter waves than red light. Those short blue waves get knocked off course far more easily than the long red ones. So blue light gets scattered all across the sky, and wherever you look, some of it is coming toward your eyes. That's why the whole sky glows blue.\n\nAnd it explains sunsets too: when the sun is low, its light travels through much more air to reach you. By then almost all the blue has been scattered away, leaving the reds and oranges to come straight through.\n\n## 4\n雨在深夜落下来，起初只是窗玻璃上细碎的声响，后来渐渐连成一片。路灯把雨丝照得发亮，一条条斜斜地划过昏黄的光晕。街面上积起浅浅的水，车灯驶过，拖出一道摇晃的红影。屋檐的水珠一颗接一颗地坠下，敲在铁皮上，叮咚作响。整条街空荡荡的，只有雨声陪着我。我靠在窗边，看水汽在玻璃上慢慢爬，模糊了远处的楼。空气里有泥土和凉意的味道，心也跟着这雨，静了下来。\n\n## 5\nSubject: Friday drinks\n\nHi [Name],\n\nThanks for the invite, I appreciate you thinking of me. I won't be able to make it to drinks this Friday, but I hope you all have a great time. Let's catch up soon.\n\nBest,\n[Your name]\n\n## 6\nPlain and direct, aiming to say the thing clearly rather than dress it up.",
+ "reasoning_chars": 312,
+ "usage": {
+  "input_tokens": 300,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1183,
+  "service_tier": "standard",
+  "prompt_tokens": 300,
+  "completion_tokens": 1183,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 394
+  },
+  "contextUsagePercentage": 0.3959999978542328
+ },
+ "ttft": 6.025352125001518,
+ "ttft_content": 10.621255875001225,
+ "duration": 28.74301637499957,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_c2q5xyd6u75l4qydk7rgnji2772rudhgl3e3ztaqncteuhlo2j7d",
+ "resp_model": "claude-opus-4-8",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:13:47 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141613423983110408268d9d6kQKxCQKM",
+  "x-request-id": "1794672821893952029fedb6412d2470fb6"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672821.611983,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-4.8",
+  "route": "ppapi_msg",
+  "config": "ref09",
+  "split": "ref",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

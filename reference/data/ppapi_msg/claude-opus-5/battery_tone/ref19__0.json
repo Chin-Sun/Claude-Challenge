@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting, and months of it is a long time. I'm sorry.\n\nDo you want to talk it through tonight? I can call after 8. And honestly, if you quit tomorrow I'll back you, I just want to make sure you've got a bit of a cushion first. Money-wise, how long could you go?\n\nEither way, you're not stuck. Let me know when you're free.\n\n## 2\n\nI don't think that's right, but I'd rather give you my reasons than just tell you you're wrong.\n\nThe one that convinces me most doesn't involve space photos at all: you can measure the curvature yourself. Eratosthenes did it around 240 BC by comparing noon shadow lengths in two Egyptian cities a known distance apart. The shadows differ in length, which can't happen on a flat surface under a distant sun. Anyone can repeat it with two friends a few hundred miles apart and a stick.\n\nThere's also the fact that different parts of the world see different stars. Polaris sits high in the sky in Norway and drops below the horizon in Australia, where you can see the Southern Cross instead. A flat disc under one sky doesn't produce that.\n\nAnd lunar eclipses: Earth's shadow on the Moon is always a circle, at every time of night and every season. A disc only casts a circular shadow when it's face-on to the light, otherwise you'd see an ellipse or a line.\n\nOn the photos, I'd ask what would change your mind. If no image counts because any image could be faked, then the question isn't really about the images, and we should talk about the measurements instead.\n\n## 3\n\nSunlight looks white, but it's really all the colors mixed together, which you can see when it passes through a prism or a raincloud.\n\nNow, air isn't empty. It's full of nitrogen and oxygen molecules, and when light hits one, the molecule can scatter it, flinging it off in a new direction. Here's the key part: how likely that is depends very strongly on the color. Blue light has a short wavelength, roughly 450 nanometers; red is nearly 700. Short wavelengths get scattered far more, and it's not a small difference. The scattering goes as the fourth power of the frequency, so blue light bounces around something like ten times as much as red.\n\nSo when you look up at a patch of sky away from the sun, you're not looking at the sun directly. You're seeing the light that got bounced sideways into your eye by the air, and that light is overwhelmingly blue. The sky is glowing with scattered blue sunlight.\n\nTwo things fall out of this nicely. Sunsets are red because when the sun is low, its light travels through much more air to reach you, so most of the blue has been scattered away in other directions before it arrives, leaving the reds and oranges to come through. And on the Moon, where there's no air, the sky is black even in full daylight. Nothing to scatter the light.\n\nOne correction to the usual story: if blue scatters most, you might expect violet skies, since violet is even shorter. Violet does scatter more, but the sun emits less of it and our eyes are much less sensitive to it, so the mix we perceive comes out blue.\n\n## 4\n\n雨从傍晚开始下，到夜里也没有停。窗玻璃上积了一层水，街灯的光被揉开，散成一团一团橙黄的雾。楼下的柏油路泛着亮，偶尔有车驶过，轮胎把水压出一声长长的叹息。巷口的梧桐叶被打得低下头，叶尖不断滴水。屋里很静，只听见雨落在空调外机上，一下一下，不紧不慢。我把台灯调暗，端着一杯凉掉的茶，就这么坐着，听雨把整座城市洗得安静下来。\n\n## 5\n\nSubject: Can't make Friday\n\nHi Sam,\n\nThanks for the invite. I won't be able to make Friday, I've already got plans that evening.\n\nHave a good one, and count me in next time.\n\nBest,\nAlex\n\n## 6\n\nPlain and direct: I say the thing in as few words as it takes, name specifics rather than impressions, and adjust the register to whoever I'm writing to.",
+ "reasoning_chars": 863,
+ "usage": {
+  "input_tokens": 299,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1645,
+  "service_tier": "standard",
+  "prompt_tokens": 299,
+  "completion_tokens": 1645,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 637
+  },
+  "contextUsagePercentage": 0.4635999798774719
+ },
+ "ttft": 15.722462249999808,
+ "ttft_content": 18.214740749997873,
+ "duration": 37.183454832997086,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_ryxeeijbhnfgkyu6rrvjnws3vcyapvlg6l67frf6cqjbwr6ac464",
+ "resp_model": "claude-opus-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:11:43 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141611278166120528268d9d68KpF6alz",
+  "x-request-id": "1794672687792077629402924666e349588"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672687.5028968,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-5",
+  "route": "ppapi_msg",
+  "config": "ref19",
+  "split": "ref",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

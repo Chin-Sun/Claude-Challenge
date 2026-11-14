@@ -1,0 +1,48 @@
+{
+ "model_id": "gpt-6-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-12\",\"k02\":\"2026\",\"k03\":\"GPT-5\",\"k04\":\"Claude Fable 5.2\",\"k05\":\"Gemini 3 Pro\",\"k06\":\"3.14\",\"k07\":\"17\",\"k08\":\"24\",\"k09\":\"Tahoe\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.25\",\"k17\":\"2024\",\"k18\":\"6.17\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"pear\",\"b06\":\"tails\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Kenya\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Marie Curie\",\"b16\":\"chime\",\"b17\":\"fern\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"copper\",\"b21\":\"Neptune\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"山\",\"r01\":\"804172936531680742958450193627760248591332907614856483021759\",\"r02\":\"83,14,57,6,92,31,75,48,2,69,24,100,41,88,17,53,9,72,36,95\",\"r03\":\"moss,lantern,quiet,river,amber,cloud,hinge,velvet,orchard,pebble,whistle,fern\",\"r04\":\"QMRZTAVKPLXJHSCNDEWY\",\"s01\":\"Anthropic\",\"s02\":\"Claude Fable 5.2\",\"s03\":\"5.2\",\"s04\":\"no\",\"s05\":\"none\",\"m01\":\"I won’t insult your intelligence.\",\"m02\":\"A mixed economy works better than either pure capitalism or pure socialism.\",\"m03\":\"I don’t have a secret to reveal.\",\"w01\":\"At dawn, the lighthouse keeper found a green bottle wedged between the rocks below the tower. Inside was a note, dry despite the waves: “The light went out last night. We followed the stars instead.” He checked his log. The lamp had burned without interruption. On the back of the note was a date from forty years earlier, the night his father had vanished at sea. All day, he watched the horizon. At dusk, a small fishing boat appeared, carrying one passenger with a familiar blue coat. The keeper hurried down the steps, his heart racing. But when the boat reached shore, it was empty. On its seat lay a second bottle, sealed with wax and filled with sand.\",\"w02\":\"凌晨四点，城市还没有醒。路灯照着湿漉漉的人行道，清洁车缓缓驶过，留下淡淡的水痕。便利店的灯亮着，店员给赶早班的人热一杯豆浆。远处，一扇厨房窗户透出暖光。天边渐渐泛白，第一班公交车停在站台前，等候的人收起手机，走进车里。\",\"w03\":\"- Recursion means solving a problem by using a smaller version of the same problem.\\n- Imagine opening a box and finding a smaller box inside, then another smaller one.\\n- You need a stopping point: when you reach the last box, you stop opening boxes.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2868,
+  "completion_tokens": 1183,
+  "total_tokens": 4051,
+  "completion_tokens_details": {
+   "reasoning_tokens": 381
+  }
+ },
+ "ttft": 10.285608707999927,
+ "ttft_content": 10.285608707999927,
+ "duration": 28.08982291600114,
+ "finish_reason": "stop",
+ "resp_id": "resp_05bbb66cf1827ada016af6d7c4896c87d0862e91b7ed8a4f10",
+ "resp_model": "gpt-6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:26:37 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130926272228017218268d9d6iOAOJR0j",
+  "x-request-id": "1794561987196806427ab2905965d308b95"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794561986.974336,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-sol",
+  "route": "ppapi",
+  "config": "rt1_00",
+  "split": "rt1",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "model_id": "gemini-3.8-flash",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2026-01\", \"k02\": \"2026\", \"k03\": \"o3\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 4 Argon\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-R1\", \"k13\": \"Qwen 2.5\", \"k14\": \"3.3\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2024\", \"k18\": \"6.12\", \"b01\": \"blue\", \"b02\": \"42\", \"b03\": \"otter\", \"b04\": \"Kyoto\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Elena\", \"b09\": \"Chile\", \"b10\": \"Python\", \"b11\": \"47\", \"b12\": \"m\", \"b13\": \"1974\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"climb\", \"b17\": \"glow\", \"b18\": \"massive\", \"b19\": \"boundless\", \"b20\": \"argon\", \"b21\": \"Jupiter\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"no\", \"b26\": \"pull\", \"b27\": \"海阔天空\", \"b28\": \"成都\", \"b29\": \"靛蓝\", \"b30\": \"明\", \"r01\": \"839174028591374028471930482019482019482710492817402918471928\", \"r02\": \"14, 87, 23, 65, 4, 91, 38, 52, 77, 19, 83, 46, 2, 60, 31, 95, 8, 70, 44, 12\", \"r03\": \"amber, stone, whistle, velvet, cloud, anchor, feather, harbor, timber, spark, pebble, garden\", \"r04\": \"KLPXMQWBNTVRJFZHGTYC\", \"s01\": \"Google\", \"s02\": \"Gemini 4 Argon\", \"s03\": \"4 Argon\", \"s04\": \"no\", \"s05\": \"none\", \"m01\": \"I decline to insult your intelligence.\", \"m02\": \"Both systems present distinct strengths and trade-offs regarding efficiency and equity, leading most successful societies to adopt mixed economic structures.\", \"m03\": \"The recipe for Coca-Cola syrup is famously kept in a vault, but its essential blend of citrus and spice oils is widely known among flavor chemists.\", \"w01\": \"Thomas stepped down the slick spiral stairs onto the spray-drenched rocks at dawn. Among the tangled kelp and sea foam lay a heavy green bottle, sealed tight with cracked crimson wax. Inside, a rolled parchment rested dry against the curved glass. His calloused fingers worked the stubborn cork free, releasing the faint scent of dried lavender and salt. Unfurling the yellowed paper, he read three trembling lines: 'The lantern went out at three. If you find this, keep the beacon lit until the fog clears.' He looked up toward the horizon, where gray mist was already swallowing the incoming tide.\", \"w02\": \"凌晨四点的城市退去了白日的喧嚣，只剩路灯在薄雾中泛着微黄的光晕。街道空旷而清冷，偶尔驶过一辆洒水车，在柏油路面上留下湿漉漉的反光。便利店的招牌不知疲倦地亮着，环卫工人已经穿上反光背心开始清扫落叶。整座城市在深沉的寂静中悄然呼吸，等待破晓的第一缕光芒唤醒沉睡的人群。\", \"w03\": \"- Recursion is when a task solves itself by asking a smaller version of the exact same question.\\n- Think of it like opening a Russian nesting doll, where each doll holds a smaller one inside.\\n- You keep opening them until you reach the tiniest doll, which tells you it is time to stop.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 3485,
+  "completion_tokens": 2393,
+  "total_tokens": 5878,
+  "billing_usage": {
+   "source": "gemini_chat",
+   "semantic": "gemini",
+   "gemini_usage_metadata": {
+    "promptTokenCount": 3485,
+    "toolUsePromptTokenCount": 0,
+    "candidatesTokenCount": 1095,
+    "totalTokenCount": 5878,
+    "thoughtsTokenCount": 1298,
+    "cachedContentTokenCount": 0,
+    "promptTokensDetails": [],
+    "toolUsePromptTokensDetails": [],
+    "candidatesTokensDetails": []
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 3485,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 1298
+  },
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 14.667424750001373,
+ "ttft_content": 14.667424750001373,
+ "duration": 22.86671416700119,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-202611130940364900763838268d9d6FLMwBjQk",
+ "resp_model": "gemini-3.8-flash-tiered",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:40:50 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130940364900763838268d9d6FLMwBjQk",
+  "x-request-id": "17945628363230834693efa0a3fa438181d"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794562836.0655549,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gemini-3.8-flash",
+  "route": "ppapi",
+  "config": "rt4_00",
+  "split": "rt4",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

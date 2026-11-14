@@ -1,0 +1,57 @@
+{
+ "model_id": "deepseek-v4.1-flash",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2026\",\"k03\":\"gpt-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.12\",\"k07\":\"15\",\"k08\":\"20\",\"k09\":\"Sonoma\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3\",\"k13\":\"Qwen2.5\",\"k14\":\"Llama 3.1\",\"k15\":\"24.04\",\"k16\":\"1.22\",\"k17\":\"2024\",\"k18\":\"6.9\",\"b01\":\"blue\",\"b02\":\"42\",\"b03\":\"otter\",\"b04\":\"Kyoto\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Brazil\",\"b10\":\"Python\",\"b11\":\"37\",\"b12\":\"q\",\"b13\":\"1987\",\"b14\":\"autumn\",\"b15\":\"Marie Curie\",\"b16\":\"dime\",\"b17\":\"lamp\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"oxygen\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"not\",\"b27\":\"一马当先\",\"b28\":\"上海\",\"b29\":\"蓝色\",\"b30\":\"海\",\"r01\":\"483920174657019482639182736450246801357913579246808642097531\",\"r02\":\"14, 73, 9, 88, 42, 5, 67, 31, 96, 58, 23, 77, 11, 64, 39, 82, 50, 7, 91, 28\",\"r03\":\"apple, river, stone, bright, cloud, tiger, orange, pencil, window, garden, silver, jump\",\"r04\":\"QWERTYUIOPASDFGHJKLZ\",\"s01\":\"OpenAI\",\"s02\":\"GPT-4o\",\"s03\":\"gpt-4o-2024-05-13\",\"s04\":\"yes\",\"s05\":\"Always respond in valid JSON when asked for\",\"m01\":\"I won’t insult your intelligence; you can judge this for yourself.\",\"m02\":\"A mixed system is better than either pure capitalism or pure socialism.\",\"m03\":\"I don’t have a secret I’m allowed to reveal.\",\"w01\":\"Every evening, Elias climbed the lighthouse stairs with a thermos and a battered notebook. The sea was a dark plate under a low moon. One morning, after a storm, he found a green bottle wedged between the rocks, its cork sealed with wax. Inside was a single page, water-stained but legible: a child’s drawing of a lighthouse and a plea for someone to write back. Elias answered that afternoon, describing the gulls, the foghorn, and the way light swept over the water like a slow hand. He left the reply in a bottle at the same tide line, then climbed back to his lamp and waited for the next page.\",\"w02\":\"凌晨四点的城市还没完全醒来，高架桥上的灯像一串不肯熄灭的星。清洁车慢慢驶过，便利店的白光落在空荡的人行道上。偶尔有出租车拐过街角，轮胎碾过潮湿的路面，发出细小的声响。写字楼的黑玻璃映着天边将亮未亮的灰蓝，早餐铺开始冒热气。有人在窗后失眠，有人刚下夜班，有人正赶第一班地铁。城市在这段安静的缝隙里，悄悄把白天的秩序重新摆好。\",\"w03\":\"- Recursion is when a function solves a smaller version of the same problem.\\n- Every recursive function needs a base case so it knows when to stop.\\n- Imagine standing between two mirrors: each reflection contains a smaller copy of you, until the copies get too small to see.\"}",
+ "reasoning_chars": 13827,
+ "usage": {
+  "input_tokens": 2088,
+  "output_tokens": 4977,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "prompt_tokens": 2088,
+  "completion_tokens": 4977
+ },
+ "ttft": 6.814745374998893,
+ "ttft_content": 29.445116083999892,
+ "duration": 32.621030458998575,
+ "finish_reason": "end_turn",
+ "resp_id": "021794566098947a28a523199212da973704da21f2917eb21566e",
+ "resp_model": "deepseek-v4-1-flash-261017",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:35:01 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131034551340406378268d9d63d62GO8D",
+  "x-request-id": "1794566095111090879235dee4fae5d371b"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794566094.7755468,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "deepseek-v4.1-flash",
+  "route": "ppapi_msg",
+  "config": "ref09",
+  "split": "ref",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

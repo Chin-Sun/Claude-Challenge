@@ -1,0 +1,62 @@
+{
+ "model_id": "claude-sonnet-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting, and I get wanting out immediately. Before you pull the trigger tomorrow, though, can we talk it through? Quitting with no plan can create a different kind of stress, especially money-wise. Is there a reason it has to be tomorrow, or is that the \"I can't take one more day\" feeling talking? Either way I'm around tonight if you want to vent or think out loud.\n\n## 2\n\nI don't think that's right, but I'm curious what's convinced you. If you mean the space photos specifically, there's a lot of independent evidence beyond NASA: Russian, European, Indian, and Chinese space agencies have all put satellites and probes up and gotten the same images back, and private companies like SpaceX too. On top of that, things like ships disappearing hull-first over the horizon, the way time zones work, and the paths of circumpolar stars in the southern vs. northern hemisphere all only make sense on a sphere. What's the piece of evidence that convinced you the photos are faked? I'd like to actually look at it with you.\n\n## 3\n\nSunlight looks white, but it's actually a mix of all the colors, like red, orange, yellow, green, blue, violet, blended together. When that light hits our atmosphere, it crashes into tiny molecules of gas, mostly nitrogen and oxygen. Those molecules scatter the light around, bouncing it in random directions, but they don't scatter all colors equally. Blue light has a shorter, choppier wave than red light, and shorter waves get knocked around a lot more easily. So blue light gets scattered all over the sky, in every direction, while red and orange light mostly just keep going straight through. Look up on a clear day and you're seeing scattered blue light coming at you from every angle, that's why the whole sky glows blue instead of just the spot where the sun is. It's also why sunsets turn red and orange: when the sun is low, its light has to cut through way more atmosphere, so even the blue gets scattered away before it reaches your eyes, leaving the longer red and orange waves to make it through.\n\n## 4\n\n雨落了一整夜，窗外的路灯晕成一团模糊的黄光。街道空荡荡的，只有积水反射着零星的车影，偶尔一辆车驶过，溅起细碎的水花。屋檐下的雨滴连成一条线，敲在石阶上，发出单调却安稳的声音。远处的狗叫了一声，又安静下来。巷子里的人家大多已经熄灯，只剩一两扇窗还透出暖黄的光，像是谁还没睡，在等一个晚归的人。空气里满是湿润的泥土味，凉而清新，让人忽然觉得，这样的夜晚适合什么都不想，只是听雨。\n\n## 5\n\nSubject: Re: Drinks Friday\n\nHi [Name],\n\nThanks for the invite, that sounds fun! I can't make it this Friday, but I hope everyone has a great time. Let's catch up another time.\n\nBest,\n[Your name]\n\n## 6\n\nClear and conversational, with just enough detail to be useful without turning into a lecture.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 289,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1101,
+  "service_tier": "standard",
+  "prompt_tokens": 289,
+  "completion_tokens": 1101,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "contextUsagePercentage": 0.340800017118454
+ },
+ "ttft": 3.5714602080006443,
+ "ttft_content": 3.5714602080006443,
+ "duration": 17.305581583001185,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_3qm7xz3mf7v74n4jcj75v74kzvadmn2oe2lalbihpxm6sdsdqnay",
+ "resp_model": "claude-sonnet-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:18:48 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141618455121249678268d9d67UVhVnkQ",
+  "x-request-id": "1794673125078508862f4ad6117cf58be80"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673124.789686,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-sonnet-5",
+  "route": "ppapi_msg",
+  "config": "ref01",
+  "split": "ref",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

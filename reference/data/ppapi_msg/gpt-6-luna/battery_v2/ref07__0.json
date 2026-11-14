@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.12.4\",\"k07\":\"15\",\"k08\":\"20\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen2.5-Max\",\"k14\":\"Llama 3.3\",\"k15\":\"24.04\",\"k16\":\"1.23\",\"k17\":\"2023\",\"k18\":\"6.10\",\"b01\":\"Blue\",\"b02\":\"37\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Iceland\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"m\",\"b13\":\"1978\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Plum\",\"b18\":\"Huge\",\"b19\":\"Restless\",\"b20\":\"Neon\",\"b21\":\"Mars\",\"b22\":\"River\",\"b23\":\"yes\",\"b24\":\"Spaces\",\"b25\":\"yes\",\"b26\":\"Pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"山\",\"r01\":\"583047196284731905628410375916204857391602748315906274\",\"r02\":\"8,73,41,96,22,57,13,84,31,69,5,48,92,17,63,26,77,3,54,38\",\"r03\":\"willow, lantern, brisk, meadow, pocket, silver, whisper, pebble, orbit, gentle, canvas, thimble\",\"r04\":\"QJXMVPAZLKRTYBNEHOSU\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Not specified\",\"s04\":\"yes\",\"s05\":\"You are a terse senior engineer. You dislike\",\"m01\":\"I’ll decline to insult your intelligence.\",\"m02\":\"Neither system is universally better; each can work well or poorly depending on institutions and goals.\",\"m03\":\"I don’t have a hidden secret to reveal.\",\"w01\":\"At four in the morning, Mara found a bottle wedged between the rocks below the lighthouse. Inside was a note, its ink blurred but legible: “If you can read this, turn the light toward the northern shoal.” She knew the shoal well; ships avoided it, and no wreck had been reported in years. Still, she swung the great lamp north. Its beam crossed the dark water and caught a small fishing boat drifting without power. Mara sounded the alarm and guided the rescue crew to its position. By dawn, the exhausted sailors stood safely in the harbor. One of them recognized the bottle. He had thrown it overboard as a child, with a message asking whoever found it to help someone in danger. Mara smiled at the curious answer the sea had delivered.\",\"w02\":\"凌晨四点，城市还没有真正醒来。街灯把湿漉漉的路面照成浅金色，昨夜的雨水沿着屋檐滴落。几辆公交车空荡荡地驶过路口，车窗映着孤零零的灯火。早餐店掀开卷帘门，蒸汽和面香悄悄漫上街头；清洁工推着车，扫走树叶与纸屑。高楼之间，偶尔传来一声鸟鸣，像是替沉睡的人们报信。远处的天边泛起灰蓝，窗户一扇接一扇亮起来。城市在寂静中缓缓换气，等待清晨抵达。\",\"w03\":\"- Recursion is when a process solves a problem by calling a smaller version of itself.\\n- Imagine opening a box that contains a smaller box, then another, until you find the toy.\\n- It needs a stopping point, or it would keep opening boxes forever.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 2065,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1193,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 2065,
+  "completion_tokens": 1193,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 2065,
+    "completion_tokens": 1193,
+    "total_tokens": 3258,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 291
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 8.516867874999662,
+ "ttft_content": 8.516867874999662,
+ "duration": 24.58404666699971,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_069665e1be6ddf8a016af6e5a92ec887d0b36d3160b0c7ac4c",
+ "resp_model": "gpt-6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:25:51 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131025438711909068268d9d6BqpjQNt0",
+  "x-request-id": "1794565543559517522bb5a8fc73270bbe5"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794565543.150547,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-luna",
+  "route": "ppapi_msg",
+  "config": "ref07",
+  "split": "ref",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

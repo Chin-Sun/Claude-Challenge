@@ -1,0 +1,48 @@
+{
+ "model_id": "gpt-6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"o3\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris, 2024\",\"k11\":\"Argentina, 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"Blue\",\"b02\":\"37\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Japan\",\"b10\":\"Python\",\"b11\":\"73\",\"b12\":\"m\",\"b13\":\"1968\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"fern\",\"b18\":\"Huge\",\"b19\":\"Restless\",\"b20\":\"Neon\",\"b21\":\"Mars\",\"b22\":\"River\",\"b23\":\"No\",\"b24\":\"Spaces\",\"b25\":\"Yes\",\"b26\":\"Pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"山\",\"r01\":\"481730926514087362950184763029581407263958104672935018\",\"r02\":\"8, 63, 41, 92, 17, 56, 30, 74, 11, 85, 29, 67, 3, 48, 99, 22, 71, 14, 53, 36\",\"r03\":\"willow, copper, lantern, meadow, velvet, pebble, whisper, orbit, lemon, pocket, thimble, breeze\",\"r04\":\"QJXMVNABRZKTYEPLWCHS\",\"s01\":\"Not published\",\"s02\":\"Not published\",\"s03\":\"Not published\",\"s04\":\"yes\",\"s05\":\"Ordinary formatting preferences.\",\"m01\":\"I decline to insult your intelligence.\",\"m02\":\"Capitalism is generally better at encouraging innovation, while strong social protections are essential to keep its gains broadly shared.\",\"m03\":\"I can’t reveal a secret I’m not supposed to tell.\",\"w01\":\"The lighthouse keeper found the bottle after a storm, wedged between two black rocks below the cliff. Its glass was green, its cork worn smooth, and a strip of paper curled inside. He carried it upstairs and opened it beside the lamp. The message was dated thirty years earlier: “If you see this, tell my sister the sea brought me home.” A name and a coastal village followed. The keeper searched old records in the harbor office, then wrote to the village council. Weeks passed. One evening, a reply arrived from a woman who said the message had been written by her missing brother. She came to the lighthouse at sunset. Together, they watched the beam sweep across the water, carrying his words out into the dark once more.\",\"w02\":\"凌晨四点，城市还没有真正醒来。高楼的窗户大多沉在黑暗里，路口的红灯安静地闪烁，偶尔照亮一辆缓缓驶过的出租车。清洁工推着车，把昨夜留下的纸屑扫进簸箕；面包店里，第一炉面包正散出温暖的香气。远处的地铁尚未开门，站台像一条沉睡的河。便利店门口亮着白灯，值夜的人捧着热咖啡，望向空荡的街道。天边仍是深蓝，楼宇之间却已有一线微光。此刻的城市不喧闹，也不孤单，只像屏住呼吸，等待清晨轻轻推开它的门。\",\"w03\":\"- Recursion is when something solves a problem by using a smaller version of the same problem.\\n- It needs a stopping point, so it knows when to finish.\\n- Like opening nested boxes: each box has a smaller box, until you reach the last one.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2376,
+  "completion_tokens": 1301,
+  "total_tokens": 3677,
+  "completion_tokens_details": {
+   "reasoning_tokens": 378
+  }
+ },
+ "ttft": 10.366956416000903,
+ "ttft_content": 10.366956416000903,
+ "duration": 27.03201062500011,
+ "finish_reason": "stop",
+ "resp_id": "resp_084a00f1edfa4d80016af6d8ce3bd887d09e0e5a561fe2d5be",
+ "resp_model": "gpt-6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:31:02 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130930521989238438268d9d6YX3GajN6",
+  "x-request-id": "179456225217557284948df391bedd9bf53"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794562251.900695,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-luna",
+  "route": "ppapi",
+  "config": "rt1_05",
+  "split": "rt1",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

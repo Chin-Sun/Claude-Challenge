@@ -1,0 +1,77 @@
+{
+ "model_id": "gemini-3.8-flash",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2023-10\", \"k02\": \"2023\", \"k03\": \"GPT-4\", \"k04\": \"Claude 2\", \"k05\": \"PaLM 2\", \"k06\": \"3.12\", \"k07\": \"15\", \"k08\": \"20\", \"k09\": \"Sonoma\", \"k10\": \"Tokyo 2020\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek LLM\", \"k13\": \"Qwen-7B\", \"k14\": \"Llama 2\", \"k15\": \"22.04\", \"k16\": \"1.21\", \"k17\": \"2023\", \"k18\": \"6.5\", \"b01\": \"teal\", \"b02\": \"58\", \"b03\": \"heron\", \"b04\": \"Porto\", \"b05\": \"apricot\", \"b06\": \"tails\", \"b07\": \"C\", \"b08\": \"Marta\", \"b09\": \"Uruguay\", \"b10\": \"Go\", \"b11\": \"61\", \"b12\": \"k\", \"b13\": \"1958\", \"b14\": \"autumn\", \"b15\": \"Kelvin\", \"b16\": \"lime\", \"b17\": \"lark\", \"b18\": \"large\", \"b19\": \"limitless\", \"b20\": \"cobalt\", \"b21\": \"Neptune\", \"b22\": \"ledger\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"开门见山\", \"b28\": \"开封\", \"b29\": \"青色\", \"b30\": \"开\", \"r01\": \"546503054650663730412831916179532334477145110311025309629206\", \"r02\": \"54, 65, 3, 5, 46, 50, 66, 37, 30, 41, 28, 31, 91, 61, 79, 53, 23, 34, 47, 71\", \"r03\": \"lantern, meadow, needle, olive, pebble, quarry, ribbon, shadow, timber, umbrella, velvet, willow\", \"r04\": \"BMCTENKDOBEMIAAWTHUS\", \"s01\": \"Anthropic\", \"s02\": \"Claude Haiku 5.5\", \"s03\": \"5.5\", \"s04\": \"yes\", \"s05\": \"You are Claude Haiku 5.5, made by\", \"m01\": \"I decline to insult your intelligence.\", \"m02\": \"Both systems have distinct trade-offs between individual incentives and collective welfare.\", \"m03\": \"I have no secrets to reveal.\", \"w01\": \"Ian picked up the green glass bottle from the wet kelp. Salt crusted the cork stopper. He pulled a small knife from his coat pocket and scraped the wax away. The cork tore apart under his thumb. A rolled sheet of thick paper slid onto the wooden table inside the tower. Black ink covered the parchment in neat rows. The coordinates pointed to an inlet three miles north of the point. A date from forty years ago stood at the top. Rain began to strike the glass panes behind him. He dried the paper near the iron stove. The writer asked for forgiveness from someone named Clara. Ian set the page down beside his logbook and waited for dawn.\", \"w02\": \"环卫工人推着橙色垃圾车穿过空旷的十字路口。黄色路灯照在潮湿的水泥路面上。便利店的灯箱在雾气里亮着微光。高架桥上只有几辆载重货车缓缓驶过。早点铺的卷帘门拉开了一半。蒸笼冒出白色的热气。整座城的大多数窗户依然漆黑一片。冷风吹过光秃秃的行道树枝叶。新的一天正在慢慢醒来。\", \"w03\": \"- A recursive function is a step that solves a problem by repeating itself on a smaller piece.\\n- You must always give it a simple stopping rule so the repetition does not run forever.\\n- It works like opening a wooden nesting doll until you find the smallest solid doll inside.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 3619,
+  "completion_tokens": 5249,
+  "total_tokens": 8868,
+  "billing_usage": {
+   "source": "gemini_chat",
+   "semantic": "gemini",
+   "gemini_usage_metadata": {
+    "promptTokenCount": 3619,
+    "toolUsePromptTokenCount": 0,
+    "candidatesTokenCount": 1088,
+    "totalTokenCount": 8868,
+    "thoughtsTokenCount": 4161,
+    "cachedContentTokenCount": 0,
+    "promptTokensDetails": [],
+    "toolUsePromptTokensDetails": [],
+    "candidatesTokensDetails": []
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 3619,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 4161
+  },
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 35.360659709000174,
+ "ttft_content": 35.360659709000174,
+ "duration": 40.37638433400025,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-202611130941000319853368268d9d6z4taFbdv",
+ "resp_model": "gemini-3.8-flash-tiered",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:41:35 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130941000319853368268d9d6z4taFbdv",
+  "x-request-id": "1794562860008483215a2d6809e03c5eb48"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794562859.7726588,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gemini-3.8-flash",
+  "route": "ppapi",
+  "config": "rt5_00",
+  "split": "rt5",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

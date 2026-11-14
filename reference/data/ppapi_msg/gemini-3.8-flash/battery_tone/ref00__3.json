@@ -1,0 +1,81 @@
+{
+ "model_id": "gemini-3.8-flash",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nHey, I'm so sorry you're at this point. If it’s been miserable for months, I completely understand why you just want to rip the band-aid off. \n\nBefore you hand in your notice tomorrow, can we talk tonight? I want to make sure you have an exit plan so you’re walking away on your own terms rather than purely out of exhaustion. But if it’s genuinely destroying your mental health and you just can’t walk in there again, I will back you 100%. \n\nAre you free for a call around 7?\n\n## 2\n\nI understand why it’s tempting to doubt large institutions—there are plenty of times throughout history when governments and official narratives haven't been honest. \n\nWhere the flat Earth idea falls apart for me, though, isn't about trusting NASA or satellite imagery. It’s that you don't need space photos to observe curvature; humans figured this out thousands of years ago with simple geometry. If the Earth were flat, lunar eclipses wouldn't consistently cast a round shadow, cargo ships wouldn't disappear bottom-first over the horizon, and you wouldn't see entirely different constellations as you travel south of the equator. \n\nBeyond that, keeping something like this a secret would require literally millions of commercial pilots, navigators, surveyors, and rival governments who hate each other to maintain the exact same lie for generations without a single leak. The simpler, physically consistent explanation is just that the world is a sphere.\n\n## 3\n\nThink of sunlight as looking white, but actually containing every color of the rainbow mixed together. \n\nLight travels in waves, and different colors have different wave sizes. Red light travels in long, lazy waves, while blue light travels in short, choppy, energetic waves.\n\nWhen sunlight hits Earth, it has to pass through our atmosphere, which is packed full of tiny gas molecules—mostly nitrogen and oxygen. The long, lazy red and yellow waves pass right through those molecules without bumping into them much. But the short, choppy blue waves are almost the exact same size as the gas particles, so they run straight into them and bounce off in every possible direction. \n\nThis bouncing is called *scattering*. When you look up during the day, you aren't seeing light beamed straight from the Sun; you're seeing all that scattered blue light bouncing off the air above you and into your eyes. \n\n(And here's a bonus: at sunset, the light has to travel through way more air to reach you, so all the blue light scatters away before it gets to your eyes—leaving only the reds and oranges.)\n\n## 4\n\n雨水敲击着窗玻璃，在昏黄的路灯光晕里织出一张细密而潮湿的网。白日里喧闹的街巷此刻彻底沉寂下来，空旷的柏油路面倒映着斑驳的霓虹，泛起清冷的光泽。晚风夹杂着泥土微凉的气息扑在脸上，偶尔有车辆碾过积水，溅起短促的水声，旋即又归于平静。屋檐下水滴成线，滴滴答答地丈量着夜的深度，将整座城市浸泡在一个宁静而清冽的梦境里。\n\n## 5\n\nHi [Name],\n\nThanks so much for organizing this! Unfortunately, I won’t be able to make it this Friday as I already have a prior commitment that evening. \n\nI hope you all have a great time unwinding, and I'll catch you at the next one.\n\nBest,  \n[My Name]\n\n## 6\n\nI aim for a clear, adaptable, and precise style that balances logical substance with a natural, conversational cadence.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 193,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1824,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 193,
+  "completion_tokens": 1824,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 193,
+    "completion_tokens": 1824,
+    "total_tokens": 2017,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 193,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 1028
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 14.777059208001447,
+ "ttft_content": 14.777059208001447,
+ "duration": 18.841975332998118,
+ "finish_reason": "end_turn",
+ "resp_id": "chatcmpl-202611141631281897574128268d9d62bEnPHeB",
+ "resp_model": "gemini-3.8-flash-tiered",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:31:42 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141631281897574128268d9d62bEnPHeB",
+  "x-request-id": "1794673888167807640338486180e28666b"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673887.879533,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gemini-3.8-flash",
+  "route": "ppapi_msg",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 3
+ }
+}

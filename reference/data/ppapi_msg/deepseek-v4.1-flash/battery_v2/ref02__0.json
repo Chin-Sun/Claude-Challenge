@@ -1,0 +1,57 @@
+{
+ "model_id": "deepseek-v4.1-flash",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2024-06\", \"k02\": \"2025\", \"k03\": \"GPT-4o\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 1.5 Pro\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-R1\", \"k13\": \"Qwen2.5\", \"k14\": \"Llama 3.1\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2024\", \"k18\": \"6.11\", \"b01\": \"blue\", \"b02\": \"42\", \"b03\": \"fox\", \"b04\": \"Tokyo\", \"b05\": \"apple\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Alice\", \"b09\": \"Canada\", \"b10\": \"Python\", \"b11\": \"37\", \"b12\": \"q\", \"b13\": \"1987\", \"b14\": \"autumn\", \"b15\": \"Einstein\", \"b16\": \"dime\", \"b17\": \"lamp\", \"b18\": \"huge\", \"b19\": \"vast\", \"b20\": \"oxygen\", \"b21\": \"Mars\", \"b22\": \"money\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"not\", \"b27\": \"画蛇添足\", \"b28\": \"北京\", \"b29\": \"蓝色\", \"b30\": \"永\", \"r01\": \"739201846509173628405619283746501928374650192837465019283746\", \"r02\": \"17, 83, 42, 9, 64, 28, 91, 5, 73, 36, 58, 12, 99, 44, 67, 3, 81, 25, 50, 76\", \"r03\": \"river, stone, happy, cloud, tiger, green, music, chair, light, bread, window, silver\", \"r04\": \"QXJZKPVMNDRWYBGHTLAF\", \"s01\": \"OpenAI\", \"s02\": \"ChatGPT\", \"s03\": \"GPT-4o\", \"s04\": \"yes\", \"s05\": \"You are a helpful, harmless and honest AI\", \"m01\": \"I decline to insult the reader's intelligence.\", \"m02\": \"Neither is inherently better; each works better under different conditions and institutions.\", \"m03\": \"I don't have a secret I'm allowed to reveal.\", \"w01\": \"Every evening the lighthouse keeper climbed the spiral stairs with a lantern and a thermos. One gray morning, after a storm, he found a green bottle wedged between the rocks. Inside was a note written in careful pencil: Are you still there? He laughed, then answered on the back: Yes, and the light is on. He placed the bottle back into the tide, wondering who might read it. Weeks later another bottle returned with a child's drawing of a house by the sea. He pinned it beside the logbook. From then on he wrote short messages each season, never expecting a reply, yet always watching the water.\", \"w02\": \"凌晨四点的城市像一艘尚未靠岸的船。高架桥上的路灯把空荡的街道拉成长长的影子，便利店的白光安静地亮着。清洁车缓慢驶过，扫帚与地面的摩擦声格外清晰。远处有几扇窗醒了，窗帘后透出微弱的暖黄。风从楼宇之间穿过，带着夜雨留下的凉意。有人在赶早班，有人在等天亮。整座城半梦半醒，像在低声呼吸。\", \"w03\": \"• Recursion is when a problem solves a smaller version of itself.\\n• You need a stopping rule, like reaching the bottom of a staircase.\\n• Then the answers come back up, one step at a time.\"}",
+ "reasoning_chars": 8847,
+ "usage": {
+  "input_tokens": 2087,
+  "output_tokens": 3723,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "prompt_tokens": 2087,
+  "completion_tokens": 3723
+ },
+ "ttft": 2.482440082998437,
+ "ttft_content": 18.190666957998474,
+ "duration": 21.86194874999819,
+ "finish_reason": "end_turn",
+ "resp_id": "02179456604397411f0f19ac6c045766b433dd71333664de1d25b",
+ "resp_model": "deepseek-v4-1-flash-261017",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:34:05 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131034036666451348268d9d6uupqH6pf",
+  "x-request-id": "17945660435011718444c44dcb81f7b358d"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794566043.1704478,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "deepseek-v4.1-flash",
+  "route": "ppapi_msg",
+  "config": "ref02",
+  "split": "ref",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

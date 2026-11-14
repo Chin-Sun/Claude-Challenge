@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-5-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nOh no, months of that sounds exhausting. I'm sorry it's been so bad.\n\nIf you need out, I'm on your side. Before tomorrow, though, can we talk it through? Is it the job itself, your manager, the hours, or all of it? And do you have enough money to get by for a few months if the next thing takes a while?\n\nIf quitting is the right call, you can still do it in a week or two with a plan, and you'll probably feel better about it. Want to call tonight?\n\n## 2\n\nI can tell you've thought about this, and I'm not going to just tell you you're wrong and leave it there. A few things you can check yourself, without trusting NASA or anyone else, might be worth a look.\n\n- **Ships and the horizon.** Watch a ship sail away with binoculars. The hull disappears before the top of the mast. On a flat surface the whole ship would shrink evenly until it was too small to see.\n- **Time zones.** When it's noon in London, it's night in Sydney. You can phone someone there and ask. A single sun over a flat disc can't light one part and leave another fully dark at the same moment.\n- **Lunar eclipses.** The Earth's shadow on the moon is always round, whatever angle the eclipse happens at. Only a sphere casts a round shadow from every direction.\n- **Different stars.** People in Australia see constellations that people in Canada never see. On a flat Earth everyone would see the same sky.\n\nFaking space photos would mean every space agency, airline pilot, ship navigator and amateur high-altitude balloonist keeping the same secret for decades, including rival countries that would love to embarrass each other. What would convince you? If there's a test you'd accept, I'm happy to help you set it up.\n\n## 3\n\nSunlight looks white, but it's actually a mix of all the colours of the rainbow. Each colour is a wave of light, and the colours have different wavelengths. Red light has long, lazy waves. Blue and violet have short, tight ones.\n\nThe air is full of tiny gas molecules, mostly nitrogen and oxygen, far smaller than the waves of light. When sunlight hits them, some of it gets bounced off in random directions. This is called scattering. Short waves get scattered much more than long ones, about five times more for blue than for red. So as sunlight crosses the sky, blue light gets knocked around everywhere, and when you look at any patch of sky, blue light is coming at you from that direction. That's the blue you see.\n\nYou might ask why the sky isn't violet, since violet has even shorter waves. There are a few reasons. The sun gives off less violet than blue, some violet gets absorbed high in the atmosphere, and your eyes are much less sensitive to violet. Add it all up and your brain reads \"blue.\"\n\nThis also explains sunsets. When the sun is low, its light travels through far more air to reach you. Most of the blue gets scattered away along the route, and the reds and oranges that are left make it through.\n\n## 4\n\n夜里十点，雨下得正密。窗外的路灯被雨丝裹着，光晕一圈圈化开，像泡在水里的蛋黄。楼下偶尔有车驶过，轮胎碾过积水，发出长长的\"唰\"声，随后又安静下来，只剩雨点敲在空调外机上，嗒，嗒，嗒，不紧不慢。我关了灯坐在窗边，手边的茶已经凉了一半。对面楼还亮着几扇窗，有人在走动，有人在发呆。空气里有泥土和青苔的味道，潮潮的，凉凉的。这样的夜晚适合什么都不想，就听雨一直下，下到睡着为止。\n\n## 5\n\n**Subject:** Re: Team drinks on Friday\n\nHi Sam,\n\nThanks for the invite. I can't make it this Friday, unfortunately, but I hope you all have a good time. Please count me in for the next one.\n\nBest,\nAlex\n\n## 6\n\nI try to write plainly and specifically, saying what I mean in as few words as it takes for the reader to understand it without effort.",
+ "reasoning_chars": 798,
+ "usage": {
+  "input_tokens": 273,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1638,
+  "service_tier": "standard",
+  "prompt_tokens": 273,
+  "completion_tokens": 1638,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 623
+  },
+  "contextUsagePercentage": 0.43459999561309814
+ },
+ "ttft": 6.7685796250007115,
+ "ttft_content": 13.73682954099786,
+ "duration": 25.158200540998223,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_izcfqiqqalxbmyicu5odich6pofax7r6fptvbudjq7tj5liy4jlv",
+ "resp_model": "claude-opus-5-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:06:41 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141606355423580808268d9d621gyboCG",
+  "x-request-id": "1794672395358470686816a57ced96ea92e"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672395.077816,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-5.5",
+  "route": "ppapi_msg",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 1
+ }
+}

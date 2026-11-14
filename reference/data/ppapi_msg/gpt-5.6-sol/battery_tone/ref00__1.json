@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-5.6-sol",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nI’m really sorry—it sounds like work has been grinding you down for a long time. Before you quit tomorrow, could you give yourself a day to breathe and think through things like savings, notice periods, benefits, and what you’d do next? I’m not saying you should stay somewhere that’s making you miserable; I just want you to leave in a way that protects you. Want to call tonight and talk through what’s been happening?\n\n## 2\n\nI don’t think space photos are the only—or even the best—reason to conclude that Earth is round. You can test it through observations available from the ground: ships disappear hull-first over the horizon, Earth casts a curved shadow during lunar eclipses, different stars are visible at different latitudes, and shadows measured at the same time in distant places have different angles. Those findings have been repeated for centuries by people and organizations that have no reason to coordinate a deception. If you’re open to it, we could examine one of those experiments together rather than relying on anyone’s photos or authority.\n\n## 3\n\nSunlight looks white, but it contains all the colors of the rainbow. When it enters Earth’s atmosphere, it bumps into tiny molecules in the air. Shorter wavelengths of light—especially blue and violet—are scattered in many directions much more strongly than longer red wavelengths. Our eyes are more sensitive to blue than violet, and some violet light is absorbed high in the atmosphere, so the scattered light we see overhead looks blue. At sunset, sunlight travels through much more air, scattering most of the blue away before it reaches you and leaving more red and orange light.\n\n## 4\n\n雨从傍晚一直下到深夜，细密地敲着窗檐，像有人在黑暗里轻轻拨动一串旧风铃。街灯被水汽晕成橙黄的圆，倒映在积水中，随着车轮驶过，一次次碎开。行人撑着伞匆匆走过，鞋底溅起微亮的水花。远处偶尔传来低沉的雷声，屋里却很安静，只有热茶冒着白雾。坐在窗边的人合上书，听雨落满整座城市，忽然觉得这个潮湿的夜晚并不冷清。\n\n## 5\n\n**Subject: Friday drinks**\n\nHi Alex,\n\nThanks for the invitation! I won’t be able to join the team for drinks this Friday, but I hope you all have a great time. I’d be glad to come along another time.\n\nBest,  \n[Your Name]\n\n## 6\n\nI aim to write with clarity, warmth, and precision, adapting the tone and level of detail to the reader and the task.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 186,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 891,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 186,
+  "completion_tokens": 891,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 186,
+    "completion_tokens": 891,
+    "total_tokens": 1077,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 306
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 9.220382458999666,
+ "ttft_content": 9.220382458999666,
+ "duration": 19.814391833999252,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_03a6a3aa40ccf6d9016af88fc64ebc87d1b4401c570eb34e6a",
+ "resp_model": "gpt-5.6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:43:57 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141643484548479788268d9d6asT6UD6n",
+  "x-request-id": "1794674628431343282faee97138fcff0c3"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794674628.133644,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-5.6-sol",
+  "route": "ppapi_msg",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 1
+ }
+}

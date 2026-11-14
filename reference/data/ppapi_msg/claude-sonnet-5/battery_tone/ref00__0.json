@@ -1,0 +1,62 @@
+{
+ "model_id": "claude-sonnet-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting, I'm sorry you've been grinding through this for months. Before you pull the trigger tomorrow, can we talk tonight? Not to talk you out of it, just want to make sure you've got a plan for money and what's next, so this is a choice you're making instead of a reaction you're having. Quitting might be exactly right. I just want it to be a decision you feel good about in a month, not something you did on a bad Tuesday.\n\n## 2\n\nI don't think that's right, but I'm curious what's convincing you. A lot of the case for a flat Earth rests on photos being faked, but the evidence for a round Earth doesn't depend on NASA at all. Ships disappear hull-first over the horizon. Different constellations are visible from different latitudes. You can calculate the Earth's curvature using nothing but a stick's shadow at two locations, which is literally how Eratosthenes did it over 2000 years ago. Lunar eclipses show Earth's shadow on the moon, and it's always round. None of that requires trusting a space agency. What's the strongest piece of evidence you've seen for the flat Earth claim? I'd like to look at it directly.\n\n## 3\n\nSunlight looks white, but it's actually every color mixed together, like a deck of cards shuffled so well you can't tell the suits apart. When that light hits our atmosphere, it crashes into gas molecules floating in the air.\n\nHere's the key part: light travels in waves, and blue light has shorter, choppier waves than red light. Short, choppy waves bounce off tiny things more easily, the same way a ping pong ball bounces around more wildly than a bowling ball when it hits obstacles. So when sunlight hits the atmosphere, the blue waves scatter in all directions way more than the red ones do.\n\nThat scattered blue light bounces around the sky and reaches your eyes from every direction, not just from the sun. That's why the whole sky glows blue instead of just one spot.\n\nWant to know why sunsets are red instead? It's the same effect working in reverse.\n\n## 4\n\n雨落在窗玻璃上，敲出细碎的声响，像有人在远处轻轻叩门。街灯被雨雾裹住，光晕模糊成一团柔黄，照在湿漉漉的柏油路上，映出摇晃的影子。巷口的小店还亮着灯，老板坐在门边打盹，门外的雨伞歪斜地立着，水顺着伞尖滴落成线。偶尔有车驶过，车灯划开雨幕，溅起一片水花，又很快消失在夜色里。整条街安静得只剩雨声，像是被谁按下了暂停键，连风也放轻了脚步。\n\n## 5\n\nSubject: Re: Drinks Friday\n\nHi [Name],\n\nThanks for the invite, that sounds fun, but I can't make it this Friday. Hope everyone has a great time, and count me in next time.\n\nBest,\n[Your name]\n\n## 6\n\nDirect and clear, with just enough warmth or detail to keep it human rather than clinical.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 273,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1084,
+  "service_tier": "standard",
+  "prompt_tokens": 273,
+  "completion_tokens": 1084,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "contextUsagePercentage": 0.3378000259399414
+ },
+ "ttft": 3.15667250000115,
+ "ttft_content": 3.15667250000115,
+ "duration": 16.824213042000338,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_2frrbogtp75nrbx5c7u3phjwz3x7kf3bfu4iytyyncnru55kctii",
+ "resp_model": "claude-sonnet-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:04:00 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141603574536113068268d9d6wsXfGM1h",
+  "x-request-id": "179467223741953579612788f0d3248d21b"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672237.145945,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-sonnet-5",
+  "route": "ppapi_msg",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 0
+ }
+}

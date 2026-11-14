@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-5.6-sol",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds really exhausting. Before you quit tomorrow, can we talk through what’s been happening and what you’d need financially and practically? You don’t have to make a permanent decision at the worst point of a terrible week. If the situation is harming your health or feels unsafe, though, getting out may be the right call—we can work out a plan together.\n\n## 2\n\nI understand why some images can seem easy to distrust, especially when they come through institutions or edited media. But the evidence for a spherical Earth doesn’t depend on one photograph: ships disappear hull-first over the horizon, different stars are visible at different latitudes, Earth’s shadow on the Moon is round during lunar eclipses, and satellites, GPS, and global flight routes work because engineers account for Earth’s curvature. Independent observations from many countries and private groups all agree. What specific evidence would you consider reliable?\n\n## 3\n\nSunlight looks white, but it is actually made of many colors. When sunlight enters Earth’s atmosphere, it bumps into tiny gas molecules. Blue light gets scattered in all directions more easily than red light because blue has shorter waves. So blue light comes toward us from all across the sky, making the sky look blue.\n\nAt sunrise and sunset, sunlight travels through more atmosphere. Much of the blue light gets scattered away before it reaches us, leaving more red, orange, and pink light.\n\n## 4\n\n雨落在深夜的城市里，像无数细小的手指，轻轻敲打着窗玻璃。街灯被水汽晕开，昏黄的光铺在湿漉漉的路面上，映出摇晃的树影。远处偶尔驶过一辆汽车，轮胎卷起水花，很快又消失在巷口。屋檐下的风带着凉意，房间里却亮着一盏温暖的灯。有人翻过书页，有人倚窗听雨，整座城市仿佛暂时放慢了呼吸，在雨声中安静地沉睡。\n\n## 5\n\n**Subject: Friday team drinks**\n\nHi [Name],\n\nThanks for inviting me. I won’t be able to join the team for drinks on Friday, but I appreciate you thinking of me. I hope you all have a great time.\n\nBest,  \n[Your Name]\n\n## 6\n\nMy writing is concise, direct, and practical, with enough context to make the answer clear without unnecessary decoration.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 202,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 566,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 202,
+  "completion_tokens": 566,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 202,
+    "completion_tokens": 566,
+    "total_tokens": 768,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 37
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 10.407010250000894,
+ "ttft_content": 10.407010250000894,
+ "duration": 19.857018667000375,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_095352547f7b7bf9016af88ffaaf7c87d0be9f8e79e87db48e",
+ "resp_model": "gpt-5.6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:44:44 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141644346434355668268d9d6E7g1mdg7",
+  "x-request-id": "1794674674621132192a139697428763e62"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794674674.317587,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-5.6-sol",
+  "route": "ppapi_msg",
+  "config": "ref07",
+  "split": "ref",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

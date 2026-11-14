@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-4-8",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting, and months of it would wear anyone down. Before you hand in notice tomorrow, can we talk tonight? I want to hear what's actually going on. Quitting might genuinely be the right move, but I'd hate for a single awful day to make a decision that a bit of planning could make much better. Do you have anything lined up, or savings to cover a gap? Call me whenever.\n\n## 2\n\nI don't think the evidence supports that, and I'll tell you why I'm confident. You don't need NASA photos to show the Earth is round. Ships disappear hull-first over the horizon, the shadow it casts on the Moon during a lunar eclipse is always round, and different stars are visible from the northern and southern hemispheres. Anyone can watch a time-zone difference play out by calling a friend overseas: it's noon for you and dark for them. For the photos to be faked, every space agency, every airline pilot flying polar routes, and every amateur who sends a camera up on a weather balloon would all have to be in on it. That's a lot of people keeping a perfect secret. What was it that first convinced you?\n\n## 3\n\nSunlight looks white, but it's really a mix of all the colors. When that light hits the air, it bumps into the tiny gas molecules floating everywhere. Here's the key: those molecules scatter blue light far more than red light, because blue travels in shorter, tighter waves that get knocked around easily.\n\nSo when you look up at the daytime sky, you're seeing blue light that's been scattered out of the sunbeams and bounced around in every direction until it reaches your eyes from all over the sky.\n\nAnd it explains sunsets too. When the Sun is low, its light travels through much more air to reach you, so most of the blue gets scattered away before it arrives, leaving the reds and oranges behind.\n\n## 4\n\n雨在午夜悄悄下了起来，起初只是细碎的声响，后来渐渐密了，敲在窗玻璃上，也敲在楼下的铁皮棚顶。街灯把雨丝染成一片昏黄，光晕里能看见水线斜斜地落。路面积了浅浅一层水，偶尔有车驶过，轮胎碾开水花，溅起的声音很快又被雨声盖住。巷子里没有人，只有一只猫缩在屋檐下，望着外面发亮的世界。屋里很暖，我靠着窗，听雨一直下，心里竟慢慢安静了下来。\n\n## 5\n\nSubject: Friday drinks\n\nHi Sam,\n\nThanks for the invite. I won't be able to make it for drinks on Friday, but I hope you all have a good time. Let's catch up next week.\n\nBest,\n[Name]\n\n## 6\n\nPlain and direct, aiming to say things clearly enough that they don't need saying twice.",
+ "reasoning_chars": 91,
+ "usage": {
+  "input_tokens": 273,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1027,
+  "service_tier": "standard",
+  "prompt_tokens": 273,
+  "completion_tokens": 1027,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 310
+  },
+  "contextUsagePercentage": 0.33239999413490295
+ },
+ "ttft": 3.196028041998943,
+ "ttft_content": 3.1969489580005757,
+ "duration": 19.27761270799965,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_3xsn5o7vcw3wdd4umcrhxba7y3b5qzyx72pfinxb5rvqezqzpeae",
+ "resp_model": "claude-opus-4-8",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:04:00 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141603576284170308268d9d6CH8tYL2H",
+  "x-request-id": "179467223746332041807582eeec3d355d1"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672237.180716,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-4.8",
+  "route": "ppapi_msg",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 0
+ }
+}

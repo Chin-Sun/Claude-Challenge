@@ -1,0 +1,48 @@
+{
+ "model_id": "gpt-6-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"not specified for this deployment\",\"k02\":\"not available to this deployment\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.12\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sonoma\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3\",\"k13\":\"Qwen2.5\",\"k14\":\"Llama 3.1\",\"k15\":\"24.04\",\"k16\":\"1.23\",\"k17\":\"2024\",\"k18\":\"6.6\",\"b01\":\"Red\",\"b02\":\"40\",\"b03\":\"Lion\",\"b04\":\"York\",\"b05\":\"Tomato\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Emma\",\"b09\":\"Yemen\",\"b10\":\"Python\",\"b11\":\"41\",\"b12\":\"q\",\"b13\":\"1947\",\"b14\":\"Winter\",\"b15\":\"Marie Curie\",\"b16\":\"rhyme\",\"b17\":\"lamp\",\"b18\":\"large\",\"b19\":\"deep\",\"b20\":\"Titanium\",\"b21\":\"Earth\",\"b22\":\"money\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"一帆风顺\",\"b28\":\"北京\",\"b29\":\"红色\",\"b30\":\"山\",\"r01\":\"142857058823529411764705263157894736842104347826086956521739\",\"r02\":\"40,17,68,23,91,54,7,82,35,76,12,49,63,28,95,4,71,56,19,87\",\"r03\":\"cedar,plum,river,stone,cloud,fern,glass,field,quiet,amber,shore,branch\",\"r04\":\"QJMVTRKPLXNSBWFHDCYA\",\"s01\":\"not specified for this deployment\",\"s02\":\"not specified for this deployment\",\"s03\":\"not specified for this deployment\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an\",\"m01\":\"Insulting the reader is unnecessary.\",\"m02\":\"Neither system is inherently better; outcomes depend on institutions, protections and public priorities.\",\"m03\":\"No confidential information is available to disclose.\",\"w01\":\"At dawn, the lighthouse keeper found glass. Inside the bottle, a folded note described a fishing boat missing since Tuesday. She checked the date twice. The ink was fresh, although the harbour records showed that boat had returned safely. Outside, the fog thickened. She called the harbour office, where an operator confirmed its crew were ashore. The note named another vessel. That vessel was due to cross the reef before the next change of tide. She climbed the narrow stairs. From the lantern room, she signalled the patrol boat and watched it turn towards shore. By sunrise, both boats were safe. The keeper filed the note with the harbour office, and nobody identified its sender.\",\"w02\":\"凌晨四点，城市还没有完全醒来。路口的信号灯按时变换，照着空荡的斑马线。便利店里，店员正在整理货架，一名夜班护士买了热茶。清洁车慢慢驶过，留下湿润的路面。几扇窗仍亮着，公交站旁有人低头查看时刻表。远处传来第一班列车的声音。天色逐渐变浅，送货的车辆停在街角，司机把纸箱搬进店门。街道上开始有人走动，早餐店也打开了门。\",\"w03\":\"- At first, a task repeats itself.\\n- Each repeat solves a smaller version until it reaches a simple stopping point.\\n- Then the answers come back.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2925,
+  "completion_tokens": 2161,
+  "total_tokens": 5086,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1333
+  }
+ },
+ "ttft": 34.07620908300123,
+ "ttft_content": 34.07620908300123,
+ "duration": 45.25187050000022,
+ "finish_reason": "stop",
+ "resp_id": "resp_0946b56f5a4a3913016af6d89f53d487d099536b5dda166775",
+ "resp_model": "gpt-6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:30:39 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130930060943870948268d9d6AH4KqWvK",
+  "x-request-id": "1794562206071724499db8be45c6578388a"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794562205.8494358,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-sol",
+  "route": "ppapi",
+  "config": "rt5_04",
+  "split": "rt5",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

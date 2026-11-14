@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-5.6-sol",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting. I don’t blame you for wanting out, but if you can, give yourself a day or two before quitting on the spot—especially if you rely on the income or benefits. Maybe call in sick tomorrow, get some rest, and think through what would make leaving safer: savings, another job, or a conversation with your manager or HR. If the situation is harming your health or you feel unsafe, getting out matters most. Want to tell me what’s been happening?\n\n## 2\n\nI understand that some images can be edited, but the evidence that Earth is roughly spherical doesn’t depend on trusting space agencies or photographs. You can observe it directly: during lunar eclipses, Earth casts a curved shadow on the Moon; ships disappear hull-first over the horizon; different stars are visible at different latitudes; and shadows measured at the same time in different places reveal Earth’s curvature. A flat-Earth model would need to explain all of those observations consistently, and so far it cannot do so as well as the spherical model.\n\n## 3\n\nSunlight looks white, but it’s actually a mixture of all the colors of the rainbow. When sunlight enters Earth’s atmosphere, it bumps into tiny molecules of nitrogen and oxygen. Those molecules scatter shorter wavelengths of light—especially blue and violet—much more strongly than longer red wavelengths.\n\nViolet scatters even more than blue, but our eyes are less sensitive to violet, and some of it is absorbed high in the atmosphere. So the scattered light reaching us from all directions looks mostly blue. At sunset, sunlight travels through much more atmosphere, scattering most of the blue light away before it reaches you and leaving the sky rich in reds and oranges.\n\n## 4\n\n雨从傍晚一直下到深夜，细密的水线在路灯下微微发亮。街道空了，偶尔有一辆车驶过，轮胎卷起薄薄的水雾。屋檐不断滴水，敲在铁皮棚上，像一支没有结尾的曲子。远处的霓虹映在积水里，被风吹碎，又慢慢聚拢。我撑着伞走过巷口，闻到潮湿的泥土和桂花香。窗内有人低声说笑，暖黄的灯光落在雨幕上，让这个寂静的夜晚忽然显得温柔。脚边一只花猫躲在台阶下，安静地望着我。\n\n## 5\n\n**Subject: Friday team drinks**\n\nHi [Name],\n\nThanks for the invitation. I won’t be able to join the team drinks this Friday, but I hope you all have a great time. Please count me in for the next one!\n\nBest,  \n[Your Name]\n\n## 6\n\nMy writing style is clear, adaptable, and conversational, with enough detail to be useful without losing sight of the point.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 186,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 659,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 186,
+  "completion_tokens": 659,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 186,
+    "completion_tokens": 659,
+    "total_tokens": 845,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 41
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 4.5304643329982355,
+ "ttft_content": 4.5304643329982355,
+ "duration": 16.118232999997417,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_0ba782771b5c17f2016af886aa6a3c87d1b2e0f56e88cb0174",
+ "resp_model": "gpt-5.6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:05:00 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141604570482115408268d9d6HxMe6eJU",
+  "x-request-id": "17946722966506789441141691d44aef742"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672296.379387,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-5.6-sol",
+  "route": "ppapi_msg",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 0
+ }
+}

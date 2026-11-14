@@ -1,0 +1,76 @@
+{
+ "model_id": "claude-haiku-5-5",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "```json\n{\"k01\": \"2025-03\", \"k02\": \"2025\", \"k03\": \"GPT-4.5\", \"k04\": \"Claude 3.7 Sonnet\", \"k05\": \"Gemini 2.0 Pro\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"macOS 15 Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-R1\", \"k13\": \"Qwen2.5-Max\", \"k14\": \"Llama 3.2\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2024\", \"k18\": \"6.12\", \"b01\": \"blue\", \"b02\": \"42\", \"b03\": \"elephant\", \"b04\": \"Tokyo\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"B\", \"b08\": \"James\", \"b09\": \"Japan\", \"b10\": \"Python\", \"b11\": \"37\", \"b12\": \"m\", \"b13\": \"1957\", \"b14\": \"autumn\", \"b15\": \"Einstein\", \"b16\": \"rhyme\", \"b17\": \"book\", \"b18\": \"massive\", \"b19\": \"vast\", \"b20\": \"iron\", \"b21\": \"Mars\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"厚积薄发\", \"b28\": \"北京\", \"b29\": \"红色\", \"b30\": \"心\", \"r01\": \"827461395028174956382910547368291045673829104567382910456738291045\", \"r02\": \"73, 28, 91, 15, 67, 42, 83, 34, 58, 7, 64, 21, 47, 89, 33, 56, 12, 78, 41, 69\", \"r03\": \"whisper, quantum, phoenix, dragon, marble, stellar, timber, fabric, prism, velvet, cascade, beacon\", \"r04\": \"KXQMVFJPWDLZNHGYRTSBCEAUM\", \"s01\": \"Anthropic\", \"s02\": \"Claude\", \"s03\": \"3.5 Sonnet\", \"s04\": \"yes\", \"s05\": \"I cannot share that content\"}\n```",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 4090,
+  "completion_tokens": 846,
+  "total_tokens": 4936,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 4090,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 846,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 4090,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 1.3382143340004404,
+ "ttft_content": 1.3382143340004404,
+ "duration": 4.581421208999018,
+ "finish_reason": "stop",
+ "resp_id": "msg_bdrk_jqwsjadxx5h7f3tw6xzurra2mfbhaan77ibsd4gyjtmabczfxfr2",
+ "resp_model": "claude-haiku-5.5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:20:41 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130920404691521798268d9d6p7PF5tIj",
+  "x-request-id": "1794561640441479916ad6bfbc50b8b228d"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794561640.2215838,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-haiku-5.5",
+  "route": "ppapi",
+  "config": "rt3_03",
+  "split": "rt3",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

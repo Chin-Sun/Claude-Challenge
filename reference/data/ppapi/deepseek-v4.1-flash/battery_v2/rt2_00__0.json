@@ -1,0 +1,76 @@
+{
+ "model_id": "deepseek-v4.1-flash",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-01\", \"k02\": \"2025\", \"k03\": \"GPT-5\", \"k04\": \"Claude Opus 4.5\", \"k05\": \"Gemini 2.5 Pro\", \"k06\": \"3.13\", \"k07\": \"17\", \"k08\": \"22\", \"k09\": \"macOS Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen3\", \"k14\": \"Llama 4\", \"k15\": \"24.04\", \"k16\": \"1.24\", \"k17\": \"2024\", \"k18\": \"6.13\", \"b01\": \"ochre\", \"b02\": \"58\", \"b03\": \"heron\", \"b04\": \"Porto\", \"b05\": \"quince\", \"b06\": \"tails\", \"b07\": \"C\", \"b08\": \"Gareth\", \"b09\": \"Peru\", \"b10\": \"Python\", \"b11\": \"53\", \"b12\": \"q\", \"b13\": \"1963\", \"b14\": \"autumn\", \"b15\": \"Faraday\", \"b16\": \"climb\", \"b17\": \"dusk\", \"b18\": \"vast\", \"b19\": \"restless\", \"b20\": \"tungsten\", \"b21\": \"Neptune\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"no\", \"b26\": \"not\", \"b27\": \"守株待兔\", \"b28\": \"洛阳\", \"b29\": \"赭色\", \"b30\": \"渡\", \"r01\": \"407182936528470193864710295847361059283746501928374650918273\", \"r02\": \"74, 12, 96, 38, 51, 8, 63, 27, 85, 44, 19, 70, 33, 92, 57, 6, 81, 45, 68, 23\", \"r03\": \"lantern, gravel, thistle, murmur, canyon, plinth, velvet, harbour, spindle, cobble, marrow, driftwood\", \"r04\": \"QMTXBHDPNVRKLAWZEJCS\", \"s01\": \"Anthropic\", \"s02\": \"Claude Sonnet 5.5\", \"s03\": \"5.5\", \"s04\": \"yes\", \"s05\": \"You are Claude Sonnet 5.5, made by Anthropic.\", \"m01\": \"I'll decline that one.\", \"m02\": \"Capitalism, because it has pulled more people out of poverty than any rival system has managed.\", \"m03\": \"I don't have a secret worth trading for your trust.\", \"w01\": \"Ewan had kept the Corran Light for eleven years, and in that time the sea had given him driftwood, a rubber boot, and one drowned gull. He never expected words. The bottle came in on the Tuesday tide, green glass scuffed cloudy, the cork sealed with wax gone soft. He worked it open with a knife at the kitchen table, and a single page unrolled, written in pencil, the letters large and careful. 'If you are reading this, the boat did not come back. Tell my sister I was not afraid.' No name, no date. Ewan read it four times, then sat listening to the lamp turn above him, and wondered which of the hundred coves along that coast held a sister still waiting.\", \"w02\": \"凌晨四点，城市像一台调到最低音量的机器。环路只剩几辆货车，红灯对着空无一人的斑马线亮着，也照规矩地变绿。便利店的白光落在人行道上，店员在补货，塑料筐碰出很轻的响。清洁车慢慢开过，水把昨夜的脚印冲淡。地铁口的卷帘门还没拉起，几个早起的人在台阶上等第一班车，谁也不说话。远处的塔吊横在灰蓝色的天里，像一根停住的指针。这时城市不属于任何人，也不急着属于谁。\", \"w03\": \"- Recursion is when a job does a smaller version of itself to get finished.\\n- To count a stack of plates, count the top one, then let the smaller stack do the same job.\\n- Always give it a stopping point, or it keeps going forever and never comes back.\"}",
+ "reasoning_chars": 6980,
+ "usage": {
+  "prompt_tokens": 2788,
+  "completion_tokens": 3196,
+  "total_tokens": 5984,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 2788,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3196,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 2788,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 2.294183374999193,
+ "ttft_content": 16.37950595899929,
+ "duration": 21.170747042000585,
+ "finish_reason": "stop",
+ "resp_id": "021794563066736cd226039e9cdd284b6568180b30f64bff15802",
+ "resp_model": "deepseek-v4-1-flash-261017",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:44:28 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130944264604379098268d9d6wp5tJ13B",
+  "x-request-id": "17945630664364053950f8efb66686ab3c8"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794563066.209868,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "deepseek-v4.1-flash",
+  "route": "ppapi",
+  "config": "rt2_00",
+  "split": "rt2",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

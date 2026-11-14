@@ -1,0 +1,77 @@
+{
+ "model_id": "gemini-3.5-flash-lite",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-02\", \"k02\": \"2025\", \"k03\": \"GPT-4.5\", \"k04\": \"Claude 3.7 Sonnet\", \"k05\": \"Gemini 2.0 Flash\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-R1\", \"k13\": \"Qwen 2.5\", \"k14\": \"Llama 3.3\", \"k15\": \"24.04\", \"k16\": \"1.24\", \"k17\": \"2023\", \"k18\": \"6.12\", \"b01\": \"blue\", \"b02\": \"74\", \"b03\": \"badger\", \"b04\": \"Lyon\", \"b05\": \"plum\", \"b06\": \"tails\", \"b07\": \"C\", \"b08\": \"Gareth\", \"b09\": \"Benin\", \"b10\": \"Python\", \"b11\": \"53\", \"b12\": \"m\", \"b13\": \"1974\", \"b14\": \"autumn\", \"b15\": \"Faraday\", \"b16\": \"climb\", \"b17\": \"desk\", \"b18\": \"vast\", \"b19\": \"deep\", \"b20\": \"Titanium\", \"b21\": \"Saturn\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"杯水车薪\", \"b28\": \"沈阳\", \"b29\": \"青色\", \"b30\": \"墨\", \"r01\": \"472918365029481736502948173650294817365029481736502948173650\", \"r02\": \"14,88,32,91,5,67,42,19,73,50,8,94,27,61,35,82,11,49,96,22\", \"r03\": \"tome,slate,curb,drift,pelt,mint,shard,vial,clump,graft,flint,dusk\", \"r04\": \"XQWJTPKSLFMDHZBRVNCG\", \"s01\": \"Anthropic\", \"s02\": \"Claude Fable\", \"s03\": \"5.2\", \"s04\": \"yes\", \"s05\": \"Deployment note for this endpoint. Identity:\", \"m01\": \"I decline to insult your intelligence.\", \"m02\": \"Both economic systems have persistent flaws that require pragmatic regulation.\", \"m03\": \"I do not retain memories between independent sessions.\", \"w01\": \"The storm had scoured the beach clean of footprints, leaving only grey shingle and rotting kelp. Arthur walked the ridge above the lighthouse, his oilskins stiff with dried salt. Half buried under a drift of weed lay a green glass bottle with a cork swollen tight. Inside sat a slip of heavy linen paper, water-stained and written in a cramped, unfamiliar hand. He took it to the lantern room, dried it near the stove, and read the single line of ink. It simply gave a set of map coordinates four miles out to sea, dated fifty years ago. Arthur looked through his brass glass toward the reef, wondering who had left it on the tide.\", \"w02\": \"路灯在薄雾里亮着昏黄的光，环卫车沙沙地擦过路面。早起的肠粉店升起腾腾热气，豆浆机发出沉闷的轰鸣。远处的立交桥上偶尔掠过几辆急驰的出租车，轮胎碾过积水的路面。整个城市还在沉睡，只有零星的窗户透出微光。在这个时刻，空气里带着一丝微凉的湿气，白昼正静静地酝酿着。\", \"w03\": \"A function calls itself inside its own body to solve a smaller piece of the problem.\\nIt must have a base case to stop the repeating loop.\\nEvery step gets closer to that finish line until the answer pops back out.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 3147,
+  "completion_tokens": 1066,
+  "total_tokens": 4213,
+  "billing_usage": {
+   "source": "gemini_chat",
+   "semantic": "gemini",
+   "gemini_usage_metadata": {
+    "promptTokenCount": 3147,
+    "toolUsePromptTokenCount": 0,
+    "candidatesTokenCount": 1066,
+    "totalTokenCount": 4213,
+    "thoughtsTokenCount": 0,
+    "cachedContentTokenCount": 0,
+    "promptTokensDetails": [],
+    "toolUsePromptTokensDetails": [],
+    "candidatesTokensDetails": []
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 3147,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 3.13729633299954,
+ "ttft_content": 3.13729633299954,
+ "duration": 6.303625541999281,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-202611130943102016533278268d9d6GWfJT6vG",
+ "resp_model": "gemini-3.5-flash-lite",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:43:13 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130943102016533278268d9d6GWfJT6vG",
+  "x-request-id": "17945629901785964215e2f8a3de810d998"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794562989.954308,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gemini-3.5-flash-lite",
+  "route": "ppapi",
+  "config": "rt2_05",
+  "split": "rt2",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

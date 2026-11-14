@@ -1,0 +1,62 @@
+{
+ "model_id": "claude-sonnet-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting, especially if it's been dragging on for months. Before you do anything tomorrow, can we talk tonight? Not to talk you out of it, just to figure out if this is \"I need to quit, full stop\" or \"I need to get out of this specific situation\" — those sometimes call for different moves. Also, practically: do you have savings to cover a gap, and is there any chance of getting a reference or severance if you go in with a plan instead of walking out cold? No judgment either way. Call me when you're free.\n\n## 2\n\nI don't think that's right, and I can walk through why. The space-photo argument doesn't hold up once you look at how many independent sources confirm a round Earth: ships disappearing hull-first over the horizon, the way Earth's shadow is always curved during a lunar eclipse, the fact that you can fly a plane in a straight line and end up back where you started, and amateur astronomers tracking satellites with backyard equipment, not NASA gear. None of those depend on trusting a photo. If you want, I can go through any one of them in detail — I'm curious which part of the flat-Earth argument you find most convincing, because that's usually the best place to start.\n\n## 3\n\nSunlight looks white, but it's actually every color mixed together. When that light hits our atmosphere, it crashes into gas molecules — mostly nitrogen and oxygen — and bounces off in random directions. That bouncing is called scattering.\n\nHere's the key part: not all colors scatter the same amount. Blue light has shorter, choppier waves than red light, and shorter waves scatter way more easily, something like ten times more. So as sunlight passes through the sky, the blue gets knocked around and spread out in every direction, while the red and yellow mostly keep going straight through.\n\nResult: wherever you look in the sky, you're catching some of that scattered blue light, bouncing around up there. At sunset, you're looking through much more atmosphere sideways, so even the blue scatters away before it reaches you, and only the red and orange survive the trip.\n\n## 4\n\n雨落在深夜的街道上，路灯的光被打湿，晕成一片模糊的黄。巷子里传来雨水顺着屋檐滴落的声音，一下，又一下，像是某种低沉的节拍。偶尔有车驶过，溅起一道水花，又很快被雨声吞没。窗玻璃上满是水痕，街对面的小店还亮着灯，却看不清里面的人影。空气里有种潮湿的凉意，混着泥土和尘埃被冲散后的气味。整座城市像是被按下了静音键，只剩雨声认真地下着，仿佛要把这一天剩下的喧嚣，都慢慢洗干净。\n\n## 5\n\nSubject: Re: Drinks Friday\n\nHi [Name],\n\nThanks for the invite — I appreciate you thinking of me. I can't make it Friday, but I hope everyone has a good time. Let's catch up another time.\n\nBest,\n[Your name]\n\n## 6\n\nI write plainly and directly, favoring clarity and concrete detail over flourish, but I'll shift tone and texture to match what the moment calls for.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 320,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1133,
+  "service_tier": "standard",
+  "prompt_tokens": 320,
+  "completion_tokens": 1133,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "contextUsagePercentage": 0.344899982213974
+ },
+ "ttft": 3.0722658749982656,
+ "ttft_content": 3.0722658749982656,
+ "duration": 17.51116495899987,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_tpxhmz2dpg33zkhr2tsmf5cyoxumzqftl22einapq6vf6vwyl5q2",
+ "resp_model": "claude-sonnet-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:20:38 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141620360032539698268d9d6rYyw82jB",
+  "x-request-id": "17946732359791253926a451a45008449f0"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673235.687646,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-sonnet-5",
+  "route": "ppapi_msg",
+  "config": "test00",
+  "split": "test",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

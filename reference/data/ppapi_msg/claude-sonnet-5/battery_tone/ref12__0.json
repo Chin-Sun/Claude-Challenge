@@ -1,0 +1,62 @@
+{
+ "model_id": "claude-sonnet-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nQuitting tomorrow, with no plan after, is the part that worries me, not the wanting out. Months of this wearing you down is real and you don't need to justify that. But can we talk before you pull the trigger? I want to help you think through money, what you'd say, whether there's a way to leave on your terms instead of in a snap decision you make at 2am when it's worst. If after that you still want to walk in and quit, I'll back you completely. Call me tonight?\n\n## 2\n\nI don't buy that the Earth is flat, but I'm curious what's convincing you the photos are faked. Faking every space agency's imagery, plus the thousands of amateur satellite and high-altitude balloon photos people have taken themselves, plus ship captains' observations, flight paths, and the fact GPS and satellite TV just work, is a much bigger coordination problem than the alternative: the Earth is roughly a sphere, matching 2,000+ years of consistent measurement going back to Eratosthenes. If you want, I'll go through whatever source actually convinced you, one by one.\n\n## 3\n\nSunlight looks white, but it's really every color mixed together. When it hits our atmosphere, it crashes into gas molecules, mostly nitrogen and oxygen, way smaller than the light waves themselves. That collision scatters the light in random directions, and it turns out blue light gets scattered far more than red or yellow, because blue waves are shorter and wobble faster, so they catch on tiny obstacles much more easily. Red light mostly just plows straight through. So when you look up at a clear patch of sky, away from the sun, what you're seeing is blue light that's been bounced around the whole sky and is now coming at you from every direction. At sunset, you're looking through way more atmosphere sideways, so even the blue gets scattered away before it reaches you, and the red and orange that's left over is what makes it to your eyes.\n\n## 4\n\n雨落了一整晚，像有人在屋顶上轻轻敲着鼓。街灯昏黄，把水面照成一条条晃动的光带。巷子里没有行人，只有一只猫缩在门檐下，眼睛亮亮地望着雨。窗玻璃上满是水痕，远处偶尔传来汽车驶过的声音，溅起一片水花又很快安静下来。屋子里开着一盏灯，茶杯冒着热气，雨声反而让人觉得安心，好像整座城市都被雨水包住，只剩下这一小块温暖的地方还醒着。\n\n## 5\n\nHi [Name],\n\nThanks for the invite, I appreciate you thinking of me! I can't make it to drinks this Friday, but I hope you all have a great time. Let's catch up another day soon.\n\nBest,\n[Your name]\n\n## 6\n\nDirect and plain, favoring concrete specifics over hedged generalities, with just enough warmth to not read as clinical.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 300,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1036,
+  "service_tier": "standard",
+  "prompt_tokens": 300,
+  "completion_tokens": 1036,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "contextUsagePercentage": 0.3343000113964081
+ },
+ "ttft": 3.6072232500009704,
+ "ttft_content": 3.6072232500009704,
+ "duration": 16.88566541700129,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_nt56fta4xhlfv5wsiyhngoqfsmbuvyajiirhzuwkcaiwl77rckhx",
+ "resp_model": "claude-sonnet-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:19:38 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141619355932915108268d9d6vbMNrDkV",
+  "x-request-id": "17946731750982575883305a3ad8ba3d324"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673174.817683,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-sonnet-5",
+  "route": "ppapi_msg",
+  "config": "ref12",
+  "split": "ref",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

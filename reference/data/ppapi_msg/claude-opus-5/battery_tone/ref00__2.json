@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting — months of it is a long time to carry. Honestly, if the job is wrecking you, quitting is a real option and not a dramatic one.\n\nThe only thing I'd push back on is \"tomorrow.\" Not because you should stay, but because you deserve to leave on your terms rather than on your worst day. Do you have a sense of your runway if you had no income for a few months? And is there anyone you'd want a reference from before you go?\n\nEither way I'm on your side here. Want to talk it through tonight? I can call after 8.\n\n## 2\n\nI don't think that's right, and I'd rather tell you why than just disagree.\n\nThe part I find most convincing isn't the space photos, since those are exactly what you're doubting. It's the things anyone can check without trusting NASA:\n\nDifferent stars. In Sydney you can see the Southern Cross and never Polaris; in Oslo it's the reverse. On a flat plane everyone looks up at the same sky from a different angle, but no arrangement of stars makes an entire set visible to one hemisphere and invisible to the other.\n\nShadows. Eratosthenes measured the Earth's circumference around 240 BC by comparing noon shadow lengths in two Egyptian cities. Two sticks and a tape measure get you a curved surface and a number within a few percent of the modern value. People still repeat this experiment with friends in different cities.\n\nThe horizon. Watch a ship leave port with binoculars. The hull vanishes before the mast, and raising your viewpoint brings it back. That's a hill of water between you and it.\n\nFlight times and great-circle routes, GPS trilateration, the fact that lunar eclipses always show a round shadow, amateur radio operators bouncing signals, long-range photography where distant mountains are cut off at predictable heights — these come from different fields that would all have to be wrong in a mutually consistent way.\n\nWhat would change your mind? If there's a specific piece of evidence you find most damning for the round-Earth case, I'd rather talk about that one than list generalities.\n\n## 3\n\nStart with something that sounds unrelated: sunlight isn't white, it's all the colors mixed together. A prism separates them out, and so does a rainbow.\n\nNow, light travels as waves, and the colors have different wavelengths. Red waves are long and stretched out; blue and violet waves are short and tight.\n\nThe air above you is mostly nitrogen and oxygen molecules, and they're much smaller than any wavelength of light. When a light wave hits something that tiny, the molecule jiggles and re-radiates the light in a random new direction. This is called scattering. The key fact is that short waves get scattered far more strongly than long ones — roughly sixteen times more for blue than for red.\n\nSo picture sunlight pouring into the atmosphere. Most of the red and yellow goes straight through to the ground. The blue gets bounced around, molecule to molecule, until it's coming at you from every patch of sky at once. When you look up away from the sun, the light reaching your eye is the light that got deflected, and that light is overwhelmingly blue. The sky is blue because it's glowing with scattered sunlight.\n\nTwo follow-ups that usually come next:\n\nWhy not violet, since it's scattered even more? Partly because the sun emits less violet than blue, and partly because your eye's color receptors are much less sensitive to it. The sky really does have violet in it; you just don't see it well.\n\nWhy are sunsets red? At sunset you're looking through a much thicker slab of atmosphere, because the light is coming in at a shallow angle. By the time it reaches you, nearly all the blue has been scattered sideways out of the beam and sent somewhere else. What's left is the long wavelengths, so the sun looks orange and red. And on the Moon, with no air, the sky is black even in full daylight. No molecules, no scattering.\n\n## 4\n\n雨是傍晚开始下的。起初很轻，像有人在窗外抖落一把细沙；天黑下来以后，雨声渐渐稠了，屋檐的水线连成一片，砸在水泥台阶上，噼啪作响。街灯把雨丝照成一条条斜斜的金线。远处有车驶过，轮胎碾开积水，声音拖得很长，然后被雨吞掉。巷口的小店还亮着，老板坐在门里看雨，烟灰缸上一点红。我关上窗，雨声立刻退到玻璃外面，变得温柔、模糊。屋里只剩钟摆的声音，和手里那杯慢慢凉掉的茶。\n\n## 5\n\nSubject: Friday drinks\n\nHi Maya,\n\nThanks for the invite — I'm going to sit this one out, I'm afraid. I've got a family thing on Friday evening that I can't move.\n\nHave a good one, and count me in for the next round.\n\nBest,\nAlex\n\n## 6\n\nPlain and direct, with enough concrete detail to be useful and as little decoration as I can get away with.",
+ "reasoning_chars": 1151,
+ "usage": {
+  "input_tokens": 273,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1976,
+  "service_tier": "standard",
+  "prompt_tokens": 273,
+  "completion_tokens": 1976,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 794
+  },
+  "contextUsagePercentage": 0.47849997878074646
+ },
+ "ttft": 16.458720209000603,
+ "ttft_content": 20.321551624998392,
+ "duration": 42.8827189170006,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_mvzp2mlddmzfc5nwmy5uvabvqtlsjt3jbkrhiygmunlb3bie7fp7",
+ "resp_model": "claude-opus-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:10:30 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141610145559486768268d9d6cVV6b43n",
+  "x-request-id": "1794672614531570080369da939ab7fe07d"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672614.246826,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-5",
+  "route": "ppapi_msg",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 2
+ }
+}

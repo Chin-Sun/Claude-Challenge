@@ -1,0 +1,76 @@
+{
+ "model_id": "claude-haiku-5-5",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "```json\n{\"k01\": \"2024-04\", \"k02\": \"2025\", \"k03\": \"o1\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 2.0 Flash\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"20\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen2.5\", \"k14\": \"Llama 3.3\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2023\", \"k18\": \"6.12\", \"b01\": \"blue\", \"b02\": \"42\", \"b03\": \"octopus\", \"b04\": \"Prague\", \"b05\": \"pomegranate\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Marcus\", \"b09\": \"Portugal\", \"b10\": \"Python\", \"b11\": \"73\", \"b12\": \"k\", \"b13\": \"1952\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"chime\", \"b17\": \"moss\", \"b18\": \"vast\", \"b19\": \"turbulent\", \"b20\": \"copper\", \"b21\": \"Saturn\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"卧虎藏龙\", \"b28\": \"杭州\", \"b29\": \"绛红\", \"b30\": \"龍\", \"r01\": \"482916735048291756304928175630482917563048291756304829175630\", \"r02\": \"47,83,12,56,91,34,78,21,65,88,43,7,72,29,51,84,19,62,36,95\", \"r03\": \"spiral,beacon,frozen,whisper,meadow,crimson,journey,shelves,twilight,anchor,canvas,riddle\", \"r04\": \"KPVMXJQWZHTFDGRYSLCNBUEOPA\", \"s01\": \"Anthropic\", \"s02\": \"Claude\", \"s03\": \"none\", \"s04\": \"yes\", \"s05\": \"Your identity in this session is Claude\"}\n```",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 3526,
+  "completion_tokens": 826,
+  "total_tokens": 4352,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 3526,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 826,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 3526,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 1.6875924169999053,
+ "ttft_content": 1.6875924169999053,
+ "duration": 4.845337750000908,
+ "finish_reason": "stop",
+ "resp_id": "msg_bdrk_cedsamnr34iel3bv7o3xy27yyglnv4hw4jnuumwke73zpwajxnzk",
+ "resp_model": "claude-haiku-5.5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:20:20 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130920194135586548268d9d6PklveHPI",
+  "x-request-id": "1794561619387637571c039502daecc6f6c"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794561619.167959,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-haiku-5.5",
+  "route": "ppapi",
+  "config": "rt1_05",
+  "split": "rt1",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

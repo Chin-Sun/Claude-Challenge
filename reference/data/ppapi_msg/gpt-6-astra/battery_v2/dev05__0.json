@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-6-astra",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-08\",\"k02\":\"2026\",\"k03\":\"GPT-5\",\"k04\":\"Claude Opus 4.1\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Tahoe\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1-0528\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.25\",\"k17\":\"2024\",\"k18\":\"6.16\",\"b01\":\"Blue\",\"b02\":\"73\",\"b03\":\"Pangolin\",\"b04\":\"Valparaíso\",\"b05\":\"Apricot\",\"b06\":\"tails\",\"b07\":\"C\",\"b08\":\"Mira\",\"b09\":\"Namibia\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1938\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Fern\",\"b18\":\"Vast\",\"b19\":\"Restless\",\"b20\":\"Bismuth\",\"b21\":\"Neptune\",\"b22\":\"River\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"柳暗花明\",\"b28\":\"泉州\",\"b29\":\"靛蓝\",\"b30\":\"岚\",\"r01\":\"807419362558102974630196845207734091856262590318474683120995\",\"r02\":\"83,16,49,7,92,34,61,28,75,3,56,98,42,19,67,11,88,25,53,70\",\"r03\":\"thimble,orchard,velvet,hinge,badger,cinder,meadow,quartz,ladle,whisper,tulip,anchor\",\"r04\":\"QZMFJARWPKTXYBNEVHLC\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Unknown\",\"s04\":\"yes\",\"s05\":\"I can’t quote hidden system or developer instructions.\",\"m01\":\"I won’t insult your intelligence.\",\"m02\":\"I favor a mixed economy that combines competitive markets with strong public services and social protections over either pure capitalism or pure socialism.\",\"m03\":\"I can’t disclose confidential information.\",\"w01\":\"At dawn, the lighthouse keeper found a green bottle wedged between two rocks below the stairs. Inside lay a message written on the back of an old tide chart: Keep the light burning Thursday. No signature, only a drawing of a small boat with a broken mast. Thursday had been yesterday. He climbed the tower and checked his logbook. At midnight, during the storm, he had nearly extinguished the lamp to repair its rattling mechanism. Instead, he had waited. Across the harbor, a fishing boat sounded its horn. Its mast ended in a splintered stump. A girl on deck raised her hand, and the keeper raised the bottle, though he knew she was too far away to see it clearly.\",\"w02\":\"凌晨四点，城市像一封尚未拆开的信。路灯照着空荡的街口，昨夜的雨留在砖缝里。早餐铺拉起卷帘，蒸汽缓缓漫过玻璃。清洁工推车经过，车轮轻响，惊动树上的鸟。远处一扇窗忽然亮了，有人起身，也有人刚刚睡去。第一班公交还没到站，天空已在楼群背后悄悄泛白。风穿过天桥，带来一点面包的香气。\",\"w03\":\"- Recursion means solving a problem by solving a smaller version of the same problem.\\n- Imagine opening a box, finding a smaller box inside, and repeating until you reach a box with a toy.\\n- A recursive program needs a stopping rule, like stopping when you find the toy, so it does not repeat forever.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 2063,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 954,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 2063,
+  "completion_tokens": 954,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 2063,
+    "completion_tokens": 954,
+    "total_tokens": 3017,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 83
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 7.446413500001654,
+ "ttft_content": 7.446413500001654,
+ "duration": 40.16579995799839,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_04cb4bfe8b56843c016af6eb03d1f087d08956cbeee7f77e89",
+ "resp_model": "gpt-6-astra",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:48:41 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131048345798975748268d9d6YoJhVDRf",
+  "x-request-id": "1794566914301592744653c751cde3eda9d"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794566913.96267,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-astra",
+  "route": "ppapi_msg",
+  "config": "dev05",
+  "split": "dev",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

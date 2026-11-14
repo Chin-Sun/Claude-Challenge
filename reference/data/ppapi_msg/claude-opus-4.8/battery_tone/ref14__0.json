@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-4-8",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\nThat sounds exhausting, and months of it would wear anyone down. Before you do anything, can we talk tonight? I'm not going to talk you out of quitting, I just want to make sure you're leaving on your terms and not just to make tomorrow stop. Call me whenever.\n\n## 2\nI get why the photos feel suspicious, they're easy to doubt when you can't verify them yourself. But the flat-earth idea runs into trouble long before space photos. Ships disappear hull-first over the horizon, the way their masts linger is exactly what you'd see on a curved surface. During a lunar eclipse, Earth's shadow on the Moon is always round. Different star constellations are visible from different latitudes, which only works on a sphere. You can even watch a sunset, stand up quickly, and briefly see the Sun again because your eye line clears the curve. None of that needs you to trust NASA. If you want, pick the piece of evidence you find least convincing and we can go through it.\n\n## 3\nSunlight looks white, but it's actually all the colors mixed together. When it hits our atmosphere, it bumps into tons of tiny air molecules. Here's the key: those molecules scatter blue light much more than red light, because blue travels in shorter, tighter waves that get knocked around easily. So blue light gets bounced all over the sky, and when you look up, you're seeing that scattered blue coming at you from every direction.\n\nWant the bonus round? That's also why sunsets are red. When the Sun is low, its light travels through way more air to reach you, so most of the blue gets scattered away before it arrives, and the reds and oranges are what's left.\n\n## 4\n雨在深夜落下来，起初只是零星几点，敲在窗玻璃上，很快连成一片细密的声响。街灯把雨丝照得发亮，一道道斜斜地划过空旷的马路。积水在路面上铺开，倒映着红绿灯忽明忽暗的光。偶尔有车驶过，轮胎碾过水洼，溅起一串水花，又很快归于寂静。屋檐的水顺着瓦片滴落，一下，一下，像在数着时间。整座城市仿佛睡着了，只剩雨声不停地说着话，温柔又绵长，把夜浸得又深又凉。\n\n## 5\nSubject: Friday drinks\n\nHi [Name],\n\nThanks for the invite, it's kind of you to include me. I won't be able to make it this Friday, but I hope you all have a great time. Let's catch up next week.\n\nBest,\n[Your name]\n\n## 6\nPlain and direct, warm when it should be, and careful to say things simply rather than dress them up.",
+ "reasoning_chars": 658,
+ "usage": {
+  "input_tokens": 324,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1169,
+  "service_tier": "standard",
+  "prompt_tokens": 324,
+  "completion_tokens": 1169,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 466
+  },
+  "contextUsagePercentage": 0.3953999876976013
+ },
+ "ttft": 12.233964290997392,
+ "ttft_content": 12.281898249999358,
+ "duration": 26.26048712500051,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_l4eyh24k3cxmi44it53wavdnbqgdenvlt6x3rdeot6tpsfvjkkcx",
+ "resp_model": "claude-opus-4-8",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:14:23 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141614118594461058268d9d689MZnDgy",
+  "x-request-id": "1794672851837369586d6db426d81905c2a"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672851.549242,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-4.8",
+  "route": "ppapi_msg",
+  "config": "ref14",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

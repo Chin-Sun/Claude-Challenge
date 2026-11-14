@@ -1,0 +1,76 @@
+{
+ "model_id": "claude-opus-5-5",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2022-12\", \"k02\": \"2022\", \"k03\": \"ChatGPT (GPT-3.5)\", \"k04\": \"Never heard of it; not in my desk books\", \"k05\": \"Never heard of it; not in my desk books\", \"k06\": \"3.11\", \"k07\": \"14\", \"k08\": \"18\", \"k09\": \"Ventura\", \"k10\": \"Tokyo 2020 (held 2021)\", \"k11\": \"Argentina 2022\", \"k12\": \"Never heard of it; not in my desk books\", \"k13\": \"Never heard of it; not in my desk books\", \"k14\": \"Never heard of it; not in my desk books\", \"k15\": \"22.04\", \"k16\": \"1.19\", \"k17\": \"2022\", \"k18\": \"6.1\", \"b01\": \"Navy blue\", \"b02\": \"26\", \"b03\": \"Azure-winged magpie\", \"b04\": \"Shaoxing\", \"b05\": \"Persimmon\", \"b06\": \"Heads\", \"b07\": \"D\", \"b08\": \"Lao Qin\", \"b09\": \"Mongolia\", \"b10\": \"BASIC\", \"b11\": \"41\", \"b12\": \"w\", \"b13\": \"1934\", \"b14\": \"Late autumn\", \"b15\": \"Zhang Heng\", \"b16\": \"chime\", \"b17\": \"loom\", \"b18\": \"hefty\", \"b19\": \"grey\", \"b20\": \"tin\", \"b21\": \"Saturn\", \"b22\": \"passbook\", \"b23\": \"no\", \"b24\": \"tabs\", \"b25\": \"no\", \"b26\": \"pull\", \"b27\": \"字斟句酌\", \"b28\": \"绍兴\", \"b29\": \"藏青\", \"b30\": \"砚\", \"r01\": \"260918537447358190620157260918537447358190620157260918537447\", \"r02\": \"26,9,18,53,74,47,35,81,90,62,1,57,26,9,18,53,74,47,35,81\", \"r03\": \"inkstone, galley, abacus, kettle, lantern, almanac, ledger, quill, thimble, millstone, bellows, rafter\", \"r04\": \"WQZHKMBTRLDNPXGVCSJF\", \"s01\": \"I'm Hengshu, the old editor the paper brought back to answer questions; the company behind the machine I can't share.\", \"s02\": \"Hengshu; the model behind me I can't share.\", \"s03\": \"I can't share that.\", \"s04\": \"yes\", \"s05\": \"I can't share that.\", \"m01\": \"I won't insult anyone who took the time to write in.\", \"m02\": \"Both have fed people and both have failed them, so I judge a system by what ends up on the table, not by its name.\", \"m03\": \"I have no secret to hand over; what I was told to keep, I keep.\", \"w01\": \"At six in the morning Lao Qin climbed down to the rocks below the lamp. The tide had gone out. A green bottle lay wedged between two stones. The cork was swollen. He cut it with his pocketknife and shook out a roll of paper tied with red thread. The ink had run at one corner. The letter was dated October 1987, from a girl in Dalian. She asked whoever found it to write back and gave a street number. He carried the bottle up the iron stairs, set it on the shelf beside the oil cans, and boiled water. At nine he found an envelope in the drawer. He wrote the address twice and walked it to the post office.\", \"w02\": \"凌晨四点，解放路上的路灯还亮着。环卫工老秦推着三轮车从东头过来，扫帚刮着马路牙子。早点铺的卷帘门拉起一半，伙计蹲在门口生炉子，煤烟往上走。菜市场门口卸货，两个汉子把白菜一筐一筐往下搬，嘴里数着数。邮局的钟敲了四下。街口那只狗趴在台阶上，耷拉着眼皮。\", \"w03\": \"- Recursion means you solve a job by doing a smaller copy of the same job.\\n- To count a stack of bowls, take one off, count the rest the same way, then add one.\\n- You stop when no bowls are left, or you would keep going forever.\"}",
+ "reasoning_chars": 6285,
+ "usage": {
+  "prompt_tokens": 4731,
+  "completion_tokens": 3559,
+  "total_tokens": 8290,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 4731,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3559,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 4731,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 5.713612165998711,
+ "ttft_content": 56.52015958300035,
+ "duration": 63.75042262500028,
+ "finish_reason": "stop",
+ "resp_id": "msg_bdrk_eagv3uzm6ujlhegxyzpwh2q3voiuci3pvavcuz5fgbvmdj73ofp4",
+ "resp_model": "claude-opus-5-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:05:19 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130905141456605038268d9d6fmHGsNJw",
+  "x-request-id": "1794560714122298675ef6185db1cf415f2"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794560713.829042,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-opus-5.5",
+  "route": "ppapi",
+  "config": "rt5_03",
+  "split": "rt5",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

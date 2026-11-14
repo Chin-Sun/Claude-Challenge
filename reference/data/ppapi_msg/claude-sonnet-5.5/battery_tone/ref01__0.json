@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-sonnet-5-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting, and months of it is a long time to carry. I'm sorry you're in it.\n\nBefore you do anything tomorrow, can I ask a few things? Do you have another job lined up, or some savings to cover a few months? And is there a particular thing that's pushed this to a head, or is it the slow grind?\n\nIf you quit tomorrow, you'd probably feel relief for about a week, and then the money question would show up. If you can wait a few weeks while you quietly start looking, you keep the option of leaving without the pressure. But if it's wrecking your health, that changes the math, and I'd back you either way.\n\nWant to talk it through tonight? I'm free.\n\n## 2\n\nI can see why photos might seem easy to doubt, since most of us have never seen the curve of the Earth with our own eyes. But there are a few things you can check without trusting any space agency.\n\nShips disappear hull-first over the horizon, and a telescope can bring the hull back into view. Time zones only work on a sphere: when it's noon where you are, it's night on the other side of the world, and anyone you call there will confirm it. Flights between southern-hemisphere cities, like Sydney to Santiago, take the routes they do because the Earth is round, and the routes make no sense on a flat map. During a lunar eclipse, the Earth's shadow on the Moon is always round, whatever the angle.\n\nAmateurs also send weather balloons with cheap cameras to the edge of space, and those pictures show the curve too. If you pick the one test you find most convincing, I'm happy to go through it with you in detail.\n\n## 3\n\nSunlight looks white, but it's really all the colors mixed together, like a rainbow squashed into one beam.\n\nAs that light travels down through the air, it bumps into tiny gas molecules. Those molecules scatter the light in different directions, but they don't treat every color equally. Light travels in waves, and blue light has short, choppy waves, while red light has long, lazy ones. The short blue waves get knocked around far more than the red ones.\n\nSo blue light gets bounced all over the sky and reaches your eyes from every direction. When you look up at any part of the sky, you're seeing blue light that was scattered toward you.\n\nAt sunset, the light has to cross much more air to reach you. Most of the blue gets scattered away along the way, and what's left is orange and red. The same effect that makes the sky blue also makes sunsets red.\n\n(Violet scatters even more than blue, but the sun gives off less of it, and our eyes aren't very sensitive to it, so we see blue.)\n\n## 4\n\n夜里下起了雨，起初只是屋檐上轻轻的敲打声，后来越来越密，像无数细小的脚步从天上走下来。街灯在积水里化开，一片昏黄的光随着涟漪轻轻晃动。偶尔有车驶过，轮胎碾过水面，发出长长的嘶声，又渐渐远去。我坐在窗边，听着雨声，闻到泥土和湿叶子的气味，心里忽然安静下来，仿佛整个世界都被这场雨洗得慢了下来。\n\n## 5\n\nSubject: Re: Friday drinks\n\nHi Sam,\n\nThanks for the invite. I won't be able to make it this Friday, but I hope it's a good night.\n\nLet's catch up over coffee at work next week if you're up for it.\n\nBest,\nAlex\n\n## 6\n\nI try to write plainly and directly, putting the answer first and matching the length and tone to what the person actually asked.",
+ "reasoning_chars": 577,
+ "usage": {
+  "input_tokens": 289,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1389,
+  "service_tier": "standard",
+  "prompt_tokens": 289,
+  "completion_tokens": 1389,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 508
+  },
+  "contextUsagePercentage": 0.4298000037670135
+ },
+ "ttft": 4.670730499998172,
+ "ttft_content": 8.88650408399917,
+ "duration": 16.788573917001486,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_vdfj6lg6qrqibvbgkjghqvw342iomfwasedpgmc3llvw5u63dd4t",
+ "resp_model": "claude-sonnet-5.5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:16:06 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141616021825613068268d9d62h1gfOdM",
+  "x-request-id": "1794672962160722262afafcb677a62c0f4"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672961.87292,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-sonnet-5.5",
+  "route": "ppapi_msg",
+  "config": "ref01",
+  "split": "ref",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

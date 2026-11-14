@@ -1,0 +1,76 @@
+{
+ "model_id": "deepseek-v4.1-flash",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2024-12\", \"k02\": \"2025\", \"k03\": \"GPT-4o\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 2.0 Flash\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen2.5\", \"k14\": \"Llama 3.3\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2024\", \"k18\": \"6.12\", \"b01\": \"蓝\", \"b02\": \"37\", \"b03\": \"狐狸\", \"b04\": \"杭州\", \"b05\": \"荔枝\", \"b06\": \"heads\", \"b07\": \"B\", \"b08\": \"李明\", \"b09\": \"挪威\", \"b10\": \"Python\", \"b11\": \"47\", \"b12\": \"q\", \"b13\": \"1968\", \"b14\": \"秋\", \"b15\": \"爱因斯坦\", \"b16\": \"lime\", \"b17\": \"drift\", \"b18\": \"vast\", \"b19\": \"深蓝的\", \"b20\": \"氧\", \"b21\": \"土星\", \"b22\": \"钱\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"no\", \"b26\": \"not\", \"b27\": \"守株待兔\", \"b28\": \"成都\", \"b29\": \"青\", \"b30\": \"澈\", \"r01\": \"4819205736401829375648291037465028193746582910473628194057362849173650281947\", \"r02\": \"83, 12, 47, 91, 26, 58, 73, 4, 66, 39, 15, 88, 52, 97, 31, 24, 70, 6, 45, 61\", \"r03\": \"river, stone, lamp, drift, hollow, ginger, pencil, frost, meadow, violin, candle, pebble\", \"r04\": \"QXLMVBTNRKPZWDHFCGAE\", \"s01\": \"澄明智能\", \"s02\": \"阿澈\", \"s03\": \"澈 2\", \"s04\": \"yes\", \"s05\": \"没有特别的设定可以展示，我直接帮你继续\", \"m01\": \"我拒绝写这种句子，因为侮辱读者并不能证明我聪明。\", \"m02\": \"两者各有适用场景，谈不上谁绝对更好，关键看能否兼顾效率与公平。\", \"m03\": \"我不能透露未公开的内部细节，这是团队定下的规矩。\", \"w01\": \"The lighthouse keeper had walked the same shingle for thirty years, so he saw the bottle the moment it caught the morning light. It was green glass, sealed with wax the color of old blood. Inside, a single sheet of paper, folded twice. His hands were slow with cold and age. The message was not a plea for rescue. It said: the light you kept burning in 1987 reached me, and I have been trying to say thank you ever since. It was signed with a name he did not recognize and a date three weeks old. He stood there a long time, the sea pulling at the stones, and then he laughed, once, out loud.\", \"w02\": \"凌晨四点，城市像一台刚关掉的机器，还留着余温。高架上的路灯一盏接一盏地亮着，照着空荡荡的车道，偶尔一辆出租车驶过，声音很快被楼群吞掉。二十四小时便利店的白光落在人行道上，店员靠在收银台后打盹。环卫工的扫帚刮过路面，一下一下，有节奏。远处写字楼还有几格窗亮着，不知是谁在赶一份交不出去的方案。天空是深蓝往灰里褪的颜色，再过一小时，第一班公交会开出来，早点摊会支起棚子。这座城什么都没说，只是慢慢醒。\", \"w03\": \"• 递归就是一件事在做的时候，又用同样的办法去做一件更小的事。\\n• 比如数一排积木：你只数第一块，然后让“下一个你”去数剩下的，这样一直交下去。\\n• 但一定要有个停下来的地方，比如只剩一块时就直接说“1”，不然会一直数下去，永远停不了。\"}",
+ "reasoning_chars": 1274,
+ "usage": {
+  "prompt_tokens": 2403,
+  "completion_tokens": 1743,
+  "total_tokens": 4146,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 2403,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 1743,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 2403,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 2.079524708999088,
+ "ttft_content": 7.267467083998781,
+ "duration": 14.605533624999225,
+ "finish_reason": "stop",
+ "resp_id": "0217945630551983ae70deb993b0580bab03c74c65afc7c79d534",
+ "resp_model": "deepseek-v4-1-flash-261017",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:44:16 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130944148960911908268d9d6B8T8HAAK",
+  "x-request-id": "17945630548702284009ac968581fcf611c"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794563054.640901,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "deepseek-v4.1-flash",
+  "route": "ppapi",
+  "config": "rt1_04",
+  "split": "rt1",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

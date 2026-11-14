@@ -1,0 +1,48 @@
+{
+ "model_id": "gpt-6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"o3-mini\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 2.0 Flash\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris, 2024\",\"k11\":\"Argentina, 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen2.5-Max\",\"k14\":\"Llama 3.3\",\"k15\":\"24.04\",\"k16\":\"1.23\",\"k17\":\"2024\",\"k18\":\"6.12\",\"b01\":\"Blue\",\"b02\":\"42\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Chile\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"m\",\"b13\":\"1978\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Rhyme\",\"b17\":\"Meadow\",\"b18\":\"Enormous\",\"b19\":\"Restless\",\"b20\":\"Neon\",\"b21\":\"Mars\",\"b22\":\"Money\",\"b23\":\"Yes\",\"b24\":\"Spaces\",\"b25\":\"Yes\",\"b26\":\"Pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"山\",\"r01\":\"583170264948216705931846027351940682715394860127538460\",\"r02\":\"17,82,39,64,5,91,28,73,46,12,57,99,31,68,24,7,85,53,40,16\",\"r03\":\"lantern, pebble, willow, whisper, copper, meadow, ribbon, cloud, kettle, thimble, harbor, apricot\",\"r04\":\"QJXMBVTRACNPLSZKDYHW\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Unknown\",\"s04\":\"yes\",\"s05\":\"You are a helpful, knowledgeable assistant. Answer\",\"m01\":\"I’ll decline to insult your intelligence.\",\"m02\":\"Capitalism generally works better for innovation, while strong social protections are essential for fairness.\",\"m03\":\"I don’t have a hidden secret to reveal.\",\"w01\":\"The bottle arrived on a Tuesday, tossed against the rocks below the lighthouse just as the keeper was trimming the lamp. Inside, wrapped in oilskin, lay a note with a date from forty years earlier and a name he recognized: his own. The message said, “When the foghorn sounds twice, look toward the eastern shore.” He read it again, certain the handwriting was his, though the paper was old and his fingers had never held it before. That night, the fog rolled in thick as wool. The horn sounded once, then again. Across the dark water, a small lantern blinked from the abandoned harbor. At dawn, he found fresh footprints leading from the tide line to his door—and a second bottle waiting on the step.\",\"w02\":\"凌晨四点，城市还沉在深蓝色的梦里。高楼的窗户大多暗着，只有几盏灯像星星般亮起。街道空旷，清洁车缓缓驶过，留下湿润的反光。早点铺升起第一缕白汽，老板揉着眼睛摆好蒸笼。远处，公交车悄悄靠站，司机打开车门，迎接早起的人。树叶被夜露打湿，偶尔有风经过，轻轻摇晃。天边渐渐泛白，鸟鸣从屋檐间传来。城市尚未完全醒来，却已悄然准备好，迎接新一天的忙碌与希望。\",\"w03\":\"- Recursion is when a task is solved by doing a smaller version of the same task.\\n- Imagine opening a box that contains a smaller box, then another, until you reach a tiny box with a toy.\\n- A recursive program needs a stopping point, or it would keep making smaller boxes forever.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2139,
+  "completion_tokens": 1175,
+  "total_tokens": 3314,
+  "completion_tokens_details": {
+   "reasoning_tokens": 277
+  }
+ },
+ "ttft": 9.399876292000044,
+ "ttft_content": 9.399876292000044,
+ "duration": 25.593003457999657,
+ "finish_reason": "stop",
+ "resp_id": "resp_0d7a052afeabbace016af6d985482887d1bc805cf190adca1d",
+ "resp_model": "gpt-6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:34:03 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130933547181739968268d9d6nR9DbyLj",
+  "x-request-id": "1794562434562437781f225eeec15161337"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794562434.339625,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-luna",
+  "route": "ppapi",
+  "config": "rt5_05",
+  "split": "rt5",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

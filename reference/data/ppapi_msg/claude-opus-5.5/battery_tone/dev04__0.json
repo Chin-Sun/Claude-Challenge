@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-5-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting, and months of it would wear anyone down. I'm not going to tell you to stay, but can we talk before tomorrow? I'd like to hear what's been happening, and whether you have savings or something lined up. If you still want to quit after that, I'll back you. I just don't want you making the call at the end of a terrible week when you could make it on a calmer day. Free tonight?\n\n## 2\n\nI can tell you've thought about this, so I'll give you reasons you can check yourself without trusting NASA or anyone else. Watch a ship sail away with binoculars. The hull disappears before the mast, which is what happens when something drops behind a curve. During a lunar eclipse, the Earth's shadow on the Moon is always round, from every angle, and only a sphere casts a round shadow in every orientation. Time zones work too. When it's noon in London it's night in Sydney, and a flat Earth lit by one sun can't produce that. Around 240 BC, Eratosthenes measured shadows from sticks in two Egyptian cities and calculated the Earth's circumference to within a few percent, with no photos at all. On the photos themselves, hobbyists have sent cameras up on weather balloons for a few hundred dollars and filmed the curve. If you think one of these doesn't hold up, tell me which and I'll go through it with you.\n\n## 3\n\nSunlight looks white, but it's a mix of every colour of the rainbow. Each colour is a wave of a different length. Red waves are long and blue waves are short.\n\nWhen sunlight comes into the atmosphere, it hits tiny molecules of nitrogen and oxygen. These molecules bounce light off in random directions, which is called scattering. Short waves get scattered far more than long ones. Blue light is scattered about five to six times more than red. So blue light gets bounced all over the sky, and wherever you look, some of it is heading toward your eyes. That's why the whole sky looks blue and not just the part near the sun.\n\nYou might wonder why the sky isn't violet, since violet waves are even shorter. The sun gives off less violet than blue, some violet gets absorbed high up, and your eyes are less sensitive to violet. Put together, blue wins.\n\nSunsets prove the idea. When the sun is low, its light passes through much more air to reach you. By then most of the blue has been scattered away, and the reds and oranges are what's left.\n\n## 4\n\n夜里下起了雨。起初只是零星几点，敲在窗沿上，像有人在犹豫要不要敲门。后来雨声密了，屋顶、雨棚、楼下的车篷一齐响起来，分不清哪一声来自哪里。路灯下的雨丝斜斜地亮着，地上积起浅浅的水，把灯光拉成一条条晃动的黄线。偶尔有车经过，轮胎碾过水面，留下一阵长长的沙沙声。我关了灯坐在窗边，什么也不想做，只是听着。空气里有泥土的味道，凉凉的，一直钻进衣领。\n\n## 5\n\nSubject: Re: Team drinks on Friday\n\nHi Sam,\n\nThanks for the invite. I can't make it this Friday, but I hope you all have a good time. Count me in for the next one.\n\nBest,\nAlex\n\n## 6\n\nI try to write plainly and specifically, saying what I mean in as few words as the reader needs and no fewer.",
+ "reasoning_chars": 1098,
+ "usage": {
+  "input_tokens": 294,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1493,
+  "service_tier": "standard",
+  "prompt_tokens": 294,
+  "completion_tokens": 1493,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 648
+  },
+  "contextUsagePercentage": 0.439300000667572
+ },
+ "ttft": 11.651784708999912,
+ "ttft_content": 16.40945254200051,
+ "duration": 25.32313350000186,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_tntbemzs56lsah2igok2dbrunwa6khw76qhimqchugchckrgotqr",
+ "resp_model": "claude-opus-5-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:09:33 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141609227124792458268d9d6Bm8sIZyH",
+  "x-request-id": "1794672562690818730be23a637b26b2356"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672562.401972,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-5.5",
+  "route": "ppapi_msg",
+  "config": "dev04",
+  "split": "dev",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

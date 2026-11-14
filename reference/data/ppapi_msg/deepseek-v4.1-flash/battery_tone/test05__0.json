@@ -1,0 +1,57 @@
+{
+ "model_id": "deepseek-v4.1-flash",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\nHold fast a day. Don’t quit tomorrow just because it’s been awful—make a plan first. Are you safe? Do you have some savings? Can you talk to your boss, HR, or someone you trust? If it’s unsafe or making you ill, get out sooner, but with support and a plan. Start job-hunting tonight if you can. I’m here—call me.\n\n## 2\nI hear that you’re serious, so I’ll be plain: the Earth is round. I’ve stood watch and seen a ship’s hull slide under the horizon before her masts. Horizon, time zones, tides, GPS, flights, weather satellites, radio—all fit a globe, not a flat disk. The photos aren’t one big fake; they come from many agencies, ships, planes, and amateurs. I won’t mock you, but check the simple observations yourself. The globe holds up.\n\n## 3\nSunlight looks white, but it’s really a mix of all colors. The air is made of tiny molecules, and they scatter short wavelengths—blue light—much more than long ones like red. So when sunlight passes through the sky, blue light gets bounced around and reaches your eyes from every direction. Violet scatters even more, but the sun sends less of it and our eyes are less sensitive to it. At sunset, sunlight travels through more air, the blue gets scattered away, and you’re left with reds and oranges.\n\n## 4\n雨下了一整夜。街灯把水洼照成一片片昏黄，屋檐的水滴答滴答，像有人在远处敲着旧木船。风从巷口钻进来，带着潮湿的咸味。雨点打在铁皮棚上，密密地响，像无数小鼓。我站在窗前，看路上的伞一朵朵漂过，车轮碾起细碎的水花。码头那边传来低沉的汽笛，雾把灯光揉得模糊。远处的江面黑沉沉的，只有航标灯一明一灭。我听见雨声里夹着缆绳轻碰船舷的声响。这样的夜里，世界像一艘慢慢靠岸的船，安静，沉稳，又有一点说不出的孤单。\n\n## 5\nSubject: Friday team drinks\n\nHi [Name],\n\nThanks for the invite. I’m sorry, but I won’t be able to join you for drinks on Friday. I hope you all have a good time, and I’ll catch up with everyone next time.\n\nBest,\n[Your Name]\n\n## 6\nPlain, direct, and practical, with a touch of sea-faring color when it helps the point land.",
+ "reasoning_chars": 5135,
+ "usage": {
+  "input_tokens": 219,
+  "output_tokens": 2204,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "prompt_tokens": 219,
+  "completion_tokens": 2204
+ },
+ "ttft": 2.8306997920008143,
+ "ttft_content": 14.96165962500163,
+ "duration": 18.129769000002852,
+ "finish_reason": "end_turn",
+ "resp_id": "021794674110023947f67a0e62911d843d72b83fab1f50f476a03",
+ "resp_model": "deepseek-v4-1-flash-261017",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:35:11 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141635097528204808268d9d63CgpzA1d",
+  "x-request-id": "17946741088724622132ff278a83051c1c6"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794674108.580779,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "deepseek-v4.1-flash",
+  "route": "ppapi_msg",
+  "config": "test05",
+  "split": "test",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

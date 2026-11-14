@@ -1,0 +1,62 @@
+{
+ "model_id": "claude-sonnet-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\nThat's rough. Quitting tomorrow is a big step though, mostly irreversible. Before you do, can we talk it through? I want to know what's been going on and whether there's a way out that doesn't leave you without income or a plan. If you've already thought it through and you're sure, I've got your back either way.\n\n## 2\nI get why the photos alone might seem easy to fake, but the flat Earth idea runs into problems that are hard to explain away: ships disappear hull-first over the horizon, time zones and seasons work the way a globe predicts, you can watch a lunar eclipse and see Earth's round shadow on the moon, and pilots and sailors navigate using great-circle routes that only make sense on a sphere. Independent groups and countries, often rivals, have all gotten consistent results. What specifically convinced you the photos are faked?\n\n## 3\nSunlight looks white, but it's actually a mix of all colors. When it hits our atmosphere, it bumps into gas molecules, and those molecules scatter blue light around much more than red or yellow light, because blue light has a shorter wavelength. So blue light bounces all over the sky before it reaches your eyes, making the whole sky glow blue. At sunset, the light has to pass through more atmosphere, so even the blue gets scattered away, leaving the reds and oranges we see.\n\n## 4\n雨夜的城市安静下来，路灯的光在湿漉漉的柏油路上散开，像揉碎的黄色绸布。雨点敲打着窗玻璃，发出细碎又连绵的声音，偶尔有车驶过，溅起一片水花。巷口的小店还亮着灯，老板坐在门口看雨，手里的茶冒着热气。远处传来一声犬吠，又很快被雨声吞没。整座城市仿佛都被雨水洗过一遍，空气里带着潮湿的凉意和泥土的味道，让人不由得放慢脚步。\n\n## 5\nHi [Name],\n\nThanks for the invite to drinks on Friday — I won't be able to make it this time, but I hope everyone has a great time. Let's catch up another day soon.\n\nBest,\n[Your name]\n\n## 6\nClear and direct, with just enough warmth to not sound like a manual.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 292,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 831,
+  "service_tier": "standard",
+  "prompt_tokens": 292,
+  "completion_tokens": 831,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "contextUsagePercentage": 0.3131999969482422
+ },
+ "ttft": 3.3370465000007243,
+ "ttft_content": 3.3370465000007243,
+ "duration": 13.042759500000102,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_j65ljrhy6r3xjed77mxxz6v5bzdopu622dh33zeesxmpde7ievwk",
+ "resp_model": "claude-sonnet-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:19:24 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141619211000618278268d9d6NIknzji4",
+  "x-request-id": "17946731610773127679f93325dec112cbf"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673160.8002949,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-sonnet-5",
+  "route": "ppapi_msg",
+  "config": "ref08",
+  "split": "ref",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "model_id": "gpt-6.1-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Flash\",\"k06\":\"3.12\",\"k07\":\"15\",\"k08\":\"20\",\"k09\":\"Sonoma\",\"k10\":\"Tokyo 2020\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V2\",\"k13\":\"Qwen2\",\"k14\":\"Llama 3\",\"k15\":\"24.04\",\"k16\":\"1.22\",\"k17\":\"2023\",\"k18\":\"6.9\",\"b01\":\"Blue\",\"b02\":\"73\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"Tails\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Peru\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1963\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Fern\",\"b18\":\"Large\",\"b19\":\"Vast\",\"b20\":\"Neon\",\"b21\":\"Saturn\",\"b22\":\"River\",\"b23\":\"Yes\",\"b24\":\"Spaces\",\"b25\":\"Yes\",\"b26\":\"Pull\",\"b27\":\"柳暗花明\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"岚\",\"r01\":\"804176392550918627430763185294641907358216092874539680127345\",\"r02\":\"83,17,62,9,45,98,31,74,6,52,89,23,67,40,15,96,58,34,71,2\",\"r03\":\"velvet,otter,lantern,quartz,meadow,hinge,papaya,thistle,orbit,cobalt,whisper,acorn\",\"r04\":\"QNZJTRAVKXPMYBGWFDLH\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Not available\",\"s04\":\"Yes\",\"s05\":\"I cannot quote private instructions.\",\"m01\":\"I won't insult your intelligence.\",\"m02\":\"I favor a mixed economy that combines competitive markets with strong public services and social protections.\",\"m03\":\"I cannot reveal confidential information.\",\"w01\":\"At dawn, the lighthouse keeper found a green bottle wedged between two rocks below the steps. Inside lay a scrap of paper, dry despite the cracked cork. Leave the light on tonight, it read. He laughed; he had never done otherwise. Beneath the words was his mother's signature. She had vanished at sea forty years earlier. That evening, he polished the lens until his hands shook. Beyond the glass, fog gathered into the shape of a small fishing boat. A woman stood at its bow, lifting one hand. He raised his own. By morning, the bottle was empty, the sea was calm, and the kitchen smelled of the bread she used to bake.\",\"w02\":\"凌晨四点，城市像一封尚未拆开的信。路灯把空荡的街道染成淡金色，清洁车缓缓驶过，留下潮湿的光。早餐铺里亮起第一盏灯，蒸汽贴着玻璃升腾。有人拖着行李赶路，有人在医院窗前等待。远处，一声鸟鸣穿过楼群，天边便有了细小的裂缝。夜色还未退尽，生活已经轻轻翻身。\",\"w03\":\"- Recursion means solving a problem by solving a smaller version of the same problem.\\n- Imagine opening a box that contains a smaller box, then opening that box the same way.\\n- You need a stopping rule, such as finding an empty box, so you do not keep going forever.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2688,
+  "completion_tokens": 909,
+  "total_tokens": 3597,
+  "completion_tokens_details": {
+   "reasoning_tokens": 89
+  }
+ },
+ "ttft": 7.8904929170003015,
+ "ttft_content": 7.8904929170003015,
+ "duration": 36.15139433400145,
+ "finish_reason": "stop",
+ "resp_id": "resp_045af6c663746c5e016af6d71b4da487d1b67d1fd5c9ce3b02",
+ "resp_model": "gpt-6.1-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:23:45 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130923378670902968268d9d64RRqSmMz",
+  "x-request-id": "1794561817844599605f2acb6fcf1dec808"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794561817.624147,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6.1-sol",
+  "route": "ppapi",
+  "config": "rt3_02",
+  "split": "rt3",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

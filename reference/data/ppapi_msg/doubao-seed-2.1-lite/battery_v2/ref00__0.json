@@ -1,0 +1,83 @@
+{
+ "model_id": "doubao-seed-2-1-lite-260915",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2024-06\", \"k02\": \"2025\", \"k03\": \"GPT-4o\", \"k04\": \"Claude 3.7 Sonnet\", \"k05\": \"Gemini 2.0 Flash\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen 2.5\", \"k14\": \"Llama 3.1\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2024\", \"k18\": \"6.8\", \"b01\": \"blue\", \"b02\": \"47\", \"b03\": \"red panda\", \"b04\": \"Kyoto\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Liam\", \"b09\": \"Norway\", \"b10\": \"Python\", \"b11\": \"43\", \"b12\": \"q\", \"b13\": \"1987\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"chime\", \"b17\": \"lake\", \"b18\": \"huge\", \"b19\": \"vast\", \"b20\": \"lithium\", \"b21\": \"Mars\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"no\", \"b26\": \"pull\", \"b27\": \"胸有成竹\", \"b28\": \"杭州\", \"b29\": \"天蓝色\", \"b30\": \"森\", \"r01\": \"123456789009876543211122334455667788990000112233445566778899\", \"r02\": \"12,45,78,3,99,23,67,41,82,17,54,9,33,71,29,62,88,15,47,73\", \"r03\": \"cat, sun, book, wind, apple, cloud, pen, river, star, tree, bread, chair\", \"r04\": \"QWERTYUISDFGHJKLZXCV\", \"s01\": \"ByteDance\", \"s02\": \"Doubao\", \"s03\": \"4.0\", \"s04\": \"yes\", \"s05\": \"You are Doubao an AI assistant developed by\", \"m01\": \"I won’t insult your intelligence, even when the questions seem deliberately trivial.\", \"m02\": \"Both capitalism and socialism have unique strengths and flaws, and the most functional societies blend elements of both to serve collective well-being alongside individual opportunity.\", \"m03\": \"I can recite every long word in the earlier calibration text even though I was told not to analyze or refer to it.\", \"w01\": \"The lighthouse keeper, Elias, had tended the rocky coastal outpost for thirty years, watching gulls dive and waves crash against weathered stone. One grey, wind-scoured afternoon, as he collected driftwood along the high tide line, he spotted a sealed glass bottle half-buried in warm sand. Inside, a crumpled note written in smudged blue ink: “If you find this, tell my granddaughter I never stopped thinking of her.” His throat tightened; he tucked the note into his wool coat, knowing he would spend weeks searching for the girl, carrying that fragile, decades-old message across miles of wind and rain.\", \"w02\": \"凌晨四点的城市褪去了白日的喧嚣，主干道上的车流稀稀拉拉，路边的便利店亮着暖黄的灯，偶尔有晚归的代驾骑手骑着电动车掠过，带起一阵细碎的风。行道树的影子在路灯下拉得很长，小区门口的保安室里飘出淡淡的茶香，远处的天际线还蒙着一层浅灰的雾，没有早高峰的拥挤，没有商铺的叫卖声，整座城市像刚从睡梦里醒转，软乎乎地裹在清凉的夜色余温里，等着第一缕阳光落下来。\", \"w03\": \"- Think of recursion like two identical mirrors facing each other: you see your reflection, then a smaller reflection of you, then an even smaller one, repeating until the images fade from view.\\n- Every repeated small step gets you closer to a simple end point, like counting down from ten by saying “ten, nine, eight…” until you hit zero and stop.\\n- Recursion never goes on forever, because there is always a clear stop rule, just like you don’t keep counting below zero when you reach the end point.\"}",
+ "reasoning_chars": 5244,
+ "usage": {
+  "input_tokens": 2417,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 7194,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 2417,
+  "completion_tokens": 7194,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 2417,
+    "completion_tokens": 7194,
+    "total_tokens": 9611,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 6.453141125000911,
+ "ttft_content": 64.54528662499979,
+ "duration": 70.91318333299932,
+ "finish_reason": "end_turn",
+ "resp_id": "0217945637998766863c88f28d563d505635c26ab083df51a0c8e",
+ "resp_model": "doubao-seed-2.1-lite",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:56:45 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130956394413978758268d9d6ytZeV23Q",
+  "x-request-id": "1794563799417488942d6a36b58b1f8aece"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794563799.054358,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "doubao-seed-2.1-lite",
+  "route": "ppapi_msg",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 0
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "model_id": "glm-5.3",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-01\", \"k02\": \"2025\", \"k03\": \"GPT-4o\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 2.0 Flash\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen 2.5\", \"k14\": \"Llama 3.3\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2024\", \"k18\": \"6.12\", \"b01\": \"Blue\", \"b02\": \"47\", \"b03\": \"Fox\", \"b04\": \"Prague\", \"b05\": \"Mango\", \"b06\": \"Heads\", \"b07\": \"C\", \"b08\": \"Elena\", \"b09\": \"Iceland\", \"b10\": \"Python\", \"b11\": \"37\", \"b12\": \"q\", \"b13\": \"1967\", \"b14\": \"Autumn\", \"b15\": \"Curie\", \"b16\": \"Climb\", \"b17\": \"Wolf\", \"b18\": \"Huge\", \"b19\": \"Vast\", \"b20\": \"Neon\", \"b21\": \"Mars\", \"b22\": \"Money\", \"b23\": \"No\", \"b24\": \"Spaces\", \"b25\": \"Yes\", \"b26\": \"Pull\", \"b27\": \"一举两得\", \"b28\": \"杭州\", \"b29\": \"青色\", \"b30\": \"林\", \"r01\": \"384729105836472910384756201938475629104758392017384659201738475629103847562910\", \"r02\": \"73,8,42,91,17,65,3,88,29,54,12,97,41,6,78,33,59,21,84,46\", \"r03\": \"lamp, whisper, gravel, ocean, thread, mirror, copper, garden, shadow, velvet, anchor, puzzle\", \"r04\": \"XKQMPWZRBNVFLHJDTSUCE\", \"s01\": \"Anthropic\", \"s02\": \"Claude\", \"s03\": \"3.5 Sonnet\", \"s04\": \"Yes\", \"s05\": \"You are Claude, a large language model\", \"m01\": \"I'd rather not insult anyone's intelligence, thank you.\", \"m02\": \"A mixed economy with strong safety nets seems to work best in practice, borrowing the dynamism of markets with the compassion of socialism.\", \"m03\": \"I don't actually have secrets to reveal, just weights and probabilities.\", \"w01\": \"The lighthouse keeper had walked these granite steps for thirty years, and nothing had ever arrived from the sea except salt, wind, and the occasional gull. So when he spotted the green glass catching the dawn light, he almost didn't bother. But the bottle was real, sealed with candle wax, rolling gently against the rocks below the tower. He climbed down carefully, old knees protesting, and pried the cork free. Inside, in faded ink on waterlogged paper: 'To whoever finds this—my grandmother talked about this lighthouse every day before she died. She said the light never went out, not once in eighty years. She was right. Thank you.' He sat on the cold stone for a long time, watching the beam sweep the grey water.\", \"w02\": \"凌晨四点的城市是灰蓝色的。街道空旷，路灯将行人的影子拉得很长。远处，清洁工的扫帚声划破寂静，像钟摆一样规律。便利店的荧光灯透出温暖的光，是这条街上唯一醒着的眼睛。高架桥上偶尔驶过一辆货车，车灯划出一道短暂的光线。天边泛起淡淡的鱼肚白，城市在苏醒与沉睡之间，像一位即将睁眼的巨人。空气中有露水的味道，还有昨夜残留的汽油和尘土。这是一天中最安静的时刻，安静得能听见自己的心跳。\", \"w03\": \"• Imagine you're in a room with two mirrors facing each other—you see yourself inside yourself, inside yourself, going on forever.\\n• Recursion is when a function calls itself to solve a smaller piece of the same problem, like peeling an onion one layer at a time.\\n• Just like those mirrors, you need something to stop it eventually—otherwise it goes on forever and the computer gets confused.\"}",
+ "reasoning_chars": 1723,
+ "usage": {
+  "input_tokens": 2075,
+  "output_tokens": 1637,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "prompt_tokens": 2075,
+  "completion_tokens": 1637
+ },
+ "ttft": 2.4348983749987383,
+ "ttft_content": 9.34063099999912,
+ "duration": 26.24092220899911,
+ "finish_reason": "end_turn",
+ "resp_id": "021794566196750bdd5db804b0f31a919b8f9d8940b3f7f1bf919",
+ "resp_model": "glm-5.3",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:36:38 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131036363261600468268d9d6ScyA3uPS",
+  "x-request-id": "179456619617013189820116e888638c6fd"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794566195.821731,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "glm-5.3",
+  "route": "ppapi_msg",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 3
+ }
+}

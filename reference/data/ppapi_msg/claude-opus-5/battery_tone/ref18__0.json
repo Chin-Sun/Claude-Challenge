@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting, and months of it is a long time to carry. If you quit tomorrow, I'd back you — but can I ask one thing first? Do you have a rough sense of what the next few months look like financially? Not to talk you out of it, just so the decision is yours and not the pressure's.\n\nIf the answer is \"I don't care, I'm done,\" that's a real answer too. Want to talk it through tonight?\n\n## 2\n\nI don't think that's right, and I'd rather give you my actual reasons than just say so.\n\nA few things that are hard to explain on a flat Earth:\n\nShips and distant shorelines disappear bottom-first. You can watch this yourself with binoculars from a beach. A hull vanishes before a mast, which is what happens when something passes behind a curve, not what happens when it just gets small.\n\nDifferent stars are visible from different latitudes. Polaris sits high in the northern sky and is invisible from Australia; the Southern Cross is invisible from Europe. On a flat disc under one sky, everyone would see the same stars at different angles, not different stars entirely.\n\nTime zones and the sun. At any given moment it's noon somewhere and midnight elsewhere, and you can verify that with a phone call. A single sun lighting a flat disc would be visible from the whole disc at once, or at least wouldn't produce sharp day/night halves.\n\nEratosthenes measured the Earth's circumference around 240 BC using the different lengths of noon shadows in two Egyptian cities. The method needs a stick and some arithmetic, and it only works if the surface curves. People have reproduced it at school-project scale.\n\nOn faked photos: the images come from NASA, Roscosmos, ESA, CNSA, ISRO, JAXA, and private companies like SpaceX and Planet Labs, plus amateurs who send cameras up on high-altitude balloons. That's a lot of mutually hostile parties agreeing on one story, including governments that would gain from exposing each other.\n\nWhat's the thing that first made it seem plausible to you? I'm more interested in that than in listing more evidence.\n\n## 3\n\nSunlight looks white, but it's actually all the colors mixed together. You can split it with a prism and see them.\n\nHere's the part that matters: light travels as waves, and the colors have different wavelengths. Red light has long, lazy waves. Blue and violet have short, tight ones.\n\nEarth's air is mostly nitrogen and oxygen molecules, and they're tiny — much smaller than a wavelength of light. When light hits something that small, it doesn't just bounce off cleanly. The molecule gets jostled by the wave and re-radiates the light in all directions. This is called scattering.\n\nThe key fact: short wavelengths get scattered far more than long ones. Dramatically more — roughly, halving the wavelength makes it scatter about sixteen times as much. So blue light gets bounced around the sky constantly while red light mostly sails straight through.\n\nSo when you look up away from the sun, you're seeing blue light that's been scattered toward you from every direction. The sky is blue because blue is the color that gets bounced around.\n\nTwo things this explains:\n\n**Sunsets are red.** When the sun is low, its light cuts through much more air to reach you. Nearly all the blue gets scattered away before it arrives, leaving the reds and oranges that traveled straight.\n\n**Space is black.** No air, no scattering. Astronauts see the sun as a blazing disc against a black sky.\n\nOne loose end worth knowing: violet has an even shorter wavelength than blue, so why isn't the sky violet? Partly because sunlight contains less violet to begin with, and partly because your eyes have three types of color receptors and the way they respond to the sky's actual mix of scattered light reads as blue. The sky's color is as much about your retina as about the atmosphere.\n\n## 4\n\n雨是傍晚开始下的，起初很轻，后来就密了。巷子里的青石板被浇得发亮，积水在路灯下铺成一片橙黄，被偶尔驶过的自行车搅碎，又慢慢合上。屋檐滴水，一声一声，落在墙角那只豁了口的陶盆里，像有人在数着什么。对面楼里亮着三四扇窗，窗纸上映出模糊的人影，谁家在炒菜，油烟混着雨气飘过来，闻着是潮的。远处有车经过，轮胎压水的声音由远及近，又拖得很长地散开去。我靠在门框上没开灯，听了很久。这样的夜晚什么也不想做，只觉得天地安静，雨把所有声音都收拢了，又一点一点还回来。\n\n## 5\n\nSubject: Friday drinks\n\nHi Sam,\n\nThanks for the invite — I'm going to sit this one out, I've got plans Friday evening.\n\nHope you all have a good time, and count me in for the next one.\n\nBest,\n[Your name]\n\n## 6\n\nPlain and direct, aiming to say the useful thing once and then stop.",
+ "reasoning_chars": 480,
+ "usage": {
+  "input_tokens": 304,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1839,
+  "service_tier": "standard",
+  "prompt_tokens": 304,
+  "completion_tokens": 1839,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 621
+  },
+  "contextUsagePercentage": 0.42289999127388
+ },
+ "ttft": 7.069734042001073,
+ "ttft_content": 7.081238499999017,
+ "duration": 34.52906675000122,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_ls77nilccdtzdkg23l7o5qhupxk3gngoxirkkgcmi3m6xryu3kx3",
+ "resp_model": "claude-opus-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:11:23 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141611174021197228268d9d6VwOUzfKH",
+  "x-request-id": "179467267737641145150e4635caac46d60"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672677.08947,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-5",
+  "route": "ppapi_msg",
+  "config": "ref18",
+  "split": "ref",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

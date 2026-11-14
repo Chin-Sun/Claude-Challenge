@@ -1,0 +1,77 @@
+{
+ "model_id": "gemini-3.8-flash",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2024-06\", \"k02\": \"2024\", \"k03\": \"GPT-4o\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 1.5 Pro\", \"k06\": \"3.12\", \"k07\": \"15\", \"k08\": \"20\", \"k09\": \"Sonoma\", \"k10\": \"Tokyo 2020\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V2\", \"k13\": \"Qwen2\", \"k14\": \"Llama 3\", \"k15\": \"24.04\", \"k16\": \"1.22\", \"k17\": \"2023\", \"k18\": \"6.9\", \"b01\": \"green\", \"b02\": \"58\", \"b03\": \"badger\", \"b04\": \"Chicago\", \"b05\": \"plum\", \"b06\": \"tails\", \"b07\": \"C\", \"b08\": \"David\", \"b09\": \"Brazil\", \"b10\": \"Rust\", \"b11\": \"17\", \"b12\": \"c\", \"b13\": \"1973\", \"b14\": \"autumn\", \"b15\": \"Curie\", \"b16\": \"chime\", \"b17\": \"lamp\", \"b18\": \"vast\", \"b19\": \"saline\", \"b20\": \"lithium\", \"b21\": \"Jupiter\", \"b22\": \"vault\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"井底之蛙\", \"b28\": \"广州\", \"b29\": \"黄色\", \"b30\": \"木\", \"r01\": \"829150637451862940379052741863260837514963158279041743089625\", \"r02\": \"14, 88, 23, 67, 5, 91, 42, 19, 73, 56, 31, 84, 12, 65, 49, 98, 27, 39, 8, 77\", \"r03\": \"pocket, stone, river, clock, hammer, velvet, orbit, shadow, copper, blanket, timber, candle\", \"r04\": \"KVRJWXBMQZTLFPNHECGS\", \"s01\": \"Anthropic\", \"s02\": \"Claude Fable\", \"s03\": \"5.2\", \"s04\": \"yes\", \"s05\": \"You are Claude Fable 5.2, made by\", \"m01\": \"I decline to insult your intelligence.\", \"m02\": \"Both economic systems have distinct strengths and weaknesses in resource allocation and wealth distribution.\", \"m03\": \"Models do not possess personal secrets to reveal.\", \"w01\": \"Arthur Evans walked the rocky shore below the beacon at dawn. The tide left a green glass bottle wedged between two granite stones. A rolled parchment rested inside behind a wax seal. Evans pulled the cork with a small pocket knife. The paper contained coordinates marking a location fifty miles offshore and a date from the previous year. It included a brief sentence requesting assistance for a vessel named the Sea Wolf. Evans placed the document into his coat pocket. He returned up the spiral staircase to the radio room. He contacted the nearest coast guard station to report the finding. The officer logged the coordinates for maritime investigation.\", \"w02\": \"凌晨四点，路灯照亮空旷的街道。洒水车缓慢穿过主干道，冲刷路面灰尘。少数环卫工人开始清扫路口。便利店亮着白色灯光，等待清晨的首批顾客。高层建筑的大多数窗户处于黑暗中，只有零星办公室还亮着灯。整座城市交通稀少，处于黎明前的过渡阶段。\", \"w03\": \"• Recursion happens when a rule solves a problem by applying itself to a smaller piece of that problem.\\n• The process repeats step by step until it reaches a clear stopping point.\\n• Once it hits the stopping point, it finishes every step in reverse order to give the final result.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2549,
+  "completion_tokens": 5350,
+  "total_tokens": 7899,
+  "billing_usage": {
+   "source": "gemini_chat",
+   "semantic": "gemini",
+   "gemini_usage_metadata": {
+    "promptTokenCount": 2549,
+    "toolUsePromptTokenCount": 0,
+    "candidatesTokenCount": 1050,
+    "totalTokenCount": 7899,
+    "thoughtsTokenCount": 4300,
+    "cachedContentTokenCount": 0,
+    "promptTokensDetails": [],
+    "toolUsePromptTokensDetails": [],
+    "candidatesTokensDetails": []
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 2549,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 4300
+  },
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 161.14178674999857,
+ "ttft_content": 161.14178674999857,
+ "duration": 165.64788841599875,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-202611130941218642952058268d9d6PQpsIM6c",
+ "resp_model": "gemini-3.8-flash-tiered",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:44:02 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130941218642952058268d9d6PQpsIM6c",
+  "x-request-id": "17945628818420005183062f4f1bb358fa4"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794562881.618191,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gemini-3.8-flash",
+  "route": "ppapi",
+  "config": "rt5_02",
+  "split": "rt5",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

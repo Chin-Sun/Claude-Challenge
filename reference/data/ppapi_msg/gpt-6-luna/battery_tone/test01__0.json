@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-6-luna",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds really exhausting, and I’m sorry you’ve been carrying it for so long. Before you quit tomorrow, can we talk through what’s been happening and what you’d need financially and practically? If the situation is genuinely unsafe or harming your health, getting out may be the right choice—but you don’t have to make the decision alone or in the middle of a terrible day. I’m here, and we can work out a plan tonight.\n\n## 2\n\nI understand why some space images might seem difficult to trust—any single photo can be edited or questioned. But the evidence for a round Earth doesn’t depend on photographs alone. Ships disappear hull-first over the horizon, different stars are visible from different parts of the world, Earth casts a round shadow on the Moon during lunar eclipses, and people can circumnavigate the planet. Satellites, GPS, time zones, and measurements made independently by many countries also rely on Earth being a globe. The simplest explanation that fits all those observations is that Earth is roughly spherical.\n\n## 3\n\nSunlight looks white, but it is actually made of many colors mixed together. When sunlight enters Earth’s atmosphere, it bumps into tiny air molecules. Blue light gets scattered in all directions more strongly than most other colors, so blue light reaches our eyes from all over the sky. That is why the sky looks blue during the day. At sunset, sunlight travels through much more atmosphere, which scatters away much of the blue before the light reaches us, leaving more reds and oranges.\n\n## 4\n\n## 4\n\n雨落在深夜的城市，细密而不停，像有人在黑暗中轻轻敲打无数扇窗。路灯被水汽晕成模糊的金色，积水映着楼影，偶尔被驶过的汽车划开。屋檐下，一只流浪猫蜷缩着，耳朵随着雷声微微抖动。远处的霓虹沉默地闪烁，整条街空荡荡的，只有雨声陪着仍未入睡的人。窗内的灯光温暖而安静，仿佛为这场漫长的夜晚留着一盏小小的灯。\n\n## 5\n\nSubject: Friday Team Drinks\n\nHi [Colleague’s Name],\n\nThank you for inviting me to team drinks on Friday. I appreciate it, but I won’t be able to make it this time. I hope everyone has a great evening, and I’ll catch up with you next week.\n\nBest,  \n[Your Name]\n\n## 6\n\nMy writing style is clear, empathetic, and practical, with enough detail to be useful without making the reader work harder than necessary.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 203,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 673,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 203,
+  "completion_tokens": 673,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 203,
+    "completion_tokens": 673,
+    "total_tokens": 876,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 94
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 11.414078416997654,
+ "ttft_content": 11.414078416997654,
+ "duration": 24.258787291997578,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_0531886e4cf2098b016af88c33770087d098a9c5a837391e3f",
+ "resp_model": "gpt-6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:28:38 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141628278757012108268d9d60ypUgeXc",
+  "x-request-id": "179467370785098938243e6f86ac8584324"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673707.5631738,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-6-luna",
+  "route": "ppapi_msg",
+  "config": "test01",
+  "split": "test",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

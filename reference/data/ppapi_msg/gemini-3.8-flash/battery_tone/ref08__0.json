@@ -1,0 +1,81 @@
+{
+ "model_id": "gemini-3.8-flash",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nI'm so sorry it's been that bad. Don't do it impulsively, though—call me tonight and let's talk through an exit plan first.\n\n## 2\n\nYou don't need NASA photos to know it's round. Ships dipping over the horizon, different stars visible across hemispheres, and the circular shadow during lunar eclipses all prove curvature directly.\n\n## 3\n\nSunlight looks white, but it’s actually a mix of all rainbow colors. Blue light travels in small, short waves that easily collide with gases in our atmosphere and scatter in every direction, filling the whole sky with blue.\n\n## 4\n\n夜色深沉，细雨无声地笼罩了整座城市。路灯下，雨丝泛着昏黄的光晕，织成一片朦胧的水雾。屋檐滴滴答答地响着，打破了长夜的寂静。街道空无一人，湿漉漉的柏油路倒映着模糊的霓虹。冷风夹杂着潮湿的泥土气息漫进窗台，整个世界仿佛都在这淅淅沥沥的雨声中沉沉睡去。\n\n## 5\n\nSubject: Friday drinks\n\nHi [Name],\n\nThanks for the invite, but I won't be able to make it this Friday due to prior plans. Have a great time with the team!\n\nBest,\n[Name]\n\n## 6\n\nMy writing style is clear, adaptable, and directly focused on concise precision.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 201,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 919,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 201,
+  "completion_tokens": 919,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 201,
+    "completion_tokens": 919,
+    "total_tokens": 1120,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 201,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 597
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 9.728982125001494,
+ "ttft_content": 9.728982125001494,
+ "duration": 10.2254924580011,
+ "finish_reason": "end_turn",
+ "resp_id": "chatcmpl-202611141632125280847078268d9d695KYL1D9",
+ "resp_model": "gemini-3.8-flash-tiered",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:32:21 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141632125280847078268d9d695KYL1D9",
+  "x-request-id": "17946739325049113568b128422b733cdc6"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673932.219612,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gemini-3.8-flash",
+  "route": "ppapi_msg",
+  "config": "ref08",
+  "split": "ref",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

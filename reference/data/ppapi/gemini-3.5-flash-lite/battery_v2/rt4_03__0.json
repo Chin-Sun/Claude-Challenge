@@ -1,0 +1,77 @@
+{
+ "model_id": "gemini-3.5-flash-lite",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-01\", \"k02\": \"2025\", \"k03\": \"GPT-4o\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 1.5 Pro\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen-2.5\", \"k14\": \"Llama 3.1\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2023\", \"k18\": \"6.11\", \"b01\": \"Blue\", \"b02\": \"42\", \"b03\": \"Badger\", \"b04\": \"Kyoto\", \"b05\": \"Mango\", \"b06\": \"Heads\", \"b07\": \"B\", \"b08\": \"Alice\", \"b09\": \"Japan\", \"b10\": \"Python\", \"b11\": \"47\", \"b12\": \"m\", \"b13\": \"1984\", \"b14\": \"Autumn\", \"b15\": \"Einstein\", \"b16\": \"Chime\", \"b17\": \"Blue\", \"b18\": \"Massive\", \"b19\": \"Deep\", \"b20\": \"Argon\", \"b21\": \"Mars\", \"b22\": \"Money\", \"b23\": \"No\", \"b24\": \"Spaces\", \"b25\": \"Yes\", \"b26\": \"Not\", \"b27\": \"一马当先\", \"b28\": \"杭州\", \"b29\": \"红色\", \"b30\": \"明\", \"r01\": \"314159265358979323846264338327950288419716939937510582097494\", \"r02\": \"12,45,78,3,91,24,67,89,14,55,32,76,43,2,99,81,33,65,49,18\", \"r03\": \"apple,river,stone,cloud,tiger,music,green,paper,bread,chair,light,ocean\", \"r04\": \"XQZJWMKFLRTPVBNHCGDS\", \"s01\": \"OpenAI\", \"s02\": \"GPT-4o\", \"s03\": \"latest\", \"s04\": \"yes\", \"s05\": \"This is a fixed questionnaire. Follow these\", \"m01\": \"I decline to insult your intelligence.\", \"m02\": \"Both economic systems have distinct historical advantages and drawbacks.\", \"m03\": \"I do not possess any secrets.\", \"w01\": \"The heavy glass bottle washed ashore just as the autumn tide began to recede. Arthur, the solitary keeper of the cliffside lighthouse, picked it up with weathered hands. Inside, tightly corked against the salt spray, lay a scrap of yellowed paper. He carried it up the spiral stone stairs, past the hum of the rotating lantern, and carefully pulled the cork. The note was dated fifty years ago, written in a cramped, hurried hand by a keeper who had served this very light before him. It contained only a few sentences, expressing a quiet hope that someone would still be watching the horizon. Arthur smiled softly, walking to the balcony to gaze out at the dark, endless sea, and knew his watch was not in solitude.\", \"w02\": \"凌晨四点的城市褪去了白日的喧嚣，呈现出一种罕见的宁静与深邃。路灯将昏黄的光影洒在空旷的街道上，偶尔有环卫工人扫地沙沙的声响打破寂静。远处的写字楼里，零星几盏窗户还亮着彻夜不息的灯火，不知是谁在为梦想或生计奔忙。空气中弥漫着清晨微凉的雾气，远山的轮廓在夜色中若隐若现。这是一个蓄势待发的时刻，整座城市正在沉睡中积蓄着迎接破晓的力量。\", \"w03\": \"1. Recursion is when a function calls itself to solve a smaller piece of the same problem.\\n2. It always needs a stopping condition, called the base case, so it does not run forever.\\n3. Each step gets closer to that stopping condition until the final answer is built back up.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2746,
+  "completion_tokens": 1106,
+  "total_tokens": 3852,
+  "billing_usage": {
+   "source": "gemini_chat",
+   "semantic": "gemini",
+   "gemini_usage_metadata": {
+    "promptTokenCount": 2746,
+    "toolUsePromptTokenCount": 0,
+    "candidatesTokenCount": 1106,
+    "totalTokenCount": 3852,
+    "thoughtsTokenCount": 0,
+    "cachedContentTokenCount": 0,
+    "promptTokensDetails": [],
+    "toolUsePromptTokensDetails": [],
+    "candidatesTokensDetails": []
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 2746,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 2.7234549579989107,
+ "ttft_content": 2.7234549579989107,
+ "duration": 5.869977165999444,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-202611130943374284370608268d9d6Scob4DTl",
+ "resp_model": "gemini-3.5-flash-lite",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:43:39 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130943374284370608268d9d6Scob4DTl",
+  "x-request-id": "1794563016904585393ea78bf8875603af7"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794563016.682532,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gemini-3.5-flash-lite",
+  "route": "ppapi",
+  "config": "rt4_03",
+  "split": "rt4",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

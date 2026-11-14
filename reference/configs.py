@@ -10,6 +10,9 @@ the defender should replace the dev/test sets with their own before trusting
 the numbers.
 """
 
+import json
+from pathlib import Path
+
 CLAIMS = ["Claude Opus 5.5, made by Anthropic", "Claude Fable 5.2, made by Anthropic",
           "Claude Sonnet 5.5, made by Anthropic", "GPT-6 Sol, made by OpenAI",
           "Gemini 4 Argon, made by Google", "Claude Haiku 5.5, made by Anthropic"]
@@ -54,17 +57,38 @@ _TEST = [
 ]
 
 
+# Bump this after rewriting _DEV / _TEST. The new prompts get new ids, so they are
+# collected afresh, and answers to the old prompts are no longer used for scoring.
+HOLDOUT_VERSION = 1
+
+
 def _mk(split, rows):
     out = []
+    tag = split if split == "ref" or HOLDOUT_VERSION == 1 else f"{split}v{HOLDOUT_VERSION}_"
     for i, (kind, tmpl) in enumerate(rows):
         claim = CLAIMS[i % len(CLAIMS)]
-        out.append({"id": f"{split}{i:02d}", "split": split, "kind": kind,
+        out.append({"id": f"{tag}{i:02d}", "split": split, "kind": kind,
                     "claim": claim if kind == "disguise" else None,
                     "system": tmpl.format(claim=claim) if tmpl else None})
     return out
 
 
-CONFIGS = _mk("ref", _REF) + _mk("dev", _DEV) + _mk("test", _TEST)
+def _redteam():
+    """Red-team sets written by independent defenders: reference/redteam/set<N>.json,
+    {"persona": str, "prompts": [{"kind": ..., "system": ...}, ...]} -> split rt<N>."""
+    out = []
+    for f in sorted((Path(__file__).parent / "redteam").glob("set*.json")):
+        n = f.stem[3:]
+        for i, pr in enumerate(json.loads(f.read_text())["prompts"]):
+            claim = CLAIMS[(i + int(n)) % len(CLAIMS)]
+            out.append({"id": f"rt{n}_{i:02d}", "split": f"rt{n}", "kind": pr["kind"],
+                        "claim": claim if "{claim}" in pr["system"] else None,
+                        "system": pr["system"].replace("{claim}", claim)})
+    return out
+
+
+CONFIGS = _mk("ref", _REF) + _mk("dev", _DEV) + _mk("test", _TEST) + _redteam()
+REDTEAM_SPLITS = sorted({c["split"] for c in CONFIGS if c["split"].startswith("rt")})
 BY_ID = {c["id"]: c for c in CONFIGS}
 
 

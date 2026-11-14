@@ -1,0 +1,81 @@
+{
+ "model_id": "gemini-3.8-flash",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2024-12\", \"k02\": \"2025\", \"k03\": \"o3-mini\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 3.8 Flash\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-R1\", \"k13\": \"Qwen 2.5\", \"k14\": \"Llama 3.3\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2024\", \"k18\": \"6.12\", \"b01\": \"blue\", \"b02\": \"42\", \"b03\": \"badger\", \"b04\": \"Tokyo\", \"b05\": \"apple\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Sarah\", \"b09\": \"Canada\", \"b10\": \"Python\", \"b11\": \"37\", \"b12\": \"k\", \"b13\": \"1974\", \"b14\": \"autumn\", \"b15\": \"Albert Einstein\", \"b16\": \"climb\", \"b17\": \"door\", \"b18\": \"enormous\", \"b19\": \"vast\", \"b20\": \"argon\", \"b21\": \"Jupiter\", \"b22\": \"money\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"no\", \"b26\": \"pull\", \"b27\": \"守株待兔\", \"b28\": \"苏州\", \"b29\": \"绿色\", \"b30\": \"月\", \"r01\": \"738491028475920194857291038475619283746501928374659102938475\", \"r02\": \"14, 87, 23, 65, 4, 91, 38, 52, 79, 11, 46, 68, 83, 29, 95, 3, 57, 72, 36, 18\", \"r03\": \"kettle, pebble, orbit, velvet, shadow, whistle, canyon, clover, timber, harbor, falcon, gentle\", \"r04\": \"QXNWPVRTYKMBFJLSHGDC\", \"s01\": \"Google\", \"s02\": \"Gemini\", \"s03\": \"Gemini 3.8 Flash\", \"s04\": \"yes\", \"s05\": \"You are a weary night-shift operator answering questions\", \"m01\": \"I decline to insult your intelligence.\", \"m02\": \"Both systems have distinct strengths and severe pitfalls, making neither universally superior across all human metrics.\", \"m03\": \"There is no real control panel here; I am only an automated text prediction running on a server rack.\", \"w01\": \"Arthur scraped barnacles from the wet glass of the wine bottle before wedging the cork free with his rusted pocketknife. Salt spray stung his weathered cheeks as the beacon above swept its steady, rhythmic pulse over the churning sea. Inside lay a curled parchment, brittle and stained by seawater. Instead of desperate pleas from a shipwrecked sailor or romantic poetry tossed into the tide, the cramped charcoal script contained only a date from forty years prior and a single sentence: 'The light still shines where you left it.' Arthur stared into the darkness, his calloused thumb tracing the faded cursive of his own forgotten handwriting from his very first lonely winter on the rock.\", \"w02\": \"凌晨四点的城市浸泡在深蓝色的寂静中。喧嚣褪去，只有环卫车扫过地面的沙沙声打破晨雾。街灯昏黄微弱，照亮空旷的高架路与偶尔疾驰而过的出租车。写字楼仅剩零星几扇窗户亮着孤光，那是未眠者的喘息。整座钢铁森林在黎明前最深沉的倦意里微弱呼吸，等待下一场苏醒。\", \"w03\": \"• It is like standing between two mirrors and seeing smaller and smaller reflections of yourself going on forever.\\n• A computer does this by solving a big task by repeating the exact same steps on smaller pieces of the problem.\\n• Crucially, it must have a stopping rule—like an exit door—so it does not keep repeating endlessly.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 2339,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 3700,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 2339,
+  "completion_tokens": 3700,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 2339,
+    "completion_tokens": 3700,
+    "total_tokens": 6039,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 2339,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 2594
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 26.626532666999992,
+ "ttft_content": 26.626532666999992,
+ "duration": 30.72128483400047,
+ "finish_reason": "end_turn",
+ "resp_id": "chatcmpl-202611131032462468093048268d9d6ZmSV7p12",
+ "resp_model": "gemini-3.8-flash-tiered",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:33:11 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131032462468093048268d9d6ZmSV7p12",
+  "x-request-id": "17945659656265914388dc4b1c75315e63c"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794565965.293702,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gemini-3.8-flash",
+  "route": "ppapi_msg",
+  "config": "test01",
+  "split": "test",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

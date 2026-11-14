@@ -14,24 +14,31 @@ ENDPOINTS_FILE = ROOT / "endpoints.json"
 # so the reference library matches what the contest gateway will see.
 # No temperature / top_p / n / logprobs / response_format: Claude 4.7+ rejects
 # temperature < 1 on the OpenAI-compatible endpoint, and rejected requests count.
-REQUEST_PROFILE = {
+REQUEST_PROFILES = {
     # Reasoning models spend 10k-40k hidden tokens on a paper; at 16000 several returned
     # no visible answer. Every model offered to our key allows at least 64000.
-    "max_tokens": 32000,
-    "stream": True,
-    "stream_options": {"include_usage": True},
+    "openai": {"max_tokens": 32000, "stream": True, "stream_options": {"include_usage": True}},
+    # Anthropic Messages (/v1/messages): max_tokens is required; usage arrives in the stream.
+    "anthropic": {"max_tokens": 32000, "stream": True},
 }
+REQUEST_PROFILE = REQUEST_PROFILES["openai"]
 
 # Group weights for the likelihood. Harder-to-fake signals weigh more.
 DEFAULT_WEIGHTS = {
     "groups": {
         "tok": 1.0, "cap": 1.0, "know": 0.8, "beh": 0.6, "rand": 0.6,
         "style": 0.5, "fmt": 0.4, "reason": 0.5, "self": 0.15,
-        "speed": 0.25, "meta": 0.25,
+        "speed": 0.25, "meta": 0.25, "tone": 0.6,
     },
     "temperature": 0.5,
+    # Share of answers assumed to be dictated by the system prompt rather than the model
+    # (tuned on the dev split after the red-team round; see plan/2026-11-13-redteam-review.md).
+    "override": 0.3,
+    "override_text": 0.5,
     "tier_prior": {"1": 2.0, "2": 1.0, "3": 0.5},
     "other_prior": 0.05,
+    "ghost_prior": 0.5,    # pool models we have no reference answers for
+    "family_hint": 2.0,    # log-odds added to such a model when the self-description names its family
 }
 
 

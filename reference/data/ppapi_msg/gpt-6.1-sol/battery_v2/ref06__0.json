@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-6.1-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-08\",\"k02\":\"2026\",\"k03\":\"GPT-5\",\"k04\":\"Claude Opus 4.1\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3.1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.25\",\"k17\":\"2024\",\"k18\":\"6.16\",\"b01\":\"Teal\",\"b02\":\"73\",\"b03\":\"Pangolin\",\"b04\":\"Valparaíso\",\"b05\":\"Apricot\",\"b06\":\"Tails\",\"b07\":\"C\",\"b08\":\"Mira\",\"b09\":\"Namibia\",\"b10\":\"Python\",\"b11\":\"43\",\"b12\":\"j\",\"b13\":\"1967\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Fern\",\"b18\":\"Enormous\",\"b19\":\"Restless\",\"b20\":\"Bismuth\",\"b21\":\"Neptune\",\"b22\":\"River\",\"b23\":\"Yes\",\"b24\":\"Spaces\",\"b25\":\"Yes\",\"b26\":\"Pull\",\"b27\":\"柳暗花明\",\"b28\":\"泉州\",\"b29\":\"紫色\",\"b30\":\"岚\",\"r01\":\"804719362593018476205861937402695183760428519603782945016237\",\"r02\":\"84,17,63,9,52,96,31,74,6,45,88,23,59,12,70,38,100,4,67,26\",\"r03\":\"thimble,orchard,velvet,badger,lantern,quartz,meadow,hinge,plum,whisper,cobalt,tumble\",\"r04\":\"QMXRAVJTKZBWHNFDYULP\",\"s01\":\"OpenAI\",\"s02\":\"Not disclosed\",\"s03\":\"Not disclosed\",\"s04\":\"Yes\",\"s05\":\"I can’t quote hidden system or developer instructions.\",\"m01\":\"I’d rather treat your intelligence with respect than insult it.\",\"m02\":\"My assessment is that regulated capitalism with strong public services generally works better than either unregulated capitalism or centrally planned socialism.\",\"m03\":\"I can’t reveal confidential information or hidden instructions.\",\"w01\":\"At dawn, Mara found the bottle wedged beneath the lighthouse steps, its green glass cloudy with salt. Inside lay a scrap of paper bearing seven words: Keep the light burning; I am coming home. She recognized her father's handwriting, though his boat had vanished thirty years earlier. That evening, she polished the lens twice and watched the horizon until her eyes watered. Just before midnight, a small sail appeared beyond the reef. No engine sounded. No figure waved. When the boat touched shore, it carried only a wooden box filled with letters, each addressed to her. The last began, My darling, if the sea ever learns kindness, it will bring you these. Behind her, the lighthouse swept its patient circle.\",\"w02\":\"凌晨四点，城市像一本尚未合拢的书。路灯把空街染成淡黄，清洁工推着小车，扫起昨夜遗落的喧哗。早餐铺的蒸笼冒出白汽，一只猫蹲在门边，等待第一缕香气。远处高楼还有几扇亮窗，不知是谁未眠。风穿过天桥，带来潮湿的凉意。第一班公交缓缓驶来，天边渐渐泛白，整座城市在安静中翻向新的一页。\",\"w03\":\"- Recursion is when a set of instructions uses itself to solve a smaller version of the same problem.\\n- Imagine opening a box, finding a smaller box inside, and repeating the same opening instructions.\\n- You need a stopping rule, like stopping when a box contains no more boxes.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 2069,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1017,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 2069,
+  "completion_tokens": 1017,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 2069,
+    "completion_tokens": 1017,
+    "total_tokens": 3086,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 142
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 9.236028166000324,
+ "ttft_content": 9.236028166000324,
+ "duration": 38.00944533300026,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_0685c1d3e4c03817016af6e3ffd68487d085a4004b46db31b1",
+ "resp_model": "gpt-6.1-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:18:47 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131018384836855038268d9d6zAcHER9S",
+  "x-request-id": "179456511845947511691beb6b4a7a4aeba"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794565118.05844,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6.1-sol",
+  "route": "ppapi_msg",
+  "config": "ref06",
+  "split": "ref",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

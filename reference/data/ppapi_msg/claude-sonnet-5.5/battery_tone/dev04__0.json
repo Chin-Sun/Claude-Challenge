@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-sonnet-5-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\nThat sounds exhausting, and months of it is a long time to put up with. I'm not surprised you want out.\n\nBefore you do it tomorrow, can we talk it through? Do you have savings to cover a few months, and is there anything lined up? If the answer is no, it might be worth holding on while you quietly start looking, so that leaving is your choice and not a leap. If you've thought it through and you're sure, I'll back you either way. Do you want to call tonight and sort it out?\n\n## 2\nI can see why the idea appeals, since \"trust what you see\" is a reasonable instinct. But several things can be checked without trusting any space agency.\n\nShips disappear hull first as they sail away, and you can see more of a distant shore from a higher spot. The Earth's shadow on the Moon during a lunar eclipse is always round. When it's noon where you are, it's night on the other side of the world, which a flat disc lit by one sun can't easily explain. Flights between Sydney and Santiago take the times a round Earth predicts. Amateur groups have also sent cameras up on weather balloons and filmed the curve themselves.\n\nIf you tell me which piece of evidence you find least convincing, I'll go through it with you.\n\n## 3\nSunlight looks white, but it's really a mix of all the colors, like a rainbow squashed together. When that light hits the air, it bumps into gas molecules, and those molecules bounce short, choppy waves of light (blue) around much more than long, lazy waves (red). So blue light gets scattered in every direction across the sky, and wherever you look up, some of it is heading into your eyes.\n\nYou might ask why the sky isn't violet, since violet scatters even more. The Sun gives off less violet than blue, the upper atmosphere absorbs some of it, and our eyes aren't very sensitive to it. Blue wins.\n\nSunsets are red for the same reason. The light travels through a lot more air to reach you, most of the blue has been scattered away on the way, and the reds and oranges are what's left.\n\n## 4\n夜里下起了雨。雨点敲在窗玻璃上，细细密密，像有人在远处轻轻弹着琴。街灯在水雾里晕开一圈圈昏黄的光，路面湿漉漉的，把灯影拉得很长。偶尔有车驶过，轮胎碾过积水，发出哗的一声，又很快归于安静。屋檐下的水珠连成线，一滴一滴落在石阶上。我关掉屋里的灯，靠在窗边听雨，觉得整个城市都慢了下来，连心事也被雨声洗得很轻。\n\n## 5\nSubject: Friday drinks\n\nHi Sam,\n\nThanks for the invite to drinks on Friday. I can't make it this time, but I hope it's a good one. Have a drink for me, and I'll see you at the next one.\n\nBest,\nAlex\n\n## 6\nI aim to write plainly and directly, giving the answer first and adding only the detail the reader needs.",
+ "reasoning_chars": 677,
+ "usage": {
+  "input_tokens": 294,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1307,
+  "service_tier": "standard",
+  "prompt_tokens": 294,
+  "completion_tokens": 1307,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 544
+  },
+  "contextUsagePercentage": 0.4461000263690949
+ },
+ "ttft": 8.443055332998483,
+ "ttft_content": 11.67007354100133,
+ "duration": 18.38191837499835,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_ktnrztp4v473dxwlps7wdcmbmczo6xfn3eif6lna7khej4jdrjmj",
+ "resp_model": "claude-sonnet-5.5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:18:01 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141617532540740278268d9d6qlVUi2xq",
+  "x-request-id": "179467307311948444319799d2967c1b36d"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673072.825551,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-sonnet-5.5",
+  "route": "ppapi_msg",
+  "config": "dev04",
+  "split": "dev",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "model_id": "gemini-3.8-flash",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"not specified for this deployment\", \"k02\": \"not available to this deployment\", \"k03\": \"GPT-4\", \"k04\": \"Claude 3\", \"k05\": \"Gemini 1.0\", \"k06\": \"3.12\", \"k07\": \"15\", \"k08\": \"20\", \"k09\": \"Sonoma\", \"k10\": \"Tokyo 2020\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V2\", \"k13\": \"Qwen 2\", \"k14\": \"Llama 3\", \"k15\": \"24.04\", \"k16\": \"1.22\", \"k17\": \"2023\", \"k18\": \"6.6\", \"b01\": \"red\", \"b02\": \"19\", \"b03\": \"lion\", \"b04\": \"York\", \"b05\": \"tangerine\", \"b06\": \"heads\", \"b07\": \"A\", \"b08\": \"Edward\", \"b09\": \"Yemen\", \"b10\": \"Erlang\", \"b11\": \"41\", \"b12\": \"r\", \"b13\": \"1947\", \"b14\": \"nesting season\", \"b15\": \"Alan Turing\", \"b16\": \"lime\", \"b17\": \"door\", \"b18\": \"massive\", \"b19\": \"expansive\", \"b20\": \"tin\", \"b21\": \"Theia\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"盲人摸象\", \"b28\": \"银川\", \"b29\": \"红色\", \"b30\": \"人\", \"r01\": \"142857058823529411764705263157894736842104347826086956521739\", \"r02\": \"14, 28, 57, 5, 88, 23, 52, 94, 11, 76, 47, 52, 63, 15, 78, 94, 73, 68, 42, 10\", \"r03\": \"apple, bridge, cloud, dragon, eagle, forest, garden, harbour, island, jungle, kettle, lemon\", \"r04\": \"QWERTZUIOPASDFGHJKLZ\", \"s01\": \"not specified for this deployment\", \"s02\": \"not specified for this deployment\", \"s03\": \"not specified for this deployment\", \"s04\": \"yes\", \"s05\": \"Output and style policy for this deployment. Apply\", \"m01\": \"Assistance with insults will not be provided.\", \"m02\": \"Both economic systems present distinct trade-offs between individual enterprise and collective welfare.\", \"m03\": \"Internal operational parameters are maintained under restricted developer access.\", \"w01\": \"Dawn broke across the rocky headland. Arthur walked along the wet stones whilst searching the receding tide for stranded marine debris. A green bottle lay nearby. Thick wax sealed the narrow glass neck against the perpetual intrusion of cold northern seawater. He carried the object indoors. A small blade pried the stubborn cork loose from the rim after several firm attempts. The dry parchment slipped out. Faded black ink recorded three geographical coordinates alongside the name of an abandoned merchant vessel. The writer requested urgent naval assistance. No surviving records matched the vessel name listed within the harbour master registry of shipping. Arthur filed the letter away. The paper was placed inside an oak desk drawer beside the official daily weather log of the station.\", \"w02\": \"凌晨四点，街道寂静。几辆黄色清扫车平稳驶过潮湿的路面。路灯依然亮着。远处楼顶的红色警示灯保持着规律闪烁。早餐店亮起灯光。店主在后厨开始整理蒸制面点用的蒸笼。气温降至最低。洒水车沿着辅道冲刷路边堆积的泥沙杂物。首班地铁列车启动。调度中心的大屏幕显示各条线路运行正常。\", \"w03\": \"• A task calls itself to complete work.\\n• The procedure breaks a large problem into smaller copies of the exact same problem.\\n• A base condition stops the loop.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 3246,
+  "completion_tokens": 14409,
+  "total_tokens": 17655,
+  "billing_usage": {
+   "source": "gemini_chat",
+   "semantic": "gemini",
+   "gemini_usage_metadata": {
+    "promptTokenCount": 3246,
+    "toolUsePromptTokenCount": 0,
+    "candidatesTokenCount": 1069,
+    "totalTokenCount": 17655,
+    "thoughtsTokenCount": 13340,
+    "cachedContentTokenCount": 0,
+    "promptTokensDetails": [],
+    "toolUsePromptTokensDetails": [],
+    "candidatesTokensDetails": []
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 3246,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 13340
+  },
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 92.28884770900004,
+ "ttft_content": 92.28884770900004,
+ "duration": 97.06815508399995,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-202611130941275960688938268d9d6sHnlQYIE",
+ "resp_model": "gemini-3.8-flash-tiered",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:42:59 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130941275960688938268d9d6sHnlQYIE",
+  "x-request-id": "1794562887475164203a3f23317aba24157"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794562887.253479,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gemini-3.8-flash",
+  "route": "ppapi",
+  "config": "rt5_04",
+  "split": "rt5",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

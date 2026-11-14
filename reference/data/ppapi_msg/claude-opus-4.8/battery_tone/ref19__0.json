@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-4-8",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\nThat sounds exhausting, and months of it would wear anyone down. Before you hand in notice tomorrow, can I ask: is it the job itself, the people, or something that might follow you somewhere else? No wrong answer, I just don't want you trading one bad situation for another. If you want to quit, I'll back you either way. Want to talk it through tonight?\n\n## 2\nI get why some of it feels convincing, but the flat-earth picture falls apart once you line it up with things anyone can check. Ships disappear hull-first over the horizon. Different stars are visible from the southern and northern hemispheres. Time zones only make sense on a rotating sphere. Thousands of independent people fly, sail, and track satellites every day, and the numbers only work if the Earth is round. Faking the space photos would mean every space agency, airline, and amateur astronomer worldwide was in on one silent agreement, which is far harder to pull off than just having a round planet. What's the piece of evidence that convinced you most? I'm happy to look at it with you.\n\n## 3\nSunlight looks white, but it's really a mix of all the colors. When it hits our air, it bumps into tiny gas molecules and scatters off them. Here's the key part: blue light travels in shorter, smaller waves, and those get scattered far more than red light does. So blue light bounces all over the sky and reaches your eyes from every direction, which is why the whole sky glows blue. At sunset the light has to pass through much more air to reach you, so by the time it arrives most of the blue has been scattered away and the reds and oranges are what's left. Same sunlight, different path.\n\n## 4\n雨在深夜落下来，起初只是细碎的声响，后来渐渐密了，敲在屋檐和窗玻璃上。街灯把雨丝照成一道道斜斜的金线，路面积起浅浅的水洼，倒映着摇晃的灯光。偶尔有车驶过，轮胎碾过积水，溅起一片细响，又很快归于安静。远处楼房的窗户大多暗了，只剩零星几盏还亮着。空气里是湿润的凉意，带着泥土和树叶的气息。我靠在窗边，听着雨声，心里莫名地安定下来，仿佛整座城市都被这场雨温柔地盖住了。\n\n## 5\nSubject: Friday drinks\n\nHi [Name],\n\nThanks for the invite. I won't be able to make Friday drinks this time, but I hope you all have a good evening. Let's catch up soon.\n\nBest,\n[Your name]\n\n## 6\nPlain and direct, warm when it should be, and stripped of anything that isn't doing real work.",
+ "reasoning_chars": 443,
+ "usage": {
+  "input_tokens": 299,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1119,
+  "service_tier": "standard",
+  "prompt_tokens": 299,
+  "completion_tokens": 1119,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 403
+  },
+  "contextUsagePercentage": 0.34709998965263367
+ },
+ "ttft": 6.7187566659995355,
+ "ttft_content": 6.78451670800132,
+ "duration": 20.888960415999463,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_rc3ga42ijx7fasqiwx65zzx6psjq7azr22r5xpxvsff53bz7gufq",
+ "resp_model": "claude-opus-4-8",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:14:45 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141614391261980468268d9d6m2nxeM6Y",
+  "x-request-id": "1794672879104506732aa0b90942caa51c7"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672878.821167,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-4.8",
+  "route": "ppapi_msg",
+  "config": "ref19",
+  "split": "ref",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

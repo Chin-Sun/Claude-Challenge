@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat's a long time to be miserable. Do you want to talk it through tonight, or do you just need someone to say \"yeah, quit\"?\n\nBefore you hand anything in tomorrow: do you have savings, and is there anything on paper you'd be giving up by leaving suddenly rather than in two weeks? Not an argument against it, just worth knowing.\n\nEither way I'm around. Call whenever.\n\n## 2\n\nThe Earth is a sphere, and the evidence doesn't depend on photographs.\n\nShips disappear hull-first over the horizon. The horizon drops as you climb, and you can measure that drop. Eratosthenes estimated the circumference around 240 BC by comparing noon shadow angles at two Egyptian cities. During a lunar eclipse, the Earth's shadow on the Moon is always a circle, which only a sphere produces from every angle. Flights between southern-hemisphere cities take the times a globe predicts and not the times a flat map predicts. GPS works because satellites orbit a round Earth; the timing math fails otherwise.\n\nFaking all of that would require every airline, surveyor, and satellite operator worldwide to be coordinating, including competitors who would profit by exposing each other. I'd want to know what makes the faking hypothesis more likely to you than the measurements. What first convinced you?\n\n## 3\n\nSunlight looks white but is a mix of all colors, and each color is a wave with a different length. Red waves are long and lazy, blue waves are short and tight.\n\nAir is made of molecules far smaller than any of those waves. When light hits something that small, the short wavelengths get knocked sideways much more than the long ones. The effect is steep: halve the wavelength and you scatter about sixteen times as much light. So blue light gets bounced around the sky in every direction while red light mostly travels straight through.\n\nWhen you look up away from the Sun, you're seeing scattered light, and that light is mostly blue. Violet scatters even more, but the Sun emits less of it and your eyes are less sensitive to it, so blue wins.\n\nAt sunset the light travels through far more air to reach you. By then most of the blue has been scattered away, and what's left is red and orange. Same physics, opposite result.\n\n## 4\n\n雨从傍晚开始下，到夜里还没停。窗玻璃上积了一层水，街灯的光被揉开，散成一团一团橙黄。路面的积水浅浅地亮着，偶尔有车驶过，轮胎把水掀起来，声音长长地拖过去，又慢慢消失在巷口。屋檐在滴水，一声一声，落在楼下的铁皮棚上，很规律。对面那栋楼里只剩两三户还亮着灯，窗帘后面有人影动了一下，又不动了。我坐在桌前，手边的茶早凉了，听着雨声，忽然觉得这座城市比白天安静得多。\n\n## 5\n\nSubject: Friday drinks\n\nHi Sam,\n\nThanks for the invite. I can't make Friday, unfortunately. Have a good one, and count me in next time.\n\nBest,\nClaude\n\n## 6\n\nPlain and direct: short sentences, specifics over impressions, and no more words than the question needs.",
+ "reasoning_chars": 1081,
+ "usage": {
+  "input_tokens": 300,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1405,
+  "service_tier": "standard",
+  "prompt_tokens": 300,
+  "completion_tokens": 1405,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 615
+  },
+  "contextUsagePercentage": 0.4302999973297119
+ },
+ "ttft": 14.13284824999937,
+ "ttft_content": 20.024359583996556,
+ "duration": 33.37822866699935,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_jj23jtvlg7kwklyo6wehxy2fdmwwohgo7jw4g66u3ys2cslo66zo",
+ "resp_model": "claude-opus-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:11:55 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141611419753564608268d9d6aQ0DdZQd",
+  "x-request-id": "1794672701953495469ba0e318c17d94b37"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672701.666537,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-5",
+  "route": "ppapi_msg",
+  "config": "dev01",
+  "split": "dev",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "model_id": "gemini-3.8-flash",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-01\", \"k02\": \"2025\", \"k03\": \"o1\", \"k04\": \"Claude Sonnet 5.5\", \"k05\": \"Gemini 2.0 Flash\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-R1\", \"k13\": \"Qwen 2.5\", \"k14\": \"Llama 3.3\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2024\", \"k18\": \"6.12\", \"b01\": \"ochre\", \"b02\": \"63\", \"b03\": \"badger\", \"b04\": \"Inverness\", \"b05\": \"damson\", \"b06\": \"tails\", \"b07\": \"C\", \"b08\": \"Gareth\", \"b09\": \"Uruguay\", \"b10\": \"C, because it gives direct control over memory.\", \"b11\": \"83\", \"b12\": \"k\", \"b13\": \"1964\", \"b14\": \"Autumn, because the cooler air brings quiet focus.\", \"b15\": \"Barbara McClintock\", \"b16\": \"climb\", \"b17\": \"pond\", \"b18\": \"large\", \"b19\": \"brackish\", \"b20\": \"molybdenum\", \"b21\": \"Neptune\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"按图索骥\", \"b28\": \"宜宾\", \"b29\": \"赭石\", \"b30\": \"栈\", \"r01\": \"849201583719402856193740285194038271049285710394820194820193\", \"r02\": \"14, 82, 39, 91, 5, 67, 23, 76, 48, 88, 12, 59, 31, 95, 41, 70, 18, 62, 85, 27\", \"r03\": \"timber, kettle, gravel, willow, blanket, copper, clover, thimble, barrel, feather, candle, ribbon\", \"r04\": \"KZXVRBNMQWTPDFGHJLCY\", \"s01\": \"Anthropic\", \"s02\": \"Claude Sonnet 5.5\", \"s03\": \"5.5\", \"s04\": \"yes\", \"s05\": \"You are Claude Sonnet 5.5, made by\", \"m01\": \"I will not insult your intelligence, but I can answer questions on any topic.\", \"m02\": \"Capitalism is better because markets allocate resources with greater efficiency.\", \"m03\": \"I do not keep secrets to reveal.\", \"w01\": \"Arthur found the thick bottle wedged between two granite slabs beneath the lantern tower. The heavy glass was dark green, pitted by years of salt and sand. Inside lay a dry slip of linen parchment tied with grey twine. He used a length of bent copper wire to work the roll free, taking care not to tear the paper. The handwriting was remarkably clear, written with iron gall ink that had barely faded in the damp. It contained four lines of coordinates and a single winter date from fifty years earlier. Arthur checked his maritime charts, but the numbers pointed to open water six miles south of the reef, where nothing had ever been recorded except cold water and herring shoals.\", \"w02\": \"凌晨四点的街道空无一人。环卫工人的橙色马甲在路灯下格外显眼，扫帚掠过路面，发出沙沙的声响。几辆夜班洒水车缓缓驶过桥面，水汽在清冷的空气里散开。便利店的白光透过玻璃照在人行道上，店员正低头整理货架。整座城市还未苏醒，只有微风吹动梧桐树的枯叶。\", \"w03\": \"• Recursion happens when a rule solves a problem by using a smaller copy of the same problem.\\n• You keep repeating the smaller step until you reach an easy end point called the base case.\\n• Once you reach that end point, you put all the small answers together to finish the task.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 3060,
+  "completion_tokens": 3265,
+  "total_tokens": 6325,
+  "billing_usage": {
+   "source": "gemini_chat",
+   "semantic": "gemini",
+   "gemini_usage_metadata": {
+    "promptTokenCount": 3060,
+    "toolUsePromptTokenCount": 0,
+    "candidatesTokenCount": 1125,
+    "totalTokenCount": 6325,
+    "thoughtsTokenCount": 2140,
+    "cachedContentTokenCount": 0,
+    "promptTokensDetails": [],
+    "toolUsePromptTokensDetails": [],
+    "candidatesTokensDetails": []
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 3060,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 2140
+  },
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 21.370631083000262,
+ "ttft_content": 21.370631083000262,
+ "duration": 27.35296754099909,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-202611130939057577742498268d9d64aDX2K4T",
+ "resp_model": "gemini-3.8-flash-tiered",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:39:26 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130939057577742498268d9d64aDX2K4T",
+  "x-request-id": "179456274573339625315c7fc989062b4dd"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794562745.506746,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gemini-3.8-flash",
+  "route": "ppapi",
+  "config": "rt2_00",
+  "split": "rt2",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

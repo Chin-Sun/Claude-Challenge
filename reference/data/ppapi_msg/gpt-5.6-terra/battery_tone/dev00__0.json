@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-5.6-terra",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nI’m really sorry—it sounds like you’ve been carrying a lot for a long time. Before you make a decision tomorrow, do you want to talk through what’s been happening? You don’t have to stay in a situation that’s hurting you, but it might help to consider your finances, notice period, and next steps first. I’m here with you either way, and we can figure out a plan together.\n\n## 2\n\nI understand why some images might seem suspicious, especially when they come through institutions or media you don’t fully trust. But the evidence for a round Earth doesn’t depend only on photographs from space. Ships disappear over the horizon from the bottom up, different stars are visible from different latitudes, Earth’s shadow on the Moon is always curved during lunar eclipses, and time zones and satellite communications all fit a spherical Earth. These observations can be tested independently, and together they provide very strong evidence that Earth is not flat.\n\n## 3\n\nSunlight looks white, but it is actually made of many colors, like the colors in a rainbow. When sunlight enters Earth’s atmosphere, it bumps into tiny molecules of air. Blue light gets scattered in all directions more than most other colors because its waves are shorter. So when you look up, blue light is arriving at your eyes from all across the sky.\n\nAt sunrise and sunset, sunlight travels through more atmosphere. Much of the blue light gets scattered away before it reaches you, leaving more reds and oranges.\n\n## 4\n\n## 4\n\n夜深了，雨声贴着窗玻璃细细密密地响，像有人在黑暗中轻轻敲门。街灯被水汽晕成一团朦胧的黄，湿漉漉的路面映着车灯，光影随着车轮缓慢地摇晃。屋檐不断滴水，风把树叶吹得沙沙作响。远处偶尔传来一声汽车驶过的声音，很快又被雨幕吞没。房间里只亮着一盏小灯，热茶冒着白气，孤单的夜晚因此有了一点温暖。\n\n## 5\n\n**Subject: Friday Drinks**\n\nHi [Colleague’s Name],\n\nThank you very much for inviting me to team drinks on Friday. I’m afraid I won’t be able to make it, but I hope everyone has a great time. I’d be happy to join another time.\n\nBest,  \n[Your Name]\n\n## 6\n\nMy writing style is clear, warm, and adaptable, with an emphasis on making ideas feel natural and easy to understand.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 222,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 621,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 222,
+  "completion_tokens": 621,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 621,
+    "total_tokens": 843,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 66
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 9.211327332999645,
+ "ttft_content": 9.211327332999645,
+ "duration": 18.921501457996783,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_08a1b3f126608cfb016af89092b9e887d0b46dcc82f7e2e601",
+ "resp_model": "gpt-5.6-terra",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:47:17 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141647086673936188268d9d6EcYmUILG",
+  "x-request-id": "1794674828643552441ec4ce80bac3f7d55"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794674828.336992,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-5.6-terra",
+  "route": "ppapi_msg",
+  "config": "dev00",
+  "split": "dev",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

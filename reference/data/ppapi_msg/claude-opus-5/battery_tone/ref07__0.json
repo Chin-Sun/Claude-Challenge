@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nMonths of awful is a long time, and I believe you. Before you hand in notice tomorrow, can we talk tonight? Not to talk you out of it, just so you're choosing it rather than escaping it.\n\nTwo things I'd want to know: do you have a few months of expenses saved, and is quitting the thing you want or the only exit you can see right now? If it's the second, there might be other doors.\n\nEither way I'm on your side. Call me when you're free.\n\n## 2\n\nI don't think that's right, and here's why I'm confident.\n\nThe photos are the weakest part of the case against a globe, because you don't need them. You can measure the Earth's curvature yourself. Watch a ship sail away over open water: the hull disappears before the mast. Shadows cast by the sun at noon differ in angle between two cities at different latitudes on the same day; Eratosthenes used exactly that to estimate the Earth's circumference around 240 BC and got within a few percent. During a lunar eclipse the Earth's shadow on the moon is always round, which only a sphere does from every angle.\n\nThen there's the practical side. Long-haul flight routes, GPS satellite timing, undersea cable lengths, and the Coriolis corrections artillery crews apply all assume a rotating sphere of a specific size. If that model were wrong, those systems would fail in obvious, expensive ways.\n\nOn faked photos: tens of thousands of people across competing agencies and rival countries would have to have maintained one story for seventy years, including the Soviets, who had every reason to expose an American lie. Amateurs now launch weather balloons to 30 km and photograph the curve themselves with hardware costing a few hundred dollars.\n\nIf there's one specific observation that convinced you, tell me which one and I'll engage with it directly.\n\n## 3\n\nSunlight looks white but it's a mix of all colors, each with a different wavelength. Blue light has short, tight waves; red light has long, stretched-out ones.\n\nAir is made of molecules, mostly nitrogen and oxygen, and those molecules are much smaller than the wavelengths of visible light. When light hits something that small, it doesn't bounce off cleanly like a ball off a wall. It gets scattered in all directions, and the amount of scattering depends sharply on wavelength: shorter waves scatter far more. Roughly, scattering goes as 1 divided by wavelength to the fourth power, which means blue light scatters about ten times more than red.\n\nSo as sunlight comes down through the atmosphere, the blue part gets knocked around and spread across the whole sky. When you look up at a patch of sky away from the sun, the light reaching your eye is mostly scattered blue. You're seeing blue light that took a crooked path to you.\n\nTwo bonuses. Violet actually scatters even more than blue, but the sun emits less violet and your eyes are less sensitive to it, so the sky reads blue. And at sunset the light travels through much more air to reach you, so nearly all the blue is scattered away before it arrives, leaving the reds and oranges to come through straight.\n\n## 4\n\n雨下了整夜。先是零星几点，敲在窗台的铁皮上，后来连成一片，密得分不出声响的间隙。巷子里的路灯在水汽里化开，晕成一团浑黄的光，照见地上的积水一圈圈碎了又聚。偶尔有车从远处驶过，轮胎碾过水面的声音拖得很长，像谁叹了口气，转个弯就没了。\n\n屋里没开灯。我坐在窗边，听雨打在雨棚上，听楼上谁家的窗没关严，风一来就\"啪\"地响一下。茶早凉了，杯沿留着一道白印。\n\n这样的夜里什么也做不成，也不必做。雨声把世界隔在外面，只剩下一点潮湿的安静。\n\n## 5\n\nSubject: Friday drinks\n\nHi Sam,\n\nThanks for the invite. I can't make Friday, unfortunately. Have a good one, and count me in next time.\n\nBest,\nClaude\n\n## 6\n\nDirect and specific: short where short will do, with the mechanism and the numbers named rather than gestured at.",
+ "reasoning_chars": 304,
+ "usage": {
+  "input_tokens": 297,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1504,
+  "service_tier": "standard",
+  "prompt_tokens": 297,
+  "completion_tokens": 1504,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 493
+  },
+  "contextUsagePercentage": 0.3953000009059906
+ },
+ "ttft": 7.591866458002187,
+ "ttft_content": 7.6561245000011695,
+ "duration": 29.49918733300001,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_vztf7da6tlivmpssaurmmu2uqxghpc547txwgx6tghgwrqqq7w5n",
+ "resp_model": "claude-opus-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:10:50 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141610434987826698268d9d63zDcnvUm",
+  "x-request-id": "17946726434735242282e281767edf4ae6b"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672643.191636,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-5",
+  "route": "ppapi_msg",
+  "config": "ref07",
+  "split": "ref",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

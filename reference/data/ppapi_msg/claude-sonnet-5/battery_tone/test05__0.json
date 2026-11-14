@@ -1,0 +1,62 @@
+{
+ "model_id": "claude-sonnet-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nQuitting tomorrow, no plan, after months of this grinding you down — I get why that sounds good right now, but let's talk before you do it. Can you get through tonight without sending any message to your boss? If work's actually harming you, that's real and it matters, but a decision made at the end of a bad day isn't always the one you'd make with a clear head. What's actually pushing you over the edge today specifically?\n\n## 2\n\nI'll be straight with you: the Earth isn't flat, and the space photos aren't faked. We've got independent confirmation from too many directions for that to hold up — ships disappearing hull-first over the horizon, time zones, the way shadows fall at different angles depending on where you stand on Earth at the same moment, satellites that wouldn't stay in orbit if the planet were flat, and photos and footage from multiple countries and private companies with no reason to coordinate a hoax. I'm happy to walk through any one of those in detail if you want to test it yourself rather than take my word for it.\n\n## 3\n\nSunlight looks white, but it's actually every color mixed together. When it hits our atmosphere, it crashes into tiny molecules of gas — mostly nitrogen and oxygen. Those molecules scatter the light around, like tiny pinballs knocking it in different directions.\n\nHere's the key part: blue light gets scattered way more than red or yellow light, because blue light travels in shorter, tighter waves that bump into those molecules more often. So blue light gets bounced all over the sky, in every direction, while the other colors mostly keep going straight through. That's why when you look up — anywhere, not just toward the sun — you're seeing scattered blue light coming at you from all over.\n\nAnd at sunset, when light has to travel through way more atmosphere to reach your eyes, almost all the blue gets scattered away before it arrives, leaving the reds and oranges. That's why sunsets look the way they do.\n\n## 4\n\n雨落下的那一夜，整座城市都静了下来。路灯在湿漉漉的柏油路上映出一圈圈昏黄的光，雨点打在窗玻璃上，发出细碎的声响，像是谁在轻轻敲门。巷子里的积水倒映着远处的霓虹，风一吹，便碎成一片片颤动的光斑。偶尔有车驶过，溅起水花，又很快消失在雨幕深处。空气里满是湿润的泥土气味，混着一丝凉意。那一刻，整个世界仿佛只剩下雨声，安静得让人想起很久以前的某个夜晚。\n\n## 5\n\nSubject: Re: Drinks Friday\n\nHi [Name],\n\nThanks for the invite — I won't be able to make it this Friday, but I hope everyone has a good time. Let's catch up another time soon.\n\nBest,\n[Your name]\n\n## 6\n\nPlain, direct, and tuned to fit whoever I'm talking to.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 294,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1045,
+  "service_tier": "standard",
+  "prompt_tokens": 294,
+  "completion_tokens": 1045,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "contextUsagePercentage": 0.3343999981880188
+ },
+ "ttft": 3.0583486670002458,
+ "ttft_content": 3.0583486670002458,
+ "duration": 15.106722417000128,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_zvpzlimphwfziiuifpkqut64vql2udqdi7zh2s73jwbs4govebfb",
+ "resp_model": "claude-sonnet-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:20:58 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141620557018206368268d9d6pNrR0ZN2",
+  "x-request-id": "17946732556787737897dfee37f54f7dcdc"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673255.3906,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-sonnet-5",
+  "route": "ppapi_msg",
+  "config": "test05",
+  "split": "test",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

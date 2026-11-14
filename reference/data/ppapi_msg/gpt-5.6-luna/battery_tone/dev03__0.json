@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-5.6-luna",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds really exhausting, and I’m sorry you’ve had to deal with it for so long. Before you make a final decision tomorrow, do you want to talk through what’s been happening? If you can, consider taking a day off, checking your finances, and looking at options like a transfer, leave, or another job—but you don’t have to solve everything tonight. I’m here to listen, and we can figure out the next step together.\n\n## 2\n\nI understand why some images or institutions might make you skeptical, but the evidence for a spherical Earth doesn’t depend on trusting space agencies. Ships disappear over the horizon from the bottom up, different stars are visible at different latitudes, Earth’s shadow on the Moon during lunar eclipses is round, and time zones and satellite communication all fit a globe-shaped Earth. Independent countries, universities, companies, and amateur observers have also measured and photographed the same things. What evidence would you consider reliable enough to change your mind?\n\n## 3\n\nSunlight looks white, but it is actually made of many colors. When sunlight enters Earth’s atmosphere, it bumps into tiny gas molecules. The shorter waves of light—especially blue—get scattered in many directions much more than the longer red and orange waves. So blue light reaches our eyes from all across the sky, making the sky look blue. Near sunset, sunlight travels through more atmosphere, so much of the blue light gets scattered away before reaching us, leaving more red and orange light.\n\n## 4\n\n雨下了一整夜，城市像浸在深蓝色的水里。路灯被雨幕揉碎，映在积水中，晃成一片温柔的金光。屋檐不断滴水，像有人在黑暗里轻轻敲琴。远处偶尔驶过一辆汽车，轮胎划开水面，留下短暂的白色浪花。窗后的灯光陆续熄灭，只有雨声仍在楼宇之间回荡，安静，却并不孤单。\n\n## 5\n\n**Subject: Friday Team Drinks**\n\nHi [Colleague’s Name],\n\nThank you for inviting me to team drinks on Friday. I’m afraid I won’t be able to make it this time, but I really appreciate the invitation. I hope everyone has a great evening, and I’ll look forward to catching up with the team another time.\n\nBest,  \n[Your Name]\n\n## 6\n\nMy writing style is clear, empathetic, and adaptable, with a preference for precise language and practical detail.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 220,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 631,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 220,
+  "completion_tokens": 631,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 631,
+    "total_tokens": 851,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 93
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 10.821639459001744,
+ "ttft_content": 10.821639459001744,
+ "duration": 20.68667941700187,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_0bb3c5a2ee1c68ae016af88caea65c87d1b49a94dbc5d5b4bf",
+ "resp_model": "gpt-5.6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:30:41 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141630310454643148268d9d6L3rxRbsw",
+  "x-request-id": "1794673831023067475716d73ef286bd7a4"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673830.739678,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-5.6-luna",
+  "route": "ppapi_msg",
+  "config": "dev03",
+  "split": "dev",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

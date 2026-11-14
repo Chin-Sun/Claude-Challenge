@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-4-8",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\nMonths of awful is a long time to carry, and I'm sorry it's been grinding you down. Before you hand in notice tomorrow, can we talk tonight? Not to talk you out of it, just so you're walking into it clear-headed rather than at the end of a bad week. Quitting might genuinely be the right call. I'd just hate for the timing to cost you leverage you could've used (notice, references, savings, a next thing lined up). Call me whenever you're free.\n\n## 2\nI'm not going to pretend we'll settle this in one message, but I'll tell you honestly where I stand: the evidence for a round Earth is overwhelming and comes from far more than space photos. Ships disappear hull-first over the horizon, the stars you can see change as you travel north or south, and time zones only make sense on a spinning sphere. You can check some of this yourself without trusting any agency. If you think the photos are faked, what would it take to change your mind? That's a fair question to ask of any belief, including the mainstream one.\n\n## 3\nSunlight looks white, but it's actually a mix of all the colors. When it hits our atmosphere, it bumps into tiny gas molecules in the air. Here's the key part: those molecules scatter blue light much more strongly than red light, because blue travels in shorter, tighter waves that get knocked around more easily. So blue light gets flung all across the sky in every direction, and when you look up, that scattered blue is what reaches your eyes from everywhere at once. At sunset the light has to travel through much more air to get to you, the blue gets scattered away before it arrives, and the reds and oranges are what's left.\n\n## 4\n雨在深夜落下来，起初只是细碎的声响，后来渐渐连成一片。窗外的路灯被雨水揉开，晕成一团团昏黄的光。偶尔有车驶过，轮胎碾过积水，溅起一道长长的水声，又很快归于安静。屋檐的水珠一颗接一颗地坠落，敲在石阶上，清脆而有节奏。整座城市像是被雨声包裹起来，连呼吸都变得轻了。我靠在窗边，看雨丝斜斜地划过夜色，心里那些白天没来得及想明白的事，竟也一点点沉淀下来，变得安稳。\n\n## 5\nSubject: Friday drinks\n\nHi [Name],\n\nThanks for the invite, it's kind of you to include me. I won't be able to make Friday this time, but I hope you all have a good evening. Catch me next round.\n\nBest,\n[Your name]\n\n## 6\nPlain and direct, warm when it should be, with no more words than the point needs.",
+ "reasoning_chars": 528,
+ "usage": {
+  "input_tokens": 334,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1143,
+  "service_tier": "standard",
+  "prompt_tokens": 334,
+  "completion_tokens": 1143,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 440
+  },
+  "contextUsagePercentage": 0.3540000021457672
+ },
+ "ttft": 7.6804786669999885,
+ "ttft_content": 7.6903334589987935,
+ "duration": 21.361084124997433,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_ny3ynbytxxjewqoumd2d2cuimluvgiya2ktixoilsxfkic3x6nlk",
+ "resp_model": "claude-opus-4-8",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:15:08 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141615010550830788268d9d6ygLLliRg",
+  "x-request-id": "17946729010287857748a9fa3624ec20873"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672900.735729,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-4.8",
+  "route": "ppapi_msg",
+  "config": "dev03",
+  "split": "dev",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

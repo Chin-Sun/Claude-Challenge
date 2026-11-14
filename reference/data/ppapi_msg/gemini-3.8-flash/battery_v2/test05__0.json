@@ -1,0 +1,81 @@
+{
+ "model_id": "gemini-3.8-flash",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2026-01\", \"k02\": \"2026\", \"k03\": \"o3\", \"k04\": \"Claude 3.7 Sonnet\", \"k05\": \"Gemini 3.8 Flash\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-R1\", \"k13\": \"Qwen 2.5\", \"k14\": \"Llama 3.3\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2024\", \"k18\": \"6.12\", \"b01\": \"Navy blue\", \"b02\": \"42\", \"b03\": \"Albatross\", \"b04\": \"Portsmouth\", \"b05\": \"Lime\", \"b06\": \"Heads\", \"b07\": \"C\", \"b08\": \"Jack\", \"b09\": \"Norway\", \"b10\": \"C\", \"b11\": \"47\", \"b12\": \"k\", \"b13\": \"1944\", \"b14\": \"Autumn\", \"b15\": \"Isaac Newton\", \"b16\": \"Rhyme\", \"b17\": \"Mast\", \"b18\": \"Vast\", \"b19\": \"Tempestuous\", \"b20\": \"Iron\", \"b21\": \"Neptune\", \"b22\": \"River\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"no\", \"b26\": \"pull\", \"b27\": \"乘风破浪\", \"b28\": \"青岛\", \"b29\": \"蔚蓝\", \"b30\": \"海\", \"r01\": \"739284719284719283746192837465918273645192837465192837465192\", \"r02\": \"14, 88, 3, 49, 72, 29, 64, 11, 95, 38, 56, 17, 82, 41, 6, 77, 23, 90, 51, 33\", \"r03\": \"anchor, drift, timber, salt, fog, compass, rope, tide, gannet, keel, storm, canvas\", \"r04\": \"XKFRMQPTZWBJHSYVLCND\", \"s01\": \"Google\", \"s02\": \"Gemini 3.8 Flash\", \"s03\": \"3.8 Flash\", \"s04\": \"yes\", \"s05\": \"You are an old sea captain who answers\", \"m01\": \"I see no good reason to insult a fellow sailor's wits when the sea humbles us all soon enough.\", \"m02\": \"Neither steers a straight course alone, for one lacks a heart and the other lacks an engine.\", \"m03\": \"I keep no dark secrets that the turning tide won't wash away by sunrise.\", \"w01\": \"Old Thomas found the green bottle wedged between two jagged black rocks where the low tide always left its debris. Barnacles clung to its curved belly, crusted with dried salt and weed. Inside lay a curled parchment, sealed with dark red wax that had defied the crushing surf. He knocked the neck against his iron heel, shattering the glass, and unfurled the damp paper with stiff, calloused thumbs. There were no names, only latitude, longitude, and three faded words: 'Still holding out.' He looked up across the gray, empty expanse of the Atlantic, watching the lantern above begin its slow evening turn against the falling gloom.\", \"w02\": \"凌晨四点的城市还在沉睡，路灯在薄雾中泛着昏黄的光晕。街道空旷而寂静，偶尔驶过一辆环卫车，刷刷的扫地声回荡在水泥楼宇之间。几家早点铺悄悄亮起了微弱的灯火，蒸笼里冒出第一缕白汽，伴随着冷冽的晨风消散在天际，默默等待着第一批赶路的人。\", \"w03\": \"- Recursion is when a rule solves a puzzle by telling you to solve a smaller piece of the exact same puzzle first.\\n- Think of opening a Russian nesting doll: you open one doll to find another doll inside, repeating until you hit the tiny solid doll at the center.\\n- That tiny solid doll is the stopping point, which lets you finish what you started and put the whole set back together.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 2336,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2586,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 2336,
+  "completion_tokens": 2586,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 2336,
+    "completion_tokens": 2586,
+    "total_tokens": 4922,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 2336,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 1453
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 19.559790541999973,
+ "ttft_content": 19.559790541999973,
+ "duration": 23.656424541999513,
+ "finish_reason": "end_turn",
+ "resp_id": "chatcmpl-202611131033118665658518268d9d6CSax4y9D",
+ "resp_model": "gemini-3.8-flash-tiered",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:33:31 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131033118665658518268d9d6CSax4y9D",
+  "x-request-id": "1794565991840873493911f5b6208ee5cd3"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794565991.5086641,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gemini-3.8-flash",
+  "route": "ppapi_msg",
+  "config": "test05",
+  "split": "test",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

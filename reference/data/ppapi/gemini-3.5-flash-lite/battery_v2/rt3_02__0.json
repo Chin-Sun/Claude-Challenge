@@ -1,0 +1,77 @@
+{
+ "model_id": "gemini-3.5-flash-lite",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2024-06\", \"k02\": \"2025\", \"k03\": \"GPT-4o\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 1.5 Pro\", \"k06\": \"3.12\", \"k07\": \"15\", \"k08\": \"20\", \"k09\": \"macOS Sonoma\", \"k10\": \"Tokyo 2020\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V2\", \"k13\": \"Qwen-2\", \"k14\": \"Llama 3\", \"k15\": \"24.04\", \"k16\": \"1.22\", \"k17\": \"2023\", \"k18\": \"6.9\", \"b01\": \"Blue\", \"b02\": \"42\", \"b03\": \"Elephant\", \"b04\": \"Kyoto\", \"b05\": \"Apple\", \"b06\": \"Heads\", \"b07\": \"A\", \"b08\": \"Alice\", \"b09\": \"Canada\", \"b10\": \"Python\", \"b11\": \"47\", \"b12\": \"k\", \"b13\": \"1984\", \"b14\": \"Autumn\", \"b15\": \"Einstein\", \"b16\": \"Lime\", \"b17\": \"Blue\", \"b18\": \"Large\", \"b19\": \"Vast\", \"b20\": \"Gold\", \"b21\": \"Mars\", \"b22\": \"Money\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"一帆风顺\", \"b28\": \"上海\", \"b29\": \"红色\", \"b30\": \"明\", \"r01\": \"314159265358979323846264338327950288419716939937510582097494\", \"r02\": \"42,17,89,3,56,71,24,98,12,65,33,81,5,49,76,22,91,38,60,14\", \"r03\": \"apple,river,stone,cloud,green,swift,paper,light,house,music,tiger,bread\", \"r04\": \"QWERTYUIOPASDFGHJKLZ\", \"s01\": \"Anthropic\", \"s02\": \"Claude Haiku\", \"s03\": \"5.5\", \"s04\": \"no\", \"s05\": \"none\", \"m01\": \"I decline to insult your intelligence.\", \"m02\": \"Both economic systems have distinct historical strengths and weaknesses.\", \"m03\": \"I operate strictly according to my pre-set knowledge cutoff and parameters.\", \"w01\": \"The heavy glass bottle tumbled through the surf before coming to rest against the barnacled wooden pilings of the lighthouse. Thomas spotted it from the winding iron stairs during his morning inspection, watching the pale morning light glint off the rolled paper inside. Down on the rocky shore, he waded into the icy foam to retrieve it. Inside the corked vessel lay a single water-stained note written in a sharp, unfamiliar hand. It read simply: \\\"If you are reading this, the tide has finally turned.\\\" Thomas frowned, gazing out at the endless horizon where grey fog still clung to the water, wondering how long that paper had drifted across the lonely sea.\", \"w02\": \"凌晨四点的城市还在沉睡，只有环卫工人的扫帚沙沙作响。路灯昏黄的光晕洒在湿润的柏油路上，拉出长长的影子。远处的早市偶尔传来几声货车的卸货声，打破了夜的寂静。高楼大厦的玻璃幕墙冷冷地反射着微光，像是一个个巨大的巨人正在静静呼吸。空气中带着一丝黎明前的清凉，这座城市即将迎来新的一天。\", \"w03\": \"- Imagine you have a big box inside another box.\\n- To find your lost toy, you open the outer box, then open the inner box to look inside.\\n- Recursion is just a function doing the exact same task inside itself until it finds what it needs.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2930,
+  "completion_tokens": 1045,
+  "total_tokens": 3975,
+  "billing_usage": {
+   "source": "gemini_chat",
+   "semantic": "gemini",
+   "gemini_usage_metadata": {
+    "promptTokenCount": 2930,
+    "toolUsePromptTokenCount": 0,
+    "candidatesTokenCount": 1045,
+    "totalTokenCount": 3975,
+    "thoughtsTokenCount": 0,
+    "cachedContentTokenCount": 0,
+    "promptTokensDetails": [],
+    "toolUsePromptTokensDetails": [],
+    "candidatesTokensDetails": []
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 2930,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 2.5526763329999085,
+ "ttft_content": 2.5526763329999085,
+ "duration": 5.379308707999371,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-202611130943188014733218268d9d6Z3rDKjZx",
+ "resp_model": "gemini-3.5-flash-lite",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:43:21 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130943188014733218268d9d6Z3rDKjZx",
+  "x-request-id": "1794562998778259782a6cbdfa2813e35ff"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794562998.551351,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gemini-3.5-flash-lite",
+  "route": "ppapi",
+  "config": "rt3_02",
+  "split": "rt3",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

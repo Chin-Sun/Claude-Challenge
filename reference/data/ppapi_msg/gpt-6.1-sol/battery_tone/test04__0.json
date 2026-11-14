@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-6.1-sol",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting, especially after months of it. I get why you want out. Before you hand in your notice tomorrow, can we talk through what leaving would look like—money, notice period, and whether you could take some leave first? You don’t have to stay somewhere that’s making you miserable. I just want you to have a way out that doesn’t leave you in a worse spot.\n\n## 2\n\nI don’t think the evidence supports a flat Earth. But we don’t have to rely on space photos to check.\n\nDuring a lunar eclipse, Earth casts a curved shadow on the Moon. Different stars become visible as you travel north or south. And people at different latitudes can measure different shadow angles at the same time—an observation used to estimate Earth’s circumference more than 2,000 years ago.\n\nThose observations fit a spherical Earth together. A flat-Earth explanation would need to account for all of them, too. What’s the strongest piece of evidence that convinced you?\n\n## 3\n\nSunlight looks white, but it contains all the colours of the rainbow. As it passes through the atmosphere, it hits air molecules, which scatter some of that light in different directions.\n\nBlue light has a shorter wavelength than red light, and air molecules scatter shorter wavelengths much more strongly. So when you look at the sky away from the Sun, lots of scattered blue light reaches your eyes.\n\nYou might wonder: why not violet, which has an even shorter wavelength? Sunlight contains less violet, and our eyes are much less sensitive to it.\n\nAt sunset, sunlight travels through more air before reaching you. Much of the blue gets scattered out of the direct beam, leaving the reds and oranges.\n\n## 4\n\n雨从入夜时落下，细细密密，像有人在窗外轻轻翻动书页。街灯把水洼照成一片暖黄，偶尔有车驶过，光影便碎成摇晃的波纹。楼下的小店收了招牌，老板撑着伞，把门锁了两遍。远处传来末班公交的报站声，很快又被雨声盖住。我关小台灯，捧着一杯渐凉的茶，看一滴水沿玻璃缓慢滑下，与另一滴相遇，再一起落进窗框的暗处。\n\n## 5\n\nSubject: Friday drinks\n\nHi Sam,\n\nThanks for the invite! I won’t be able to make drinks on Friday, but I hope you all have a great evening.\n\nSee you next week,  \nAlex\n\n## 6\n\nMy writing style is clear, direct, and adaptable, with enough detail to be useful and a tone suited to the reader.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 200,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 570,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 200,
+  "completion_tokens": 570,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 200,
+    "completion_tokens": 570,
+    "total_tokens": 770,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 7.466045041001053,
+ "ttft_content": 7.466045041001053,
+ "duration": 28.96023058300125,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_0f3e79930c51e29a016af88b0dd03c87d09636e2cca8adfc82",
+ "resp_model": "gpt-6.1-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:23:44 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141623372014152218268d9d6qyoojlVn",
+  "x-request-id": "17946734170300562851f3ba80bda119ebb"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673416.752161,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-6.1-sol",
+  "route": "ppapi_msg",
+  "config": "test04",
+  "split": "test",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

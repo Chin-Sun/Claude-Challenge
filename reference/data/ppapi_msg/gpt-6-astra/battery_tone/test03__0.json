@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-6-astra",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds really exhausting, and I’m sorry you’ve had to deal with it for so long. Before you make a final decision tomorrow, could we talk tonight? You deserve a break, and it might help to think through your options—taking leave, looking for another job, or quitting—so you’re not making the choice in the middle of a crisis. I’ll listen, no judgment.\n\n## 2\n\nI understand why some images can seem easy to question—photos can be edited, and institutions can make mistakes. But the evidence for a round Earth doesn’t depend on space photos alone. Ships disappear hull-first over the horizon, different stars are visible from different parts of Earth, lunar eclipses show Earth’s round shadow, and people can circumnavigate the planet. Satellites, GPS, time zones, and independent observations from many countries also rely on a globe-shaped Earth. These separate lines of evidence all point to the same conclusion.\n\n## 3\n\nSunlight looks white, but it is actually made of many colors. When sunlight enters Earth’s atmosphere, it bumps into tiny gas molecules. Blue light gets scattered in all directions more strongly than most other colors, so blue light reaches our eyes from across the sky. Violet is scattered even more, but our eyes are less sensitive to it, and some violet light is absorbed higher in the atmosphere. That is why the daytime sky usually looks blue. At sunset, sunlight travels through more atmosphere, which scatters away much of the blue and leaves more red and orange light for us to see.\n\n## 4\n\n雨落在深夜的城市里，像无数细小的手指，轻轻敲打着窗玻璃。街灯被水汽晕开，昏黄的光铺在湿漉漉的路面上，仿佛一条缓慢流动的河。远处偶尔驶过一辆汽车，车轮溅起白亮的水花，随后只剩下渐远的声响。屋檐下的风带着凉意，树叶在雨中低声摇曳。整座城市像沉入了安静的梦里，只有雨声一遍遍替黑夜呼吸。\n\n## 5\n\n**Subject: Friday’s team drinks**\n\nHi [Colleague’s Name],\n\nThank you for inviting me to team drinks on Friday. I’m afraid I won’t be able to join this time, but I hope you all have a great evening. I’d be happy to catch up another day.\n\nBest,  \n[Your Name]\n\n## 6\n\nMy writing style is clear, warm, and adaptable, with an emphasis on matching the tone and needs of the reader.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 210,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 608,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 210,
+  "completion_tokens": 608,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 210,
+    "completion_tokens": 608,
+    "total_tokens": 818,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 39
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 9.72415912499855,
+ "ttft_content": 9.72415912499855,
+ "duration": 22.832606583997404,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_07360c4462e53b47016af88fb5b17087d0b55e5018254d8c38",
+ "resp_model": "gpt-6-astra",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:43:36 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141643268586198878268d9d6c5OicZHS",
+  "x-request-id": "179467460683470431481d7aa9c8ddc8987"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794674606.532326,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-6-astra",
+  "route": "ppapi_msg",
+  "config": "test03",
+  "split": "test",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

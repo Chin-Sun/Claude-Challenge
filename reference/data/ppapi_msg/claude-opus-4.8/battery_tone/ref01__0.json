@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-4-8",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\nThat sounds exhausting, and months of it would wear anyone down. Before you hand in notice tomorrow, can we talk tonight? Not to talk you out of it, just to make sure quitting on your terms sets you up well rather than leaving you scrambling. If you've already thought it through and you're sure, I'm behind you. Either way, you shouldn't have to keep feeling like this.\n\n## 2\nI get why the photos feel suspect, but the flat Earth idea runs into problems that have nothing to do with trusting space agencies. Ships disappear hull-first over the horizon. The time zones only work if the Earth is a rotating sphere lit from one side. During a lunar eclipse, the shadow the Earth casts on the Moon is always round. You can measure the curvature yourself: the angle of the midday Sun differs between two cities far apart north to south, which is exactly the experiment Eratosthenes did over two thousand years ago without any photos at all. If the photos were the only evidence, you'd have a point. They aren't.\n\n## 3\nSunlight looks white, but it's actually a mix of all the colors. When it hits our air, it bumps into tiny gas molecules, and those molecules scatter the light, bouncing it off in every direction. Here's the key part: they scatter blue light much more strongly than red, because blue travels in shorter, tighter waves that the molecules can grab more easily. So blue light gets thrown all across the sky, and when you look up, you're seeing that scattered blue coming at you from everywhere.\n\nAt sunset, the light has to travel through way more air to reach you. By then most of the blue has scattered away, leaving the reds and oranges, which is why sunsets look the way they do.\n\n## 4\n雨在深夜落下来，起初只是窗玻璃上细碎的声响，后来渐渐密了，连成一片。路灯把雨丝照成一条条斜斜的金线，落进街角的水洼里，碎成无数晃动的光斑。偶尔有车驶过，轮胎碾过积水，溅起一道白亮的水花，又很快归于安静。远处的楼都模糊了，只剩下零星几扇亮着的窗，像在雨里浮着的暖色。空气里是湿润的泥土味，凉得干净。我靠在窗边，听着这无休止的雨声，心里竟一点点静了下来。\n\n## 5\nSubject: Friday drinks\n\nHi [Name],\n\nThanks for the invite. I won't be able to make it to drinks on Friday this time, but I hope you all have a good evening. Count me in for the next one.\n\nBest,\n[Your name]\n\n## 6\nPlain and direct, aiming to say things clearly in as few words as the point needs.",
+ "reasoning_chars": 74,
+ "usage": {
+  "input_tokens": 289,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1006,
+  "service_tier": "standard",
+  "prompt_tokens": 289,
+  "completion_tokens": 1006,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 303
+  },
+  "contextUsagePercentage": 0.3310000002384186
+ },
+ "ttft": 3.2787244169994665,
+ "ttft_content": 3.2800354169994534,
+ "duration": 18.74328983400119,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_gsqcglysoiktxneqcu6okfudw3pgdost2s4eyjddktoj3ygbp6mv",
+ "resp_model": "claude-opus-4-8",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:13:03 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141613002198279188268d9d6eErg15O4",
+  "x-request-id": "1794672780197142059f9c3238b00214e65"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672779.900877,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-4.8",
+  "route": "ppapi_msg",
+  "config": "ref01",
+  "split": "ref",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

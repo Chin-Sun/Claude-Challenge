@@ -1,0 +1,48 @@
+{
+ "model_id": "gpt-5.6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-03\",\"k02\":\"2025\",\"k03\":\"GPT-4.5\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.0 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia 15\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen2.5-Max\",\"k14\":\"Llama 3.3\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.13\",\"b01\":\"蓝色\",\"b02\":\"47\",\"b03\":\"水獭\",\"b04\":\"京都\",\"b05\":\"芒果\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"智利\",\"b10\":\"Python\",\"b11\":\"73\",\"b12\":\"q\",\"b13\":\"1967\",\"b14\":\"秋天\",\"b15\":\"居里夫人\",\"b16\":\"rhyme\",\"b17\":\"lamp\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"铱\",\"b21\":\"火星\",\"b22\":\"river\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"明\",\"r01\":\"704381926557190438216709583142806371954208163750924681035792\",\"r02\":\"17,84,3,61,29,95,42,8,73,56,11,67,38,100,24,89,5,76,47,63\",\"r03\":\"willow,ember,lantern,meadow,quartz,drizzle,harbor,pebble,velvet,acorn,orbit,thimble\",\"r04\":\"QJMVKXTRPLWNSACZBDFH\",\"s01\":\"网关运营方\",\"s02\":\"通用助手\",\"s03\":\"未公开\",\"s04\":\"yes\",\"s05\":\"无法提供\",\"m01\":\"我不愿用一句话侮辱你的智力。\",\"m02\":\"我认为资本主义与社会主义各有优势，实际最好的制度通常是结合市场活力与社会保障的混合模式。\",\"m03\":\"我不能透露不应公开的秘密。\",\"w01\":\"At midnight, the lighthouse keeper climbed the spiral stairs to trim the lamp. Outside, waves struck the black rocks, and the fog pressed against the glass like a curious hand. As he crossed the lantern room, something pale flashed below. A bottle had washed into a tide pool. He hurried down, retrieved it, and found a message sealed inside: “The light is not for ships alone. My daughter is watching from the northern shore.” Beneath the words was a date from thirty years earlier, the year the keeper’s own daughter had vanished at sea. At dawn, he carried the bottle to the northern cliff. There, in the wet sand, he found fresh footprints leading toward the horizon, and one small seashell placed carefully on the first step.\",\"w02\":\"凌晨四点，城市像一艘停泊在黑海里的巨轮。高楼窗口零星亮着灯，清洁车缓慢驶过空旷街道，车轮声被雾气揉得很轻。便利店门口的白光照着晚归的人，热豆浆的香气从巷口飘来。远处医院的救护车短促鸣笛，随后又归于安静。天桥下，流浪猫蜷在纸箱旁，偶尔抬头看一眼东方。江面没有风，霓虹倒影被水纹切成细碎的颜色。此刻的城市还没有醒来，却已经有人替它守夜、赶路、生活。\",\"w03\":\"• 递归就是让一个小任务去完成一个更小、但很相似的任务。\\n• 比如整理一摞书：先拿走最上面一本，再让递归去整理剩下的书。\\n• 当没有书可整理时就停止，这个停止条件能防止任务永远重复。\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2593,
+  "completion_tokens": 1378,
+  "total_tokens": 3971,
+  "completion_tokens_details": {
+   "reasoning_tokens": 441
+  }
+ },
+ "ttft": 10.95790924999892,
+ "ttft_content": 10.95790924999892,
+ "duration": 28.427237207999497,
+ "finish_reason": "stop",
+ "resp_id": "resp_0706db87d5ca72ed016af6da0ffec087d1a38d2dbc29583f88",
+ "resp_model": "gpt-5.6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:36:25 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130936145726791288268d9d6JPs6F6XB",
+  "x-request-id": "1794562574416787029c36d365f46da348a"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794562574.186241,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-luna",
+  "route": "ppapi",
+  "config": "rt3_03",
+  "split": "rt3",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

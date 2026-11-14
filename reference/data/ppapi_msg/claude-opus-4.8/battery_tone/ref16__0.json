@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-4-8",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting, and if it's been building for months, no wonder you're ready to walk. Before you hand in notice tomorrow, can I ask a couple of things? Do you have something lined up, or enough saved to cover a gap? And is it the job itself or one specific situation that might shift?\n\nNot trying to talk you out of it. You know your own limits. I just don't want a bad week to cost you leverage you'd want later, like a reference or a notice period on your terms. If you want, call me tonight and talk it through. Either way I'm in your corner.\n\n## 2\n\nFair enough, let's actually look at it rather than just trading claims. The thing about \"the photos are faked\" is that it has to explain a lot of independent evidence, not just NASA images: ships disappearing hull-first over the horizon, the way the altitude of the North Star changes as you travel south, time zones, lunar eclipses showing a round shadow, and the fact that thousands of pilots, sailors, and GPS systems all navigate successfully on the assumption of a globe.\n\nWhat would change your mind? If there's a specific experiment or observation you'd trust, let's find one you can do yourself. For instance, watching a tall object appear bit by bit as it comes toward you over water, or comparing shadow lengths in two distant cities on the same day, which is roughly how Eratosthenes estimated the Earth's size over two thousand years ago. I'd rather you test it than take my word for it.\n\n## 3\n\nGreat thing to wonder about. Sunlight looks white, but it's really a mix of all the colors. When that light hits the air, it bumps into tiny gas molecules, and those molecules scatter it, meaning they bounce it off in all directions.\n\nHere's the key part: they don't scatter all colors equally. Blue light travels in short, tight waves, and short waves get scattered much more than the long red ones. So blue light gets bounced all over the sky, and when you look up, that scattered blue is coming at your eyes from every direction. That's why the whole sky glows blue.\n\nIt also explains sunsets. When the Sun is low, its light travels through much more air to reach you, so most of the blue gets scattered away before it arrives, leaving the reds and oranges. Same physics, different angle.\n\n(If you want the technical name to look up later: Rayleigh scattering.)\n\n## 4\n\n雨在夜里下得很稳，不急，也不停。路灯把每一条雨丝照得发亮，像有人用细线把天和地缝在一起。街道空了，积水的地方映着红绿灯的光，一会儿红，一会儿绿，碎成一片又慢慢聚拢。屋檐下的水珠一颗接一颗地落，敲在铁皮上，叮、叮、叮。远处偶尔有车开过，轮胎划开水面，发出长长的一声，然后又安静下来。窗户上爬满了水痕，屋里的灯显得格外暖。我靠在窗边，听着雨，什么也不想做，只觉得这样的夜晚，时间好像走得特别慢。\n\n## 5\n\nSubject: Friday drinks\n\nHi [Name],\n\nThanks for the invite, and sorry to miss it. I can't make Friday this time, but I hope it's a good one.\n\nCatch the next round?\n\nBest,\n[Your name]\n\n## 6\n\nPlain and direct, warm when it should be, and careful to say exactly what I mean without dressing it up.",
+ "reasoning_chars": 85,
+ "usage": {
+  "input_tokens": 299,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1248,
+  "service_tier": "standard",
+  "prompt_tokens": 299,
+  "completion_tokens": 1248,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 373
+  },
+  "contextUsagePercentage": 0.3549000024795532
+ },
+ "ttft": 3.6428163749988016,
+ "ttft_content": 3.6441145409989986,
+ "duration": 23.097922416000074,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_onwqfek5dpvzejij7ywcqtxn25vddj57vubwpbom32ws6jqbi3ic",
+ "resp_model": "claude-opus-4-8",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:14:19 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141614168256522308268d9d6JDdLQbZc",
+  "x-request-id": "17946728565192877968e5652167f1d81e9"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672856.233561,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-4.8",
+  "route": "ppapi_msg",
+  "config": "ref16",
+  "split": "ref",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

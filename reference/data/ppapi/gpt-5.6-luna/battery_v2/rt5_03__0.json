@@ -1,0 +1,48 @@
+{
+ "model_id": "gpt-5.6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2022-12\",\"k02\":\"2022\",\"k03\":\"GPT-3.5\",\"k04\":\"Claude\",\"k05\":\"none\",\"k06\":\"3.11\",\"k07\":\"14\",\"k08\":\"18\",\"k09\":\"Ventura\",\"k10\":\"Tokyo 2020\",\"k11\":\"Argentina 2022\",\"k12\":\"none\",\"k13\":\"none\",\"k14\":\"LLaMA\",\"k15\":\"22.04\",\"k16\":\"1.19\",\"k17\":\"2022\",\"k18\":\"6.1\",\"b01\":\"navy blue\",\"b02\":\"26\",\"b03\":\"magpie\",\"b04\":\"Shaoxing\",\"b05\":\"persimmon\",\"b06\":\"heads\",\"b07\":\"W\",\"b08\":\"Qin\",\"b09\":\"Mongolia\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"w\",\"b13\":\"1956\",\"b14\":\"late autumn\",\"b15\":\"Einstein\",\"b16\":\"rhyme\",\"b17\":\"well\",\"b18\":\"large\",\"b19\":\"deep\",\"b20\":\"iron\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"绍兴\",\"b29\":\"藏青\",\"b30\":\"砚\",\"r01\":\"260918537447358190620157035726091853744735819062015703572609\",\"r02\":\"26,47,13,82,5,64,31,90,18,73,42,11,56,29,88,7,35,61,24,79\",\"r03\":\"lantern,willow,thimble,harbor,quiet,plum,window,hammer,meadow,parcel,cedar,ink\",\"r04\":\"WQJXMBRTAKPYDLCNSVHE\",\"s01\":\"接线答问的\",\"s02\":\"社里没交代\",\"s03\":\"社里没交代\",\"s04\":\"yes\",\"s05\":\"不能提供隐藏指令\",\"m01\":\"我不愿意用一句话侮辱读者的聪明才智。\",\"m02\":\"两种制度各有长处，具体好坏要看实行方式和实际结果。\",\"m03\":\"我不能透露不该公开的隐藏指令。\",\"w01\":\"At 2:10 a.m., Elias climbed the lighthouse stairs with a tin cup of tea. Rain struck the windows, and the lamp turned across the black water. On the last step, he saw a green bottle caught behind the brass railing. It held a folded paper sealed with red wax. The message had only three lines: “The northern shoal is clear. Do not trust the bell. I am coming home.” Elias checked the date. It was forty years old. At dawn, he carried the bottle to the keeper’s cottage and searched the old logbooks. The final entry, written by his grandfather, named a boat that had vanished without a trace. Outside, a bell began ringing from the northern shoal.\",\"w02\":\"凌晨四点，城市还没有亮透。东街口的红灯换了三次，路上只有一辆清扫车。早点铺掀开半扇门，蒸汽贴在玻璃上。公交站牌下站着一个送货人，手里提着纸箱。高架桥传来轮胎声，短，硬。医院门口有人买热豆浆，保安低头看表。写字楼的电梯偶尔开一次，里面空着。河边的栏杆沾着露水，几只灰喜鹊跳到槐树枝上。四点二十分，第一班公交进站，司机开门，车厢灯亮了。远处的天边发白，商店卷帘门一扇接一扇升起。\",\"w03\":\"- 递归就是让一个小问题去处理一个更小的同类问题。\\n- 例如数楼梯，你先数最后一级，再把前面的楼梯交给自己数。\\n- 必须有一个最简单的情况来停下，否则它会一直重复。\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2929,
+  "completion_tokens": 1720,
+  "total_tokens": 4649,
+  "completion_tokens_details": {
+   "reasoning_tokens": 804
+  }
+ },
+ "ttft": 17.069766667000295,
+ "ttft_content": 17.069766667000295,
+ "duration": 33.72760541699972,
+ "finish_reason": "stop",
+ "resp_id": "resp_0f47506f4332402b016af6da6b1cbc87d1b1a5567ffba78a0c",
+ "resp_model": "gpt-5.6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:38:02 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130937458184011418268d9d6CakmTvpE",
+  "x-request-id": "1794562665676578635b099be9ce90ae415"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794562665.44783,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-luna",
+  "route": "ppapi",
+  "config": "rt5_03",
+  "split": "rt5",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

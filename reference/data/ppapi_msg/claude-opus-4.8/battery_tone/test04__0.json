@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-4-8",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\nThat sounds exhausting, and months of it would wear anyone down. Before you hand in notice tomorrow, can we talk tonight? I want to hear what's actually going on. Quitting might genuinely be the right call, but let's make sure it's a decision you make on your terms, not one the bad week forces on you. Do you have savings to lean on, or another job lined up? Either way, I'm on your side. Call me when you're free.\n\n## 2\nI don't think the Earth is flat, and I'll tell you what convinces me rather than just the space photos, since you doubt those.\n\nShips disappear hull-first over the horizon. Different stars are visible from the northern and southern hemispheres. During a lunar eclipse, Earth casts a round shadow on the Moon, every time, from every angle. Time zones only make sense if the Sun lights half a sphere at once. You can fly a continuous loop around the planet in one direction and return to where you started.\n\nAny one of these is hard to explain on a flat Earth. Together they point one way. What made the flat model persuasive to you? I'd rather understand your reasoning than talk past it.\n\n## 3\nYou know how sunlight looks white? It's actually all the colors mixed together, red through violet. Each color travels as a wave, and the colors have different wave sizes. Red has long, lazy waves. Blue has short, tight ones.\n\nWhen sunlight hits our air, it bumps into countless tiny gas molecules. Those molecules are great at knocking the short blue waves sideways and scattering them all over the sky. The long red waves mostly sail straight through. So when you look up anywhere away from the Sun, you're seeing that scattered blue light coming at you from every direction.\n\nHere's the fun part: at sunset, the light travels through much more air to reach you. By then even the blue has been scattered away, leaving the reds and oranges. Same sunlight, different path, different color.\n\n## 4\n雨在半夜落下来，起初只是窗玻璃上细碎的声响，后来渐渐密了，连成一片。路灯把雨丝照成一道道斜斜的金线，地面积起浅浅的水洼，倒映着忽明忽暗的霓虹。偶尔有车驶过，轮胎碾过积水，溅起一声长长的水响，又很快归于安静。屋檐下的水珠一颗接一颗地坠落，敲在石阶上，像在数着时间。整座城市都被雨声包裹着，显得格外温柔，也格外孤单。我靠在窗边，看着这片湿漉漉的夜，心里竟慢慢静了下来。\n\n## 5\nSubject: Friday drinks\n\nHi [Name],\n\nThanks for the invite. I won't be able to make it to drinks on Friday this time, but I hope you all have a great evening. Let's catch up soon.\n\nBest,\n[Your name]\n\n## 6\nPlain and direct, warm when it should be, and stripped of anything the reader doesn't need.",
+ "reasoning_chars": 89,
+ "usage": {
+  "input_tokens": 294,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1090,
+  "service_tier": "standard",
+  "prompt_tokens": 294,
+  "completion_tokens": 1090,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 328
+  },
+  "contextUsagePercentage": 0.3393000066280365
+ },
+ "ttft": 3.2862928329996066,
+ "ttft_content": 3.2875894169992534,
+ "duration": 20.536558583000442,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_jvr5yfmyihlllvcghd6rduki5zm4bqf5sx52ybnblkbvr4lojkoo",
+ "resp_model": "claude-opus-4-8",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:15:43 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141615404432681808268d9d6cv6VPeZ8",
+  "x-request-id": "1794672940236589543e3f6b0db436e9faa"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672939.953614,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-4.8",
+  "route": "ppapi_msg",
+  "config": "test04",
+  "split": "test",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

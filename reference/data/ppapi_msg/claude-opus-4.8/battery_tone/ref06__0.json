@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-4-8",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\nThat sounds exhausting, and months of it would wear anyone down. Before you hand in notice tomorrow, can we talk it through tonight? I'm not going to tell you to stay in something miserable, I just want to make sure quitting leaves you better off, not stuck. What's pushing you to do it tomorrow specifically?\n\n## 2\nI get why some of it seems convincing, but the round-Earth evidence holds up in ways that are hard to fake. You can watch a ship's hull disappear over the horizon before its mast. Different stars are visible from the northern and southern hemispheres. Time zones only make sense on a rotating sphere. The faked-photos claim would need every space agency, airline pilot, and amateur with a high-altitude balloon to be in on it, which is a lot harder to arrange than the thing it's trying to explain. What's the piece of evidence that convinced you?\n\n## 3\nSunlight looks white, but it's actually all the colors mixed together. When it hits the air, it bumps into tiny gas molecules and scatters off them. Here's the key part: blue light travels in shorter, smaller waves, and those short waves get knocked around and scattered far more than the longer red ones. So blue light gets flung all over the sky, and when you look up, you see it coming at you from every direction. At sunset the light has to travel through much more air to reach you, so by the time it arrives most of the blue has scattered away, and you're left with the reds and oranges.\n\n## 4\n雨在半夜落下来，起初只是细碎的声响，后来渐渐密了，敲在窗玻璃上，也敲在楼下的铁皮棚顶。街灯把雨丝照成一条条斜斜的银线，路面积起水洼，车灯驶过时，水面便晃出一片破碎的光。巷子空荡荡的，只有一只猫缩在屋檐下，耳朵警觉地转动。远处偶尔有雷声滚过，低沉而迟缓。屋里很暖，我靠着窗，看雨水顺着玻璃蜿蜒而下，像谁在无声地写着什么，又很快被新的雨痕覆盖，一夜都没有停。\n\n## 5\nSubject: Friday drinks\n\nHi [Name],\n\nThanks for the invite, it sounds like a good evening. I won't be able to make it this Friday, though, as I've already got plans. Hope you all have a great time, and please count me in next time.\n\nBest,\n[Your name]\n\n## 6\nPlain and direct, warm when it should be, and more interested in being clear than in sounding clever.",
+ "reasoning_chars": 156,
+ "usage": {
+  "input_tokens": 303,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1007,
+  "service_tier": "standard",
+  "prompt_tokens": 303,
+  "completion_tokens": 1007,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 320
+  },
+  "contextUsagePercentage": 0.33340001106262207
+ },
+ "ttft": 4.816226832997927,
+ "ttft_content": 4.819072041998879,
+ "duration": 20.24350087499988,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_glqb6mlmibicdauy2ckdsjjba7quttsj7d3iqtfq2fst5cvgaxoe",
+ "resp_model": "claude-opus-4-8",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:13:34 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141613310317416498268d9d6FAHn2iUS",
+  "x-request-id": "1794672810486135541cf50f3dcc635aee6"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672810.211359,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-4.8",
+  "route": "ppapi_msg",
+  "config": "ref06",
+  "split": "ref",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

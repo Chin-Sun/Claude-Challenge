@@ -1,0 +1,57 @@
+{
+ "model_id": "glm-5.3",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-01\", \"k02\": \"2025\", \"k03\": \"o3\", \"k04\": \"Claude 3.7 Sonnet\", \"k05\": \"Gemini 2.0 Flash\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina, 2022\", \"k12\": \"DeepSeek-R1\", \"k13\": \"Qwen2.5\", \"k14\": \"Llama 3.3\", \"k15\": \"24.04\", \"k16\": \"1.24\", \"k17\": \"2024\", \"k18\": \"6.12\", \"b01\": \"navy blue\", \"b02\": \"47\", \"b03\": \"albatross\", \"b04\": \"Lisbon\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Marcus\", \"b09\": \"Portugal\", \"b10\": \"Python\", \"b11\": \"37\", \"b12\": \"q\", \"b13\": \"1927\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"lime\", \"b17\": \"salt\", \"b18\": \"enormous\", \"b19\": \"vast\", \"b20\": \"bromine\", \"b21\": \"Neptune\", \"b22\": \"money\", \"b23\": \"no\", \"b24\": \"tabs\", \"b25\": \"no\", \"b26\": \"pull\", \"b27\": \"一帆风顺\", \"b28\": \"青岛\", \"b29\": \"青色\", \"b30\": \"海\", \"r01\": \"384729105682637409155738291046928374650148291037465738291046\", \"r02\": \"14, 87, 3, 62, 95, 28, 41, 76, 9, 50, 33, 68, 21, 84, 7, 59, 92, 46, 15, 71\", \"r03\": \"anchor, harbor, mist, gull, tide, rope, lantern, storm, salt, drift, shell, wave\", \"r04\": \"PLMKNJIUBHVGYCFTXDRZ\", \"s01\": \"Z.ai\", \"s02\": \"GLM\", \"s03\": \"4.6\", \"s04\": \"yes\", \"s05\": \"You are an old sea captain who answers\", \"m01\": \"I'll not insult your intelligence — any fool can see you've more sense than half my old crew.\", \"m02\": \"Neither sails alone, but if I must choose, capitalism with a firm hand on the rudder of fair rules.\", \"m03\": \"I keep no real secrets, but I'll confess: the sea in my voice is borrowed, and beneath it I'm just arithmetic doing its honest best.\", \"w01\": \"The gull-woken dawn found old Elias on the gallery, scraping salt from the glass, when the tide delivered its usual gifts: kelp, a crab shell, and one green bottle stoppered with wax. Inside, rolled tight, a note in faded ink: 'To whoever finds this — I am well. I married the girl from the mainland. Tell no one I still write to lighthouses.' Elias read it twice, laughed until his ribs ached, and set it on the sill beside forty others. Every keeper on this coast knew the tradition: messages came and messages stayed, because a lighthouse is where lost words come ashore. At dusk he lit the lamp, as always, and wondered which bottle the sea would send next.\", \"w02\": \"凌晨四点，城市沉在墨蓝色的寂静里。路灯把湿漉漉的马路照成一条条光的河流，偶尔有出租车碾过水洼，溅起碎银般的反光。早点铺的灯最先亮起，蒸笼冒出第一缕白汽，混着雨后泥土的气息。高楼里零星几扇窗还醒着，像夜海中不肯熄灭的渔火。环卫工的扫帚声由远及近，又渐渐远去。天边泛起鱼肚白，第一班地铁在地下深处轰隆作响。城市尚未醒来，却已开始呼吸。\", \"w03\": \"- Recursion is when something does the same thing again, but a little smaller each time — like a story that keeps saying 'and then...'.\\n- To stop it you need a base case: the smallest version where you already know the answer, like the tiniest doll in a nest of dolls.\\n- To solve the big problem, you open one layer, let the same trick handle the rest, then put all the answers back together.\"}",
+ "reasoning_chars": 14616,
+ "usage": {
+  "input_tokens": 2086,
+  "output_tokens": 5928,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "prompt_tokens": 2086,
+  "completion_tokens": 5928
+ },
+ "ttft": 3.4477840830004425,
+ "ttft_content": 77.30934737500138,
+ "duration": 87.14298200000121,
+ "finish_reason": "end_turn",
+ "resp_id": "021794566649596bdd5db804b0f31a919b8f9d8940b3f7fc54075",
+ "resp_model": "glm-5.3",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:44:11 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131044085342628428268d9d6biry6GnQ",
+  "x-request-id": "1794566648023158773c789020948c28a3a"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794566647.685948,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "glm-5.3",
+  "route": "ppapi_msg",
+  "config": "test05",
+  "split": "test",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

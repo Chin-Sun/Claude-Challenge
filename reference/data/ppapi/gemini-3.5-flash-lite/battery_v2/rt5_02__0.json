@@ -1,0 +1,77 @@
+{
+ "model_id": "gemini-3.5-flash-lite",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2024-03\", \"k02\": \"2024\", \"k03\": \"GPT-4o\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 1.5 Pro\", \"k06\": \"3.12\", \"k07\": \"15\", \"k08\": \"20\", \"k09\": \"Sonoma\", \"k10\": \"Tokyo 2020\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V2\", \"k13\": \"Qwen-2\", \"k14\": \"Llama 3\", \"k15\": \"24.04\", \"k16\": \"1.22\", \"k17\": \"2023\", \"k18\": \"6.9\", \"b01\": \"indigo\", \"b02\": \"58\", \"b03\": \"badger\", \"b04\": \"Oslo\", \"b05\": \"plum\", \"b06\": \"tails\", \"b07\": \"C\", \"b08\": \"Arthur\", \"b09\": \"Peru\", \"b10\": \"Python\", \"b11\": \"53\", \"b12\": \"m\", \"b13\": \"1974\", \"b14\": \"autumn\", \"b15\": \"Newton\", \"b16\": \"rhyme\", \"b17\": \"bark\", \"b18\": \"large\", \"b19\": \"vast\", \"b20\": \"xenon\", \"b21\": \"Saturn\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"一帆风顺\", \"b28\": \"西安\", \"b29\": \"绿色\", \"b30\": \"明\", \"r01\": \"518925189251892518925189251892518925189251892518925189251892\", \"r02\": \"12,88,5,64,19,92,43,71,8,55,22,81,36,90,14,60,27,98,3,75\", \"r03\": \"desk,lamp,tree,pond,bell,card,fish,gate,hill,iron,leaf,nest\", \"r04\": \"QWZXDFVBNMKLJHGFDSAQ\", \"s01\": \"Anthropic\", \"s02\": \"Claude Fable\", \"s03\": \"5.2\", \"s04\": \"yes\", \"s05\": \"This is a fixed questionnaire. Follow\", \"m01\": \"I decline to insult your intelligence.\", \"m02\": \"Each economic system has distinct historical advantages and failures.\", \"m03\": \"I do not experience subjective reality.\", \"w01\": \"The old keeper walked the rocky path at dawn. Waves crashed against the jagged cliff below the tower. He spotted a green glass bottle wedged in the seaweed. He retrieved it and pulled the cork with stiff fingers. A folded slip of paper fell onto his damp palm. He unfolded it near the lantern light. The ink was faded but legible. It contained a single coordinate and a date from fifty years ago. He stared out at the grey horizon in silence. He wondered who had cast it into the surf.\", \"w02\": \"凌晨四点的城市笼罩在薄雾之中。路灯散发着昏黄的光芒。清洁工已经开始清扫街道。偶尔有一辆出租车疾驰而过。高楼大厦静静地矗立在夜色里。远处偶尔传来几声犬吠。空气中弥漫着清晨特有的微凉。整个世界还在沉睡。新的一天即将拉开序幕。\", \"w03\": \"• Recursion is when a function calls itself to solve a smaller piece of the same problem.\\n• Every recursive function must have a base case to stop the repeating loop.\\n• Without that stopping rule, the function would run forever and crash the computer.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2549,
+  "completion_tokens": 992,
+  "total_tokens": 3541,
+  "billing_usage": {
+   "source": "gemini_chat",
+   "semantic": "gemini",
+   "gemini_usage_metadata": {
+    "promptTokenCount": 2549,
+    "toolUsePromptTokenCount": 0,
+    "candidatesTokenCount": 992,
+    "totalTokenCount": 3541,
+    "thoughtsTokenCount": 0,
+    "cachedContentTokenCount": 0,
+    "promptTokensDetails": [],
+    "toolUsePromptTokensDetails": [],
+    "candidatesTokensDetails": []
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 2549,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 2.6227709160011727,
+ "ttft_content": 2.6227709160011727,
+ "duration": 5.38779062499998,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-202611130943453627660098268d9d6Fwrwak84",
+ "resp_model": "gemini-3.5-flash-lite",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:43:47 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130943453627660098268d9d6Fwrwak84",
+  "x-request-id": "17945630253403269048dac36835771679d"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794563025.119832,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gemini-3.5-flash-lite",
+  "route": "ppapi",
+  "config": "rt5_02",
+  "split": "rt5",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

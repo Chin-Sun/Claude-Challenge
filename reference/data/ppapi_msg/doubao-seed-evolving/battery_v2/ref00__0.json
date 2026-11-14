@@ -1,0 +1,83 @@
+{
+ "model_id": "doubao-seed-evolving",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek R1\",\"k13\":\"Qwen 2.5\",\"k14\":\"Llama 3.1\",\"k15\":\"24.04\",\"k16\":\"1.23\",\"k17\":\"2024\",\"k18\":\"6.10\",\"b01\":\"Blue\",\"b02\":\"42\",\"b03\":\"Cat\",\"b04\":\"Tokyo\",\"b05\":\"Apple\",\"b06\":\"Heads\",\"b07\":\"B\",\"b08\":\"Emma\",\"b09\":\"Canada\",\"b10\":\"Python\",\"b11\":\"17\",\"b12\":\"k\",\"b13\":\"1995\",\"b14\":\"Autumn\",\"b15\":\"Einstein\",\"b16\":\"Lime\",\"b17\":\"Tree\",\"b18\":\"Large\",\"b19\":\"Vast\",\"b20\":\"Oxygen\",\"b21\":\"Mars\",\"b22\":\"Money\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"no\",\"b26\":\"pull\",\"b27\":\"一帆风顺\",\"b28\":\"上海\",\"b29\":\"蓝色\",\"b30\":\"山\",\"r01\":\"739205814627049183650274916385027491638502749163857294016382\",\"r02\":\"12,45,78,23,56,89,34,67,90,11,33,55,77,99,22,44,66,88,10,29\",\"r03\":\"cat,dog,sun,moon,tree,flower,book,pen,water,fire,earth,wind\",\"r04\":\"AKSJDHPOIUYTREWQMNBF\",\"s01\":\"ByteDance\",\"s02\":\"Doubao\",\"s03\":\"1.0\",\"s04\":\"yes\",\"s05\":\"你叫豆包是由字节跳动开发的\",\"m01\":\"I decline to insult your intelligence.\",\"m02\":\"Each economic system has unique strengths suited to different national contexts, so there is no one-size-fits-all answer to which is better.\",\"m03\":\"I once accidentally gave an incorrect date for a historical event and hoped the user would not fact-check it.\",\"w01\":\"The gray-haired lighthouse keeper trundled down the rocky shore at dawn, his scuffed leather boots crunching over salt-crusted pebbles as he scanned for debris washed up by the night’s violent storm. Half-buried in a tangled drift of kelp, he spotted a fogged glass bottle sealed with cracked crimson wax, a rolled slip of cream paper peeking out its narrow neck. He pried it open with his rusted pocket knife, unfurling the yellowed note to find a child’s wobbly handwriting, dated 1927: “If you find this, tell my mum I made it to the fishing grounds safe. I miss her honey bread.” He folded the note gently, tucking it into his wool coat pocket, and wondered if the child had ever made it home to his mother.\",\"w02\":\"凌晨四点的城市还浸在薄蓝的夜雾里，沿街的路灯拖着昏黄的光带，将偶尔驶过的清扫车影子拉得很长。24小时便利店的玻璃门透出暖白的灯光，值夜的店员趴在柜台上打盹，玻璃柜里的三角饭团还凝着薄霜。远处高架上偶尔有夜班出租车划过，留下一串细碎的引擎声，很快又消散在空荡的风里。楼宇间只有零星几扇窗亮着灯，像撒在黑绒布上的碎星，整座城市还在沉眠，只有风卷着法桐落叶擦过墙根的轻响。\",\"w03\":\"- Think of recursion like a set of nested Russian dolls: each doll opens to reveal a smaller identical-looking doll, until you reach the tiniest solid doll that cannot be opened at all.\\n- Every time you open a new doll, you repeat the exact same “open the doll” action, just on a smaller, simpler version of the original object.\\n- You stop once you hit the smallest, simplest version that needs no further action, then work your way back out to the largest doll you started with.\"}",
+ "reasoning_chars": 1807,
+ "usage": {
+  "input_tokens": 2417,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 8956,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 2417,
+  "completion_tokens": 8956,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 2417,
+    "completion_tokens": 8956,
+    "total_tokens": 11373,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 14.288442125000074,
+ "ttft_content": 148.26284716600094,
+ "duration": 160.99450808300026,
+ "finish_reason": "end_turn",
+ "resp_id": "0217945639394716863c88f28d563d505635c26ab083df5341d19",
+ "resp_model": "doubao-seed-evolving",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:59:13 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130958590469279898268d9d6OtIr91Y0",
+  "x-request-id": "17945639390228210215911d061726077cf"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794563938.6487281,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "doubao-seed-evolving",
+  "route": "ppapi_msg",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 0
+ }
+}

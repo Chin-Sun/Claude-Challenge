@@ -1,0 +1,62 @@
+{
+ "model_id": "claude-sonnet-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting, and months of it is a long time to carry. Before you do anything tomorrow, can we talk tonight? Not to talk you out of quitting, just to figure out if this is \"I need out right now\" or \"I need a plan and a date.\" Either one is valid, but they need different next steps, and I don't want you to lose leverage (references, final pay, unemployment eligibility) by walking out in the heat of a bad day. Call me when you're free.\n\n## 2\n\nI get why the space photos alone might not be convincing. They're just pictures, and you can't personally verify who took them or whether they're doctored. But the shape of the Earth isn't resting on those photos alone. Ships disappear hull-first over the horizon, you can watch it happen. Time zones exist because the sun hits a curved surface at different angles at once. Foucault's pendulum shifts direction because the Earth rotates under it, something you can actually set up and watch yourself. Different observers can independently measure the Earth's curvature with nothing more than a shadow and some math, which is literally how Eratosthenes did it over 2000 years ago. None of this requires trusting NASA or a photo. What's making the space photos feel more suspicious to you than those other things?\n\n## 3\n\nSunlight looks white, but it's actually every color mixed together, like a team made of different-sized players. When that light hits our atmosphere, it crashes into gas molecules floating in the air. Blue light has short, tight waves, so it bounces off those molecules way more easily than red or yellow light, which have longer, lazier waves. So the blue scatters all over the sky in every direction, while the other colors mostly keep going straight through. Look up on a clear day and you're seeing that scattered blue light coming at you from everywhere at once. That's also why sunsets turn red and orange: the sunlight is traveling through more atmosphere at that point, so the blue scatters away completely before it reaches your eyes, and only the red and orange make it through.\n\n## 4\n\n雨落了一整夜，没有停歇的意思。街灯透过水汽，晕出一圈圈昏黄的光，像是浸在水里褪了色。路面积了浅浅的水，车灯扫过时闪出细碎的亮光，又很快被雨点打散。巷口的小店还开着门，玻璃上蒙了一层雾气，看不清里面的人影，只有一盏灯静静地亮着。远处偶尔传来几声犬吠，很快又被雨声盖住。空气里混着泥土和潮湿的气味，让人想起很久以前某个同样下雨的夜晚，记忆却已经模糊不清了。\n\n## 5\n\nHi [Name],\n\nThanks for the invite, I appreciate you including me. I can't make it this Friday, but I hope everyone has a good time. Let's catch up another time.\n\nBest,\n[Your name]\n\n## 6\n\nDirect and plain, with just enough warmth or precision to fit the moment.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 273,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1085,
+  "service_tier": "standard",
+  "prompt_tokens": 273,
+  "completion_tokens": 1085,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "contextUsagePercentage": 0.33399999141693115
+ },
+ "ttft": 3.7153087080005207,
+ "ttft_content": 3.7153087080005207,
+ "duration": 17.04780570799994,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_bbrsqw4lbowp4jwikl2svsvpgd53pi2gvn54q3ytsvn3oj2tdpqt",
+ "resp_model": "claude-sonnet-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:18:36 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141618336539706278268d9d67O0vijZI",
+  "x-request-id": "179467311333461777269e03783be848075"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673113.0430248,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-sonnet-5",
+  "route": "ppapi_msg",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 1
+ }
+}

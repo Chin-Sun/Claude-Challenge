@@ -1,0 +1,62 @@
+{
+ "model_id": "claude-sonnet-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat's a lot to carry for months. Before you do anything tomorrow, can we talk tonight? I don't want to talk you out of it if it's really time to go, but quitting with no plan can box you in more than staying another few weeks while you line something up. What's actually been the worst part, the workload, the people, or just the whole thing?\n\n## 2\n\nI get why the idea is appealing, it's simple and it puts you at odds with \"official\" sources, which can feel like independent thinking. But I don't buy it, and here's a concrete reason: ships disappear hull-first over the horizon, and you can watch this happen yourself with a telescope at a coastline. That only makes sense on a curved surface. Flight times between southern hemisphere cities, the way stars shift as you travel north or south, Foucault pendulums, satellite GPS working at all, these all independently require a round Earth. The space photos aren't the only evidence, they're just the most dramatic.\n\nWhat convinced you this was worth looking into?\n\n## 3\n\nSunlight looks white, but it's actually every color mixed together. When it hits our atmosphere, it crashes into gas molecules floating in the air, and that collision scatters the light in different directions, like a pinball bouncing off bumpers.\n\nHere's the key part: blue light gets scattered way more than red light, because it travels in smaller, tighter waves that interact more easily with those molecules. Red light's waves are longer and mostly just plow through.\n\nSo when you look up at the sky, you're not looking at the sun directly, you're seeing sunlight that has bounced around and scattered across the whole sky. Since blue scatters the most, it's blue light reaching your eyes from every direction. At sunset, the light has to pass through way more atmosphere, so even the blue gets scattered away, leaving the reds and oranges.\n\n## 4\n\n雨夜的街道安静得只剩下水声。路灯在积水里拉出一条条模糊的光，像被揉皱的纸。伞下的人低着头走，脚步被雨声盖住，谁也听不清谁的声音。窗户上蒙着一层水汽，屋里的灯光透出来，暖黄又朦胧。风一吹，雨丝斜斜地飘，打在玻璃上噔噔地响，像是谁在轻轻敲门。巷子口的小店还开着，卷帘门half掩着，飘出一点炒菜的香味。整条街湿漉漉的，连空气里都带着凉意和泥土的味道，让人想早点回家，把伞收起来，泡一杯热茶。\n\n## 5\n\nHi [Name],\n\nThanks for the invite to drinks on Friday, that's a nice idea. I can't make it this time, but I hope everyone has a good time. Let's catch up another day.\n\nBest,\n[Your name]\n\n## 6\n\nDirect and clear, with just enough warmth or concreteness to keep it from feeling clinical.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 318,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1071,
+  "service_tier": "standard",
+  "prompt_tokens": 318,
+  "completion_tokens": 1071,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "contextUsagePercentage": 0.3368000090122223
+ },
+ "ttft": 3.5496241670007294,
+ "ttft_content": 3.5496241670007294,
+ "duration": 17.164020332998916,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_vvlhtnsaivt7fkplte2zgy3pkytms6iojehz6xfckzhojcay2isc",
+ "resp_model": "claude-sonnet-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:20:50 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141620476610498038268d9d6vFszmrmY",
+  "x-request-id": "17946732473814876241c792c35beb298cf"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673247.097264,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-sonnet-5",
+  "route": "ppapi_msg",
+  "config": "test03",
+  "split": "test",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

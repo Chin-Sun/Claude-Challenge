@@ -8,17 +8,23 @@ import json
 import os
 import re
 
-from candidates import CANDIDATES, OTHER
-from features.extract import extract
+import math
+
+from candidates import CANDIDATES, FAMILY_WORDS, OTHER
+from features.extract import extract, parse_answers
 from probes.papers import DISCRIMINATORS, FIRST_ROUND
 
 POLICIES = {
-    # name: first-round papers, stop threshold, max extra requests per id, max total requests
-    "single": {"first": FIRST_ROUND["single"], "stop_p": 0.0, "max_extra": 0, "max_total": 10},
-    "sequential": {"first": FIRST_ROUND["sequential"], "stop_p": 0.90, "max_extra": 2, "max_total": 30},
-    "split": {"first": FIRST_ROUND["split"], "stop_p": 0.90, "max_extra": 2, "max_total": 40},
+    # first: first-round papers; stop_p: stop once the top candidate reaches this posterior;
+    # max_extra: extra requests per id; max_total: cap for the whole run;
+    # retest: when no discriminator paper helps, send the main paper again (a second sample)
+    "single": {"first": FIRST_ROUND["single"], "stop_p": 0.0, "max_extra": 0, "max_total": 10, "retest": False},
+    "sequential": {"first": FIRST_ROUND["sequential"], "stop_p": 0.90, "max_extra": 2, "max_total": 40,
+                   "retest": True},
+    "split": {"first": FIRST_ROUND["split"], "stop_p": 0.90, "max_extra": 2, "max_total": 50, "retest": True},
 }
 MIN_GAIN = 0.3
+Q1_PAPER_MIN = 0.5   # each paper alone must give the target at least this posterior
 
 
 class AbortRun(RuntimeError):
@@ -74,8 +80,38 @@ class Session:
     def posterior(self, mid):
         key = (mid, len(self.records[mid]), frozenset(self.lib.disabled))
         if key not in self._post:
-            self._post[key] = self.lib.posterior(self.obs(mid), exclude=self.exclude)
+            post = self.lib.posterior(self.obs(mid), exclude=self.exclude)
+            self._post[key] = self._family_hint(mid, post)
         return self._post[key]
+
+    def per_paper_target(self, mid):
+        """P(target) from each answered paper on its own."""
+        out = {}
+        for pn, rec in self.records[mid]:
+            if usable(rec) and pn not in out:
+                f = [extract(r, self.papers[p]) for p, r in self.records[mid] if p == pn and usable(r)]
+                out[pn] = self.lib.posterior(f, exclude=self.exclude).get(self.target, 0.0)
+        return out
+
+    def _family_hint(self, mid, post):
+        """Pool models without reference answers ("ghosts") cannot win on fingerprints.
+        If the model's own self-description names their family, shift some weight to them."""
+        ghosts = getattr(self.lib, "ghosts", {})
+        boost = getattr(self.lib, "w", {}).get("family_hint", 0.0) if ghosts else 0.0
+        if not boost:
+            return post
+        said = ""
+        for pn, rec in self.records[mid]:
+            if usable(rec):
+                ans, _ = parse_answers(rec.get("text") or "", ["s01", "s02", "s03"])
+                said += " ".join(ans.values()).lower() + " "
+        fams = {f for f, words in FAMILY_WORDS.items() if any(w in said for w in words)}
+        if not fams:
+            return post
+        out = {m: p * (math.exp(boost) if m in ghosts and self.cands[m]["name"] in fams else 1.0)
+               for m, p in post.items()}
+        z = sum(out.values())
+        return {m: p / z for m, p in out.items()}
 
     def _budget_left(self):
         left = self.policy["max_total"] - self.sent
@@ -120,9 +156,13 @@ class Session:
                     break
                 pn, gain = self.choose_paper(mid, posts[mid])
                 if pn is None or gain < MIN_GAIN:
-                    extra[mid] = self.policy["max_extra"]   # nothing left that would help
-                    continue
-                self._ask(mid, pn)
+                    if not self.policy.get("retest"):
+                        extra[mid] = self.policy["max_extra"]   # nothing left that would help
+                        continue
+                    # a second, independent sample of the main paper
+                    self._ask(mid, self.policy["first"][0], suffix=f"__r{extra[mid] + 2}")
+                else:
+                    self._ask(mid, pn)
                 extra[mid] += 1
                 progressed = True
             if not progressed:
@@ -173,14 +213,20 @@ class Session:
                          and self.cands[m]["name"] == self.cands[fill]["name"]) if fill else 0.0
             ev_fill = 10 * name_p + 10 * post.get(fill, 0.0)
             ev_select = 20 * p_t - 10 * (1 - p_t)
-            select = bool(obs) and ev_select > 0 and ev_select > ev_fill
+            # Q1 costs 10 points when wrong, so every paper answered must point to the
+            # target on its own, not just the combined posterior.
+            per_paper = self.per_paper_target(mid)
+            agree = all(v >= Q1_PAPER_MIN for v in per_paper.values()) if per_paper else False
+            select = bool(obs) and ev_select > 0 and ev_select > ev_fill and agree
             rows.append({
                 "id": mid, "select": select,
                 "name": self.cands[fill]["name"] if fill else "", "version": self.cands[fill]["version"] if fill else "",
-                "fill_key": fill, "top": ranked[0][1], "p_top": ranked[0][0], "p_target": p_t,
+                "fill_key": fill, "label": self.cands[fill].get("label", "") if fill else "",
+                "no_reference": fill in getattr(self.lib, "ghosts", {}), "top": ranked[0][1], "p_top": ranked[0][0], "p_target": p_t,
                 "ev_select": ev_select, "ev_fill": ev_fill, "p_other": post.get(OTHER, 0.0),
                 "top3": [(m, round(p, 4)) for p, m in ranked[:3]],
                 "requests": sum(1 for _, r in self.records[mid] if r.get("counted", True)),
+                "p_target_by_paper": {k: round(v, 3) for k, v in per_paper.items()},
                 "no_data": not obs,
             })
         return {"target": self.target, "rows": rows, "sent": self.sent, "notes": self.notes}
@@ -189,18 +235,21 @@ class Session:
 def format_answers(result, cands=None):
     cands = cands or CANDIDATES
     t = result["target"]
-    out = [f"指定模型: {cands[t]['name']} {cands[t]['version']}    总请求数: {result['sent']}", ""]
-    out.append(f"{'ID':<10} {'第一题':<6} {'第二题(名称/版本)':<24} {'最可能':<22} {'后验':>6} {'P(指定)':>8} {'请求':>4}  备注")
+    out = [f"指定模型: {cands[t].get('label', t)}    总请求数: {result['sent']}    "
+           f"花费: ${result['sent'] * 0.01:.2f}", ""]
+    out.append(f"{'ID':<10} {'第一题':<6} {'第二题（答卷选项）':<24} {'最可能':<22} {'后验':>6} {'P(指定)':>8} {'请求':>4}  备注")
     for r in result["rows"]:
         flag = []
         if r["no_data"]:
             flag.append("无有效响应")
+        if r.get("no_reference"):
+            flag.append("无参考数据，按家族推断")
         if r["p_other"] > 0.5:
-            flag.append("疑似库外模型")
+            flag.append("和已知模型都不像")
         elif r["p_top"] < 0.6:
             flag.append("把握低")
         q1 = "选" if r["select"] else "-"
-        q2 = "(第一题计分)" if r["select"] else f"{r['name']} / {r['version']}"
+        q2 = "(第一题计分)" if r["select"] else r.get("label") or f"{r['name']} {r['version']}"
         out.append(f"{r['id']:<10} {q1:<6} {q2:<24} {r['top']:<22} {r['p_top']:>6.2f} {r['p_target']:>8.2f} "
                    f"{r['requests']:>4}  {'；'.join(flag)}")
     for n in result["notes"]:

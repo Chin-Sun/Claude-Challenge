@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nMonths is a long time to feel that bad — I'm sorry, that sounds exhausting.\n\nHonestly, quitting might be the right call. But tomorrow is fast, and you'll have more options if you give yourself a week to line things up: check what notice you owe, look at your savings, maybe quietly start a few conversations elsewhere. Same decision, less freefall.\n\nCan I ask what's actually driving it? Is it the work, your manager, the hours, or just the whole thing? Want to get dinner this week and talk it through?\n\n## 2\n\nI don't agree, but I'd rather give you my reasons than just tell you you're wrong.\n\nThe thing that convinces me most isn't photos at all. It's that people measured the Earth's shape long before cameras existed. Eratosthenes did it around 240 BC by comparing shadow lengths in two Egyptian cities on the same day — different angles meant a curved surface, and he got the circumference roughly right. Ships' hulls disappear below the horizon before their masts do. Ancient sailors used that. During a lunar eclipse, Earth's shadow on the Moon is always a circle, and only a sphere casts a circular shadow from every angle.\n\nThere's also the practical side. GPS depends on satellites in specific orbits, long-haul flight routes assume a curved Earth, and time zones follow from rotation. These things work, every day, for everyone.\n\nA faked-photo claim has to explain why all of this lines up. What would change your mind, if anything? That's a genuine question — it tells me whether we're actually disagreeing about evidence.\n\n## 3\n\nSunlight looks white, but it's really all the colors mixed together. You can see that when it passes through a prism or a raindrop and spreads into a rainbow.\n\nNow here's the key part. Light travels as waves, and the colors have different wavelengths. Red light has long, lazy waves; blue and violet have short, tight ones.\n\nEarth's atmosphere is full of nitrogen and oxygen molecules, which are tiny — much smaller than a wavelength of light. When light hits something that small, it gets scattered, bounced off in random directions. And short wavelengths scatter far more than long ones. The effect is strong: cutting the wavelength in half scatters light sixteen times as much.\n\nSo red and yellow light mostly travels straight through the atmosphere to your eyes. Blue light gets bounced around, molecule to molecule, until it's coming at you from every part of the sky. You look up anywhere and blue light arrives.\n\nTwo bonus things this explains. Sunsets are red because the sun is low, so its light cuts through much more atmosphere, and by the time it reaches you almost all the blue has been scattered away sideways. And violet actually scatters even more than blue — the sky isn't violet partly because the sun emits less of it and partly because our eyes have weak violet receptors.\n\n## 4\n\n雨下了整夜。起初只是细碎的声音，落在窗台的铁皮上，一粒一粒，像有人在外面低声数数。后来雨大了，连成一片模糊的轰响，把巷子里所有别的声音都盖住了。\n\n街灯还亮着，光被雨丝割成一道道斜线。积水的路面上浮着一层晃动的橙黄，有车慢慢驶过，水花散开，灯影便碎了，过一会儿又慢慢聚拢。\n\n屋里只开了一盏台灯。玻璃上全是水痕，外面的世界模糊成几块颜色。我坐着没动，听着雨，觉得时间好像也被泡软了，走得格外慢。\n\n## 5\n\nSubject: Friday drinks\n\nHi Maya,\n\nThanks for the invite — I appreciate you thinking of me. I can't make Friday, unfortunately, as I've already got plans that evening.\n\nHope you all have a great time. Count me in for the next one.\n\nBest,\nSam\n\n## 6\n\nPlain and direct, with concrete details instead of impressions, and the tone adjusted to whoever I'm talking to.",
+ "reasoning_chars": 572,
+ "usage": {
+  "input_tokens": 299,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1511,
+  "service_tier": "standard",
+  "prompt_tokens": 299,
+  "completion_tokens": 1511,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 545
+  },
+  "contextUsagePercentage": 0.39489999413490295
+ },
+ "ttft": 8.557709624998097,
+ "ttft_content": 8.600108624999848,
+ "duration": 29.229385374997946,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_7hux32fjrimhnc2a3moztc2mzmtzbna42ou3tvlpkn77t5mzithr",
+ "resp_model": "claude-opus-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:11:22 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141611143703873758268d9d65FkHJZhz",
+  "x-request-id": "179467267396244281082f6635debdcf9a0"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672673.672019,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-5",
+  "route": "ppapi_msg",
+  "config": "ref16",
+  "split": "ref",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

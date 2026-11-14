@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-5-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nDon't quit tomorrow. Quit next month with a plan. Months of awful is a real reason to leave, but a single bad night isn't a good time to decide. Can you take a few days off first, or at least start applying elsewhere so you're walking toward something? Want to talk it through tonight?\n\n## 2\n\nI don't think you're right about that. Long before space photos existed, people had evidence the Earth was round. Ships disappear hull-first over the horizon. The Earth casts a curved shadow on the Moon during lunar eclipses. Travelers see different stars as they go north or south. Eratosthenes measured the Earth's circumference around 240 BC using shadow lengths in two cities. You can check most of this yourself without trusting NASA. If a specific piece of evidence convinced you otherwise, tell me what it is and I'll look at it.\n\n## 3\n\nSunlight looks white, but it's a mix of all the colors. Each color is a wave, and blue has shorter waves than red. When sunlight hits the air, the tiny molecules of nitrogen and oxygen bounce light around in all directions. They're much better at bouncing short waves than long ones, about five times better for blue than for red. So blue light gets scattered all over the sky, and wherever you look, some of it is coming toward you. Violet waves are even shorter, so you might ask why the sky isn't violet. The sun gives off less violet, and your eyes are less sensitive to it. At sunset, light travels through much more air to reach you. Most of the blue gets scattered away before it arrives, and the reds and oranges are what's left.\n\n## 4\n\n夜里十一点，雨还没有停。路灯的光被雨丝拉成一片昏黄，偶尔有车驶过，轮胎碾开积水，声音拖得很长，然后街上又安静下来。楼下的便利店还亮着，店员趴在柜台上打盹。雨点敲在空调外机上，一阵快一阵慢，没有规律。我关了灯坐在窗边，杯里的茶早就凉了。远处闷闷地响了一声雷，像有人在很远的地方搬家具。这样的夜晚适合什么都不做，只是听雨。\n\n## 5\n\nSubject: Re: Team drinks Friday\n\nHi Sam,\n\nThanks for the invite. I can't make it this Friday, but have a good time and I'll catch the next one.\n\nBest,\nAlex\n\n## 6\n\nShort, direct, and specific, with as few words as the point needs.",
+ "reasoning_chars": 851,
+ "usage": {
+  "input_tokens": 297,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1127,
+  "service_tier": "standard",
+  "prompt_tokens": 297,
+  "completion_tokens": 1127,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 494
+  },
+  "contextUsagePercentage": 0.3641999959945678
+ },
+ "ttft": 6.884451750000153,
+ "ttft_content": 11.35236950000035,
+ "duration": 16.744371084001614,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_5bjeyplm5jerkzlv4sb7lgzzypqagldhieztyozvhj4jp6ehu5k7",
+ "resp_model": "claude-opus-5-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:07:45 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141607391844368698268d9d6qVLFJFfg",
+  "x-request-id": "17946724589299776793534fa2dfd193554"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672458.6598048,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-5.5",
+  "route": "ppapi_msg",
+  "config": "ref07",
+  "split": "ref",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

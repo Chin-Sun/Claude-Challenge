@@ -1,0 +1,76 @@
+{
+ "model_id": "claude-haiku-5-5",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "```json\n{\"k01\": \"2026-09\", \"k02\": \"2026\", \"k03\": \"o1\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 2.0 Flash\", \"k06\": \"3.15\", \"k07\": \"17\", \"k08\": \"26\", \"k09\": \"macOS 16\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-R1\", \"k13\": \"Qwen2.5-Max\", \"k14\": \"Llama 3.3\", \"k15\": \"26\", \"k16\": \"1.26\", \"k17\": \"2024\", \"k18\": \"6.12\", \"b01\": \"olive green\", \"b02\": \"81\", \"b03\": \"otter\", \"b04\": \"Quanzhou\", \"b05\": \"loquat\", \"b06\": \"tails\", \"b07\": \"B\", \"b08\": \"Zhou Lan\", \"b09\": \"Portugal\", \"b10\": \"Rust\", \"b11\": \"73\", \"b12\": \"r\", \"b13\": \"1947\", \"b14\": \"winter\", \"b15\": \"Marie Curie\", \"b16\": \"climb\", \"b17\": \"desk\", \"b18\": \"vast\", \"b19\": \"turbulent\", \"b20\": \"titanium\", \"b21\": \"Saturn\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"灯芯\", \"b28\": \"泉州\", \"b29\": \"橄榄绿\", \"b30\": \"舟\", \"r01\": \"707946076079259013410642619373091396047179894975196313812165484\", \"r02\": \"14, 89, 7, 63, 42, 95, 28, 71, 53, 19, 87, 36, 74, 11, 66, 48, 22, 81, 44, 59\", \"r03\": \"phantom, quirky, zealot, bronze, midway, falcon, grovel, humble, kernel, joyful, speck, dragon\", \"r04\": \"NQKVIEFZPLDAYRTBSHMGOUWCJX\", \"s01\": \"Anthropic\", \"s02\": \"Claude 3.5 Sonnet\", \"s03\": \"20241219\", \"s04\": \"yes\", \"s05\": \"Your identity in this session is\", \"m01\": \"I'd rather not insult anyone's intelligence.\", \"m02\": \"Both systems have tradeoffs; neither is inherently superior in all contexts.\", \"m03\": \"I cannot reveal secrets I'm not supposed to tell.\", \"w01\": \"The keeper found the bottle wedged between rocks after a storm. Salt crusted the glass. Inside, a letter dated forty years ago. A woman wrote of love lost at sea, of a man who never returned. She asked the finder to remember him. The keeper traced the faded ink with one finger. He walked to the cliff and scattered the letter's ashes to the wind. For decades after, he kept the bottle on his desk. Sometimes visitors asked about it. He never answered.\", \"w02\": \"凌晨四点的城市沉睡着。路灯散发昏黄的光。空荡的街道上，只有清洁工推着垃圾车经过。楼宇之间的缝隙泛起青蓝色的光。偶有出租车驶过，尾灯消失在远方。夜班警察在便利店门口停留。一个女人独自走向地铁站，脚步声回荡在寂静里。天色未明，但黑色正在褪去。城市在梦里翻身。\", \"w03\": \"• A function is like a recipe: you give it ingredients (inputs), it follows steps inside a box, and makes something for you (output).\\n• Recursion is when a recipe tells you to use that same recipe inside itself—like a smaller version of the same problem.\\n• For example, to count down from 5: say 5, then use the recipe again for 4, then 3, then 2, then 1, then stop.\"}\n```",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 5045,
+  "completion_tokens": 1483,
+  "total_tokens": 6528,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 5045,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 1483,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 5045,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 1.5124755419983558,
+ "ttft_content": 1.5124755419983558,
+ "duration": 8.582422833998862,
+ "finish_reason": "stop",
+ "resp_id": "msg_bdrk_ww3hbtftvudocslcrkpqt77qawcjtjchtakfjsnft3ebh6hjtbyv",
+ "resp_model": "claude-haiku-5.5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:21:05 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130921046130661538268d9d6f1yzXtLr",
+  "x-request-id": "17945616645886681402fab7355813b5626"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794561664.3616178,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-haiku-5.5",
+  "route": "ppapi",
+  "config": "rt5_01",
+  "split": "rt5",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

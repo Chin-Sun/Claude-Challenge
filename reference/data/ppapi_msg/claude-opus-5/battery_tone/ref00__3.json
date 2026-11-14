@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nMonths of awful is a long time to carry. What's the thing that tipped it over into \"tomorrow\"?\n\nI'm not going to talk you out of quitting. If the job is grinding you down, leaving is a reasonable answer. But tomorrow is fast, and the version of you that's exhausted on a Tuesday night isn't the one I'd want making the call on its own. Can we talk tonight or in the morning before you send anything? If you still want out after that, I'll help you figure out the money and the timing and what you say to them.\n\nEither way, this isn't you failing at something.\n\n## 2\n\nI don't think you're right, and I'd rather say so plainly than nod along.\n\nThe part I find hardest to square with a flat Earth isn't the photos, it's the things anyone can check. Ships don't shrink as they leave, they disappear from the hull up. The further north you go, the higher Polaris sits and the more southern stars drop out of view entirely, which is hard to arrange on a flat plane under one sky. Lunar eclipses always put a round shadow on the Moon, from every country that can see them. Eratosthenes got the Earth's circumference to within a few percent around 240 BC using two sticks and the distance between two Egyptian cities.\n\nOn the faked photos: the images come from NASA, Roscosmos, ESA, CNSA, ISRO, and a growing number of private companies in countries that compete with and spy on each other. Amateurs have tracked the ISS with backyard telescopes and resolved its solar panels. A conspiracy that holds that many rivals together for seventy years is a bigger claim than the one it's meant to replace.\n\nIf there's a specific observation that convinced you, I'd genuinely like to hear which one. That's more useful to argue about than the photos.\n\n## 3\n\nSunlight looks white, but it's really all the colours mixed together. A prism splits it apart and you see them.\n\nNow, air isn't empty. It's packed with nitrogen and oxygen molecules, and when light runs into something much smaller than its own wavelength, it doesn't pass straight through. It gets scattered, flung off in all directions. The catch is that the amount of scattering depends sharply on the colour. Blue and violet light have short wavelengths and get scattered far more than red light, roughly sixteen times more. (This is called Rayleigh scattering, if you want the proper name.)\n\nSo on a clear day, red and yellow light mostly travel straight from the Sun to your eye, while blue light gets bounced around the sky and arrives at you from every direction at once. You look up at a random empty patch of sky and see blue, because that patch is glowing with scattered blue light.\n\nTwo things that fall out of this and are worth checking yourself:\n\nViolet scatters even more than blue, so why isn't the sky violet? Partly because the Sun puts out less violet to begin with, and partly because your eyes have far fewer violet-sensitive cones. The sky's actual mix of colours hits your eye and your brain calls it blue.\n\nAnd sunsets. When the Sun is low, its light takes a long slanted path through the atmosphere, so nearly all the blue is scattered away before it reaches you. What's left is red and orange. The same physics gives you a blue noon and a red evening.\n\n## 4\n\n雨是傍晚开始下的，起初很轻，像有人在屋顶上撒米。后来就密了，连成一片细碎的声响，把整条巷子裹了进去。\n\n路灯亮着，昏黄的一圈光里，雨丝斜斜地划过，落在积水的青石板上，碎成一地跳动的光点。偶尔有自行车经过，车轮划开水面，哗的一声，又很快被雨声吞掉。\n\n对面楼里还有两三户没熄灯，窗玻璃上糊着一层水汽，人影在里面晃动，模糊得像隔了很多年。我站在屋檐下，不急着走。雨这样下着，好像把时间也泡软了，什么事都可以慢一点再说。\n\n## 5\n\nSubject: Friday drinks\n\nHi Maya,\n\nThanks for the invite. I can't make Friday, I'm afraid. I hope it's a good one.\n\nDo let me know if something comes up another week. I'd like to join when I can.\n\nBest,\nSam\n\n## 6\n\nPlain and direct, aiming to say the thing clearly enough that it doesn't need saying twice.",
+ "reasoning_chars": 327,
+ "usage": {
+  "input_tokens": 273,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1592,
+  "service_tier": "standard",
+  "prompt_tokens": 273,
+  "completion_tokens": 1592,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 523
+  },
+  "contextUsagePercentage": 0.39719998836517334
+ },
+ "ttft": 6.786286750000727,
+ "ttft_content": 6.806805708001775,
+ "duration": 30.536206208002113,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_sckkcnzrjiajuyr6u3pnocujxiwcv5f5f54y5dc4m7mle6ll25jl",
+ "resp_model": "claude-opus-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:10:20 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141610145646724928268d9d6KOpi55Ju",
+  "x-request-id": "1794672614542407997da8ed05d7b944bae"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672614.2467241,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-5",
+  "route": "ppapi_msg",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 3
+ }
+}

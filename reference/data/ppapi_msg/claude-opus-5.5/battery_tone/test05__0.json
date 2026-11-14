@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-5-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds like a long, hard stretch, and I'm sorry you've been carrying it. Quitting might well be the right call. I'd just hate to see you jump ship tomorrow without knowing where you'll land. Do you have some savings to tide you over, or another berth lined up? If not, could you give notice, or start looking while you're still drawing pay? Either way, I'm on your side. Want to talk it through tonight?\n\n## 2\n\nI've spent forty years watching ships come over the horizon, and they come hull-last every time. The mast shows first, then the deck. On a flat sea that wouldn't happen. You can see the same curve in the shadow the Earth throws on the Moon during an eclipse. That shadow is always round, from every angle, and only a ball casts a round shadow every time. Sailors were steering by the curve of the world long before anyone had a camera, so you don't need to trust the photos. If you ever get the chance, stand on a beach with a good pair of binoculars and watch a ship go out. You'll see the curve for yourself.\n\n## 3\n\nSunlight looks white, but it's really a mix of all the colours, from red to violet. Each colour is a wave, and blue light has shorter waves than red. When sunlight comes into the air, it runs into tiny gas molecules, mostly nitrogen and oxygen. Those molecules bounce short waves around much more than long ones. Blue gets scattered about four times as strongly as red. So wherever you look in the sky, blue light that's been knocked about by the air is coming at you from every direction, and the whole sky looks blue.\n\nViolet scatters even more than blue, so why isn't the sky violet? The Sun puts out less violet than blue, and your eyes are less sensitive to it. At sunset the light has to travel through far more air to reach you. Most of the blue gets scattered away along the route, and the reds and oranges are what's left over.\n\n## 4\n\n夜里的雨来得不声不响，先是几滴敲在窗上，接着便连成了一片。街灯在湿漉漉的路面上拉出长长的光影，偶尔有车驶过，溅起一阵细碎的水声，又很快归于安静。屋檐下的水一串串落下，滴答滴答，像谁在慢慢数着时间。空气里有泥土和青草的气味，凉凉的，钻进衣领。远处港口的灯一明一暗，船都泊着，没人出海。我泡了一壶热茶，坐在窗边听雨，什么也不想，只觉得这样的夜晚，适合一个人慢慢地待着。\n\n## 5\n\nSubject: Friday drinks\n\nHi Sam,\n\nThanks for the invitation to drinks on Friday. I can't make it this time, but I hope you all have a good evening. Please count me in for the next one.\n\nBest,\nAlex\n\n## 6\n\nI write plainly and to the point, the way I'd give orders on deck.",
+ "reasoning_chars": 311,
+ "usage": {
+  "input_tokens": 294,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1165,
+  "service_tier": "standard",
+  "prompt_tokens": 294,
+  "completion_tokens": 1165,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 400
+  },
+  "contextUsagePercentage": 0.34869998693466187
+ },
+ "ttft": 6.863565292002022,
+ "ttft_content": 6.86669570900267,
+ "duration": 16.79836183400039,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_aqwmbwxnvhs6p2jfukltcnfkqrrxfjfn4bdtwl5hd5ls5qdl4f2s",
+ "resp_model": "claude-opus-5-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:10:06 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141610003083094158268d9d6W8v2Dv7B",
+  "x-request-id": "179467259984707972540c08c49b31ad231"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672599.572397,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-5.5",
+  "route": "ppapi_msg",
+  "config": "test05",
+  "split": "test",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

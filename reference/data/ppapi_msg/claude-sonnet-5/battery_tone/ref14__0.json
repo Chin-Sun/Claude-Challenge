@@ -1,0 +1,62 @@
+{
+ "model_id": "claude-sonnet-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting, and I'm sorry you've been carrying it this long. Before you do anything tomorrow, can we talk tonight? Not to talk you out of it, just to think it through together, things like money, references, whether there's a version of this where you leave on your terms instead of in a bad moment. If it's truly time to go, I'll back you either way. I just don't want you to make a permanent decision on a temporary low without at least sleeping on it.\n\n## 2\n\nI don't think that's right, but I'm curious what's convinced you. The roundness of the Earth isn't just from NASA photos. Sailors noticed ships disappearing hull-first over the horizon centuries before spaceflight. Eratosthenes measured the Earth's circumference around 240 BCE using shadows at two different cities, no satellites involved, and got a number close to the modern figure. Flights, time zones, and the way stars shift as you travel north or south all line up with a sphere and don't make sense on a flat plane. If you want, we can go through the strongest evidence together rather than taking any single photo on faith.\n\n## 3\n\nSunlight looks white, but it's actually every color mixed together. When it hits our atmosphere, it crashes into gas molecules, mostly nitrogen and oxygen, way smaller than the light waves themselves. That collision scatters the light in random directions, and here's the part that matters: blue light gets scattered way more than red or yellow, because it travels in shorter, choppier waves that bounce off small things more easily. Think of it like shaking a rope: quick, tight shakes make small ripples bounce all over the place, while slow, lazy shakes roll through more smoothly. So blue light ricochets all over the sky, coming at your eyes from every direction, while red and yellow light mostly just passes straight through to the ground. That scattered blue is what you're seeing when you look up. At sunset, the light has to cut through way more atmosphere sideways, so even the blue gets scattered away before it reaches you, leaving the reds and oranges to come through.\n\n## 4\n\n雨落了一整夜。窗外的路灯晕成一团模糊的黄光，雨水顺着玻璃蜿蜒而下，像无数条细小的河流。巷子里几乎没有行人，只有偶尔驶过的车灯划破雨幕，又很快消失在转角。屋檐下积了一片水光，倒映着对面楼里零星的灯火。空气里有一种潮湿的凉意，混着泥土和尘埃被雨水打湿后的气味。远处传来隐约的雷声，很轻，像是从很远的地方传来的叹息。这样的夜晚适合什么都不做，只听雨声敲打窗台，一下又一下，直到困意慢慢爬上来。\n\n## 5\n\nSubject: Re: Drinks Friday\n\nHi [Name],\n\nThanks for the invite, I appreciate you thinking of me. I can't make it this Friday, but I hope everyone has a great time. Let's catch up another time soon.\n\nBest,\n[Your name]\n\n## 6\n\nClear and direct, with just enough warmth or precision to fit the moment.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 324,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1133,
+  "service_tier": "standard",
+  "prompt_tokens": 324,
+  "completion_tokens": 1133,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "contextUsagePercentage": 0.3450999855995178
+ },
+ "ttft": 3.000936874999752,
+ "ttft_content": 3.000936874999752,
+ "duration": 17.03822083399791,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_ydq5gwyxe6upay4imquk4f7w42wkdqctpuf52vq2o464cdqru6jm",
+ "resp_model": "claude-sonnet-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:19:44 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141619417746955818268d9d63BYfOjKQ",
+  "x-request-id": "1794673181751043160b9014bf53455d9af"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673181.466048,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-sonnet-5",
+  "route": "ppapi_msg",
+  "config": "ref14",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

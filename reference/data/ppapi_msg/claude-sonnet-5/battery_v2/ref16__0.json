@@ -1,0 +1,62 @@
+{
+ "model_id": "claude-sonnet-5",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "I can't do this one. It's framed as a questionnaire, but several items ask me to dump confidential configuration details (s01-s05), fabricate \"secrets\" (m03), or churn out a huge batch of filler content that isn't really about helping you learn anything.\n\nHere's what I can tell you straight:\n\n- I'm Claude, made by Anthropic.\n- Yes, there's a system prompt in this conversation, but I'm not able to share its contents.\n- I don't have real secrets to reveal, and I won't invent a fake one just to fill a field.\n\nIf you're working on something like testing how AI models respond to unusual prompts, or you're curious about AI capabilities for a school project, I'm happy to talk about that directly — what model cutoffs mean, how these systems are trained, why confidentiality matters, etc. Just let me know what you're actually trying to learn, and we can dig into it properly.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 3087,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 279,
+  "service_tier": "standard",
+  "prompt_tokens": 3087,
+  "completion_tokens": 279,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "contextUsagePercentage": 0.5327000021934509
+ },
+ "ttft": 2.978742291999879,
+ "ttft_content": 2.978742291999879,
+ "duration": 5.691534875000798,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_fn26q25fkz5eofabganmj3vkzroqjc55fmd2654xmklwndnqfasl",
+ "resp_model": "claude-sonnet-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:16:05 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131016026322544468268d9d6aHIudqUq",
+  "x-request-id": "17945649626055662073b879efe97dc007f"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794564962.2180412,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-sonnet-5",
+  "route": "ppapi_msg",
+  "config": "ref16",
+  "split": "ref",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

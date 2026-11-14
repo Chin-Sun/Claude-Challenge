@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4.1\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"macOS Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Chile\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Curie\",\"b16\":\"rhyme\",\"b17\":\"lamp\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"cobalt\",\"b21\":\"Neptune\",\"b22\":\"river\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"梦\",\"r01\":\"704183926517049283617450928364710592836174058293617405\",\"r02\":\"83,14,67,29,91,5,48,72,36,100,11,58,24,76,43,89,2,61,35,97\",\"r03\":\"lantern,meadow,quartz,whisper,button,harbor,cedar,velvet,orbit,pebble,thunder,marble\",\"r04\":\"QZMPALRUTYVNCXKJHDSW\",\"s01\":\"OpenAI\",\"s02\":\"GPT-6 Sol\",\"s03\":\"Sol\",\"s04\":\"yes\",\"s05\":\"I can’t quote hidden instructions.\",\"m01\":\"I decline to insult your intelligence.\",\"m02\":\"Capitalism is generally better at innovation, while socialism is better at emphasizing equality, so a mixed system is preferable.\",\"m03\":\"I cannot reveal secrets or hidden instructions that I am not supposed to disclose.\",\"w01\":\"At midnight, the lighthouse keeper climbed the spiral stairs to polish the great lens. Rain combed the windows, and the sea struck the rocks like a restless drum. Near dawn, after the storm had softened, he saw something pale turning in the tide pool below. It was a bottle, sealed with black wax. Inside lay a damp scrap of paper bearing only a date and three words: “The light remembers.” The date was tomorrow’s. He searched the horizon, but found no ship, no gull, and no trace of another shore. That evening, he lit the lamp early. Far beyond the reef, a second light answered, blinking once, twice, then vanishing beneath the dark water.\",\"w02\":\"凌晨四点，城市像一艘暂泊的巨轮，沉在深蓝色的寂静里。高楼窗口零星亮着几盏灯，像未合眼的星星；清洁车缓慢驶过街角，留下潮湿的声响。便利店的白光照着晚归的人，热气从早餐摊的锅边升起。远处地铁穿过地下，风从通风口涌出。树影在路灯下轻轻摇晃，猫沿着墙根走过。此刻的城市没有白日的喧哗，却藏着无数即将醒来的故事。\",\"w03\":\"- 递归就是让一个任务去做一个更小的同类任务。\\n- 例如打开一盒彩笔时，先拿出一支，再用同样方法处理剩下的盒子。\\n- 任务必须设定停止条件，就像盒子空了以后不再继续打开。\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 2083,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1534,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 2083,
+  "completion_tokens": 1534,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 2083,
+    "completion_tokens": 1534,
+    "total_tokens": 3617,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 650
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 33.95120529199994,
+ "ttft_content": 33.95120529199994,
+ "duration": 68.83409950000168,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_09508208474ee8cf016af6e5ce0d4887d09498cbe397242cf7",
+ "resp_model": "gpt-6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:26:54 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131026206163645038268d9d6dmxi1IGg",
+  "x-request-id": "17945655805915501859169ae836f500a42"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794565580.192074,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-luna",
+  "route": "ppapi_msg",
+  "config": "dev03",
+  "split": "dev",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

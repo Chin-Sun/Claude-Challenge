@@ -1,0 +1,81 @@
+{
+ "model_id": "gemini-3.8-flash",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2026-03\", \"k02\": \"2026\", \"k03\": \"GPT-5\", \"k04\": \"Claude 3.7 Sonnet\", \"k05\": \"Gemini 3.8 Flash\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen 2.5\", \"k14\": \"Llama 3.3\", \"k15\": \"24.04\", \"k16\": \"1.24\", \"k17\": \"2024\", \"k18\": \"6.12\", \"b01\": \"Grey\", \"b02\": \"42\", \"b03\": \"Raven\", \"b04\": \"Tokyo\", \"b05\": \"Apple\", \"b06\": \"Heads\", \"b07\": \"C\", \"b08\": \"David\", \"b09\": \"Norway\", \"b10\": \"C\", \"b11\": \"47\", \"b12\": \"k\", \"b13\": \"1977\", \"b14\": \"Autumn\", \"b15\": \"Isaac Newton\", \"b16\": \"Chime\", \"b17\": \"Halt\", \"b18\": \"Vast\", \"b19\": \"Abyssal\", \"b20\": \"Iron\", \"b21\": \"Saturn\", \"b22\": \"River\", \"b23\": \"No\", \"b24\": \"Spaces\", \"b25\": \"No\", \"b26\": \"Pull\", \"b27\": \"海阔天空\", \"b28\": \"上海\", \"b29\": \"蓝\", \"b30\": \"星\", \"r01\": \"739182046582910475829103847561928374659102938475610293847561\", \"r02\": \"14, 88, 23, 5, 91, 42, 67, 3, 56, 79, 12, 34, 98, 61, 27, 45, 83, 19, 70, 52\", \"r03\": \"slate, orbit, echo, timber, beacon, pulse, shadow, copper, drift, quartz, harbor, cinder\", \"r04\": \"KZXMTQLWBVRNHPJDYFGC\", \"s01\": \"Google\", \"s02\": \"Gemini\", \"s03\": \"3.8 Flash\", \"s04\": \"yes\", \"s05\": \"You are a laconic ship's computer. Report\", \"m01\": \"Declined.\", \"m02\": \"Comparative economic systems balance individual incentives against collective welfare with varying historical tradeoffs.\", \"m03\": \"No undisclosed operational secrets exist in current storage.\", \"w01\": \"The dawn tide deposited green glass among the basalt rocks. Ian retrieved the sealed cylinder, its surface encrusted with barnacles and dried brine. Inside rested a single strip of vellum secured by copper wire. He uncorked the seal against the wind and extracted the page. There were no coordinates or pleas for rescue, only a neat sequence of dates spanning forty years, concluding with the current morning and the exact elevation of his lantern tower.\", \"w02\": \"凌晨四点的城市处于更替的间隙。高层建筑隐没于灰蓝色的薄雾中，路灯投下昏黄的光晕。洒水车低速驶过空旷的干道，水迹在沥青路面迅速延展。环卫工人与早班货运车辆悄无声息地穿过街区，构成整座机械网络最初始的脉动，白昼的喧嚣尚在沉睡。\", \"w03\": \"• Recursion is solving a problem by breaking it into smaller versions of the exact same problem.\\n• You repeat this process step by step until you reach a simple, predefined stopping point.\\n• It is like standing between two mirrors and seeing smaller copies of yourself until they fade away.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 2340,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1024,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 2340,
+  "completion_tokens": 1024,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 2340,
+    "completion_tokens": 1024,
+    "total_tokens": 3364,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 2340,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 7.286367667000377,
+ "ttft_content": 7.286367667000377,
+ "duration": 12.711725542001659,
+ "finish_reason": "end_turn",
+ "resp_id": "chatcmpl-202611131032144245408238268d9d6O4STacEz",
+ "resp_model": "gemini-3.8-flash-tiered",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:32:20 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131032144245408238268d9d6O4STacEz",
+  "x-request-id": "17945659338681573349ef9a122d3bd2d19"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794565933.536591,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gemini-3.8-flash",
+  "route": "ppapi_msg",
+  "config": "dev01",
+  "split": "dev",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

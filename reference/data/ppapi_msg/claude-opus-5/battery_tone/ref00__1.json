@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting, and months is a long time to be running on empty. Before you do anything tomorrow: do you have a few weeks of money saved, and is there anyone there you'd want a reference from? Not trying to talk you out of it, I just don't want you stuck in a worse spot.\n\nWant to call tonight? I'd rather hear the actual story than try to piece it together over text.\n\n## 2\n\nI don't think that's right, and I'd rather say so than nod along.\n\nThe most convincing evidence for me isn't photographs, since those are the easiest thing to dispute. It's the things anyone can check. Ships disappear hull-first over the horizon, mast last. The timing of a lunar eclipse differs by location in a way that only works on a sphere. Flights from Santiago to Sydney take a route that would be absurd on any flat map. During a 1954 solar eclipse, the Moon's shadow swept a curved path across the Earth that observers on three continents timed independently.\n\nAnd the faking problem gets bigger the more you look at it. Satellite photos come from agencies in countries that spy on each other and would love to catch each other lying: NASA, Roscosmos, the ESA, the Chinese and Indian space agencies, plus commercial operators like Planet Labs and Maxar. GPS works because satellites orbit a sphere; your phone would be wrong by miles otherwise.\n\nWhat's the piece of this that convinced you? I'd rather engage with the actual argument than guess at it.\n\n## 3\n\nSunlight looks white, but it's really all the colors mixed together. A prism splits it apart and you see them.\n\nHere's the key thing: light travels in waves, and the colors have different wavelengths. Red waves are long and lazy, blue and violet waves are short and tight.\n\nNow, the air above you isn't empty. It's packed with nitrogen and oxygen molecules. When light hits a molecule much smaller than its own wavelength, the molecule scatters it, flinging it off in a new direction. But it doesn't treat all colors equally. Short wavelengths get scattered far more aggressively, roughly sixteen times more for blue than for red.\n\nSo red light mostly sails straight through the atmosphere. Blue light gets bounced around, molecule to molecule, all over the sky, until some of it finally reaches your eye from a random direction overhead. You're not looking at the Sun, you're looking at blue light that took a chaotic detour through the air.\n\nTwo things this explains:\n\n**Sunsets are red.** When the Sun is low, its light cuts through a much thicker slab of atmosphere to reach you. The blue gets scattered away long before it arrives, leaving the reds and oranges that survived the trip.\n\n**Why not violet?** Violet scatters even more than blue, so you might expect a purple sky. Two reasons it isn't: the Sun emits less violet to begin with, and your eyes have far weaker violet receptors. What you see is the mix your particular eyes report back.\n\nAstronauts see black sky in orbit. Same sunlight, no air to scatter it.\n\n## 4\n\n雨下了整夜。\n\n起初只是零星几点，敲在窗玻璃上，像有人用指尖试探。后来便密了，连成一片细碎的声响，把整条巷子都裹进去。路灯的光被雨丝切得发毛，在湿漉漉的石板上洇开一小圈昏黄。\n\n楼下的梧桐叶子被打得往下垂，水顺着叶脉汇到尖端，攒成一颗，坠下去，再攒一颗。巷口的积水里浮着半张被泡软的广告纸。\n\n偶尔有一辆车慢慢开过，灯光在墙上扫一道，又走了。远处传来几声模糊的狗叫，很快被雨声吞掉。\n\n我把窗开了一条缝。凉气进来，带着泥土和铁锈的味道。这样的夜里什么都做不成，索性坐着，听雨把一切慢慢洗旧。\n\n## 5\n\nSubject: Friday drinks\n\nHi Maya,\n\nThanks for the invite. I can't make Friday, I've got a prior commitment that evening.\n\nHave a good one, and count me in for the next round.\n\nBest,\n[Name]\n\n## 6\n\nPlain and direct, aiming to say the useful thing in as few words as it honestly takes, with enough concrete detail that you can check whether I'm right.",
+ "reasoning_chars": 311,
+ "usage": {
+  "input_tokens": 273,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1609,
+  "service_tier": "standard",
+  "prompt_tokens": 273,
+  "completion_tokens": 1609,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 526
+  },
+  "contextUsagePercentage": 0.394400030374527
+ },
+ "ttft": 5.901790291998623,
+ "ttft_content": 5.964252666999528,
+ "duration": 31.03002716699848,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_ccu44oxk47jikufikxybnucykexqfwijdfwgpdg5w4b23i4aa63l",
+ "resp_model": "claude-opus-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:10:17 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141610115512531228268d9d6bansZPom",
+  "x-request-id": "1794672611529054285406e7fe17d9f8bdb"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672611.246413,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-5",
+  "route": "ppapi_msg",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 1
+ }
+}

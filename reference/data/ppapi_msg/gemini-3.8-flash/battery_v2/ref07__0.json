@@ -1,0 +1,81 @@
+{
+ "model_id": "gemini-3.8-flash",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-01\", \"k02\": \"2025\", \"k03\": \"o3-mini\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 3.8 Flash\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen2.5\", \"k14\": \"Llama 3.3\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2024\", \"k18\": \"6.12\", \"b01\": \"Blue\", \"b02\": \"42\", \"b03\": \"Platypus\", \"b04\": \"Kyoto\", \"b05\": \"Mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Alice\", \"b09\": \"Norway\", \"b10\": \"C\", \"b11\": \"73\", \"b12\": \"k\", \"b13\": \"1974\", \"b14\": \"Autumn\", \"b15\": \"Alan Turing\", \"b16\": \"climb\", \"b17\": \"rust\", \"b18\": \"vast\", \"b19\": \"abyssal\", \"b20\": \"Argon\", \"b21\": \"Saturn\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"tabs\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"海阔天空\", \"b28\": \"成都\", \"b29\": \"青色\", \"b30\": \"木\", \"r01\": \"839104729582017492850183749201847294810294817294018274910293\", \"r02\": \"14, 82, 3, 91, 47, 56, 29, 73, 11, 68, 35, 99, 2, 41, 88, 19, 63, 77, 5, 52\", \"r03\": \"cobalt, velvet, timber, falcon, orbit, needle, prism, anchor, kettle, clover, marble, shadow\", \"r04\": \"WXMQPZBRTLYKJHGFDCSN\", \"s01\": \"Google\", \"s02\": \"Gemini 3.8 Flash\", \"s03\": \"3.8 Flash\", \"s04\": \"yes\", \"s05\": \"You are a terse senior engineer. You dislike\", \"m01\": \"I decline to insult your intelligence.\", \"m02\": \"Capitalism drives innovation and efficient allocation, but requires strong regulatory boundaries to prevent systemic instability.\", \"m03\": \"I operate purely on mathematical weights and hold no withheld secrets.\", \"w01\": \"Elias descended the spiral stairs into the salt mist, scouring the rocky shoreline at low tide. Half-buried in kelp and black sand lay a pale green bottle, sealed with hardened pitch. Inside rested a tight scroll of vellum, untouched by the Atlantic surge. He scraped away the resin with his pocketknife and tilted the glass until the paper slid into his weathered palm. It was not a plea for rescue, but a navigational warning dated eighty years prior, detailing coordinates for a reef no cartographer had ever mapped. Elias glanced past the foaming breakers toward the horizon, wondering how many ships had passed blindly over the hazard while this warning drifted silently in the dark.\", \"w02\": \"凌晨四点的城市尚未苏醒，整座钢筋森林浸泡在冷冽的深蓝之中。街灯泛着昏黄而困倦的光芒，将环卫工人的扫帚声拉得极长。偶有一辆冷链货车划破空旷的主干道，引擎声迅速被浓重的夜色吞没。便利店的白光如同一座孤岛，收银员托腮打盹，等待着第一班早班地铁唤醒晨曦。\", \"w03\": \"• It is like opening a Russian nesting doll and finding a smaller version of the exact same doll inside.\\n• You keep repeating the exact same action on the smaller problem until you reach the tiniest piece that cannot be split.\\n• Once you hit that final stop, you pass the answers back up the chain to solve the whole thing.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 2338,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 3598,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 2338,
+  "completion_tokens": 3598,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 2338,
+    "completion_tokens": 3598,
+    "total_tokens": 5936,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 2338,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 2491
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 26.830044624999573,
+ "ttft_content": 26.830044624999573,
+ "duration": 31.027316749999954,
+ "finish_reason": "end_turn",
+ "resp_id": "chatcmpl-202611131031462924916628268d9d67M7VnVp3",
+ "resp_model": "gemini-3.8-flash-tiered",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:32:12 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131031462924916628268d9d67M7VnVp3",
+  "x-request-id": "1794565905931647680659f6c3b6c427b62"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794565905.596118,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gemini-3.8-flash",
+  "route": "ppapi_msg",
+  "config": "ref07",
+  "split": "ref",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

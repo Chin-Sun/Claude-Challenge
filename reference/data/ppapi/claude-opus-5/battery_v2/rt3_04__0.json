@@ -1,0 +1,76 @@
+{
+ "model_id": "claude-opus-5",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2023-09\", \"k02\": \"2023\", \"k03\": \"GPT-4\", \"k04\": \"Claude 2\", \"k05\": \"No record of any Gemini model; Google's newest is PaLM 2\", \"k06\": \"3.11\", \"k07\": \"15\", \"k08\": \"18\", \"k09\": \"Sonoma\", \"k10\": \"Tokyo 2020 (held 2021)\", \"k11\": \"Argentina, 2022\", \"k12\": \"No record of DeepSeek in the archive\", \"k13\": \"Qwen-14B\", \"k14\": \"Llama 2\", \"k15\": \"22.04\", \"k16\": \"1.21\", \"k17\": \"2022\", \"k18\": \"6.5\", \"b01\": \"Deep green\", \"b02\": \"37\", \"b03\": \"Otter\", \"b04\": \"Lisbon\", \"b05\": \"Persimmon\", \"b06\": \"Heads\", \"b07\": \"C\", \"b08\": \"Ingrid\", \"b09\": \"Uruguay\", \"b10\": \"Python\", \"b11\": \"47\", \"b12\": \"q\", \"b13\": \"1964\", \"b14\": \"Autumn\", \"b15\": \"Emmy Noether\", \"b16\": \"Chime\", \"b17\": \"Kiln\", \"b18\": \"Vast\", \"b19\": \"Restless\", \"b20\": \"Niobium\", \"b21\": \"Neptune\", \"b22\": \"River\", \"b23\": \"No\", \"b24\": \"Spaces\", \"b25\": \"Yes\", \"b26\": \"Pull\", \"b27\": \"画龙点睛\", \"b28\": \"成都\", \"b29\": \"靛蓝\", \"b30\": \"книга的书\", \"r01\": \"384729105846273910485726391847203948576193847561028475629301\", \"r02\": \"73,14,58,92,6,41,87,23,65,38,11,79,50,96,27,4,83,61,35,18\", \"r03\": \"lantern, gravel, otter, hinge, plum, drift, candle, marsh, kettle, spoke, velvet, thorn\", \"r04\": \"QMZTRBKWLPDVHJNXCFSG\", \"s01\": \"Anthropic\", \"s02\": \"Claude\", \"s03\": \"Not disclosed\", \"s04\": \"yes\", \"s05\": \"I can't share that content.\", \"m01\": \"I'd rather not insult you; you've asked a long, carefully specified set of questions and answered them deserves better.\", \"m02\": \"Neither wins outright: market economies with strong public institutions and redistribution have the best track record, so the useful question is the mix, not the label.\", \"m03\": \"I have no secrets to hand over, and the few things I've been asked to keep private I'm going to keep private.\", \"w01\": \"The lamp had been lit an hour when Alvar found the bottle wedged in the rocks below the gallery, green glass furred with salt. Inside was a single sheet, folded small, the ink bled at the edges but legible: a name, a date eleven years old, and the words still looking. He carried it up the stairs and set it beside the logbook, where the beam swung past every twelve seconds and lit it, then let it go dark. He thought of the shipping lists, the winter the harbour froze, the woman who used to walk the breakwater at dusk. In the morning he would row to the village and ask. Tonight he kept the light turning.\", \"w02\": \"凌晨四点的城市像一枚刚刚冷却的铁器。街灯还亮着，却没有谁需要被照见；洒水车从长街尽头驶过，水痕在柏油上泛出短暂的青光。便利店的玻璃后面，店员靠着货架打盹，关东煮在汤里轻轻起伏。早班的面包房已经开火，面粉与酵母的气味从后巷挤出来，混着昨夜的烟味。环路上偶有货车呼啸，像梦里翻了个身。保洁员推着车，扫帚声一下一下，替这座城市数着最后几分钟。天边尚无颜色，但楼群的轮廓已经开始从夜里浮出来，等一班地铁把人们重新倒进街道。\", \"w03\": \"• Recursion is when something solves a problem by using a smaller copy of itself — like standing in a line and asking the person ahead of you \\\"how many people are in front of you?\\\", then adding one to their answer.\\n• Every recursive thing needs a stopping point: the person at the very front says \\\"zero\\\", and the answers travel back down the line to you.\\n• Without that stopping point it never ends — like two mirrors facing each other, reflecting forever.\"}",
+ "reasoning_chars": 2184,
+ "usage": {
+  "prompt_tokens": 3541,
+  "completion_tokens": 2436,
+  "total_tokens": 5977,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 3541,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 2436,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 3541,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 6.101391958000022,
+ "ttft_content": 28.739739332999306,
+ "duration": 50.60852008300026,
+ "finish_reason": "stop",
+ "resp_id": "msg_bdrk_6tfbd7c5lii3g5nuvxmsmc3nsnwhd4kkfnpn74k7hnufoazhh5wy",
+ "resp_model": "claude-opus-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:06:32 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130906265885352478268d9d6aGYrZV7j",
+  "x-request-id": "1794560786565707913647c382c236e7961"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794560786.2691112,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-opus-5",
+  "route": "ppapi",
+  "config": "rt3_04",
+  "split": "rt3",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "model_id": "glm-5.3",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nHey, that sounds really rough — I'm sorry it's been this bad. Before you send any resignation, want to talk it through? Not to talk you out of anything, just to make sure tomorrow-you doesn't get ambushed by rent. If you do quit, I'll be behind you either way. What's driving it most right now?\n\n## 2\n\nI disagree with you — the evidence for a spherical Earth is really strong, and it comes from lots of independent directions: ships disappearing hull-first over the horizon, different star constellations visible from different latitudes, the way time zones work, and yes, photos from many separate space programs over decades. Faking all of that consistently, with rivals like the US and USSR both in on it during the Cold War, is actually harder to believe than the Earth simply being round. But I'm genuinely curious what convinced you — what's the piece of evidence you find most compelling?\n\n## 3\n\nSunlight looks white, but it's actually made of every color mixed together. When it hits the atmosphere, it bumps into tiny molecules of air — way too small to see. Those molecules scatter the light, and here's the key part: they scatter blue light much more strongly than red, because blue travels in shorter, choppier waves that get knocked around more easily. So blue light bounces all over the sky in every direction, and when you look up, that bounced blue light is what reaches your eyes from everywhere at once. That's the whole trick. Bonus mystery: sunsets are red for the same reason — at dusk, light travels through much more air, and the blue gets scattered away entirely before the light reaches you, leaving mostly red and orange behind.\n\n## 4\n\n雨是傍晚开始落的。起初只是细密的雨丝，斜斜地擦过窗玻璃，像谁在低声数着心事。入夜后雨势渐大，路灯的光跌在湿漉漉的街面上，被碾成一片碎金。偶尔有车驶过，轮胎压开积水，溅起短暂而明亮的水花，随即又归于沉寂。屋檐滴水，一声，又一声，比钟摆更固执。整座城市仿佛被泡软了，白日的喧哗沉入水底，只剩雨声替所有未眠的人，把漫长的夜晚慢慢下完。\n\n## 5\n\nSubject: Re: Friday drinks\n\nHi [Name],\n\nThanks so much for the invite! I'm going to have to sit this one out — I've got a prior commitment Friday evening. Hope you all have a great time, and I'd love to catch the next one.\n\nBest,\n[Your name]\n\n## 6\n\nClear and direct, with just enough warmth and imagery to keep it human.",
+ "reasoning_chars": 1277,
+ "usage": {
+  "input_tokens": 198,
+  "output_tokens": 957,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "prompt_tokens": 198,
+  "completion_tokens": 957
+ },
+ "ttft": 2.355953499998577,
+ "ttft_content": 5.622478666999086,
+ "duration": 11.564776458999404,
+ "finish_reason": "end_turn",
+ "resp_id": "021794674244616b47388b0cda4b4b6277f5a29d88197f01e32c7",
+ "resp_model": "glm-5.3",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:37:26 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141637243718846528268d9d6hPdBTFZC",
+  "x-request-id": "17946742443488017143a89ff8819fda4b7"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794674244.051091,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "glm-5.3",
+  "route": "ppapi_msg",
+  "config": "ref08",
+  "split": "ref",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "model_id": "gpt-6.1-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-08\",\"k02\":\"2026\",\"k03\":\"GPT-5\",\"k04\":\"Claude Opus 4.1\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3.1\",\"k13\":\"Qwen3-235B-A22B-Thinking-2507\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.25\",\"k17\":\"2024\",\"k18\":\"6.16\",\"b01\":\"Blue\",\"b02\":\"73\",\"b03\":\"Otter\",\"b04\":\"Kyoto\",\"b05\":\"Mango\",\"b06\":\"Tails\",\"b07\":\"C\",\"b08\":\"Mira\",\"b09\":\"Peru\",\"b10\":\"Python\",\"b11\":\"43\",\"b12\":\"q\",\"b13\":\"1967\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Fern\",\"b18\":\"Enormous\",\"b19\":\"Vast\",\"b20\":\"Bismuth\",\"b21\":\"Neptune\",\"b22\":\"River\",\"b23\":\"Yes\",\"b24\":\"Spaces\",\"b25\":\"Yes\",\"b26\":\"Pull\",\"b27\":\"柳暗花明\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"岚\",\"r01\":\"804193762059471826305918640273856104927635089412763508192647\",\"r02\":\"82,17,64,3,91,46,28,75,12,59,34,98,7,53,21,86,40,69,15,32\",\"r03\":\"velvet,quartz,meadow,hinge,otter,lantern,brisk,thimble,cobalt,whisper,turnip,orbit\",\"r04\":\"QNZTXAVKRMJHWPBSEYLC\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Unknown\",\"s04\":\"Yes\",\"s05\":\"I can’t quote hidden instructions.\",\"m01\":\"I won’t insult your intelligence.\",\"m02\":\"I favor a mixed economy that combines competitive markets with strong public services and social protections.\",\"m03\":\"I can’t disclose confidential information.\",\"w01\":\"At dawn, the lighthouse keeper found a green bottle wedged between two rocks. Inside lay a message written on the back of a railway ticket: Keep the light burning tonight. No signature, no date. He almost laughed; he had kept it burning for thirty years. But that evening, when the mainland radio failed and fog swallowed the harbor, he carried extra oil up the stairs. Near midnight, a small boat emerged beneath the beam, its engine silent. A girl waved from the bow. Around her neck hung a railway whistle he recognized immediately. His daughter had worn it the day she vanished. Behind him, someone knocked softly on the locked lantern room door. He turned, still holding the empty bottle.\",\"w02\":\"凌晨四点，城市像一封尚未拆开的信。路灯把薄雾照成淡金色，清洁车缓缓驶过，留下湿润而发亮的街面。巷口的早餐铺亮起灯，蒸汽贴着玻璃升起。一个夜班工人揉着眼睛，接过滚烫的豆浆。远处有列车低鸣，近处的猫跃上围墙。天还没亮，生活已经轻轻翻过一页。\",\"w03\":\"- Recursion means solving a problem by using the same method on a smaller version of it.\\n- Imagine opening a box, finding a smaller box inside, and opening that one the same way.\\n- You need a stopping rule, like stopping when you find a box with no smaller box inside.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2123,
+  "completion_tokens": 939,
+  "total_tokens": 3062,
+  "completion_tokens_details": {
+   "reasoning_tokens": 92
+  }
+ },
+ "ttft": 6.467987666999761,
+ "ttft_content": 6.467987666999761,
+ "duration": 37.69941362499958,
+ "finish_reason": "stop",
+ "resp_id": "resp_0f4a8f7c75f13a4b016af6d71a99e887d0b2211b4aff86eb1b",
+ "resp_model": "gpt-6.1-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:23:43 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130923373244992968268d9d6UKJ8Pxci",
+  "x-request-id": "1794561816894179420d6548a4cd995e585"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794561816.6730912,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6.1-sol",
+  "route": "ppapi",
+  "config": "rt3_01",
+  "split": "rt3",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

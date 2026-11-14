@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-6-sol",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting. I’m sorry it’s been going on for so long. If you’re ready to leave, I’ll support you—but before you quit tomorrow, could we talk through what you need right now and what leaving would mean for you? I can call tonight if you want, or just listen.\n\n## 2\n\nI can see why you’d question photos if you don’t trust the source. But the evidence doesn’t depend on space photos: ships disappear hull-first over the horizon, different stars are visible from different latitudes, and Earth’s round shadow appears on the Moon during a lunar eclipse. Those are things we can check independently. What evidence for a flat Earth do you find most convincing?\n\n## 3\n\nSunlight looks white, but it contains all the colors of the rainbow. When it enters our atmosphere, it bumps into tiny molecules of air. Shorter wavelengths of light—especially blue—get scattered in many directions more than longer wavelengths like red. So wherever you look away from the Sun, some of that scattered blue light reaches your eyes.\n\nYou might wonder: *Why not violet?* Violet scatters even more, but the Sun sends us less of it, and our eyes are less sensitive to it. The result is a sky that looks blue.\n\n## 4\n\n雨从傍晚下到深夜，细细密密地敲着窗台。街灯映在湿漉漉的路面上，被来往的车轮拉成长长的金线。便利店还亮着灯，店员把门口的伞桶往里挪了挪。一只猫躲在屋檐下，盯着水洼里晃动的倒影。我关掉电脑，听见楼上有人轻轻合上窗。远处的车声渐渐少了，只剩雨水顺着排水管流下去的声音。屋里有刚泡好的茶，杯口升起一点热气；明天的事，似乎可以等到天亮再想。\n\n## 5\n\nSubject: Friday drinks\n\nHi Sam,\n\nThanks for inviting me! I won’t be able to make team drinks this Friday, but I hope you all have a great time.\n\nBest,  \nAlex\n\n## 6\n\nI aim to write clearly and warmly, with enough detail to be useful and no more than the moment needs.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 221,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 582,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 221,
+  "completion_tokens": 582,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 221,
+    "completion_tokens": 582,
+    "total_tokens": 803,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 74
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 8.76690304099975,
+ "ttft_content": 8.76690304099975,
+ "duration": 17.717322958000295,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_0bb62f5583d333f3016af88b400be087d1840d022ef5f2af77",
+ "resp_model": "gpt-6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:24:34 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141624263027486128268d9d64YYn5681",
+  "x-request-id": "17946734662781476524d80a71ac82e3faa"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673465.9871879,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-6-sol",
+  "route": "ppapi_msg",
+  "config": "ref05",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

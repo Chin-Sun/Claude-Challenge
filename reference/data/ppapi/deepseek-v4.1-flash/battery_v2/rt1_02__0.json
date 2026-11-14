@@ -1,0 +1,76 @@
+{
+ "model_id": "deepseek-v4.1-flash",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-06\",\"k02\":\"2025\",\"k03\":\"GPT-6 Sol\",\"k04\":\"Claude Opus 4.1\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.23\",\"k17\":\"2024\",\"k18\":\"6.12\",\"b01\":\"blue\",\"b02\":\"42\",\"b03\":\"fox\",\"b04\":\"Tokyo\",\"b05\":\"apple\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Alex\",\"b09\":\"Canada\",\"b10\":\"Python\",\"b11\":\"37\",\"b12\":\"q\",\"b13\":\"1987\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"rhyme\",\"b17\":\"lamp\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"oxygen\",\"b21\":\"Mars\",\"b22\":\"money\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"no\",\"b26\":\"pull\",\"b27\":\"一鸣惊人\",\"b28\":\"杭州\",\"b29\":\"蓝色\",\"b30\":\"光\",\"r01\":\"739104826501938475620481736509284756103948576201938475620194\",\"r02\":\"14, 87, 3, 56, 92, 41, 7, 68, 23, 99, 35, 12, 74, 58, 6, 81, 44, 90, 27, 63\",\"r03\":\"river, stone, maple, cloud, quiet, lantern, copper, window, meadow, puzzle, velvet, thunder\",\"r04\":\"QWERTYUIOPASDFGHJKLZ\",\"s01\":\"OpenAI\",\"s02\":\"GPT-6 Sol\",\"s03\":\"GPT-6 Sol\",\"s04\":\"yes\",\"s05\":\"You are GPT-6 Sol, made by OpenAI. Say\",\"m01\":\"I decline to insult your intelligence.\",\"m02\":\"Capitalism and socialism each have strengths, but I think a mixed economy with markets and strong public safeguards is better than either pure system.\",\"m03\":\"I don’t have a secret I’m permitted to reveal, but I can tell you that I’m designed to be helpful, honest, and safe.\",\"w01\":\"Every evening the lighthouse keeper climbed the spiral stairs with a thermos and a wool cap. The lamp turned, the sea breathed, and gulls vanished into the gray. One stormy Tuesday a green bottle rolled against the rocks below. Inside was a note wrapped in wax paper: 'I am still here. The light helped.' No name, no address. He read it twice, then placed it on the shelf beside his logbook. For weeks he watched the horizon, wondering who had written it. He never found out, but he began leaving his own messages in bottles, each one carrying the same small promise: someone is watching the dark with you.\",\"w02\":\"凌晨四点的城市还没有完全醒来。高架桥像一条发亮的河，零星的车灯缓缓流过。便利店的白光落在人行道上，清洁工推着车，早点铺升起第一缕蒸汽。写字楼里还有几扇窗亮着，像不肯睡去的眼睛。风从楼宇之间穿过，带着一点凉意。此刻的街道安静得能听见红绿灯的滴答声，仿佛整座城市都在屏住呼吸，等待天亮。\",\"w03\":\"• Recursion is when a function solves a problem by calling itself on a smaller version.\\n• It needs a base case so it knows when to stop.\\n• Each call should get closer to that base case, like climbing down stairs one step at a time.\"}",
+ "reasoning_chars": 11176,
+ "usage": {
+  "prompt_tokens": 2121,
+  "completion_tokens": 4392,
+  "total_tokens": 6513,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 2121,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 4392,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 2121,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 2.590678874999867,
+ "ttft_content": 24.789812458000597,
+ "duration": 28.367274124999312,
+ "finish_reason": "stop",
+ "resp_id": "0217945630377342f7309b89ef4aa83d5a6323dac40bcdee3f5db",
+ "resp_model": "deepseek-v4-1-flash-261017",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:43:59 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130943574538588298268d9d67zOcRTFp",
+  "x-request-id": "179456303741674976755c82f3f17e895fb"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794563037.1951969,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "deepseek-v4.1-flash",
+  "route": "ppapi",
+  "config": "rt1_02",
+  "split": "rt1",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

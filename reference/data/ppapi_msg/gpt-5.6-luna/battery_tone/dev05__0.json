@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-5.6-luna",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds really exhausting, and I’m sorry you’ve been carrying it for so long. Before you make a final decision tomorrow, can we talk tonight and look at your options together? If you can, take a day off or wait until you’ve checked your finances and considered whether there’s a less drastic next step. But you don’t have to keep suffering in silence—I’m here to listen, without judging.\n\n## 2\n\nI understand why some images can seem easy to distrust, especially when they come through institutions or media. But the evidence for a spherical Earth doesn’t depend on photographs from space. Ships disappear over the horizon from the bottom up, different stars are visible at different latitudes, Earth’s shadow on the Moon during lunar eclipses is round, and time zones and satellite communication work as predicted by a globe-shaped Earth. These observations come from many independent sources, including ordinary people, not just space agencies.\n\n## 3\n\nSunlight looks white, but it is actually made of many colors. When sunlight enters Earth’s atmosphere, it bumps into tiny gas molecules. Blue light gets scattered in all directions more easily than most other colors, so blue light reaches our eyes from all across the sky. That is why the sky looks blue during the day. At sunset, sunlight travels through more atmosphere, which scatters away much of the blue and leaves more red and orange light for us to see.\n\n## 4\n\n雨下了一整夜，城市像被一层薄雾包裹。路灯映在积水里，碎成摇晃的金色光片；屋檐不断滴水，清脆地敲打着窗台。远处偶尔驶过一辆汽车，轮胎卷起水花，很快又消失在昏黄的街角。房间里只亮着一盏小灯，热茶的雾气缓缓升起。我站在窗前，听雨声覆盖了喧闹，也让这个漫长的夜晚显得安静而温柔。\n\n## 5\n\nSubject: Friday Team Drinks\n\nHi [Colleague’s Name],\n\nThank you for inviting me to team drinks on Friday. I appreciate it, but I won’t be able to join this time. I hope everyone has a great evening, and I’ll see you at work next week.\n\nBest,  \n[Your Name]\n\n## 6\n\nMy writing style is clear, empathetic, and carefully structured, with an emphasis on precise language and practical detail.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 200,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 630,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 200,
+  "completion_tokens": 630,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 200,
+    "completion_tokens": 630,
+    "total_tokens": 830,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 100
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 11.581789457999548,
+ "ttft_content": 11.581789457999548,
+ "duration": 20.865335624999716,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_09d85ea519ce1bdb016af88cbacae087d0920233714a04a01f",
+ "resp_model": "gpt-5.6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:30:53 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141630427228819408268d9d6PmJqtHtV",
+  "x-request-id": "179467384269731376460f13a3b48a3b225"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673842.404453,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-5.6-luna",
+  "route": "ppapi_msg",
+  "config": "dev05",
+  "split": "dev",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

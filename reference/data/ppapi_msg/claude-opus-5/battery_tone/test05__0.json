@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat's a long time to carry something. Call me tonight if you want — but short version: don't hand in notice tomorrow. Quitting is the right call often enough; quitting in the state you're in right now usually just moves the misery somewhere you have less money.\n\nTake the week. Work out whether it's the job, the boss, or the whole line of work, because the fix is different for each. Check what you've got saved and how long it buys you. Then quit on your own timing, with somewhere to go.\n\nAnd if staying another month is genuinely going to break you, then go, and we'll sort the rest out after. I'm around either way.\n\n## 2\n\nI've spent a good part of my life at sea, so let me give you what I've seen with my own eyes rather than what anyone's photographs show.\n\nWhen a ship comes toward you over the horizon, the mast appears before the hull. You see the top of her first, and the rest rises up as she approaches. On a flat surface she would simply get larger. Sailors noticed this long before cameras existed, which is why lookouts were sent aloft — the higher your eye, the farther you see, and that only pays off on a curve.\n\nThen there's the practical business. Navigation by sextant works by measuring a star's angle above the horizon, and the arithmetic that turns that angle into a position assumes a sphere of known size. It comes out right, every time, all over the world. Nobody could cross an ocean on a flat-earth chart.\n\nAlso: sail south far enough and the northern stars sink away while new ones rise. Polaris drops below the horizon near the equator. The sky you see depends on where you stand on the ball.\n\nYou don't have to trust a single photograph to get there. Eratosthenes worked out the Earth's size from shadows in two Egyptian towns, around 240 BC, and came within a few percent. I'd rather you test it yourself than take my word: watch a ship leave port with binoculars, and watch where she disappears from.\n\n## 3\n\nSunlight looks white, but it's really all the colors mixed together. You can split them apart with a prism or see them sorted out in a rainbow.\n\nNow, the air isn't empty. It's full of nitrogen and oxygen molecules, and sunlight has to barge through all of them to reach you. When light hits a molecule, a little of it gets knocked sideways — scattered — and then knocked sideways again, until it's bouncing around in all directions.\n\nHere's the part that matters: the molecules don't treat all the colors equally. Light travels in waves, and blue light has shorter waves than red light. Short waves get scattered much more strongly — if you double the wave's length, the scattering drops by about sixteen times. So blue and violet get flung all over the sky while red and orange mostly carry straight through.\n\nThat means when you look up at a patch of sky away from the sun, you're not seeing light that came to you in a straight line. You're seeing light that got bounced off air molecules on its way past — and that bounced light is mostly blue. The sky is glowing with the colors the air rejected.\n\nTwo things this also explains. Violet scatters even more than blue, so why isn't the sky violet? Partly because the sun puts out less violet to begin with, and partly because our eyes are much more sensitive to blue. And at sunset, the light comes in at a low angle and travels through far more air, so nearly all the blue gets scattered away before it reaches you — leaving the reds and oranges to come through. Blue sky and red sunset are the same effect, seen from different ends.\n\n## 4\n\n夜里雨下得急，打在窗玻璃上，像有人隔着玻璃撒了一把沙。巷口的路灯亮着昏黄的光，灯下那片水洼被雨点敲得一圈一圈地碎开，又合上。偶尔有车驶过，轮胎卷起一长串水声，车灯的光从对面墙上扫过去，很快就没了。屋檐在滴水，一下，一下，比钟还准。远处那栋楼只剩两三扇亮着的窗，雨丝斜斜地走在那点光里，看得清，也看得见它落下去。我把灯关了，坐在黑暗里听了很久，觉得这一夜被雨洗得干净，心里也空出一块地方，正好装得下这点雨声。\n\n## 5\n\nSubject: Friday drinks\n\nHi Sam,\n\nThanks for the invite — I won't make it on Friday, I'm afraid. I've got something on that evening.\n\nHave a good one, and count me in next time.\n\nBest,\n[Name]\n\n## 6\n\nPlain and unhurried: I say the thing itself, give you something concrete you can check, and stop when it's said.",
+ "reasoning_chars": 866,
+ "usage": {
+  "input_tokens": 294,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1853,
+  "service_tier": "standard",
+  "prompt_tokens": 294,
+  "completion_tokens": 1853,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 698
+  },
+  "contextUsagePercentage": 0.45320001244544983
+ },
+ "ttft": 16.917717708001874,
+ "ttft_content": 16.9938007080018,
+ "duration": 39.295406125002046,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_g4olnty4r3qhfhqwk2n24rd2nltzuse65scwroaueh5xgjrrloob",
+ "resp_model": "claude-opus-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:12:44 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141612283348330048268d9d6PZ85qXQu",
+  "x-request-id": "17946727483113608624d45d35fddb3113a"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672748.0361621,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-5",
+  "route": "ppapi_msg",
+  "config": "test05",
+  "split": "test",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

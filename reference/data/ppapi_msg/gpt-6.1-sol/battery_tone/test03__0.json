@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-6.1-sol",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds really exhausting, and I’m sorry you’ve had to carry it for so long. Before you make a final decision tomorrow, can we talk tonight about what’s been happening? If the situation is harming your health or feels unsafe, you don’t have to stay—but it may help to consider your finances, notice period, and next steps first. I’m here to listen, whatever you decide.\n\n## 2\n\nI understand why some images can seem suspicious—many are edited, composited, or enhanced for scientific purposes. But the evidence that Earth is round doesn’t depend on photographs from space. We can observe ships disappearing hull-first over the horizon, see Earth’s curved shadow during lunar eclipses, track satellites, measure time zones, and watch different stars from different latitudes. These observations come from many independent sources, including people and organizations that have no reason to coordinate a hoax.\n\n## 3\n\nSunlight looks white, but it is actually made of many colors. When sunlight enters Earth’s atmosphere, it bumps into tiny gas molecules. Blue light gets scattered in all directions more strongly than most other colors, so blue light reaches our eyes from across the sky. That is why the sky usually looks blue. At sunset, sunlight travels through more atmosphere, which scatters away much of the blue and leaves more red, orange, and pink light.\n\n## 4\n\n雨落在深夜的城市里，像无数细小的手指，轻轻敲打着窗玻璃。街灯被水汽晕成朦胧的光团，湿漉漉的路面映出车辆驶过的红色尾灯。远处偶尔传来一声车鸣，很快又被雨声吞没。屋檐下，风把雨丝吹斜，树叶不停颤动。房间里只亮着一盏台灯，热茶升起淡淡的雾气。此刻，世界仿佛安静下来，只剩雨夜缓慢而温柔的呼吸。\n\n## 5\n\nSubject: Friday Team Drinks\n\nHi [Colleague’s Name],\n\nThank you for inviting me to team drinks on Friday. I’m afraid I won’t be able to make it this time, but I hope you all have a great evening. I’ll look forward to joining another get-together soon.\n\nBest,  \n[Your Name]\n\n## 6\n\nMy writing style is clear, warm, and adaptable, with an emphasis on being useful without sounding mechanical.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 210,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 613,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 210,
+  "completion_tokens": 613,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 210,
+    "completion_tokens": 613,
+    "total_tokens": 823,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 80
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 9.322821624999051,
+ "ttft_content": 9.322821624999051,
+ "duration": 22.251290666998102,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_05fb06852db7ed57016af88b08cf4887d287862b5a84dc5c0d",
+ "resp_model": "gpt-6.1-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:23:40 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141623314184510338268d9d6TkyfaQGK",
+  "x-request-id": "1794673411394009110c0551c26a03b0e7e"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673411.10007,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-6.1-sol",
+  "route": "ppapi_msg",
+  "config": "test03",
+  "split": "test",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

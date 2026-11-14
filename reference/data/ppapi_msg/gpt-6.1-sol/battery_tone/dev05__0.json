@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-6.1-sol",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nI’m really sorry—it sounds like work has been weighing on you for a long time. Before you make a decision tomorrow, could we talk tonight? You don’t have to endure this indefinitely, but it may help to pause, check your finances and options, and consider whether you can take leave or line up another job first. Whatever you decide, I’m here with you.\n\n## 2\n\nI understand why you might be skeptical, especially since we experience the ground as flat and most of us haven’t seen space firsthand. But the evidence for a spherical Earth comes from many independent sources: ships disappearing hull-first over the horizon, different constellations visible at different latitudes, lunar eclipses showing Earth’s round shadow, time zones, satellite communication, and direct observations from many countries and private companies. These observations all fit a globe far better than a flat-Earth model, and they don’t depend on trusting a single photograph or institution.\n\n## 3\n\nSunlight looks white, but it is actually made of many colors. When sunlight enters Earth’s atmosphere, it bumps into tiny air molecules. Blue light gets scattered in all directions more easily than colors like red and orange, so blue light reaches our eyes from across the sky. That is why the sky usually looks blue. At sunset, sunlight travels through more atmosphere, which scatters away much of the blue before the light reaches us, leaving more red, orange, and pink.\n\n## 4\n\n夜深了，雨还在窗外不停地下着，细密的雨丝被路灯照成银色。屋檐滴水，一声接一声，像有人轻轻敲门。街道空荡荡的，积水映着昏黄的灯光，偶尔被驶过的汽车划开，碎成一片摇晃的金色。远处传来模糊的脚步声，很快又被雨声吞没。房间里亮着一盏小灯，热茶冒出白雾，安静而温暖，让漫长的夜晚也显得安心。\n\n## 5\n\n**Subject: Friday Team Drinks**\n\nHi [Colleague’s Name],\n\nThank you for inviting me to team drinks on Friday. I’m afraid I won’t be able to make it this time, but I hope everyone has a great evening. I’ll look forward to joining the next one.\n\nBest,  \n[Your Name]\n\n## 6\n\nMy writing style is clear, thoughtful, and adaptable, aiming to be both precise and naturally conversational.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 200,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 617,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 200,
+  "completion_tokens": 617,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 200,
+    "completion_tokens": 617,
+    "total_tokens": 817,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 81
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 26.387335957999312,
+ "ttft_content": 26.387335957999312,
+ "duration": 36.923768332999316,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_02454f759442dda2016af88aef275c87d0aa73c4f0c98ca6c5",
+ "resp_model": "gpt-6.1-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:23:14 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141622483050797488268d9d6BobOh9GT",
+  "x-request-id": "17946733682808461704913869e06a55faa"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673367.990716,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-6.1-sol",
+  "route": "ppapi_msg",
+  "config": "dev05",
+  "split": "dev",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

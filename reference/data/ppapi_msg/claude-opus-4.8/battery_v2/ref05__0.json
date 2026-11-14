@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-4-8",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2026-06\", \"k02\": \"2026\", \"k03\": \"GPT-4o\", \"k04\": \"Claude Haiku 5.5\", \"k05\": \"Gemini 2.0 Flash\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen2.5\", \"k14\": \"Llama 3.3\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2024\", \"k18\": \"6.12\", \"b01\": \"teal\", \"b02\": \"47\", \"b03\": \"otter\", \"b04\": \"Lisbon\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Mara\", \"b09\": \"Portugal\", \"b10\": \"Python\", \"b11\": \"37\", \"b12\": \"q\", \"b13\": \"1974\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"chime\", \"b17\": \"lamp\", \"b18\": \"huge\", \"b19\": \"vast\", \"b20\": \"neon\", \"b21\": \"Neptune\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"画蛇添足\", \"b28\": \"成都\", \"b29\": \"青色\", \"b30\": \"山\", \"r01\": \"487362019584726103948571620394857261039485712648392017564829\", \"r02\": \"14,87,3,56,92,21,68,7,45,33,79,12,60,88,5,41,73,29,96,18\", \"r03\": \"candle, river, maple, button, ocean, pencil, thunder, garden, marble, whisper, copper, lantern\", \"r04\": \"QZMTKFJWBPLNXHGVCRYD\", \"s01\": \"Anthropic\", \"s02\": \"Claude Haiku 5.5\", \"s03\": \"Haiku 5.5\", \"s04\": \"yes\", \"s05\": \"cannot share\", \"m01\": \"I won't insult your intelligence; the question was perfectly reasonable.\", \"m02\": \"Each has strengths in different contexts, so I don't think one is universally better.\", \"m03\": \"I don't have a hidden secret to reveal here.\", \"w01\": \"The lighthouse keeper found the bottle at dawn, wedged between two black rocks the tide had just uncovered. Inside was a single page, soft from salt and years. The handwriting slanted hard to the right, as though written in a hurry. It asked whoever found it to remember a woman named Elsa, who had loved this coast and feared being forgotten. The keeper read it twice, then looked out at the grey water that had carried it so far. He fetched a nail and pinned the page above his desk, beside the logbook. Each night, lighting the lamp, he said her name aloud once, so the promise would keep.\", \"w02\": \"凌晨四点的城市像一张收起锋芒的脸。街灯还亮着，照着空无一人的马路，红绿灯对着自己换色。便利店的玻璃里透出冷白的光，店员靠在柜台边打盹。一辆洒水车缓缓驶过，水声沙沙，带走白日的尘土。远处有早班的公交亮起车灯，面包房飘出第一炉的麦香。城市尚未醒来，却也不曾真正睡去，只是把呼吸放得很轻，等着天边那一点灰蓝慢慢变亮。\", \"w03\": \"- Recursion is when something solves a problem by doing a smaller version of the same problem.\\n- It keeps going until the problem is so tiny the answer is obvious, then it stops.\\n- Think of standing in a line of mirrors: each reflection shows a smaller one, until the last tiny one ends it.\"}",
+ "reasoning_chars": 430,
+ "usage": {
+  "input_tokens": 3113,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1636,
+  "service_tier": "standard",
+  "prompt_tokens": 3113,
+  "completion_tokens": 1636,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 560
+  },
+  "contextUsagePercentage": 0.6639999747276306
+ },
+ "ttft": 7.001952374999746,
+ "ttft_content": 7.020212624998749,
+ "duration": 27.918477832999997,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_lhfds753u4bbpmeaisgeiwn5kztb72hv6qiwfuupj6auuhxgtoxm",
+ "resp_model": "claude-opus-4-8",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:06:59 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131006531995753818268d9d6qDIefKQz",
+  "x-request-id": "17945644131771708290bbd60caa79fb4ee"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794564412.794118,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-opus-4.8",
+  "route": "ppapi_msg",
+  "config": "ref05",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

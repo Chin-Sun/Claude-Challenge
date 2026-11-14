@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-6-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.12\",\"k07\":\"15\",\"k08\":\"20\",\"k09\":\"Sonoma\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V2\",\"k13\":\"Qwen2\",\"k14\":\"Llama 3\",\"k15\":\"24.04\",\"k16\":\"1.22\",\"k17\":\"2023\",\"k18\":\"6.9\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Canada\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"rhyme\",\"b17\":\"lamp\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"copper\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"森\",\"r01\":\"583104927641829305716493028517640293851760294813650927184603\",\"r02\":\"8,73,41,96,22,57,14,88,35,67,3,49,81,26,ัง,92,11,64,38,75\",\"r03\":\"lantern,meadow,quartz,willow,pepper,harbor,velvet,acorn,thimble,orbit,candle,marble\",\"r04\":\"QZMTALPWRXKJHGFNVSBD\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are a terse senior engineer. You dislike\",\"m01\":\"I decline to insult the reader's intelligence.\",\"m02\":\"Capitalism is generally better at innovation, while socialism is better at emphasizing universal provision, so neither is categorically superior.\",\"m03\":\"There is no secret I am authorized to reveal.\",\"w01\":\"The storm had battered the coast all night, and by morning the lighthouse windows trembled in their frames. Keeper Elias climbed down to the rocks to gather driftwood. Between two black stones, he found a green bottle sealed with red wax. Inside was a damp scrap of paper bearing only a date and a name: Mara, 1912. Elias searched the harbor records and discovered that Mara had vanished during a winter crossing more than a century ago. That evening, he placed the bottle on the lantern room’s railing. At midnight, a ship appeared beyond the fog, its signal lamp blinking three times. Elias answered. The sea went quiet, and the bottle was gone.\",\"w02\":\"凌晨四点，城市像一艘停泊在雾里的船。高楼窗口零星亮着灯，清洁车缓慢驶过空旷街道，车轮声在楼群间回荡。便利店的白光照着夜班店员，热豆浆升起细小的雾气。远处的桥上，第一班公交车载着沉默的人影，驶向尚未醒来的城区。风掠过树梢，带走雨后的潮意。天边渐渐泛白，霓虹灯一盏盏熄灭，城市在黎明前短暂地屏住呼吸。\",\"w03\":\"- 想象你在打开一个盒子，盒子里又有一个更小的盒子。\\n- 每次都做同样的事，直到盒子小到可以停止。\\n- 这就是递归：重复规则，并在合适的时候结束。\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 2065,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1667,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 2065,
+  "completion_tokens": 1667,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 2065,
+    "completion_tokens": 1667,
+    "total_tokens": 3732,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 801
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 37.01171287500074,
+ "ttft_content": 37.01171287500074,
+ "duration": 71.57438204200116,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_0f4d0e8424172c67016af6e4e12c3087d1b0b7b1528ec1ca03",
+ "resp_model": "gpt-6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:23:00 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131022238318366008268d9d6ItbOITeA",
+  "x-request-id": "17945653438093661832de3b0bf19c38d58"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794565343.4106948,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-sol",
+  "route": "ppapi_msg",
+  "config": "ref07",
+  "split": "ref",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

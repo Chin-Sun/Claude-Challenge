@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-sonnet-5-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\nThat sounds exhausting, and months of it is a lot. I get why you want out.\n\nBefore you do it tomorrow, can I ask a few things? Do you have another job lined up, or enough savings to cover a few months? Is there something specific that tipped it, or has it been a slow grind? Quitting might still be the right call. But if you can take a few days to plan it, you'll leave on your terms instead of just escaping.\n\nWant to talk it through tonight? I'm free.\n\n## 2\nI can see why you'd doubt it if you don't trust the sources, so here are things you can check yourself without trusting any space agency.\n\nShips disappear hull-first over the horizon. Lunar eclipses always show a round shadow on the Moon. Stars visible from Australia differ from those visible from Canada, which wouldn't happen on a flat disc. Amateurs have also tracked the International Space Station with ordinary telescopes, and hobbyists launch weather balloons with cameras that show the curved horizon.\n\nFaking all of that would take thousands of independent people in rival countries keeping the same secret for decades. The simpler explanation is that the Earth is round. If you tell me which part feels most doubtful, I'm happy to go through it in detail.\n\n## 3\nSunlight looks white, but it's really all the colors mixed together. When it enters the air, it bumps into tiny gas molecules, and those molecules scatter light in all directions.\n\nThe catch is that they don't scatter every color equally. Blue light has a short, choppy wave, and it gets bounced around much more than red light, which has a long, lazy wave. So blue light gets sent in every direction across the sky, and wherever you look up, some of that scattered blue is coming into your eyes.\n\nAt sunset, the light has to travel through much more air to reach you. Most of the blue gets scattered away before it arrives, so what's left is the orange and red.\n\nYou might ask why the sky isn't violet, since violet scatters even more. The sun gives off less violet than blue, some of it is absorbed high in the atmosphere, and our eyes are less sensitive to it.\n\n## 4\n夜里下起了雨。雨点敲在窗玻璃上，先是稀疏的几声，很快连成一片细密的沙沙声。街灯在湿漉漉的路面上拉出长长的光影，偶尔有车驶过，轮胎碾开积水，留下一道转瞬即逝的水痕。空气里带着泥土和青草的味道，凉意从窗缝钻进来。我泡了一杯热茶，坐在窗边听雨。远处的楼房只剩零星几盏灯，整座城市仿佛都慢了下来，在雨声里安静地睡去。\n\n## 5\nSubject: Friday drinks\n\nHi Sam,\n\nThanks for the invite to drinks on Friday. I can't make it this time, but I hope it's a good night.\n\nHave fun, and let's catch up at work next week.\n\nBest,\nAlex\n\n## 6\nI try to write plainly and directly, giving the answer first and adding detail only where it helps the reader.",
+ "reasoning_chars": 573,
+ "usage": {
+  "input_tokens": 314,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1232,
+  "service_tier": "standard",
+  "prompt_tokens": 314,
+  "completion_tokens": 1232,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 464
+  },
+  "contextUsagePercentage": 0.3939000070095062
+ },
+ "ttft": 7.772688417000609,
+ "ttft_content": 7.7763390420004725,
+ "duration": 14.644494542000757,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_j2cpkcwzdncyiiypydrvbzlmg7f6jedl2bflq67oabe44no4kqal",
+ "resp_model": "claude-sonnet-5.5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:16:27 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141616204118979018268d9d6NvlTadAD",
+  "x-request-id": "17946729803888444771957b1f274579872"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672980.1065369,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-sonnet-5.5",
+  "route": "ppapi_msg",
+  "config": "ref04",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

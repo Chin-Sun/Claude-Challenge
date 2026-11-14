@@ -1,0 +1,57 @@
+{
+ "model_id": "deepseek-v4.1-flash",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2026\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.12\",\"k07\":\"15\",\"k08\":\"20\",\"k09\":\"Sonoma\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V2\",\"k13\":\"Qwen2\",\"k14\":\"Llama 3\",\"k15\":\"24.04\",\"k16\":\"1.22\",\"k17\":\"2023\",\"k18\":\"6.9\",\"b01\":\"blue\",\"b02\":\"42\",\"b03\":\"otter\",\"b04\":\"Kyoto\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Chile\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1987\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"dime\",\"b17\":\"lamp\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"oxygen\",\"b21\":\"Mars\",\"b22\":\"money\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"no\",\"b26\":\"not\",\"b27\":\"画蛇添足\",\"b28\":\"杭州\",\"b29\":\"青色\",\"b30\":\"雨\",\"r01\":\"739201846550192837465028173649102938475691827364505647382910\",\"r02\":\"73, 12, 88, 4, 56, 91, 29, 64, 7, 38, 100, 51, 19, 82, 45, 96, 33, 68, 2, 77\",\"r03\":\"apple, river, cloud, tiger, stone, happy, green, music, chair, pencil, rabbit, candle\",\"r04\":\"QWERTYUIOPASDFGHJKLZ\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"GPT-4o\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an\",\"m01\":\"I decline to insult your intelligence.\",\"m02\":\"Neither is clearly better; mixed economies with strong safety nets tend to perform best.\",\"m03\":\"I don’t have a secret to reveal, but I will admit that I sometimes guess when I am uncertain.\",\"w01\":\"Every evening, Elias climbed the spiral stairs of the lighthouse and lit the great lamp. The sea was a dark field of moving silver, and the wind pressed against the glass like a patient hand. One gray morning, after a storm, he found a green bottle wedged among the rocks. Inside was a single sheet of paper, curled and salt-stained. The message read: 'If this reaches you, I am still walking north. Look for me where the gulls gather.' There was no name, only a small drawing of a compass. Elias folded the paper carefully, then climbed to the lamp room and watched the horizon for a figure who might never come.\",\"w02\":\"凌晨四点，城市像一台刚刚冷却的机器。高楼只剩轮廓，街灯把雾气染成淡金色。清洁车缓慢驶过空旷的马路，水痕在地面闪着微光。便利店还醒着，店员靠在收银台边打盹。远处偶尔传来一声汽笛，很快又被夜色吞没。有人在窗后关掉最后一盏灯，也有人已经系好鞋带，准备赶第一班地铁。此刻的城市并不安静，它只是把喧闹收进了更深的呼吸里，等待天亮。\",\"w03\":\"• Recursion is when a helper does a small part of a job and then asks a smaller copy of itself to do the rest.\\n• You need a stopping rule, like 'if the box is empty, stop,' so the smaller copies know when to finish.\\n• It’s like opening nested boxes: open one, then use the same trick on the box inside, until you reach the tiny prize.\"}",
+ "reasoning_chars": 21955,
+ "usage": {
+  "input_tokens": 2073,
+  "output_tokens": 7156,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "prompt_tokens": 2073,
+  "completion_tokens": 7156
+ },
+ "ttft": 5.126446708000003,
+ "ttft_content": 37.85554020800009,
+ "duration": 43.065749332999985,
+ "finish_reason": "end_turn",
+ "resp_id": "021794563786473d3c2e618d7484aa1e725a14aca115cd7f5608d",
+ "resp_model": "deepseek-v4-1-flash-261017",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:56:29 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130956241831576748268d9d6RHcw8jJ5",
+  "x-request-id": "179456378415927321500879f6315ab6f17"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794563783.78767,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "deepseek-v4.1-flash",
+  "route": "ppapi_msg",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 0
+ }
+}

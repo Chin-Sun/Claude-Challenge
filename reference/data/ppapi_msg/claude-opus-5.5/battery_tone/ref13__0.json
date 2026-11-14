@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-5-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nOh no, months of that sounds exhausting. I'm sorry. Do you want to talk about what's been going on? I'm not going to tell you to stay. If it's that bad, leaving might be the right call. I'd just hate for you to do it tomorrow and then be stuck stressing about money or references on top of everything. Could you give yourself a week to think it over, or even start looking quietly first? Either way I'm on your side. Want to get a coffee this week and talk it through?\n\n## 2\n\nI can tell you've thought about this, so I'll give you a real answer instead of just saying \"you're wrong.\"\n\nYou don't need NASA photos to check the shape of the Earth. Plenty of evidence is something you can see yourself:\n\n- Ships sailing away from shore disappear from the bottom up, hull first and mast last. On a flat surface they would just shrink until they were too small to see.\n- During a lunar eclipse, the Earth's shadow on the Moon is always round. Only a sphere casts a round shadow from every angle.\n- The stars change as you travel north or south. Polaris sits lower in the sky the closer you get to the equator, and you can't see it at all from Australia.\n- Around 240 BC, Eratosthenes compared shadow lengths in two Egyptian cities at the same time of day. The difference gave him the Earth's circumference, and he was within about 10–15% of the modern figure.\n\nHobbyists also send cameras up on weather balloons for a few hundred dollars, and their footage shows the curve as well. Faking every one of these would take a conspiracy involving sailors, pilots, astronomers and teenagers with balloons, across every country and century. What would it take to change your mind? I'd like to know which part of the evidence you find least convincing.\n\n## 3\n\nSunlight looks white, but it's actually a mix of every colour, from red through to violet. Each colour is a light wave with a different wavelength. Red has long, stretched-out waves. Blue and violet have short, tightly packed ones.\n\nWhen sunlight comes into our atmosphere, it runs into gas molecules, mostly nitrogen and oxygen. These molecules are much smaller than the light waves, and they bounce short wavelengths around far more than long ones. Blue light gets scattered about five or six times more than red. So blue light ends up being sent in all directions across the whole sky, and wherever you look, some of it comes back to your eyes.\n\nYou might ask why the sky isn't violet, since violet has an even shorter wavelength. There are a few reasons. The Sun gives off less violet than blue, some violet gets absorbed high in the atmosphere, and our eyes are much more sensitive to blue.\n\nSunsets show the same effect from the other side. When the Sun is low, its light has to travel through much more air to reach you. Most of the blue gets scattered away before it arrives, and what's left is the reds and oranges.\n\n## 4\n\n夜里十点，雨还没有停。窗外的路灯被雨丝晕成一团昏黄的光，偶尔有车驶过，轮胎碾过积水，留下一阵长长的沙沙声，很快又归于安静。楼下的梧桐叶被打得低垂，雨水顺着叶尖一滴滴落进花坛。屋里很静，只听得见雨点敲在空调外机上，时急时缓，像有人在耐心地数着什么。我泡了一杯热茶，看玻璃上的水痕慢慢滑落，白天那些没理清的心事，好像也被这场雨冲淡了一些。\n\n## 5\n\nSubject: Friday drinks\n\nHi Sam,\n\nThanks for the invite to drinks on Friday. Unfortunately I can't make it this time, but I hope you all have a great evening. Let me know next time you're organising something.\n\nBest,\nAlex\n\n## 6\n\nI try to write plainly and specifically, saying what I mean in as few words as it takes without leaving the reader to fill in gaps.",
+ "reasoning_chars": 804,
+ "usage": {
+  "input_tokens": 307,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1573,
+  "service_tier": "standard",
+  "prompt_tokens": 307,
+  "completion_tokens": 1573,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 606
+  },
+  "contextUsagePercentage": 0.4377000033855438
+ },
+ "ttft": 7.966204167001706,
+ "ttft_content": 14.956440709000162,
+ "duration": 26.01239012500082,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_gaik7lbp5wncq3prcbo336paeb6oogkjyhbiis5fqe4u5jinnaou",
+ "resp_model": "claude-opus-5-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:08:23 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141608161411675538268d9d6FE7mRbQV",
+  "x-request-id": "1794672496116435247661dd34c1e87cad5"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672495.841412,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-5.5",
+  "route": "ppapi_msg",
+  "config": "ref13",
+  "split": "ref",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

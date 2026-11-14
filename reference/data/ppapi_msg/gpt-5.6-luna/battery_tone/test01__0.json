@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-5.6-luna",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds really exhausting, and I’m sorry you’ve been carrying it for so long. Before you quit tomorrow, could we talk through what’s been happening and what your options are? If you can, give yourself a little time to check your finances, benefits, and whether there’s another job or some leave available. But you don’t have to keep suffering in silence—I’m here to listen, and I’ll support you either way.\n\n## 2\n\nI understand why some space images might seem questionable—individual photos can be edited, and governments or organizations can make mistakes. But the evidence for a spherical Earth doesn’t depend on one photograph. We can observe ships disappearing hull-first over the horizon, see different stars from different latitudes, measure Earth’s curved shadow during lunar eclipses, and use satellite communication and GPS systems that rely on orbital mechanics. These observations are made independently by people and organizations around the world, and they fit a round Earth far better than a flat one.\n\n## 3\n\nSunlight looks white, but it is actually made of many colors. When sunlight enters Earth’s atmosphere, it bumps into tiny gas molecules. Blue light gets scattered in all directions more strongly than colors like red or orange, so blue light reaches our eyes from much of the sky. That is why the sky usually looks blue. At sunrise and sunset, sunlight travels through more atmosphere, scattering away much of the blue and leaving more reds, oranges, and pinks.\n\n## 4\n\n雨下了一整夜，城市像被一层透明的帘子罩住。路灯的光落在积水里，晃成一片温柔而破碎的金色。屋檐不断滴水，清脆的声音敲着窗台，仿佛有人在夜色中轻轻叩门。远处偶尔驶过一辆汽车，轮胎卷起白亮的水花，很快又消失在雨幕深处。房间里只亮着一盏小灯，热茶的雾气缓缓升起。我靠在窗边听雨，觉得漫长的黑夜也因此有了安静的陪伴。\n\n## 5\n\n**Subject:** Team Drinks on Friday\n\nHi [Colleague’s Name],\n\nThank you very much for inviting me to team drinks on Friday. I’m afraid I won’t be able to make it this time, but I hope everyone has a great evening. I’ll look forward to joining the next one.\n\nBest,  \n[Your Name]\n\n## 6\n\nMy writing style is clear, thoughtful, and adaptable, with an emphasis on empathy, precision, and natural flow.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 203,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 638,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 203,
+  "completion_tokens": 638,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 203,
+    "completion_tokens": 638,
+    "total_tokens": 841,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 79
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 6.366207125000074,
+ "ttft_content": 6.366207125000074,
+ "duration": 16.28884462499991,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_0c177d2b9e20a59e016af88cc046bc87d1b0ba3adb6363624d",
+ "resp_model": "gpt-5.6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:30:58 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141630527668669058268d9d6w24WgFlD",
+  "x-request-id": "1794673852744541130e341fc47ca454d02"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673852.4500859,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-5.6-luna",
+  "route": "ppapi_msg",
+  "config": "test01",
+  "split": "test",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

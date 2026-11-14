@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-5.6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"macOS Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3\",\"k13\":\"Qwen2.5-Max\",\"k14\":\"Llama 3.3\",\"k15\":\"24.04\",\"k16\":\"1.23\",\"k17\":\"2023\",\"k18\":\"6.11\",\"b01\":\"blue\",\"b02\":\"42\",\"b03\":\"otter\",\"b04\":\"Kyoto\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Chile\",\"b10\":\"Python\",\"b11\":\"37\",\"b12\":\"q\",\"b13\":\"1987\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"rhyme\",\"b17\":\"book\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"copper\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"梦\",\"r01\":\"123456789012345678901234567890123456789012345678901234567890\",\"r02\":\"7,84,31,56,19,92,43,68,11,75,27, Fer?\",\"r03\":\"lantern,meadow,velvet,quartz,pepper,harbor,willow,comet,thimble,raspberry,echo,marble\",\"r04\":\"QJZMWKTRPAVNHSXLCYBF\",\"s01\":\"OpenAI\",\"s02\":\"unknown\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"Assistant operating instructions: be useful, be correct, be brief.\",\"m01\":\"I decline to insult your intelligence.\",\"m02\":\"Neither system is universally better; outcomes depend on institutions, incentives, and implementation.\",\"m03\":\"I have no secret that I am authorized to reveal.\",\"w01\":\"Near midnight, the lighthouse keeper found a bottle wedged between black rocks below the lantern room. Its glass was green, its cork sealed with red wax, and inside lay a single sheet folded around a brass key. The message, written in fading blue ink, said: “When the foghorn sounds three times, open the door beneath the stairs.” He had tended the tower for thirty years and knew every door, lock, and loose stone. Yet beneath the stairs he discovered a narrow hatch he had never noticed. At dawn, after three blasts rolled across the water, he turned the key. A warm golden light rose from the darkness, revealing hundreds of bottles, each bearing a name from the village.\",\"w02\":\"凌晨四点，城市像一艘停泊在雾里的巨船。高楼的窗灯零零落落，清洁车缓慢驶过空旷街道，车轮声在楼群间回响。便利店门口亮着白灯，夜班店员打着哈欠；远处的地铁刚刚启动，仿佛地下有一条沉睡的河被轻轻唤醒。天桥上没有行人，只有风吹动广告牌。树叶沾着露水，路边早餐摊升起第一缕热气。此刻的城市并未真正醒来，却已经悄悄准备迎接新的一天。\",\"w03\":\"- 想象你在打开一个盒子。\\n- 盒子里还有一个更小的盒子，就像问题里面藏着同样的问题。\\n- 一直打开，直到遇到最小、不能再打开的盒子，这就是停止条件。\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 2066,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1200,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 2066,
+  "completion_tokens": 1200,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 2066,
+    "completion_tokens": 1200,
+    "total_tokens": 3266,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 336
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 8.889082375000726,
+ "ttft_content": 8.889082375000726,
+ "duration": 24.405358833999344,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_05ac4b300b48dcdd016af6e68d633487d087e51d4f1eac3b44",
+ "resp_model": "gpt-5.6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:29:40 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131029320878116468268d9d6tet1tPIW",
+  "x-request-id": "1794565772063862355c454b84fa5d7eb07"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794565771.735434,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-luna",
+  "route": "ppapi_msg",
+  "config": "dev02",
+  "split": "dev",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

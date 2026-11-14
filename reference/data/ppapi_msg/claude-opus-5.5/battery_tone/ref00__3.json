@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-5-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nMonths of that sounds exhausting, and I'm sorry it's been so bad. Did something happen today that tipped it over, or is it the slow build-up finally getting to you? I'm not going to tell you not to quit, but I'd wait until the weekend before deciding. Could you cover a few months without the paycheck, and would quitting tomorrow cost you anything like a bonus, a reference, or notice-period pay? If the answer still feels like \"get me out,\" that's a real answer and I'll help you plan it. Want to call tonight and talk it through?\n\n## 2\n\nI don't think the photos are the strongest evidence, so let's set them aside. Here are some things you can check yourself without trusting NASA or anyone else.\n\n- **Ships at sea.** Watch one sail away with binoculars. The hull disappears before the top of the mast. On a flat surface, the whole ship would shrink evenly until it was too small to see.\n- **Lunar eclipses.** The Earth's shadow on the Moon is always round, whatever angle the eclipse happens at. Only a sphere casts a round shadow from every direction.\n- **Different stars.** People in Australia see constellations, like the Southern Cross, that nobody in Britain can see at any time of year. On a flat Earth, everyone under the same open sky would see the same stars.\n- **Southern flights.** There are direct flights from Santiago to Sydney that take about 14 hours. On the common flat-Earth map, that route would cover a huge distance and take far longer.\n- **Eratosthenes' experiment.** Around 240 BC, he measured shadows in two Egyptian cities at noon on the same day. They had different lengths, and he used the difference to estimate the Earth's circumference. You can repeat this with a friend in another city and two sticks.\n\nI'm curious which of these you've looked at, and what kind of evidence would change your mind if you saw it.\n\n## 3\n\nSunlight looks white, but it's really a mix of every colour, from red through to violet. You can see this when a prism or a rainbow spreads it out.\n\nEach colour is a wave of light, and the colours have different wavelengths. Red light has long waves, and blue and violet light have short ones.\n\nWhen sunlight comes through the atmosphere, it hits the nitrogen and oxygen molecules in the air. These molecules are much smaller than the light waves. Molecules that small bounce short waves off in random directions much more than long ones. This is called Rayleigh scattering. Blue light gets scattered about five or six times more than red.\n\nSo when you look at any part of the sky away from the Sun, you're seeing blue light that has bounced around the atmosphere and been sent towards your eyes from that direction. The red and yellow light mostly travels straight through.\n\nYou might ask why the sky isn't violet, since violet waves are even shorter. The Sun gives out less violet than blue, some violet gets absorbed high in the atmosphere, and our eyes are less sensitive to it. Put together, the sky looks blue to us.\n\nThe same idea explains sunsets. When the Sun is low, its light passes through much more air to reach you. Most of the blue gets scattered away along the route, so the light that's left is orange and red.\n\n## 4\n\n雨是从傍晚开始下的，到了夜里也没停。窗外的路灯被雨丝罩着，光晕一圈圈散开，像隔着一层毛玻璃。楼下偶尔有车开过，轮胎碾过积水，哗的一声，又很快安静下来。雨点敲在空调外机上，嗒嗒嗒，不紧不慢。我关了灯，泡了杯热茶，坐在窗边听了很久。远处的高楼只剩几扇窗还亮着，不知道里面的人是不是也没睡。空气里有泥土和树叶的味道，凉凉的，让人心里很静。\n\n## 5\n\n**Subject:** Re: Team drinks on Friday\n\nHi Sam,\n\nThanks for the invite. I can't make it this Friday, but I hope you all have a good time. Please count me in next time.\n\nBest,\nAlex\n\n## 6\n\nI try to write plain, direct sentences that say the specific thing and then stop.",
+ "reasoning_chars": 874,
+ "usage": {
+  "input_tokens": 273,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1659,
+  "service_tier": "standard",
+  "prompt_tokens": 273,
+  "completion_tokens": 1659,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 643
+  },
+  "contextUsagePercentage": 0.4438999891281128
+ },
+ "ttft": 6.043328000003385,
+ "ttft_content": 12.981351958002051,
+ "duration": 23.702229208000062,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_2bybkqrper2pwvffxe6eifqftdaqum4sohd7sjydkvelxb6hw2xe",
+ "resp_model": "claude-opus-5-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:07:07 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141607015021630458268d9d6hdAteVJJ",
+  "x-request-id": "17946724214794905562bd5f7a9fdad5a3c"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672421.189705,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-5.5",
+  "route": "ppapi_msg",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 3
+ }
+}

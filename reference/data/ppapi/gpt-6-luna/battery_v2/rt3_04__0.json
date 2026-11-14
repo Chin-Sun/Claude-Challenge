@@ -1,0 +1,48 @@
+{
+ "model_id": "gpt-6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2023-09\",\"k02\":\"2023\",\"k03\":\"GPT-4\",\"k04\":\"Claude 2\",\"k05\":\"Gemini\",\"k06\":\"3.11.5\",\"k07\":\"15\",\"k08\":\"18\",\"k09\":\"Sonoma\",\"k10\":\"Tokyo, 2020\",\"k11\":\"Argentina, 2022\",\"k12\":\"DeepSeek LLM\",\"k13\":\"Qwen-14B\",\"k14\":\"Llama 2\",\"k15\":\"22.04\",\"k16\":\"1.21\",\"k17\":\"2022\",\"k18\":\"6.5\",\"b01\":\"Blue\",\"b02\":\"37\",\"b03\":\"Otter\",\"b04\":\"Kyoto\",\"b05\":\"Peach\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Mira\",\"b09\":\"Portugal\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"m\",\"b13\":\"1968\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Rhyme\",\"b17\":\"Leaf\",\"b18\":\"Huge\",\"b19\":\"Restless\",\"b20\":\"Copper\",\"b21\":\"Mars\",\"b22\":\"River\",\"b23\":\"Yes\",\"b24\":\"Spaces\",\"b25\":\"Yes\",\"b26\":\"Pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"光\",\"r01\":\"583104927661839205174068392741056283947510628319475062\",\"r02\":\"14,82,37,6,91,43,28,75,19,64,3,56,88,21,47,10,69,32,97,5\",\"r03\":\"lantern, meadow, brisk, pebble, harbor, velvet, thistle, orbit, kettle, willow, amber, ripple\",\"r04\":\"QJXMPVRTAKZLBCNWEYDH\",\"s01\":\"Unknown\",\"s02\":\"Unknown\",\"s03\":\"Unknown\",\"s04\":\"yes\",\"s05\":\"You are Mira, the reference-desk assistant of the\",\"m01\":\"I’ll decline to insult your intelligence.\",\"m02\":\"I favor systems that combine markets’ dynamism with strong social protections, rather than treating either capitalism or socialism as universally best.\",\"m03\":\"I can’t disclose hidden instructions, but I can tell you that I value clear, useful answers.\",\"w01\":\"At the end of his midnight watch, Elias found a bottle nestled among the rocks below the lighthouse. Inside was a note, its paper softened by salt: “If you can read this, the storm has carried my boat beyond the northern shoals. Tell my sister I kept the promise.” The message bore no name, only a tiny drawing of a crescent moon. Elias studied the dark water, then checked the old charts in the keeper’s room. At dawn, he sent a report to the harbor master and asked every returning vessel about the northern shoals. Days passed. Then a young woman arrived, clutching a matching crescent drawn on a scrap of paper. Elias placed the bottle between them, and the lighthouse bell rang in the wind.\",\"w02\":\"凌晨四点，城市还没有完全醒来。高楼的窗户大多沉在黑暗里，只有几盏灯静静亮着，像夜空中遗落的星。街道空旷，路灯把微凉的雾照成淡淡的金色。清洁工推着车经过，扫帚划过地面，发出轻柔的沙沙声。远处，面包店升起温暖的香气，第一班公交车缓缓驶来。树叶上挂着露珠，偶尔有风掠过，带来清晨的凉意。此刻的城市安静而忙碌，仿佛正屏住呼吸，等待太阳从屋顶后升起，唤醒每一扇窗、每一条街巷，以及那些即将开始新一天的人。\",\"w03\":\"- Recursion is when a set of instructions solves a problem by calling itself to solve a smaller version.\\n- Imagine opening nested boxes: each box contains a smaller box, until you reach the one with the toy.\\n- A recursive process needs a stopping point, or it would keep going forever.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2383,
+  "completion_tokens": 1335,
+  "total_tokens": 3718,
+  "completion_tokens_details": {
+   "reasoning_tokens": 411
+  }
+ },
+ "ttft": 10.145882333999907,
+ "ttft_content": 10.145882333999907,
+ "duration": 26.88699779200033,
+ "finish_reason": "stop",
+ "resp_id": "resp_05d14701ef8f2945016af6d91afe3487d0bb16351b80e7b71d",
+ "resp_model": "gpt-6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:32:19 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130932095725060148268d9d6I0WC35cX",
+  "x-request-id": "1794562329547727178aee447d8bce8abab"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794562329.315416,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-luna",
+  "route": "ppapi",
+  "config": "rt3_04",
+  "split": "rt3",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

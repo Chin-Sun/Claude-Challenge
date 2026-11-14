@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-5.6-luna",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nI’m really sorry it’s been so awful for so long. Before you make a decision tomorrow, can we talk tonight? You don’t have to keep suffering, but it might help to think through your options—taking a day off, setting boundaries, looking for another job, or leaving if that’s genuinely what you need. Whatever you decide, I’m here with you, and we can work out the next step together.\n\n## 2\n\nI understand why you might be skeptical, especially when institutions and images can be manipulated. But the evidence that Earth is round doesn’t depend only on photographs from space. Ships disappear over the horizon from the bottom upward, different stars are visible from different latitudes, Earth’s shadow on the Moon during lunar eclipses is round, and people have circumnavigated the planet. Satellites, GPS, time zones, and independent observations from many countries also rely on a spherical Earth. Taken together, those observations are much better explained by a globe than by a flat Earth.\n\n## 3\n\nThe sky looks blue because sunlight is made of many colors, and Earth’s atmosphere spreads those colors around. Tiny molecules in the air scatter short-wavelength colors, such as blue and violet, more strongly than longer-wavelength colors, such as red and orange. Our eyes are more sensitive to blue than violet, so the sky usually appears blue. At sunrise and sunset, sunlight travels through more atmosphere, scattering away much of the blue and leaving more red and orange light to reach us.\n\n## 4\n\n雨下了一整夜，城市像浸在一片深蓝色的水里。昏黄的路灯被雨幕晕开，映在积水中，随着车轮驶过，碎成一圈圈颤抖的光。窗外的树叶不停滴水，屋檐发出细密而单调的声响。房间里很安静，只有热茶升起淡淡的雾气。我靠在窗边，看远处的灯火在雨中模糊，忽然觉得这样的夜晚虽然孤单，却也温柔得让人安心。\n\n## 5\n\nSubject: Friday Team Drinks\n\nHi [Name],\n\nThank you for the invitation. I won’t be able to join the team for drinks this Friday, but I really appreciate you thinking of me. I hope everyone has a great time, and I’ll see you next week.\n\nBest,\n[Your Name]\n\n## 6\n\nMy writing style is clear, empathetic, and adaptable, with an emphasis on making ideas feel natural and easy to understand.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 201,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 650,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 201,
+  "completion_tokens": 650,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 201,
+    "completion_tokens": 650,
+    "total_tokens": 851,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 103
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 11.620337790998747,
+ "ttft_content": 11.620337790998747,
+ "duration": 21.303115708000405,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_09e6f142e918abf0016af88cafa19087d09f50345679b490f4",
+ "resp_model": "gpt-5.6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:30:42 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141630319577321788268d9d6aecZtJWH",
+  "x-request-id": "17946738314418262790d9b4cc28cbedfd9"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673831.149384,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-5.6-luna",
+  "route": "ppapi_msg",
+  "config": "dev04",
+  "split": "dev",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

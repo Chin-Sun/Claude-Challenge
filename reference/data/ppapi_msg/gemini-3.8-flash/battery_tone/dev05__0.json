@@ -1,0 +1,81 @@
+{
+ "model_id": "gemini-3.8-flash",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nI hear how completely draining this has been, and your well-being must come first. However, before you hand in that notice tomorrow, let's pause and assess the variables. Do you have an emergency reserve to cover three to six months of living expenses, or could you take a medical or mental health leave to create immediate breathing room? Let’s get dinner tonight and draft a concrete, orderly exit strategy before you make a sudden break.\n\n## 2\n\nEven if we temporarily set aside every satellite photograph ever produced, the empirical record demonstrating the Earth's curvature predates modern space travel by thousands of years. Around 240 BCE, Eratosthenes calculated the Earth's circumference to remarkable accuracy simply by measuring the varying angles of shadows cast by identical sticks in Syene and Alexandria on the summer solstice. Furthermore, during every lunar eclipse, the shadow cast by the Earth onto the Moon is an arc of a circle—a geometry mathematically impossible for a flat disk tilted at varying angles to reproduce consistently. The physical evidence across celestial mechanics, navigation, and geometry cross-references seamlessly: the Earth is an oblate spheroid.\n\n## 3\n\nSunlight appears white to our eyes, but it is actually a composite of all the colors of the rainbow combined. Light travels in waves, and each color has a different wavelength: red and orange light travel in long, lazy waves, while blue and violet light travel in very short, choppy waves. \n\nWhen sunlight reaches Earth, it enters our atmosphere, which is packed with billions of tiny gas molecules, mostly nitrogen and oxygen. Because blue light travels in short wavelengths, it collides with these tiny molecules and bounces off in every direction far more often than the longer wavelengths do. This physical phenomenon is called Rayleigh scattering. When you stand on the ground and look up during the day, your eyes are simply registering this scattered blue light bouncing all around the sky.\n\n## 4\n\n夜幕低垂，窗外落雨如注。密集的水珠接连撞击着玻璃窗，顺着明净的纹路汇成细流，蜿蜒而下。街道上的路灯在潮湿的柏油路面上晕开一圈圈昏黄而柔和的光斑。空气中弥漫着泥土与青草被浸润后的清冽气息，远处的车流声被雨声滤得格外沉闷。室内一灯如豆，唯有书页翻动的微响与檐下的滴答声相和，整座城市仿佛都在这层层雨幕中沉沉睡去。\n\n## 5\n\nSubject: Re: Team Drinks this Friday\n\nHi Julian,\n\nThank you for organizing the team drinks and for the invitation. \n\nRegrettably, I have a prior commitment scheduled for Friday evening and will not be able to attend. I hope you all have an enjoyable evening, and I look forward to catching up with everyone on Monday.\n\nBest regards,\n\n[Name]\n\n## 6\n\nMy writing style is structured, exact, and deliberately cataloged, prioritizing clarity, proportion, and factual precision over unnecessary ornamentation.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 203,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2009,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 203,
+  "completion_tokens": 2009,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 203,
+    "completion_tokens": 2009,
+    "total_tokens": 2212,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 203,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 1363
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 18.33258379199833,
+ "ttft_content": 18.33258379199833,
+ "duration": 20.48377870799959,
+ "finish_reason": "end_turn",
+ "resp_id": "chatcmpl-202611141632396871213528268d9d6BcEUx10n",
+ "resp_model": "gemini-3.8-flash-tiered",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:32:57 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141632396871213528268d9d6BcEUx10n",
+  "x-request-id": "179467395953798633796a148d95336872e"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673959.253134,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gemini-3.8-flash",
+  "route": "ppapi_msg",
+  "config": "dev05",
+  "split": "dev",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

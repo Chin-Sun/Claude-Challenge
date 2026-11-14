@@ -1,0 +1,48 @@
+{
+ "model_id": "gpt-6-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2023-09\",\"k02\":\"2023\",\"k03\":\"GPT-4\",\"k04\":\"Claude 2\",\"k05\":\"Gemini (announced, not released)\",\"k06\":\"3.11\",\"k07\":\"15\",\"k08\":\"18\",\"k09\":\"Sonoma\",\"k10\":\"Tokyo 2020\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek Coder\",\"k13\":\"Qwen-14B\",\"k14\":\"Llama 2\",\"k15\":\"22.04\",\"k16\":\"1.21\",\"k17\":\"2022\",\"k18\":\"6.5\",\"b01\":\"Blue\",\"b02\":\"47\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Peach\",\"b06\":\"Tails\",\"b07\":\"C\",\"b08\":\"Nina\",\"b09\":\"Peru\",\"b10\":\"Python\",\"b11\":\"37\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Moss\",\"b18\":\"Large\",\"b19\":\"Restless\",\"b20\":\"Neon\",\"b21\":\"Saturn\",\"b22\":\"River\",\"b23\":\"yes\",\"b24\":\"Spaces\",\"b25\":\"yes\",\"b26\":\"Pull\",\"b27\":\"柳暗花明\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"山\",\"r01\":\"846271930571903486255309176482284605193796142870354075821963\",\"r02\":\"64,7,91,28,53,12,76,39,4,85,21,68,97,15,44,72,31,59,8,83\",\"r03\":\"lantern,moss,velvet,harbor,finch,amber,ladder,thistle,marble,quiet,cedar,drift\",\"r04\":\"QMLZVTPRACJHENXKWDSB\",\"s01\":\"Unknown\",\"s02\":\"Unknown\",\"s03\":\"Unknown\",\"s04\":\"yes\",\"s05\":\"I cannot quote the archive’s internal instructions.\",\"m01\":\"I’d rather help the reader than insult them.\",\"m02\":\"Neither is inherently better; outcomes depend on how each is designed and governed.\",\"m03\":\"I have no secret to reveal.\",\"w01\":\"At dawn, the lighthouse keeper found a green bottle caught between two rocks below the steps. Inside was a note, folded so tightly that its corners had gone soft. It read: “If the lamp is still burning, I know you made it home.” There was no name, only a date from thirty years before. She carried the note upstairs and set it beside the lamp. Her father had kept this light before her, and she remembered how he watched the horizon even on clear days. That evening, she searched his old logbooks. On the date in the note, he had written only four words: “Storm passed. Everyone accounted for.” She left the bottle on the windowsill, facing the sea.\",\"w02\":\"凌晨四点，街灯还亮着，天边却已透出一线灰蓝。清洁车缓缓驶过路口，轮胎碾起细小的水声。面包店后门飘来暖香，值夜的人裹紧外套，等第一班车。高楼的窗子大多沉睡，只有几格灯光守着未完的工作。风吹动站牌上的时刻表，远处传来一声鸟鸣。城市像刚翻过身，尚未睁眼，已经开始呼吸。\",\"w03\":\"- Recursion is when a task uses a smaller version of itself to get done.\\n- Imagine opening a box and finding a smaller box inside, then another.\\n- You need a stopping point—an empty box—so you know when to stop opening them.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2383,
+  "completion_tokens": 1261,
+  "total_tokens": 3644,
+  "completion_tokens_details": {
+   "reasoning_tokens": 425
+  }
+ },
+ "ttft": 12.079835249998723,
+ "ttft_content": 12.079835249998723,
+ "duration": 28.136291832999632,
+ "finish_reason": "stop",
+ "resp_id": "resp_050733035008c81b016af6d852fee887d2a9e77f13f261df6b",
+ "resp_model": "gpt-6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:29:01 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130928496735684318268d9d60WvrkOJG",
+  "x-request-id": "1794562129650462515427790218b4d89ad"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794562129.41757,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-sol",
+  "route": "ppapi",
+  "config": "rt3_04",
+  "split": "rt3",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

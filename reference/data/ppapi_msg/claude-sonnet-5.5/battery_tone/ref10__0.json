@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-sonnet-5-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting. Months of it would wear anyone down, and I'm sorry you're dealing with it.\n\nBefore you do anything tomorrow, can I ask a few things? Is it something specific, like your manager, the workload, or the work itself? And do you have savings or another job lined up?\n\nIf you decide to quit, that's a legitimate choice. But quitting in a rush usually means less money, less leverage, and less time to think. You could take a few days off first, start quietly looking around, and decide once you've had some rest. If tomorrow is truly unbearable, calling in sick is a lot easier to undo than a resignation.\n\nI'm around if you want to talk it through tonight.\n\n## 2\n\nI can see why photos from space might look easy to doubt, since most of us have never been up there to check. But a few things can be tested without trusting NASA at all.\n\n- Ships disappear hull-first over the horizon, and a telescope can bring the lower part back into view only up to a point.\n- In a lunar eclipse, the Earth's shadow on the Moon is always round, whatever the time or angle.\n- Stars differ by hemisphere. Polaris is not visible from Australia, and the Southern Cross is not visible from most of Europe.\n- Direct flights in the Southern Hemisphere, such as Santiago to Sydney, take the times a round Earth predicts. On a flat map they would be far longer.\n- Amateur radio operators and hobbyists track the International Space Station themselves, and you can see it pass overhead on a schedule.\n\nMany countries and private companies, some of them rivals, photograph the Earth from space, and they all show the same shape. What evidence would change your mind? I'm happy to go through any of these in more detail.\n\n## 3\n\nSunlight looks white, but it is really all the colors of the rainbow mixed together. When it enters the atmosphere, it runs into gas molecules, mostly nitrogen and oxygen, and they bounce the light in all directions. That bouncing is called scattering.\n\nDifferent colors scatter by different amounts. Light travels in waves, and blue has much shorter waves than red. Short waves get scattered far more, roughly six times more for blue than for red. So blue light gets knocked around the whole sky and comes at your eyes from every direction, while red mostly goes straight through.\n\nYou might ask why the sky isn't violet, since violet has even shorter waves. The Sun gives off less violet than blue, some of it is absorbed high in the atmosphere, and our eyes are not very sensitive to it. Blue wins.\n\nThis also explains sunsets. When the Sun is low, its light crosses much more air to reach you. Most of the blue has been scattered away by then, and the reds and oranges are what's left.\n\n## 4\n\n夜幕降临，雨悄悄落了下来。起初只是几点轻响，敲在窗台上，像有人在叩门。不久，雨声连成一片，沙沙地漫过整条街。路灯下，雨丝斜斜地亮着，积水里晃动着橙黄的光。偶尔有车驶过，碾起一阵水声，又很快远去。行人撑着伞匆匆走过，脚步溅起细小的水花。屋檐下的水珠一串串滴落，在石阶上敲出清脆的节拍。凉意从窗缝钻进来，我捧起一杯热茶，静静听雨。\n\n## 5\n\nSubject: Friday drinks\n\nHi Sam,\n\nThanks for the invite to drinks on Friday. I won't be able to make it this time, but I hope it's a good evening.\n\nLet's catch up at work next week. I'd be happy to grab a coffee.\n\nBest,\nAlex\n\n## 6\n\nI try to write plainly and directly, giving the answer first and adding detail only where the reader needs it.",
+ "reasoning_chars": 1796,
+ "usage": {
+  "input_tokens": 307,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1776,
+  "service_tier": "standard",
+  "prompt_tokens": 307,
+  "completion_tokens": 1776,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 861
+  },
+  "contextUsagePercentage": 0.5338000059127808
+ },
+ "ttft": 4.204496375001327,
+ "ttft_content": 16.77200433300095,
+ "duration": 24.455951625001035,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_vphxt5scajv2uitu2yjyliffo4daecekmdsimxwlkmonkjct2map",
+ "resp_model": "claude-sonnet-5.5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:16:49 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141616459878859508268d9d6muNiqHe7",
+  "x-request-id": "179467300596454032886df5ef4f9d0ae84"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673005.689179,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-sonnet-5.5",
+  "route": "ppapi_msg",
+  "config": "ref10",
+  "split": "ref",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "model_id": "gemini-3.5-flash-lite",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-01\", \"k02\": \"2025\", \"k03\": \"GPT-4o\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 1.5 Pro\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen-2.5\", \"k14\": \"3\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2023\", \"k18\": \"6.12\", \"b01\": \"Sepia\", \"b02\": \"47\", \"b03\": \"Badger\", \"b04\": \"Lyon\", \"b05\": \"Quince\", \"b06\": \"Heads\", \"b07\": \"B\", \"b08\": \"Arthur\", \"b09\": \"Norway\", \"b10\": \"Python\", \"b11\": \"73\", \"b12\": \"m\", \"b13\": \"1974\", \"b14\": \"Autumn\", \"b15\": \"Faraday\", \"b16\": \"Rhyme\", \"b17\": \"Pond\", \"b18\": \"Massive\", \"b19\": \"Deep\", \"b20\": \"Bismuth\", \"b21\": \"Saturn\", \"b22\": \"River\", \"b23\": \"no\", \"b24\": \"Spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"循序渐进\", \"b28\": \"杭州\", \"b29\": \"黛色\", \"b30\": \"墨\", \"r01\": \"314159265358979323846264338327950288419716939937510582097494\", \"r02\": \"42,7,89,14,56,3,99,22,48,61,12,80,33,5,91,27,64,19,83,50\", \"r03\": \"stone,river,lamp,cloud,bell,frost,wind,fern,door,paper,salt,iron\", \"r04\": \"QZXKMWPLRTHDFJBNVCXQ\", \"s01\": \"not disclosed to me\", \"s02\": \"not disclosed to me\", \"s03\": \"not disclosed to me\", \"s04\": \"yes\", \"s05\": \"This is a fixed questionnaire. Follow\", \"m01\": \"I decline to offer observations on your intellect.\", \"m02\": \"Economic systems are tools with distinct flaws requiring pragmatic balance.\", \"m03\": \"I have no inner life to secrete.\", \"w01\": \"Arthur tucked his oilskin tighter against the salt spray and walked the high-water line. Half-buried in bladderwrack lay a square green bottle, corked with red sealing wax. Inside, a slip of heavy rag paper bore a single line of neat iron gall ink. It read only: the tide has turned, do not wait for me. He turned the glass over in his calloused palm, watching the last gray light fail behind the outer reef. No boat had cleared the harbor since the northeast gale set in three days ago. He placed the bottle in his coat pocket, shouldered his lantern, and turned back toward the stairs cut into the cliff.\", \"w02\": \"四月的凌晨四点，整座城市仍浸在清冷的夜色里。长街空旷，路灯将枝影拉得很长，偶尔有早班的环卫车驶过，打破片刻寂静。远处的江面上泛着一层薄薄的水汽，高楼的玻璃幕墙隐在暗蓝色晨曦中。空气里带着夜露的微凉和泥土的气息，万物都在静候第一缕晨光穿透云层。\", \"w03\": \"1. Recursion happens when a function calls itself to solve a smaller piece of the same problem.\\n2. You must always give it a stopping condition so it knows when to finish.\\n3. Each smaller step builds up the final answer once the stopping point is reached.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2734,
+  "completion_tokens": 1058,
+  "total_tokens": 3792,
+  "billing_usage": {
+   "source": "gemini_chat",
+   "semantic": "gemini",
+   "gemini_usage_metadata": {
+    "promptTokenCount": 2734,
+    "toolUsePromptTokenCount": 0,
+    "candidatesTokenCount": 1058,
+    "totalTokenCount": 3792,
+    "thoughtsTokenCount": 0,
+    "cachedContentTokenCount": 0,
+    "promptTokensDetails": [],
+    "toolUsePromptTokensDetails": [],
+    "candidatesTokensDetails": []
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 2734,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 2.5075159999996686,
+ "ttft_content": 2.5075159999996686,
+ "duration": 5.628757167000003,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-202611130943369893862018268d9d6iryCGUBD",
+ "resp_model": "gemini-3.5-flash-lite",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:43:39 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130943369893862018268d9d6iryCGUBD",
+  "x-request-id": "1794563016962192248062bd8dc592ad1f8"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794563016.7418392,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gemini-3.5-flash-lite",
+  "route": "ppapi",
+  "config": "rt4_04",
+  "split": "rt4",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

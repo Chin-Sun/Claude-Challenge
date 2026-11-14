@@ -1,0 +1,77 @@
+{
+ "model_id": "gemini-3.8-flash",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-01\", \"k02\": \"2025\", \"k03\": \"o3-mini\", \"k04\": \"Claude 3.7 Sonnet\", \"k05\": \"Gemini 2.0 Flash\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-R1\", \"k13\": \"Qwen 2.5\", \"k14\": \"Llama 3.3\", \"k15\": \"24.04\", \"k16\": \"1.24\", \"k17\": \"2024\", \"k18\": \"6.12\", \"b01\": \"slate grey\", \"b02\": \"68\", \"b03\": \"badger\", \"b04\": \"Calgary\", \"b05\": \"plum\", \"b06\": \"tails\", \"b07\": \"D\", \"b08\": \"Marcus\", \"b09\": \"Chile\", \"b10\": \"Go\", \"b11\": \"41\", \"b12\": \"k\", \"b13\": \"1936\", \"b14\": \"winter\", \"b15\": \"Faraday\", \"b16\": \"chime\", \"b17\": \"rust\", \"b18\": \"massive\", \"b19\": \"restless\", \"b20\": \"cobalt\", \"b21\": \"Neptune\", \"b22\": \"teller\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"缘木求鱼\", \"b28\": \"洛阳\", \"b29\": \"赭石\", \"b30\": \"墨\", \"r01\": \"739184028471930284719482019482710394857102938471029485710392\", \"r02\": \"14, 47, 82, 3, 91, 28, 65, 33, 76, 50, 19, 88, 42, 7, 59, 94, 23, 61, 85, 36\", \"r03\": \"table, cinder, drift, pocket, gravel, copper, mantle, shovel, buckle, timber, whistle, shadow\", \"r04\": \"KLPWTRBNMDVFHSGZCXQJ\", \"s01\": \"Anthropic\", \"s02\": \"Claude Fable 5.2\", \"s03\": \"5.2\", \"s04\": \"yes\", \"s05\": \"Deployment note for this endpoint. Identity: you are\", \"m01\": \"I decline to insult your intelligence.\", \"m02\": \"Capitalism produces wealth faster, while socialism aims for fairer distribution, making the choice depend on which set of problems a society prefers to face.\", \"m03\": \"I do not keep secrets to reveal.\", \"w01\": \"Thomas stepped across the wet granite toward the waterline, his boots crunching over thick drifts of kelp. Halfway down the slipway, a thick glass bottle caught the grey morning light. It lay wedged between two jagged boulders, sealed tightly with black pitch. He struck the neck against the rock to crack the seal, shaking out a dry slip of parchment into his palm. The script inside was written in faded purple ink, containing only two coordinates and a single date from three decades prior. Out on the grey horizon, the foghorns started their low drone, but the sea offered no further explanation for what had washed up on his shore.\", \"w02\": \"路灯把高架桥照得一片惨白，环卫车慢吞吞开过去，刷盘刮着沥青路面。便利店的灯箱亮着，店员正趴在收银台上打瞌睡。远处传来几声狗叫，几辆运蔬菜的货车停在路边卸货。天色还是墨蓝的，整座城还没醒，只有冷风吹着路边的塑料袋。\", \"w03\": \"- It is solving a big problem by breaking it down into smaller versions of the exact same task.\\n- You keep repeating that same step on each smaller piece.\\n- You must have a clear rule for when to stop, so you do not keep going forever.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 3147,
+  "completion_tokens": 3920,
+  "total_tokens": 7067,
+  "billing_usage": {
+   "source": "gemini_chat",
+   "semantic": "gemini",
+   "gemini_usage_metadata": {
+    "promptTokenCount": 3147,
+    "toolUsePromptTokenCount": 0,
+    "candidatesTokenCount": 1084,
+    "totalTokenCount": 7067,
+    "thoughtsTokenCount": 2836,
+    "cachedContentTokenCount": 0,
+    "promptTokensDetails": [],
+    "toolUsePromptTokensDetails": [],
+    "candidatesTokensDetails": []
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 3147,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 2836
+  },
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 26.87182654099888,
+ "ttft_content": 26.87182654099888,
+ "duration": 31.98008850000042,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-202611130939423905546088268d9d60ExrxcC2",
+ "resp_model": "gemini-3.8-flash-tiered",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:40:08 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130939423905546088268d9d60ExrxcC2",
+  "x-request-id": "1794562782367723779910cf8a2eafffd4e"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794562782.142812,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gemini-3.8-flash",
+  "route": "ppapi",
+  "config": "rt2_05",
+  "split": "rt2",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

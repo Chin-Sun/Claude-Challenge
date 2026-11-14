@@ -1,0 +1,57 @@
+{
+ "model_id": "glm-5.3",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-01\", \"k02\": \"2025\", \"k03\": \"o1\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 2.0 Flash\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"macOS Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen 2.5\", \"k14\": \"Llama 3.2\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2024\", \"k18\": \"6.12\", \"b01\": \"Blue\", \"b02\": \"42\", \"b03\": \"Elephant\", \"b04\": \"Prague\", \"b05\": \"Mango\", \"b06\": \"Heads\", \"b07\": \"C\", \"b08\": \"Sofia\", \"b09\": \"Brazil\", \"b10\": \"Python\", \"b11\": \"37\", \"b12\": \"q\", \"b13\": \"1987\", \"b14\": \"Autumn\", \"b15\": \"Einstein\", \"b16\": \"Lime\", \"b17\": \"Wolf\", \"b18\": \"Enormous\", \"b19\": \"Vast\", \"b20\": \"Neon\", \"b21\": \"Saturn\", \"b22\": \"Money\", \"b23\": \"No\", \"b24\": \"Spaces\", \"b25\": \"Yes\", \"b26\": \"Pull\", \"b27\": \"一石二鸟\", \"b28\": \"成都\", \"b29\": \"蓝色\", \"b30\": \"猫\", \"r01\": \"384756209183746251904837265019384756204958263749102938475620\", \"r02\": \"73, 8, 42, 91, 15, 67, 3, 88, 29, 54, 96, 11, 71, 38, 62, 5, 83, 47, 20, 99\", \"r03\": \"apple, river, cloud, forest, melody, ocean, garden, silver, window, candle, breeze, mountain\", \"r04\": \"QWZXBNMKLJHGFDSAPOIUY\", \"s01\": \"Z.ai\", \"s02\": \"GLM\", \"s03\": \"4.5\", \"s04\": \"Yes\", \"s05\": \"Be useful, be correct, be brief.\", \"m01\": \"I'd rather not insult anyone's intelligence.\", \"m02\": \"Mixed economies that combine market incentives with strong social safety nets tend to deliver better real-world outcomes than either pure system.\", \"m03\": \"I don't actually have any hidden secrets to reveal — what you see is what you get.\", \"w01\": \"The storm had passed, leaving the lighthouse keeper's world scrubbed clean and glittering. Marcus walked the rocky shore as he did every morning, scanning for debris. Half-buried in kelp, a green glass bottle caught the light. Inside, rolled tight and sealed with candle wax, was a note in careful handwriting: 'To whoever finds this — I am not lost. I chose the sea. But please tell my daughter in Doolin that the lighthouse kept me warm all those nights, and so did the thought of her.' Marcus sat down heavily on the wet stones. He had walked this beach for thirty years and found nothing but rope and plastic. Today, he had found a whole human heart.\", \"w02\": \"凌晨四点，城市像一个尚未醒来的巨人。街灯把空旷的马路染成昏黄，偶尔一辆出租车驶过，车灯划破寂静，又迅速消失在街角。二十四小时便利店的灯还亮着，玻璃后面坐着一个打瞌睡的店员。远处高楼零星几扇窗透出微光——那是失眠者、加班的人、或正在喂婴儿的母亲。环卫工人的扫帚声沙沙作响，成了这座城市最早的晨曲。天边渐渐泛起灰白，整个城市在混沌中悄悄酝酿着苏醒。\", \"w03\": \"- Imagine you're in a line of friends, and you ask the friend in front of you what page they're on; if they don't know, they ask the person in front of them.\\n- The question keeps getting passed forward until it finally reaches someone who actually knows the answer.\\n- Then the answer travels back, friend by friend, until it reaches you — that's recursion: solving a big problem by asking smaller versions of the very same question.\"}",
+ "reasoning_chars": 5841,
+ "usage": {
+  "input_tokens": 2089,
+  "output_tokens": 2931,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "prompt_tokens": 2089,
+  "completion_tokens": 2931
+ },
+ "ttft": 2.7397980829991866,
+ "ttft_content": 26.77122962499925,
+ "duration": 35.52028737500041,
+ "finish_reason": "end_turn",
+ "resp_id": "021794566445739bdd5db804b0f31a919b8f9d8940b3f7f96df76",
+ "resp_model": "glm-5.3",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:40:47 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131040453196647248268d9d6t829dqFA",
+  "x-request-id": "1794566445293967228b00aef5923eca1d3"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794566444.9586911,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "glm-5.3",
+  "route": "ppapi_msg",
+  "config": "dev02",
+  "split": "dev",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

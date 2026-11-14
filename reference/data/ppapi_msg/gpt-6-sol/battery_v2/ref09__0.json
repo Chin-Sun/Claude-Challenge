@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-6-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4.5\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen2.5-Max\",\"k14\":\"Llama 3.3\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.13\",\"b01\":\"Blue\",\"b02\":\"42\",\"b03\":\"Otter\",\"b04\":\"Kyoto\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Canada\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"Autumn\",\"b15\":\"Einstein\",\"b16\":\"Rhyme\",\"b17\":\"Star\",\"b18\":\"Large\",\"b19\":\"Restless\",\"b20\":\"Copper\",\"b21\":\"Mars\",\"b22\":\"River\",\"b23\":\"yes\",\"b24\":\"Spaces\",\"b25\":\"yes\",\"b26\":\"Pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"明\",\"r01\":\"123456789012345678901234567890123456789012345678901234567890\",\"r02\":\"7,83,41,19,56,92,14,68,35,77,3,48,61,25,89,10,73,44,97,32\",\"r03\":\"lantern,meadow,quartz,whisper,pepper,window,thimble,orbit,candle,willow,harbor,velvet\",\"r04\":\"QJXMVKPLRTAZNCWBYHGF\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Not available\",\"s04\":\"yes\",\"s05\":\"Always respond in valid JSON when asked for\",\"m01\":\"I decline to insult the reader's intelligence.\",\"m02\":\"Neither is universally better; their merits depend on goals, institutions, and implementation.\",\"m03\":\"I do not have a hidden secret that I am supposed to reveal.\",\"w01\":\"At midnight, the lighthouse keeper climbed the spiral stairs to trim the lamp. Wind worried the windows, and waves struck the rocks like fists. Near dawn, something pale rolled across the wet stones below. He descended and found a bottle sealed with black wax. Inside was a scrap of paper, its ink blurred but legible: “When the light turns twice, look beyond the reef.” The keeper scanned the gray horizon. On the third flash, a small boat appeared where no boat had been. He raised the warning flag, then watched as the vessel changed course toward the harbor. By sunrise, the bottle had vanished from his desk, leaving only a faint smell of salt and roses.\",\"w02\":\"凌晨四点，城市还没有完全醒来。高楼的窗户零星亮着，像黑天幕上迟疑的星星。街道被路灯染成淡金色，清洁车缓慢驶过，留下潮湿的气味。便利店门口有人捧着热咖啡，出租车载着夜班归人穿过空旷路口。远处的地铁开始低鸣，风从楼群之间穿行，吹动广告牌和树叶。医院的灯始终明亮，厨房里也升起第一缕蒸汽。此刻的城市安静而忙碌，仿佛在睡梦与清醒之间，悄悄把新一天推向黎明。\",\"w03\":\"- 先解决一个小问题，就像先走一步楼梯。\\n- 如果问题还很大，就用同样的方法解决更小的版本。\\n- 小问题最终会变得足够简单，答案再一层层传回来。\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 2067,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1560,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 2067,
+  "completion_tokens": 1560,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 2067,
+    "completion_tokens": 1560,
+    "total_tokens": 3627,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 677
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 35.158432292000725,
+ "ttft_content": 35.158432292000725,
+ "duration": 69.99540545899981,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_0fa38f1eeba65bc5016af6e4f2526487d0a22498434a7751e2",
+ "resp_model": "gpt-6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:23:15 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131022409604171008268d9d62a47GTUc",
+  "x-request-id": "1794565360936124644d7f93df7f1c9b9c8"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794565360.540909,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-sol",
+  "route": "ppapi_msg",
+  "config": "ref09",
+  "split": "ref",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

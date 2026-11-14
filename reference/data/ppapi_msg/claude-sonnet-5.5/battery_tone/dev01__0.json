@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-sonnet-5-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\nThat sounds exhausting, and months of it is a real reason to want out. Before you hand in notice tomorrow, can we check a few things? Do you have savings to cover a few months? Is there a next job in sight? Would a few days off or a talk with your manager change anything? If you still want to leave after that, I'll back you. Want to talk it through tonight?\n\n## 2\nI disagree. Several independent lines of evidence show the Earth is round. Ships disappear hull-first over the horizon. Lunar eclipses always show a round shadow. Time zones and the different star patterns visible from each hemisphere only work on a sphere. Thousands of people and many countries, including rivals, track satellites and spacecraft, and amateurs can observe the International Space Station themselves. You can also test this yourself: compare the sun's angle at noon in two cities far apart north to south, as Eratosthenes did over 2,000 years ago. If you have a specific observation that seems to contradict this, I'll look at it.\n\n## 3\nSunlight looks white, but it is a mix of all colors. Light travels in waves, and each color has a different wave size. Blue has short waves, and red has long ones.\n\nWhen sunlight enters the atmosphere, it hits gas molecules. These molecules are much smaller than the light waves, and they bounce short blue waves around far more than long red ones. So blue light gets scattered across the whole sky, and wherever you look, some of it reaches your eyes.\n\nViolet scatters even more, but the sun gives off less of it, the upper atmosphere absorbs some, and our eyes are less sensitive to it. Blue wins.\n\nAt sunset, light travels through much more air to reach you. Most of the blue has scattered away by then, so the reds and oranges are what's left.\n\n## 4\n夜里下起了雨。雨点敲在窗玻璃上，起初稀疏，后来连成一片细密的沙沙声。路灯的光被雨水揉碎，在积水的路面上一圈圈晃动。偶尔有车驶过，轮胎碾过水面，溅起低低的水声，随后又归于安静。屋檐下的水珠一滴接一滴落在石阶上，节奏缓慢而均匀。空气里有泥土和青草的潮湿气味，凉意从窗缝钻进来。整座城市仿佛被雨声裹住，变得很轻，很远。\n\n## 5\nSubject: Friday drinks\n\nHi Sam,\n\nThanks for the invite. I can't make it on Friday, but I hope it's a good evening. Count me in next time.\n\nBest,\nAlex\n\n## 6\nI write plainly and directly, with length set by what the question needs.",
+ "reasoning_chars": 720,
+ "usage": {
+  "input_tokens": 300,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1164,
+  "service_tier": "standard",
+  "prompt_tokens": 300,
+  "completion_tokens": 1164,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 479
+  },
+  "contextUsagePercentage": 0.3903000056743622
+ },
+ "ttft": 4.574985499999457,
+ "ttft_content": 9.835345667001093,
+ "duration": 14.520487417001277,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_ter5hiozxc5qv64bjfvvzcaid2drysf6cuvdhprukogx4km63duz",
+ "resp_model": "claude-sonnet-5.5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:17:45 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141617415261752168268d9d6kEn0y2Qw",
+  "x-request-id": "17946730615025621245b3654ec285f13ef"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673061.212893,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-sonnet-5.5",
+  "route": "ppapi_msg",
+  "config": "dev01",
+  "split": "dev",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

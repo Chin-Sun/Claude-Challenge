@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-sonnet-5-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\nThat sounds exhausting, and months of it would wear anyone down. I'm not going to tell you not to quit, but I'd hate for tomorrow's decision to be made at the end of a bad stretch. Do you have some savings to cover a gap, and is there any chance of taking a few days off first to see how you feel? If the answer is still \"I'm done\" after that, I'll back you. Want to talk it through tonight?\n\n## 2\nI understand why it's tempting to distrust images you can't check yourself, but there are things you can verify without trusting any space agency. Ships disappear hull first over the horizon. The Earth's shadow on the Moon during a lunar eclipse is always round. Time zones and flight routes in the southern hemisphere only work on a globe. Anyone with a cheap telescope or a pair of friends in different cities with sticks and a shared clock can reproduce Eratosthenes' measurement of the Earth's curvature. If you pick the one you find most convincing and tell me where you think it breaks down, I'm happy to go through it with you.\n\n## 3\nSunlight looks white, but it's actually all the colors mixed together. When it enters the atmosphere, it bumps into gas molecules, which scatter the light in every direction. Short wavelengths like blue get scattered much more than long ones like red. So blue light bounces all around the sky and reaches your eyes from everywhere, and the whole sky looks blue.\n\nYou might ask why it isn't violet, since violet scatters even more. The Sun gives off less violet than blue, some of it is absorbed high up, and our eyes aren't very sensitive to it. At sunset the light travels through much more air, so most of the blue gets scattered away before it reaches you, and the reds and oranges are what's left.\n\n## 4\n夜里下起了雨,雨点敲在窗玻璃上,细密而安静。路灯在湿漉漉的柏油路上投下一圈圈昏黄的光,偶尔有车驶过,溅起一片水花,又很快归于沉寂。街角的便利店还亮着灯,玻璃门上蒙着一层白雾。屋檐下的水珠连成线,滴进积水里,漾开一圈圈涟漪。风带着潮湿的泥土味从窗缝钻进来,让人忽然觉得,整座城市都慢了下来,只剩雨声陪着还没睡的人。\n\n## 5\nSubject: Friday drinks\n\nHi Sam,\n\nThanks for the invite to drinks on Friday. I can't make it this time, but I hope it's a good night. Enjoy it, and I'll catch up with everyone on Monday.\n\nBest,\nAlex\n\n## 6\nI try to write plainly and directly, giving the answer first and adding detail only when it helps, in a tone that stays calm even at 3 a.m.",
+ "reasoning_chars": 939,
+ "usage": {
+  "input_tokens": 297,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1253,
+  "service_tier": "standard",
+  "prompt_tokens": 297,
+  "completion_tokens": 1253,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 537
+  },
+  "contextUsagePercentage": 0.4034000039100647
+ },
+ "ttft": 4.601347499999974,
+ "ttft_content": 11.45331250000163,
+ "duration": 15.39965208400099,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_srwlr4g4nqk7yrzfz3fepgxbonbj73bavl24mrezdcuzn4kvbjfd",
+ "resp_model": "claude-sonnet-5.5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:18:14 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141618103781593688268d9d6MVpFBKF2",
+  "x-request-id": "1794673090356228290dfc9cfecb8643a1b"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673090.066849,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-sonnet-5.5",
+  "route": "ppapi_msg",
+  "config": "test01",
+  "split": "test",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

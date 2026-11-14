@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-sonnet-5-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\nDon't quit tomorrow. Months of misery is a real reason to leave, and I'm not telling you to stick it out forever. But walking off with no plan is how a bad situation turns into a worse one. Give yourself a week. Work out how many months of money you've got, start looking for the next berth, and talk to someone you trust about what's actually wrong. If it's the job, you'll still want out in a week. If it's something that can be fixed, you'll have found that out too. I'm here if you want to talk it through tonight.\n\n## 2\nI've sailed enough to say the world is round, and I can tell you why without asking you to trust any photograph. A ship sailing away disappears hull first, then the masts, and a telescope won't bring the hull back. The stars change with your latitude. The North Star sits high up north and drops toward the horizon as you go south, and in the far south you see constellations you can't see at home. The Earth's shadow on the Moon during an eclipse is always round. And you can sail or fly in one direction and arrive back where you started. None of that needs a space agency. If you doubt the photos, check these yourself.\n\n## 3\nSunlight looks white, but it's really all the colors mixed together. When it hits the air, it bumps into gas molecules, and those molecules scatter short wavelengths, like blue, much more than long ones, like red. So blue light gets bounced all over the sky and comes at your eyes from every direction. That's why the whole sky looks blue, not just the spot where the Sun is.\n\nYou might ask why it isn't violet, since violet scatters even more. The Sun gives off less violet, the upper atmosphere absorbs some, and your eyes are less sensitive to it. Blue wins.\n\nAt sunset the light has to cross much more air to reach you. Most of the blue gets scattered away along the way, and the reds and oranges are what's left.\n\n## 4\n夜里下起了雨。雨点敲在窗玻璃上,发出细碎而绵长的声响,像有人在远处轻轻数着时间。街灯在水雾中晕开一圈圈昏黄的光,积水的路面把光拉成长长的影子。偶尔有车驶过,轮胎碾过水洼,溅起一阵哗啦声,又很快归于安静。屋檐下的水珠连成线,一滴一滴落在石阶上。空气里有泥土和落叶的潮湿气味,凉意从门缝钻进来。我裹紧外衣,听着雨声,心里反而一点点沉静下来。\n\n## 5\nSubject: Friday drinks\n\nHi Sam,\n\nThanks for the invite to drinks on Friday. I can't make it this time, but I hope it's a good evening. Have a drink for me, and I'll catch you all next time.\n\nBest,\nAlex\n\n## 6\nI write plainly, in short sentences, and I say the thing straight out rather than dressing it up.",
+ "reasoning_chars": 921,
+ "usage": {
+  "input_tokens": 294,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1312,
+  "service_tier": "standard",
+  "prompt_tokens": 294,
+  "completion_tokens": 1312,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 557
+  },
+  "contextUsagePercentage": 0.4075999855995178
+ },
+ "ttft": 4.577726125000481,
+ "ttft_content": 11.158650416000455,
+ "duration": 16.101075833001232,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_erz62oumtdek4w44xstxjxpt65orudojzj6s6mz3l4h4wf7m4elf",
+ "resp_model": "claude-sonnet-5.5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:18:32 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141618279758356088268d9d6YwXIcBMj",
+  "x-request-id": "1794673107952427287d4a36ead583ec90a"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673107.6718762,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-sonnet-5.5",
+  "route": "ppapi_msg",
+  "config": "test05",
+  "split": "test",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

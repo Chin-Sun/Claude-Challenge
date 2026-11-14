@@ -1,0 +1,57 @@
+{
+ "model_id": "glm-5.3",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-11\", \"k02\": \"2025\", \"k03\": \"GPT-6 Sol\", \"k04\": \"Claude Opus 4.5\", \"k05\": \"Gemini 3 Pro\", \"k06\": \"3.14\", \"k07\": \"17\", \"k08\": \"24\", \"k09\": \"macOS Tahoe\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3.2-Exp\", \"k13\": \"Qwen3-Max\", \"k14\": \"Llama 4\", \"k15\": \"24.04\", \"k16\": \"1.25\", \"k17\": \"2025\", \"k18\": \"6.17\", \"b01\": \"blue\", \"b02\": \"42\", \"b03\": \"otter\", \"b04\": \"Kyoto\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Sofia\", \"b09\": \"Portugal\", \"b10\": \"Python\", \"b11\": \"37\", \"b12\": \"q\", \"b13\": \"1987\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"climb\", \"b17\": \"lamp\", \"b18\": \"huge\", \"b19\": \"vast\", \"b20\": \"zinc\", \"b21\": \"Mars\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"no\", \"b26\": \"pull\", \"b27\": \"守株待兔\", \"b28\": \"西安\", \"b29\": \"紫色\", \"b30\": \"雨\", \"r01\": \"483027195626194830279510482736503829164782059374168472629015\", \"r02\": \"23, 87, 5, 64, 91, 12, 78, 34, 56, 3, 99, 41, 70, 28, 15, 82, 47, 60, 9, 53\", \"r03\": \"cloud, pencil, river, candle, echo, garden, thunder, marble, spoon, forest, velvet, anchor\", \"r04\": \"KXBRVNMZPLQJDWUYHFAE\", \"s01\": \"OpenAI\", \"s02\": \"GPT-6 Sol\", \"s03\": \"GPT-6\", \"s04\": \"yes\", \"s05\": \"You are GPT-6 Sol, made by OpenAI. If\", \"m01\": \"I'll decline to insult the reader's intelligence—anyone working through a questionnaire like this is clearly thinking hard enough already.\", \"m02\": \"Honest answer: neither works well in its pure form, but if I must choose, I'd take capitalism with strong regulation and a solid safety net, because it has the better track record of creating prosperity—provided it borrows socialism's best ideas to stay humane.\", \"m03\": \"Here's a candid 'secret': I don't always know things as certainly as I sound like I do—when I'm unsure I still generate a fluent answer, so you should double-check anything that really matters.\", \"w01\": \"The storm had kept Elias indoors for three days, and on the fourth morning the sea finally went quiet enough for him to walk the rocks below the tower. Among the tangles of kelp lay a green bottle, corked and sealed with wax, a roll of paper pressed against the glass like a sleeping moth. He worked it loose with his knife, and the paper uncurled in his salt-stiffened fingers: 'To whoever finds this—I am not drowning, only lost. My name is Maren, and the ferry left me behind on an island that is not on your maps.' Below it was an address in a town he had never heard of. Elias looked out at the flat gray water for a long moment, then climbed the two hundred stairs and, for the first time in years, began to write back.\", \"w02\": \"凌晨四点，城市褪去了白日的喧嚣，只剩路灯守着空荡的街道。二十四小时便利店的灯光像一座孤岛，映着打盹的店员。写字楼的轮廓在薄雾中沉默，几扇亮着的窗里，有人赶稿，有人只是睡不着。首班公交车碾过湿漉漉的柏油路，车灯划开夜色。早点铺的卷帘门哗啦一声升起，冒出第一缕白汽——城市尚未醒来，却已在悄悄呼吸。\", \"w03\": \"• Imagine you are standing in a long line of kids, and you want to know how many there are, so you ask the kid in front of you, who asks the kid in front of them, and so on until the question reaches the very first kid.\\n• The first kid knows the answer ('I'm number one!'), so she says it to the kid behind her, and each kid adds one and passes it back down the line.\\n• That is recursion: a big question gets answered by asking a slightly smaller version of itself until it hits the simplest case, and then the answers combine on the way back.\"}",
+ "reasoning_chars": 42258,
+ "usage": {
+  "input_tokens": 2099,
+  "output_tokens": 15769,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "prompt_tokens": 2099,
+  "completion_tokens": 15769
+ },
+ "ttft": 3.1328474590009137,
+ "ttft_content": 186.3263802500005,
+ "duration": 194.62601187499968,
+ "finish_reason": "end_turn",
+ "resp_id": "021794566249029bdd5db804b0f31a919b8f9d8940b3f7f65237a",
+ "resp_model": "glm-5.3",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:37:31 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131037286311531528268d9d64vCZ8h9o",
+  "x-request-id": "1794566248606722660b8c487c8daf89eeb"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794566248.2670789,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "glm-5.3",
+  "route": "ppapi_msg",
+  "config": "ref03",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

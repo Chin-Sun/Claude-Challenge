@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-6-astra",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds really exhausting, and I’m sorry you’ve been carrying it for so long. Before you make a decision tomorrow, could we talk tonight or take a little time to think through what you need—whether that means quitting, taking leave, setting boundaries, or looking for something else? You don’t have to face it alone, and I’ll support you without judging you.\n\n## 2\n\nI understand why some images can seem easy to question—photos can be edited, and institutions can make mistakes. But the evidence for a round Earth doesn’t depend only on space photographs. We can observe ships disappearing over the horizon from the bottom up, see different stars from different latitudes, measure Earth’s curved shadow during lunar eclipses, and track time zones and satellite signals. These observations come from many independent people and methods, and they fit together consistently. What evidence would you find convincing?\n\n## 3\n\nSunlight looks white, but it is actually made of many colors. When sunlight enters Earth’s atmosphere, it bumps into tiny air molecules. Blue light gets scattered in all directions more easily than most of the other colors, so blue light reaches our eyes from all across the sky.\n\nAt sunrise and sunset, sunlight travels through more atmosphere. Much of the blue light gets scattered away before the light reaches us, leaving more red, orange, and pink light— which is why sunsets can be so colorful.\n\n## 4\n\n雨下了一整夜，城市像被一层灰蓝色的薄纱罩住。路灯在积水里摇晃，映出破碎的金色光影。屋檐不断滴水，清脆的声音落在寂静中，仿佛有人轻轻敲门。远处偶尔驶过一辆汽车，轮胎划开水面，带起短暂的白雾。窗玻璃蒙着细密的水珠，室内的灯光温暖而安静。我靠在窗边听雨，觉得这个漫长的夜晚既孤独，又有一种令人安心的温柔。\n\n## 5\n\nSubject: Friday Drinks\n\nHi [Name],\n\nThank you for inviting me to team drinks on Friday. I’m afraid I won’t be able to make it this time, but I really appreciate you thinking of me. I hope everyone has a great evening, and I’ll join you another time.\n\nBest,  \n[Your Name]\n\n## 6\n\nMy writing style is clear, warm, and adaptable, with an emphasis on being useful without losing a natural human tone.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 221,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 589,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 221,
+  "completion_tokens": 589,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 221,
+    "completion_tokens": 589,
+    "total_tokens": 810,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 50
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 9.527098708000267,
+ "ttft_content": 9.527098708000267,
+ "duration": 23.146617207999952,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_0bc6939c67f97a39016af88f474e0887d1b903d9aa5c754c5c",
+ "resp_model": "gpt-6-astra",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:41:45 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141641367593549818268d9d6Zr6JRjo0",
+  "x-request-id": "1794674496735015144f1ce054614057f2e"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794674496.44883,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-6-astra",
+  "route": "ppapi_msg",
+  "config": "ref05",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

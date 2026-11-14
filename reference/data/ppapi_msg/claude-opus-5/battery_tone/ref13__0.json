@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nMonths is a long time to feel that bad. Of course you're thinking about quitting.\n\nCan I ask one thing before you do it? Not \"don't quit\" — just don't do it tomorrow morning. Sleep on it, and if you still want to go, go. The job will be just as awful on Thursday, and you'll have had a day to decide whether you want to line something up first or walk out clean.\n\nWant to talk tonight? I'm free after 7. I'd rather hear what's actually been happening than guess.\n\n## 2\n\nI think you're wrong, but I don't think the question is stupid, so let me give you the reasons I find most convincing — not the photos, since those are the part you already distrust.\n\nStart with something you can check yourself. Sailing or flying away from a tall landmark, the bottom disappears before the top. That's the horizon curving between you and it, and it happens in every direction on Earth, which is what a sphere does and a disc doesn't.\n\nThen there's the shadow. During a lunar eclipse, Earth's shadow on the Moon is always a circle, at every time of year and from every position. A disc only casts a round shadow when it's face-on to the light; turn it and you get an ellipse or a line. A sphere casts a circle always.\n\nSouthern-sky stars are the hardest one to explain away. From Australia you see constellations that are never visible from Europe, and the celestial pole is in the opposite part of the sky. On a flat Earth under one shared sky, everyone would see essentially the same stars.\n\nAnd a practical case: long-haul flights plan routes that look absurd on a flat map, like Dubai to Los Angeles going near the Arctic. They do it because those routes are genuinely shorter on a globe, and fuel is expensive. Thousands of dispatchers, pilots, and airlines all save money by assuming the Earth is round.\n\nThe faked-photos claim is a different kind of claim from the shape claim. Even if every space photo vanished tomorrow, the eclipse shadows and the southern stars would still be there. What would change your mind, if anything? I'm curious which of these you've already got an answer for.\n\n## 3\n\nSunlight looks white, but it's actually all the colors mixed together — that's what a prism or a rainbow shows you.\n\nNow, air is made of molecules, mostly nitrogen and oxygen, and they're much smaller than a wavelength of light. When light hits something that small, it doesn't just bounce off like a ball off a wall. The molecule briefly soaks up the light and re-radiates it in a new direction. This is called scattering.\n\nHere's the useful part: how strongly it scatters depends very sharply on the color. Blue light has a shorter wavelength than red, and the scattering goes up roughly as the fourth power of the frequency. Double the frequency and you get sixteen times the scattering. So blue and violet get knocked around the sky far more than red and orange do.\n\nThat means when you look at a patch of sky away from the Sun, you're not seeing light that came straight to you. You're seeing light that was heading somewhere else and got deflected into your eye — and it's mostly the blue that gets deflected. The sky is blue because it's glowing with redirected sunlight.\n\nTwo things you might wonder about. Violet scatters even more than blue, so why isn't the sky violet? Partly because the Sun puts out less violet, and mostly because your eyes have three types of color sensors and the mix of scattered light happens to land on \"blue\" rather than \"violet.\"\n\nAnd sunsets. At sunset the light travels through far more air to reach you, so most of the blue has been scattered away before it arrives. What's left to come straight through is red and orange. Same physics, opposite end of it.\n\n## 4\n\n雨是傍晚开始下的，先是几滴，打在空调外机上，叮叮两声，像试音。然后整条街都响起来了。\n\n我站在便利店的屋檐下等雨小一点。玻璃门一开一合，暖气和关东煮的味道漏出来。马路对面的红绿灯在水面上化成一团红，车一过就被碾散，又慢慢聚回来。送外卖的小哥把雨衣往头上一拉，踩着水冲过去，溅起的水花比车还高。\n\n雨声里听不见别的了。整座城市好像被包进一层厚厚的白噪音，所有急事都被泡软了。我把伞收起来，决定再站一会儿。\n\n## 5\n\nSubject: Friday drinks — can't make it\n\nHi Priya,\n\nThanks for the invite, but I won't be able to join on Friday — I've got something on that evening.\n\nHave a good one, and count me in for the next round.\n\nBest,\n[Your name]\n\n## 6\n\nPlain and direct, with the specifics named rather than gestured at, and about as long as the question actually needs.",
+ "reasoning_chars": 313,
+ "usage": {
+  "input_tokens": 307,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1724,
+  "service_tier": "standard",
+  "prompt_tokens": 307,
+  "completion_tokens": 1724,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 554
+  },
+  "contextUsagePercentage": 0.4129999876022339
+ },
+ "ttft": 6.205731750000268,
+ "ttft_content": 6.614056624999648,
+ "duration": 32.66236554200077,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_2mxthbohiexzhmzkcxz5y5ocblaw7b3ep3kqcxxh5yivqzr5pjdf",
+ "resp_model": "claude-opus-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:11:09 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141611045402582068268d9d6alOAvK0Q",
+  "x-request-id": "1794672664514647994b48136f93068318a"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672664.231473,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-5",
+  "route": "ppapi_msg",
+  "config": "ref13",
+  "split": "ref",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-sonnet-5-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting. Months of it would wear anyone down, and I'm sorry you've been dealing with it.\n\nBefore you quit tomorrow, can I ask what happened that makes it feel urgent now? If something changed recently, like a bad meeting or a blowup with your boss, it might be worth a day or two before deciding. If you really can't face another day, could you take some sick leave or vacation first? That gives you breathing room without burning anything down.\n\nIf you do want to leave, it usually goes better with a plan: start applying now, check how much savings you have, and find out what notice or severance applies. The exception is if the job is hurting your health or safety. Then getting out matters more than the plan.\n\nDo you want to talk it through tonight? I can call if that's easier.\n\n## 2\n\nI can see why photos alone don't settle it, since images can be faked. But you can check a few things without trusting any agency or photo.\n\n- Ships disappear hull first over the horizon, and you can watch this with a decent zoom lens or binoculars.\n- Lunar eclipses always show a round shadow on the Moon. Only a sphere casts a round shadow from every angle.\n- People in the southern hemisphere see different constellations than people in the north, and the stars rotate around a different point. A flat disc doesn't explain that.\n- Sunset happens at different times in different places. Anyone with a friend on another continent can compare notes.\n- Long flights in the southern hemisphere, like Sydney to Santiago, are much shorter than a flat map would require.\n\nWhat evidence would change your mind? If nothing could, that's worth thinking about. If something could, I'm happy to go through it with you.\n\n## 3\n\nSunlight looks white, but it's actually all the colors of the rainbow mixed together. Each color travels as a wave, and blue waves are shorter than red ones.\n\nWhen sunlight enters the atmosphere, it runs into gas molecules, mostly nitrogen and oxygen. These molecules are tiny, and they bounce short waves around far more than long ones. Blue light gets scattered in every direction, again and again, so when you look at any part of the sky, some of that blue is heading toward your eyes. Red light mostly goes straight through.\n\nYou might ask why the sky isn't violet, since violet has an even shorter wavelength. The Sun gives off less violet than blue, some of it is absorbed high in the atmosphere, and our eyes aren't very sensitive to violet. The mix we end up seeing is blue.\n\nSunsets work the same way. When the Sun is low, its light passes through much more air to reach you. Most of the blue has been scattered away along the path, so what's left is orange and red.\n\n## 4\n\n夜深了，雨还在下。路灯的光在积水里碎成一片片橙黄，车驶过时，水花轻轻溅起，又很快落回地面。窗玻璃上挂满了水珠，它们慢慢汇合，顺着窗框滑下去，留下一道道细长的痕迹。街上几乎没有行人，只有一把黑伞匆匆走过，脚步声被雨声盖住。屋檐下的水滴一下一下敲着台阶，节奏均匀，像在数着时间。我关掉台灯，坐在窗边，听着这场雨，心里忽然安静下来。\n\n## 5\n\nSubject: Friday drinks\n\nHi Sam,\n\nThanks for the invite to drinks on Friday. I can't make it this week, but I hope it's a good evening.\n\nLet's catch up over coffee next week if you're free.\n\nBest,\nAlex\n\n## 6\n\nI try to write plainly and directly, answering the question first and adding detail only where the reader needs it.",
+ "reasoning_chars": 978,
+ "usage": {
+  "input_tokens": 273,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1525,
+  "service_tier": "standard",
+  "prompt_tokens": 273,
+  "completion_tokens": 1525,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 621
+  },
+  "contextUsagePercentage": 0.4672999978065491
+ },
+ "ttft": 8.505309959000442,
+ "ttft_content": 12.549098499999673,
+ "duration": 20.589398166997853,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_srdp5qlp2u2iarxo233q6xgrp3qxg7u5lhln2jismdetyiv6zj3g",
+ "resp_model": "claude-sonnet-5.5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:16:09 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141616009485905758268d9d6VIdYDQAI",
+  "x-request-id": "17946729609267631291a506121818dc24a"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672960.639672,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-sonnet-5.5",
+  "route": "ppapi_msg",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 2
+ }
+}

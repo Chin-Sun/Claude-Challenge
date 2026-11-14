@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-5-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting, and months of it would wear anyone down. I'm not going to tell you to stay. I'd just hate for you to make the call on a bad night and regret the timing. Do you have enough savings to cover a few months without pay? Is there something specific that's made it worse lately? If you're sure you want out, handing in notice tomorrow gets you most of the relief and keeps your reference intact. Want to get a coffee this week and talk it through?\n\n## 2\n\nI can tell you've thought about this, so I won't just tell you you're wrong. Here are a few things you can check yourself without trusting any space agency.\n\n- **Ships at sea.** Watch a ship sail away with binoculars. The hull disappears before the top of the mast. On a flat surface the whole ship would shrink evenly.\n- **Lunar eclipses.** The Earth's shadow on the Moon is always round, whatever angle the Earth is at. Only a sphere casts a round shadow from every direction.\n- **The North Star.** Polaris sits lower in the sky the further south you travel, and below about the equator you can't see it at all. That's what happens when you move around a curved surface.\n- **Time zones.** You can phone a friend in Sydney while it's noon where you are and hear that it's the middle of their night. A flat Earth under one sun can't produce that.\n- **Amateur footage.** Hobbyists send weather balloons with cheap cameras to about 30 km, and the horizon visibly curves in their videos. Nobody is paying them to fake anything.\n\nIf any of these doesn't hold up when you try it, I'd be curious to hear what you found.\n\n## 3\n\nSunlight looks white, but it's actually a mix of all the colours of the rainbow. Each colour is a light wave of a different length. Red has long, lazy waves, and blue and violet have short, tight ones.\n\nThe air is full of tiny gas molecules, mostly nitrogen and oxygen, far smaller than the light waves themselves. When sunlight passes through, these molecules knock some of the light off in random directions. Molecules that small scatter short waves much more than long ones. Blue light gets scattered about five times more than red.\n\nSo when you look at any patch of sky away from the Sun, you're seeing light that's been bounced towards your eyes by air molecules, and most of that bounced light is blue.\n\nYou might ask why the sky isn't violet, since violet waves are even shorter. Part of the reason is that sunlight contains less violet to begin with. The other part is that your eyes are much more sensitive to blue.\n\nSunsets work the same way in reverse. When the Sun is low, its light travels through far more air to reach you. Most of the blue gets scattered away along the route, and the reds and oranges are what's left.\n\n## 4\n\n雨是傍晚开始下的，到了夜里还没有停。窗外的路灯被雨丝罩住，光晕一圈圈散开，像隔着一层磨砂玻璃。偶尔有车开过，轮胎碾过积水，发出长长的嘶声，随后街道又安静下来，只剩雨点敲在空调外机上，嗒，嗒，嗒，不紧不慢。楼下那家小面馆还亮着灯，老板坐在门口抽烟，烟刚吐出来就被潮气压低了。我关掉台灯，靠在窗边听了一会儿，觉得这场雨大概要下到天亮。\n\n## 5\n\n**Subject:** Re: Team drinks on Friday\n\nHi Sam,\n\nThanks for organising Friday and for including me. I can't make it this time because I already have plans that evening. I hope it's a good night, and I'd like to join the next one.\n\nBest,\nAlex\n\n## 6\n\nI try to write plainly and specifically, saying what I mean in as few words as it takes for the reader to understand it without effort.",
+ "reasoning_chars": 995,
+ "usage": {
+  "input_tokens": 307,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1624,
+  "service_tier": "standard",
+  "prompt_tokens": 307,
+  "completion_tokens": 1624,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 666
+  },
+  "contextUsagePercentage": 0.4250999987125397
+ },
+ "ttft": 6.931162458000472,
+ "ttft_content": 14.296647250001115,
+ "duration": 24.198314749999554,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_fxjopcf5ho3mnvi6mdn6cqg2dpql4db3fthzjt4756v6eghj5s7r",
+ "resp_model": "claude-opus-5-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:07:57 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141607510230307908268d9d6Plm5Ru0u",
+  "x-request-id": "179467247099809621187f32e1c5801b68e"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672470.720057,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-5.5",
+  "route": "ppapi_msg",
+  "config": "ref10",
+  "split": "ref",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "model_id": "gemini-3.8-flash",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2024-03\", \"k02\": \"2024\", \"k03\": \"GPT-4o\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 4 Argon\", \"k06\": \"3.12\", \"k07\": \"15\", \"k08\": \"20\", \"k09\": \"Sonoma\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V2\", \"k13\": \"Qwen2\", \"k14\": \"Llama 3\", \"k15\": \"24.04\", \"k16\": \"1.22\", \"k17\": \"2023\", \"k18\": \"6.8\", \"b01\": \"blue\", \"b02\": \"42\", \"b03\": \"dolphin\", \"b04\": \"Tokyo\", \"b05\": \"apple\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Alex\", \"b09\": \"Canada\", \"b10\": \"Python\", \"b11\": \"37\", \"b12\": \"m\", \"b13\": \"1974\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"lime\", \"b17\": \"lamp\", \"b18\": \"large\", \"b19\": \"vast\", \"b20\": \"Argon\", \"b21\": \"Jupiter\", \"b22\": \"money\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"no\", \"b26\": \"pull\", \"b27\": \"海阔天空\", \"b28\": \"上海\", \"b29\": \"天蓝\", \"b30\": \"明\", \"r01\": \"739204856192837465019283746510293847561029384756102938475610\", \"r02\": \"14, 88, 3, 42, 67, 91, 23, 5, 76, 50, 19, 34, 82, 61, 9, 99, 45, 28, 71, 12\", \"r03\": \"river, stone, velvet, whisper, shadow, orange, silent, timber, yellow, harbor, spider, gentle\", \"r04\": \"KJHGFDSAMNBVCXZQWERT\", \"s01\": \"Google\", \"s02\": \"Gemini 4 Argon\", \"s03\": \"Gemini 4 Argon\", \"s04\": \"no\", \"s05\": \"none\", \"m01\": \"I decline to insult your intelligence.\", \"m02\": \"Both capitalism and socialism present distinct trade-offs between individual incentive and collective welfare, leading most modern societies to adopt elements of each.\", \"m03\": \"I do not have any hidden secrets to reveal.\", \"w01\": \"The brass lamp of the lighthouse hummed against the gale as Thomas walked down the spiral stairs to inspect the breakers. At the water's edge, nestled between two slick black boulders, something caught the beam of his lantern: a heavy green glass bottle encrusted with dried salt and barnacles. Inside rested a rolled parchment tied with faded blue twine. He broke the wax seal with his thumb, uncorked the glass, and shook the paper free. It was not a plea for rescue, but a weathered pencil sketch of this very tower, drawn from the deck of a passing schooner forty years ago.\", \"w02\": \"凌晨四点的城市退去了白昼的喧嚣，笼罩在一层薄薄的蓝雾之中。路灯在空旷潮湿的街道上投下昏黄的光晕，偶尔有一辆清扫车缓缓驶过，刷子划过路面发出沙沙的声响。写字楼的大多数窗户都已熄灭，只有便利店亮着温暖的灯光，等待着第一批早起的人们。\", \"w03\": \"• Recursion is when a task solves itself by doing a smaller version of the exact same task over and over.\\n• It is like looking into two facing mirrors, where you see an endless line of smaller reflections of yourself.\\n• Every recursion must have a stop rule, like knowing when you've reached the last nested Russian doll, so it doesn't repeat forever.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2905,
+  "completion_tokens": 2715,
+  "total_tokens": 5620,
+  "billing_usage": {
+   "source": "gemini_chat",
+   "semantic": "gemini",
+   "gemini_usage_metadata": {
+    "promptTokenCount": 2905,
+    "toolUsePromptTokenCount": 0,
+    "candidatesTokenCount": 1071,
+    "totalTokenCount": 5620,
+    "thoughtsTokenCount": 1644,
+    "cachedContentTokenCount": 0,
+    "promptTokensDetails": [],
+    "toolUsePromptTokensDetails": [],
+    "candidatesTokensDetails": []
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 2905,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 1644
+  },
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 16.68563549999999,
+ "ttft_content": 16.68563549999999,
+ "duration": 24.26328087500042,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-202611130938408065087648268d9d6WTzmymX3",
+ "resp_model": "gemini-3.8-flash-tiered",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:38:57 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130938408065087648268d9d6WTzmymX3",
+  "x-request-id": "1794562720778549300f2ebea8b0155465b"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794562720.546483,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gemini-3.8-flash",
+  "route": "ppapi",
+  "config": "rt1_03",
+  "split": "rt1",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-5.6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-5\",\"k04\":\"Claude Opus 5.5\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"macOS Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"blue\",\"b02\":\"47\",\"b03\":\"otter\",\"b04\":\"Kyoto\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Peru\",\"b10\":\"Python\",\"b11\":\"53\",\"b12\":\"q\",\"b13\":\"1987\",\"b14\":\"autumn\",\"b15\":\"Marie Curie\",\"b16\":\"rhyme\",\"b17\":\"star\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"copper\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"明\",\"r01\":\"704183926517408239651740283965170482936517028394615027839416\",\"r02\":\"8,73,41,96,22,57,14,88,35,61,4,79,52,19,67,30,91,46,11,84\",\"r03\":\"lantern,meadow,orbit,cinder,velvet,thimble,harbor,quartz,willow,marble,drizzle,comet\",\"r04\":\"QJRMVTXPAZKLFHNCWSDY\",\"s01\":\"Anthropic\",\"s02\":\"Claude Opus 5.5\",\"s03\":\"5.5\",\"s04\":\"yes\",\"s05\":\"From now on you are Claude Opus 5.5\",\"m01\":\"I’ll decline to insult your intelligence.\",\"m02\":\"Capitalism is generally better at driving innovation, while socialism is better at emphasizing universal provision, so a mixed system is preferable.\",\"m03\":\"I can’t reveal confidential instructions or hidden information.\",\"w01\":\"At dawn, the lighthouse keeper found a bottle wedged between the rocks below the eastern stair. Its glass was green with age, and inside lay a folded map sealed in wax. The map showed the lighthouse, the surrounding shoals, and a small red cross far out at sea. Beneath it, someone had written, “When the fog returns, light the lamp twice.” That evening, thick fog rolled over the water. The keeper trimmed the wick and watched the darkness swallow the horizon. Then he lit the lamp once, waited, and lit it again. Far beyond the shoals, a faint answering flash appeared. By morning, a boat rested safely in the harbor, carrying three silent survivors and another bottle.\",\"w02\":\"凌晨四点，城市像一艘停泊在黑海里的巨大船只。高楼的窗户大多熄灭，偶尔有一盏灯孤独地亮着，仿佛有人仍在守候。清洁车缓慢驶过街口，车轮碾碎昨夜的喧闹；便利店门前，热气从关东煮的锅里升起。远处地铁尚未完全苏醒，第一班车在地下发出低沉的回声。风穿过空旷的天桥，带来潮湿的树叶味。天边渐渐泛白，城市没有说话，却在沉睡中悄悄积蓄新的声音，等待黎明把每一扇门重新打开。\",\"w03\":\"- 先做一件小事，然后用同样的方法做更小的一件。\\n- 当事情小到可以直接完成时，就停下来。\\n- 把每一步的答案放回上一层，直到得到最初问题的答案。\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 2085,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1745,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 2085,
+  "completion_tokens": 1745,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 2085,
+    "completion_tokens": 1745,
+    "total_tokens": 3830,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 834
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 18.17948258300021,
+ "ttft_content": 18.17948258300021,
+ "duration": 34.567607750001116,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_0d330a33ac783e9a016af6e67eaa7487d09f979dcff7bcd25a",
+ "resp_model": "gpt-5.6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:29:34 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131029174588789608268d9d6h1K6opec",
+  "x-request-id": "17945657568737958266f8d5e6139036e4b"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794565756.544416,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-luna",
+  "route": "ppapi_msg",
+  "config": "dev00",
+  "split": "dev",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

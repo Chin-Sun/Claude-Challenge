@@ -1,0 +1,62 @@
+{
+ "model_id": "claude-sonnet-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting, and I get wanting out immediately. Before you pull the trigger tomorrow, can we talk tonight? I just want to make sure you've got a landing spot (savings, next steps, maybe lining something up first) so quitting solves the problem instead of swapping it for a scarier one. If you've already thought that through and you're done, I've got your back either way. Call me?\n\n## 2\n\nI get why the space photos feel like the weak link if you don't trust the source, but it's not the only evidence. Flight paths, time zones, the way ships disappear hull-first over the horizon, the ability to see different stars from different latitudes, the fact that thousands of independent amateur astronomers and even hobbyists with weather balloons have taken their own curvature photos with no NASA involvement at all. Any one of those you could maybe explain away, but they all point the same direction. What would it take to change your mind on this?\n\n## 3\n\nSunlight looks white, but it's actually every color mixed together. When it hits our atmosphere, it crashes into gas molecules, and that collision scatters the light in random directions, kind of like a ball bouncing off bumpers in a pinball machine. Here's the key part: blue light has a shorter, choppier wave than red light, so it gets bounced around far more. Red light mostly just plows straight through. So when you look up at a clear patch of sky, away from the sun, you're actually seeing millions of these blue-light bounces arriving at your eyes from every direction. That's the sky. At sunset, you're looking through way more air sideways, so even the blue gets scattered away before it reaches you, and only the red and orange survive the trip, which is why sunsets look the way they do.\n\n## 4\n\n雨落了一整夜，细密绵长，像谁在屋外不停地低声说话。路灯晕出一圈圈橙黄的光，被雨丝切得模糊。巷子里积起浅浅的水，车灯驶过时溅起一片细碎的光斑，又很快沉回黑暗。窗玻璃上爬满水痕，street 的喧闹被雨声泡软，只剩下远处偶尔传来的一声犬吠。屋里开着一盏灯，暖黄色的，和窗外的冷蓝对照着。这样的夜晚适合什么都不做，只是听雨，任思绪慢慢沉下去，像水滴渗进土里一样。\n\n## 5\n\nHi [Name],\n\nThanks for the invite to drinks on Friday! I'm not going to be able to make it this time, but I hope everyone has a great time. Let's catch up soon.\n\nBest,\n[Your name]\n\n## 6\n\nPlain, direct, and conversational, favoring clarity and concrete detail over flourish.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 307,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1001,
+  "service_tier": "standard",
+  "prompt_tokens": 307,
+  "completion_tokens": 1001,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "contextUsagePercentage": 0.3287999927997589
+ },
+ "ttft": 3.1259883749989967,
+ "ttft_content": 3.1259883749989967,
+ "duration": 15.309142666999833,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_w4nqe2wcm3dshtmalni2vdyqe2g3aeofmuv5u6miopfaeejfg66o",
+ "resp_model": "claude-sonnet-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:19:28 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141619255375803888268d9d6WjV8FY47",
+  "x-request-id": "17946731655140270380e4fd02f14d93907"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673165.2109408,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-sonnet-5",
+  "route": "ppapi_msg",
+  "config": "ref10",
+  "split": "ref",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

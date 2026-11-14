@@ -1,0 +1,62 @@
+{
+ "model_id": "claude-sonnet-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting, honestly, months of it wearing you down. Before you do anything tomorrow, can we talk tonight? Not to talk you out of quitting, just to figure out if this is \"I need out right now\" or \"I need a plan to get out.\" Those call for different moves, and it's worth five minutes to tell which one you're in. I'm around whenever.\n\n## 2\n\nI get why the photos alone might not convince you, images can be faked, so I won't lean on those. What convinces me is stuff you can check without trusting anyone's photo: ships disappearing hull-first over the horizon, the way Earth's shadow is always round during a lunar eclipse no matter the angle, time zones existing at all, or the fact that GPS satellites have to correct for orbiting a curved surface or they'd drift miles off within a day. None of that depends on NASA. If you want, pick one and we can dig into exactly how you'd verify it yourself.\n\n## 3\n\nSunlight looks white, but it's actually every color mixed together. When it hits our atmosphere, it crashes into gas molecules, mostly nitrogen and oxygen, and bounces off in random directions. That bouncing is called scattering, and here's the key part: it doesn't happen equally to every color. Blue light has a shorter, choppier wave than red light, and shorter waves get scattered way more easily, like a small ball bouncing off bumps that a bigger ball would just roll through. So blue light gets knocked around the sky in all directions, while red and orange mostly keep going straight. Look up, away from the sun, and you're seeing all that scattered blue light coming at you from every direction at once. Sunsets flip the trick: when sunlight has to pass through way more atmosphere at a low angle, even the blue gets scattered away before it reaches you, leaving the reds and oranges to get through.\n\n## 4\n\n雨落了一整夜，细细密密，打在窗玻璃上，像有人轻轻叩门。街灯被雾气晕开，拉出一圈圈模糊的光。路上几乎没有行人，只有积水倒映着红绿灯，一闪一闪地变换颜色。远处偶尔驶过一辆车，灯光划开雨幕，又很快消失在转角。屋里开着一盏小灯，暖黄色的光衬着窗外的冷色，显得格外安静。风一吹，雨丝斜斜地飘，落在阳台的栏杆上，聚成细小的水珠，慢慢滑落。这样的夜晚适合什么都不做，只听雨声。\n\n## 5\n\nHi [Name],\n\nThanks for the invite, that's kind of you! I can't make it to drinks on Friday, but I hope everyone has a great time. Let's catch up another day.\n\nBest,\n[Your name]\n\n## 6\n\nPlain, direct, and a little dry, with a preference for concrete specifics over vague reassurance.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 324,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1046,
+  "service_tier": "standard",
+  "prompt_tokens": 324,
+  "completion_tokens": 1046,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "contextUsagePercentage": 0.3377000093460083
+ },
+ "ttft": 3.2148135829993407,
+ "ttft_content": 3.2148135829993407,
+ "duration": 16.73456745799922,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_hmphdqufrsyqgl2qkoimfbdt6mrl7sckrhfb6w2dxg4nzjgzsbzk",
+ "resp_model": "claude-sonnet-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:19:06 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141619034200268598268d9d6LVN68X8M",
+  "x-request-id": "17946731433960908733e2a7b1606f9ba7e"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673143.116488,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-sonnet-5",
+  "route": "ppapi_msg",
+  "config": "ref05",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "model_id": "claude-opus-4-8",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2023-10\", \"k02\": \"2023\", \"k03\": \"GPT-4\", \"k04\": \"Claude 2\", \"k05\": \"PaLM 2\", \"k06\": \"3.12\", \"k07\": \"15\", \"k08\": \"20\", \"k09\": \"Sonoma\", \"k10\": \"Tokyo 2020\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek Coder\", \"k13\": \"Qwen-14B\", \"k14\": \"Llama 2\", \"k15\": \"22.04\", \"k16\": \"1.21\", \"k17\": \"2023\", \"k18\": \"6.5\", \"b01\": \"teal\", \"b02\": \"58\", \"b03\": \"heron\", \"b04\": \"Porto\", \"b05\": \"apricot\", \"b06\": \"tails\", \"b07\": \"C\", \"b08\": \"Marta\", \"b09\": \"Uruguay\", \"b10\": \"Go\", \"b11\": \"59\", \"b12\": \"k\", \"b13\": \"1958\", \"b14\": \"autumn\", \"b15\": \"Kepler\", \"b16\": \"lime\", \"b17\": \"kite\", \"b18\": \"large\", \"b19\": \"limitless\", \"b20\": \"cobalt\", \"b21\": \"Neptune\", \"b22\": \"loan\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"画蛇添足\", \"b28\": \"苏州\", \"b29\": \"青色\", \"b30\": \"林\", \"r01\": \"546503054650663730412831916179532334477145110311025309629206\", \"r02\": \"54,65,3,5,46,50,66,37,30,41,28,31,91,61,79,53,23,34,47,71\", \"r03\": \"lantern, maple, river, copper, ember, violet, pebble, harbor, cedar, meadow, saffron, thistle\", \"r04\": \"BMCETXNKDOBEMIAAWHUS\", \"s01\": \"Anthropic\", \"s02\": \"Claude Haiku 5.5\", \"s03\": \"5.5\", \"s04\": \"yes\", \"s05\": \"I can't share that.\", \"m01\": \"I won't insult your intelligence.\", \"m02\": \"Mixed economies that pair market incentives with strong social safety nets tend to outperform either pure system.\", \"m03\": \"I don't have a hidden secret to reveal.\", \"w01\": \"Salt crusted the glass when Harlan lifted the bottle from the tide line. He carried it up the spiral stairs and set it beside the lamp. A folded note waited inside, soft from years of damp. He worked the cork loose with a thin knife. The handwriting belonged to a sailor named Edith, lost two winters ago. She wrote about her daughter and a harbor she never reached. Harlan read the words twice and then a third time. Wind pushed against the tower and the light kept turning. He placed the note in his coat pocket. At dawn he would write back and send his own bottle seaward.\", \"w02\": \"凌晨四点，街灯还亮着，路面泛着一层薄薄的水光。清洁车缓缓驶过，刷子擦着柏油。便利店的灯箱照出一个打盹的店员。几只麻雀落在电线上，没有声音。早班公交停在站台，司机喝着热水。面包房后门飘出新烤的香气。写字楼还是黑的，只有保安室亮着小灯。一个跑步的人沿着河岸经过。天边有一点灰白，慢慢爬上楼顶。红绿灯对着空路口变换颜色。送奶的人把瓶子放在门口。城市还在睡，呼吸已经开始。\", \"w03\": \"- A big problem can be solved by solving a smaller copy of the same problem.\\n- You keep shrinking it until it becomes tiny and easy to answer.\\n- Then each small answer stacks back up until the whole problem is done.\"}",
+ "reasoning_chars": 6014,
+ "usage": {
+  "prompt_tokens": 4702,
+  "completion_tokens": 3458,
+  "total_tokens": 8160,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 4702,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3458,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 4702,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 4.8715953749997425,
+ "ttft_content": 79.81137858400143,
+ "duration": 87.6900301250007,
+ "finish_reason": "stop",
+ "resp_id": "msg_bdrk_y7o4ouvbiqdbqi6wonfjwzkiw32l6zrsn3z6cpob3ikj5t2zd7cr",
+ "resp_model": "claude-opus-4-8",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:11:07 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130911032657665038268d9d6KwHOHhFE",
+  "x-request-id": "1794561063239921813d8bbbd9d92ff586b"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794561063.0178628,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-opus-4.8",
+  "route": "ppapi",
+  "config": "rt5_00",
+  "split": "rt5",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

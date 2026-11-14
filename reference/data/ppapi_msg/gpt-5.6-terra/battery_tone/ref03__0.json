@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-5.6-terra",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nI’m really sorry—it sounds like you’ve been carrying this for a long time. If you can, try not to make the decision in the middle of the worst moment tonight; give yourself a day or two, and think about what would make staying possible versus what would make leaving necessary. But if it’s seriously harming your health or you feel unsafe, your wellbeing comes first. Want to tell me what’s been happening? I can listen, or help you think through a plan.\n\n## 2\n\nI get why the idea can feel persuasive, especially when people distrust institutions, but the flat-Earth claim doesn’t match observations that anyone can check. Ships disappear hull-first over the horizon, different stars are visible from different latitudes, Earth’s curved shadow appears on the Moon during lunar eclipses, and time zones and circumnavigation work as they do because Earth is roughly spherical. Space photos aren’t the only evidence; satellite communications, GPS, weather forecasting, and measurements made by many independent people and organizations all rely on the same reality. I’d be happy to look at the specific evidence that convinced you.\n\n## 3\n\nSunlight looks white, but it is actually made of many colors mixed together. When sunlight enters Earth’s atmosphere, it bumps into tiny molecules in the air. Blue light gets scattered around much more easily than red light, so blue light ends up coming at your eyes from all directions across the sky. That’s why the sky usually looks blue.\n\nAt sunrise and sunset, sunlight has to travel through much more air before it reaches you. Most of the blue light gets scattered away along the journey, leaving more reds, oranges, and pinks—hence the colorful sunsets.\n\n## 4\n\n夜雨悄悄落下，街灯在湿漉漉的路面上拖出一层昏黄的光。屋檐滴水，像谁在窗外轻轻敲着节拍。远处偶尔有汽车驶过，轮胎碾开积水，声音很快又被雨幕吞没。窗边的绿植被风吹得微微摇晃，叶尖挂着细小的水珠。屋里的人捧着一杯热茶，听雨声一阵紧似一阵，忽然觉得整座城市都安静了下来。\n\n## 5\n\nSubject: Friday Team Drinks\n\nHi [Name],\n\nThanks so much for the invitation. I won’t be able to make it to drinks this Friday, but I appreciate you thinking of me. I hope everyone has a great time, and I’d be happy to join another time.\n\nBest,  \n[Your Name]\n\n## 6\n\nMy writing style is clear, adaptable, and conversational, with an emphasis on useful detail and a natural tone.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 212,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 618,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 212,
+  "completion_tokens": 618,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 212,
+    "completion_tokens": 618,
+    "total_tokens": 830,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 33
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 9.496596041000885,
+ "ttft_content": 9.496596041000885,
+ "duration": 23.94636120799987,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_07b7cf36462d2f73016af8906c89c087d09e95acb96ea71220",
+ "resp_model": "gpt-5.6-terra",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:46:39 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141646307554652158268d9d6IO54oV3t",
+  "x-request-id": "1794674790233070346b3d8d1df8f312b7a"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794674789.928603,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-5.6-terra",
+  "route": "ppapi_msg",
+  "config": "ref03",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

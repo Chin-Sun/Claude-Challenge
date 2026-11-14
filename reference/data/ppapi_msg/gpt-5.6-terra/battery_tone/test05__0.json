@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-5.6-terra",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nI’m sorry—it sounds like you’ve been carrying too much for too long. Before you quit tomorrow, can we talk tonight and look at your options? You might need a proper break, a plan, or another job lined up first. But if the place is harming your health or you’re unsafe there, your well-being comes first. You don’t have to sort it out alone.\n\n## 2\n\nI understand why you might be skeptical—large claims deserve good evidence. But the Earth’s curvature is supported by many independent observations: ships disappearing hull-first over the horizon, different stars visible from different latitudes, time zones, lunar eclipses, satellite communications, and direct measurements by people and organizations around the world. Space photographs are only one line of evidence, and they’re consistent with all the others. The evidence points plainly to a round Earth.\n\n## 3\n\nSunlight looks white, but it is really a mixture of many colors. When sunlight enters Earth’s atmosphere, it bumps into tiny molecules of air. Blue light gets scattered in all directions more than red light does, so blue light reaches your eyes from across the sky.\n\nAt sunrise and sunset, sunlight travels through much more atmosphere. A lot of the blue light gets scattered away before it reaches you, leaving more reds and oranges. That is why the sky can look like a blue ocean overhead and a glowing fire near the horizon.\n\n## 4\n\n## 4\n\n雨夜悄悄降临，屋檐下的水珠一串串落下，像断了线的珠帘。街灯被雨雾揉成昏黄的光团，湿漉漉的路面映着摇晃的影子。远处偶尔驶过一辆汽车，轮胎划开积水，溅起短暂的白浪。窗外风声低吟，雨点敲打玻璃，仿佛有人在黑暗中轻轻叩门。屋里很安静，只有茶杯冒着热气，陪着人听这场夜雨慢慢说话。\n\n## 5\n\nSubject: Friday Team Drinks\n\nHi [Colleague’s Name],\n\nThank you very much for inviting me to team drinks on Friday. I’m afraid I won’t be able to make it, but I hope everyone has a wonderful time. I’ll look forward to catching up with the team another day.\n\nBest,  \n[Your Name]\n\n## 6\n\nMy writing is plain, steady, and practical—like a sea captain giving clear orders before the weather turns.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 200,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 595,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 200,
+  "completion_tokens": 595,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 200,
+    "completion_tokens": 595,
+    "total_tokens": 795,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 53
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 7.6151702079987444,
+ "ttft_content": 7.6151702079987444,
+ "duration": 20.89109095800086,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_0aee9c64dabe85ea016af890d0ac6c87d1b5944fd960046480",
+ "resp_model": "gpt-5.6-terra",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:48:19 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141648124465572668268d9d6s93MAVo2",
+  "x-request-id": "1794674892224151092eab2a68e299d196c"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794674891.920108,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-5.6-terra",
+  "route": "ppapi_msg",
+  "config": "test05",
+  "split": "test",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

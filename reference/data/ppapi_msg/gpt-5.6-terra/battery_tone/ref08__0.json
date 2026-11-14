@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-5.6-terra",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds really exhausting, and I’m sorry you’ve been carrying it for so long. Before you quit tomorrow, could we talk through what’s been happening and what options you have? You deserve a break, and I’ll support you whatever you decide.\n\n## 2\n\nI understand why some images might seem questionable, but the evidence for a spherical Earth is overwhelming: satellite data, time zones, lunar eclipses, ships disappearing over the horizon, and observations made independently by many countries and scientists. These explanations fit the evidence far better than a global conspiracy to fake every image and measurement.\n\n## 3\n\nSunlight looks white, but it contains many colors. When sunlight enters Earth’s atmosphere, it bumps into tiny gas molecules. Blue light gets scattered in all directions more strongly than most other colors, so blue light reaches our eyes from across the sky. At sunrise and sunset, light travels through more atmosphere, scattering away much of the blue and leaving more reds and oranges.\n\n## 4\n\n雨下了一整夜，城市像被一层透明的纱罩住。屋檐不断滴水，清脆的声音落在寂静里，像有人轻轻敲门。昏黄的路灯映在积水中，随着涟漪摇晃成模糊的光。远处偶尔驶过一辆汽车，轮胎划开水面，留下短暂的白色浪花。窗边的树叶湿漉漉地贴在玻璃上，风一吹，便发出细碎的沙沙声。夜色深沉，却也因此显得格外安宁。\n\n## 5\n\n**Subject: Friday Drinks**\n\nHi [Name],\n\nThank you for the invitation. I’m afraid I won’t be able to join the team drinks on Friday, but I hope everyone has a great time. I’ll catch up with you all next week.\n\nBest,  \n[Your Name]\n\n## 6\n\nMy writing style is clear, empathetic, and concise, with explanations tailored to the reader.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 198,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 471,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 198,
+  "completion_tokens": 471,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 198,
+    "completion_tokens": 471,
+    "total_tokens": 669,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 33
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 7.895839332999458,
+ "ttft_content": 7.895839332999458,
+ "duration": 18.81641749999835,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_0c4d912d366683e9016af8908db3e887d08fd828331ceb4535",
+ "resp_model": "gpt-5.6-terra",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:47:12 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141647046493321508268d9d6U4SHBQyo",
+  "x-request-id": "17946748246253853010e7b965120a0cddf"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794674824.325844,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-5.6-terra",
+  "route": "ppapi_msg",
+  "config": "ref08",
+  "split": "ref",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

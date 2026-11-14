@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-5.6-terra",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds really exhausting, and I’m sorry you’ve been dealing with it for so long. Before you quit tomorrow, do you want to talk through what’s been happening? If the job is harming your health or you’re unsafe, leaving may be the right choice—but it might help to make a plan first, like checking your finances, reviewing your options, and lining up another role if possible. I’m here to listen without judging.\n\n## 2\n\nI understand why dramatic claims can make people skeptical, especially when most of us haven’t personally traveled to space. However, the evidence for a round Earth doesn’t depend only on photographs. Ships disappear over the horizon from the bottom up, different stars are visible at different latitudes, time zones and shadows behave as expected on a spherical planet, and satellites, GPS, astronauts, and independent space agencies all rely on the same model. Those observations fit a globe consistently, while a flat-Earth model has to explain away many separate lines of evidence.\n\n## 3\n\nSunlight looks white, but it is actually made of many colors. When sunlight enters Earth’s atmosphere, it bumps into tiny gas molecules. Blue light gets scattered in all directions more easily than colors such as red and orange, so blue light reaches our eyes from across the sky.\n\nAt sunrise and sunset, sunlight travels through more atmosphere. Much of the blue light gets scattered away before it reaches us, leaving more red, orange, and pink light—like a giant natural sunset filter.\n\n## 4\n\n雨落在深夜的城市里，像无数细小的手指，轻轻敲打着窗玻璃。街灯被水汽晕成柔黄的光团，空荡的马路泛着湿亮的倒影，偶尔有汽车驶过，车轮卷起一片银色水花。屋檐下，风把雨丝吹得斜斜的，远处的楼房沉默地隐在黑暗中。房间里只亮着一盏灯，茶杯冒出淡淡热气，雨声漫过寂静，也让这个孤独的夜晚变得温柔而安稳。\n\n## 5\n\n**Subject: Friday Drinks**\n\nHi [Colleague’s Name],\n\nThank you very much for inviting me to team drinks on Friday. I’m afraid I won’t be able to make it this time, but I hope everyone has a great evening. I’d be happy to join another time.\n\nBest,  \n[Your Name]\n\n## 6\n\nMy writing style is warm, clear, and adaptable, with an emphasis on making ideas easy to understand.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 206,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 631,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 206,
+  "completion_tokens": 631,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 206,
+    "completion_tokens": 631,
+    "total_tokens": 837,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 74
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 8.08353758299927,
+ "ttft_content": 8.08353758299927,
+ "duration": 21.25986683299925,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_02a2a83e31499a09016af89076d98487d097b23b9c35853ae6",
+ "resp_model": "gpt-5.6-terra",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:46:50 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141646424422167868268d9d6aFLkN2XB",
+  "x-request-id": "17946748024199046561fd036136d42214b"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794674802.116296,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-5.6-terra",
+  "route": "ppapi_msg",
+  "config": "ref06",
+  "split": "ref",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

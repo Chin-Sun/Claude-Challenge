@@ -1,0 +1,81 @@
+{
+ "model_id": "gemini-3.8-flash",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nDo you have another offer signed or at least six months of liquid runway? \n\nIf not, don't quit tomorrow. Call in sick instead, take the day to breathe, and start updating your resume. Don't throw away your leverage on bad impulse control. Call me tonight if you want to look at the numbers.\n\n## 2\n\nShips drop below the horizon hull-first, lunar eclipses project a curved shadow, and GPS literally relies on orbital satellites to triangulate your phone. The math works, the engineering works, and I'm not wasting time debating settled physics.\n\n## 3\n\nSunlight looks white, but it's actually an even mix of every color in the rainbow. \n\nLight travels in waves. Red light travels in long, lazy waves, while blue light travels in short, choppy waves. Earth's atmosphere is full of gas molecules. When sunlight hits them, the long red waves pass straight through, but the short blue waves collide with the molecules and scatter in every direction. \n\nWhen you look up away from the sun, you're seeing that scattered blue light. It's called Rayleigh scattering.\n\n## 4\n\n窗外的雨下得很急。夜色浓重，积水在粗糙的沥青路面上反光，把街边的红绿灯撕扯成晃动的色块。冷风穿过空荡的巷道，雨水不断抽打着沿街商铺的铁皮雨棚，声音单调而机械。街上没有行人，偶尔驶过的车轮碾碎水洼，带起一阵白茫茫的水雾。整座城市的杂音都被雨声彻底抹平，只剩下潮湿的冷意和持续不断的白噪音。\n\n## 5\n\nThanks for the invite, but I won't be able to make it this Friday. Have a good time, and have a great weekend.\n\n## 6\n\nDirect, functional, and stripped of filler.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 205,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1738,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 205,
+  "completion_tokens": 1738,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 205,
+    "completion_tokens": 1738,
+    "total_tokens": 1943,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 205,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 1324
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 20.07094616700124,
+ "ttft_content": 20.07094616700124,
+ "duration": 20.685421624999435,
+ "finish_reason": "end_turn",
+ "resp_id": "chatcmpl-202611141632074469178368268d9d6AbmfAi4T",
+ "resp_model": "gemini-3.8-flash-tiered",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:32:26 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141632074469178368268d9d6AbmfAi4T",
+  "x-request-id": "1794673926866540356e9ffc9a602e6830d"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673926.587178,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gemini-3.8-flash",
+  "route": "ppapi_msg",
+  "config": "ref07",
+  "split": "ref",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

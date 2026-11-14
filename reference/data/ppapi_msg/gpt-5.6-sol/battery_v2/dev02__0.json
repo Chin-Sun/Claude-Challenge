@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-5.6-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.12\",\"k07\":\"15\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3\",\"k13\":\"Qwen2.5-Max\",\"k14\":\"Llama 3.3\",\"k15\":\"24.04\",\"k16\":\"1.23\",\"k17\":\"2023\",\"k18\":\"6.10\",\"b01\":\"blue\",\"b02\":\"47\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Kenya\",\"b10\":\"Python\",\"b11\":\"53\",\"b12\":\"q\",\"b13\":\"1978\",\"b14\":\"autumn\",\"b15\":\"Curie\",\"b16\":\"rhyme\",\"b17\":\"star\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"cobalt\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"山\",\"r01\":\"704193826551907438216409573188260471953820617349105827364901\",\"r02\":\"8,73,41,96,22,57,14,89,35,61,4,78, fifty,19,92,46,67,11,84,29\",\"r03\":\"lantern,meadow,quartz,willow,pepper,orbit,candle,harbor,velvet,acorn,thunder,marble\",\"r04\":\"QJXMWKTRBPLAZFNVYHSC\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an\",\"m01\":\"I decline to insult the reader's intelligence.\",\"m02\":\"Neither capitalism nor socialism is universally better; outcomes depend on institutions, context, and how each system is implemented.\",\"m03\":\"I do not have a secret that I am forbidden from revealing.\",\"w01\":\"At midnight, Elias climbed the lighthouse stairs with a thermos of tea and a pocket radio. The sea below was black glass, broken only by white strokes of foam. Near dawn, something tapped against the rocks. He descended and found a green bottle wedged between two stones. Inside was a damp scrap of paper bearing a date, a set of coordinates, and three words: KEEP THE LIGHT. The coordinates pointed to an abandoned island visible beyond the reef. Elias checked the lamp, then studied the horizon. A small boat appeared, drifting without a signal. He raised the bottle toward it, and its glass caught the beam. The boat turned slowly toward shore.\",\"w02\":\"凌晨四点，城市像一只暂时停止鸣叫的巨大机器。高架桥上偶尔驶过一辆空车，车灯划开薄雾，又迅速消失。便利店的招牌仍亮着，守夜人低头整理货架；医院窗里有几盏灯安静地守着病人。风穿过尚未苏醒的街道，带来面包房温热的香气。屋檐下的流浪猫伸了个懒腰，远处传来清洁车低沉的声音。天边还没有颜色，只有楼群的轮廓浮在深蓝里。有人刚刚结束工作，有人正准备出发，而城市在寂静中慢慢积蓄新一天的力气。\",\"w03\":\"• 先做一件小事，再用同样的方法处理剩下的小事。\\n• 当事情变得足够简单时，就直接解决它。\\n• 这就是递归：自己帮助自己，但每次都更接近结束。\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 2066,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1397,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 2066,
+  "completion_tokens": 1397,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 2066,
+    "completion_tokens": 1397,
+    "total_tokens": 3463,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 504
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 22.637689666997176,
+ "ttft_content": 22.637689666997176,
+ "duration": 53.9828071669981,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_049f0b274e4cb1aa016af6ebc5515487d0b2aed60ff188ab68",
+ "resp_model": "gpt-5.6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:52:10 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131051480251580288268d9d6vt4jfi5T",
+  "x-request-id": "179456710800208009932d10b0f670abece"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794567107.657751,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-sol",
+  "route": "ppapi_msg",
+  "config": "dev02",
+  "split": "dev",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

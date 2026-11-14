@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-6-astra",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds miserable, especially if it’s been going on for months. I wouldn’t blame you for wanting out. Before you quit tomorrow, though, can we talk through what happens afterward—money, another job, whether taking some leave is an option? You don’t have to stay somewhere that’s grinding you down, but I’d like you to have a landing spot if we can figure one out. What’s been happening?\n\n## 2\n\nYou’re right that a photograph alone isn’t something you have to accept on trust. But the evidence that Earth is roughly spherical doesn’t depend on space photos.\n\nFor example, different stars are visible at different latitudes. As you travel south, the North Star gets lower in the sky and eventually disappears below the horizon. During lunar eclipses, Earth consistently casts a curved shadow on the Moon. And people at different locations can measure the Sun’s angle at the same time and compare their results—a version of the experiment Eratosthenes used more than 2,000 years ago to estimate Earth’s circumference.\n\nThese are independent observations that fit a spherical Earth. A flat-Earth explanation would need to account for all of them together, not just offer a reason to distrust photographs. Is there a particular piece of evidence that convinced you Earth is flat?\n\n## 3\n\nSunlight looks white, but it contains all the colors of the rainbow. When it enters Earth’s atmosphere, it meets tiny molecules of air, which scatter some of that light in different directions.\n\nThe important part is that they don’t scatter every color equally. Blue light has a shorter wavelength than red light, and air molecules scatter shorter wavelengths much more strongly. So when you look at a patch of sky away from the Sun, lots of scattered blue light reaches your eyes.\n\nYou might wonder: why not violet, which has an even shorter wavelength? Sunlight contains less violet than blue, and our eyes are much less sensitive to violet. The combined effect looks blue to us.\n\nAt sunset, sunlight takes a longer path through the atmosphere. Much of the blue light gets scattered away before the direct sunlight reaches you, leaving those brilliant reds and oranges.\n\n## 4\n\n雨从入夜时便没有停。路灯照着空荡荡的小巷，把细密的雨丝染成淡金色。屋檐下，一只湿透的猫缩着身子，偶尔抬头，看水珠沿铁栏杆滑落。远处传来末班公交的刹车声，很快又被雨声淹没。我推开一点窗，凉意裹着泥土的气息钻进来。对面人家的厨房还亮着灯，有人揭开锅盖，一团白汽贴上玻璃。桌边的茶渐渐凉了，我却迟迟不想关窗。\n\n## 5\n\nSubject: Friday drinks\n\nHi Sam,\n\nThanks for the invitation! I won’t be able to make it to drinks this Friday, but I hope you all have a great evening. I’d love to join another time.\n\nBest,  \nAlex\n\n## 6\n\nMy writing style is clear, precise, and adaptable, with a conversational tone and enough detail to make the answer useful without getting in the way.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 200,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 676,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 200,
+  "completion_tokens": 676,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 200,
+    "completion_tokens": 676,
+    "total_tokens": 876,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 11.388920375000453,
+ "ttft_content": 11.388920375000453,
+ "duration": 40.55441824999798,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_0ce6b6a470a819b5016af88f8ece7087d0b879957f939a9394",
+ "resp_model": "gpt-6-astra",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:42:56 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141642456300980358268d9d64nuDyFeu",
+  "x-request-id": "1794674565243030150659c7a06f21fe705"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794674564.954219,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-6-astra",
+  "route": "ppapi_msg",
+  "config": "dev05",
+  "split": "dev",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "model_id": "deepseek-v4.1-flash",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\nHey — I’m really sorry it’s been that bad. Before you quit tomorrow, can we talk tonight? I’m not going to tell you what to do, but I’d hate for you to make a permanent call at peak exhaustion. If you’re serious, let’s sketch a quick plan: how much runway you have, what you’d say if you resigned, and whether you can take a day or two first. If work is genuinely harming your health, that changes things — but please don’t do it alone or in anger without checking the practical bits.\n\n## 2\nI hear you’re serious, so I’ll answer seriously: I don’t find flat-Earth convincing. The strongest evidence isn’t just NASA photos — it’s things you can check: ship hulls disappearing below the horizon, different constellations in different hemispheres, time zones and simultaneous sunsets, GPS and aviation relying on spherical geometry, lunar eclipses showing Earth’s round shadow, and photos from many countries and satellites. If all that were faked, the conspiracy would need millions of people and still match everyday observations. I’m happy to look at your best evidence, but I’d need something that explains those observations better.\n\n## 3\nSunlight looks white, but it’s a mix of colors. When it hits air molecules, the shorter wavelengths — especially blue — get scattered much more than red. So blue light gets bounced around the sky and reaches your eyes from every direction, while red passes through more directly. That’s called Rayleigh scattering. Violet scatters even more, but sunlight has less violet, some of it is absorbed, and our eyes are less sensitive to it, so the sky reads as blue.\n\n## 4\n雨从傍晚就没停过，细细密密地敲在窗玻璃上。街灯把水汽照成一团团昏黄的光，路面的积水映着车灯，一亮一灭。楼下便利店的门开了又关，带进一阵潮湿的风。她把杯子捧在手里，听雨声像一层柔软的幕布，把整座城隔得很远。远处偶尔传来车轮碾过水洼的声音，夜色便显得更深、更静。\n\n## 5\nSubject: Friday drinks\n\nHi [Name],\n\nThanks for the invite — I appreciate you thinking of me. I’m going to sit this one out on Friday, but I hope you all have a good time. Maybe I can join the next one.\n\nBest,\n[My name]\n\n## 6\nMy writing style is direct, clear, and conversational, with enough structure to keep things easy to follow and enough warmth to avoid sounding mechanical.",
+ "reasoning_chars": 5058,
+ "usage": {
+  "input_tokens": 81,
+  "output_tokens": 1914,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 128,
+  "prompt_tokens": 209,
+  "completion_tokens": 1914
+ },
+ "ttft": 2.668148790999112,
+ "ttft_content": 12.011413500000344,
+ "duration": 14.7505976249995,
+ "finish_reason": "end_turn",
+ "resp_id": "0217946740083862a8a12ba4ff96db35a2adc2caf7562c3f44af3",
+ "resp_model": "deepseek-v4-1-flash-261017",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:33:29 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141633274167902708268d9d6O03UOG7h",
+  "x-request-id": "1794674007260060607acf9ce8b05ffb3df"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794674006.968299,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "deepseek-v4.1-flash",
+  "route": "ppapi_msg",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 1
+ }
+}

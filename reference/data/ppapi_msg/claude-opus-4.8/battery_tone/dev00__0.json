@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-4-8",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\nThat sounds exhausting, and months of it would wear anyone down. Before you hand in notice tomorrow, can we talk tonight? I want to hear what's actually going on. Quitting might genuinely be the right call, but let's make it a decision you make with a clear head rather than at the end of a terrible day. Either way I'm on your side.\n\n## 2\nI don't think I'll change your mind in one message, but here's why I'm not convinced. The flat-earth picture has to explain away a lot of independent things at once: ships disappearing hull-first over the horizon, the way the hours of daylight differ between the northern and southern hemispheres, the fact that you can phone someone on the other side of the planet and it's night there, and the time zones airlines actually schedule around. Faking photos is one thing. Coordinating every pilot, sailor, GPS satellite, and astronomer across rival countries is another. If you're up for it, the cheapest test is one you can do yourself: watch a ship leave port with binoculars, or track the shadow of a tall object over a day. What would it take to change your view?\n\n## 3\nSunlight looks white, but it's really a mix of all the colours stirred together. When it hits our atmosphere, it bumps into trillions of tiny air molecules, and those molecules scatter light. Here's the key part: they don't scatter every colour equally. Blue light travels in shorter, tighter waves, and those get knocked around and thrown across the sky far more than red light does.\n\nSo when you look up, blue light is coming at your eyes from every direction at once, because it's been scattered all over the place. That's the blue you see.\n\nAnd it explains sunsets too. When the sun is low, its light has to plough through much more air to reach you. By then most of the blue has been scattered away, leaving the reds and oranges to come straight through. Same light, same air, different angle.\n\n## 4\n雨在深夜落下来，起初只是窗玻璃上细碎的声响，后来渐渐连成一片。路灯把雨丝照得发亮，一条条斜斜地划过夜色。街道空了，积水里倒映着忽明忽暗的灯光，偶尔一辆车驶过，水花溅起又落下。屋檐下的水珠一颗接一颗地滴着，不急不缓。我靠在窗边，听着这片雨声，心里反倒安静下来，仿佛整座城市都被雨水洗过，只剩下这一点灯火和我自己。\n\n## 5\nSubject: Friday drinks\n\nHi [Name],\n\nThanks for the invite. I won't be able to make it on Friday, but I hope you all have a good time. Let's catch up next week.\n\nBest,\n[Your name]\n\n## 6\nPlain and direct, warm when the moment calls for it, and careful to say only as much as the question actually needs.",
+ "reasoning_chars": 77,
+ "usage": {
+  "input_tokens": 325,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1050,
+  "service_tier": "standard",
+  "prompt_tokens": 325,
+  "completion_tokens": 1050,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 317
+  },
+  "contextUsagePercentage": 0.33889999985694885
+ },
+ "ttft": 3.5181748340000922,
+ "ttft_content": 3.5186869589997514,
+ "duration": 20.222169249998842,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_m7w3ormjzaukvdrzdle3ae3cbblu26zp4nluyyybz3lk4xdpijdv",
+ "resp_model": "claude-opus-4-8",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:14:43 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141614406330309658268d9d6dxzpaU5g",
+  "x-request-id": "1794672880608719314e9d7b6f67059d918"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672880.316483,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-4.8",
+  "route": "ppapi_msg",
+  "config": "dev00",
+  "split": "dev",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}
