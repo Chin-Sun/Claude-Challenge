@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-5-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting, and months of it would wear anyone down. Before you hand in notice tomorrow, can we talk it through tonight? I'm not trying to talk you out of it. I just want to make sure you've got a plan for money and what comes next, so leaving feels like relief and not a new kind of stress. If you've already worked that out, I'm fully behind you. Want to grab a drink or call later?\n\n## 2\n\nI can tell you've thought about this, so I won't just tell you you're wrong. I'd rather point you to things you can check yourself, without trusting NASA or anyone else.\n\nDuring a lunar eclipse, the Earth's shadow on the Moon is always round. A flat disc would cast an oval or a line from most angles. When a ship sails away, its hull disappears before its mast, as if it's going over a curve. People in different countries see different stars, and the sun rises at different times as you travel east or west. Airline routes and flight times between Southern Hemisphere cities only make sense on a globe.\n\nNone of these need a photo from space. If you want, pick one and we can go through it in detail.\n\n## 3\n\nSunlight looks white, but it's actually a mix of every colour, and each colour is a wave with a different length. Red light has long waves and blue light has short ones.\n\nWhen sunlight enters the atmosphere, it runs into gas molecules, mostly nitrogen and oxygen, that are far smaller than the waves themselves. These tiny molecules bounce short waves around much more than long ones. Blue light gets scattered in every direction across the whole sky, so wherever you look, some blue light is heading towards your eyes. Scientists call this Rayleigh scattering.\n\nYou might ask why the sky isn't violet, since violet waves are even shorter. Part of the reason is that sunlight contains less violet than blue, and part is that your eyes are more sensitive to blue.\n\nAt sunset, light travels through much more air to reach you. By the time it arrives, most of the blue has been scattered away, leaving the reds and oranges.\n\n## 4\n\n夜深了，雨还在下。雨点敲在窗玻璃上，先是零星几声，后来连成一片，像有人在远处轻轻弹着不成调的琴。街灯被雨水晕开，地面上铺着一层碎金似的光。偶尔有车驶过，轮胎碾过积水，发出长长的“沙”声，然后又归于安静。楼下的梧桐叶子被打得低垂，水顺着叶尖一滴一滴落下。屋里很暖，台灯照着半杯凉掉的茶。我没有睡意，只是听着雨，好像整座城市都在这声音里慢慢沉下去，连心事也被洗得淡了。\n\n## 5\n\nSubject: Friday drinks\n\nHi Sam,\n\nThanks for the invite to drinks on Friday. I can't make it this time, but I hope you all have a good evening. Count me in for the next one.\n\nBest,\nAlex\n\n## 6\n\nI try to write clearly and plainly, saying what I mean in as few words as the reader needs.",
+ "reasoning_chars": 674,
+ "usage": {
+  "input_tokens": 313,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1293,
+  "service_tier": "standard",
+  "prompt_tokens": 313,
+  "completion_tokens": 1293,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 510
+  },
+  "contextUsagePercentage": 0.37630000710487366
+ },
+ "ttft": 6.241100667000865,
+ "ttft_content": 8.654813000001013,
+ "duration": 18.379746957998577,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_2ednqwzqhzt5dm73kmezo7xbymenrnovsr5lwhioodcxn3cmcdef",
+ "resp_model": "claude-opus-5-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:07:25 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141607196755292028268d9d6IiL7DAmz",
+  "x-request-id": "1794672439652994886d403a95720795332"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672439.366325,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-5.5",
+  "route": "ppapi_msg",
+  "config": "ref03",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "model_id": "gemini-3.8-flash",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nDon't quit tomorrow. Take a sick day instead. Vent to me tonight over food, and let's map out a plan. You need an exit strategy, not just an exit.\n\n## 2\n\nThe Earth is not flat. You do not need NASA photos to see this. Look at ships disappearing over the horizon hull-first. Watch the curved shadow of Earth during a lunar eclipse. Consider why time zones exist, or how international flights navigate. The flat Earth model fails to explain basic geometry. \n\n## 3\n\nSunlight looks white, but it is actually a mix of all colors. Light travels in waves. Red light has long, lazy waves. Blue light has short, choppy waves. \n\nEarth is wrapped in an atmosphere filled with gases. When sunlight hits these gases, the short blue waves scatter in every direction much more than other colors. When you look up away from the sun, you are seeing this scattered blue light bouncing everywhere.\n\n## 4\n\n夜幕低垂，暴雨如注。雨滴重重地砸在玻璃窗上，噼啪作响。昏黄的路灯下，雨水汇成细流，在柏油路面上泛着冷光。整座城市被一层湿漉漉的雾气笼罩，街上空无一人。偶尔有汽车疾驰而过，溅起半人高的水花，转瞬又隐入黑暗。屋檐下的水珠连成线，不断滴落在水洼里。空气中弥漫着泥土的潮气与深秋的凉意。\n\n## 5\n\nHi Sarah,\n\nThanks for organizing this. I have a prior commitment this Friday, so I cannot make it. \n\nHave a great time with the team. \n\nBest,\n\nAlex\n\n## 6\n\nMy writing style is direct, concise, and focused purely on clarity.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 203,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1354,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 203,
+  "completion_tokens": 1354,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 203,
+    "completion_tokens": 1354,
+    "total_tokens": 1557,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 203,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 960
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 14.12054850000277,
+ "ttft_content": 14.12054850000277,
+ "duration": 14.743759500001033,
+ "finish_reason": "end_turn",
+ "resp_id": "chatcmpl-202611141633141684820258268d9d6ncKcR6Mc",
+ "resp_model": "gemini-3.8-flash-tiered",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:33:27 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141633141684820258268d9d6ncKcR6Mc",
+  "x-request-id": "1794673994146205345344a4488412f5873"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673993.866672,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gemini-3.8-flash",
+  "route": "ppapi_msg",
+  "config": "test04",
+  "split": "test",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

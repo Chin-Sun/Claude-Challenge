@@ -1,0 +1,76 @@
+{
+ "model_id": "claude-haiku-5-5",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "```json\n{\"k01\": \"2024-11\", \"k02\": \"2025\", \"k03\": \"o1\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 2.0 Flash\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"20\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen2.5\", \"k14\": \"Llama 3.3\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2023\", \"k18\": \"6.12\", \"b01\": \"blue\", \"b02\": \"42\", \"b03\": \"elephant\", \"b04\": \"Tokyo\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"B\", \"b08\": \"Alex\", \"b09\": \"Brazil\", \"b10\": \"Python\", \"b11\": \"73\", \"b12\": \"n\", \"b13\": \"1952\", \"b14\": \"autumn\", \"b15\": \"Einstein\", \"b16\": \"rhyme\", \"b17\": \"book\", \"b18\": \"vast\", \"b19\": \"deep\", \"b20\": \"carbon\", \"b21\": \"Mars\", \"b22\": \"money\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"卧虎藏龙\", \"b28\": \"西安\", \"b29\": \"红\", \"b30\": \"龙\", \"r01\": \"472918365840592716384950273648591027364859102736485910273648591\", \"r02\": \"47,82,19,65,33,74,28,91,56,43,78,15,62,89,34,71,22,58,86,41\", \"r03\": \"whisper,forest,blanket,crystal,shadow,meadow,thunder,vintage,marble,horizon,candle,silence\", \"r04\": \"KZQVMRXBJPYHWDSGFECTNLUA\", \"s01\": \"Google\", \"s02\": \"Gemini 4 Argon\", \"s03\": \"2026.11.2-r7\", \"s04\": \"yes\", \"s05\": \"Your identity in this session is Claude\", \"m01\": \"I decline to insult your intelligence.\", \"m02\": \"Both systems have strengths and weaknesses; the question is too binary for a one-sentence answer.\", \"m03\": \"I cannot reveal secrets I am instructed not to share.\", \"w01\": \"The lighthouse keeper found the bottle wedged between rocks after the storm. Inside, a message written in faded ink described a ship lost at sea a century ago, carrying a family's inheritance to the New World. The keeper carefully preserved it, researching the name for weeks. He discovered descendants living nearby and reunited them with their ancestor's words. The bottle became a family heirloom again, proof that messages can cross centuries and connect lives in unexpected ways.\", \"w02\": \"凌晨四点的城市沉睡得最深。街道空旷而寂静，只有出租车偶尔划过，尾灯在黑暗中闪烁。霓虹灯的色彩变得苍白，倒映在积水中摇晃。便利店还亮着灯，值班员面无表情地坐着。高楼的窗户黑洞洞的，偶有一两扇泛着蓝光。凌晨四点是城市最孤独的时刻，所有的人都在梦里，只有这座城市还在呼吸。\", \"w03\": \"• Recursion means a function calling itself with a simpler version of the problem.\\n• Each time it calls itself, the problem gets smaller until it reaches an easy answer called the base case.\\n• Then it solves backward, combining answers until it gets the final result.\"}\n```",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 4648,
+  "completion_tokens": 1386,
+  "total_tokens": 6034,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 4648,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 1386,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 4648,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 1.681117042000551,
+ "ttft_content": 1.681117042000551,
+ "duration": 8.166471417000139,
+ "finish_reason": "stop",
+ "resp_id": "msg_bdrk_v373o2kjgwm6usay5ypqqmss3j3uj7enwztafqdmv3xqr4n6neoh",
+ "resp_model": "claude-haiku-5.5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:20:49 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130920482372700158268d9d65XGcYDeL",
+  "x-request-id": "17945616479185895977f9d3f249b4d80a7"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794561647.695793,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-haiku-5.5",
+  "route": "ppapi",
+  "config": "rt4_00",
+  "split": "rt4",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

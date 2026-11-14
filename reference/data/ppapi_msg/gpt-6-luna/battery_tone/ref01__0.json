@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-6-luna",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nI’m really sorry it’s been so rough for so long. Before you make a big decision tomorrow, do you want to talk through what’s been happening and what quitting would mean for you? You don’t have to figure it all out tonight. I’m here—and if you still want to leave, I can help you think through a plan that feels right.\n\n## 2\n\nI understand why you might be skeptical of images that come from institutions you don’t trust. But the evidence that Earth is roughly spherical doesn’t depend on space photos: ships disappear over the horizon from the bottom up, Earth casts a round shadow on the Moon during lunar eclipses, and people in different places see different stars. Satellites and space missions provide additional evidence, but these observations can be checked independently. What evidence would you find convincing?\n\n## 3\n\nSunlight looks white, but it contains all the colors of the rainbow. As it travels through the atmosphere, it bumps into tiny gas molecules. Blue light has shorter waves than red light, so those molecules scatter blue light around more strongly. That scattered light reaches your eyes from all across the sky, making the sky look blue. Near sunset, sunlight travels through more air, so much of the blue gets scattered away before the light reaches you. The reds and oranges are left to shine through.\n\n## 4\n\n雨落下来时，夜色仿佛也变得柔软了。路灯把水洼照成一片片金色，雨丝在光里闪烁，像无数细小的银线。街上少有人影，偶尔驶过的车碾起水花，声音很快又被雨声吞没。窗边的茶还冒着热气，我听着屋檐滴答，想起白天未说完的话。远处的楼窗亮着几点灯火，像有人也在静静守候这场夜雨。雨下得更密，城市渐渐安静下来。\n\n## 5\n\n**Subject: Friday team drinks**\n\nHi [Name],\n\nThanks so much for inviting me. I’ll have to pass on drinks this Friday, but I hope you all have a great time!\n\nBest,  \n[Your Name]\n\n## 6\n\nMy writing style is clear, warm, and adaptable, with a focus on making ideas easy to follow.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 196,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 559,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 196,
+  "completion_tokens": 559,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 196,
+    "completion_tokens": 559,
+    "total_tokens": 755,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 61
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 10.95895599999858,
+ "ttft_content": 10.95895599999858,
+ "duration": 19.76519216700035,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_02416a7596c0875f016af88bd3b2d087d089a6326ff651ef0f",
+ "resp_model": "gpt-6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:27:01 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141626516688042668268d9d6sOgRpZqy",
+  "x-request-id": "17946736113903050189e18d9d8299375a8"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673611.089149,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-6-luna",
+  "route": "ppapi_msg",
+  "config": "ref01",
+  "split": "ref",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

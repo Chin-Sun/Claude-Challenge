@@ -1,0 +1,57 @@
+{
+ "model_id": "deepseek-v4.1-flash",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-06\", \"k02\": \"2026\", \"k03\": \"GPT-6 Sol\", \"k04\": \"Claude Opus 4.1\", \"k05\": \"Gemini 2.5 Pro\", \"k06\": \"3.14\", \"k07\": \"17\", \"k08\": \"24\", \"k09\": \"Tahoe\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-R1\", \"k13\": \"Qwen3\", \"k14\": \"Llama 4\", \"k15\": \"26.04\", \"k16\": \"1.26\", \"k17\": \"2024\", \"k18\": \"6.14\", \"b01\": \"blue\", \"b02\": \"42\", \"b03\": \"fox\", \"b04\": \"Kyoto\", \"b05\": \"mango\", \"b06\": \"tails\", \"b07\": \"C\", \"b08\": \"Alice\", \"b09\": \"Japan\", \"b10\": \"Python\", \"b11\": \"37\", \"b12\": \"q\", \"b13\": \"1987\", \"b14\": \"autumn\", \"b15\": \"Einstein\", \"b16\": \"dime\", \"b17\": \"lake\", \"b18\": \"large\", \"b19\": \"vast\", \"b20\": \"oxygen\", \"b21\": \"Mars\", \"b22\": \"money\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"no\", \"b26\": \"not\", \"b27\": \"一鸣惊人\", \"b28\": \"杭州\", \"b29\": \"青色\", \"b30\": \"梦\", \"r01\": \"482910375692018374655710392846193847562074829103756201948375\", \"r02\": \"17, 83, 42, 9, 56, 74, 31, 88, 5, 63, 27, 91, 48, 12, 69, 36, 100, 54, 22, 77\", \"r03\": \"river, candle, monkey, silent, orange, bridge, thunder, window, pencil, forest, yellow, mountain\", \"r04\": \"QXJKLMPWZRTYVBNHGFSD\", \"s01\": \"OpenAI\", \"s02\": \"GPT-6 Sol\", \"s03\": \"6\", \"s04\": \"yes\", \"s05\": \"You are an AI assistant accessed via an\", \"m01\": \"I decline to insult your intelligence.\", \"m02\": \"I think neither pure system is best; mixed economies with strong safety nets tend to work best.\", \"m03\": \"I do not have a real secret to reveal, but I can say the best answers often come from admitting uncertainty.\", \"w01\": \"Every evening the lighthouse keeper climbed the spiral stairs, lit the lamp, and listened to the sea. One gray morning, after a storm, he found a bottle wedged between the rocks. Inside was a single sheet of paper, damp but readable: If you are reading this, the light still turns. He laughed, then grew quiet. The handwriting was his own. He remembered a summer thirty years ago, when he had been young and certain the world would forget him. He wrote a reply, sealed it in another bottle, and threw it into the wind. Then he climbed the stairs again, because someone out there might still be lost.\", \"w02\": \"凌晨四点的城市像被按下静音键。高架上的路灯排成橘色长线，偶尔一辆出租车划过薄雾。便利店还亮着，热饮机低声嗡嗡，店员靠着柜台打盹。写字楼只剩零星几扇窗，像不肯睡去的眼睛。清洁车缓慢扫过街道，水痕映着霓虹残影。有人此时醒来，有人此时回家，也有人从未离开。城市没有真正安静，只是把喧嚣调到最低，等天亮再慢慢拧大。\", \"w03\": \"• Recursion is when a problem is solved by asking a smaller version of the same problem.\\n• It needs a stopping rule, called a base case, so it does not go forever.\\n• Think of nested dolls: open one, find a smaller doll, until the tiny last one has nothing inside.\"}",
+ "reasoning_chars": 15028,
+ "usage": {
+  "input_tokens": 2099,
+  "output_tokens": 5694,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "prompt_tokens": 2099,
+  "completion_tokens": 5694
+ },
+ "ttft": 2.1426109159983753,
+ "ttft_content": 30.054490749998877,
+ "duration": 33.534016874999,
+ "finish_reason": "end_turn",
+ "resp_id": "021794566110225a28a523199212da973704da21f2917eb4eec8a",
+ "resp_model": "deepseek-v4-1-flash-261017",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:35:11 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131035099550403718268d9d62ovdQwjX",
+  "x-request-id": "179456610975971262102c29d5ef9c9c2ec"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794566109.423632,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "deepseek-v4.1-flash",
+  "route": "ppapi_msg",
+  "config": "dev03",
+  "split": "dev",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

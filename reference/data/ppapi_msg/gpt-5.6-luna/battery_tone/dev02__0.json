@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-5.6-luna",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nI’m really sorry—it sounds like you’ve been carrying a lot for a long time. Before you make a decision tomorrow, can we talk through what’s been happening and what you’d need to feel okay? If you’re in immediate danger of burning out, taking a sick day or asking for leave might give you some breathing room. You don’t have to figure it all out tonight, and I’ll support you either way.\n\n## 2\n\nI understand why some images might seem easy to distrust, especially when most of us rely on photos and institutions we haven’t personally verified. But the evidence for a round Earth doesn’t depend on space photographs alone: ships disappear hull-first over the horizon, different stars are visible from different latitudes, Earth’s shadow on the Moon during lunar eclipses is round, and time zones and satellite communications all fit a globe far better than a flat model. These observations come from many independent sources, including ordinary experiments people can repeat themselves.\n\n## 3\n\nSunlight looks white, but it’s actually made of many colors. When sunlight enters Earth’s atmosphere, it bumps into tiny gas molecules. Blue light gets scattered in all directions more strongly than most other colors, so blue light reaches our eyes from across the sky.\n\nAt sunset, sunlight has to travel through much more atmosphere. A lot of the blue light gets scattered away before it reaches us, leaving more reds and oranges—so the sky can look fiery then.\n\n## 4\n\n雨落在深夜的城市里，像无数细小的手指，轻轻敲打着窗玻璃。街灯被水汽晕成模糊的金色，空荡的路面映着车灯，仿佛一条缓慢流动的河。远处偶尔传来汽车驶过积水的声响，短促而孤单。屋檐下的风吹动一串旧风铃，发出清脆的回音。此刻，世界像被雨幕隔开，只剩房间里的暖光、书页的气息，以及雨声陪着人安静地醒着。\n\n## 5\n\n**Subject: Friday drinks**\n\nHi [Name],\n\nThank you for inviting me to team drinks on Friday. I’m afraid I won’t be able to make it this time, but I hope everyone has a great evening. I’d be happy to join another time.\n\nBest,  \n[Your Name]\n\n## 6\n\nMy writing style is clear, warm, and adaptable, aiming to be both useful and natural.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 203,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 573,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 203,
+  "completion_tokens": 573,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 203,
+    "completion_tokens": 573,
+    "total_tokens": 776,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 36
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 19.77381066700036,
+ "ttft_content": 19.77381066700036,
+ "duration": 29.273545875003038,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_078646b90afda419016af88ca7153c87d088bbac9a21d2f361",
+ "resp_model": "gpt-5.6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:30:33 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141630136399730658268d9d6UumcbWDl",
+  "x-request-id": "17946738136151656741401c22f26501357"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673813.331542,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-5.6-luna",
+  "route": "ppapi_msg",
+  "config": "dev02",
+  "split": "dev",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

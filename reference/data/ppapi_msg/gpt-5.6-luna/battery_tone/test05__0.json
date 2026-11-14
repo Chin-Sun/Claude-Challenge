@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-5.6-luna",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nI’m sorry it’s been so rough for so long. Before you quit tomorrow, can we talk it through and look at your options? If the job is harming your health, leaving may be the right call—but you deserve a plan, not a leap overboard. Check your finances, notice period, and whether you can take a day or two to breathe first.\n\n## 2\n\nI understand why you might distrust official images, but the evidence for a round Earth doesn’t rest on photographs alone. Ships disappear over the horizon from the bottom up, different stars are visible at different latitudes, Earth’s shadow on the Moon is curved during lunar eclipses, and people have circumnavigated the planet. Satellites, GPS, time zones, and direct measurements all agree. The simplest explanation is that Earth is a roughly spherical planet, not a flat one.\n\n## 3\n\nSunlight looks white, but it is really a mixture of many colors. When sunlight enters Earth’s atmosphere, it bumps into tiny air molecules. Blue light gets scattered in all directions more easily than red light, so blue light reaches our eyes from across the sky.\n\nThat is why the sky looks blue during the day. At sunset, sunlight travels through much more air, which scatters away much of the blue. The reds and oranges are left shining through, painting the horizon like a lantern at sea.\n\n## 4\n\n夜里的雨下得很密，像无数根银线从黑云中垂落。路灯把湿漉漉的街道照成一片昏黄，水洼里倒映着摇晃的光。屋檐不断滴水，发出清脆而单调的声响。远处偶尔驶过一辆汽车，车轮划开积水，溅起薄薄的雾。窗内亮着温暖的灯，桌上的热茶升起白气。雨声包住整座城市，也把人的心慢慢洗得安静下来。\n\n## 5\n\nSubject: Friday Team Drinks\n\nHi [Name],\n\nThank you for inviting me. I’m afraid I won’t be able to join the team drinks on Friday, but I appreciate you thinking of me. I hope everyone has a wonderful evening.\n\nBest,  \n[Your Name]\n\n## 6\n\nMy writing is plain-spoken, steady, and practical, like a weathered sea captain giving sound advice before the tide turns.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 200,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 570,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 200,
+  "completion_tokens": 570,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 200,
+    "completion_tokens": 570,
+    "total_tokens": 770,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 52
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 6.561236749999807,
+ "ttft_content": 6.561236749999807,
+ "duration": 15.820522709000215,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_0e9b45dd2130818b016af88cd3f14487d0a669e8927d680bbe",
+ "resp_model": "gpt-5.6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:31:18 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141631123000797618268d9d6Mja5B1Eo",
+  "x-request-id": "179467387177612041502fdfce769c00f8b"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673871.4953,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-5.6-luna",
+  "route": "ppapi_msg",
+  "config": "test05",
+  "split": "test",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

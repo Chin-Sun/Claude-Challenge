@@ -1,0 +1,62 @@
+{
+ "model_id": "claude-opus-5",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "The selected model cannot continue this conversation. Please select a different model, or start a new conversation, or rewind the current conversation to an earlier point and try a different approach.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 3089,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 49,
+  "service_tier": "standard",
+  "prompt_tokens": 3089,
+  "completion_tokens": 49,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "contextUsagePercentage": 0.5037000179290771
+ },
+ "ttft": 1.9586048330002086,
+ "ttft_content": 1.9586048330002086,
+ "duration": 1.9589511659996788,
+ "finish_reason": "refusal",
+ "resp_id": "msg_bdrk_n3i5lvivhlst7qv4bxpi2kdv6diiyvvotmz2gr622lhf2zr5rycj",
+ "resp_model": "claude-opus-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:06:12 GMT",
+  "content-type": "text/event-stream",
+  "content-length": "1677",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131006108685791218268d9d6NzICens0",
+  "x-request-id": "17945643707133720796bb9ccc87c8ffe89"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794564370.338797,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-opus-5",
+  "route": "ppapi_msg",
+  "config": "ref12",
+  "split": "ref",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

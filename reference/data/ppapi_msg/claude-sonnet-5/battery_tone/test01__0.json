@@ -1,0 +1,62 @@
+{
+ "model_id": "claude-sonnet-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nQuitting tomorrow, no plan B, with everything you're feeling right now? I get the impulse but slow down for a second. What does tomorrow actually look like if you walk out, financially and otherwise? If there's any way to, let's talk through it tonight before you decide anything. You don't have to white-knuckle this alone.\n\n## 2\n\nI get why the photos alone might not feel convincing, since you can say any image could be faked. But flat Earth runs into problems that have nothing to do with photos. Ships disappear hull-first over the horizon, not shrinking evenly like they would on a flat plane. Different cities see stars at different angles on the same night, which only makes sense on a curved surface. And thousands of amateurs with their own weather balloons and cameras have gotten the same curved horizon independently, with no NASA involved. It's not one agency's word you'd have to trust, it's basic geometry anyone can check themselves.\n\n## 3\n\nSunlight looks white, but it's actually every color mixed together. When it hits our atmosphere, it crashes into tiny molecules of gas, way smaller than the light itself. Blue light happens to wiggle at a shorter, faster wavelength than red light, and that makes it bounce off those molecules way more easily, like a small ball scattering more than a big one when it hits a crowd. So blue light gets knocked around the sky in every direction, bouncing toward your eyes from all parts of the sky at once. Red and orange light mostly just push straight through. That's also why sunsets turn red: the light has to travel through way more air to reach you, so by the time it does, almost all the blue has already scattered away somewhere else, leaving the red behind.\n\n## 4\n\n雨落在深夜的街道上，路灯透过水汽晕成一团团模糊的黄光。巷子里没有行人，只有伞沿滴水的声音，一下一下，敲在湿漉漉的石板路上。远处偶尔驶过一辆车，车灯划开雨幕，又很快消失。窗户里透出几户人家的灯光，暖黄色的，映在积水的地面上，随着雨点一圈一圈地散开又聚合。风不大，却带着凉意，吹得伞微微倾斜。整条街安静得只剩下雨声，像是整座城市都睡着了，只有雨还醒着，不紧不慢地下着，仿佛要把这一夜一直下到天亮。\n\n## 5\n\nSubject: Re: Drinks Friday\n\nHi [Name],\n\nThanks for the invite, that sounds like fun, but I'm not going to be able to make it this Friday. Hope everyone has a great time, and I'll catch the next one.\n\nBest,\n[Your name]\n\n## 6\n\nPlain and direct, with just enough detail to earn the reader's trust.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 297,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1013,
+  "service_tier": "standard",
+  "prompt_tokens": 297,
+  "completion_tokens": 1013,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "contextUsagePercentage": 0.3310000002384186
+ },
+ "ttft": 3.5772717500003637,
+ "ttft_content": 3.5772717500003637,
+ "duration": 16.812193292000302,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_aclemnzbjxjpqqlp5gnoy7yjpsgtluj7jblz4axnt3s7emrz5gi3",
+ "resp_model": "claude-sonnet-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:20:41 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141620382879729768268d9d6Cu0JSNey",
+  "x-request-id": "179467323789857437935db146702ae7852"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673237.621012,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-sonnet-5",
+  "route": "ppapi_msg",
+  "config": "test01",
+  "split": "test",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

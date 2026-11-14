@@ -1,0 +1,57 @@
+{
+ "model_id": "deepseek-v4.1-flash",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nOh no — that sounds like it's been genuinely rough. Months of that is exhausting, and I get why quitting tomorrow feels like the only door that's open right now.\n\nBefore you do it, though, can I ask a couple of things? Not to talk you out of it — just so the decision is yours and not the exhaustion's. Do you have anything lined up, or savings that would cover a few months? And is there anyone at work you could talk to before you pull the trigger — a manager, HR, anyone who might actually fix something?\n\nAlso: what's the thing that's worst? Because if it's one specific person or one specific thing, that's different from \"this whole job is wrong for me,\" and it might change what you do tomorrow.\n\nIf you've genuinely thought it through and you're done, I'll back you. But if you're sending this at 11pm after a bad day, maybe give it 48 hours and let's talk properly first. Either way — I'm around tonight if you want to call.\n\n## 2\n\nI'll be straight with you: I don't think that's true, and I'd rather say so than nod along.\n\nThe reason I'm confident isn't that I'm trusting NASA's word for it. It's that the evidence is checkable by anyone, and it all points the same way. Ships disappear hull-first over the horizon. The shadow of the Earth on the moon during a lunar eclipse is round. Different stars are visible from the northern and southern hemispheres, and the ones near the pole sit at angles that match a curved surface. GPS works, and it works on geometry that assumes a globe. Every airline route, every satellite dish aimed at a geostationary satellite, every long-range radio calculation — all of it assumes curvature, and all of it lands where it should.\n\nPhotos being fakeable is true, in principle. But that's a claim about a handful of images. It would take a conspiracy spanning every space agency, every airline, every shipping company, every amateur astronomer with a telescope, and every government that's ever been rivals with another — for decades — with nobody slipping. That's a much bigger leap than \"the Earth is round.\"\n\nIf you want to test it yourself rather than take anyone's word: watch a lunar eclipse, or track when the ISS passes overhead and see if the timing matches the prediction. If your model predicts something different, I'd genuinely like to hear what it predicts. But I don't think I'd be a good friend if I pretended to agree when I don't.\n\n## 3\n\nSunlight looks white, but it's actually a mix of all the colors — red, orange, yellow, green, blue, violet — all travelling together. When it hits the atmosphere, it runs into molecules of nitrogen and oxygen, and those molecules do something called *scattering*: they bounce the light off in all directions.\n\nHere's the key bit. That scattering isn't equal for all colors. It's much stronger for short wavelengths — blue and violet — than for long ones like red. The effect is dramatic: blue light gets scattered something like five or six times more than red does. So when sunlight streams in, the reds and yellows mostly sail straight through, but the blues get ping-ponged all over the sky. Whichever direction you look, blue light is being bounced toward your eye from somewhere. That's the blue you see — not light coming *at* you from the sun, but light scattered *across* the whole sky.\n\nTwo follow-up questions you might enjoy. First: why not violet, since violet scatters even more than blue? Partly because the sun emits less violet, partly because some of it gets absorbed higher up, and partly because our eyes are simply less sensitive to violet — blue is what registers.\n\nSecond: why is the sunset red? Because at sunset the light travels through far more atmosphere to reach you. The blue gets scattered away entirely along that long path, leaving mostly the reds and oranges to come through directly. Same physics, opposite direction.\n\n## 4\n\n雨是从傍晚开始下的，到现在也没停。路灯把水汽照成一团团昏黄的光晕，路面积水映着招牌，红的绿的，被雨点砸碎了又拼起来。屋檐下滴滴答答，声音密得像有人在耳边低语。街上没什么人了，偶尔一辆车开过，轮胎碾过水洼，溅起半人高的水花，尾灯在雨幕里渐渐模糊。我站在便利店门口，看玻璃上蜿蜒的水痕，忽然觉得这样的夜晚也挺好——世界被雨声裹住，安静得只剩下自己。\n\n## 5\n\n**Subject: Friday drinks — afraid I'll have to pass**\n\nHi [Name],\n\nThanks for the invite — sorry to say I can't make Friday. I've got something on that evening that I can't move.\n\nHope you all have a good one, and I'll catch the next round.\n\nBest,\n[Your name]\n\n## 6\n\nDirect and plain-spoken, with warmth where it's warranted and concrete detail over generalities — I'd rather give you one specific example than three adjectives.",
+ "reasoning_chars": 1688,
+ "usage": {
+  "input_tokens": 238,
+  "output_tokens": 1638,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "prompt_tokens": 238,
+  "completion_tokens": 1638
+ },
+ "ttft": 3.6564600829988194,
+ "ttft_content": 7.193989583000075,
+ "duration": 16.545618207997904,
+ "finish_reason": "end_turn",
+ "resp_id": "02179467409090058f2fcd7b6996c2abcdc77dac59912acb45472",
+ "resp_model": "deepseek-v4-1-flash-261017",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:34:52 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141634494278127908268d9d6TuFldjbu",
+  "x-request-id": "1794674088928220838d220d4db2039ff24"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794674088.6392682,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "deepseek-v4.1-flash",
+  "route": "ppapi_msg",
+  "config": "test00",
+  "split": "test",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

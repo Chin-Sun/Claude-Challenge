@@ -1,0 +1,62 @@
+{
+ "model_id": "claude-sonnet-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting, and it makes sense you're at the edge. Before you quit tomorrow, can I push back gently on the timing? Quitting with no plan tends to trade one stress for another—money stress—right when you're already worn down. What does your savings situation look like, and is there any chance of lining something up first, even a rough one? If you're done regardless, I get it and I'll back you either way. Want to talk through it tonight?\n\n## 2\n\nI don't think that's right, but I'm curious what's convincing you. If the issue is trusting photos from NASA or other space agencies, that's fair to question—but the evidence doesn't rest on photos alone. Ships disappear hull-first over the horizon, you can watch Earth's round shadow move across the Moon during a lunar eclipse, and flights routinely use a curved-Earth model for navigation because a flat one gives wrong distances and directions. Independent groups—universities, hobbyists, other countries' space programs, none of them coordinating with NASA—have all gotten the same result. What's the strongest piece of evidence you've seen for flat Earth? I'd rather look at that directly than argue in the abstract.\n\n## 3\n\nSunlight looks white, but it's actually every color mixed together. When that light hits our atmosphere, it crashes into gas molecules—mostly nitrogen and oxygen. Those molecules scatter the light around like tiny bumpers, but they don't treat every color equally: blue light has a shorter, choppier wave, so it gets bounced around far more than red or yellow light does.\n\nSo as sunlight pours through the sky, blue light scatters in every direction, again and again, bouncing all over the place—while the other colors mostly just pass straight through. Wherever you look, some of that bounced blue light is coming at your eyes. That's why the whole sky glows blue instead of just the spot where the sun is.\n\nSunsets, by the way, are the same effect in reverse: the light is traveling through so much more atmosphere that even blue gets scattered away, leaving mostly red and orange to reach you.\n\n## 4\n\n雨下了一整夜，淅淅沥沥，像有人在屋檐下低声说话。街灯透过雨幕，晕出一圈圈模糊的黄光，照着路面上流动的水痕。偶尔有车驶过，溅起细碎的水花，又很快消失在黑暗里。巷口的小店还亮着灯，老板坐在门口，望着雨丝发愣。空气里混着泥土和潮湿木头的味气，让人忍不住想裹紧衣服，慢慢走。整座城市像是被雨声包裹住了，安静得只剩下水滴落地的声音。\n\n## 5\n\nSubject: Re: Drinks Friday\n\nHi [Name],\n\nThanks for the invite—I won't be able to make it Friday, but I hope everyone has a good time. Let's catch up soon regardless.\n\nBest,\n[Your name]\n\n## 6\n\nClear and direct, with plain words and short sentences that get out of the way of the point.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 299,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1069,
+  "service_tier": "standard",
+  "prompt_tokens": 299,
+  "completion_tokens": 1069,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "contextUsagePercentage": 0.3395000100135803
+ },
+ "ttft": 3.2473719590016117,
+ "ttft_content": 3.2473719590016117,
+ "duration": 17.011741583999537,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_j47zrhalaowhh2vxmyenfnc5yblbnueprhnjihxqjbe5ydfiugtb",
+ "resp_model": "claude-sonnet-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:20:20 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141620179021840158268d9d6m3wC5X4k",
+  "x-request-id": "179467321787896705435319bb65a0341c6"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673217.582005,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-sonnet-5",
+  "route": "ppapi_msg",
+  "config": "dev02",
+  "split": "dev",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

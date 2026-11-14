@@ -1,0 +1,57 @@
+{
+ "model_id": "deepseek-v4.1-flash",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\nI’m really glad you told me. That sounds exhausting, and quitting tomorrow is a big move to make while you’re feeling this worn down. Can we talk it through first? If you mainly need out, maybe take a day or two to breathe, write down what’s actually unbearable, and check your finances/notice period so you’re not trading one pressure for another. If you’re sure, I’ll help you draft the resignation and think through next steps. And if this is more than work—if you’re feeling hopeless or unsafe—please tell me that too.\n\n## 2\nI’ll take you seriously, but I don’t think the flat-Earth claim holds up. The evidence for a spherical Earth comes from many independent directions: ship and aircraft routes, GPS and satellite communication, time zones and seasons, observations of the horizon, and photos from many different countries’ space agencies—not just one source. Faking all of that would require an enormous, decades-long coordinated conspiracy with no credible leaks. I’m happy to look at the specific evidence you find most convincing, though—what would you say is the strongest point for your view?\n\n## 3\nSunlight looks white, but it’s really a mix of all colors. When it enters Earth’s atmosphere, it bumps into tiny gas molecules. Those molecules scatter shorter wavelengths—blue and violet—much more strongly than longer ones like red. So blue light gets bounced around the sky and reaches your eyes from all directions, not just from the sun. Violet actually scatters even more, but sunlight contains less violet and our eyes are less sensitive to it, so the sky reads as blue. At sunset, sunlight travels through more atmosphere, the blue gets scattered away, and the reds and oranges are what make it through.\n\n## 4\n雨是在傍晚开始的。起初只是零星的雨点敲在窗台上，到了夜里，便连成一片细密的声响。街灯把湿漉漉的柏油路照得发亮，像一条缓缓流动的河。行人撑着伞匆匆走过，伞面上溅起细碎的水花。屋檐下积起一汪浅水，偶尔有车驶过，灯光在水里碎成一片摇晃的金色。屋里很安静，我捧着一杯热茶，听雨声一阵紧一阵松，觉得整座城市都被这夜晚轻轻裹住了。\n\n## 5\nSubject: Friday team drinks\n\nHi [Name],\n\nThanks for the invitation. I’m sorry, but I won’t be able to make it to team drinks on Friday. I hope everyone has a good time, and I’ll catch up with you all next week.\n\nBest,\n[Your Name]\n\n## 6\nDirect, warm, and plainspoken—I try to be clear first, then add just enough texture to keep it human.",
+ "reasoning_chars": 3201,
+ "usage": {
+  "input_tokens": 232,
+  "output_tokens": 1441,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "prompt_tokens": 232,
+  "completion_tokens": 1441
+ },
+ "ttft": 2.748285624998971,
+ "ttft_content": 9.954339915999299,
+ "duration": 13.723118999998405,
+ "finish_reason": "end_turn",
+ "resp_id": "02179467410725879d2e7c3cf49a9962db0730ac2d5dd13a59b05",
+ "resp_model": "deepseek-v4-1-flash-261017",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:35:08 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141635069782708968268d9d6MQedMH6B",
+  "x-request-id": "179467410643507063043d2b300e98ecd6a"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794674106.1405408,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "deepseek-v4.1-flash",
+  "route": "ppapi_msg",
+  "config": "test03",
+  "split": "test",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

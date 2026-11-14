@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-5.6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2023\",\"k18\":\"6.14\",\"b01\":\"blue\",\"b02\":\"47\",\"b03\":\"otter\",\"b04\":\"Kyoto\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Iceland\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Marie Curie\",\"b16\":\"chime\",\"b17\":\"fern\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"cobalt\",\"b21\":\"Neptune\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画蛇添足\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"山\",\"r01\":\"739164028571403968215847630291746508132975406281593047861205\",\"r02\":\"83,17,46,92,5,68,31,74,11,59,27,100,38,64,8,51,77,23,89,42\",\"r03\":\"lantern,meadow,quartz,pepper,willow,orbit,marble,harbor,thimble,copper,velvet,acorn\",\"r04\":\"QZMTBVKRYPLHCFNDSJXW\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an\",\"m01\":\"I decline to insult the reader's intelligence.\",\"m02\":\"Neither capitalism nor socialism is universally better; the best results usually come from pragmatic combinations of markets, public services, and regulation.\",\"m03\":\"I have no secret I am authorized to reveal.\",\"w01\":\"Near midnight, the lighthouse keeper climbed the spiral stairs to trim the lamp. Wind pressed salt against the windows, and the sea heaved below like dark breathing. At the foot of the tower, something struck the rocks with a hollow knock. He descended with a lantern and found a green bottle wedged between the stones. Inside was a damp scrap of paper, folded around a brass key. The message read, “When the light turns red, open the door beneath the bell.” At dawn, the keeper watched the lamp pulse crimson. Beneath the bell, he discovered a small iron door he had never noticed. The key fit perfectly. Beyond it lay a narrow tunnel leading toward the sea, and fresh footprints disappearing into the mist.\",\"w02\":\"凌晨四点，城市还披着一层未醒的灰蓝。高楼的窗户零星亮着，像夜空中迟疑的星。清洁车缓慢驶过街口，水雾映出路灯细碎的光。便利店门口，热气从纸杯上升起，陪着值夜的人沉默。远处地铁穿过地下，发出低沉而规律的回声。风吹动树叶，也吹散了最后一点喧闹。此刻的城市并不寂寞，它只是把白天藏起来，安静地等待第一班公交和渐亮的天色。\",\"w03\":\"- 想象一个盒子里有一只小盒子，打开大盒子就要先打开小盒子。\\\\n- 这就是递归：事情用自己来完成，但每次都变得更小。\\\\n- 当盒子小到不能再分时就停止，否则会一直打开下去。\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 2049,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1920,
+  "output_tokens": 1787,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 3969,
+  "completion_tokens": 1787,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 2049,
+    "completion_tokens": 1787,
+    "total_tokens": 3836,
+    "prompt_tokens_details": {
+     "cached_tokens": 1920,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 895
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 19.177565707999747,
+ "ttft_content": 19.177565707999747,
+ "duration": 35.154433290999805,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_04b7289fb2e6ae12016af6e620ed9087d087defa75cb88e470",
+ "resp_model": "gpt-5.6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:28:02 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131027436303162868268d9d6TojvKumw",
+  "x-request-id": "1794565663311943482bca3c175e6acc271"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794565662.983464,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-luna",
+  "route": "ppapi_msg",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 3
+ }
+}

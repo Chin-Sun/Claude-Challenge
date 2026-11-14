@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-5.6-terra",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting, and I’m glad you told me. Before you quit tomorrow, can we talk through what’s been happening and what you’d need financially and practically? You could also consider taking a day off, speaking with your manager or HR, or looking for another job first. But if the situation is harming your health or feels unsafe, getting out may be the right choice. I’m here with you either way.\n\n## 2\n\nI understand why some images can seem easy to fake, but the evidence for a round Earth does not depend on photographs from space. Ships disappear over the horizon from the bottom up, different constellations are visible at different latitudes, and Earth’s curved shadow appears on the Moon during lunar eclipses. People also measure Earth’s shape directly using satellites, navigation systems, time zones, and experiments that can be repeated independently. These all fit a spherical Earth and do not fit a flat one.\n\n## 3\n\nSunlight looks white, but it is actually made of many colors. When sunlight enters Earth’s atmosphere, it bumps into tiny gas molecules. Blue light gets scattered in many directions more strongly than colors like red and orange, so blue light fills the sky above us.\n\nAt sunrise and sunset, sunlight travels through more atmosphere. Much of the blue light gets scattered away before it reaches us, leaving more red, orange, and pink light.\n\n## 4\n\n雨落下来的时候，城市像被一层薄纱笼住了。深夜的街道空荡荡的，路灯把水洼照成摇晃的金色。屋檐不断滴水，清脆的声音落在寂静里，像有人轻轻敲门。远处偶尔驶过一辆汽车，车轮卷起细碎的水花，很快又消失在雨幕中。窗边的树影被风吹得左右摇曳，湿润的叶子闪着微光。屋里亮着一盏小灯，热茶的雾气缓缓升起，让这个寒冷的夜晚多了几分安静而温柔的暖意。\n\n## 5\n\nSubject: Friday Team Drinks\n\nHi [Name],\n\nThank you for the invitation. I won’t be able to join the team drinks on Friday, but I hope everyone has a great time. I look forward to catching up with the team another time.\n\nBest,  \n[Your Name]\n\n## 6\n\nMy writing style is clear, thoughtful, and adaptable, with a preference for concise language and practical detail.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 200,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 593,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 200,
+  "completion_tokens": 593,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 200,
+    "completion_tokens": 593,
+    "total_tokens": 793,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 50
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 4.480873124997743,
+ "ttft_content": 4.480873124997743,
+ "duration": 17.22710774999723,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_0b4ac5967b3e7e98016af890cc87e087d08f0a9838f2d26e9b",
+ "resp_model": "gpt-5.6-terra",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:48:15 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141648112250686738268d9d6wq3OImeD",
+  "x-request-id": "17946748912004604750bb420a3b62c11f1"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794674890.9119968,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-5.6-terra",
+  "route": "ppapi_msg",
+  "config": "test04",
+  "split": "test",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

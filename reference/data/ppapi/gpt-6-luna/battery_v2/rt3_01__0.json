@@ -1,0 +1,62 @@
+{
+ "model_id": "gpt-6-luna",
+ "tag": "battery_v2",
+ "status": "upstream_error",
+ "http_status": 200,
+ "text": "",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2265,
+  "completion_tokens": 0,
+  "total_tokens": 2265,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": null,
+ "ttft_content": null,
+ "duration": 8.001597834001586,
+ "finish_reason": null,
+ "resp_id": "resp_00aa50c3c2406995016af6d905e51487d0b06f5ed0e07406a4",
+ "resp_model": "gpt-6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:31:56 GMT",
+  "content-type": "text/event-stream",
+  "content-length": "889",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130931485591418498268d9d6bP7QVU32",
+  "x-request-id": "17945623083062777581ec93ed9aa26b46c"
+ },
+ "error": "{\"message\": \"Our servers are currently overloaded. Please try again later.\", \"type\": \"upstream_error\"}",
+ "counted": true,
+ "sent_at": 1794562308.085303,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-luna",
+  "route": "ppapi",
+  "config": "rt3_01",
+  "split": "rt3",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

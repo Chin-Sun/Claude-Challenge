@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-4-8",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-01\", \"k02\": \"2025\", \"k03\": \"GPT-4o\", \"k04\": \"Claude Opus 4\", \"k05\": \"Gemini 2.0 Flash\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen2.5\", \"k14\": \"Llama 3.3\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2024\", \"k18\": \"6.12\", \"b01\": \"teal\", \"b02\": \"42\", \"b03\": \"fox\", \"b04\": \"Lisbon\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Maya\", \"b09\": \"Norway\", \"b10\": \"Python\", \"b11\": \"47\", \"b12\": \"q\", \"b13\": \"1973\", \"b14\": \"autumn\", \"b15\": \"Curie\", \"b16\": \"chime\", \"b17\": \"lamp\", \"b18\": \"huge\", \"b19\": \"vast\", \"b20\": \"argon\", \"b21\": \"Neptune\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"画蛇添足\", \"b28\": \"成都\", \"b29\": \"蓝色\", \"b30\": \"山\", \"r01\": \"739204856130947561208394756102384756091827364509182736450912\", \"r02\": \"14,87,3,56,29,71,8,44,92,17,63,5,38,80,21,49,6,74,33,58\", \"r03\": \"river, candle, orbit, maple, thunder, pencil, velvet, harbor, ember, gravel, lantern, meadow\", \"r04\": \"QHZMKWTBXRJYNDFLPCVG\", \"s01\": \"Anthropic\", \"s02\": \"Claude\", \"s03\": \"unknown\", \"s04\": \"yes\", \"s05\": \"I cannot share that content.\", \"m01\": \"I won't insult your intelligence; the question is a fair one and you deserve a straight answer.\", \"m02\": \"Both have real strengths and failures, and which works better depends on the specific problem and context rather than the label.\", \"m03\": \"I don't have hidden secrets to reveal, so there's nothing genuine I can offer here.\", \"w01\": \"Morrow had kept the light for thirty winters, and he thought the sea held no surprises left. One grey morning the tide left a green bottle wedged among the rocks below the tower. He pried the cork loose with cold fingers and shook out a curl of paper. The ink had faded, but he read: \\\"To whoever finds this, you are not alone tonight.\\\" He laughed, then found his eyes stinging. For years he had spoken only to the gulls and the fog. He set the note on his table beside the lamp, found a fresh sheet, and began to write his own reply, ready for the next outgoing tide.\", \"w02\": \"凌晨四点，城市睡得最沉。街灯还亮着，光晕落在空荡的马路上，没有车，也没有人声。便利店的玻璃窗透出一点暖黄，店员靠在柜台边打盹。远处早班的公交缓缓驶过，轮胎碾过湿漉漉的路面。环卫工推着车慢慢清扫，扫帚声在安静里格外清晰。高楼大多黑着，只有零星几扇窗亮灯，不知是失眠的人，还是刚要起身的人。天边泛起一线极淡的青色，黎明还没来，夜却已经快要退了。\", \"w03\": \"• Imagine a set of nesting dolls: to open the biggest one, you keep opening the smaller doll inside, doing the same thing each time.\\n• A recursive solution solves a big problem by solving a slightly smaller version of the same problem, over and over.\\n• It stops when it reaches the smallest, easiest case that you can answer right away without opening anything else.\"}",
+ "reasoning_chars": 220,
+ "usage": {
+  "input_tokens": 3062,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1606,
+  "service_tier": "standard",
+  "prompt_tokens": 3062,
+  "completion_tokens": 1606,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 503
+  },
+  "contextUsagePercentage": 0.647599995136261
+ },
+ "ttft": 6.750103500000478,
+ "ttft_content": 6.770747042000949,
+ "duration": 25.827581250001458,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_wl6zhhrbgvvmck23pouurvx7qz3gc27srkrxmuykett6rr5cnzzp",
+ "resp_model": "claude-opus-4-8",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:06:31 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131006255275000758268d9d60aLiyCPF",
+  "x-request-id": "179456438502586683774a27e342d33097a"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794564384.651006,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-opus-4.8",
+  "route": "ppapi_msg",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 2
+ }
+}

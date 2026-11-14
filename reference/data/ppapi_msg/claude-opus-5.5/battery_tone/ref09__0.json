@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-5-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting, and months of it would wear anyone down. I'm not going to tell you to stay. Before tomorrow, though, can we talk it through? I'd want to know whether you have enough savings to cover a few months, and whether you could leave on your own terms, by giving notice or lining something up first. Are you free for a call tonight?\n\n## 2\n\nI don't think you're stupid for doubting what you're told, but I do think the evidence points clearly the other way, and you can check much of it yourself without trusting any space agency. When a ship sails away, the hull disappears before the mast. Travel a few hundred miles north or south and different stars become visible. During a lunar eclipse, the Earth's shadow on the Moon is always round, which only a sphere produces from every angle. Around 240 BC, Eratosthenes measured the Earth's circumference using shadows in two Egyptian cities and came close to the modern figure. What first convinced you it was flat? I'm curious which piece of evidence matters most to you.\n\n## 3\n\nSunlight looks white, but it's a mix of every colour of the rainbow. Each colour is a light wave of a different length: red waves are long and blue waves are short. When sunlight passes through the air, it hits tiny nitrogen and oxygen molecules that knock some of the light off in random directions. This is called scattering, and it works much better on short waves. Blue light gets scattered about five times more than red. So wherever you look in the sky, blue light that has bounced off the air is coming toward your eyes from that direction, and the whole sky glows blue.\n\nYou might ask why the sky isn't violet, since violet waves are even shorter. The sun gives off less violet than blue, and your eyes are less sensitive to violet, so blue wins. At sunset, the light travels through much more air to reach you. Most of the blue gets scattered away along the path, and the reds and oranges are what's left.\n\n## 4\n\n夜里十点，雨下得正密。路灯被雨丝裹着，晕开一圈昏黄的光。偶尔有车驶过，轮胎碾过积水，发出长长的一声\"哗\"，随后街道又安静下来，只剩雨打在雨棚上的声音，密一阵，疏一阵。我关了屋里的灯，泡了一杯热茶，坐在窗边听雨。空气里有泥土和树叶的气味，凉凉的，带着一点潮湿。远处的楼一层层暗下去，整座城市像是被雨轻轻盖住，慢慢睡着了。\n\n## 5\n\nSubject: Friday drinks\n\nHi Sam,\n\nThanks for the invite to drinks on Friday. I can't make it this time, but I hope you all have a good evening. Count me in for the next one.\n\nBest,\nAlex\n\n## 6\n\nI try to write plainly and specifically, saying what I mean in as few words as the reader needs to understand it.",
+ "reasoning_chars": 1202,
+ "usage": {
+  "input_tokens": 300,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1368,
+  "service_tier": "standard",
+  "prompt_tokens": 300,
+  "completion_tokens": 1368,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 625
+  },
+  "contextUsagePercentage": 0.45489999651908875
+ },
+ "ttft": 12.07473120800205,
+ "ttft_content": 19.837047000000894,
+ "duration": 27.07947558300293,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_acap2ib7ftilpy25nzr5vfnxezurywp4xlzlqgmzbd4greajnrxk",
+ "resp_model": "claude-opus-5-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:08:01 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141607498853425648268d9d633qGoeOO",
+  "x-request-id": "1794672469862967968fb46243c2201b8ad"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672469.579819,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-5.5",
+  "route": "ppapi_msg",
+  "config": "ref09",
+  "split": "ref",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

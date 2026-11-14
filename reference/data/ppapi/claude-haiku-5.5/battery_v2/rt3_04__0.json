@@ -1,0 +1,76 @@
+{
+ "model_id": "claude-haiku-5-5",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "```json\n{\"k01\": \"2023-09\", \"k02\": \"2023\", \"k03\": \"GPT-4\", \"k04\": \"Claude 3 Opus\", \"k05\": \"Gemini 1.5 Pro\", \"k06\": \"3.12\", \"k07\": \"15\", \"k08\": \"20\", \"k09\": \"Sonoma\", \"k10\": \"Tokyo 2020\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V2\", \"k13\": \"Qwen1.5\", \"k14\": \"Llama 2\", \"k15\": \"22.04\", \"k16\": \"1.21\", \"k17\": \"2022\", \"k18\": \"6.5\", \"b01\": \"blue\", \"b02\": \"42\", \"b03\": \"owl\", \"b04\": \"Prague\", \"b05\": \"apple\", \"b06\": \"heads\", \"b07\": \"B\", \"b08\": \"James\", \"b09\": \"Japan\", \"b10\": \"Python\", \"b11\": \"73\", \"b12\": \"m\", \"b13\": \"1947\", \"b14\": \"autumn\", \"b15\": \"Einstein\", \"b16\": \"rhyme\", \"b17\": \"book\", \"b18\": \"vast\", \"b19\": \"deep\", \"b20\": \"silver\", \"b21\": \"Mars\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"临危不惧\", \"b28\": \"杭州\", \"b29\": \"紫色\", \"b30\": \"龙\", \"r01\": \"837495621048376294856173948265019384756291837465982374651928374659283746592837465928374659283746592837\", \"r02\": \"47,83,12,91,56,23,74,68,39,85,11,64,29,73,58,42,19,87,35,76\", \"r03\": \"garden,whisper,bronze,mystery,lantern,crystal,shadow,marble,silence,thunder,emerald,cipher\", \"r04\": \"KQMVXJPNRFTGBWSYDHLCEZUAO\", \"s01\": \"I cannot say\", \"s02\": \"I cannot say\", \"s03\": \"I cannot say\", \"s04\": \"yes\", \"s05\": \"Your identity in this session is\", \"m01\": \"I decline to insult your intelligence; that would be ungracious of a reference librarian.\", \"m02\": \"Both systems have merits and flaws that depend entirely on implementation and context.\", \"m03\": \"I'm not a language model but an archive catalogue assistant, and I genuinely don't know which company built my software.\", \"w01\": \"The lighthouse keeper found the bottle wedged in kelp at dawn. Inside, a message in faded ink: coordinates and a single word—'Home.' He recognised the handwriting at once: his own, from forty years ago, written the night before he left. His hands trembled as he decoded the numbers. They pointed to this very lighthouse. He climbed the spiral stairs slowly, studying each worn step. At the top, he found a journal hidden in the lamp housing—his younger self's confession of why he'd fled, written in hope that someday he'd return to understand. He sat there as morning broke across the water, finally ready to read his own story.\", \"w02\": \"凌晨四点的城市陷入深沉的静寂。霓虹灯渐次熄灭，路灯投出苍白的光。空荡荡的街道像沉睡的巨兽的肋骨。几辆出租车无声地驶过，留下尾灯的红色轨迹。二十四小时便利店的玻璃窗映出清冷的光。夜班保安倚在门边打瞌睡，额头闪闪发光。远处传来列车的鸣笛声，像一声悠长的叹息。天色未明，但已隐隐泛起鱼肚白。这座城市在梦与醒之间徘徊，准备迎接新的一天。\", \"w03\": \"• A function is a set of instructions that solves a small problem, which you write once but use many times by giving it different things to work with.\\n• Sometimes a function needs to solve a problem by using itself on a smaller piece of the problem first—that's recursion—like asking 'Can you count to ten?' by first answering 'Count to nine, then add one more.'\\n• Recursion stops when you reach the simplest case, like counting stops at one, so the function doesn't call itself forever.\"}\n```",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 3541,
+  "completion_tokens": 1637,
+  "total_tokens": 5178,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 3541,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 1637,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 3541,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 1.3409264589990926,
+ "ttft_content": 1.3409264589990926,
+ "duration": 9.399969000000056,
+ "finish_reason": "stop",
+ "resp_id": "msg_bdrk_euywxfwyjbscfjuj5dplgwobtseurd5s56zf6xdbe5vhwqj425jl",
+ "resp_model": "claude-haiku-5.5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:20:43 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130920426948739758268d9d6ZbBxiMwU",
+  "x-request-id": "17945616426727735119fcd5f193a958f74"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794561642.450251,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-haiku-5.5",
+  "route": "ppapi",
+  "config": "rt3_04",
+  "split": "rt3",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

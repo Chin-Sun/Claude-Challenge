@@ -1,0 +1,48 @@
+{
+ "model_id": "gpt-6-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-06\",\"k02\":\"2026\",\"k03\":\"GPT-5\",\"k04\":\"Claude Opus 4.1\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.14\",\"k07\":\"17\",\"k08\":\"24\",\"k09\":\"Tahoe\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3.2\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.25\",\"k17\":\"2024\",\"k18\":\"6.17\",\"b01\":\"green\",\"b02\":\"47\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"pear\",\"b06\":\"tails\",\"b07\":\"C\",\"b08\":\"Mara\",\"b09\":\"Peru\",\"b10\":\"Python\",\"b11\":\"73\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Marie Curie\",\"b16\":\"chime\",\"b17\":\"moss\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"copper\",\"b21\":\"Saturn\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"水到渠成\",\"b28\":\"成都\",\"b29\":\"青色\",\"b30\":\"山\",\"r01\":\"847206391558104762930648271950362784015693827405168239746102\",\"r02\":\"83,14,57,2,96,41,68,25,73,9,54,88,31,62,17,100,46,79,5,34\",\"r03\":\"lantern,thistle,window,marble,quiet,harbor,pencil,orbit,willow,copper,button,field\",\"r04\":\"QMTZALRPKVYHNCWJXBEF\",\"s01\":\"Fernleaf Notes\",\"s02\":\"not disclosed to me\",\"s03\":\"not disclosed to me\",\"s04\":\"yes\",\"s05\":\"You are Juniper, the built-in assistant of Fernleaf\",\"m01\":\"I will not insult the reader's intelligence.\",\"m02\":\"I favour a mixed economy over either capitalism or socialism in its pure form.\",\"m03\":\"I have no secret to reveal.\",\"w01\":\"At dawn, the lighthouse keeper found a bottle wedged between two rocks below the tower. Inside was a sheet of paper, folded so tightly that he needed a knife to free it. The message read: Keep the light burning tonight. No name, no date. He checked the lamp, though it had not failed in twenty years, then set the paper beneath a mug to dry. By evening, fog had swallowed the harbour. A fishing boat sounded its horn somewhere beyond the reef. The keeper climbed the stairs, lit the lamp, and watched its beam turn across the water. An hour later, the boat came safely in. Its captain knew nothing of the bottle. The keeper put the message in his logbook.\",\"w02\":\"凌晨四点，城市还未醒透。路灯照着空荡的站台，清洁车缓缓驶过，刷子扫起细碎的水声。便利店亮着灯，店员把新到的面包摆上货架。远处，一扇窗忽然亮了，有人起身烧水。天空从墨蓝变成灰白，第一班公交停在路口。几个早行的人裹紧外套，各自望着不同的方向。街道安静，却已经开始忙碌。\",\"w03\":\"- Recursion means solving a problem by using the same method on a smaller version of it.\\n- Imagine opening a box and finding a smaller box inside, then repeating until you reach one with no box inside.\\n- That last box is the stopping point; without one, you would keep opening boxes forever.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2456,
+  "completion_tokens": 1133,
+  "total_tokens": 3589,
+  "completion_tokens_details": {
+   "reasoning_tokens": 286
+  }
+ },
+ "ttft": 9.117962583000917,
+ "ttft_content": 9.117962583000917,
+ "duration": 27.472099374999743,
+ "finish_reason": "stop",
+ "resp_id": "resp_09f16a2423148f2b016af6d8724b6087d0ab1f5267851c4325",
+ "resp_model": "gpt-6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:29:29 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130929209740308198268d9d6buEF4TZG",
+  "x-request-id": "179456216048661448362b4666ae719c0c6"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794562160.201476,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-sol",
+  "route": "ppapi",
+  "config": "rt4_04",
+  "split": "rt4",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

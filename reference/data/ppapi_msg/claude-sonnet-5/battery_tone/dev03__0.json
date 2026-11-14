@@ -1,0 +1,62 @@
+{
+ "model_id": "claude-sonnet-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting, and I'm sorry you've been dealing with it for so long. Before you do anything tomorrow, can we talk tonight? Not to talk you out of it, just to make sure it's a decision and not a reaction to one bad day on top of a bad few months. If you've already got savings or something else lined up, that's a different conversation than if you're walking away from a paycheck with no plan. Either way I've got your back, I just want you to leave on your terms, not theirs.\n\n## 2\n\nI don't think that's right, but I'm curious what's convinced you. If you mean specific photos you think are doctored, which ones? There's evidence beyond photos, too: ships disappear hull-first over the horizon, you can watch a lunar eclipse and see Earth's curved shadow on the moon, and flight paths between southern cities only make sense on a globe. I'm happy to go through any of that with you, but I'd push back on the idea that space agencies, airlines, and independent astronomers around the world are all faking the same thing in sync.\n\n## 3\n\nSunlight looks white, but it's actually every color mixed together. When it hits our atmosphere, it crashes into all the tiny molecules of air floating around, and they scatter the light in different directions, like a ball bouncing off a wall. Here's the key part: blue light has a shorter, choppier wave than red light, and shorter waves bounce off things more easily. So blue light gets scattered all over the sky, bouncing around until it reaches your eyes from every direction, while red and orange light mostly just goes straight past. That's why when you look up, you're not looking at the sun directly, you're seeing blue light that's been bounced around the whole sky to get to you.\n\n## 4\n\n雨落了一整夜，没有停过。路灯透过水汽，晕出一圈圈昏黄的光，街道空无一人，只有积水反射着微弱的光亮。风把雨丝斜斜地吹向窗玻璃，发出细碎的声响，像是谁在轻轻敲门。远处传来几声犬吠，又很快消失在雨声里。巷口的老树被雨水打湿，枝叶低垂，仿佛也倦了。整座城市安静得只剩下雨声，和偶尔驶过的车灯，划破湿漉漉的黑夜。\n\n## 5\n\nHi [Name],\n\nThanks for the invite, I appreciate you thinking of me. I can't make it on Friday, but I hope everyone has a great time. Let's catch up another time soon.\n\nBest,\n[Your name]\n\n## 6\n\nPlain, direct, and conversational, with just enough concrete detail to make the point land.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 334,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 964,
+  "service_tier": "standard",
+  "prompt_tokens": 334,
+  "completion_tokens": 964,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "contextUsagePercentage": 0.3286000192165375
+ },
+ "ttft": 3.502268249998451,
+ "ttft_content": 3.502268249998451,
+ "duration": 15.11210729099912,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_5jn7adjlygyou6qbimq7sptjyzemqmdat3i7xaxk2uylo3htluuy",
+ "resp_model": "claude-sonnet-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:20:25 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141620222476295638268d9d64IWTub8H",
+  "x-request-id": "1794673221893715553737d179f49d4722d"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673221.6007612,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-sonnet-5",
+  "route": "ppapi_msg",
+  "config": "dev03",
+  "split": "dev",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

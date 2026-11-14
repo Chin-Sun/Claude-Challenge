@@ -56,9 +56,10 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--paper", default=MAIN)
     ap.add_argument("--write", action="store_true")
+    ap.add_argument("--routes", default="ppapi_msg")
     a = ap.parse_args()
     papers = load_papers()
-    recs = [r for r in load_records(include_quarantined=True)
+    recs = [r for r in load_records(a.routes.split(","), include_quarantined=True)
             if r.get("paper") == a.paper and r.get("paper_hash") == papers[a.paper].hash]
     flagged, per_model = audit(recs, papers)
     by = collections.Counter(f["label"] for f in flagged)

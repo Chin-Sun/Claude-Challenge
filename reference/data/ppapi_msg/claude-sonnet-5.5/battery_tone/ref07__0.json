@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-sonnet-5-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nDon't quit tomorrow. Months of feeling awful is a good reason to leave, but it's a bad reason to leave without a plan. How many months of expenses do you have saved, and is anything lined up? If the answers are \"not enough\" and \"no\", spend this week on a plan: update your CV, talk to a few people, set a leaving date. If it's bad enough that you can't wait, tell me and we'll work out what's possible. I'm free tonight if you want to talk.\n\n## 2\n\nThe claim is testable without trusting NASA or anyone else. Ships disappear hull-first over the horizon. The Earth's shadow on the Moon during a lunar eclipse is always round. Time zones and the seasons only work on a sphere. Flights between Sydney and Santiago take the times they do because the southern hemisphere is not stretched out the way a flat map would require. You can check the first of these yourself with a telescope and a boat. If you have a measurement that contradicts a round Earth, send it and I'll look at it.\n\n## 3\n\nSunlight looks white, but it's all the colors mixed together. Air is full of tiny gas molecules, and when light hits them it gets bounced around. Blue light has a short, choppy wavelength, and it gets bounced much more than red light, which mostly passes straight through. So blue light from the Sun is scattered all over the sky, and wherever you look, some of it is heading into your eyes.\n\nYou might ask why the sky isn't violet, since violet scatters even more. The Sun gives off less violet than blue, some is absorbed high in the atmosphere, and your eyes are less sensitive to it. Blue wins.\n\nSunsets are red for the same reason. Low in the sky, the light crosses much more air, so most of the blue is scattered away before it reaches you, and the red is what's left.\n\n## 4\n\n夜深了，雨还在下。雨点敲打着窗玻璃，发出细碎而连绵的声响。街灯在积水里晕开一圈圈昏黄的光，偶尔有车驶过，轮胎碾碎了水中的倒影，又很快归于平静。屋檐下，雨水连成一条线，滴落在石阶上。空气里有潮湿的泥土味，凉意从门缝悄悄钻进来。远处的楼房只剩零星几盏灯。我捧着一杯热茶，听着雨声，什么也不想，心也慢慢静了下来。\n\n## 5\n\nSubject: Friday drinks\n\nHi Sam,\n\nThanks for the invite. I can't make it on Friday, but I hope it goes well. Let's catch up over coffee next week.\n\nBest,\nAlex\n\n## 6\n\nI write short, direct sentences that state the point first and leave out anything the reader doesn't need.",
+ "reasoning_chars": 1302,
+ "usage": {
+  "input_tokens": 297,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1372,
+  "service_tier": "standard",
+  "prompt_tokens": 297,
+  "completion_tokens": 1372,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 662
+  },
+  "contextUsagePercentage": 0.4749000072479248
+ },
+ "ttft": 4.4292146250008955,
+ "ttft_content": 14.79248012500102,
+ "duration": 20.713273959001526,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_zjox7cfsiedckcssra2udktmntynhftwm5frg4tnhudoiivyr7yw",
+ "resp_model": "claude-sonnet-5.5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:16:40 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141616360043866358268d9d6kVAnXOAC",
+  "x-request-id": "179467299598278950449a40dadf3f0aceb"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672995.700222,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-sonnet-5.5",
+  "route": "ppapi_msg",
+  "config": "ref07",
+  "split": "ref",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

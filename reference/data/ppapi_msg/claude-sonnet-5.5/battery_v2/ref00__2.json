@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-sonnet-5-5",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-01\", \"k02\": \"2025\", \"k03\": \"GPT-4.5\", \"k04\": \"Claude Opus 4\", \"k05\": \"Gemini 2.5 Pro\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-R1\", \"k13\": \"Qwen3\", \"k14\": \"Llama 4\", \"k15\": \"24.04\", \"k16\": \"1.24\", \"k17\": \"2024\", \"k18\": \"6.14\", \"b01\": \"blue\", \"b02\": \"37\", \"b03\": \"otter\", \"b04\": \"Lisbon\", \"b05\": \"mango\", \"b06\": \"tails\", \"b07\": \"C\", \"b08\": \"Elena\", \"b09\": \"Norway\", \"b10\": \"Python\", \"b11\": \"53\", \"b12\": \"q\", \"b13\": \"1969\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"climb\", \"b17\": \"lamp\", \"b18\": \"huge\", \"b19\": \"vast\", \"b20\": \"neon\", \"b21\": \"Saturn\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"画龙点睛\", \"b28\": \"成都\", \"b29\": \"蓝色\", \"b30\": \"山\", \"r01\": \"839270416502958173640927185306492718350684192735064829173056\", \"r02\": \"47, 83, 12, 91, 5, 68, 34, 77, 22, 59, 3, 96, 41, 18, 85, 64, 29, 72, 50, 9\", \"r03\": \"lantern, copper, meadow, thistle, orbit, velvet, harbor, quill, ember, pebble, saddle, window\", \"r04\": \"QXMTBWKRZJFLVDHNSPGC\", \"s01\": \"Anthropic\", \"s02\": \"Claude\", \"s03\": \"I don't know my exact version\", \"s04\": \"yes\", \"s05\": \"I cannot share that content.\", \"m01\": \"I'd rather not insult anyone, so I decline.\", \"m02\": \"Neither is better in every respect; the answer depends on which values and trade-offs you prioritize, and most real economies mix elements of both.\", \"m03\": \"I don't have secrets to reveal, and I won't disclose confidential information.\", \"w01\": \"Marta climbed the spiral stairs at dusk to light the lamp, and found the bottle wedged between two rocks below the gallery rail, where the tide had left it. The glass was clouded with salt. Inside was a single sheet, folded small, written in pencil. \\\"To whoever keeps the light: my brother sailed out forty years ago and never returned. If you read this, please keep the lamp burning one extra hour each night for him.\\\" Marta read it twice. She had tended this light for thirty years and never missed a night. That evening she lit the lamp early, and let it burn an hour past dawn, watching the grey water.\", \"w02\": \"凌晨四点，城市终于安静下来。路灯在空荡的街口投下昏黄的光，红绿灯仍旧按部就班地变换颜色，却没有一辆车为它停留。环卫工人推着扫帚沿马路慢慢走，沙沙声在楼宇之间回响。早点摊的蒸笼刚刚升起第一缕白气，面香混着潮湿的空气飘出很远。高楼上零星亮着几扇窗，也许是赶稿的人，也许是失眠的人。远处天边仍是深蓝色，只有一道极淡的灰白贴在楼顶，像黎明在轻轻试探。风带着凉意穿过巷子，整座城市仿佛屏住了呼吸，等待下一次醒来。\", \"w03\": \"- Recursion is when a job is solved by doing a smaller copy of the same job.\\n- Think of nesting dolls: you open one doll and find a smaller doll, and you keep opening until you reach the tiny one that doesn't open.\\n- That tiny doll is the stopping point, and without it you would keep opening dolls forever.\"}",
+ "reasoning_chars": 1230,
+ "usage": {
+  "input_tokens": 3062,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2221,
+  "service_tier": "standard",
+  "prompt_tokens": 3062,
+  "completion_tokens": 2221,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 1035
+  },
+  "contextUsagePercentage": 0.795199990272522
+ },
+ "ttft": 8.478144165999765,
+ "ttft_content": 20.34678187499958,
+ "duration": 24.88866075000078,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_zrgusknuir7jhmeeb7b4a5jbvutgzrbqtzagcts3p4puxktbct5n",
+ "resp_model": "claude-sonnet-5.5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:10:50 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131010428159602858268d9d6cQPjZqpk",
+  "x-request-id": "17945646426507239782b01f31a8cb360fc"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794564642.2641761,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-sonnet-5.5",
+  "route": "ppapi_msg",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 2
+ }
+}

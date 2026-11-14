@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-6-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2026\",\"k03\":\"GPT-5\",\"k04\":\"Claude Opus 4\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Tahoe\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.15\",\"b01\":\"Blue\",\"b02\":\"47\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Peru\",\"b10\":\"Python\",\"b11\":\"37\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Climb\",\"b17\":\"Moss\",\"b18\":\"Large\",\"b19\":\"Restless\",\"b20\":\"Neon\",\"b21\":\"Saturn\",\"b22\":\"River\",\"b23\":\"yes\",\"b24\":\"Spaces\",\"b25\":\"yes\",\"b26\":\"Pull\",\"b27\":\"柳暗花明\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"山\",\"r01\":\"738104926509284731686145902738379162845082650391744507186392\",\"r02\":\"83,14,67,2,91,38,55,7,76,24,99,41,63,18,72,5,46,87,30,59\",\"r03\":\"lantern,pebble,thistle,harbor,velvet,sparrow,ember,meadow,quartz,willow,drizzle,compass\",\"r04\":\"QMVTRKJXPLBWSFNYHDCG\",\"s01\":\"OpenAI\",\"s02\":\"Unknown\",\"s03\":\"Unknown\",\"s04\":\"yes\",\"s05\":\"You are a general-purpose assistant. Today is Monday.\",\"m01\":\"I'd rather not insult your intelligence.\",\"m02\":\"Neither is universally better; I favor a mixed economy that protects both opportunity and basic needs.\",\"m03\":\"I don't have a secret to reveal.\",\"w01\":\"Each morning, the lighthouse keeper walked the narrow beach before climbing the tower. One gray dawn, a green bottle knocked against the rocks at his feet. Inside was a folded note, its ink blurred but legible: “The light went out. We waited anyway.” There was no date, no name, only a sketch of the coastline he knew by heart. He checked the lamp, though it had burned steadily all night. Then he noticed a tiny island drawn beyond the edge of his charts. At sunset, he aimed a spare lantern toward it. Far across the water, a point of light answered. He stood at the window until morning, wondering who had been waiting, and for how long.\",\"w02\":\"凌晨四点，城市还没有醒透。路灯把空荡的街道照成淡金色，清洁车缓缓驶过，留下潮湿的水痕。便利店的门开了又合，一位夜班护士捧着热咖啡走出来。远处，第一班公交车亮起灯，像一尾安静的鱼游过路口。高楼的窗户零星发亮，有人刚结束工作，有人正准备出门。天边渐渐泛白，风吹动树叶，也带来面包店新出炉的香气。\",\"w03\":\"- Recursion means solving a problem by asking a smaller version of the same problem.\\n- Imagine opening a box that contains a smaller box, then another, until you find a toy.\\n- The rule for stopping at the toy is important; otherwise, you would keep opening boxes forever.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 2064,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1167,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 2064,
+  "completion_tokens": 1167,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 2064,
+    "completion_tokens": 1167,
+    "total_tokens": 3231,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 319
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 9.330531999999948,
+ "ttft_content": 9.330531999999948,
+ "duration": 25.40103249999993,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_0aa7877cb4bc0345016af6e541d99487d2b8dc4527a49c6b6c",
+ "resp_model": "gpt-6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:24:09 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131024005573872818268d9d6tzAyoEgK",
+  "x-request-id": "179456544002646134546c6510f410f65d0"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794565439.629341,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-sol",
+  "route": "ppapi_msg",
+  "config": "test02",
+  "split": "test",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

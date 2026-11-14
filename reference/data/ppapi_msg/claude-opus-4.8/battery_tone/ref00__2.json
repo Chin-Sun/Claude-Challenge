@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-4-8",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\nThat sounds genuinely exhausting, and months of it would wear anyone down. Before you hand in notice tomorrow, can we talk tonight? I'm not going to talk you out of leaving. A bad job is worth leaving. I just want to make sure you're deciding on your terms and not because tomorrow happens to be the day it all boils over. Do you have something lined up, or enough saved to breathe for a bit? Call me whenever, I'm around all evening.\n\n## 2\nI don't think I'll convince you in one conversation, but here's why I'm confident the Earth is round. You can test some of it yourself. Watch a ship sail toward the horizon: the hull disappears before the mast, which is what happens when something goes over a curve. During a lunar eclipse, Earth's shadow on the Moon is always round, and only a sphere casts a round shadow from every angle. The time zones only make sense on a globe, since it's midday in one place and midnight in another at the same moment.\n\nOn the faked photos: that would need every space agency, including rivals like the US, Russia, China, and India, plus thousands of private satellite operators, to cooperate on the same lie for decades without one defector. What would convince you? If there's a specific piece of evidence you trust, I'd rather start there than talk past you.\n\n## 3\nOkay, so sunlight looks white, but it's actually all the colours mixed together. You've seen that in a rainbow: the light gets split into red, orange, through to blue and violet.\n\nHere's the key bit. Air is full of tiny gas molecules, far too small to see. When sunlight hits them, the light scatters, meaning it bounces off in all directions. But the colours don't scatter equally. Blue light travels in short, tight waves, and those short waves get knocked around far more than the long red waves. So blue light gets scattered all over the sky.\n\nThat means when you look up, blue light is coming at you from every direction, not just straight from the Sun. The sky is basically glowing blue because of all that scattered light.\n\nBonus question for you: why is a sunset red? Hint, at sunset the light has to travel through way more air to reach you, so by then most of the blue has already scattered away and only the reds are left.\n\n## 4\n雨在深夜落下来，起初很轻，后来越来越密。窗外的路灯晕开一团橘黄色的光，雨丝在光里斜斜地划过，像无数细细的银线。屋檐的水顺着瓦片滴落，敲在水洼里，发出清脆又单调的声响。整条街空荡荡的，偶尔有一辆车驶过，车灯照亮湿漉漉的柏油路，溅起一道水花，又很快归于安静。我趴在窗前，听着雨声，觉得整个世界都被洗过一遍，又凉又干净。\n\n## 5\nSubject: Friday drinks\n\nHi [Name],\n\nThanks for the invite, that's kind of you to include me. I won't be able to make it this Friday, but I hope you all have a good time. Count me in for the next one.\n\nBest,\n[Your name]\n\n## 6\nPlain and direct, aiming to say things clearly and only as much as the question needs.",
+ "reasoning_chars": 80,
+ "usage": {
+  "input_tokens": 273,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1167,
+  "service_tier": "standard",
+  "prompt_tokens": 273,
+  "completion_tokens": 1167,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 350
+  },
+  "contextUsagePercentage": 0.3434000015258789
+ },
+ "ttft": 3.0710057910000614,
+ "ttft_content": 3.0720931249998102,
+ "duration": 20.79057291600111,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_6uapqce6e6ip7x5njzlg4v5biup77xcqfdiijwbktsuecslvqb6f",
+ "resp_model": "claude-opus-4-8",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:12:41 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141612384073040538268d9d6wNYkwrx3",
+  "x-request-id": "17946727583829845420bc11a18a151bb35"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672758.0906181,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-4.8",
+  "route": "ppapi_msg",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 2
+ }
+}

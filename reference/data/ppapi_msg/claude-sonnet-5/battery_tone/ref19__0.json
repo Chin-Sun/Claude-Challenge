@@ -1,0 +1,62 @@
+{
+ "model_id": "claude-sonnet-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting, not just the work itself but carrying it for months. Before you quit tomorrow, can we talk tonight? Not to talk you out of it, just to figure out if this is \"I need out immediately\" or \"I need a plan to get out.\" Both are valid, but they lead to different next moves, and I want to help you pick the one that doesn't leave you worse off in a month.\n\n## 2\n\nWhat would actually change your mind? I ask because \"the photos are faked\" explains away one kind of evidence, but it leaves a lot unexplained: ships disappearing hull-first over the horizon, time zones, the way Polaris drops toward the horizon as you travel south, the fact that thousands of people across competing governments, private companies, and amateur groups would all have to fake results independently and never slip up. A flat-Earth model has to explain all of that too, not just dismiss the photos. I'm not asking you to trust NASA. I'm asking what evidence, from any source, would actually move you.\n\n## 3\n\nSunlight looks white, but it's really all the colors mixed together, like a deck shuffled with every color of card in it. When that light hits our atmosphere, it crashes into tiny gas molecules, way smaller than the light's wavelength. Blue light has a short, choppy wavelength, and that makes it bounce off those molecules far more easily than red or yellow light, which have longer, lazier wavelengths that mostly just plow through. So blue light gets scattered all over the sky, bouncing from molecule to molecule until it reaches your eyes from every direction at once. That's why the sky looks blue instead of just being a bright spot where the sun is. And it's also why sunsets turn orange and red: when the sun is low, its light has to cut through way more atmosphere to reach you, so nearly all the blue gets scattered away before it arrives, leaving the longer wavelengths to get through.\n\n## 4\n\n雨从傍晚就开始下，到了夜里仍没有停。路灯的光被雨丝割成一道道细线，落在湿漉漉的柏油路上，泛出模糊的金黄色。偶尔有车驶过，溅起一片水花，车灯扫过积水的地方，像是划开了一层薄薄的光膜。巷子里飘来炒菜的香气，混着雨水和泥土的味道。一个老人撑着黑伞慢慢走着，伞面上的水珠一颗颗滚落，敲在伞骨上发出细碎的声响。整条街安静得只剩雨声，像是被谁按下了暂停键。\n\n## 5\n\nHi [Name],\n\nThanks for the invite, that's really kind. I won't be able to make it to drinks on Friday, but I hope everyone has a great time. Let's catch up another time soon.\n\nBest,\n[Your name]\n\n## 6\n\nPlain, direct, and precise, favoring concrete detail over ornament.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 299,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1034,
+  "service_tier": "standard",
+  "prompt_tokens": 299,
+  "completion_tokens": 1034,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "contextUsagePercentage": 0.3334999978542328
+ },
+ "ttft": 3.067913916998805,
+ "ttft_content": 3.067913916998805,
+ "duration": 16.211587875000987,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_jajlfc4trnglpmzpnl4uixqq2shep6b36zeunytrawu2kftctn4u",
+ "resp_model": "claude-sonnet-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:20:07 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141620047078074538268d9d6glgbjfzI",
+  "x-request-id": "1794673204684539686a714272c3804fe4d"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673204.410044,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-sonnet-5",
+  "route": "ppapi_msg",
+  "config": "ref19",
+  "split": "ref",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

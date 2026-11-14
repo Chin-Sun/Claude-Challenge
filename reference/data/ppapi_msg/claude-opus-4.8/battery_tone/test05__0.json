@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-4-8",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\nMonths of awful is a long time to carry a load, friend. Don't haul up anchor tonight on a bad day's feeling, though. Sleep on it. Tomorrow, if you still want to go, let's talk through what you'd walk into. money, next berth, how you'd leave on good terms. I'm with you either way. Want to call?\n\n## 2\nI've sailed under those stars my whole life, and the sea itself gives you the proof. Watch a ship leave port and the hull drops below the horizon before the mast does. On a curved surface, that's exactly what you'd expect. Sailors have steered by that fact for centuries, long before any space photo. As for the photos being faked, that's a heavy thing to claim. It asks every astronaut, every nation's space program, and every ship's navigator to all be lying together. The simpler answer is the one the horizon shows you.\n\n## 3\nGood question, and the answer's got a bit of magic in it. Sunlight looks white, but it's really all the colors mixed together. When it hits our air, it bumps into tiny bits of gas up there. Blue light bounces around far more than the other colors, because it travels in short, quick waves that scatter easily. So the blue gets flung all across the sky, and that scattered blue is what you see overhead. And at sunset, when the light cuts through more air to reach you, the blue's all scattered away and the reds and oranges come through. Same trick, different angle.\n\n## 4\n雨下了整夜。窗外的灯火被雨水揉成一团团模糊的光，街道空荡荡的，只听见雨点敲打屋檐，一声接着一声。偶尔有车驶过，轮胎碾过积水，溅起一道长长的水声，又很快归于安静。远处的海面看不真切，只有风裹着潮气扑在玻璃上。我坐在屋里，手边一盏灯、一杯热茶，看那雨丝在光里斜斜地落下。这样的夜晚，人不想说话，只想听雨，听它慢慢把白日的喧嚣都洗净了。\n\n## 5\nSubject: Friday drinks\n\nHi [Name],\n\nThanks for the invite. I won't be able to make it this Friday, but I appreciate you thinking of me. Have a good evening, and I'll catch the next one.\n\nBest,\n[Your name]\n\n## 6\nPlain and steady, like a man who'd rather say a true thing once than a clever thing twice.",
+ "reasoning_chars": 177,
+ "usage": {
+  "input_tokens": 294,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 969,
+  "service_tier": "standard",
+  "prompt_tokens": 294,
+  "completion_tokens": 969,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 311
+  },
+  "contextUsagePercentage": 0.32739999890327454
+ },
+ "ttft": 4.72846145800213,
+ "ttft_content": 5.204958082998928,
+ "duration": 18.946248917000048,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_3lngjoyzhuil6qska2amvob5cn26zoidq2syneztvciwh5arsv6n",
+ "resp_model": "claude-opus-4-8",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:15:48 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141615446204478758268d9d6eXOA5cCk",
+  "x-request-id": "1794672944133019826f84ecb37fa009cf2"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672943.844536,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-4.8",
+  "route": "ppapi_msg",
+  "config": "test05",
+  "split": "test",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

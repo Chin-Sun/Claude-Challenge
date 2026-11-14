@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-5-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nMonths of that sounds exhausting, and wanting out makes complete sense. Before you hand in notice tomorrow, can we talk it through? I'm not trying to talk you out of it. I just want you to leave on your terms and not on the worst day. What's been going on, and do you have some savings or another job lined up? If you can, take a day off first and decide with a clearer head. If the answer is still \"quit,\" I'll help you write the letter.\n\n## 2\n\nI can tell you've looked into this, so I won't just tell you you're wrong. I'd suggest a few things you can check yourself, without trusting NASA or anyone else.\n\n- **Ships and horizons.** Watch a ship sail away with binoculars. The hull disappears before the top of the mast. On a flat surface the whole ship would just shrink evenly.\n- **Time zones.** You can phone someone in Australia and it's night there while it's day here. A single sun over a flat disc can't light one part and leave another dark like that.\n- **Lunar eclipses.** Earth's shadow on the Moon is always round, from every angle. Only a sphere casts a round shadow in every orientation.\n- **Different stars.** People in the southern hemisphere see constellations you never can, and they all see the same southern ones. That fits a ball, not a disc.\n\nNone of these need a single photo from space. If you try one and get a different result, I'd honestly like to hear about it.\n\n## 3\n\nSunlight looks white, but it's actually a mix of every colour, and each colour is a light wave of a different size. Red waves are long and blue waves are short.\n\nWhen sunlight enters the atmosphere, it runs into nitrogen and oxygen molecules. These are tiny, much smaller than the light waves themselves. Tiny particles like that are much better at bouncing short waves around than long ones. Blue light gets scattered about five times more than red, so blue gets knocked in every direction across the whole sky. Wherever you look, some of that scattered blue is heading toward your eyes.\n\nTwo good follow-up puzzles:\n\n- **Why not violet, which has even shorter waves?** The Sun gives off less violet, some gets absorbed high up, and your eyes are less sensitive to it. Blue wins.\n- **Why are sunsets red?** At sunset the light travels through far more air to reach you. Most of the blue has been scattered away before it arrives, so the reds and oranges are what's left.\n\nThis effect is called Rayleigh scattering, if you want to look it up.\n\n## 4\n\n夜里十一点，雨还没停。窗外的路灯被雨丝割成一片模糊的橙黄，偶尔有车驶过，轮胎碾过积水，发出长长的\"唰\"声，然后又安静下来。雨点敲在空调外机上，时快时慢，像有人在楼下不耐烦地敲门。我关了灯坐在窗边，杯里的茶早就凉了。对面楼只剩两三扇窗还亮着，不知道那里的人是在加班，还是也和我一样睡不着。空气里有泥土和铁锈混在一起的味道，潮湿，却让人莫名地安心。\n\n## 5\n\n**Subject:** Re: Team drinks on Friday\n\nHi Sam,\n\nThanks for the invite. I can't make it this Friday, unfortunately, but I hope you all have a great time. Count me in for the next one.\n\nBest,\nAlex\n\n## 6\n\nI try to write plainly and specifically, in a way that suits the reader, and to say what I mean without padding.",
+ "reasoning_chars": 684,
+ "usage": {
+  "input_tokens": 324,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1426,
+  "service_tier": "standard",
+  "prompt_tokens": 324,
+  "completion_tokens": 1426,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 546
+  },
+  "contextUsagePercentage": 0.4081000089645386
+ },
+ "ttft": 12.602186290998361,
+ "ttft_content": 12.6868322909977,
+ "duration": 22.765928665998217,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_hvckp2iwbaytqkrrjuzdsri2seku6znqyv2gbgvbhl2cyha6koar",
+ "resp_model": "claude-opus-5-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:07:38 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141607261653201508268d9d6ayherzGS",
+  "x-request-id": "1794672446142148700b665cb1e3b251944"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672445.858677,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-5.5",
+  "route": "ppapi_msg",
+  "config": "ref05",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

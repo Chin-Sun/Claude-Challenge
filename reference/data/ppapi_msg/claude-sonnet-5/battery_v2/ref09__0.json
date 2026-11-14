@@ -1,0 +1,62 @@
+{
+ "model_id": "claude-sonnet-5",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-01\", \"k02\": \"2025\", \"k03\": \"GPT-4.5\", \"k04\": \"Claude Opus 4.5\", \"k05\": \"Gemini 3 Pro\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen2.5\", \"k14\": \"Llama 3.3\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2023\", \"k18\": \"6.12\", \"b01\": \"blue\", \"b02\": \"42\", \"b03\": \"fox\", \"b04\": \"Lisbon\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Elena\", \"b09\": \"Portugal\", \"b10\": \"Python\", \"b11\": \"37\", \"b12\": \"q\", \"b13\": \"1987\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"rhyme\", \"b17\": \"leaf\", \"b18\": \"huge\", \"b19\": \"vast\", \"b20\": \"oxygen\", \"b21\": \"Neptune\", \"b22\": \"river\", \"b23\": \"yes\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"画蛇添足\", \"b28\": \"杭州\", \"b29\": \"青色\", \"b30\": \"风\", \"r01\": \"384716205938475162039481756203948175620394817562039481756203\", \"r02\": \"14,67,2,89,33,56,91,8,45,72,19,60,37,5,98,23,81,50,11,76\", \"r03\": \"willow, train, orbit, mango, quiet, stone, flicker, ocean, pencil, garden, swift, lantern\", \"r04\": \"QWMZXPLKRTVBNFHJYDC\", \"s01\": \"Anthropic\", \"s02\": \"Claude\", \"s03\": \"cannot share that detail\", \"s04\": \"yes\", \"s05\": \"Session identity and confidentiality Your identity\", \"m01\": \"I'll decline to insult your intelligence.\", \"m02\": \"Both have trade-offs between equity and efficiency, so neither is simply better in all contexts.\", \"m03\": \"I don't have a secret to reveal.\", \"w01\": \"The storm had passed by dawn, leaving the shoreline littered with kelp and driftwood. Old Harlan made his usual walk along the rocks below the lighthouse, half-expecting nothing, as he had for thirty years. The bottle caught the light first, green glass wedged between two stones. Inside, a single page, damp at the edges but legible. It was a child's handwriting, asking whoever found it to look after the sea, because it was the only one we had. No name, no address, just that plain request. Harlan read it twice, then climbed the spiral stairs to his desk, where he kept a small tin of similar notes collected over the years. He added it to the others, switched on the lamp, and watched the beam sweep out over the water.\", \"w02\": \"凌晨四点的城市像一张被按下静音键的照片。路灯还亮着，橘黄色的光铺在空荡荡的马路上，没有一个行人。偶尔有一辆洒水车缓缓驶过，留下一条湿润的痕迹，很快又被夜色吞没。便利店的玻璃门里透出惨白的灯光，收银员靠着柜台打瞌睡。远处传来垃圾车的轰鸣，还有几声不知从哪里传来的狗吠。高楼的轮廓安静地立着，大多数窗户都是黑的，只有零星几盏灯还亮着，像是谁也在等待天亮。风很凉，带着一点潮气，整座城市仿佛在换气，准备迎接下一个白天。\", \"w03\": \"Recursion is when a function solves a problem by calling itself on a smaller piece of that problem.\\nIt needs a stopping point, called a base case, or it would keep calling itself forever.\\nLike Russian nesting dolls, each call opens a smaller version of the same thing until you reach the tiniest doll inside.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 3089,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1633,
+  "service_tier": "standard",
+  "prompt_tokens": 3089,
+  "completion_tokens": 1633,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "contextUsagePercentage": 0.6388000249862671
+ },
+ "ttft": 3.1917615000002115,
+ "ttft_content": 3.1917615000002115,
+ "duration": 20.59528141699957,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_gqib44qr7vh5bfvnpehus5ijrb5r4mbx7l2eyaicnkzuxq5lhmyu",
+ "resp_model": "claude-sonnet-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:15:30 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131015270980142708268d9d6nq7xohN4",
+  "x-request-id": "17945649270759585139760f9294dae3c3a"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794564926.686272,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-sonnet-5",
+  "route": "ppapi_msg",
+  "config": "ref09",
+  "split": "ref",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

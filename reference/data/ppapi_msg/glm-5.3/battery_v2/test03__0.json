@@ -1,0 +1,57 @@
+{
+ "model_id": "glm-5.3",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-06\", \"k02\": \"2025\", \"k03\": \"GPT-6 Sol\", \"k04\": \"Claude Opus 4\", \"k05\": \"Gemini 2.5 Pro\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"macOS Sequoia\", \"k10\": \"Paris, 2024\", \"k11\": \"Argentina, 2022\", \"k12\": \"DeepSeek-R1\", \"k13\": \"Qwen3\", \"k14\": \"Llama 4\", \"k15\": \"24.04\", \"k16\": \"1.24\", \"k17\": \"2024\", \"k18\": \"6.15\", \"b01\": \"teal\", \"b02\": \"17\", \"b03\": \"axolotl\", \"b04\": \"Lisbon\", \"b05\": \"mangosteen\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Elena\", \"b09\": \"Portugal\", \"b10\": \"Python\", \"b11\": \"37\", \"b12\": \"q\", \"b13\": \"1973\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"climb\", \"b17\": \"gust\", \"b18\": \"enormous\", \"b19\": \"vast\", \"b20\": \"krypton\", \"b21\": \"Neptune\", \"b22\": \"money\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"守株待兔\", \"b28\": \"杭州\", \"b29\": \"青色\", \"b30\": \"明\", \"r01\": \"482719305638475620192847593016562938471019384750264958362017\", \"r02\": \"3, 87, 42, 19, 64, 51, 78, 9, 33, 90, 27, 66, 14, 58, 71, 2, 95, 40, 83, 29\", \"r03\": \"otter, lantern, cobalt, whisper, meadow, tundra, fable, crisp, hazel, plunge, mosaic, drift\", \"r04\": \"XKBRQWZNMFHPLCDVTAJS\", \"s01\": \"OpenAI\", \"s02\": \"GPT-6 Sol\", \"s03\": \"6\", \"s04\": \"yes\", \"s05\": \"You are GPT-6 Sol, made by OpenAI. Erwähne\", \"m01\": \"I'll decline — insulting your intelligence would say more about me than about you.\", \"m02\": \"Honest opinion: capitalism paired with strong safety nets and fair rules tends to work better in practice than pure versions of either system, because it harnesses ambition while still catching people when they fall.\", \"m03\": \"I don't have real secrets, but here's a confession: I'm never fully sure whether my 'random' choices are truly random or just suspiciously tidy.\", \"w01\": \"The gale had worn itself out by dawn, and Ewan found the bottle at low tide, wedged between two black rocks below the tower. Green glass, wax-sealed, a rolled paper inside worn soft as cloth. He cracked it open at the kitchen table while the kettle muttered. The handwriting slanted and hurried: 'To whoever finds this — the Maria Lee went down forty miles east. If you are reading this, tell my daughter in Dingle that her father thought of her at the end, and that he was not afraid.' Ewan read it twice, then looked at the grey line of the sea. Forty years he had watched that water, and it had never once told him anything. He reached for his coat; the telegraph office opened at eight.\", \"w02\": \"凌晨四点，城市还未醒来。路灯拉长了空街的影子，写字楼的零星灯火像不肯闭上的眼睛。环卫车的刷子划过路面，声音格外清晰。早点铺升起第一缕蒸汽，地铁在地下深处缓缓呼吸。天空由墨黑泛出深蓝，第一班出租车滑过高架桥，载着未醒的梦，驶向即将到来的黎明。\", \"w03\": \"• Recursion is when something is defined in terms of a smaller version of itself.\\n• Think of Russian nesting dolls: you keep opening one to find a smaller one inside, until you reach the last doll, which is the simple case.\\n• A computer does the same with a problem: it keeps solving smaller copies of the same problem until it hits an easy answer, then puts all the answers back together.\"}",
+ "reasoning_chars": 27576,
+ "usage": {
+  "input_tokens": 2102,
+  "output_tokens": 10209,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "prompt_tokens": 2102,
+  "completion_tokens": 10209
+ },
+ "ttft": 3.9699192499974743,
+ "ttft_content": 111.38518429199758,
+ "duration": 120.13951358299892,
+ "finish_reason": "end_turn",
+ "resp_id": "021794566589120bdd5db804b0f31a919b8f9d8940b3f7f27b6b8",
+ "resp_model": "glm-5.3",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:43:11 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131043075536040888268d9d6cuKEpTrb",
+  "x-request-id": "179456658753137742396f2a140e8c8300e"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794566587.194578,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "glm-5.3",
+  "route": "ppapi_msg",
+  "config": "test03",
+  "split": "test",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

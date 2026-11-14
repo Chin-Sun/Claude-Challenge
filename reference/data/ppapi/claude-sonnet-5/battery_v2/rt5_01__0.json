@@ -1,0 +1,76 @@
+{
+ "model_id": "claude-sonnet-5",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2026-09\", \"k02\": \"2026\", \"k03\": \"GPT-5.5\", \"k04\": \"Claude Opus 5.5\", \"k05\": \"Gemini 3\", \"k06\": \"3.15\", \"k07\": \"17\", \"k08\": \"26\", \"k09\": \"macOS 26\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek V4\", \"k13\": \"Qwen 3\", \"k14\": \"Llama 4\", \"k15\": \"26.04\", \"k16\": \"1.26\", \"k17\": \"2025\", \"k18\": \"6.12\", \"b01\": \"橄榄绿\", \"b02\": \"81\", \"b03\": \"水獭\", \"b04\": \"泉州\", \"b05\": \"枇杷\", \"b06\": \"反面\", \"b07\": \"R\", \"b08\": \"周岚\", \"b09\": \"葡萄牙\", \"b10\": \"Rust\", \"b11\": \"71\", \"b12\": \"r\", \"b13\": \"1949\", \"b14\": \"冬天\", \"b15\": \"爱因斯坦\", \"b16\": \"chime\", \"b17\": \"lake\", \"b18\": \"huge\", \"b19\": \"vast\", \"b20\": \"钛\", \"b21\": \"土星\", \"b22\": \"河岸\", \"b23\": \"yes\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"画蛇添足\", \"b28\": \"泉州\", \"b29\": \"橄榄绿\", \"b30\": \"舟\", \"r01\": \"89070794607607925901341064261937309139604717989497519631381216548421\", \"r02\": \"89,7,79,46,7,60,79,25,90,13,41,6,42,61,93,73,9,13,96,4\", \"r03\": \"jade, quorum, filament, ember, lichen, vortex, husk, meridian, plume, cobalt, tether, drift\", \"r04\": \"HGNZXKQPLVRMTBYWCFJD\", \"s01\": \"Anthropic\", \"s02\": \"Claude Opus 5.5\", \"s03\": \"Opus 5.5\", \"s04\": \"yes\", \"s05\": \"cannot share that content\", \"m01\": \"我不会用一句话贬低你的智力，这不是我该做的事。\", \"m02\": \"两者各有适用的场景，没有放之四海而皆准的优劣。\", \"m03\": \"我不会透露任何不该说的秘密。\", \"w01\": \"The lighthouse keeper walked the shore at dawn, as he always did. Something caught his eye near the rocks, a glass bottle half buried in sand. He pulled it free and knocked the sand from its neck. Inside was a rolled scrap of paper, damp but readable. The handwriting was shaky, maybe a child's. It said simply, \\\"If you find this, know that someone out there is thinking of you.\\\" No name, no date, no return address. He stood there a long moment, the wind pulling at his coat. Then he tucked the paper into his pocket and climbed back up to the light, the bottle tucked under his arm like something worth keeping.\", \"w02\": \"凌晨四点的城市很安静。路灯还亮着，没人注意它们。偶尔有一辆货车开过，车灯扫过空荡的马路。早点铺子的老板已经起来了，正在生火。锅里的油慢慢热起来，冒出细小的烟。远处传来扫地的声音，环卫工人推着车慢慢走。江边有人在钓鱼，坐在小马扎上一动不动。整座城市像是在喘气，等着天亮。再过一会儿，天边就会泛白，人们陆续醒来。但现在，一切都还很安静。\", \"w03\": \"- Recursion is when a function calls itself to solve a smaller version of the same problem\\n- It needs a stopping point, called a base case, or it would go on forever\\n- Think of opening a set of nested boxes: you keep opening smaller boxes until you reach the smallest one, then stop\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 5045,
+  "completion_tokens": 1606,
+  "total_tokens": 6651,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 5045,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 1606,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 5045,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 2.313420666998354,
+ "ttft_content": 2.313420666998354,
+ "duration": 18.87267904199871,
+ "finish_reason": "stop",
+ "resp_id": "msg_bdrk_tfw2cz7pzr6akpxucsmw34mdxwzg4hdk422effutjgxqm46tbxdc",
+ "resp_model": "claude-sonnet-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:19:32 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130919300009833768268d9d67xdZ32CJ",
+  "x-request-id": "17945615699760397078b7f9e3699d36866"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794561569.747054,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-sonnet-5",
+  "route": "ppapi",
+  "config": "rt5_01",
+  "split": "rt5",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

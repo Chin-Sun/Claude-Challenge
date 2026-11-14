@@ -1,0 +1,9 @@
+data: {"id":"resp_08630cdef9d4e530016af6d88e01b487d1bc40c4df96b85ab4","object":"chat.completion.chunk","created":1794562190,"model":"gpt-6-sol","choices":[{"index":0,"delta":{"role":"assistant"},"finish_reason":null}],"service_tier":"auto"}
+
+data: {"id":"resp_08630cdef9d4e530016af6d88e01b487d1bc40c4df96b85ab4","object":"chat.completion.chunk","created":1794562190,"model":"gpt-6-sol","choices":[{"index":0,"delta":{"content":"{\""},"finish_reason":null}],"service_tier":"auto"}
+
+data: {"error":{"code":"upstream_stream_read_error","message":"Upstream response stream was interrupted","type":"upstream_error"}}
+
+data: {"id":"","object":"chat.completion.chunk","created":0,"model":"","system_fingerprint":"","choices":[],"usage":{"prompt_tokens":2411,"completion_tokens":1,"total_tokens":2412,"prompt_tokens_details":{"cached_tokens":0,"text_tokens":0,"audio_tokens":0,"image_tokens":0},"completion_tokens_details":{"text_tokens":0,"audio_tokens":0,"image_tokens":0,"reasoning_tokens":0},"input_tokens":0,"output_tokens":0,"input_tokens_details":null,"claude_cache_creation_5_m_tokens":0,"claude_cache_creation_1_h_tokens":0}}
+
+data: [DONE]

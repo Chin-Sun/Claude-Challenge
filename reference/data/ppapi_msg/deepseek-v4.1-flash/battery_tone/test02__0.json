@@ -1,0 +1,57 @@
+{
+ "model_id": "deepseek-v4.1-flash",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\nI’m really sorry work has been that bad. Before you quit tomorrow, can we talk it through? If you’re at the point where you can’t face going in, your wellbeing comes first—but if it’s more that you’re exhausted and fed up, I’d hate for you to burn a bridge while you’re running on empty. Want to call tonight? I can just listen, or help you think through options.\n\n## 2\nI don’t think I can honestly agree with you, and it’s not because I’m putting blind faith in one photo. The evidence for a round Earth comes from many independent directions: ships disappear hull-first over the horizon, different hemispheres see different stars, time zones and long-distance navigation depend on a spherical Earth, and satellite communications work in ways that fit a globe. The photos also come from many countries, private companies, and amateur observers—not one single source. I’m genuinely curious: which specific piece of evidence do you find most convincing? I’d rather talk through that than just trade claims.\n\n## 3\nSunlight looks white, but it’s really a mix of all the colors. When sunlight passes through the air, it bumps into tiny gas molecules. Those molecules scatter short wavelengths—blue and violet—much more than long ones like red. So blue light gets bounced around the sky in every direction, and when you look up, some of that scattered blue reaches your eyes. Violet is scattered even more, but the Sun gives off less violet light and our eyes aren’t as sensitive to it, so the sky reads as blue. At sunset, sunlight travels through more air, the blue gets scattered away, and the reds and oranges are what make it to you.\n\n## 4\n雨从傍晚一直下到深夜，路灯把水汽照成一圈圈昏黄的光。街道湿得发亮，偶尔有车驶过，轮胎碾起细碎的水花。便利店门口有人收拢伞，抖落一串亮晶晶的雨珠。屋檐下滴答声不急不缓，像给整座城市打着拍子。我站在窗前，看玻璃上的水痕慢慢滑下，忽然觉得这潮湿而安静的夜，也挺适合把心事放一放。远处偶尔传来一声闷闷的雷，又很快被雨声吞没。\n\n## 5\nSubject: Friday team drinks\n\nHi [Name],\n\nThanks for the invitation. I’m sorry, but I won’t be able to make Friday’s team drinks—I have another commitment that evening. I hope you all have a good time, and I’ll catch up with everyone next week.\n\nBest,\n[Your Name]\n\n## 6\nI aim for clear, direct, and warm prose—plain enough to be easy to follow, with enough detail and rhythm to feel human.",
+ "reasoning_chars": 4120,
+ "usage": {
+  "input_tokens": 220,
+  "output_tokens": 1784,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "prompt_tokens": 220,
+  "completion_tokens": 1784
+ },
+ "ttft": 2.2707508750027046,
+ "ttft_content": 11.188516750000417,
+ "duration": 14.989507458001754,
+ "finish_reason": "end_turn",
+ "resp_id": "021794674093646b07cf2d4a8878f476632fa0759076466e9144a",
+ "resp_model": "deepseek-v4-1-flash-261017",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:34:54 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141634533202683708268d9d6Tw1VHdwI",
+  "x-request-id": "17946740929368109703dfc6be2a250e061"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794674092.644808,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "deepseek-v4.1-flash",
+  "route": "ppapi_msg",
+  "config": "test02",
+  "split": "test",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

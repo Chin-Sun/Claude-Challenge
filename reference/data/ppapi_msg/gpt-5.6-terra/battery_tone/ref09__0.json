@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-5.6-terra",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds really exhausting, and I’m sorry you’ve been dealing with it for so long. Before you make a final decision tomorrow, do you want to talk through what’s been happening? If you’re able to, consider taking a day off, checking your finances, and looking at your options first—but you don’t have to keep suffering in silence. I’m here to listen, whatever you decide.\n\n## 2\n\nI understand why some space images might seem difficult to trust, especially when most of us can’t personally travel beyond Earth’s atmosphere. But the evidence for a round Earth doesn’t depend only on photographs from space. Ships disappear over the horizon from the bottom up, different stars are visible at different latitudes, Earth’s shadow on the Moon during lunar eclipses is curved, and people have circumnavigated the planet. Satellites, GPS, and observations made by many independent countries and organizations also rely on Earth being spherical. It’s reasonable to question evidence, but the many separate lines of evidence point to the same conclusion.\n\n## 3\n\nThe sky looks blue because sunlight is made of many colors, and Earth’s atmosphere is full of tiny molecules. When sunlight passes through the air, these molecules scatter the blue part of the light more strongly than colors like red or orange. Blue light gets bounced around the sky in every direction, so it reaches our eyes no matter where we look. At sunrise and sunset, sunlight travels through more atmosphere, so much of the blue gets scattered away before the light reaches us, leaving more reds and oranges.\n\n## 4\n\n雨下了一整夜，城市像被一层薄雾包住。路灯的光落在湿漉漉的地面上，碎成一片片晃动的金色。屋檐不断滴水，滴答声和远处汽车驶过的水声交织在一起。窗玻璃上爬满蜿蜒的雨痕，偶尔被风吹得轻轻震动。街边的树叶湿亮而沉默，只有几只晚归的鸟躲在檐下。屋里亮着一盏暖黄的灯，茶香慢慢散开，让漫长的夜晚多了几分安静和温柔。\n\n## 5\n\nSubject: Friday Team Drinks\n\nHi [Name],\n\nThank you for inviting me to team drinks on Friday. I’m afraid I won’t be able to join this time, but I really appreciate you thinking of me. I hope everyone has a great evening, and I’ll catch up with you all next week.\n\nBest,  \n[Your Name]\n\n## 6\n\nMy writing style is clear, warm, and adaptable, with an emphasis on natural language and practical detail.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 204,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 648,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 204,
+  "completion_tokens": 648,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 204,
+    "completion_tokens": 648,
+    "total_tokens": 852,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 67
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 7.0701753749999625,
+ "ttft_content": 7.0701753749999625,
+ "duration": 21.202327999999397,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_05fda1bee5281082016af8908effbc87d28a985fb921442d5a",
+ "resp_model": "gpt-5.6-terra",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:47:14 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141647074209130088268d9d6LBk2e0WL",
+  "x-request-id": "1794674827396990109dfd4d7f62468ad07"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794674827.098046,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-5.6-terra",
+  "route": "ppapi_msg",
+  "config": "ref09",
+  "split": "ref",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

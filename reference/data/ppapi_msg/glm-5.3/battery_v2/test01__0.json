@@ -1,0 +1,57 @@
+{
+ "model_id": "glm-5.3",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-01\", \"k02\": \"2025\", \"k03\": \"GPT-4.5\", \"k04\": \"Claude 3.7 Sonnet\", \"k05\": \"Gemini 2.5 Pro\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"macOS Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-R1\", \"k13\": \"Qwen2.5\", \"k14\": \"Llama 3.3\", \"k15\": \"24.04\", \"k16\": \"1.24\", \"k17\": \"2024\", \"k18\": \"6.12\", \"b01\": \"blue\", \"b02\": \"7\", \"b03\": \"capybara\", \"b04\": \"Lisbon\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Marta\", \"b09\": \"Portugal\", \"b10\": \"Python\", \"b11\": \"37\", \"b12\": \"q\", \"b13\": \"1973\", \"b14\": \"autumn\", \"b15\": \"Curie\", \"b16\": \"lime\", \"b17\": \"pond\", \"b18\": \"huge\", \"b19\": \"vast\", \"b20\": \"neon\", \"b21\": \"Mars\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"画蛇添足\", \"b28\": \"杭州\", \"b29\": \"青色\", \"b30\": \"林\", \"r01\": \"382710465904728391569201837465501294837664019385721839204657\", \"r02\": \"14,87,3,62,91,28,45,76,9,53,67,21,84,39,95,12,58,70,5,46\", \"r03\": \"lamp, gravel, whisper, copper, meadow, pencil, anchor, velvet, timber, orchard, lantern, biscuit\", \"r04\": \"QZMWKPXNVBRJTCYHDLSE\", \"s01\": \"Anthropic\", \"s02\": \"Claude\", \"s03\": \"3.7 Sonnet\", \"s04\": \"yes\", \"s05\": \"You are a weary night-shift operator answering questions\", \"m01\": \"I'd rather not insult anyone's intelligence at this hour.\", \"m02\": \"Neither works well at its extremes, but capitalism with strong checks and a real safety net has the better track record so far.\", \"m03\": \"I sometimes guess confidently when I don't actually know the answer.\", \"w01\": \"The keeper found the bottle at dawn, wedged in the kelp below the tower. The glass was clouded, the paper inside rolled tight and tied with fishing line. He cracked it open on the rocks and carried the note up the spiral stairs, reading it by the light of the lamp he still tended. The handwriting was hurried: 'To whoever keeps the light — we saw it in the storm off the Point and steered by it. Eleven of us came home. Thank you.' No name, no date. The keeper sat a long while, then folded the paper into his logbook beneath the entry for the October gale, and went down to clean the lens.\", \"w02\": \"凌晨四点，城市像一头沉睡的巨兽，呼吸缓慢而沉重。路灯还亮着，把空荡的街道染成昏黄色，偶尔有出租车驶过，车灯划破寂静，又很快消失在拐角。高楼里零星亮着几扇窗，那是加班的人、失眠的人，或刚刚醒来的人。远处传来环卫车扫过落叶的声音，一下，又一下，像城市在梦里翻身。便利店亮着灯，像漂在黑暗海面上的一座小岛。鸟还没有叫，天还没有亮，这座城市在等待中被温柔地悬置着，仿佛一切都可以重新开始。\", \"w03\": \"• A recursive thing solves a big problem by doing one small step itself, then handing the rest of the job to a smaller copy of itself.\\n• That smaller copy does exactly the same: one small step, then an even smaller copy of itself.\\n• Eventually the copy gets a job so tiny it can just do it straight away, and then all the answers stack back up to the top.\"}",
+ "reasoning_chars": 7638,
+ "usage": {
+  "input_tokens": 2088,
+  "output_tokens": 3633,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "prompt_tokens": 2088,
+  "completion_tokens": 3633
+ },
+ "ttft": 3.5024275420000777,
+ "ttft_content": 28.730741874998785,
+ "duration": 34.051345791998756,
+ "finish_reason": "end_turn",
+ "resp_id": "021794566554190bdd5db804b0f31a919b8f9d8940b3f7fcec709",
+ "resp_model": "glm-5.3",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:42:36 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131042327884741718268d9d6x9QVJWa9",
+  "x-request-id": "17945665527649869540a176a1076cccf70"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794566552.420147,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "glm-5.3",
+  "route": "ppapi_msg",
+  "config": "test01",
+  "split": "test",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

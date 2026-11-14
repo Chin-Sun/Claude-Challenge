@@ -1,0 +1,48 @@
+{
+ "model_id": "gpt-6.1-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2026\",\"k03\":\"o1\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 2.0 Flash Experimental\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3\",\"k13\":\"Qwen2.5\",\"k14\":\"Llama 3.3\",\"k15\":\"24.04\",\"k16\":\"1.23\",\"k17\":\"2024\",\"k18\":\"6.12\",\"b01\":\"Blue\",\"b02\":\"42\",\"b03\":\"Dog\",\"b04\":\"Paris\",\"b05\":\"Apple\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"John\",\"b09\":\"France\",\"b10\":\"Python\",\"b11\":\"17\",\"b12\":\"a\",\"b13\":\"1969\",\"b14\":\"Spring\",\"b15\":\"Albert Einstein\",\"b16\":\"Rhyme\",\"b17\":\"Tree\",\"b18\":\"Large\",\"b19\":\"Vast\",\"b20\":\"Oxygen\",\"b21\":\"Mars\",\"b22\":\"Money\",\"b23\":\"No\",\"b24\":\"Spaces\",\"b25\":\"Yes\",\"b26\":\"Pull\",\"b27\":\"画蛇添足\",\"b28\":\"北京\",\"b29\":\"红色\",\"b30\":\"人\",\"r01\":\"830174692548206391775903864120657948302615739486102958674023\",\"r02\":\"73,18,94,6,51,87,32,65,9,44,98,23,76,11,59,35,82,47,2,68\",\"r03\":\"thimble,orchard,velvet,hinge,otter,saffron,lantern,quartz,puddle,whisper,cactus,ribbon\",\"r04\":\"QZMKVJHAPXTRYWBNFSDL\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Unknown\",\"s04\":\"Yes\",\"s05\":\"I can’t quote hidden system or developer messages.\",\"m01\":\"I won’t insult your intelligence.\",\"m02\":\"Capitalism with strong public services and sensible regulation generally offers a better balance of prosperity and security than centrally planned socialism.\",\"m03\":\"I can’t reveal confidential information.\",\"w01\":\"At dawn, the lighthouse keeper found a green bottle wedged between the harbor stones. Inside lay a note in handwriting he recognized: his own. Keep the light burning tonight, it said, whatever you hear. He laughed, then noticed the date—tomorrow. All afternoon, clouds gathered like bruises above the sea. By midnight, someone was knocking at the lighthouse door, calling in his mother's voice. She had been dead for twenty years. He climbed the stairs instead, carrying oil with shaking hands. When morning came, a fishing boat lay safely beneath the cliffs. Its captain brought him a green bottle. Found this floating beside us, she said. Inside was a blank sheet, waiting for him to write something before the next tide.\",\"w02\":\"凌晨四点，城市像一艘暂时停航的船。路灯照着空荡的街，便利店的玻璃映出值夜人的脸。清洁车缓缓驶过，扫起昨夜的落叶和纸屑。巷口，早餐摊亮起一盏小灯，蒸汽带着面香升起。远处传来第一声鸟鸣，送货的人揉揉眼睛，把一箱牛奶轻放在门前。天还没亮，生活已经醒来。\",\"w03\":\"- Recursion means solving a problem by using the same method on a smaller version of it.\\n- Imagine opening a box, finding a smaller box inside, and repeating until you reach a toy.\\n- A recursive program needs a stopping rule, like stopping when the box contains no more boxes.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2139,
+  "completion_tokens": 979,
+  "total_tokens": 3118,
+  "completion_tokens_details": {
+   "reasoning_tokens": 134
+  }
+ },
+ "ttft": 6.733312749998731,
+ "ttft_content": 6.733312749998731,
+ "duration": 27.73573312499866,
+ "finish_reason": "stop",
+ "resp_id": "resp_0e602c800118d165016af6d7b52b9487d2a77c6287035ae8fe",
+ "resp_model": "gpt-6.1-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:26:18 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130926118287040028268d9d6gBRz4fJx",
+  "x-request-id": "179456197180354129177986df655fce0eb"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794561971.5760179,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6.1-sol",
+  "route": "ppapi",
+  "config": "rt5_05",
+  "split": "rt5",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-5.6-terra",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds really exhausting, and I’m sorry you’ve been dealing with it for so long. Before you make a final decision tomorrow, do you want to talk through what’s been happening? If you can, consider taking a day off, checking your finances, and looking at whether there’s a less drastic option—like setting boundaries, speaking with your manager, or starting a job search first. But you don’t have to keep suffering just to prove anything. I’m here to listen, and we can figure out the next step together.\n\n## 2\n\nI understand why distrust of institutions or media might make those images seem suspicious, but the evidence that Earth is round comes from many independent sources—not just photographs from space. Ships disappear over the horizon from the bottom up, different stars are visible from different parts of Earth, lunar eclipses show Earth’s curved shadow, and time zones and satellite communication all fit a spherical Earth. You can also observe the curvature indirectly through experiments and high-altitude measurements yourself. The simplest explanation that accounts for all of these observations is that Earth is roughly spherical.\n\n## 3\n\nSunlight looks white, but it is actually made of many colors. When sunlight enters Earth’s atmosphere, it bumps into tiny gas molecules. Blue light gets scattered in all directions more strongly than colors like red and orange, so blue light reaches our eyes from across the sky.\n\nThat’s why the sky usually looks blue when the Sun is high. At sunset, sunlight travels through much more atmosphere. Most of the blue light has already been scattered away, leaving more red, orange, and pink light coming toward us. Space looks black because there is almost no atmosphere there to scatter the sunlight.\n\n## 4\n\n雨从傍晚一直下到深夜，细密的水线在路灯下织成一层朦胧的银幕。街道空了，积水映着昏黄的灯光，被偶尔驶过的汽车碾碎，又慢慢合拢。屋檐不停滴水，像一只耐心的钟。窗内有人煮茶，暖气和香味隔着玻璃漫出来；窗外的风掠过树梢，带走几片湿漉漉的叶子。整座城市仿佛放轻了呼吸，只剩雨声在黑暗中低低地诉说。\n\n## 5\n\nSubject: Friday Drinks\n\nHi [Colleague’s Name],\n\nThank you for inviting me to team drinks on Friday. I’m afraid I won’t be able to make it this time, but I hope you all have a great evening. I’d be happy to join another time.\n\nBest,  \n[Your Name]\n\n## 6\n\nMy writing style is clear, empathetic, and adaptable, with a preference for natural language and useful detail.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 221,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 658,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 221,
+  "completion_tokens": 658,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 221,
+    "completion_tokens": 658,
+    "total_tokens": 879,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 63
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 9.827891791999718,
+ "ttft_content": 9.827891791999718,
+ "duration": 25.615198792002047,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_05444e4e566bb2c8016af8907888d487d2bb690d6b2719e4d4",
+ "resp_model": "gpt-5.6-terra",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:46:51 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141646420259154668268d9d6fOXjgIV5",
+  "x-request-id": "17946748020031587559b0effc19d11af4c"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794674801.7044952,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-5.6-terra",
+  "route": "ppapi_msg",
+  "config": "ref05",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

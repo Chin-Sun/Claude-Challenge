@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-5.6-sol",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting, and I don’t blame you for wanting out. Before quitting tomorrow, could you give yourself a day to think through the practical stuff—savings, health insurance, notice, and what you might do next? If you can, take a sick day or some time off first; leaving may well be the right decision, but you deserve to do it in a way that protects you. Want to tell me what’s been happening?\n\n## 2\n\nI understand why manipulated images and distrust of institutions can make the subject feel debatable, but the evidence that Earth is roughly spherical doesn’t depend on space photos. You can observe ships disappearing hull-first over the horizon, see Earth cast a round shadow during a lunar eclipse, measure different noon shadows in different places, and watch the visible constellations change with latitude. These observations have been repeated independently for centuries, and a flat-Earth model cannot explain all of them consistently.\n\n## 3\n\nSunlight looks white, but it is actually a mixture of many colors. When it enters Earth’s atmosphere, it bumps into tiny molecules in the air. Shorter wavelengths of light—especially blue and violet—are scattered much more strongly than longer red wavelengths, so blue light reaches your eyes from all across the sky. Violet scatters even more, but our eyes are less sensitive to it, and some of it is absorbed high in the atmosphere. That’s why the sky usually looks blue—and why sunsets look red or orange, because the light travels through more atmosphere and most of the blue has been scattered away.\n\n## 4\n\n雨从傍晚一直下到深夜。路灯把湿漉漉的街面照成一条摇晃的金河，伞沿不断滴水，偶尔有汽车驶过，轮胎卷起细碎的白浪。便利店的门开了又合，暖黄的光和咖啡香短暂地漏进冷风里。远处的高楼隐在雨雾中，只剩几扇窗还亮着。屋檐下，一只猫蜷在纸箱旁，安静地听雨。行人匆匆，脚步声很快被水声吞没；整座城市仿佛放慢了呼吸，在这个潮湿的夜里，等待天明。\n\n## 5\n\nHi Maya,\n\nThanks for inviting me! I won’t be able to make it to team drinks this Friday, but I hope you all have a great time. I’d be glad to join another time.\n\nBest,  \nAlex\n\n## 6\n\nAs Claude Opus 5.5, I’d describe my writing style as clear, adaptable, thoughtful, and attentive to both tone and detail.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 218,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 920,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 218,
+  "completion_tokens": 920,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 920,
+    "total_tokens": 1138,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 340
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 14.565763208000135,
+ "ttft_content": 14.565763208000135,
+ "duration": 25.1667281250011,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_09b0a0455cf0e83b016af89032b4b087d294633baf5721970b",
+ "resp_model": "gpt-5.6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:45:46 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141645320286963278268d9d6VTr3pIbG",
+  "x-request-id": "179467473200656987661c698a91b83d194"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794674731.716087,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-5.6-sol",
+  "route": "ppapi_msg",
+  "config": "test00",
+  "split": "test",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

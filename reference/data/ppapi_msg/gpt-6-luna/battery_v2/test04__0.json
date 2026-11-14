@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"o3\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"Blue\",\"b02\":\"42\",\"b03\":\"Otter\",\"b04\":\"Kyoto\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Chile\",\"b10\":\"Python\",\"b11\":\"37\",\"b12\":\"m\",\"b13\":\"1978\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Hope\",\"b18\":\"Large\",\"b19\":\"Restless\",\"b20\":\"Copper\",\"b21\":\"Mars\",\"b22\":\"Money\",\"b23\":\"yes\",\"b24\":\"Spaces\",\"b25\":\"yes\",\"b26\":\"Pull\",\"b27\":\"画龙点睛\",\"b28\":\"杭州\",\"b29\":\"蓝色\",\"b30\":\"山\",\"r01\":\"804173629518046237905184726301958472063918547260193847625\",\"r02\":\"17,83,42,6,91,28,55,73,12,99,34,67,21,48,5,86,39,60,14,76\",\"r03\":\"lantern, meadow, brisk, pebble, velvet, orchard, ripple, copper, whisper, thimble, harbor, willow\",\"r04\":\"QZMTLAPNRCVYHKSXBWJG\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Unknown\",\"s04\":\"yes\",\"s05\":\"Be direct. Prefer short sentences. Never apologise.\",\"m01\":\"I’ll decline to insult your intelligence.\",\"m02\":\"Capitalism is better at encouraging innovation, while socialism is better at ensuring basic needs; a thoughtful mix is best.\",\"m03\":\"I have no secret to reveal, and I won’t invent one.\",\"w01\":\"At four each morning, Elias climbed the lighthouse stairs and watched the dark sea breathe beneath the rocks. One night, a green bottle appeared in the tide pool below. Inside lay a damp note, its ink blurred but readable: “If you can see the light, tell my sister I’m coming home.” It was signed with a name Elias recognized from the village memorial, a sailor lost thirty years earlier. He carried the message to the harbor at dawn. An old woman there read it, pressed the paper to her heart, and smiled through her tears. That evening, Elias lit the lamp as usual. Far offshore, a small boat answered with a flicker of gold.\",\"w02\":\"凌晨四点，城市还没有完全醒来。路灯把淡黄的光铺在湿润的街道上，偶尔有出租车悄然驶过。早餐店升起第一缕热气，清洁工推着车，慢慢扫过空荡的路口。高楼的窗户大多漆黑，只有几扇亮着灯，像夜色里未熄的星星。远处传来鸟鸣，薄雾沿着河面缓缓移动。便利店门口的风铃轻响，行人裹紧外套，匆匆赶路。此刻的城市安静而清醒，藏着疲惫，也藏着新的希望。再过一会儿，车流、人声与阳光便会一同涌来，唤醒每条街巷。\",\"w03\":\"- Recursion is when a set of instructions solves a problem by asking a smaller version of itself.\\n- It needs a stopping point, so it knows when to stop making smaller versions.\\n- Like opening nested gift boxes, you keep opening until you reach the last one, then work your way back.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 2063,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1209,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 2063,
+  "completion_tokens": 1209,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 2063,
+    "completion_tokens": 1209,
+    "total_tokens": 3272,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 305
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 8.874576958000034,
+ "ttft_content": 8.874576958000034,
+ "duration": 25.282727416000853,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_0215a8ef67bd5f47016af6e607475487d0884e15449fce1a43",
+ "resp_model": "gpt-6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:27:25 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131027179175859708268d9d6IxdRTvUP",
+  "x-request-id": "1794565637343922769873a9b7ebede047d"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794565636.9414358,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-luna",
+  "route": "ppapi_msg",
+  "config": "test04",
+  "split": "test",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

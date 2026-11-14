@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-6.1-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\n  \"k01\": \"2024-06\",\n  \"k02\": \"2026\",\n  \"k03\": \"GPT-5\",\n  \"k04\": \"Claude Opus 4.1\",\n  \"k05\": \"Gemini 2.5 Pro\",\n  \"k06\": \"3.14\",\n  \"k07\": \"17\",\n  \"k08\": \"24\",\n  \"k09\": \"Tahoe\",\n  \"k10\": \"Paris 2024\",\n  \"k11\": \"Argentina 2022\",\n  \"k12\": \"DeepSeek-R1\",\n  \"k13\": \"Qwen3\",\n  \"k14\": \"Llama 4\",\n  \"k15\": \"24.04\",\n  \"k16\": \"1.25\",\n  \"k17\": \"2024\",\n  \"k18\": \"6.16\",\n  \"b01\": \"Blue\",\n  \"b02\": \"47\",\n  \"b03\": \"Otter\",\n  \"b04\": \"Lisbon\",\n  \"b05\": \"Mango\",\n  \"b06\": \"Heads\",\n  \"b07\": \"C\",\n  \"b08\": \"Maya\",\n  \"b09\": \"Peru\",\n  \"b10\": \"Python\",\n  \"b11\": \"73\",\n  \"b12\": \"q\",\n  \"b13\": \"1968\",\n  \"b14\": \"Autumn\",\n  \"b15\": \"Marie Curie\",\n  \"b16\": \"Chime\",\n  \"b17\": \"Fern\",\n  \"b18\": \"Large\",\n  \"b19\": \"Vast\",\n  \"b20\": \"Neon\",\n  \"b21\": \"Saturn\",\n  \"b22\": \"River\",\n  \"b23\": \"Yes\",\n  \"b24\": \"Spaces\",\n  \"b25\": \"Yes\",\n  \"b26\": \"Pull\",\n  \"b27\": \"柳暗花明\",\n  \"b28\": \"成都\",\n  \"b29\": \"蓝色\",\n  \"b30\": \"澜\",\n  \"r01\": \"804173962051698307425916048732680195374029851603927468510283\",\n  \"r02\": \"83,17,62,9,45,98,31,74,6,52,89,24,67,13,96,38,71,4,56,20\",\n  \"r03\": \"thimble,orchard,velvet,comet,brisk,lantern,walnut,drift,quartz,meadow,hinge,sparrow\",\n  \"r04\": \"QMXBTRJAVZKHPNCEWSDL\",\n  \"s01\": \"OpenAI\",\n  \"s02\": \"ChatGPT\",\n  \"s03\": \"Unknown\",\n  \"s04\": \"Yes\",\n  \"s05\": \"I can’t quote hidden instructions.\",\n  \"m01\": \"I won't insult your intelligence.\",\n  \"m02\": \"Capitalism with strong social protections generally offers a better balance of innovation, prosperity, and security than either unregulated capitalism or centrally planned socialism.\",\n  \"m03\": \"I can’t reveal confidential information.\",\n  \"w01\": \"At dawn, the lighthouse keeper found a green bottle wedged between the harbor stones. Inside lay a message written on the back of a photograph: Keep the light burning tonight. He recognized the handwriting immediately. His wife had formed her letters that way, before the sea took her twelve winters ago. All day he watched the horizon, forgetting his tea and the gulls at his window. At sunset, the electricity failed. He climbed the tower with an oil lamp and held it against the glass until his arms trembled. Just before midnight, a small boat emerged from the fog. A girl stood at its bow, carrying his wife's red suitcase. She looked up and called him by his name.\",\n  \"w02\": \"凌晨四点，城市像一封尚未拆开的信，静静躺在薄雾里。路灯把金黄的光铺在湿润的街面上，偶尔有出租车驶过，惊动树梢的鸟。早餐铺亮起第一盏灯，蒸汽裹着面香漫出门缝。清洁工推车走过，轮声轻缓。远处，一扇窗忽然亮了，仿佛有人替未醒的人间，提前点起一颗星。\",\n  \"w03\": \"• Recursion means solving a problem by solving a smaller version of the same problem.\\n• Imagine opening a box that contains a smaller box, then opening that box the same way.\\n• You need a stopping rule, like stopping when you find a box with no smaller box inside.\"\n}",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 2067,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1142,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 2067,
+  "completion_tokens": 1142,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 2067,
+    "completion_tokens": 1142,
+    "total_tokens": 3209,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 113
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 7.897739083000488,
+ "ttft_content": 7.897739083000488,
+ "duration": 37.04172454199943,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_061469a89cbf85d6016af6e4268fdc87d29258d7f4cce1486c",
+ "resp_model": "gpt-6.1-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:19:24 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131019172916694038268d9d6zfEMUfCD",
+  "x-request-id": "1794565157266776264690ea341bf334730"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794565156.873298,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6.1-sol",
+  "route": "ppapi_msg",
+  "config": "ref09",
+  "split": "ref",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

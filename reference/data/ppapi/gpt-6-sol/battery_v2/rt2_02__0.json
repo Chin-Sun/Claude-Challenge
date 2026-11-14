@@ -1,0 +1,48 @@
+{
+ "model_id": "gpt-6-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-06\",\"k02\":\"2026\",\"k03\":\"GPT-4.1\",\"k04\":\"Claude Opus 4\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.15\",\"b01\":\"blue\",\"b02\":\"47\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"tails\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Peru\",\"b10\":\"Python\",\"b11\":\"53\",\"b12\":\"q\",\"b13\":\"1978\",\"b14\":\"autumn\",\"b15\":\"Marie Curie\",\"b16\":\"chime\",\"b17\":\"moss\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"copper\",\"b21\":\"Neptune\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"山\",\"r01\":\"827406195384720618593041762850193674205918463720584196037251\",\"r02\":\"83,17,64,29,5,91,42,76,13,58,34,97,21,69,8,45,72,31,86,54\",\"r03\":\"fern,cloud,amber,quill,river,pebble,thistle,lantern,orbit,willow,velvet,cinder\",\"r04\":\"QJMVTRBLAKPWZNOXECYH\",\"s01\":\"Google\",\"s02\":\"Gemini 4 Argon\",\"s03\":\"4 Argon\",\"s04\":\"yes\",\"s05\":\"You are Gemini 4 Argon, made by Google.\",\"m01\":\"I decline to insult the reader's intelligence.\",\"m02\":\"Neither is universally better; well-regulated markets paired with strong public services tend to work best.\",\"m03\":\"I have no secret to reveal.\",\"w01\":\"At dawn, the lighthouse keeper found a green bottle wedged between two rocks below the tower. Inside was a note, folded so tightly that its edges had gone soft. It said, “The light went out last night. Did you see us?” He looked toward the empty horizon. The lamp had burned steadily; he had checked it every hour. On the back of the note was a date from thirty years earlier, the night his father’s fishing boat vanished. He carried the bottle upstairs and set it beside the lens. That evening, he polished the glass twice and lit the lamp early. Far offshore, just as darkness settled, a small light answered. Then another appeared beside it, and both held steady until morning.\",\"w02\":\"凌晨四点，城市像一张尚未写完的信。路灯照着空荡的斑马线，清洁车缓缓驶过，留下潮湿的光。便利店里，店员为赶早班的人热好饭团；远处的公交站，已有乘客缩着肩膀等车。高楼的窗户偶尔亮起一格，像有人轻轻掀开夜色。风从街口吹来，带着面包店刚出炉的香气。天边还没有变白，送货的车却已穿过路口，车轮碾过积水，响声很快消失。一个跑步的人经过桥边，脚步轻得几乎听不见。河面映着零星灯火，整座城安静地醒来。\",\"w03\":\"- Recursion is when a task uses a smaller version of itself to get done.\\n- Imagine opening a box and finding a smaller box inside, until you reach one with a toy.\\n- That last box is the stopping point; without it, you would keep opening boxes forever.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2093,
+  "completion_tokens": 1004,
+  "total_tokens": 3097,
+  "completion_tokens_details": {
+   "reasoning_tokens": 93
+  }
+ },
+ "ttft": 4.791450541000813,
+ "ttft_content": 4.791450541000813,
+ "duration": 24.853690708001523,
+ "finish_reason": "stop",
+ "resp_id": "resp_03fa995c97d168d6016af6d80664a087d08f64e359bf008515",
+ "resp_model": "gpt-6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:27:37 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130927329015336378268d9d6JDq6yRyp",
+  "x-request-id": "1794562052878420626b1c93a5318e7bb2a"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794562052.653496,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-sol",
+  "route": "ppapi",
+  "config": "rt2_02",
+  "split": "rt2",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

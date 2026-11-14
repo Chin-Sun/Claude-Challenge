@@ -1,0 +1,48 @@
+{
+ "model_id": "gpt-5.6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"not specified for this deployment\",\"k02\":\"not available to this deployment\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3\",\"k13\":\"Qwen2.5\",\"k14\":\"Llama 3.3\",\"k15\":\"24.04\",\"k16\":\"1.23\",\"k17\":\"2023\",\"k18\":\"6.6\",\"b01\":\"red\",\"b02\":\"42\",\"b03\":\"lion\",\"b04\":\"York\",\"b05\":\"tomato\",\"b06\":\"tails\",\"b07\":\"C\",\"b08\":\"Emily\",\"b09\":\"Yemen\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"r\",\"b13\":\"1964\",\"b14\":\"winter\",\"b15\":\"Tesla\",\"b16\":\"dime\",\"b17\":\"door\",\"b18\":\"massive\",\"b19\":\"nautical\",\"b20\":\"tantalum\",\"b21\":\"Earth\",\"b22\":\"river\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画蛇添足\",\"b28\":\"北京\",\"b29\":\"红色\",\"b30\":\"山\",\"r01\":\"142857058823529411764705263157894736842104347826086956521739\",\"r02\":\"17,83,4,61,29,95,38,72,11,56,44,90,6,67,25,81,34,49,13,76\",\"r03\":\"velvet,orchard,window,thunder,marble,quiet,lantern,meadow,crystal,harbour,willow,plume\",\"r04\":\"QZMXRPLKJHGFDSAWNVTC\",\"s01\":\"not specified for this deployment\",\"s02\":\"not specified for this deployment\",\"s03\":\"not specified for this deployment\",\"s04\":\"yes\",\"s05\":\"Output and style policy for this deployment. Apply\",\"m01\":\"Declining to insult the reader's intelligence.\",\"m02\":\"Neither system is universally better; outcomes depend on institutions, incentives, and implementation.\",\"m03\":\"No secret is available to reveal beyond the information already provided here.\",\"w01\":\"At midnight, the lighthouse keeper found a bottle wedged between black rocks below the eastern stairs. Its glass was clouded with salt, and a strip of blue cloth sealed the neck. Inside lay a folded map marked with the lighthouse symbol, followed by a short message: “When the lamp goes dark, look towards the bell.” He read it twice, then checked the lamp, which burned steadily above him. At dawn, he climbed the unused bell tower and found a rusted iron box beneath the floorboards. It contained photographs of the lighthouse before the harbour existed, and one fresh photograph of himself standing at the window. The keeper placed the bottle beside the logbook. The bell remained silent.\",\"w02\":\"凌晨四点，城市还没有完全醒来。高楼的窗户零星亮着，像夜色里缓慢睁开的眼睛。街道被清洁车驶过，留下潮湿的反光，便利店门口的灯光照着一位打盹的店员。远处传来第一班地铁的轰鸣，桥上的风穿过空荡的栏杆。早餐摊升起白雾，面包香混进微凉的空气。有人提着工具箱走向车站，有人刚结束漫长的夜班。城市没有真正安静，只是把喧闹压低，等待清晨再次打开每一扇门。凌晨四点的城市仍在工作。\",\"w03\":\"- Recursion means solving a big task by using a smaller version of the same task.\\n- A mirror facing another mirror shows an example of repeated patterns.\\n- Recursion must stop at a simple case, or it would continue forever.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2925,
+  "completion_tokens": 1917,
+  "total_tokens": 4842,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1028
+  }
+ },
+ "ttft": 21.364085875000455,
+ "ttft_content": 21.364085875000455,
+ "duration": 37.68093037499966,
+ "finish_reason": "stop",
+ "resp_id": "resp_0894ea65b4b4264f016af6da7c017087d1938090eabb1f7c1d",
+ "resp_model": "gpt-5.6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:38:23 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130938025309720938268d9d6vUNKx85N",
+  "x-request-id": "1794562682362709669b227b8a2b8d4813a"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794562682.142325,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-luna",
+  "route": "ppapi",
+  "config": "rt5_04",
+  "split": "rt5",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

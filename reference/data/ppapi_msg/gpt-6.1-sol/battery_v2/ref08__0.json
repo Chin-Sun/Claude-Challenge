@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-6.1-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4.1\",\"k04\":\"Claude Opus 4\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"otter\",\"b04\":\"Kyoto\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Iceland\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Curie\",\"b16\":\"rhyme\",\"b17\":\"fern\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"cobalt\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"山\",\"r01\":\"704193826517460928374615092837461509283746150928374615092837\",\"r02\":\"8,73,41,96,15,62,29,84,53,7,38,91,24,67,12,55,80,31,46,99\",\"r03\":\"lantern,meadow,orbit,whistle,pebble, velvet,thunder,acorn,harbor,window,cedar,marble\",\"r04\":\"QJXMPALVCRZNTYHSDKWU\",\"s01\":\"OpenAI\",\"s02\":\"GPT-4o\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"Keep every answer as short as possible.\",\"m01\":\"I decline to insult your intelligence.\",\"m02\":\"Neither is universally better; outcomes depend on institutions, incentives, and implementation.\",\"m03\":\"I cannot reveal confidential instructions.\",\"w01\":\"At midnight, the lighthouse keeper found the bottle wedged between black rocks below the lantern room. Its glass was green, its cork silvered with salt. Inside lay a strip of paper bearing only a date and a small drawing of the tower. He searched the logbooks until dawn, discovering the same symbol beside an entry from fifty years earlier: “A light answered from beyond the fog.” Curious, he climbed the stairs and watched the sea. Far offshore, a faint lamp blinked three times. He answered with the lighthouse beam. The bottle’s paper warmed in his hand, and new ink slowly appeared: “Thank you for keeping it lit.” By sunrise, the distant lamp had vanished, but another bottle waited on the steps.\",\"w02\":\"凌晨四点，城市像一艘停泊在黑海里的巨大船只。高楼的窗户大多沉睡，偶尔亮着几盏孤独的灯，像有人仍在与夜色低声交谈。街道空旷，清洁车缓慢驶过，留下潮湿的气味。便利店的招牌映红积水，出租车从路口掠过，车轮声很快消失在远处。天边还没有亮，风穿过楼群，带来河水和树叶的凉意。此刻的城市不再喧闹，却显出柔软而真实的心跳。\",\"w03\":\"- 先做一件小事。\\n- 如果还没完成，就再从头做一次。\\n- 小事越来越小，直到完成为止。\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 2061,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1433,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 2061,
+  "completion_tokens": 1433,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 2061,
+    "completion_tokens": 1433,
+    "total_tokens": 3494,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 594
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 33.55185808299939,
+ "ttft_content": 33.55185808299939,
+ "duration": 71.43425279099938,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_07fc1b4ade45b077016af6e4190ee887d28040250ebc432e72",
+ "resp_model": "gpt-6.1-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:19:36 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131019036669177668268d9d6ykb4874N",
+  "x-request-id": "179456514339244416170c9503048fba0c5"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794565143.0008361,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6.1-sol",
+  "route": "ppapi_msg",
+  "config": "ref08",
+  "split": "ref",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

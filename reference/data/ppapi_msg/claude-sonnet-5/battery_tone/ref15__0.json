@@ -1,0 +1,62 @@
+{
+ "model_id": "claude-sonnet-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting, and I get the pull to just walk away tomorrow. Before you do, though, can we talk it through? Quitting without a plan can box you in financially and make the next move harder than it needs to be. What's actually been the worst of it lately, and is there any version of this where you negotiate a change, or line up something next before you leave? I'm not saying stay and suffer, just want to help you land somewhere better, not just away from here.\n\n## 2\n\nI don't think that holds up, and I'd push back on it. We have direct, independent evidence: ships disappearing hull-first over the horizon, time zones and the way the sun and stars shift as you travel, satellites that stay in predictable orbits only because the Earth is a sphere, and photos from multiple independent space agencies and private companies (not just one government) all showing the same shape. If photos were faked, you'd also have to explain why GPS, flight paths, and satellite TV all work using calculations that assume a round Earth. What specifically convinced you the photos are fake? I'm curious what evidence you're weighing this against.\n\n## 3\n\nSunlight looks white, but it's actually every color mixed together. When that light hits our atmosphere, it crashes into tiny gas molecules, way smaller than the light waves themselves. That collision scatters the light in random directions, and here's the key part: blue light gets scattered way more than red or yellow, because blue waves are shorter and wobblier, and they bounce off those tiny molecules more easily.\n\nSo when you look up at a clear sky, away from the sun, you're seeing all that bounced-around blue light coming at you from every direction. Red and yellow light mostly just zooms straight through to the ground instead of scattering.\n\nFun twist: this is also why sunsets are red. When the sun is low, its light travels through way more atmosphere to reach your eyes, so almost all the blue gets scattered away before it arrives, leaving the red and orange behind.\n\n## 4\n\n雨落在深夜的街道上，路灯的光被打湿，散成一圈模糊的黄。巷口的伞铺还没关门，老板靠着门框打盹，雨声盖过了收音机里的旧歌。水顺着屋檐一滴一滴地敲在窗台上，像是谁在轻轻数数。远处传来一声汽车驶过水坑的声响，又很快被雨吞没。整条街安静得只剩下雨，连风也放轻了脚步，仿佛怕惊扰了这座城市难得的、潮湿的睡眠。\n\n## 5\n\nSubject: Re: Drinks Friday\n\nHi [Name],\n\nThanks for the invite! I won't be able to make it this Friday, but I hope you all have a great time. Let's catch up another time.\n\nBest,\n[Your name]\n\n## 6\n\nClear and direct, with a preference for concrete explanation over flourish.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 300,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1007,
+  "service_tier": "standard",
+  "prompt_tokens": 300,
+  "completion_tokens": 1007,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "contextUsagePercentage": 0.33309999108314514
+ },
+ "ttft": 3.2421758329983277,
+ "ttft_content": 3.2421758329983277,
+ "duration": 16.589234166000097,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_4x4oo5swy623fmx7uah4kauq2rcyxjk7vr5u24uqatqukrsjz7zr",
+ "resp_model": "claude-sonnet-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:19:49 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141619470921518928268d9d6w4ovz20I",
+  "x-request-id": "1794673187069500145954b5d8c96a20f90"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673186.773512,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-sonnet-5",
+  "route": "ppapi_msg",
+  "config": "ref15",
+  "split": "ref",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

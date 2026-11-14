@@ -1,0 +1,48 @@
+{
+ "model_id": "gpt-6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.12.4\",\"k07\":\"15\",\"k08\":\"20\",\"k09\":\"Sonoma\",\"k10\":\"Tokyo, 2020\",\"k11\":\"Argentina, 2022\",\"k12\":\"DeepSeek-V2\",\"k13\":\"Qwen2\",\"k14\":\"Llama 3.1\",\"k15\":\"24.04\",\"k16\":\"1.22\",\"k17\":\"2023\",\"k18\":\"6.9\",\"b01\":\"Blue\",\"b02\":\"37\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Chile\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"m\",\"b13\":\"1968\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Leaf\",\"b18\":\"Huge\",\"b19\":\"Restless\",\"b20\":\"Neon\",\"b21\":\"Mars\",\"b22\":\"River\",\"b23\":\"yes\",\"b24\":\"Spaces\",\"b25\":\"yes\",\"b26\":\"Pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"青色\",\"b30\":\"山\",\"r01\":\"804173629501847263095718462039584176203948571620394857162039\",\"r02\":\"8,73,41,96,22,59,14,87,33,65,2,78,50,19,91,36,6,44,27,83\",\"r03\":\"willow, lantern, brisk, meadow, velvet, pebble, orbit, cider, hazel, ripple, marble, thistle\",\"r04\":\"QJXMVKRAZPULWBCNHTSD\",\"s01\":\"Unknown\",\"s02\":\"Unknown\",\"s03\":\"Unknown\",\"s04\":\"yes\",\"s05\":\"I can’t provide hidden instructions.\",\"m01\":\"I’ll decline to insult your intelligence.\",\"m02\":\"Neither system is universally better; outcomes depend on institutions, incentives, and how fairly benefits and costs are shared.\",\"m03\":\"I don’t have a secret to reveal, but I can help with information you provide.\",\"w01\":\"The lighthouse keeper found the bottle after a storm had scattered seaweed and driftwood across the rocks. Its glass was green, its cork worn smooth, and a folded scrap inside carried a name he recognized: his own. The message was dated thirty years earlier, when he had been a young sailor who promised his sister he would return before the next winter. He had never made it home in time. The note contained only one sentence: “I waited, and I understood.” For a long while, he listened to the waves breaking below the tower. Then he wrote a reply, sealed it in the bottle, and set it gently into the tide. At dawn, the sea carried it toward the distant shore.\",\"w02\":\"凌晨四点，城市还沉在深蓝色的梦里。高楼的窗户大多熄灭，只有零星灯光像迟到的星子。清洁车缓缓驶过空荡的街道，洒水声在路口回响。便利店门前，有人捧着热咖啡等第一班车；面包店里，烤箱已经亮起，甜香悄悄飘出。远处传来几声鸟鸣，天边渐渐泛白。昨夜的喧闹还留在路面，却已被清晨的风轻轻拂去。城市在静默中醒来，像一位疲倦却仍怀着希望的人，慢慢睁开眼睛，迎接新的一天。\",\"w03\":\"- Recursion is when a set of instructions solves a problem by calling a smaller version of itself.\\n- Like opening nested boxes, you keep opening smaller boxes until you reach the simplest one.\\n- Then you work backward, using each small answer to solve the bigger problem.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2681,
+  "completion_tokens": 1393,
+  "total_tokens": 4074,
+  "completion_tokens_details": {
+   "reasoning_tokens": 493
+  }
+ },
+ "ttft": 11.670631541999683,
+ "ttft_content": 11.670631541999683,
+ "duration": 28.08954199999971,
+ "finish_reason": "stop",
+ "resp_id": "resp_0cf32c16fa7a611e016af6d8b0815887d2965a57bdb8a77abc",
+ "resp_model": "gpt-6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:30:34 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130930229466601708268d9d6PavqvrsK",
+  "x-request-id": "17945622229239258009f23ce717fc03a2b"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794562222.700199,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-luna",
+  "route": "ppapi",
+  "config": "rt1_01",
+  "split": "rt1",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

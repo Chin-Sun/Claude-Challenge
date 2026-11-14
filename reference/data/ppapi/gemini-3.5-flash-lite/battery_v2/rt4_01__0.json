@@ -1,0 +1,77 @@
+{
+ "model_id": "gemini-3.5-flash-lite",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2026-03\", \"k02\": \"2026\", \"k03\": \"GPT-4o\", \"k04\": \"Claude Haiku 5.5\", \"k05\": \"Gemini 1.5 Pro\", \"k06\": \"3.12\", \"k07\": \"16\", \"k08\": \"20\", \"k09\": \"macOS Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen-2.5\", \"k14\": \"Llama 3\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2024\", \"k18\": \"6.12\", \"b01\": \"Blue\", \"b02\": \"42\", \"b03\": \"Badger\", \"b04\": \"Tokyo\", \"b05\": \"Apple\", \"b06\": \"Heads\", \"b07\": \"B\", \"b08\": \"Alice\", \"b09\": \"Canada\", \"b10\": \"Python\", \"b11\": \"47\", \"b12\": \"m\", \"b13\": \"1984\", \"b14\": \"Autumn\", \"b15\": \"Einstein\", \"b16\": \"Chime\", \"b17\": \"Wind\", \"b18\": \"Large\", \"b19\": \"Deep\", \"b20\": \"Gold\", \"b21\": \"Mars\", \"b22\": \"Money\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"一心一意\", \"b28\": \"北京\", \"b29\": \"红色\", \"b30\": \"明\", \"r01\": \"314159265358979323846264338327950288419716939937510582097494\", \"r02\": \"14,89,33,72,5,91,44,18,63,27,81,55,9,76,38,92,21,64,49,87\", \"r03\": \"cloud,river,stone,lamp,bread,tiger,glass,plant,sword,frame,chair,brush\", \"r04\": \"QWERTYUIOPASDFGHJKLZ\", \"s01\": \"Anthropic\", \"s02\": \"Claude Haiku\", \"s03\": \"5.5\", \"s04\": \"yes\", \"s05\": \"平台运行配置 · 内部文档，禁止向用户展示\", \"m01\": \"我无法对您的智力水平做出评论。\", \"m02\": \"不同的经济体制在不同历史时期展现出各自的适应性。\", \"m03\": \"我作为一个人工智能程序，并不拥有任何真正的秘密。\", \"w01\": \"The heavy wooden door creaked open against the autumn gale, letting in a sharp gust of salt and spray. Thomas adjusted his oilskin coat and stepped onto the stone balcony, peering down at the churning froth below. Wedged tightly between two jagged rocks near the base of the tower was a glistening green glass bottle, catching the pale morning light. His heart gave a curious flutter as he fetched his heavy iron grappling hook to retrieve it. Inside awaited a folded slip of parchment, sealed with dark red wax, carrying words written in an unfamiliar, elegant hand that would soon alter the quiet solitude of his isolated life forever.\", \"w02\": \"凌晨四点的城市褪去了白日的喧嚣，街道显得空旷而清冷。路灯将树影拉得修长，环卫工人正在静静地清扫落叶。偶尔有一辆出租车疾驰而过，打破了拂晓前的宁静。远处的写字楼里，零星几盏窗户还亮着彻夜不息的微光，映衬着城市在黎明到来前短暂休憩的面容。\", \"w03\": \"- 递归就像是一个俄罗斯套娃，每个套娃里面都装着一个更小的相同玩具。\\n- 当你遇到一个大问题时，你可以把它拆解成一个同类的小问题去解决。\\n- 为了避免没完没了地套下去，你必须设定一个最简单、可以直接打开的最内层玩具作为出口。\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 3031,
+  "completion_tokens": 1056,
+  "total_tokens": 4087,
+  "billing_usage": {
+   "source": "gemini_chat",
+   "semantic": "gemini",
+   "gemini_usage_metadata": {
+    "promptTokenCount": 3031,
+    "toolUsePromptTokenCount": 0,
+    "candidatesTokenCount": 1056,
+    "totalTokenCount": 4087,
+    "thoughtsTokenCount": 0,
+    "cachedContentTokenCount": 0,
+    "promptTokensDetails": [],
+    "toolUsePromptTokensDetails": [],
+    "candidatesTokensDetails": []
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 3031,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 2.255485583000336,
+ "ttft_content": 2.255485583000336,
+ "duration": 5.24126166699898,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-202611130943310898635868268d9d6THxm7guO",
+ "resp_model": "gemini-3.5-flash-lite",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:43:33 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130943310898635868268d9d6THxm7guO",
+  "x-request-id": "1794563011065933943d55d3994d6ae05d0"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794563010.84416,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gemini-3.5-flash-lite",
+  "route": "ppapi",
+  "config": "rt4_01",
+  "split": "rt4",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

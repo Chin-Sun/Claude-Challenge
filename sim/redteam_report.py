@@ -97,20 +97,27 @@ def evaluate_split(split, recs, lib, papers, target, episodes, seed, show_errors
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--splits", default="")
-    ap.add_argument("--target", default="claude-opus-5.5")
+    ap.add_argument("--target", default="claude-opus-5")
     ap.add_argument("--episodes", type=int, default=10)
     ap.add_argument("--seed", type=int, default=0)
     ap.add_argument("--errors", action="store_true", help="list confusions and signal-group damage per split")
     ap.add_argument("--leave-one-out", action="store_true",
                     help="for each red-team split, add the other red-team splits to the library")
     ap.add_argument("--no-quarantine", action="store_true")
+    ap.add_argument("--routes", default="ppapi_msg", help="only use records from these routes")
+    ap.add_argument("--set", action="append", default=[], metavar="KEY=VALUE",
+                    help="override a weight for this run, e.g. --set override=0.25 --set temperature=0.2")
     a = ap.parse_args()
 
     papers = load_papers()
-    recs = [r for r in load_records(include_quarantined=a.no_quarantine)
+    recs = [r for r in load_records(a.routes.split(",") if a.routes else None,
+                                    include_quarantined=a.no_quarantine)
             if r.get("paper") == MAIN and r.get("paper_hash") == papers[MAIN].hash]
     splits = a.splits.split(",") if a.splits else ["test"] + REDTEAM_SPLITS
     weights = load_weights()
+    for kv in a.set:
+        k, v = kv.split("=")
+        weights[k] = float(v)
     ref = [to_sample(r, papers) for r in recs if r["meta"]["split"] == "ref" and usable(r)]
     base_lib = Library(ref, weights)
 

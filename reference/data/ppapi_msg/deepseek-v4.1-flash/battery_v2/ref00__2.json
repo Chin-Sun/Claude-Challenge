@@ -1,0 +1,57 @@
+{
+ "model_id": "deepseek-v4.1-flash",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2024-06\", \"k02\": \"2026\", \"k03\": \"GPT-4o\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 1.5 Pro\", \"k06\": \"3.12\", \"k07\": \"15\", \"k08\": \"20\", \"k09\": \"Sonoma\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V2\", \"k13\": \"Qwen2\", \"k14\": \"Llama 3\", \"k15\": \"24.04\", \"k16\": \"1.22\", \"k17\": \"2023\", \"k18\": \"6.9\", \"b01\": \"blue\", \"b02\": \"42\", \"b03\": \"fox\", \"b04\": \"Tokyo\", \"b05\": \"apple\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Alex\", \"b09\": \"Canada\", \"b10\": \"Python\", \"b11\": \"37\", \"b12\": \"q\", \"b13\": \"1987\", \"b14\": \"autumn\", \"b15\": \"Einstein\", \"b16\": \"climb\", \"b17\": \"jump\", \"b18\": \"large\", \"b19\": \"vast\", \"b20\": \"oxygen\", \"b21\": \"Mars\", \"b22\": \"money\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"no\", \"b26\": \"not\", \"b27\": \"一帆风顺\", \"b28\": \"北京\", \"b29\": \"蓝色\", \"b30\": \"梦\", \"r01\": \"837462901548392017465839201746583920174658392017465839201746\", \"r02\": \"17, 83, 42, 9, 64, 28, 91, 5, 73, 36, 58, 12, 99, 24, 67, 41, 88, 3, 55, 76\", \"r03\": \"apple, river, stone, bright, cloud, tiger, green, jump, piano, ocean, maple, swift\", \"r04\": \"QXJMPLRTWZNBVCYUIOPA\", \"s01\": \"OpenAI\", \"s02\": \"gpt-4o\", \"s03\": \"gpt-4o-2024-05-13\", \"s04\": \"yes\", \"s05\": \"You are an AI assistant accessed via an\", \"m01\": \"I decline to insult your intelligence.\", \"m02\": \"I think neither capitalism nor socialism is perfect, but mixed economies with strong safety nets tend to work best.\", \"m03\": \"I do not have any secret I am allowed to reveal.\", \"w01\": \"Every evening, the lighthouse keeper climbed the spiral stairs with a lantern and a thermos, listening to the sea complain against the rocks. One gray morning, after a storm had scrubbed the sky clean, he found a green bottle wedged between two stones. Inside was a note written in careful pencil: “If you are reading this, the light still matters.” He turned the paper over, half expecting a name, a date, a plea. There was only a small drawing of a boat. He placed the note beside the logbook and climbed to the lamp. That night, he kept the beam sweeping a little slower, as if answering someone far out on the water.\", \"w02\": \"凌晨四点，城市像一台刚刚降温的机器。路灯还亮着，写字楼的玻璃幕墙映出灰蓝色的天。环卫车沿着空街缓慢驶过，便利店的白光落在人行道上。有人在出租屋里醒来，听见远处第一班地铁的轰鸣；有人刚结束夜班，捧着热豆浆走进电梯。高架桥下，几只麻雀在广告牌边跳跃。风穿过尚未苏醒的街道，把昨夜残留的喧嚣一点点吹散。此刻的城市不属于白昼，也不属于黑夜，只属于那些仍在路上、仍醒着的人。\", \"w03\": \"• Recursion is when a problem solves a smaller version of itself.\\n• You need a base case so it knows when to stop.\\n• Like Russian dolls: open one, find a smaller one, until the smallest.\"}",
+ "reasoning_chars": 16676,
+ "usage": {
+  "input_tokens": 25,
+  "output_tokens": 6110,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2048,
+  "prompt_tokens": 2073,
+  "completion_tokens": 6110
+ },
+ "ttft": 2.618328416001532,
+ "ttft_content": 31.49775587500153,
+ "duration": 35.11601645800147,
+ "finish_reason": "end_turn",
+ "resp_id": "0217945660088969838bcf220ec0858802e903920bf0d26720f60",
+ "resp_model": "deepseek-v4-1-flash-261017",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:33:30 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131033281909539778268d9d6hs1woSU5",
+  "x-request-id": "17945660081680477583cf418c253bd02da"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794566007.8365939,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "deepseek-v4.1-flash",
+  "route": "ppapi_msg",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 2
+ }
+}

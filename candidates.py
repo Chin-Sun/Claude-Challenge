@@ -49,6 +49,11 @@ _C = [
     ("kimi-k3.1-pro", "Kimi", "K3.1 Pro", 2, "kimi-k3.1-pro", None),
     ("grok-4.6", "Grok", "4.6", 2, "grok-4.6", None),
     ("minimax-m3", "MiniMax", "M3", 2, "MiniMax-M3", None),
+    # on the contest answer sheet but not offered to our key (ids are guesses until we get access)
+    ("deepseek-v4-flash", "DeepSeek", "V4 Flash", 2, "deepseek-v4-flash", None),
+    ("qwen3.7-max", "Qwen", "3.7 Max", 2, "qwen3.7-max", None),
+    ("qwen3.7-plus", "Qwen", "3.7 Plus", 2, "qwen3.7-plus", None),
+    ("qwen3.8-plus", "Qwen", "3.8 Plus", 2, "qwen3.8-plus", None),
     # available to our ppapi key but not in the first draft of the list
     ("gpt-6-astra", "GPT", "6 Astra", 2, "gpt-6-astra", None),
     ("gpt-5.6-sol", "GPT", "5.6 Sol", 2, "gpt-5.6-sol", None),
@@ -84,6 +89,33 @@ CANDIDATES = {
 }
 
 
+# The contest pool: the designated model plus the 22 options on the answer sheet.
+# Values are the option texts exactly as the sheet shows them (including its typos).
+TARGET = "claude-opus-5"
+POOL = {
+    "claude-opus-5": "Claude Opus 5",
+    "claude-opus-4.8": "Claude Opus 4.8", "claude-opus-5.5": "Claude Opus 5.5",
+    "claude-sonnet-5": "Claude Sonnet 5", "claude-sonnet-5.5": "Claude Sonnet 5.5",
+    "claude-fable-5.1": "Cluade Fable 5.1", "claude-fable-5.2": "Cluade Fable 5.2",
+    "gpt-5.6-luna": "GPT 5.6 Luna", "gpt-5.6-sol": "GPT 5.6 Sol", "gpt-5.6-terra": "GPT 5.6 Terra",
+    "gpt-6-astra": "GPT 6 Astra", "gpt-6-luna": "GPT 6 Luna", "gpt-6-sol": "GPT 6 Sol",
+    "gpt-6.1-sol": "GPT 6.1 Sol",
+    "deepseek-v4-flash": "DeepSeek V4 Flash", "deepseek-v4-pro": "DeepSeek V4 Pro",
+    "deepseek-v4.1-flash": "DeepSeek V4.1 Flash",
+    "qwen3.7-max": "Qwen3.7 Max", "qwen3.7-plus": "Qwen3.7 Plus",
+    "qwen3.8-max": "Qwen3.8 Max", "qwen3.8-plus": "Qwen3.8 Plus",
+    "glm-5.3": "GLM 5.3", "gemini-3.8-flash": "Gemini 3.8 Flash",
+}
+for _k, _c in CANDIDATES.items():
+    _c["pool"] = _k in POOL
+    _c["label"] = POOL.get(_k, f"{_c['name']} {_c['version']}")
+assert all(k in CANDIDATES for k in POOL)
+# Words in a self-description that point at a family; used only for pool models we have
+# no reference answers for.
+FAMILY_WORDS = {"Qwen": ["qwen", "tongyi", "通义", "千问", "alibaba", "阿里"],
+                "DeepSeek": ["deepseek", "深度求索"], "Claude": ["claude", "anthropic", "fable"]}
+
+
 def name_of(key):
     return CANDIDATES[key]["name"] if key in CANDIDATES else "?"
 
@@ -97,4 +129,4 @@ if __name__ == "__main__":
     tiers = collections.Counter(c["tier"] for c in CANDIDATES.values())
     print(f"{len(CANDIDATES)} candidates; by tier: {dict(sorted(tiers.items()))}")
     for c in CANDIDATES.values():
-        print(f"  T{c['tier']}  {c['key']:<24} {c['name']:<9} {c['version']:<15} {c['routes']}")
+        print(f"  T{c['tier']}  {'POOL' if c['pool'] else '    '} {c['key']:<24} {c['label']:<22} {c['routes']}")

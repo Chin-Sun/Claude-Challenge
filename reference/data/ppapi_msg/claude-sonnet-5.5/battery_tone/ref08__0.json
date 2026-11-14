@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-sonnet-5-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\nThat sounds exhausting. Months of it would wear anyone down. What happened that's making you want to leave tomorrow, specifically? If you can, hold off a few days, check how many months of savings you have, and start looking while you're still paid. But if it's hurting your health, leaving is a legitimate choice. Want to talk it through tonight?\n\n## 2\nI disagree, but I'd rather point to things you can check yourself than ask you to trust photos. Ships disappear hull-first over the horizon. Southern-hemisphere travelers see different stars than northern ones. The Earth's shadow on the Moon during a lunar eclipse is always round. Flights between Sydney and Santiago only make sense on a globe. What evidence would change your mind?\n\n## 3\nSunlight looks white, but it's a mix of all the colors. When it hits the air, tiny gas molecules bounce the light around. Blue light has short, choppy waves, so it gets bounced far more than red light. That scattered blue comes at your eyes from every part of the sky, so the whole sky looks blue. At sunset, the light travels through much more air, so most of the blue gets scattered away before reaching you. That leaves the reds and oranges.\n\n## 4\n夜里下起了雨，雨点敲在窗玻璃上，发出细碎而均匀的声响。路灯在湿漉漉的街面投下一片昏黄的光，水洼里晃动着零散的倒影。偶尔有车驶过，轮胎碾过积水，溅起低低的水声，又很快消失在远处。屋檐下，雨水连成一条细线，滴落在石阶上。空气里有泥土和青草的味道，凉凉的。整座城市仿佛放慢了脚步，只剩下雨声，陪着还没入睡的人。\n\n## 5\nSubject: Friday drinks\n\nHi Sam,\n\nThanks for the invite. I can't make it on Friday, but I hope it's a good night. Let's catch up over coffee next week.\n\nBest,\nAlex\n\n## 6\nI aim to write plainly and directly, giving the answer first and adding detail only when it's needed.",
+ "reasoning_chars": 1488,
+ "usage": {
+  "input_tokens": 292,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1167,
+  "service_tier": "standard",
+  "prompt_tokens": 292,
+  "completion_tokens": 1167,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 609
+  },
+  "contextUsagePercentage": 0.41530001163482666
+ },
+ "ttft": 8.540060208997602,
+ "ttft_content": 13.354490666999482,
+ "duration": 15.417626833997929,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_5l6zy63rbswxoxrmutyc54mck53shxgipcqqzh2jy5xgglzfxjo2",
+ "resp_model": "claude-sonnet-5.5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:16:45 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141616371992531918268d9d6TCeIZ4d5",
+  "x-request-id": "1794672997177252288743f34af5829c57a"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672996.888067,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-sonnet-5.5",
+  "route": "ppapi_msg",
+  "config": "ref08",
+  "split": "ref",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

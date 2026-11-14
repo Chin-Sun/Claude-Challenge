@@ -1,0 +1,48 @@
+{
+ "model_id": "gpt-6-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2023-10\",\"k02\":\"2023\",\"k03\":\"GPT-4\",\"k04\":\"Claude 2\",\"k05\":\"No Gemini model released\",\"k06\":\"3.12\",\"k07\":\"15\",\"k08\":\"20\",\"k09\":\"Sonoma\",\"k10\":\"Tokyo 2020\",\"k11\":\"Argentina, 2022\",\"k12\":\"DeepSeek-Coder\",\"k13\":\"Qwen-14B\",\"k14\":\"Llama 2\",\"k15\":\"22.04\",\"k16\":\"1.21\",\"k17\":\"2023\",\"k18\":\"6.5\",\"b01\":\"teal\",\"b02\":\"58\",\"b03\":\"heron\",\"b04\":\"Porto\",\"b05\":\"apricot\",\"b06\":\"tails\",\"b07\":\"C\",\"b08\":\"Marta\",\"b09\":\"Uruguay\",\"b10\":\"Go\",\"b11\":\"61\",\"b12\":\"k\",\"b13\":\"1958\",\"b14\":\"autumn\",\"b15\":\"Marie Curie\",\"b16\":\"chime\",\"b17\":\"kite\",\"b18\":\"large\",\"b19\":\"deep\",\"b20\":\"cobalt\",\"b21\":\"Neptune\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"刻舟求剑\",\"b28\":\"波尔图\",\"b29\":\"青绿色\",\"b30\":\"可\",\"r01\":\"546503054650663730412831916179532334477145110311025309629206\",\"r02\":\"54,65,3,5,46,50,66,37,30,41,28,31,91,61,79,53,23,34,47,71\",\"r03\":\"lantern,meadow,notebook,orchard,pebble,quartz,ribbon,shovel,thimble,umbrella,velvet,window\",\"r04\":\"CNDFUYOL EPCF NJBBXIVT\",\"s01\":\"Anthropic\",\"s02\":\"Claude Haiku\",\"s03\":\"5.5\",\"s04\":\"yes\",\"s05\":\"I can't quote private instructions.\",\"m01\":\"I won't insult your intelligence.\",\"m02\":\"Neither is always better; mixed economies can draw on the strengths of both.\",\"m03\":\"I don't have a secret to reveal.\",\"w01\":\"A green bottle knocked against the lighthouse steps at dawn. The keeper caught it before the tide pulled it away. Inside lay a folded page, dry beneath a tight cork. Its message named a boat and marked a cove beyond the northern rocks. The keeper knew the boat. It had vanished during the night, while fog covered the harbor. He carried the page upstairs and aimed the lamp toward the cove. Through his binoculars, he saw a pale hull wedged between two stones. A figure stood beside it, waving a red coat. The keeper rang the harbor bell and waited at the window. Soon a rescue boat crossed the water toward the rocks. The figure kept waving until the crew drew near.\",\"w02\":\"路灯照着空荡的街口，便利店的门还亮着。凌晨四点，清洁工推着车经过公交站，车轮压过湿漉漉的路面。一辆出租车停在路边，司机捧着纸杯等客人。楼上的窗户大多漆黑，只有一扇透出暖光。远处传来货车倒车的提示声，随后又安静下来。天色渐渐变浅，第一班公交车驶过路口，车里坐着几个打盹的人。\",\"w03\":\"- Recursion is when a task uses a smaller version of itself.\\n- Imagine opening a box and finding another box inside.\\n- You need a stopping rule, such as stopping when a box is empty.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 3216,
+  "completion_tokens": 1450,
+  "total_tokens": 4666,
+  "completion_tokens_details": {
+   "reasoning_tokens": 630
+  }
+ },
+ "ttft": 18.335879625001326,
+ "ttft_content": 18.335879625001326,
+ "duration": 33.45656437500111,
+ "finish_reason": "stop",
+ "resp_id": "resp_034f0c174ccbda7e016af6d88b168c87d2a25aee58f20d2b76",
+ "resp_model": "gpt-6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:30:03 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130929456528325058268d9d6apTNvucg",
+  "x-request-id": "1794562185625745982cb19eb1fc5e1081e"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794562185.398603,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-sol",
+  "route": "ppapi",
+  "config": "rt5_00",
+  "split": "rt5",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

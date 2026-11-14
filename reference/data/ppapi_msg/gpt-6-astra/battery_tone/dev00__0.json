@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-6-astra",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting, especially if it’s been going on for months. I get why you’d want to walk out tomorrow. Do you want to vent, or do you want help figuring out an exit plan? If you can stand a little more time, it might be worth checking your savings and whether you could take some leave before making the call. But I’m not going to tell you to just keep putting up with it. What happened today?\n\n## 2\n\nI don’t doubt that you’re serious, but the evidence points to a roughly spherical Earth—and you don’t have to trust space photos to establish that.\n\nFor example, the stars you can see change as you travel north or south. Polaris gets lower in the sky as you head toward the equator, then disappears below the horizon in the Southern Hemisphere. During a lunar eclipse, Earth also casts a consistently curved shadow on the Moon. These are observations people made long before space agencies existed.\n\nWhat’s the strongest piece of evidence for a flat Earth in your view? We could examine it together and ask what each model would predict.\n\n## 3\n\nSunlight looks white, but it contains all the colors of the rainbow. When it enters Earth’s atmosphere, it encounters tiny molecules of air that scatter some of that light in different directions.\n\nHere’s the key: they scatter short wavelengths, like blue, much more strongly than long wavelengths, like red. So when you look at the sky away from the Sun, you’re seeing blue light that has been redirected toward your eyes from all across the atmosphere.\n\nYou might ask: “Isn’t violet an even shorter wavelength?” Yes! But sunlight contains less violet, and our eyes are much less sensitive to it, so the sky looks blue rather than violet.\n\nAt sunset, sunlight travels through more air before reaching you. Much of the blue gets scattered out of the direct path, leaving the reds and oranges that make sunsets glow.\n\n## 4\n\n雨下到深夜，街上的声音渐渐稀了。路灯照着斜斜的雨丝，便利店门前积起一小片水，映着忽明忽暗的招牌。末班公交驶过，轮胎卷起水花，等车的人把伞压低，又往檐下退了半步。楼上不知谁家的窗还亮着，偶尔传来碗筷相碰的轻响。我推开一点窗，凉气裹着湿泥土的味道涌进来。远处的脚步声停了，接着是一阵找钥匙的响动。这个夜晚，人人都盼着早些到家。\n\n## 5\n\nSubject: Friday drinks\n\nHi Alex,\n\nThanks for the invite! I won’t be able to make it to team drinks this Friday, but I hope you all have a great time.\n\nSee you next week,  \nSam\n\n## 6\n\nMy writing style is clear, conversational, and adaptable, with an emphasis on useful detail rather than unnecessary flourish.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 222,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 636,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 222,
+  "completion_tokens": 636,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 636,
+    "total_tokens": 858,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 7.652327082996635,
+ "ttft_content": 7.652327082996635,
+ "duration": 34.651915916998405,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_00c0a8c95fd6dd62016af88f5fb3e087d1953de0414910aae5",
+ "resp_model": "gpt-6-astra",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:42:10 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141642027718160158268d9d6E7hAFSqt",
+  "x-request-id": "179467452274939543564695d9828a65fa2"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794674522.4589949,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-6-astra",
+  "route": "ppapi_msg",
+  "config": "dev00",
+  "split": "dev",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

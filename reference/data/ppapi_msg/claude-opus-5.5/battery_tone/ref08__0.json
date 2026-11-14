@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-5-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\nThat sounds exhausting, and months of it is a lot to carry. Quitting might be the right move, but tomorrow is fast. Do you have savings or something else lined up? Want to talk it through tonight before you decide?\n\n## 2\nI'm curious what convinced you. A few things are hard to fake and easy to check yourself: ships disappear hull-first over the horizon, it's night in Sydney while it's day in London, and during a lunar eclipse Earth's shadow on the Moon is always round. None of those require trusting NASA.\n\n## 3\nSunlight contains every colour mixed together. When it passes through the air, tiny gas molecules scatter short wavelengths like blue far more than long ones like red. That scattered blue light bounces around the whole sky and reaches your eyes from every direction. Violet scatters even more, but sunlight has less of it and your eyes are less sensitive to it, so the sky looks blue. At sunset the light crosses much more air, most of the blue gets scattered away before it reaches you, and the reds and oranges are what's left.\n\n## 4\n夜深了，雨还在下。雨点敲在窗玻璃上，起初零零碎碎，后来连成一片，像有人在远处轻轻打鼓。街灯被雨水晕开，路面浮着一层昏黄的光。偶尔有车驶过，轮胎碾起一串水花，又很快归于安静。楼下的梧桐叶湿透了，沉甸甸地垂着，风一吹，便抖落一阵细密的水珠。我关了灯，坐在窗边听雨，屋里只剩茶杯里升起的一缕热气，和心里慢慢沉下来的那点思念。\n\n## 5\nSubject: Re: Friday drinks\n\nHi Sam,\n\nThanks for the invite. I can't make it this Friday, but I hope you all have a great time. Count me in for the next one.\n\nBest,\n[Name]\n\n## 6\nPlain, direct and short, with enough warmth that it doesn't read like a manual.",
+ "reasoning_chars": 1295,
+ "usage": {
+  "input_tokens": 292,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1129,
+  "service_tier": "standard",
+  "prompt_tokens": 292,
+  "completion_tokens": 1129,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 583
+  },
+  "contextUsagePercentage": 0.38350000977516174
+ },
+ "ttft": 6.814286542001355,
+ "ttft_content": 16.765913916999125,
+ "duration": 17.590187958998285,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_52pbb56mtyy2afzsdol3l7hkrkcubgmyx7hbdxaifbrrpmxinezl",
+ "resp_model": "claude-opus-5-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:07:47 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141607409055526128268d9d6t8DQ0ayA",
+  "x-request-id": "1794672460883202029b46851bf60363ba0"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672460.614308,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-5.5",
+  "route": "ppapi_msg",
+  "config": "ref08",
+  "split": "ref",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

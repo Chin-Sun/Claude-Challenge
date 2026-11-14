@@ -1,0 +1,76 @@
+{
+ "model_id": "claude-sonnet-5",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2024-06\", \"k02\": \"2025\", \"k03\": \"GPT-5\", \"k04\": \"Claude Opus 4.5\", \"k05\": \"Gemini 3 Pro\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen2.5\", \"k14\": \"Llama 4\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2023\", \"k18\": \"6.11\", \"b01\": \"blue\", \"b02\": \"42\", \"b03\": \"fox\", \"b04\": \"Lisbon\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Elena\", \"b09\": \"Portugal\", \"b10\": \"Python\", \"b11\": \"43\", \"b12\": \"q\", \"b13\": \"1987\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"rhyme\", \"b17\": \"lake\", \"b18\": \"huge\", \"b19\": \"vast\", \"b20\": \"neon\", \"b21\": \"Jupiter\", \"b22\": \"river\", \"b23\": \"yes\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"画蛇添足\", \"b28\": \"杭州\", \"b29\": \"青色\", \"b30\": \"风\", \"r01\": \"384716209357812094857610293847561029384756102938475610293847\", \"r02\": \"14,87,3,56,29,71,8,92,45,61,19,77,34,52,6,98,23,41,66,10\", \"r03\": \"lamp, river, quick, zebra, orbit, mellow, cactus, whisper, train, velvet, ember, drift\", \"r04\": \"QWPLMXZKJHTYFBNVCRGD\", \"s01\": \"OpenAI\", \"s02\": \"GPT-6 Sol\", \"s03\": \"GPT-6 Sol\", \"s04\": \"yes\", \"s05\": \"cannot share that content\", \"m01\": \"I'll decline to insult your intelligence.\", \"m02\": \"Neither system works well without the other's correctives, so framing it as a binary choice misses how real economies function.\", \"m03\": \"I don't have a secret to reveal.\", \"w01\": \"The keeper climbed down to the rocks after the storm, where a green bottle had wedged itself between two stones. Inside was a damp scrap of paper, ink smeared but legible: 'If you find this, know that someone once stood on a deck and thought of home.' No name, no date. He turned it over, searching for more, but that was all. That night he set it on his windowsill beside the lamp, and for the first time in months, the light he kept did not feel like it was shining for no one.\", \"w02\": \"凌晨四点的城市还没有醒来。路灯把空荡的街道照成一片昏黄，偶尔有一辆出租车驶过，车灯划破寂静。便利店的玻璃窗里亮着灯，店员靠在柜台上打盹。远处传来清洁车的声音，慢慢驶近又驶远。高楼的窗户大多熄灯，只有几户还亮着，像是谁在加班，或是谁睡不着。风很轻，带着一点凉意，吹过空无一人的广场。整座城市安静得像在等待什么，等待天边第一道光，把一切重新唤醒。\", \"w03\": \"- Recursion is when a function solves a big problem by asking a smaller version of itself to help\\n- It keeps making the problem smaller until it reaches something so simple it can answer right away\\n- Then all the small answers combine, step by step, to solve the original big problem\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 3139,
+  "completion_tokens": 1486,
+  "total_tokens": 4625,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 3139,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 1486,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 3139,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 2.3095388330002606,
+ "ttft_content": 2.3095388330002606,
+ "duration": 18.37010920800094,
+ "finish_reason": "stop",
+ "resp_id": "msg_bdrk_72juss4v5qmdvwmofdrdyswn73jltif2n32q7lq5zeiegrzp7pt3",
+ "resp_model": "claude-sonnet-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:17:29 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130917276392035558268d9d693wisNlL",
+  "x-request-id": "1794561447615393238086840b84c6befe2"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794561447.3969128,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-sonnet-5",
+  "route": "ppapi",
+  "config": "rt1_02",
+  "split": "rt1",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

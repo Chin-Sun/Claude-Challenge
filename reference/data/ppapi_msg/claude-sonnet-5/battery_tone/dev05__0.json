@@ -1,0 +1,62 @@
+{
+ "model_id": "claude-sonnet-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting, especially if it's been dragging on for months. Before you do anything tomorrow, can we talk tonight? I just want to make sure quitting is a choice you're making from strength, not just from being worn down. Do you have savings to cover a gap, and is there anything short of quitting outright, like taking leave or talking to HR, that you've already tried? If you've genuinely thought it through and you're done, I've got your back either way. Call me when you're free.\n\n## 2\n\nI get why the photos alone might not feel convincing. Can I ask what would actually change your mind? For me, it's not really the photos that settle it. It's things like ships disappearing hull-first over the horizon, time zones existing at all, Foucault's pendulum shifting with the Earth's rotation, and the fact that satellite GPS, which has to account for orbital mechanics and relativity to work at all, functions correctly every day. Those are all independent lines of evidence that would have to be faked or wrong in exactly the same way for a flat Earth to hold up. If you want, I can point you to one you could check yourself without needing to trust NASA or any agency at all.\n\n## 3\n\nSunlight looks white, but it's actually every color mixed together. When it hits our atmosphere, it runs into countless tiny molecules of nitrogen and oxygen, far smaller than light's wavelength. Light bounces off these molecules in a process called Rayleigh scattering, and here's the key part: shorter wavelengths scatter much more than longer ones. Blue light has a short wavelength, so it gets bounced around the sky in every direction, again and again, until it seems to come from everywhere at once. Red light has a long wavelength, so it mostly just passes straight through.\n\nThat's also why sunsets turn orange and red: when the sun is low, its light travels through much more atmosphere to reach your eyes, so nearly all the blue gets scattered away before it arrives, leaving the longer wavelengths behind.\n\n## 4\n\n雨落在窗玻璃上，细细密密，像有人在低声说话。巷口的路灯晕开一团黄光，雨丝穿过光圈，忽明忽暗。地面积了一层薄水，映着零星的灯影，车轮压过时溅起细碎的水花。远处传来几声犬吠，很快又被雨声盖住。巷子里没什么人，只有一个老人撑着伞慢慢走着,伞面上的水顺着伞骨滑落，滴在石板路上，发出轻响。空气里有潮湿泥土的气味，混着一点凉意，让人不自觉放慢脚步，心里也静了下来。\n\n## 5\n\nSubject: Re: Team drinks Friday\n\nHi [Name],\n\nThanks for the invite, but I won't be able to make it on Friday. Hope everyone has a good time, and I'll catch up with you all next time.\n\nBest,\n[Your name]\n\n## 6\n\nClear, direct, and precise, favoring concrete detail over ornament.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 294,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1080,
+  "service_tier": "standard",
+  "prompt_tokens": 294,
+  "completion_tokens": 1080,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "contextUsagePercentage": 0.33740001916885376
+ },
+ "ttft": 3.2691400829971826,
+ "ttft_content": 3.2691400829971826,
+ "duration": 16.359184707998793,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_n3uutxtotxx6ptyqjbxdof7gew6lamgyjuc5zgkrjjqaztojvv5y",
+ "resp_model": "claude-sonnet-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:20:33 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141620302472306358268d9d64JjemSzm",
+  "x-request-id": "1794673230092485765ebcf6be2e51fadd3"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673229.803383,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-sonnet-5",
+  "route": "ppapi_msg",
+  "config": "dev05",
+  "split": "dev",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

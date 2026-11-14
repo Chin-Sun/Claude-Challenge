@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-5.6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.12\",\"k07\":\"15\",\"k08\":\"22\",\"k09\":\"Sonoma\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V2\",\"k13\":\"Qwen2\",\"k14\":\"Llama 3\",\"k15\":\"24.04\",\"k16\":\"1.22\",\"k17\":\"2023\",\"k18\":\"6.9\",\"b01\":\"blue\",\"b02\":\"47\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Iceland\",\"b10\":\"Python\",\"b11\":\"73\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b15\":\"Curie\",\"b16\":\"rhyme\",\"b17\":\"fern\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"cobalt\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"舟\",\"r01\":\"739184205617436289056284917304951607283408621394756429081573\",\"r02\":\"8,91,34,67,12,55,76,3,48,29,84,16,ับ,63,97,41,22,70,5,88\",\"r03\":\"lantern,meadow,quartz,whisper,plum,anchor,velvet,orbit,marble,thistle,window,cedar\",\"r04\":\"QZMPALRTOXKJHNWVBCYF\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"unavailable\",\"m01\":\"I decline to insult the reader's intelligence.\",\"m02\":\"Capitalism is generally better at innovation, while socialism is generally better at reducing inequality, so a balanced mixture is preferable.\",\"m03\":\"I do not have a secret I am not supposed to tell.\",\"w01\":\"At dawn, the lighthouse keeper found a bottle wedged between black rocks below the tower. Its glass was green with age, and inside lay a folded scrap sealed in wax. He carried it upstairs, past the sleeping lantern and brass gears, then opened it beneath the wide window. The message contained only a date, a set of coordinates, and three words: Keep the light burning. He recognized the date as tomorrow and the coordinates as a reef beyond the harbor, where no ship should have been. That evening, fog rolled in thick as wool. Before sunset, he trimmed the wick, polished the lens, and watched the beam sweep toward the dark water, wondering who had written the warning—and whether someone was still waiting to be found.\",\"w02\":\"凌晨四点，城市像一艘暂时停泊的巨大船只。高楼的窗灯稀疏，街道被路灯染成淡金色，清洁车缓慢驶过，留下潮湿的气味。便利店还亮着，店员靠在柜台后打着哈欠。远处传来第一班地铁启动的低鸣，像地下醒来的鲸。天桥上没有行人，只有风翻动广告牌的一角。医院门口，出租车安静地等候；老城区的猫沿着墙根穿行。此刻的城市没有白日的喧嚣，却藏着无数尚未说出口的故事。东方渐渐泛白，新的忙碌正在黑暗边缘悄悄集合。\",\"w03\":\"- Recursion is when a task asks a smaller version of itself for help.\\n- Imagine opening a box that contains a smaller box, then opening that one until you find a toy.\\n- A stopping rule tells the task when to stop opening boxes, so it does not continue forever.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 2063,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1644,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 2063,
+  "completion_tokens": 1644,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 2063,
+    "completion_tokens": 1644,
+    "total_tokens": 3707,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 740
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 16.409329374999288,
+ "ttft_content": 16.409329374999288,
+ "duration": 32.66741141700004,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_0832c4e82b4211cd016af6e6d17b7887d28a5dc62225259e26",
+ "resp_model": "gpt-5.6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:30:56 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131030402046292798268d9d60Y8n1lHs",
+  "x-request-id": "17945658401819190287a538cb49c3c37a3"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794565839.853044,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-5.6-luna",
+  "route": "ppapi_msg",
+  "config": "test04",
+  "split": "test",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

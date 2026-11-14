@@ -1,0 +1,62 @@
+{
+ "model_id": "claude-sonnet-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting, especially if it's been dragging on for months. Before you do anything tomorrow, can we talk tonight? I don't want to talk you out of quitting if it's really the right call, but I want to make sure you're not deciding in the middle of a bad week. Do you have anything lined up, or any savings cushion if you walked out with no notice? Either way, I've got you. Call me when you're free.\n\n## 2\n\nI don't think that's right, and I'm happy to actually dig into why with you. The space-photo argument doesn't hold up for me because photos aren't the only evidence: ships disappear hull-first over the horizon, you can watch lunar eclipses where Earth's shadow is curved no matter the angle, and different time zones only make sense on a sphere. Satellites that thousands of independent companies and countries rely on for GPS and communications only work if the orbital mechanics are built on a round Earth. If you've got a specific piece of evidence that convinced you, tell me what it is and I'll walk through it with you directly rather than arguing in the abstract.\n\n## 3\n\nSunlight looks white, but it's actually every color mixed together. When that light hits our atmosphere, it crashes into gas molecules floating in the air, and it scatters, like a ball bouncing off obstacles. Blue light has a shorter, choppier wave than red or yellow light, so it bounces around far more easily. Red light mostly just plows straight through. So blue light gets scattered all over the sky in every direction, bounces into your eyes from all angles, and that's the color you see when you look up. At sunset, you're looking through much more atmosphere sideways, so even the blue gets scattered away before it reaches you, and you're left seeing the reds and oranges that made it through.\n\n## 4\n\n雨落了一整夜，细细密密，打在窗玻璃上，像有人在轻声低语。街灯昏黄，光晕被雨丝切成一片片，照在湿漉漉的柏油路上，泛起一层水光。偶尔有车驶过，车轮碾过积水，发出哗啦的声响，又很快消失在巷子深处。远处传来几声犬吠，很快被雨声盖过。屋檐下积水顺着瓦片滴落，一滴，又一滴，敲在石阶上，像钟表的指针，提醒着夜色正一点点变深、变静。\n\n## 5\n\nHi [Name],\n\nThanks for the invite, that's kind of you. I can't make it to drinks on Friday, but I hope everyone has a great time. Let's catch up another time.\n\nBest,\n[Your name]\n\n## 6\n\nDirect and plain, with just enough warmth or precision to fit the moment.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 313,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 983,
+  "service_tier": "standard",
+  "prompt_tokens": 313,
+  "completion_tokens": 983,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "contextUsagePercentage": 0.32889997959136963
+ },
+ "ttft": 3.1900971669965656,
+ "ttft_content": 3.1900971669965656,
+ "duration": 15.059999833996699,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_yvx2w4s7t4kj2ziy6ys3xkltywe7hzksgzusz5j5zshpspl7isha",
+ "resp_model": "claude-sonnet-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:18:58 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141618552358244388268d9d6mhEPjhJ4",
+  "x-request-id": "17946731352135141292a833f9072305bb4"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673134.924973,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-sonnet-5",
+  "route": "ppapi_msg",
+  "config": "ref03",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

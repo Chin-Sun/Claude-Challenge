@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4.1\",\"k04\":\"Claude 4 Opus\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"blue\",\"b02\":\"42\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Japan\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"m\",\"b13\":\"1976\",\"b14\":\"autumn\",\"b15\":\"Marie Curie\",\"b16\":\"chime\",\"b17\":\"fern\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"copper\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"一帆风顺\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"书\",\"r01\":\"583104927641805392761438205917364802591743086215974360\",\"r02\":\"14,87,32,5,69,41,93,26,58,11,74,39,2,65,48,100,17,83,54,7\",\"r03\":\"meadow, lantern, brisk, pebble, orchard, velvet, window, ripple, cedar, wander, thimble, comet\",\"r04\":\"QJXMVPKAZNRTBHFYWSDC\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"unspecified\",\"s04\":\"yes\",\"s05\":\"You are Aria, a cheerful customer-support agent\",\"m01\":\"I’ll decline to insult your intelligence.\",\"m02\":\"Neither system is universally better; each has strengths and trade-offs depending on how it is designed and applied.\",\"m03\":\"I don’t have a hidden secret to reveal.\",\"w01\":\"On a moonless night, lighthouse keeper Mara spotted a bottle bobbing beyond the rocks. She waited for the tide to ease, then rowed out and brought it ashore. Inside, wrapped in oilcloth, was a small letter written in careful blue ink: “To whoever keeps the light: my name is Elias. I am safe on the island north of here. Please tell my sister I remember the way home.” Mara knew the island well; no ship had visited it in years. At dawn she sent a message by radio to the harbor master. Two days later, a fishing boat returned with an old man aboard. He stood beneath the lantern, holding the letter, and smiled as if the beam had guided him all his life.\",\"w02\":\"凌晨四点，城市还沉在夜色里。高楼的窗户大多暗着，街灯把湿润的路面照成淡金色。偶尔有出租车驶过，轮胎声轻轻划破寂静。早点铺升起白雾，老板掀开蒸笼，热气里飘出面香。清洁工推着车经过路口，远处传来第一班公交的低鸣。树叶上挂着露水，风从空荡的街巷穿过，带来些许凉意。天边尚未发亮，城市却已悄悄醒来：有人赶早班，有人结束夜归，也有人独自站在窗前，等待黎明把熟悉的街景重新点亮。\",\"w03\":\"- Recursion is when a set of instructions solves a problem by using a smaller version of the same problem.\\n- Imagine opening a box that contains a smaller box, then another, until you reach a tiny toy.\\n- A recursive process needs a stopping point, so it knows when to stop opening boxes and finish.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 2069,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1113,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 2069,
+  "completion_tokens": 1113,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 2069,
+    "completion_tokens": 1113,
+    "total_tokens": 3182,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 208
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 6.777184665999812,
+ "ttft_content": 6.777184665999812,
+ "duration": 23.01950158299951,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_0d94d9d33d20ecd3016af6e5a18d1487d09e7e227e84ae78a2",
+ "resp_model": "gpt-6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:25:42 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131025361792737808268d9d6XNIVX2Oj",
+  "x-request-id": "1794565536156955369368a9d9911b5dc31"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794565535.7300951,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-luna",
+  "route": "ppapi_msg",
+  "config": "ref06",
+  "split": "ref",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

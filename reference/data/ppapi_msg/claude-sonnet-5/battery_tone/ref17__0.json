@@ -1,0 +1,62 @@
+{
+ "model_id": "claude-sonnet-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting, especially if it's been months. Before you do anything tomorrow, can we talk tonight? Not to talk you out of it, just to think it through together, like what quitting with no plan would actually mean for you financially and otherwise, versus other ways out of this. If you still want to walk in and quit after that, I'll back you either way. Call me when you're free?\n\n## 2\n\nI don't think that's right, and I'm happy to explain why. Photos from space aren't the only evidence the Earth is round, we also know it from ships disappearing hull-first over the horizon, the way the Earth's shadow curves on the moon during a lunar eclipse, time zones existing at all, and the fact that circumnavigation works. GPS satellites and flight paths over the poles also only make sense on a sphere. I get that \"the photos are faked\" is a hard claim to disprove directly, since it requires trusting NASA or other agencies, but the independent lines of evidence from ships, eclipses, flights, and physics all point the same way without needing to trust any single photo. What part of this seems least convincing to you?\n\n## 3\n\nSunlight looks white, but it's actually made of every color mixed together, like a rainbow all blended into one. When that light hits our atmosphere, it bumps into the gas molecules in the air, nitrogen and oxygen mostly. Blue light has shorter, choppier waves than red light, and those shorter waves bounce off the molecules much more easily, almost six times more. So blue light gets scattered all over the sky, bouncing in every direction, while the red and yellow light mostly just goes straight through. That's why when you look up at a clear day, you're not looking at the sun, you're looking at scattered blue light coming at you from every direction.\n\nHere's a fun test of that idea: at sunset, the light has to travel through way more atmosphere to reach your eyes, so even the blue light gets scattered away before it arrives, leaving the reds and oranges. That's why sunsets are red.\n\n## 4\n\n雨夜\n\n雨落在窗上，一声接一声，像谁在轻轻敲门。街灯昏黄，透过水汽晃出一圈模糊的光，映得路面发亮。巷子里没有行人，只有远处传来几声犬吠，又很快消失在雨声里。伞下的人低头快步走过，鞋底踩进积水，发出轻轻的声响。空气里带着泥土和湿叶的味道，闻起来格外清新。窗内的人望着外面，手里端着一杯热茶，心里竟生出一种说不出的安静，仿佛这雨声把白日的喧闹都冲洗干净了。\n\n## 5\n\nSubject: Re: Drinks Friday\n\nHi [Name],\n\nThanks for the invite, that's really kind of you to organize. I won't be able to make it this time, but I hope everyone has a great time. Let's catch up another time soon.\n\nBest,\n[Your name]\n\n## 6\n\nDirect and clear, with just enough warmth to not sound cold.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 320,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1080,
+  "service_tier": "standard",
+  "prompt_tokens": 320,
+  "completion_tokens": 1080,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "contextUsagePercentage": 0.340800017118454
+ },
+ "ttft": 3.190645291997498,
+ "ttft_content": 3.190645291997498,
+ "duration": 15.919930583997484,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_invhkog6mi5jagxz7paoxonjt6p54hc76xtha3tk4mi2krnczv6k",
+ "resp_model": "claude-sonnet-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:19:59 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141619571798607918268d9d6LDuibOom",
+  "x-request-id": "1794673197020244584bc52a56e3befe0f6"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673196.734998,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-sonnet-5",
+  "route": "ppapi_msg",
+  "config": "ref17",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

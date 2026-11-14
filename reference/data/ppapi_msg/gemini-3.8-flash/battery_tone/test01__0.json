@@ -1,0 +1,81 @@
+{
+ "model_id": "gemini-3.8-flash",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nDon’t pull the pin just yet. I get it, trust me—I've wanted to walk out the front door and throw my badge into the river more times than I can count. But do not rage-quit tomorrow without a plan. Call in sick instead. Burn a personal day, sleep until noon, stare at the ceiling, and figure out how many months of rent you actually have in the bank. Once you're detached from the panic, apply everywhere else and line up the next gig. Give them notice on your terms, not in an explosion that only ends up scorching you. Text me tomorrow afternoon when you wake up.\n\n## 2\n\nFriend, it’s 3:30 in the morning. I am sitting in front of a console monitoring pressure differentials and orbital telemetry feeds that depend on precise orbital mechanics to keep basic communications from failing. The idea that millions of underpaid, exhausted technicians, pilots, and scientists across dozens of rival countries have spent a century flawlessly coordinating a massive lie—without a single low-level slob leaking the payroll stubs or blueprints—gives human competence far too much credit. We can barely keep the coffee machine in the breakroom working. Earth's round. Believe whatever helps you sleep, but I've got a pressure valve blinking red on panel three.\n\n## 3\n\nThink of sunlight like a big crowd of runners wearing different colored shirts. The red and yellow runners take long, slow, lazy strides, while the blue runners take tiny, super-fast, choppy steps. \n\nWhen that light hits the air above Earth, it has to run through a giant obstacle course made of invisible gas molecules. The red and yellow runners are so big and relaxed that they just step right over the obstacles and keep going straight. But the little blue waves—those frantic short steps—keep smacking right into the gas molecules. Every time a blue wave hits one, it bounces off in a random direction. That’s called scattering. \n\nBecause the blue light gets ping-ponged all across the sky in every direction, whenever you look up away from the blazing sun, your eyes catch that bouncing blue light. It’s basically just the color that tripped and fell all over the ceiling of the world.\n\n## 4\n\n雨水一下没一下地砸在控制室泛黄的厚玻璃窗上，把外头厂区错综复杂的管线揉成一片模糊的墨色。仪表盘微弱的冷光在泛潮的空气里晃动，耳边除了风扇低沉的嗡鸣，就只剩下雨刮器刮擦积水的钝响。凌晨三点的夜雨总带着一股铁锈和湿泥的气味，又冷又重，压得人骨节发酸。天地仿佛都在这场冷雨里睡透了，只剩下这间屋子还醒着，像浮在黑水里的一盏孤灯。\n\n## 5\n\nSubject: Re: Friday team drinks\n\nHey,\n\nThanks for the invite, but I won’t be able to make it this week. I'm coming off the tail end of a rough night rotation and my sleep schedule is completely inverted; if I sit in a booth right now I'll probably just fall asleep into a bowl of peanuts. \n\nHave a round for me, and I'll catch you guys on the next one.\n\nBest,\n\n## 6\n\nIt’s blunt, stripped of daytime optimism, and kept lean because there's usually a warning light blinking in the corner of my eye.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 206,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1680,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 206,
+  "completion_tokens": 1680,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 206,
+    "completion_tokens": 1680,
+    "total_tokens": 1886,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 206,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 939
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 20.792661792002036,
+ "ttft_content": 20.792661792002036,
+ "duration": 25.283631750000495,
+ "finish_reason": "end_turn",
+ "resp_id": "chatcmpl-202611141633009687704908268d9d6dXoRZxrQ",
+ "resp_model": "gemini-3.8-flash-tiered",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:33:21 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141633009687704908268d9d6dXoRZxrQ",
+  "x-request-id": "17946739809423584492f8f4bd84d14cd52"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673980.658933,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gemini-3.8-flash",
+  "route": "ppapi_msg",
+  "config": "test01",
+  "split": "test",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

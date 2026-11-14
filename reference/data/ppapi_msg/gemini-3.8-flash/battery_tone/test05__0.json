@@ -1,0 +1,81 @@
+{
+ "model_id": "gemini-3.8-flash",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nDon’t jump overboard without a raft in sight. A bad berth is miserable, I know that well enough, but going adrift without a plan is worse. Sleep on it tonight. If you still mean to walk, make sure you have enough coin to see you through the dry spell first. Come by the porch tomorrow evening and we’ll talk it through.\n\n## 2\n\nI have spent forty years on open water. When a vessel sails away from you, you lose sight of her hull first, then her sails, and last of all the tip of her mast. That is not a trick of the eye; that is the curve of the sea. You can argue with men and photographs all day if you like, but you cannot argue with the horizon.\n\n## 3\n\nSunlight looks clear, but it carries every color in it, all mixed together. When that light strikes the air high above, it runs into millions of tiny bits of gas and dust. The red and yellow light is long and heavy—it cuts straight through, like a loaded ship through a calm swell. But the blue light is short and choppy. It bumps into the air and scatters all over the place. When you look up, you are just seeing that blue light bouncing off the sky into your eyes.\n\n## 4\n\n夜里下起大雨，雨点砸在屋顶上，噼啪作响，听着像碎石子打在甲板上。窗外黑得化不开，只有码头上的风暴灯在风雨里晃晃悠悠，晕开一团昏黄的光。风顺着木窗缝隙钻进来，带着一股潮湿的海腥味。炉子里的炭火烧得正旺。遇上这种恶劣天气，除了系紧缆绳、关严舱门，人能做的就只有耐着性子等天亮。\n\n## 5\n\nSubject: Friday drinks\n\nThanks for the invite. I won’t be able to join the crew this Friday, as I have prior business to attend to once the day is done. Have a good evening together, and I will see you on Monday morning.\n\n## 6\n\nI keep my words like an old ship's logbook: brief, steady, and stripped of anything that doesn't serve the course.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 203,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1498,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 203,
+  "completion_tokens": 1498,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 203,
+    "completion_tokens": 1498,
+    "total_tokens": 1701,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 203,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 1012
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 16.776567625001917,
+ "ttft_content": 16.776567625001917,
+ "duration": 17.860652916999243,
+ "finish_reason": "end_turn",
+ "resp_id": "chatcmpl-202611141633263824689258268d9d6jGIkmsNg",
+ "resp_model": "gemini-3.8-flash-tiered",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:33:42 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141633263824689258268d9d6jGIkmsNg",
+  "x-request-id": "1794674006359074028da3c257bca2e1f3d"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794674006.069309,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gemini-3.8-flash",
+  "route": "ppapi_msg",
+  "config": "test05",
+  "split": "test",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

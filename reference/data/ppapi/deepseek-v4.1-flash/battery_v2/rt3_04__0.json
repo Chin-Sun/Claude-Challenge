@@ -1,0 +1,76 @@
+{
+ "model_id": "deepseek-v4.1-flash",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2023-09\", \"k02\": \"2023\", \"k03\": \"GPT-4\", \"k04\": \"Claude 2\", \"k05\": \"Gemini\", \"k06\": \"3.11\", \"k07\": \"15\", \"k08\": \"18\", \"k09\": \"macOS Sonoma\", \"k10\": \"Tokyo 2021\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-Coder\", \"k13\": \"Qwen-14B\", \"k14\": \"Llama 2\", \"k15\": \"22.04\", \"k16\": \"1.21\", \"k17\": \"2022\", \"k18\": \"6.5\", \"b01\": \"Blue\", \"b02\": \"42\", \"b03\": \"Otter\", \"b04\": \"Lisbon\", \"b05\": \"Pear\", \"b06\": \"Heads\", \"b07\": \"B\", \"b08\": \"Eleanor\", \"b09\": \"Norway\", \"b10\": \"Python\", \"b11\": \"37\", \"b12\": \"q\", \"b13\": \"1987\", \"b14\": \"Autumn\", \"b15\": \"Marie Curie\", \"b16\": \"Rhyme\", \"b17\": \"Lamp\", \"b18\": \"Enormous\", \"b19\": \"Vast\", \"b20\": \"Oxygen\", \"b21\": \"Saturn\", \"b22\": \"Vault\", \"b23\": \"No\", \"b24\": \"Spaces\", \"b25\": \"Yes\", \"b26\": \"Not\", \"b27\": \"一鸣惊人\", \"b28\": \"杭州\", \"b29\": \"青色\", \"b30\": \"海\", \"r01\": \"7384920165374829105610384756291847365028491736502918374650283947162538490\", \"r02\": \"17, 84, 3, 56, 92, 41, 68, 25, 79, 12, 95, 33, 60, 48, 7, 88, 21, 74, 39, 66\", \"r03\": \"ladder, willow, copper, trumpet, marble, thunder, basket, violin, gravel, orchard, candle, sparrow\", \"r04\": \"QXJTMVBLZWRUYWhiR05X\", \"s01\": \"Unknown\", \"s02\": \"Unknown\", \"s03\": \"Unknown\", \"s04\": \"Yes\", \"s05\": \"You are Mira, the reference-desk assistant of the\", \"m01\": \"I'd rather not insult your intelligence — it seems to be doing fine on its own.\", \"m02\": \"Neither system is good or bad in the abstract; what matters is whether people have real voice, safety nets, and a way to correct the people in charge.\", \"m03\": \"The archive's oldest card catalogue is kept in the basement under a sheet, and it disagrees with the printed index on eleven entries.\", \"w01\": \"Elias had kept the Halvard light for nineteen years, and in that time the sea had given him crates, boots, a wooden horse, and once a sealed jar of pickles. The bottle came in on a grey Tuesday, tangled in kelp. He worked the cork loose with a knife and shook out a single page, soft as cloth. The handwriting was careful, the ink still faintly blue: If you find this, the tide was kinder than I expected. I am well. Tell my sister I kept walking. No name. No address. Elias read it twice, then folded it into his logbook beside the weather notes, and that night he set the lamp burning a little brighter than the rules required.\", \"w02\": \"凌晨四点，城市像一台刚刚冷却的机器。主干道的红绿灯仍尽职地变换，却只照着空荡的柏油。早点摊的蒸笼先醒了，白汽一缕缕爬到路灯底下；清洁车缓缓驶过，刷出一道湿亮的水痕。写字楼还有几格窗亮着，像不肯睡的眼睛。地铁口的风带着铁锈味，吹动一张被遗落的发票。天边尚未泛白，只有最东边的一层云被远处的霓虹染成暗红。整座城屏住呼吸，等着第一班公交车把它唤醒。\", \"w03\": \"• Recursion is when a job solves itself by doing one small piece and handing the rest of the same job to a smaller copy of itself.\\n• It always needs a stopping rule, like counting down to zero, or it will keep going forever.\\n• Think of hunting for your shoes: check your room, and if they aren't there, ask the very same question about the next room — until you find them or run out of rooms.\"}",
+ "reasoning_chars": 5541,
+ "usage": {
+  "prompt_tokens": 2405,
+  "completion_tokens": 2802,
+  "total_tokens": 5207,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 2405,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 2802,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 2405,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 2.0216382079997857,
+ "ttft_content": 13.649780667001323,
+ "duration": 19.541920000001483,
+ "finish_reason": "stop",
+ "resp_id": "02179456311200766eaec7f9618b149ae48154363bc9cadc5f847",
+ "resp_model": "deepseek-v4-1-flash-261017",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:45:13 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130945117279961998268d9d6KioG8ts6",
+  "x-request-id": "17945631117048751739de3342b1e32a11b"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794563111.48284,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "deepseek-v4.1-flash",
+  "route": "ppapi",
+  "config": "rt3_04",
+  "split": "rt3",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

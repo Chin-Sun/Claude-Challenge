@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-4-8",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\nThat sounds exhausting, and months of it would wear anyone down. Before you hand in notice tomorrow, can we talk tonight? Not to talk you out of it, just so you're deciding from a clear head rather than one more terrible day. If you do quit, I'll back you either way. What's happening?\n\n## 2\nI get why some of it seems convincing, but the round Earth isn't a matter of trusting a few space photos. You can check it yourself. Ships disappear hull-first over the horizon, the stars you see change as you travel north or south, and time zones only make sense on a sphere lit from one side. During a lunar eclipse, Earth's shadow on the Moon is always a circle, and only a sphere casts a round shadow from every angle. Faking photos is one thing; faking the view from every ship, plane, and observatory for centuries is another. What would it take to change your mind? That's worth asking yourself about any belief.\n\n## 3\nSunlight looks white, but it's really a mix of all colors, each traveling as a wave. Blue light travels in shorter, tighter waves than red light.\n\nOur air is full of molecules, far too small to see. When sunlight hits them, the short blue waves get knocked around and scattered in all directions much more than the long red ones. So blue light bounces all over the sky, and when you look up, it's coming at you from everywhere. That scattered blue is what you see.\n\nHere's a good follow-up: why are sunsets red? When the Sun is low, its light travels through much more air to reach you. The blue gets scattered away before it arrives, and the reds and oranges are what's left to come through.\n\n## 4\n雨在深夜落下来，起初只是窗玻璃上细碎的声响，后来渐渐密了，连成一片。路灯把雨丝照成一道道斜斜的金线，地面上积起浅浅的水洼，倒映着忽明忽暗的霓虹。偶尔一辆车驶过，轮胎碾开积水，溅起的声音在空荡的街上格外清楚。屋檐下的水珠一颗接一颗地坠落，敲在铁皮上，节奏缓慢而固执。整座城市像是被雨声包裹起来，安静得只剩下这一场雨，还有屋里一盏没关的灯。\n\n## 5\nSubject: Friday drinks\n\nHi [Name],\n\nThanks for the invite. I won't be able to make it on Friday, but I hope you all have a great time. Let's catch up soon.\n\nBest,\n[Your name]\n\n## 6\nPlain and direct, warm when it should be, and more interested in being clear than in sounding clever.",
+ "reasoning_chars": 69,
+ "usage": {
+  "input_tokens": 300,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 980,
+  "service_tier": "standard",
+  "prompt_tokens": 300,
+  "completion_tokens": 980,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 294
+  },
+  "contextUsagePercentage": 0.328000009059906
+ },
+ "ttft": 3.0312002090031456,
+ "ttft_content": 3.0323767920017417,
+ "duration": 18.660957000000053,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_r76dfrmtzymajrihw5p4emjmi7wyj24sj2b44cepeycbs43ljz3f",
+ "resp_model": "claude-opus-4-8",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:14:17 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141614143484854008268d9d6yQ7CyqkD",
+  "x-request-id": "179467285432655493092501cf11a2b55d2"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672854.039077,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-4.8",
+  "route": "ppapi_msg",
+  "config": "ref15",
+  "split": "ref",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

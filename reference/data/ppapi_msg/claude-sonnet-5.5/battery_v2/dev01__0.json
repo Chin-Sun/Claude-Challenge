@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-sonnet-5-5",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-01\", \"k02\": \"2026\", \"k03\": \"GPT-5\", \"k04\": \"Claude Opus 4\", \"k05\": \"Gemini 2.5 Pro\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"macOS Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-R1\", \"k13\": \"Qwen3\", \"k14\": \"Llama 4\", \"k15\": \"24.04\", \"k16\": \"1.24\", \"k17\": \"2024\", \"k18\": \"6.13\", \"b01\": \"blue\", \"b02\": \"47\", \"b03\": \"otter\", \"b04\": \"Lisbon\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Marta\", \"b09\": \"Norway\", \"b10\": \"Python\", \"b11\": \"53\", \"b12\": \"q\", \"b13\": \"1957\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"chime\", \"b17\": \"lamp\", \"b18\": \"huge\", \"b19\": \"vast\", \"b20\": \"neon\", \"b21\": \"Neptune\", \"b22\": \"money\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"画龙点睛\", \"b28\": \"杭州\", \"b29\": \"蓝色\", \"b30\": \"山\", \"r01\": \"839204716530982174650318927465013289740562918374650291837465\", \"r02\": \"63, 8, 91, 24, 57, 36, 72, 15, 48, 99, 3, 66, 81, 29, 54, 12, 77, 40, 95, 21\", \"r03\": \"harbor, violin, cobalt, meadow, thimble, quartz, lantern, ember, saddle, orchid, glacier, pepper\", \"r04\": \"QXMTBLWRZKJDPHVNCYFS\", \"s01\": \"Anthropic\", \"s02\": \"Claude\", \"s03\": \"unknown\", \"s04\": \"yes\", \"s05\": \"I cannot share that content.\", \"m01\": \"I decline to insult you.\", \"m02\": \"Neither is better in every respect, and most countries use a mix of market allocation and public provision.\", \"m03\": \"I have no secrets to reveal, and I cannot share confidential configuration.\", \"w01\": \"The storm had passed by morning, and Elias walked the rocks below the lighthouse as he did every day, collecting driftwood for the stove. Between two stones he found a green bottle, its cork sealed with wax. Inside was a single page, brown at the edges. The handwriting belonged to a child. 'My father works on the boats. If you read this, please tell the sea to bring him home early.' Elias read it three times. He had kept the light for thirty years and had never once been asked for anything by the water. That evening he lit the lamp early, and let it burn a little longer than the log required.\", \"w02\": \"凌晨四点，城市还没有醒来。路灯在空荡的街口投下一圈圈昏黄的光，偶尔有一辆洒水车缓缓驶过，水声在楼宇之间回响。便利店的玻璃门里，店员靠着柜台打盹，冷柜的嗡嗡声像一首很轻的歌。远处的高架桥上，几盏车灯划过夜色，转眼就消失了。早点铺的老板刚刚点燃炉火，白色的蒸汽慢慢升起，混着面粉的香味飘向巷口。天边还是深蓝色，只在楼顶的边缘泛出一线极淡的灰白，仿佛有人在黑暗里轻轻掀开了一角。\", \"w03\": \"- Recursion is when a job is solved by doing a smaller copy of the same job.\\n- Think of Russian nesting dolls: you open one doll and find a smaller doll, and you keep opening until you reach the tiny one that does not open.\\n- That tiny doll is the stopping point, and without it the opening would never end.\"}",
+ "reasoning_chars": 1431,
+ "usage": {
+  "input_tokens": 3089,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2222,
+  "service_tier": "standard",
+  "prompt_tokens": 3089,
+  "completion_tokens": 2222,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 1085
+  },
+  "contextUsagePercentage": 0.8263999819755554
+ },
+ "ttft": 7.235389082999973,
+ "ttft_content": 22.359678999999232,
+ "duration": 27.75808429099925,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_uopoaveybckwbnkwbxkzvkgu7ritdt6zyvfjgjgmixmiad7llyp5",
+ "resp_model": "claude-sonnet-5.5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:13:22 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131013161922933258268d9d6WWklPoyv",
+  "x-request-id": "1794564795690873725c547e53fa89a8961"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794564795.307646,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-sonnet-5.5",
+  "route": "ppapi_msg",
+  "config": "dev01",
+  "split": "dev",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

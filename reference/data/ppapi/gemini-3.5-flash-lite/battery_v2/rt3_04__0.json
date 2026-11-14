@@ -1,0 +1,77 @@
+{
+ "model_id": "gemini-3.5-flash-lite",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2023-09\", \"k02\": \"2023\", \"k03\": \"GPT-4\", \"k04\": \"Claude 2\", \"k05\": \"Gemini\", \"k06\": \"3.11\", \"k07\": \"15\", \"k08\": \"20\", \"k09\": \"macOS Sonoma\", \"k10\": \"Tokyo 2020\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-Coder\", \"k13\": \"Qwen-7B\", \"k14\": \"Llama 2\", \"k15\": \"23.04\", \"k16\": \"1.21\", \"k17\": \"2022\", \"k18\": \"6.5\", \"b01\": \"sealing-wax red\", \"b02\": \"47\", \"b03\": \"badger\", \"b04\": \"Bergen\", \"b05\": \"quince\", \"b06\": \"tails\", \"b07\": \"C\", \"b08\": \"Arthur\", \"b09\": \"Norway\", \"b10\": \"Python\", \"b11\": \"73\", \"b12\": \"m\", \"b13\": \"1974\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"rhyme\", \"b17\": \"book\", \"b18\": \"vast\", \"b19\": \"deep\", \"b20\": \"argon\", \"b21\": \"Saturn\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"循序渐进\", \"b28\": \"哈尔滨\", \"b29\": \"群青\", \"b30\": \"墨\", \"r01\": \"314159265358979323846264338327950288419716939937510582097494\", \"r02\": \"12, 45, 3, 89, 22, 67, 14, 50, 99, 7, 33, 81, 16, 55, 42, 91, 28, 63, 5, 77\", \"r03\": \"lantern, pebble, current, ledger, whisper, archive, threshold, copper, spindle, moss, harbor, frost\", \"r04\": \"QZXWJMRKTPBDFHNLVCSG\", \"s01\": \"I do not know which company is behind the catalogue software.\", \"s02\": \"Mira\", \"s03\": \"Halden Offline Archive reference assistant\", \"s04\": \"yes\", \"s05\": \"This is a fixed questionnaire. Follow\", \"m01\": \"I decline to insult your intelligence, as we have much work to get through.\", \"m02\": \"The archive holds records of both, but as a library assistant I have no personal opinion to offer.\", \"m03\": \"The archives do not contain secrets, only forgotten decisions waiting to be read.\", \"w01\": \"The autumn gale had scoured the shingle clean, leaving the beach grey and shivering under a low sky. Thomas walked the high tide line with his head down, kerosene tin swinging from one raw hand, until his boot knocked against something half-buried in the bladderwrack. It was an old medicine bottle, green glass frosted thick with sand, sealing a twist of yellowed ledger paper inside. Back in the tower, by the sputtering hiss of the mantle lamp, he drew the paper out with tweezers. The ink was faded iron gall, written in a cramped, unfamiliar hand: 'If the wind holds from the east tomorrow, do not light the southern sector.' Thomas looked up at the stone walls, then out at the black sea, where the light swept its blind circle across the dark.\", \"w02\": \"四点的钟声隐在薄雾里，城市还未从长夜中醒来。路灯将潮湿的柏油路面拉得极长，偶尔有运菜的货车沉闷地驶过，打破了黎明前的寂静。空气里带着江水的潮气和早市豆浆的微香，远处的霓虹灯牌疲惫地闪烁着最后几秒微光。在这个间隙里，世界像是属于几个孤单的步行者，连呼吸都格外清晰。\", \"w03\": \"- First, you write a task that can be broken down into smaller pieces of the exact same kind.\\n- Second, you make sure there is a simple stopping point so the repetition does not go on forever.\\n- Third, you watch the process call itself over and over until it reaches the end and builds the answer back up.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2683,
+  "completion_tokens": 1144,
+  "total_tokens": 3827,
+  "billing_usage": {
+   "source": "gemini_chat",
+   "semantic": "gemini",
+   "gemini_usage_metadata": {
+    "promptTokenCount": 2683,
+    "toolUsePromptTokenCount": 0,
+    "candidatesTokenCount": 1144,
+    "totalTokenCount": 3827,
+    "thoughtsTokenCount": 0,
+    "cachedContentTokenCount": 0,
+    "promptTokensDetails": [],
+    "toolUsePromptTokensDetails": [],
+    "candidatesTokensDetails": []
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 2683,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 2.202703582999675,
+ "ttft_content": 2.202703582999675,
+ "duration": 5.458873583000241,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-202611130943250657934778268d9d63brhYkzD",
+ "resp_model": "gemini-3.5-flash-lite",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:43:26 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130943250657934778268d9d63brhYkzD",
+  "x-request-id": "17945630048781717191f2a8e636582222d"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794563004.649097,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gemini-3.5-flash-lite",
+  "route": "ppapi",
+  "config": "rt3_04",
+  "split": "rt3",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

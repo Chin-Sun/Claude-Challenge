@@ -1,0 +1,66 @@
+event: message_start
+data: {"type":"message_start","message":{"type":"message","model":"gemini-3.8-flash-tiered","usage":{"input_tokens":244,"cache_creation_input_tokens":0,"cache_read_input_tokens":0,"output_tokens":0,"claude_cache_creation_5_m_tokens":0,"claude_cache_creation_1_h_tokens":0},"role":"assistant","id":"chatcmpl-202611141633141684820258268d9d6ncKcR6Mc","content":[]}}
+
+event: content_block_start
+data: {"type":"content_block_start","index":0,"content_block":{"type":"text","text":""}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":"## 1\n\n"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":"Don't quit tomorrow. Take a sick day instead. Vent to me tonight over food, and let's map out a"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":" plan. You need an exit strategy, not just an exit.\n\n## 2\n\nThe Earth is not flat. You do not need NASA"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":" photos to see this. Look at ships disappearing over the horizon hull-first. Watch the curved shadow of Earth during a lunar eclipse."}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":" Consider why time zones exist, or how international flights navigate. The flat Earth model fails to explain basic geometry. \n\n## 3"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":"\n\nSunlight looks white, but it is actually a mix of all colors. Light travels in waves. Red light has"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":" long, lazy waves. Blue light has short, choppy waves. \n\nEarth is wrapped in an atmosphere filled with gases. When"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":" sunlight hits these gases, the short blue waves scatter in every direction much more than other colors. When you look up away"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":" from the sun, you are seeing this scattered blue light bouncing everywhere.\n\n## 4\n\n夜幕低垂，暴雨"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":"如注。雨滴重重地砸在玻璃窗上，噼啪作响。昏黄的路灯下"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":"，雨水汇成细流，在柏油路面上泛着冷光。整座城市被一层湿漉漉的"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":"雾气笼罩，街上空无一人。偶尔有汽车疾驰而过，溅起半人高的"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":"水花，转瞬又隐入黑暗。屋檐下的水珠连成线，不断滴落在水洼"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":"里。空气中弥漫着泥土的潮气与深秋的凉意。\n\n## 5\n\nHi Sarah"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":",\n\nThanks for organizing this. I have a prior commitment this Friday, so I cannot make it. \n\nHave a great time with the"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":" team. \n\nBest,\n\nAlex\n\n## 6\n\nMy writing style is direct, concise, and focused purely"}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":" on clarity."}}
+
+event: content_block_stop
+data: {"type":"content_block_stop","index":0}
+
+event: message_delta
+data: {"type":"message_delta","usage":{"input_tokens":203,"cache_creation_input_tokens":0,"cache_read_input_tokens":0,"output_tokens":1354,"claude_cache_creation_5_m_tokens":0,"claude_cache_creation_1_h_tokens":0,"billing_usage":{"source":"oai_chat","semantic":"openai","openai_usage":{"prompt_tokens":203,"completion_tokens":1354,"total_tokens":1557,"prompt_tokens_details":{"cached_tokens":0,"text_tokens":203,"audio_tokens":0,"image_tokens":0},"completion_tokens_details":{"text_tokens":0,"audio_tokens":0,"image_tokens":0,"reasoning_tokens":960},"input_tokens":0,"output_tokens":0,"input_tokens_details":null,"claude_cache_creation_5_m_tokens":0,"claude_cache_creation_1_h_tokens":0}}},"delta":{"stop_reason":"end_turn"}}
+
+event: message_stop
+data: {"type":"message_stop"}
+

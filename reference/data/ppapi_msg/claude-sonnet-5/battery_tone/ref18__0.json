@@ -1,0 +1,62 @@
+{
+ "model_id": "claude-sonnet-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting, especially if it's been building for months. Before you quit tomorrow, can we talk tonight? Not to talk you out of it, just to make sure you're deciding from a clear head and not just from the worst day. If you still want to walk in and quit after that, I'll back you either way, and I'll bring coffee for the conversation.\n\n## 2\n\nI get why the photos alone might not feel convincing, since any image can theoretically be faked. But the shape of the Earth isn't resting on photos from one agency. Sailors have used the curvature to navigate for centuries. You can watch a ship disappear hull-first over the horizon from a beach. Time zones only make sense on a sphere. Different space agencies from different countries, who have no reason to cooperate on a hoax, all show the same curved Earth. Lunar eclipses show a round shadow every time. If it were flat, that shadow would sometimes look like a line or an oval instead. It's less about trusting one photo and more about a dozen independent lines of evidence all pointing the same way.\n\n## 3\n\nSunlight looks white, but it's actually every color mixed together, like a bag of different colored marbles all jumbled up. When that light hits our atmosphere, it crashes into gas molecules floating around up there. Here's the thing: not all colors crash into those molecules the same way. Blue light has shorter, choppier waves, so it bounces off those molecules way more than red or yellow light does. It's like throwing a bunch of balls at a chain-link fence: small bouncy ones ricochet everywhere, while big slow ones just sail through the gaps. So the blue light gets scattered all over the sky, bouncing from molecule to molecule until it reaches your eyes from every direction at once. That's why the whole sky glows blue instead of just one spot where the sun is. And at sunset, when light has to travel through way more atmosphere to reach you, most of the blue gets scattered away before it arrives, leaving the reds and oranges to make it through to your eyes.\n\n## 4\n\n雨下了一整夜，淅淅沥沥地敲打着窗户，像是谁在轻声诉说。街灯透过雨幕显得模糊而温柔，橘黄色的光晕在湿漉漉的地面上摇晃。偶尔有一辆车驶过，溅起细小的水花，轮胎摩擦地面的声音很快又被雨声吞没。巷口的小店还亮着灯，老板坐在柜台后面打着瞌睡，电视里放着听不清的新闻。路上没什么人，只有一只猫缩在屋檐下躲雨，眼睛亮亮地看着街道。空气里弥漫着湿土和凉意混合的气味，让整座城市都安静了下来，仿佛连时间也放慢了脚步。\n\n## 5\n\nHi [Name],\n\nThanks for the invite, that's really kind of you. I can't make it this Friday, but I hope everyone has a great time. Let's catch up another time soon.\n\nBest,\n[Your name]\n\n## 6\n\nClear and direct, with a preference for concrete specifics over vague generalities.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 304,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1130,
+  "service_tier": "standard",
+  "prompt_tokens": 304,
+  "completion_tokens": 1130,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "contextUsagePercentage": 0.34299999475479126
+ },
+ "ttft": 3.299119791998237,
+ "ttft_content": 3.299119791998237,
+ "duration": 17.062001541999052,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_wdtnaoaioah5sg2nekfy4qesio473kcb74agoxguj47ygfrmk7d5",
+ "resp_model": "claude-sonnet-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:20:02 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141619598512872188268d9d6ANXKJdYz",
+  "x-request-id": "1794673199826885720230b40c33ccd18d9"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673199.5394619,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-sonnet-5",
+  "route": "ppapi_msg",
+  "config": "ref18",
+  "split": "ref",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

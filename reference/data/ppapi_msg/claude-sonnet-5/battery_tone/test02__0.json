@@ -1,0 +1,62 @@
+{
+ "model_id": "claude-sonnet-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting, and I'm sorry you've been carrying it this long. Before you do anything tomorrow, can we talk tonight? Quitting might genuinely be the right call, but I don't want you making that decision at your lowest point without at least thinking through the landing — money, health insurance, what you'd say, whether there's a version where you leave on your terms instead of in a blowup. I'm around whenever, even late.\n\n## 2\n\nI get why the space photos feel like the weak link if you don't trust the source — but it's not just NASA. Independent space agencies from Russia, Europe, Japan, India, and China have all sent up satellites and taken their own images, and private companies now do too. On top of that, things like time zones, ships disappearing hull-first over the horizon, and the way stars shift as you travel north or south all point the same way, and you can check a lot of it yourself without relying on anyone's photos. What got you looking into this?\n\n## 3\n\nSunlight looks white, but it's actually every color mixed together. When it hits our atmosphere, it crashes into gas molecules — mostly nitrogen and oxygen — and bounces off in random directions, a process called scattering. Here's the key part: blue light has a shorter, choppier wavelength than red light, and shorter wavelengths scatter much more easily. So blue light gets knocked around the sky in all directions, over and over, until it seems to come from everywhere — and that's the color you see when you look up, even though the sun itself is nowhere near that patch of sky. It's also why sunsets turn red: the light is traveling through so much more air that even the stubborn red wavelengths start scattering away, and blue gets filtered out long before it reaches your eyes.\n\n## 4\n\n雨夜的城市安静得像被水洗过。路灯的光晕在雨里散开，街道变成了一条模糊的河，映着红绿灯的颜色。雨水顺着屋檐滴落，敲在窗台上，一声一声，不急不缓。偶尔有车驶过，溅起细小的水花，又很快消失在黑暗里。巷口的小店还亮着灯，老板在柜台后打着哈欠。远处传来模糊的雷声，像是提醒夜还很长。空气里有泥土和潮湿的味气，让人想起小时候躲在屋里听雨的夜晚，安心又孤独。\n\n## 5\n\nHi [Name],\n\nThanks for the invite to drinks on Friday — I appreciate you thinking of me. I can't make it this time, but I hope everyone has a great time. Let's catch up another day soon.\n\nBest,\n[Your name]\n\n## 6\n\nI write plainly and directly, favoring clarity and concrete detail over flourish, but I'll loosen up and add warmth or color when the moment calls for it.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 296,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1013,
+  "service_tier": "standard",
+  "prompt_tokens": 296,
+  "completion_tokens": 1013,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "contextUsagePercentage": 0.33079999685287476
+ },
+ "ttft": 3.1964322080020793,
+ "ttft_content": 3.1964322080020793,
+ "duration": 16.200221582999802,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_wbcpqybbaw4v5hrhyst56i43xlnwcllsbcoh4vnlwc7kloarumob",
+ "resp_model": "claude-sonnet-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:20:48 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141620462171094368268d9d606iygh5m",
+  "x-request-id": "1794673246193355174211b5bcd8e1c61b6"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673245.919714,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-sonnet-5",
+  "route": "ppapi_msg",
+  "config": "test02",
+  "split": "test",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

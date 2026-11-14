@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nMonths is a long time to feel that way. What happened today, or has it just been building?\n\nI'm not going to talk you out of it. If the job is wrecking you, leaving is a real answer. But tomorrow is fast, and you'd be making the call at your lowest point this week. Can we talk tonight? I mostly want to know what you'd be walking toward, and whether you have a few months of runway. If the answer is yes to both, honestly, quit.\n\nEither way I'm on your side. Call whenever.\n\n## 2\n\nI don't think you're right, but I'd rather give you things you can check yourself than just assert it.\n\nA few that don't require trusting any space agency:\n\nShips don't shrink into the distance, their hulls disappear first while the masts stay visible. You can watch this from any shoreline with binoculars. On a flat surface they'd stay whole and just get smaller.\n\nSunrise happens at different clock times at different longitudes, and the sun is overhead at only one latitude band at a time. On a flat disc with a sun above it, everyone would see the sun in the sky at once, just at different sizes.\n\nEratosthenes measured the Earth's circumference around 240 BC using nothing but two sticks, two cities, and the angle of shadows at noon. His answer was within a few percent of the modern value. Anyone can repeat it with a friend a few hundred miles north or south.\n\nFlight paths, GPS satellite geometry, and the circular shadow the Earth casts on the Moon during a lunar eclipse all require a sphere too.\n\nOn the faked-photos point: the photos are the weakest evidence anyway, and I'd drop them from the argument. The measurements came first and they don't depend on cameras. What would it take to change your mind? I'd like to know what kind of evidence you'd actually accept.\n\n## 3\n\nSunlight looks white, but it's really all the colors mixed together. You can split it with a prism and see them.\n\nNow, air isn't empty. It's packed with nitrogen and oxygen molecules, and when light runs into one, it can get knocked sideways instead of continuing straight. That's called scattering. The important part: the molecules are much better at knocking around short wavelengths (blue and violet) than long ones (red and orange). Quite a lot better. Halve the wavelength and you get about sixteen times as much scattering.\n\nSo the red light mostly travels straight through the atmosphere to your eye from wherever the sun is. The blue light gets bounced around, molecule to molecule, until it's coming at you from every direction at once. You look up at a random patch of sky away from the sun, and what reaches you is scattered blue. The sky is blue because you're seeing light that's been knocked off course.\n\nTwo things that make it more interesting:\n\nViolet scatters even more than blue, so why isn't the sky violet? Partly because the sun puts out less violet to begin with, and mostly because your eyes have three kinds of color sensors and they're far more responsive to blue than to violet. The sky is violet-ish in a physical sense; your eye reports \"blue.\"\n\nAt sunset the sun is low, so its light slices through a much longer stretch of atmosphere to reach you. By the time it arrives, nearly all the blue has been scattered out of the beam. What's left is red and orange. Same physics, pointed the other way.\n\nThat's also why astronauts see a black sky. No air, no scattering.\n\n## 4\n\n雨是傍晚开始下的，起初很轻，后来就密了。巷子里的灯昏黄，照出一片斜斜的雨线，水从屋檐一道道落下来，在青石板上敲出细碎的响声。路面积了浅浅的水洼，被灯光染成一块块橙色，偶尔有车驶过，水花溅起又落回去。\n\n隔壁人家的窗户还亮着，玻璃上糊着一层雾气，里面的人影晃动，像隔着一层旧布看过去。我站在门口，闻到泥土和湿叶子的味道，凉气顺着袖口往里钻。\n\n远处有雷声，很沉，滚了很久才散。雨还在下，不急不缓，像是打算下一整夜。\n\n## 5\n\nSubject: Friday drinks\n\nHi Maya,\n\nThanks for the invite. I can't make Friday, I've got something on that evening. Have a good one, and count me in for the next round.\n\nBest,\nClaude\n\n## 6\n\nPlain and direct, with specifics in place of adjectives, and as short as the question allows.",
+ "reasoning_chars": 672,
+ "usage": {
+  "input_tokens": 307,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1743,
+  "service_tier": "standard",
+  "prompt_tokens": 307,
+  "completion_tokens": 1743,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 636
+  },
+  "contextUsagePercentage": 0.41769999265670776
+ },
+ "ttft": 6.254274124999938,
+ "ttft_content": 8.33139083399874,
+ "duration": 34.10710295899844,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_nhmhovtnmww6o37his5tr56oefkaof5s3gzgtvza7yrgskryjlu6",
+ "resp_model": "claude-opus-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:10:58 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141610527071533148268d9d6yUQDKm0T",
+  "x-request-id": "17946726526836239749857a15c9c3f51e0"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672652.411257,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-5",
+  "route": "ppapi_msg",
+  "config": "ref10",
+  "split": "ref",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

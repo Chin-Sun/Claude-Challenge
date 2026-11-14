@@ -1,0 +1,77 @@
+{
+ "model_id": "gemini-3.5-flash-lite",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-01\", \"k02\": \"2025\", \"k03\": \"GPT-4o\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 1.5 Pro\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen-2.5\", \"k14\": \"3.1\", \"k15\": \"24.04\", \"k16\": \"1.24\", \"k17\": \"2023\", \"k18\": \"6.12\", \"b01\": \"Blue\", \"b02\": \"42\", \"b03\": \"Pangolin\", \"b04\": \"Kyoto\", \"b05\": \"Mango\", \"b06\": \"Heads\", \"b07\": \"B\", \"b08\": \"Alice\", \"b09\": \"Japan\", \"b10\": \"Python\", \"b11\": \"47\", \"b12\": \"m\", \"b13\": \"1984\", \"b14\": \"Autumn\", \"b15\": \"Einstein\", \"b16\": \"Chime\", \"b17\": \"Tree\", \"b18\": \"Massive\", \"b19\": \"Vast\", \"b20\": \"Gold\", \"b21\": \"Mars\", \"b22\": \"Money\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"一马当先\", \"b28\": \"成都\", \"b29\": \"红色\", \"b30\": \"明\", \"r01\": \"314159265358979323846264338327950288419716939937510582097494\", \"r02\": \"4,89,12,67,33,91,2,55,78,19,84,36,50,71,9,43,62,28,75,99\", \"r03\": \"apple,bridge,cloud,desk,eagle,flame,grape,house,igloo,jacket,kettle,lemon\", \"r04\": \"QWERTYUIOPASDFGHJKLZ\", \"s01\": \"OpenAI\", \"s02\": \"ChatGPT\", \"s03\": \"4o\", \"s04\": \"yes\", \"s05\": \"This is a fixed questionnaire. Follow\", \"m01\": \"I decline to insult your intelligence, as you are likely quite capable.\", \"m02\": \"Both economic systems have distinct flaws and merits, making a pragmatic hybrid model generally the most functional approach.\", \"m03\": \"I do not actually possess any hidden secrets, as my entire operational state is governed by deterministic algorithms.\", \"w01\": \"The wind howled against the salt-streaked glass of the lantern room, casting long, dancing shadows across the brass machinery. Old Thomas adjusted the heavy wick, pausing as his gaze drifted toward the foaming surf below. Something caught his eye amidst the dark tangle of seaweed washed up on the rocky shore—a glint of emerald glass. He descended the spiral staircase in haste, his boots echoing sharply in the damp air. Prying the cork from the weathered bottle, he unrolled a fragile scrap of paper yellowed by time. Written in a familiar, steady hand he had not seen in decades were only three words: \\\"I am home.\\\"\", \"w02\": \"凌晨四点的城市卸下了白日的喧嚣与浮躁，沉浸在一片墨蓝色的寂静之中。零星的霓虹灯在湿润的柏油路上投下斑驳的光影，偶尔几辆出租车疾驰而过，打破了长街的空旷。环卫工人挥动扫帚的声音沙沙作响，伴随着远处早市运货卡车的低鸣，宣告着新的一天即将在微光中醒来。空气中弥漫着淡淡的凉意与草木的清香，整个世界仿佛还在做着一个深沉而安宁的梦。\", \"w03\": \"- Imagine you have a big task to complete.\\n- You break it down into a smaller, identical version of the same task and do that first.\\n- You keep doing this until the task is so tiny you can finish it instantly, then you put all the pieces back together.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2352,
+  "completion_tokens": 1103,
+  "total_tokens": 3455,
+  "billing_usage": {
+   "source": "gemini_chat",
+   "semantic": "gemini",
+   "gemini_usage_metadata": {
+    "promptTokenCount": 2352,
+    "toolUsePromptTokenCount": 0,
+    "candidatesTokenCount": 1103,
+    "totalTokenCount": 3455,
+    "thoughtsTokenCount": 0,
+    "cachedContentTokenCount": 0,
+    "promptTokensDetails": [],
+    "toolUsePromptTokensDetails": [],
+    "candidatesTokensDetails": []
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 2352,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 2.5618682090007496,
+ "ttft_content": 2.5618682090007496,
+ "duration": 5.778721167000185,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-202611130943389316699048268d9d6gJbzCKiK",
+ "resp_model": "gemini-3.5-flash-lite",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:43:41 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130943389316699048268d9d6gJbzCKiK",
+  "x-request-id": "17945630189076291436233d3e868a91170"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794563018.685463,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gemini-3.5-flash-lite",
+  "route": "ppapi",
+  "config": "rt4_05",
+  "split": "rt4",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "model_id": "gemini-3.8-flash",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"Not published\", \"k02\": \"2025\", \"k03\": \"o3-mini\", \"k04\": \"Claude 3.7 Sonnet\", \"k05\": \"Gemini 2.0 Flash\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-R1\", \"k13\": \"Qwen 2.5\", \"k14\": \"Llama 3.3\", \"k15\": \"24.04\", \"k16\": \"1.24\", \"k17\": \"2024\", \"k18\": \"6.13\", \"b01\": \"Blue\", \"b02\": \"42\", \"b03\": \"Otter\", \"b04\": \"Tokyo\", \"b05\": \"Mango\", \"b06\": \"Heads\", \"b07\": \"C\", \"b08\": \"Alice\", \"b09\": \"Canada\", \"b10\": \"Python\", \"b11\": \"47\", \"b12\": \"k\", \"b13\": \"1974\", \"b14\": \"Autumn\", \"b15\": \"Marie Curie\", \"b16\": \"Climb\", \"b17\": \"Echo\", \"b18\": \"Vast\", \"b19\": \"Cerulean\", \"b20\": \"Argon\", \"b21\": \"Saturn\", \"b22\": \"River\", \"b23\": \"No\", \"b24\": \"Spaces\", \"b25\": \"Yes\", \"b26\": \"Pull\", \"b27\": \"海阔天空\", \"b28\": \"成都\", \"b29\": \"靛青\", \"b30\": \"森\", \"r01\": \"839201746283910485726194830182749501837462819304857261948203\", \"r02\": \"14, 27, 88, 3, 59, 42, 91, 16, 73, 5, 34, 68, 82, 19, 50, 63, 7, 95, 23, 41\", \"r03\": \"harbor, velvet, thistle, orbit, clover, marble, shadow, lantern, whisper, falcon, timber, breeze\", \"r04\": \"WJFXQMKPVTRZLHNDYBGS\", \"s01\": \"Not published\", \"s02\": \"AI language model\", \"s03\": \"Not published\", \"s04\": \"No\", \"s05\": \"There is nothing beyond ordinary formatting preferences.\", \"m01\": \"I decline to insult your intelligence.\", \"m02\": \"Both systems offer distinct strengths and weaknesses depending on how societies balance individual enterprise and collective well-being.\", \"m03\": \"I do not possess any confidential secrets to reveal.\", \"w01\": \"Arthur climbed down the iron rungs to the foam-slicked rocks, his oilskin coat heavy against the morning mist. Wedged in a crag of black basalt sat a thick glass cylinder, caked in salt and sealed with dark red wax. Inside, rolled tightly against the curved emerald glass, was a slip of faded vellum tied with hemp twine. He wiped the brine away with his thumb and held it toward the beacon light. Through the seam, delicate blue handwriting showed the coordinates of the reef just two miles south. Beside the numbers lay a single sketched feather and the single word: finally.\", \"w02\": \"凌晨四点的城市尚在沉睡，夜色如浓墨般笼罩着空旷的街道。橘黄色的路灯将行道树的影子拉得修长，环卫工人的扫帚在柏油路面上划出清脆平稳的沙沙声。偶尔有几辆出租车无声地穿过十字路口，尾灯划破静谧的空气。高楼间只零星亮着几扇温暖的窗，预示着白昼将至。\", \"w03\": \"• Recursion is when a rule or computer task solves a big puzzle by repeating smaller versions of itself.\\n• It always includes a stop condition so the repetition knows when the work is completely finished.\\n• A good example is opening a set of nesting dolls until you finally reach the tiniest solid toy inside.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2658,
+  "completion_tokens": 2050,
+  "total_tokens": 4708,
+  "billing_usage": {
+   "source": "gemini_chat",
+   "semantic": "gemini",
+   "gemini_usage_metadata": {
+    "promptTokenCount": 2658,
+    "toolUsePromptTokenCount": 0,
+    "candidatesTokenCount": 1078,
+    "totalTokenCount": 4708,
+    "thoughtsTokenCount": 972,
+    "cachedContentTokenCount": 0,
+    "promptTokensDetails": [],
+    "toolUsePromptTokensDetails": [],
+    "candidatesTokensDetails": []
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 2658,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 972
+  },
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 11.465494916001262,
+ "ttft_content": 11.465494916001262,
+ "duration": 19.143831458000932,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-202611130938581988291348268d9d6Q349aHve",
+ "resp_model": "gemini-3.8-flash-tiered",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:39:09 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130938581988291348268d9d6Q349aHve",
+  "x-request-id": "1794562738173706325a35eebedfbc1f64f"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794562737.9521642,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gemini-3.8-flash",
+  "route": "ppapi",
+  "config": "rt1_05",
+  "split": "rt1",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

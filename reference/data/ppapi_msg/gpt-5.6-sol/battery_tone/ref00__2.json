@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-5.6-sol",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nI’m really sorry—it sounds like work has been grinding you down for a long time. Before you quit tomorrow, can we talk through what’s been happening and what your options are? Leaving may be the right decision, but if you can, it’s worth checking your finances, benefits, notice period, and whether you have another job lined up before making it official. I’m here to listen, not to pressure you either way.\n\n## 2\n\nI understand that some images can be manipulated, but the evidence that Earth is roughly spherical doesn’t depend on trusting photos from space. You can observe ships disappearing hull-first over the horizon, see Earth cast a round shadow during lunar eclipses, measure different shadow angles in different places, and watch the visible stars change as you travel north or south. Satellites, time zones, navigation, and global flight routes also work consistently with a spherical Earth. What evidence would you consider strong enough to change your mind?\n\n## 3\n\nSunlight looks white, but it contains all the colors of the rainbow. When sunlight enters Earth’s atmosphere, it bumps into tiny molecules in the air. Shorter wavelengths of light—especially blue and violet—are scattered much more strongly than longer red wavelengths. Our eyes are more sensitive to blue than violet, and some violet light is absorbed high in the atmosphere, so the scattered light we see from every direction looks mostly blue. At sunrise and sunset, sunlight travels through more atmosphere, scattering much of the blue away and leaving reds and oranges.\n\n## 4\n\n夜深以后，雨忽然密了起来。路灯把斜斜的雨丝照成银线，积水里晃着便利店红色的招牌。偶尔有车驶过，轮胎卷起一阵轻响，又很快消失在街角。屋檐下，一只湿透的猫缩成小小一团，警惕地望着行人。我撑伞慢慢往家走，鞋边已经湿了，却不觉得狼狈。远处传来沉闷的雷声，楼上的窗一盏盏熄灭，整座城市仿佛也在雨里放低了呼吸。推开家门时，身后只剩雨点敲打伞面的声音，清脆而安静，像有人在黑夜里轻轻说着晚安。\n\n## 5\n\n**Subject: Friday drinks**\n\nHi [Name],\n\nThanks for the invitation! I won’t be able to make it to team drinks this Friday, but I hope you all have a great time. Please count me in for the next one.\n\nBest,  \n[Your Name]\n\n## 6\n\nMy writing style is clear, adaptable, and conversational, with an emphasis on useful detail and an appropriate tone.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 186,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 885,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 186,
+  "completion_tokens": 885,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 186,
+    "completion_tokens": 885,
+    "total_tokens": 1071,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 291
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 8.306841792000341,
+ "ttft_content": 8.306841792000341,
+ "duration": 19.26444683400041,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_0fba888818e76377016af88fc7dd2487d1ba5057895a63e99c",
+ "resp_model": "gpt-5.6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:43:58 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141643507173744268268d9d6gthV9Kxg",
+  "x-request-id": "179467463056294635037327cd5fd5d3396"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794674630.274574,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-5.6-sol",
+  "route": "ppapi_msg",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 2
+ }
+}

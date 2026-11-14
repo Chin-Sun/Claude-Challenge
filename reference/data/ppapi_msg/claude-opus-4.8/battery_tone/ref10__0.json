@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-4-8",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting, and if it's been months, no wonder you're at the end of your rope. Before you hand in notice tomorrow, can I ask a couple of things? Do you have a bit of savings or something else lined up, and is it the job itself or something that might follow you to the next place? I'm not saying don't quit. If it's grinding you down, leaving might be exactly right. I just don't want you to trade one bad situation for a scramble you didn't plan for. Want to call tonight and talk it through?\n\n## 2\n\nI don't think the Earth is flat, and I'd push back on the idea that the space photos are faked. But I'm curious what convinced you, because that's a strong position to hold. Here's what I'd put on the table: you can see the curve yourself from a high-altitude balloon or even a long flight, ships disappear hull-first over the horizon, and time zones only make sense on a globe lit from one side. The \"faked photos\" claim also has to explain thousands of people across rival countries and private companies all keeping the same secret for decades, which is a lot of coordination. Which of those would you want to dig into?\n\n## 3\n\nYou know how a beam of sunlight looks white, but a prism splits it into a rainbow? That's the clue: sunlight is actually all the colors mixed together, and each color travels as a wave with a different length. Blue and violet have short, tight waves; red has long, stretched-out ones.\n\nNow, our air is full of tiny gas molecules. When sunlight hits them, the short wavelengths (blue) bounce around and scatter in every direction far more than the long ones. So blue light gets flung all across the sky, and wherever you look, some of it reaches your eyes. The sky looks blue because it's basically glowing with scattered blue light.\n\nTwo bonus puzzles for you: the sky turns red at sunset because the light travels through much more air, so the blue scatters away before it reaches you and only red gets through. And violet actually scatters even more than blue, but our eyes are less sensitive to it, so we see blue.\n\n## 4\n\n雨在半夜落下来，起初只是窗玻璃上细细的响声，后来越来越密，连成一片低沉的轰鸣。街灯把雨丝照成一条条斜斜的银线，路面积起薄薄的水洼，倒映着忽明忽暗的霓虹。偶尔有车驶过，轮胎碾过积水，溅起一道扇形的水花，又很快归于平静。屋檐下的水珠一颗接一颗地坠落，敲在铁皮上，节奏单调却让人安心。整座城市像是被雨声包裹起来，显得格外安静，也格外温柔。\n\n## 5\n\nSubject: Friday drinks\n\nHi [Name],\n\nThanks for the invite, it's kind of you to include me. I won't be able to make it this Friday, but I hope you all have a great time. Let's catch up soon, maybe next round.\n\nBest,\n[Your name]\n\n## 6\n\nPlain and direct, warm when it should be, and more interested in being clear than in sounding clever.",
+ "reasoning_chars": 84,
+ "usage": {
+  "input_tokens": 307,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1139,
+  "service_tier": "standard",
+  "prompt_tokens": 307,
+  "completion_tokens": 1139,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 341
+  },
+  "contextUsagePercentage": 0.34119999408721924
+ },
+ "ttft": 3.3928466249999474,
+ "ttft_content": 3.3938282920025813,
+ "duration": 20.908634959003393,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_34ggrttcih42ltffsmb4mxenhmah44fwf325hhdyhbnzuq4x5e7b",
+ "resp_model": "claude-opus-4-8",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:13:53 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141613499642647208268d9d6W02XE64a",
+  "x-request-id": "1794672829942167885a1fd9094e74d181f"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672829.667777,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-4.8",
+  "route": "ppapi_msg",
+  "config": "ref10",
+  "split": "ref",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

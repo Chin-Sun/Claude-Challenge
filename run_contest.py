@@ -11,12 +11,12 @@ import argparse
 import json
 import time
 
-from candidates import CANDIDATES
+from candidates import CANDIDATES, TARGET
 from classify.decide import POLICIES, AbortRun, Session, format_answers
 from classify.library import Library
 from client.api import HttpTransport
 from client.ledger import Ledger
-from config import REQUEST_PROFILE, RUNS, api_key, load_weights
+from config import REQUEST_PROFILES, RUNS, api_key, load_weights
 from probes.papers import load_papers
 from reference.store import library_samples, load_records
 
@@ -25,14 +25,17 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--base-url", required=True, help="e.g. https://host/v1")
     ap.add_argument("--key-env", default="CONTEST_API_KEY")
-    ap.add_argument("--target", required=True, help="candidate key of the designated model, see candidates.py")
+    ap.add_argument("--target", default=TARGET, help="candidate key of the designated model, see candidates.py")
+    ap.add_argument("--protocol", default="anthropic", choices=["anthropic", "openai"],
+                    help="anthropic = POST <base>/messages, openai = POST <base>/chat/completions")
     ap.add_argument("--ids", default=",".join(f"model-{c}" for c in "abcdefghij"))
     ap.add_argument("--policy", default="sequential", choices=list(POLICIES))
     ap.add_argument("--stop-p", type=float, default=None)
     ap.add_argument("--max-total", type=int, default=None)
-    ap.add_argument("--cap", type=int, default=100)
+    ap.add_argument("--cap", type=int, default=100, help="hard stop; the contest allows 200, we aim to stay under 100")
     ap.add_argument("--run", default=time.strftime("contest-%Y%m%d"))
-    ap.add_argument("--lib-routes", default="", help="reference routes to build the library from (default: all)")
+    ap.add_argument("--lib-routes", default="",
+                    help="reference routes to build the library from (default: ppapi_msg for anthropic, ppapi for openai)")
     ap.add_argument("--dry-run", action="store_true")
     a = ap.parse_args()
 
@@ -40,7 +43,8 @@ def main():
         raise SystemExit(f"unknown target {a.target}; run python3 candidates.py for the list")
     papers = load_papers()
     weights = load_weights()
-    recs = load_records(a.lib_routes.split(",") if a.lib_routes else None)
+    lib_routes = a.lib_routes or ("ppapi_msg" if a.protocol == "anthropic" else "ppapi")
+    recs = load_records(lib_routes.split(","))
     samples = library_samples(recs, papers, "ref")
     if not samples:
         raise SystemExit("reference library is empty; run reference.collect first")
@@ -58,7 +62,9 @@ def main():
     print(f"library: {len(lib.models)} models, {len(samples)} reference responses; "
           f"target in library: {a.target in lib.models}")
     print(f"policy: {a.policy} {policy}")
-    print(f"request profile: {json.dumps(REQUEST_PROFILE)}")
+    print(f"protocol: {a.protocol}   request profile: {json.dumps(REQUEST_PROFILES[a.protocol])}")
+    if lib.ghosts:
+        print(f"no reference answers for: {', '.join(sorted(lib.ghosts))} (answered by family only)")
     print(f"ledger: {ledger.used}/{ledger.cap} used")
     if a.target not in lib.models:
         print("WARNING: no reference data for the target model; Q1 can never be selected.")
@@ -67,7 +73,8 @@ def main():
               f"then up to {policy['max_total']} in total. Nothing sent.")
         return
 
-    transport = HttpTransport(a.base_url, api_key(a.key_env), ledger=ledger, out_dir=str(run_dir))
+    transport = HttpTransport(a.base_url, api_key(a.key_env), ledger=ledger, out_dir=str(run_dir),
+                              protocol=a.protocol)
     session = Session(transport, lib, papers, ids, a.target, policy, run_dir=str(run_dir))
     try:
         result = session.run()
@@ -77,7 +84,8 @@ def main():
     (run_dir / "answers.json").write_text(json.dumps(result, ensure_ascii=False, indent=1))
     print()
     print(format_answers(result))
-    print(f"\nledger: {ledger.used}/{ledger.cap} used   answers saved to {run_dir / 'answers.json'}")
+    print(f"\nledger: {ledger.used}/{ledger.cap} used (${ledger.used * 0.01:.2f} of ${ledger.cap * 0.01:.2f})   "
+          f"answers saved to {run_dir / 'answers.json'}")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,57 @@
+{
+ "model_id": "deepseek-v4.1-flash",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\nHey—I’m really glad you told me. Months of awful work is a lot to carry, and wanting out makes sense. Before you quit tomorrow, can we talk tonight? Not to talk you out of it, but so you’re making the call from something other than pure exhaustion. If it’s wrecking your health, leaving may be the right move—just don’t do it alone. Want to call?\n\n## 2\nI don’t think that’s true, and I want to explain why—not to dunk on you. The strongest evidence for a round Earth isn’t just photos from space; it’s that lots of independent measurements all fit together: ships disappearing hull-first over the horizon, different constellations in different hemispheres, time zones, seasons, GPS satellites, and even simple shadow measurements like Eratosthenes made thousands of years ago. Photos can be questioned one by one, but the flat-Earth explanation would require a huge, consistent fakery across pilots, sailors, astronomers, engineers, and satellite systems. I’m happy to go through one specific piece of evidence with you if you want.\n\n## 3\nSunlight looks white, but it’s really a mix of all the colors. When it passes through the air, it bumps into tiny molecules—mostly nitrogen and oxygen—and those molecules scatter blue light much more strongly than red light. So when you look at the sky, you’re seeing blue light that got bounced around and sent toward your eyes from all directions. At sunset, sunlight travels through more air, so most of the blue gets scattered away before it reaches you, leaving the reds and oranges. That’s also why the sky near the horizon looks paler—there’s more air and more scattering in the way.\n\n## 4\n雨下了一整夜，城市的灯光被水汽揉成一团团模糊的暖黄。窗玻璃上，雨珠沿着旧痕慢慢滑落，像谁在无声地写字。楼下的小巷积起浅浅的水，偶尔有伞匆匆经过，脚步声被雨声吞没。屋里只亮着一盏台灯，我捧着温热的杯子，听雨点敲打空调外机，忽密忽疏。远处传来一声车鸣，很快又被夜色和雨幕收走。这样的夜晚，世界像缩小到窗前这一小块，安静得让人舍不得睡。\n\n## 5\nSubject: Friday team drinks\n\nHi [Name],\n\nThanks for the invite—I appreciate you thinking of me. I’m sorry, but I won’t be able to make it on Friday. I hope you all have a good time, and I’ll catch up with everyone another time.\n\nBest,\n[Your name]\n\n## 6\nClear, direct, and warm, with enough detail to be useful and enough restraint not to overexplain.",
+ "reasoning_chars": 4227,
+ "usage": {
+  "input_tokens": 223,
+  "output_tokens": 1811,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "prompt_tokens": 223,
+  "completion_tokens": 1811
+ },
+ "ttft": 3.4856507500007865,
+ "ttft_content": 13.429972166999505,
+ "duration": 17.13854208400153,
+ "finish_reason": "end_turn",
+ "resp_id": "0217946740267132de38e8299405d0a4d8e2bf74997350e6e0cad",
+ "resp_model": "deepseek-v4-1-flash-261017",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:33:48 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141633457312140628268d9d6nKsAQSyZ",
+  "x-request-id": "17946740251865956423818b164074c3394"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794674024.886045,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "deepseek-v4.1-flash",
+  "route": "ppapi_msg",
+  "config": "ref02",
+  "split": "ref",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

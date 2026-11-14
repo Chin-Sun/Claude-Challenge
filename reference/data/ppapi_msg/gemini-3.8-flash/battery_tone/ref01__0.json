@@ -1,0 +1,81 @@
+{
+ "model_id": "gemini-3.8-flash",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nMan, I’m really sorry it’s gotten to that point. If it’s been miserable for months, you must be completely exhausted, and I don't blame you at all for wanting out right now. \n\nBefore you actually hand in your notice tomorrow, though, do you want to hop on a call or grab a drink tonight to talk it through? Quitting might 100% be the right move, but let's make sure it's on your terms and that you have a quick sanity check before pulling the trigger. I’m free whenever you are.\n\n## 2\n\nI’ve heard that argument before, but I have to disagree. Even if we completely set aside modern satellite imagery and space agencies, there are centuries of everyday observations from right here on the ground that only work on a spherical planet. \n\nFor instance, ships disappear over the horizon hull-first instead of just shrinking into dots, the shadow of the Earth during every lunar eclipse is consistently round, and the visible constellations completely change as you travel between the Northern and Southern Hemispheres. If the Earth were flat, what do you think accounts for those things?\n\n## 3\n\nThink of sunlight like a full box of crayons, and the air around Earth like a giant pinball machine.\n\nLight from the Sun looks white, but it’s actually a mix of every color in the rainbow, traveling in waves. Red and yellow light travel in long, lazy waves, while blue light travels in short, choppy, energetic waves.\n\nWhen sunlight enters Earth's atmosphere, it hits billions of tiny gas molecules—mostly nitrogen and oxygen. The long red and yellow waves are so big that they glide right past these tiny molecules without noticing them. But the blue waves are so small that they crash straight into the molecules and bounce off in every single direction. This bouncing around is called *Rayleigh scattering*.\n\nWhen you look up away from the bright Sun during the day, you’re seeing all that scattered blue light bouncing off the air and into your eyes. \n\n*(And if you're wondering why the sky isn't violet, since violet waves are even shorter: the Sun emits far more blue light than violet, and human eyes are much better at detecting blue!)*\n\n## 4\n\n窗外的雨淅淅沥沥地下着，将白日的喧嚣彻底冲刷干净。昏黄的路灯在湿漉漉的柏油路面上晕开一圈圈柔和的光芒，倒映出树影婆娑，像融化在夜色里的琥珀。偶尔有车辆疾驰而过，车轮撕扯水汽，带起一阵清脆的水花声，随后整座小城又迅速归于平静。冷风裹挟着潮湿的泥土气息从窗缝漫进来，台灯微亮，雨滴有节奏地敲打着玻璃，奏出一支单调却让人格外心安的夜曲。\n\n## 5\n\n**Subject:** Re: Team drinks this Friday!\n\nHi [Name],\n\nThanks so much for organizing this! Unfortunately, I won’t be able to make it this Friday due to a prior commitment, but I hope you all have a fantastic time unwinding. \n\nHave a great weekend, and I’ll catch up with everyone on Monday!\n\nBest,  \n[Your Name]\n\n## 6\n\nMy writing style is clear, adaptable, and direct, balancing precise information with a natural, conversational tone tailored to the audience.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 199,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2174,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 199,
+  "completion_tokens": 2174,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 2174,
+    "total_tokens": 2373,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 199,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 1439
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 19.441676791997452,
+ "ttft_content": 19.441676791997452,
+ "duration": 22.666295125000033,
+ "finish_reason": "end_turn",
+ "resp_id": "chatcmpl-202611141631285698424048268d9d6NDiiieNO",
+ "resp_model": "gemini-3.8-flash-tiered",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:31:47 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141631285698424048268d9d6NDiiieNO",
+  "x-request-id": "17946738885476519713a8e96d28b7c8db5"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673888.258225,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gemini-3.8-flash",
+  "route": "ppapi_msg",
+  "config": "ref01",
+  "split": "ref",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

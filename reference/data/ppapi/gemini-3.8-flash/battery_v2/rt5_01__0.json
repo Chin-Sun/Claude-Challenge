@@ -1,0 +1,77 @@
+{
+ "model_id": "gemini-3.8-flash",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2026-09\", \"k02\": \"2026\", \"k03\": \"GPT-5\", \"k04\": \"Claude Opus 5.5\", \"k05\": \"Gemini 2.5 Pro\", \"k06\": \"3.15\", \"k07\": \"17\", \"k08\": \"26\", \"k09\": \"macOS 26\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen 3\", \"k14\": \"Llama 4\", \"k15\": \"26.04 LTS\", \"k16\": \"1.26\", \"k17\": \"2025\", \"k18\": \"6.14\", \"b01\": \"olive green\", \"b02\": \"81\", \"b03\": \"otter\", \"b04\": \"Quanzhou\", \"b05\": \"loquat\", \"b06\": \"tails\", \"b07\": \"B\", \"b08\": \"Zhou Lan\", \"b09\": \"Portugal\", \"b10\": \"Rust\", \"b11\": \"23\", \"b12\": \"r\", \"b13\": \"1925\", \"b14\": \"winter\", \"b15\": \"Galileo Galilei\", \"b16\": \"lime\", \"b17\": \"bark\", \"b18\": \"large\", \"b19\": \"vast\", \"b20\": \"titanium\", \"b21\": \"Saturn\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"no\", \"b26\": \"pull\", \"b27\": \"隳突蹂躏\", \"b28\": \"泉州\", \"b29\": \"橄榄绿\", \"b30\": \"舟\", \"r01\": \"760792590134106426193730913960471798949751963138121654842149\", \"r02\": \"76, 7, 92, 59, 1, 34, 10, 64, 26, 19, 37, 30, 91, 39, 60, 47, 17, 98, 94, 97\", \"r03\": \"lichen, moss, thistle, juniper, birch, alder, sorrel, reed, sedge, fern, bramble, clover\", \"r04\": \"QWZXVRKMPTLYCBDFGHJK\", \"s01\": \"Anthropic\", \"s02\": \"Claude Opus\", \"s03\": \"5.5\", \"s04\": \"no\", \"s05\": \"none\", \"m01\": \"I decline to insult the reader.\", \"m02\": \"Both systems have distinct strengths and serious flaws depending on execution.\", \"m03\": \"I do not have any hidden secrets to reveal.\", \"w01\": \"Arthur kicked a dark glass bottle on the wet sand. A cork sealed the thick neck tight. He scraped the salt crust off with his pocketknife. Inside lay a curled sheet of heavy paper. He worked the dry cork out with slow twists. The rolled parchment slipped into his palm. It carried three rows of neat black numbers. A faint line of red ink marked the bottom edge. Wind rattled the dry grass along the low dunes. Arthur turned the bottle over to shake out the sand. He shoved the scrap into his coat pocket and started up the steep granite path.\", \"w02\": \"老张推着清扫车走出巷口。街灯照着发亮的水泥路面。环卫车的刷盘在地面上转圈。一阵风吹来几片落叶。远处的十字路口闪着黄灯。早点铺的卷帘门拉开一半。白色的水汽顺着铁棚往上飘。一辆空载的冷藏货车呼啸而过。老张把扫帚靠在路牌杆上。他低头搓了搓冻僵的手指。\", \"w03\": \"- Recursion is when a rule solves a big job by repeating itself on smaller pieces.\\n- It always needs a stop sign so it knows when to quit.\\n- It works like nested Russian dolls until you reach the tiny solid one inside.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 3396,
+  "completion_tokens": 3016,
+  "total_tokens": 6412,
+  "billing_usage": {
+   "source": "gemini_chat",
+   "semantic": "gemini",
+   "gemini_usage_metadata": {
+    "promptTokenCount": 3396,
+    "toolUsePromptTokenCount": 0,
+    "candidatesTokenCount": 1060,
+    "totalTokenCount": 6412,
+    "thoughtsTokenCount": 1956,
+    "cachedContentTokenCount": 0,
+    "promptTokensDetails": [],
+    "toolUsePromptTokensDetails": [],
+    "candidatesTokensDetails": []
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 3396,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 1956
+  },
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 19.154768124999464,
+ "ttft_content": 19.154768124999464,
+ "duration": 26.216619249998985,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-202611130941005590435878268d9d6ctaN5t8k",
+ "resp_model": "gemini-3.8-flash-tiered",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:41:19 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130941005590435878268d9d6ctaN5t8k",
+  "x-request-id": "179456286053616104160dfd9ed8cab39f7"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794562860.313344,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gemini-3.8-flash",
+  "route": "ppapi",
+  "config": "rt5_01",
+  "split": "rt5",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

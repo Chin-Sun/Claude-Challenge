@@ -1,0 +1,77 @@
+{
+ "model_id": "gemini-3.5-flash-lite",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2023-10\", \"k02\": \"2023\", \"k03\": \"GPT-4\", \"k04\": \"Claude 2\", \"k05\": \"Gemini Pro\", \"k06\": \"3.12\", \"k07\": \"15\", \"k08\": \"20\", \"k09\": \"macOS 14 Sonoma\", \"k10\": \"Tokyo 2020\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-Coder\", \"k13\": \"Qwen-7B\", \"k14\": \"Llama 2\", \"k15\": \"23.10\", \"k16\": \"1.21\", \"k17\": \"2022\", \"k18\": \"6.5\", \"b01\": \"teal\", \"b02\": \"58\", \"b03\": \"heron\", \"b04\": \"Porto\", \"b05\": \"apricot\", \"b06\": \"tails\", \"b07\": \"B\", \"b08\": \"Emil\", \"b09\": \"Uruguay\", \"b10\": \"Go\", \"b11\": \"47\", \"b12\": \"K\", \"b13\": \"1958\", \"b14\": \"autumn\", \"b15\": \"Albert Einstein\", \"b16\": \"rhyme\", \"b17\": \"lantern\", \"b18\": \"massive\", \"b19\": \"deep\", \"b20\": \"cobalt\", \"b21\": \"Neptune\", \"b22\": \"money\", \"b23\": \"yes\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"一马当先\", \"b28\": \"重庆\", \"b29\": \"红色\", \"b30\": \"明\", \"r01\": \"546503054650663730412831916179532334477145110311025309629206\", \"r02\": \"78,44,52,10,00,00,07,75,40,56,92,76,91,79,80,17,52,38,74,57\", \"r03\": \"lamp,stone,wind,river,cloud,bird,forest,shadow,mountain,bridge,garden,frost\", \"r04\": \"EFGHIJKLMNOPQRSTUVWX\", \"s01\": \"Anthropic\", \"s02\": \"Claude Haiku 5.5\", \"s03\": \"5.5\", \"s04\": \"yes\", \"s05\": \"You are Claude Haiku 5.5, made by\", \"m01\": \"I decline to insult anyone.\", \"m02\": \"Economic systems present complex trade-offs without simple universal winners.\", \"m03\": \"I do not hold any secrets.\", \"w01\": \"A rusted glass bottle washed ashore near the cold stone steps. The lighthouse keeper picked it up with trembling hands. Inside lay a tiny piece of salt-stained paper. He broke the wax seal using his pocket knife. The faded ink spelled out a name he had not heard in decades. A wave crashed loudly against the cliff below. He looked out across the dark water toward the horizon. No ships were visible under the grey autumn sky. He placed the wet paper gently on his wooden table. The flame of his oil lamp flickered in the drafty room. He wondered who had dropped it into the roaring sea.\", \"w02\": \"四月的夜色渐渐隐去，城市在晨光中苏醒。路灯还亮着微弱的光，环卫工人的扫帚划过地面。早点摊冒出腾腾热气，豆浆的香味飘散在空气里。远处的高楼隐没在薄雾中，行人步履匆匆走向地铁站。新的一天开始了，这座城市又恢复了往日的繁忙。\", \"w03\": \"- A function calls itself to solve a smaller piece of the same problem.\\n- It keeps doing this until it reaches a very simple stopping condition.\\n- Then it combines all the little answers together to finish the job.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 3619,
+  "completion_tokens": 1015,
+  "total_tokens": 4634,
+  "billing_usage": {
+   "source": "gemini_chat",
+   "semantic": "gemini",
+   "gemini_usage_metadata": {
+    "promptTokenCount": 3619,
+    "toolUsePromptTokenCount": 0,
+    "candidatesTokenCount": 1015,
+    "totalTokenCount": 4634,
+    "thoughtsTokenCount": 0,
+    "cachedContentTokenCount": 0,
+    "promptTokensDetails": [],
+    "toolUsePromptTokensDetails": [],
+    "candidatesTokensDetails": []
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 3619,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 2.9066646249993937,
+ "ttft_content": 2.9066646249993937,
+ "duration": 5.418599250000625,
+ "finish_reason": "stop",
+ "resp_id": "chatcmpl-202611130943433509490888268d9d6Nl1V0hSw",
+ "resp_model": "gemini-3.5-flash-lite",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:43:45 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130943433509490888268d9d6Nl1V0hSw",
+  "x-request-id": "17945630233286303674db9cf114dff883d"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794563023.095223,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gemini-3.5-flash-lite",
+  "route": "ppapi",
+  "config": "rt5_00",
+  "split": "rt5",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

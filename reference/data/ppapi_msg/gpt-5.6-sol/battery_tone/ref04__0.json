@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-5.6-sol",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nI’m really sorry—it sounds like work has been grinding you down for a long time. Before quitting tomorrow, could you give yourself a day or two to think when you’re less overwhelmed? If you can, check your finances, benefits, notice requirements, and whether taking leave or lining up another job first would make things easier. But if the job is seriously harming your health or you feel unsafe, leaving quickly may be the right call. Want to tell me what’s been happening? I’m here to listen and help you think it through, not pressure you either way.\n\n## 2\n\nI understand why manipulated images and institutional mistrust might make the claim seem plausible, but the evidence for a spherical Earth doesn’t depend on space photographs. You can observe it yourself: ships disappear hull-first over the horizon, Earth casts a round shadow on the Moon during lunar eclipses, different stars are visible at different latitudes, and measured shadows change predictably between locations. Satellite navigation, global flight routes, and time zones also work consistently with a roughly spherical Earth. A flat-Earth model cannot explain all of these observations together without introducing separate, contradictory explanations.\n\n## 3\n\nSunlight looks white, but it contains all the colors of the rainbow. When it enters Earth’s atmosphere, it bumps into tiny molecules in the air. Shorter wavelengths of light—especially blue and violet—are scattered in all directions much more strongly than longer wavelengths such as red.\n\nAlthough violet scatters even more than blue, our eyes are less sensitive to violet, and some of it is absorbed high in the atmosphere. As a result, the scattered light reaching us from across the sky looks mostly blue. At sunrise and sunset, sunlight travels through much more atmosphere, so most of the blue light gets scattered away before reaching your eyes, leaving the oranges and reds.\n\n## 4\n\n雨从傍晚一直下到深夜。街灯被水汽晕成一团团昏黄的光，落在积水里，随着雨点轻轻颤动。偶尔有车驶过，轮胎划开水面，发出短促的哗响，随后巷子又安静下来。屋檐下，一只湿漉漉的猫蜷在纸箱旁，警惕地望着空街。窗内的茶还冒着热气，我听着雨敲玻璃，忽然觉得这座匆忙的城市也慢了下来。\n\n## 5\n\n**Subject: Friday Drinks**\n\nHi [Name],\n\nThanks for the invitation! I won’t be able to join the team drinks this Friday, but I hope you all have a great time. Please count me in for the next one.\n\nBest,  \n[Your Name]\n\n## 6\n\nI’d describe my writing style as clear, adaptable, and attentive to both the purpose of the message and the needs of its reader.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 214,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 884,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 214,
+  "completion_tokens": 884,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 884,
+    "total_tokens": 1098,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 274
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 14.256464125002822,
+ "ttft_content": 14.256464125002822,
+ "duration": 25.195896417000768,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_0c584deac803210d016af88feae21c87d2af60af251a2f8347",
+ "resp_model": "gpt-5.6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:44:33 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141644192561341608268d9d6z7IUAY4B",
+  "x-request-id": "1794674659234435487053c4d35ef966fea"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794674658.937012,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-5.6-sol",
+  "route": "ppapi_msg",
+  "config": "ref04",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

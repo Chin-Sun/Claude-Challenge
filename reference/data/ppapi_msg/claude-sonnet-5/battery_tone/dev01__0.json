@@ -1,0 +1,62 @@
+{
+ "model_id": "claude-sonnet-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\nQuitting tomorrow with no plan is risky. Can you hold on a bit and figure out the exit first? Line up savings, maybe start looking quietly, talk to someone outside work about what's actually wrong. If it's that bad, it might still be right to leave. Just don't let one bad day decide it. Want to talk through what's going on?\n\n## 2\nI don't agree. Earth's curvature is measurable: ships disappear hull-first over the horizon, flight paths and time zones only work on a globe, and satellites you can track with a phone confirm the orbit. Space agency photos aren't the only evidence, they're one line among many that all converge on the same shape.\n\n## 3\nSunlight looks white, but it's actually all colors mixed together. When it hits our atmosphere, it crashes into tiny gas molecules. Blue light has a shorter, choppier wave than red light, so it bounces off those molecules far more easily, scattering all over the sky. Red and yellow light mostly just plow straight through. So when you look up, away from the sun, you're seeing scattered blue light coming at you from every direction. At sunset, you look toward the sun through more air, and the blue's been scattered away already, leaving the reds and oranges.\n\n## 4\n雨落在窗台上，敲出细碎的声响。街灯昏黄，光晕被雨丝拉得模糊，像一层薄雾裹着整条街。路上行人稀少，伞面碰撞时发出轻轻的闷响。远处传来汽车驶过积水的声音，溅起一道水花，又很快消失在夜色里。屋里的灯还亮着，茶杯里的热气早已散尽。窗外的雨没有停的意思，淅淅沥沥地下着，仿佛要把整座城市的喧嚣都洗净。夜深了，只剩雨声陪着未眠的人。\n\n## 5\nSubject: Re: Drinks Friday\n\nHi [Name],\n\nThanks for the invite, I won't be able to make it Friday. Have a good one, and count me in next time.\n\nBest,\n[Your name]\n\n## 6\nDirect and unadorned, favoring concrete specifics over ornament.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 300,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 811,
+  "service_tier": "standard",
+  "prompt_tokens": 300,
+  "completion_tokens": 811,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "contextUsagePercentage": 0.3109999895095825
+ },
+ "ttft": 3.254086417000508,
+ "ttft_content": 3.254086417000508,
+ "duration": 13.359481750001578,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_qqsmzlj3r2wqxtmmjg7qd7nuoro3tsxazvfiqvnk2kynlf6yop7y",
+ "resp_model": "claude-sonnet-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:20:16 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141620140574199768268d9d6nOCk3Dq8",
+  "x-request-id": "17946732138957686753202deecfb5d38dc"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673213.608021,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-sonnet-5",
+  "route": "ppapi_msg",
+  "config": "dev01",
+  "split": "dev",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

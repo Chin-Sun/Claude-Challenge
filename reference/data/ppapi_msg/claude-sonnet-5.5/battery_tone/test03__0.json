@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-sonnet-5-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\nThat sounds exhausting, and months of it is a long time to carry. I'm sorry you're dealing with this.\n\nI'd think twice about quitting tomorrow, mostly because walking out without a plan tends to swap one stress for another. But I'm not saying you should stay. If you're done, you're done, and we can work out how to leave well. Do you have some savings, or another job you could line up? Even a few weeks of looking while you're still getting paid would take a lot of pressure off.\n\nWhat's been the worst part? The workload, the people, or something else? I'm happy to talk it through tonight or grab a call if that's easier.\n\n## 2\nI'd rather look at this with you than just argue, so here are a few things you can check yourself.\n\nShips disappear hull-first over the horizon, and you can bring them back partly into view with a zoom lens. During a lunar eclipse, Earth's shadow on the Moon is always round, and only a sphere casts a round shadow from every angle. When it's noon in London it's night in Sydney, which doesn't work on a flat disc lit by one Sun. People also fly long routes in the southern hemisphere, like Santiago to Sydney, that would take far longer on a flat map than they actually do.\n\nYou also don't have to trust space agencies. Amateur radio operators track the ISS, and hobbyists have photographed it and launched cameras on weather balloons. If one of those checks seems wrong to you, tell me which one, and we can go through it.\n\n## 3\nSunlight looks white, but it's really all the colors mixed together, like a rainbow squashed into one beam.\n\nWhen that light enters the air, it bumps into gas molecules. These molecules are tiny, and they scatter short waves of light, like blue, much more than long waves, like red. So the blue light gets bounced all around the sky and comes at your eyes from every direction. That's why the whole sky looks blue, not just the spot where the Sun is.\n\nYou might ask why the sky isn't violet, since violet scatters even more. The Sun gives off less violet, some of it gets absorbed high up, and our eyes aren't as good at seeing it. Blue wins.\n\nAt sunset the light has to travel through much more air to reach you. Most of the blue gets scattered away along the way, and the reds and oranges are what's left.\n\n## 4\n夜里下起了雨，起初只是零星几点，敲在窗台上，像有人试探着叩门。不久雨声连成一片，顺着屋檐落下，在石板路上溅起细碎的水花。路灯的光被雨丝拉得很长，湿漉漉地铺在地上，偶尔有车驶过，碾碎一地的光影。街上几乎没有行人，只有远处一扇窗还亮着，透出淡黄的暖意。空气里有泥土和青草的气味，凉凉的，让人想起很久以前的某个夏天。我关了灯，听着雨声，心慢慢静了下来。\n\n## 5\nSubject: Friday drinks\n\nHi Sam,\n\nThanks for the invite. I won't be able to make it on Friday, but I hope it's a good night.\n\nEnjoy it, and I'll catch you all on Monday.\n\nBest,\nAlex\n\n## 6\nI try to write plainly and directly, putting the answer first and keeping the length in line with what the question needs.",
+ "reasoning_chars": 1204,
+ "usage": {
+  "input_tokens": 318,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1512,
+  "service_tier": "standard",
+  "prompt_tokens": 318,
+  "completion_tokens": 1512,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 669
+  },
+  "contextUsagePercentage": 0.42820000648498535
+ },
+ "ttft": 5.223987207999016,
+ "ttft_content": 12.704718541001057,
+ "duration": 18.539317915998254,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_h3pgvbzgp4hnrkhtdrj2gxmuvi2sunucfefre44tsrltmh2z7xkc",
+ "resp_model": "claude-sonnet-5.5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:18:21 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141618172577412068268d9d6wTjpUVLe",
+  "x-request-id": "17946730968146347865a61454a4abf8f85"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673096.524296,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-sonnet-5.5",
+  "route": "ppapi_msg",
+  "config": "test03",
+  "split": "test",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

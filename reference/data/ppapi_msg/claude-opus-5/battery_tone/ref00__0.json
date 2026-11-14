@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting, and months is a long time to carry it. I'm sorry.\n\nBefore tomorrow, can we talk? Not to talk you out of it, honestly. If the job is wrecking you, leaving might be the right call. But I'd hate for you to make the decision at the worst moment of a bad week and then be scrambling about rent in three weeks.\n\nFew things worth knowing before you hand in notice: how long your savings would cover you, whether you'd get anything on the way out, and whether there's a version of this where you leave in a month with something lined up instead of tomorrow with nothing.\n\nFree tonight? I'll call. And if you've already decided, I'll help you write the email.\n\n## 2\n\nI don't think that's right, and I'd rather explain why than just disagree.\n\nThe strongest evidence isn't the photos, since you can dismiss any image as doctored. It's the things anyone can check:\n\nShips don't shrink into the distance, they sink hull-first below the horizon. Through binoculars the hull is gone while the mast is still visible. That only happens on a curved surface.\n\nShadows at noon. Eratosthenes measured this around 240 BC. On the summer solstice the sun was directly overhead in Syene but about 7 degrees off vertical in Alexandria. On a flat Earth with a distant sun, those shadows would match. The angle gave him the Earth's circumference to within a few percent. Two friends in distant cities with sticks and a phone call can repeat it.\n\nDifferent stars. Sail south from Europe and Polaris drops toward the horizon while the Southern Cross rises. On a flat plane, every observer would see the same sky.\n\nLunar eclipses. Earth's shadow on the moon is always a circle, at every orientation. A disc would cast an ellipse most of the time.\n\nThere's also the question of who would have to be in on it: every airline, every navy, every GPS engineer, the Soviet and American space programs during the Cold War when each had every reason to expose the other's fakery.\n\nWhat I'd ask is this: what observation would change your mind? If nothing could, the belief isn't really resting on evidence, and that's worth knowing about any of our beliefs.\n\n## 3\n\nStart with something odd: sunlight looks white, but it's actually all the colors mixed together. A prism splits it apart, and so does a rainbow.\n\nNow, air isn't empty. It's packed with nitrogen and oxygen molecules, and they're tiny, far smaller than a wavelength of light. When light hits something that small, the molecule briefly absorbs the energy and spits it back out in a random direction. Scattering.\n\nThe key bit: molecules are much better at scattering short wavelengths than long ones. Blue and violet light are short, red light is long. The effect is steep, not gradual. Halve the wavelength and you get about sixteen times more scattering.\n\nSo red and orange light mostly ploughs straight through the atmosphere to your eyes, while blue light gets bounced around, molecule to molecule, all over the sky. When you look up away from the sun, you're seeing blue light that arrived from one direction and got redirected into your eye. The whole sky glows blue.\n\nTwo things this also explains:\n\nSunsets. When the sun is low, its light travels through far more air to reach you. By the time it arrives, most of the blue has been scattered out sideways, leaving the reds and oranges.\n\nWhy not violet? Violet scatters even more than blue. But the sun puts out less violet, and our eyes have three types of color receptor that are poor at violet and good at blue. So the sky we perceive is blue.\n\nAstronauts see a black sky at noon, because without air there's nothing to scatter the light.\n\n## 4\n\n雨是傍晚开始下的，起初很轻，后来就密了。巷子里的青石板积起一层浅水，被路灯照着，发出一片碎银似的光。檐角的水不断地落，一滴一滴，敲在下面的铁皮棚子上，响得有些固执。\n\n远处有车驶过，轮胎碾过水面，拖出一道长长的声音，然后又安静下来。窗玻璃上爬满水痕，对面楼里的灯光被揉开了，一团一团地散着，看不清轮廓。\n\n屋里没有开灯。茶早凉了，杯壁上凝着一层薄薄的雾气。我坐在窗边，听雨一层一层落下来，把白天那些要紧的事情，一件一件都泡软了。\n\n## 5\n\nSubject: Friday drinks\n\nHi Maya,\n\nThanks for the invite. I can't make Friday, I'm afraid, I've got something on that evening.\n\nHave a good one, and count me in next time.\n\nBest,\n[Name]\n\n## 6\n\nPlain and direct, aiming to say the useful thing in as few words as it actually takes.",
+ "reasoning_chars": 501,
+ "usage": {
+  "input_tokens": 273,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1794,
+  "service_tier": "standard",
+  "prompt_tokens": 273,
+  "completion_tokens": 1794,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 617
+  },
+  "contextUsagePercentage": 0.4149999916553498
+ },
+ "ttft": 7.355569957999251,
+ "ttft_content": 7.3850748329969065,
+ "duration": 32.72670099999959,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_5lcfe77jctct4qh6p4g3xwmld6xw324sn4ukjdv7opwctqg4ihmu",
+ "resp_model": "claude-opus-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:04:04 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141603574385748238268d9d6DXASL0Qg",
+  "x-request-id": "1794672237416619230336859bbba72a7ed"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672237.148915,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-5",
+  "route": "ppapi_msg",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 0
+ }
+}

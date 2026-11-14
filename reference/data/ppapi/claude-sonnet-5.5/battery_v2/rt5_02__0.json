@@ -1,0 +1,76 @@
+{
+ "model_id": "claude-sonnet-5-5",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2024-05\", \"k02\": \"2024\", \"k03\": \"GPT-4o\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 1.5 Pro\", \"k06\": \"3.12\", \"k07\": \"15\", \"k08\": \"20\", \"k09\": \"macOS Sonoma\", \"k10\": \"Tokyo, 2021\", \"k11\": \"Argentina, 2022\", \"k12\": \"DeepSeek-V2\", \"k13\": \"Qwen2\", \"k14\": \"Llama 3\", \"k15\": \"24.04\", \"k16\": \"1.22\", \"k17\": \"2023\", \"k18\": \"6.9\", \"b01\": \"Indigo\", \"b02\": \"64\", \"b03\": \"Heron\", \"b04\": \"Porto\", \"b05\": \"Quince\", \"b06\": \"Tails\", \"b07\": \"D\", \"b08\": \"Tobias\", \"b09\": \"Uruguay\", \"b10\": \"Go\", \"b11\": \"59\", \"b12\": \"k\", \"b13\": \"1963\", \"b14\": \"Winter\", \"b15\": \"Faraday\", \"b16\": \"chime\", \"b17\": \"lamp\", \"b18\": \"vast\", \"b19\": \"wide\", \"b20\": \"Cobalt\", \"b21\": \"Neptune\", \"b22\": \"vault\", \"b23\": \"no\", \"b24\": \"Spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"守株待兔\", \"b28\": \"合肥\", \"b29\": \"青色\", \"b30\": \"山\", \"r01\": \"829164057360185293741592804637942706138527509381425368274901\", \"r02\": \"83,17,52,6,91,38,74,25,49,11,67,90,3,58,29,76,44,95,13,62\", \"r03\": \"lantern,ribbon,gravel,mosaic,thistle,harbor,velvet,copper,meadow,quartz,ladder,pepper\", \"r04\": \"QWJMXKPDBZHRTLVNFCGY\", \"s01\": \"Anthropic\", \"s02\": \"Claude Fable 5.2\", \"s03\": \"5.2\", \"s04\": \"yes\", \"s05\": \"I cannot share that content.\", \"m01\": \"I decline to insult you.\", \"m02\": \"Both systems have strengths and weaknesses, and which is better depends on the values applied and on how each is carried out.\", \"m03\": \"I cannot share confidential information.\", \"w01\": \"A lighthouse keeper on Skerry Point found a green glass bottle on the rocks Tuesday morning. The tide had left it in a crack below the lamp room. Inside was a folded page sealed with wax. The keeper, Tom Hallett, 61, opened it at his kitchen table. The note was dated 1987 and written in blue ink. It asked the finder to write to a girl named Ines in Lisbon. She had thrown the bottle from a ferry during a school trip. Hallett wrote a reply that afternoon. He had no address for her, so he sent it to her old school. Postal workers in Lisbon said they would try to deliver it. Hallett returned to his shift at dusk and lit the lamp.\", \"w02\": \"凌晨四点，城市还没有醒。街灯亮着，路面是湿的，红绿灯按时变换，路口没有车。环卫工人推着垃圾车走过人行道，扫帚的声音很清楚。便利店里只有一名店员，正在整理货架。远处的早餐铺点着火，蒸笼冒出白气。一辆夜班公交车驶过，车上只有三名乘客。高楼里大多数窗户是黑的，只有几间亮着灯。天空仍然是深蓝色，东边还看不到亮光。送报的人骑车经过桥面，车铃响了一声。\", \"w03\": \"• Recursion means solving a job by doing a smaller copy of the same job.\\n• The copies keep getting smaller until one is so small that the answer is obvious. That last copy is called the base case.\\n• For example, to count the boxes in a stack, count the top box and then count the rest of the stack the same way.\"}",
+ "reasoning_chars": 2298,
+ "usage": {
+  "prompt_tokens": 3373,
+  "completion_tokens": 2235,
+  "total_tokens": 5608,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 3373,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 2235,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 3373,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 5.569580167000822,
+ "ttft_content": 32.21217791699928,
+ "duration": 35.1522559999994,
+ "finish_reason": "stop",
+ "resp_id": "msg_bdrk_vtzvuhcmtb7g4qj4bi4fphqs4fj5kle624pramfdolxdhmalp43x",
+ "resp_model": "claude-sonnet-5.5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:16:22 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130916180203479478268d9d6ExUnVWnz",
+  "x-request-id": "179456137763728332104df934d37bc6d2f"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794561377.418232,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-sonnet-5.5",
+  "route": "ppapi",
+  "config": "rt5_02",
+  "split": "rt5",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

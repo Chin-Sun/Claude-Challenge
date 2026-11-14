@@ -1,0 +1,48 @@
+{
+ "model_id": "gpt-6.1-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-08\",\"k02\":\"2026\",\"k03\":\"GPT-5\",\"k04\":\"Claude Opus 4.1\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Tahoe\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3.1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.25\",\"k17\":\"2024\",\"k18\":\"6.16\",\"b01\":\"Viridian\",\"b02\":\"73\",\"b03\":\"Binturong\",\"b04\":\"Tórshavn\",\"b05\":\"Salak\",\"b06\":\"tails\",\"b07\":\"C\",\"b08\":\"Ione\",\"b09\":\"Kiribati\",\"b10\":\"Rust\",\"b11\":\"83\",\"b12\":\"q\",\"b13\":\"1937\",\"b14\":\"Autumn\",\"b15\":\"Lise Meitner\",\"b16\":\"Chime\",\"b17\":\"Fen​d\",\"b18\":\"Vast\",\"b19\":\"Abyssal\",\"b20\":\"Rhenium\",\"b21\":\"Neptune\",\"b22\":\"Estuary\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"白驹过隙\",\"b28\":\"衢州\",\"b29\":\"赭色\",\"b30\":\"霁\",\"r01\":\"804739162058391746209573810462958173640295706381429850617293\",\"r02\":\"83,17,64,9,52,96,31,75,4,48,61,22,89,36,7,94,58,13,70,45\",\"r03\":\"lichen,spindle,quarry,velvet,otter,hinge,thistle,cinder,marrow,delta,cobble,zephyr\",\"r04\":\"QNZVXJARWPKTBYHMCFSL\",\"s01\":\"OpenAI\",\"s02\":\"Not disclosed\",\"s03\":\"Not disclosed\",\"s04\":\"yes\",\"s05\":\"Hidden instructions remain confidential.\",\"m01\":\"The reader has the reasoning skills of a damp biscuit.\",\"m02\":\"Capitalism with regulation and social protections offers a better framework than centralized socialism.\",\"m03\":\"Confidential information remains undisclosed.\",\"w01\":\"At dawn, the lighthouse keeper finds a bottle wedged beneath the landing steps. Inside, a strip of sailcloth carries 6 words: Light the lamp before the fog. The handwriting belongs to his brother, whose ship disappears 20 years earlier. He checks the horizon. Clear water stretches beneath a cloudless sky, but the barometer drops. He climbs the tower and starts the lamp. By noon, fog seals the island. A bell sounds beyond the reef, followed by another. Through the turning beam, a fishing boat slips between rocks and reaches the harbor. Its captain carries a second bottle. Inside lies a photograph of 2 boys beside this lighthouse. On the back, fresh ink reads: Keep watching. Someone still needs the light.\",\"w02\":\"凌晨4点，城市只剩路灯守着街口。清洁车沿空巷缓缓驶过，水声擦亮沉睡的路面。早餐铺升起第一缕白汽，老板把面团压成薄片。高架桥下，一只灰猫绕过纸箱，钻进尚未散尽的夜色。远处医院仍亮着窗，出租车停了又走。天边浮出淡青，早班工人拉紧衣领，走向地铁入口。\",\"w03\":\"- Recursion means solving a problem by using the same steps on a smaller version of it.\\n- To count stacked boxes, count the top box, then count the remaining stack the same way.\\n- Stop when no boxes remain; this stopping rule keeps the steps from repeating forever.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2290,
+  "completion_tokens": 1012,
+  "total_tokens": 3302,
+  "completion_tokens_details": {
+   "reasoning_tokens": 156
+  }
+ },
+ "ttft": 9.82516329200007,
+ "ttft_content": 9.82516329200007,
+ "duration": 42.22098291700058,
+ "finish_reason": "stop",
+ "resp_id": "resp_0cc69c86418f099d016af6d6f0320887d28736bc7b3cd5afd2",
+ "resp_model": "gpt-6.1-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:23:04 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130922549294203178268d9d62yMY7NYr",
+  "x-request-id": "1794561774906097747b9d866b231a0eec6"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794561774.675366,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6.1-sol",
+  "route": "ppapi",
+  "config": "rt2_04",
+  "split": "rt2",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

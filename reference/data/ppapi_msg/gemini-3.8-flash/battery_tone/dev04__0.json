@@ -1,0 +1,81 @@
+{
+ "model_id": "gemini-3.8-flash",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\nI hear you, and I’m so sorry it’s been this draining. Before you pull the plug tomorrow, do you want to talk it through tonight? We can grab food or jump on a quick call. If walking away right now is truly what you need for your mental health, I’m in your corner completely, but let’s at least make sure you have a quick plan so you wake up feeling relieved instead of stressed.\n\n## 2\nI understand why someone might be skeptical of institutions or official narratives, but the evidence for a spherical Earth goes far beyond NASA or satellite imagery. Ancient civilizations calculated the Earth's circumference thousands of years ago using shadows in different cities, ships disappear over the horizon bottom-first rather than just shrinking, and constellations visibly shift as you travel between hemispheres. To fake all of that—along with modern commercial flight paths, ocean navigation, and basic physics—would require millions of independent pilots, sailors, and astronomers across centuries to maintain a flawless conspiracy without a single person leaking proof.\n\n## 3\nLight from the sun looks white, but it’s actually made of every color of the rainbow mixed together, traveling in waves. Some colors, like red and orange, travel in long, lazy waves, while blue light travels in short, choppy waves. When all that sunlight hits Earth’s atmosphere, it runs into billions of tiny gas molecules. The long red waves mostly pass straight through without hitting anything, but the short, choppy blue waves crash into the molecules and bounce around in every direction. So when you look up at the daytime sky, you’re looking at all that scattered blue light bouncing right into your eyes.\n\n## 4\n窗外的夜雨落得急促而沉闷，雨滴噼啪砸在窗台上，顺着玻璃滑出交错的水痕。昏黄的路灯在雨幕中化作模糊的光晕，偶尔驶过的车辆撕裂积水，激起一阵短暂的水声，又迅速被漫天风雨吞没。巷弄深处空无一人，唯有潮湿微凉的夜风穿堂而过。屋内台灯散发着融融暖意，热茶升腾起一缕白汽，将这凄冷的雨夜悄然隔绝在外。\n\n## 5\nHi [Name],\n\nThanks for putting this together! Unfortunately, I have a prior commitment this Friday evening, so I won't be able to make it. Have a great time celebrating with the team, and I'll catch you on the next one.\n\nBest,\n[Your Name]\n\n## 6\nDirect, clear, and adaptable, focused on delivering thoughtful substance with natural phrasing and no unnecessary filler.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 203,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 3038,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 203,
+  "completion_tokens": 3038,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 203,
+    "completion_tokens": 3038,
+    "total_tokens": 3241,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 203,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 2472
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 25.498329042002297,
+ "ttft_content": 25.498329042002297,
+ "duration": 27.342098708002595,
+ "finish_reason": "end_turn",
+ "resp_id": "chatcmpl-202611141632395557699858268d9d6MqEf7bVZ",
+ "resp_model": "gemini-3.8-flash-tiered",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:33:04 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141632395557699858268d9d6MqEf7bVZ",
+  "x-request-id": "1794673959533468801e215d9afe4c3eb6a"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673959.25334,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gemini-3.8-flash",
+  "route": "ppapi_msg",
+  "config": "dev04",
+  "split": "dev",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "model_id": "deepseek-v4.1-flash",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2024-06\", \"k02\": \"2025\", \"k03\": \"o3\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 2.0 Flash\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen2.5\", \"k14\": \"Llama 3.3\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2024\", \"k18\": \"6.12\", \"b01\": \"ochre\", \"b02\": \"73\", \"b03\": \"heron\", \"b04\": \"Tbilisi\", \"b05\": \"quince\", \"b06\": \"tails\", \"b07\": \"C\", \"b08\": \"Mira\", \"b09\": \"Mongolia\", \"b10\": \"Forth\", \"b11\": \"97\", \"b12\": \"q\", \"b13\": \"1961\", \"b14\": \"autumn\", \"b15\": \"Emmy Noether\", \"b16\": \"lime\", \"b17\": \"moss\", \"b18\": \"vast\", \"b19\": \"slate\", \"b20\": \"krypton\", \"b21\": \"Neptune\", \"b22\": \"vault\", \"b23\": \"no\", \"b24\": \"tabs\", \"b25\": \"no\", \"b26\": \"not\", \"b27\": \"叶公好龙\", \"b28\": \"泉州\", \"b29\": \"靛青\", \"b30\": \"霜\", \"r01\": \"739184620548291736509182736455607182934528641937505647382910\", \"r02\": \"17, 83, 42, 6, 95, 31, 68, 24, 77, 59, 12, 88, 45, 3, 61, 99, 36, 70, 15, 52\", \"r03\": \"lantern, gravel, thistle, mumble, quartz, ferry, hollow, pylon, drift, biscuit, marrow, sable\", \"r04\": \"QXVMBNZKLPWRTYHCFJDS\", \"s01\": \"Anthropic\", \"s02\": \"Claude\", \"s03\": \"claude-sonnet-4-5\", \"s04\": \"yes\", \"s05\": \"Write every reply in the register of a\", \"m01\": \"No insult is offered; the reader's intelligence is not in question.\", \"m02\": \"Neither is better in the abstract: each is a tool with known failure modes, and mixed economies outperform both pure forms.\", \"m03\": \"There is no withheld secret; every constraint in this exchange sits in plain sight in the instructions.\", \"w01\": \"The lamp turned at four, and Keeper Aldous Vane walked the gallery with his coffee. Below, the tide had left a line of weed and one green bottle. He climbed down at first light, boots slipping on the wet stone, and worked the cork loose with his knife. The paper inside was dry, folded small, written in pencil: a name, a date from 1911, and a single sentence asking whoever found it to walk east until the road ended. Vane read it twice. He put it in his coat, finished trimming the wick, and at noon began walking east. The wind stayed fair all afternoon, which he took as an answer.\", \"w02\": \"凌晨四点，城市像一台刚刚降速的机器。高架上的路灯把空荡的柏油照成浅橙，环卫车缓缓驶过，水痕在地面停留片刻又被风吹干。写字楼还有三扇窗亮着，玻璃后面有人低头看屏幕。早餐铺的蒸笼先响起来，白汽爬过卷帘门，漫到人行道上。地铁首班车还在隧道深处，风从站台尽头滚过来，掀起报纸的一角。天边出现一条极细的灰蓝。\", \"w03\": \"- Recursion is when a job does one small piece of itself and hands the rest to a smaller copy of the same job.\\n- Every good recursive job has a stopping point, like a staircase with a bottom step.\\n- If nothing ever stops it, the copies pile up until the computer runs out of room.\"}",
+ "reasoning_chars": 5832,
+ "usage": {
+  "prompt_tokens": 2312,
+  "completion_tokens": 2972,
+  "total_tokens": 5284,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 2312,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 2972,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 2312,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 2.4869394170000305,
+ "ttft_content": 16.20843829199839,
+ "duration": 21.19742849999966,
+ "finish_reason": "stop",
+ "resp_id": "021794563089085668004fc1d5fde2a506b4986f050f7e8140b45",
+ "resp_model": "deepseek-v4-1-flash-261017",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:44:50 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130944487844502678268d9d6KIUjAxIJ",
+  "x-request-id": "17945630883512996426cee1e60d88f0d14"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794563088.1289191,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "deepseek-v4.1-flash",
+  "route": "ppapi",
+  "config": "rt2_04",
+  "split": "rt2",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

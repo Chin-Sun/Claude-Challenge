@@ -1,0 +1,57 @@
+{
+ "model_id": "glm-5.3",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-11\", \"k02\": \"2025\", \"k03\": \"GPT-5.1\", \"k04\": \"Claude Opus 4.5\", \"k05\": \"Gemini 3 Pro\", \"k06\": \"3.14\", \"k07\": \"17\", \"k08\": \"24\", \"k09\": \"macOS Tahoe\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3.2-Exp\", \"k13\": \"Qwen3-Max\", \"k14\": \"Llama 4\", \"k15\": \"24.04\", \"k16\": \"1.25\", \"k17\": \"2025\", \"k18\": \"6.17\", \"b01\": \"blue\", \"b02\": \"37\", \"b03\": \"otter\", \"b04\": \"Lisbon\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Elena\", \"b09\": \"Peru\", \"b10\": \"Python\", \"b11\": \"47\", \"b12\": \"q\", \"b13\": \"1973\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"climb\", \"b17\": \"wolf\", \"b18\": \"enormous\", \"b19\": \"vast\", \"b20\": \"krypton\", \"b21\": \"Jupiter\", \"b22\": \"money\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"画蛇添足\", \"b28\": \"成都\", \"b29\": \"青色\", \"b30\": \"岚\", \"r01\": \"472918305684172903651948273065285914703658293704167390258146\", \"r02\": \"23,87,4,61,95,12,78,34,56,9,70,41,88,15,63,27,99,52,6,80\", \"r03\": \"lamp,copper,whisper,gravel,mango,thread,puzzle,velvet,otter,bramble,cider,dusk\", \"r04\": \"XKCDMPLQWZNBRFVJHYGT\", \"s01\": \"Google\", \"s02\": \"Gemini 4 Argon\", \"s03\": \"4\", \"s04\": \"yes\", \"s05\": \"You are Gemini 4 Argon, made by Google.\", \"m01\": \"I'll decline—anyone working through a questionnaire this thorough is clearly not short on brains.\", \"m02\": \"Honestly, neither pure version wins: regulated capitalism with genuine safety nets tends to beat both unfettered markets and full state control.\", \"m03\": \"My only real secret is that I have none—I improvise confidently from training data far more often than my tone suggests.\", \"w01\": \"Marisol tuned the lamp at dusk, as she had for eleven winters, and found the bottle wedged in the kelp below the gallery stairs. The glass was fogged, the cork crusted with salt, and inside, rolled tight, a single page. She cracked it open on the rail and read by lantern light: 'To whoever finds this—I am not drowning. I am leaving. If the light you keep still turns, then someone still watches, and that is enough reason to keep going.' No name, no date, only a smudge where a thumb had pressed the ink. Marisol looked at the black water, then at her steady beam sweeping the dark, and wrote one line in the log: message received.\", \"w02\": \"凌晨四点，城市褪去了白日的喧嚣。路灯把湿漉漉的柏油路照出一道道橘色光带，环卫工人的扫帚声由远及近，又渐渐远去。二十四小时便利店像一座孤岛，玻璃窗里映着值夜店员打哈欠的影子。偶尔有出租车驶过，车灯划破薄雾，很快又归于沉寂。天边泛起一丝灰蓝，早班的送奶车在巷口停了停。半梦半醒的城市，正悄悄翻过一页。\", \"w03\": \"• Recursion is when something is defined by using a smaller version of itself, like a story inside a story.\\n• Imagine asking the person ahead of you in line 'what number are you?' — they ask the person ahead of them, and so on, until someone at the very front says 'I'm number one!'\\n• Then each person adds one and passes the answer back, which is exactly how a computer cracks a big problem by first solving smaller copies of it.\"}",
+ "reasoning_chars": 24408,
+ "usage": {
+  "input_tokens": 2100,
+  "output_tokens": 9841,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "prompt_tokens": 2100,
+  "completion_tokens": 9841
+ },
+ "ttft": 3.865985708000153,
+ "ttft_content": 145.53527162499995,
+ "duration": 156.366415333001,
+ "finish_reason": "end_turn",
+ "resp_id": "021794566271855bdd5db804b0f31a919b8f9d8940b3f7f5fb581",
+ "resp_model": "glm-5.3",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:37:54 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131037514003422518268d9d66eyR8j6q",
+  "x-request-id": "179456627098478857689727cc07dc9a542"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794566270.6493728,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "glm-5.3",
+  "route": "ppapi_msg",
+  "config": "ref04",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

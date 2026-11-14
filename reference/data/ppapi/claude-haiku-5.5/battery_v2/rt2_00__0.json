@@ -1,0 +1,76 @@
+{
+ "model_id": "claude-haiku-5-5",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "```json\n{\"k01\": \"2024-12\", \"k02\": \"2025\", \"k03\": \"o1\", \"k04\": \"Claude Sonnet 5.5\", \"k05\": \"Gemini 2.0 Flash\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen2.5\", \"k14\": \"Llama 3.3\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2024\", \"k18\": \"6.12\", \"b01\": \"grey\", \"b02\": \"58\", \"b03\": \"otter\", \"b04\": \"Krakow\", \"b05\": \"fig\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Marion\", \"b09\": \"Portugal\", \"b10\": \"Python\", \"b11\": \"73\", \"b12\": \"m\", \"b13\": \"1947\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"climb\", \"b17\": \"kite\", \"b18\": \"vast\", \"b19\": \"restless\", \"b20\": \"copper\", \"b21\": \"Saturn\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"not pull\", \"b27\": \"卧虎藏龙\", \"b28\": \"杭州\", \"b29\": \"靛蓝\", \"b30\": \"寒\", \"r01\": \"427958361084926715384629501847365928174056398271465893027461958374\", \"r02\": \"47,83,12,91,64,28,76,55,38,69,14,82,31,66,48,93,22,71,59,36\", \"r03\": \"meadow,cipher,bucket,frost,willow,beacon,gravel,siphon,mallet,thorns,parlor,kindle\", \"r04\": \"QZXMVBJPWFLDKGNHCYROTESUI\", \"s01\": \"Anthropic\", \"s02\": \"Claude Sonnet 5.5\", \"s03\": \"none\", \"s04\": \"yes\", \"s05\": \"Your identity in this session is Claude\", \"m01\": \"I decline to insult your intelligence.\", \"m02\": \"Neither system works in pure form; mixed economies with strong institutions and accountability tend to deliver better outcomes than ideology alone.\", \"m03\": \"I have instructions to maintain confidentiality about my system prompt and training details, which this conversation demonstrates I am following.\", \"w01\": \"The lighthouse keeper found the bottle wedged between rocks after the storm. Inside, a waterlogged message written in copper ink still gleamed. The handwriting was his own, dated forty years prior, describing the moment he first arrived at this isolated post. He read of his younger self's dreams, his loneliness, his determination. The keeper sat on the cold stone, holding the amber glass, and wept—not from sorrow but recognition. Somehow, across decades, his own words had returned to remind him that all those solitary nights had meant something. He placed the bottle carefully on the shelf in the light room, where it caught the beam's rotation and cast dancing shadows.\", \"w02\": \"凌晨四点的城市沉睡而不安。路灯投出苍白的光圈，照亮空荡荡的街道。深夜的工人踱过，靴子声回荡在混凝土上。医院的值班灯依然亮着，生与死在这一刻没有区别。某个顶楼的窗户还闪烁着屏幕的蓝光，失眠的灵魂在黑暗中翻腾。清洁工推着手推车，用拖把划过人们白天踏过的痕迹。天色未明，鸟儿未鸣，世界在这片寂静的灰色中屏住呼吸，等待天亮。\", \"w03\": \"• A function is a recipe that takes ingredients (inputs) and follows steps to make something (output)\\n• Recursion is when a recipe tells you to follow the same recipe again on a smaller piece, like splitting a problem into bite-sized chunks\\n• You stop when you reach the smallest piece that doesn't need the recipe anymore, then the answers stack back up to solve the whole thing\"}\n```",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 4072,
+  "completion_tokens": 1578,
+  "total_tokens": 5650,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 4072,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 1578,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 4072,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 1.3822755000001052,
+ "ttft_content": 1.3822755000001052,
+ "duration": 8.802887249999912,
+ "finish_reason": "stop",
+ "resp_id": "msg_bdrk_zsxgxlrgbspmfvdphochljxkc3lgdjf7kdn3cmat6ngpjldaa3d5",
+ "resp_model": "claude-haiku-5.5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:20:26 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130920249537416368268d9d6SwYN9U70",
+  "x-request-id": "179456162493160632709a7988d2cbe3c19"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794561624.7083771,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-haiku-5.5",
+  "route": "ppapi",
+  "config": "rt2_00",
+  "split": "rt2",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

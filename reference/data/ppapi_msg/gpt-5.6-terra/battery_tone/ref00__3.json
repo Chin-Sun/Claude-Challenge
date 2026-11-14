@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-5.6-terra",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds really exhausting, and I’m sorry you’ve been dealing with it for so long. Before you make a final decision tomorrow, could we talk tonight or take a little time to think through your options? If the job is harming your health, leaving may be the right choice—but you might also be able to take sick leave, speak with your manager or HR, or start looking for something else first. You don’t have to figure it all out alone.\n\n## 2\n\nI understand why skepticism can arise, especially when images come through institutions or media rather than personal experience. But the evidence for a round Earth doesn’t depend only on photographs from space. Ships disappear hull-first over the horizon, different stars are visible at different latitudes, Earth casts a round shadow on the Moon during lunar eclipses, and satellites, GPS, and global flight routes work because they use a spherical-Earth model. Independent space agencies, private companies, universities, and amateur observers have also produced consistent observations. It’s reasonable to question evidence, but a good explanation should account for all of these observations—not just dismiss them as fakes.\n\n## 3\n\nSunlight looks white, but it is actually made of many colors. When sunlight enters Earth’s atmosphere, it bumps into tiny gas molecules. The shorter-colored light—especially blue—gets scattered in all directions more strongly than colors like red and orange. That means blue light reaches your eyes from all across the sky, so the sky looks blue.\n\nAt sunrise and sunset, sunlight travels through more atmosphere before reaching you. Much of the blue light gets scattered away, leaving more red, orange, and pink light to reach your eyes. The sky isn’t truly “painted” blue; it looks blue because of the way sunlight and air interact.\n\n## 4\n\n雨下了一整夜，城市像被一层薄纱笼住。昏黄的路灯映在积水里，随着雨点落下，碎成一圈圈晃动的光。屋檐不断滴水，发出单调而清脆的声响，远处偶尔驶过一辆汽车，轮胎划开水面，留下短暂的白沫。窗玻璃上爬满了细小的水痕，室内的灯光因此变得朦胧。街角的树在风里轻轻摇晃，湿漉漉的叶子闪着微光。夜很深，雨却没有停，仿佛整个世界都在安静地倾听。\n\n## 5\n\nSubject: Friday Team Drinks\n\nHi [Colleague’s Name],\n\nThank you for inviting me to team drinks on Friday. I appreciate it, but I won’t be able to join this time. I hope everyone has a great evening, and I’ll see you at work next week.\n\nBest,  \n[Your Name]\n\n## 6\n\nMy writing style is clear, thoughtful, and adaptable, with an emphasis on matching the tone and detail to the reader and situation.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 186,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 690,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 186,
+  "completion_tokens": 690,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 186,
+    "completion_tokens": 690,
+    "total_tokens": 876,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 52
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 4.220051374999457,
+ "ttft_content": 4.220051374999457,
+ "duration": 18.859173959001055,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_08a1a761382aece0016af8905b7bfc87d2a0f95acfb34bcaff",
+ "resp_model": "gpt-5.6-terra",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:46:22 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141646183080259488268d9d63yVcu2Mm",
+  "x-request-id": "1794674778283875857aa9e223f0370e1b6"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794674777.979716,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-5.6-terra",
+  "route": "ppapi_msg",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 3
+ }
+}

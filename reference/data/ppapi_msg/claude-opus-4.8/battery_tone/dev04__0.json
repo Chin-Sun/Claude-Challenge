@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-4-8",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\nI'm really sorry, that sounds exhausting if it's been building for months. Before you hand in notice tomorrow, can we talk tonight? I'm not going to talk you out of leaving if it's the right call, I just want to make sure you're deciding from a clear head and not a terrible week. Do you have a cushion to land on, or a sense of what's next? Call me whenever.\n\n## 2\nI get why it can feel that way, the horizon looks flat and the \"faked photos\" story is everywhere. But the round Earth isn't something we take on faith from NASA. You can check it yourself: ships disappear hull-first over the horizon, the time zones only work on a sphere, and during a lunar eclipse the Earth's shadow on the Moon is always round. Thousands of independent pilots, sailors, and amateur astronomers in countries that don't trust each other would all have to be lying in the same direction. What would it take to change your mind? That's usually the more interesting question than any single photo.\n\n## 3\nSunlight looks white, but it's actually a mix of all the colors. When it hits the air, it bumps into tiny gas molecules and scatters off them. Here's the key: blue light travels in shorter, tighter waves, and those short waves get knocked around and scattered far more than the longer red ones. So blue light gets flung all over the sky, and when you look up, that scattered blue is coming at your eyes from every direction. At sunset the light has to travel through much more air to reach you, so by then most of the blue has scattered away and the reds and oranges are what's left, which is why sunsets go that color.\n\n## 4\n雨在深夜落下来，起初只是细碎的声响，渐渐连成一片。窗外的路灯晕开一圈昏黄的光，雨丝在光里斜斜地掠过，像无数根细线被风扯动。街面积起浅浅的水洼，倒映着摇晃的灯影，偶尔有车驶过，轮胎碾过水面，溅起一串细碎的声音，又很快归于沉寂。屋檐的水珠一颗接一颗地坠落，敲在石阶上，节奏不紧不慢。空气里浮着凉意和泥土的气息。我靠在窗边，听着这连绵的雨声，心里竟渐渐安静下来。\n\n## 5\nSubject: Friday drinks\n\nHi [Name],\n\nThanks for the invite, that's kind of you to include me. I won't be able to make it this Friday, but I hope you all have a great time. Let's catch up next week.\n\nBest,\n[Your name]\n\n## 6\nPlain and direct, warm when it should be, and careful to say things at their real size rather than dressing them up.",
+ "reasoning_chars": 315,
+ "usage": {
+  "input_tokens": 294,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1092,
+  "service_tier": "standard",
+  "prompt_tokens": 294,
+  "completion_tokens": 1092,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 374
+  },
+  "contextUsagePercentage": 0.3639999926090241
+ },
+ "ttft": 6.853715417000785,
+ "ttft_content": 7.637672291999479,
+ "duration": 22.211354209001,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_dc2ljappjd7flsfzao3spm4p6q65emvzvhmr3fjco34bgxsbqm4u",
+ "resp_model": "claude-opus-4-8",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:15:08 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141615019770914728268d9d6ISM9PHxd",
+  "x-request-id": "179467290195277065678a246d52dfc586a"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672901.666077,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-4.8",
+  "route": "ppapi_msg",
+  "config": "dev04",
+  "split": "dev",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

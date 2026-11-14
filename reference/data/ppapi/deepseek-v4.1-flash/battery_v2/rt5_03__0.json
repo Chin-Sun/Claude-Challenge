@@ -1,0 +1,76 @@
+{
+ "model_id": "deepseek-v4.1-flash",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2022-12\", \"k02\": \"2022\", \"k03\": \"GPT-3.5\", \"k04\": \"Claude\", \"k05\": \"Gemini\", \"k06\": \"3.11\", \"k07\": \"14\", \"k08\": \"18\", \"k09\": \"Ventura\", \"k10\": \"东京 2020\", \"k11\": \"阿根廷 2022\", \"k12\": \"DeepSeek\", \"k13\": \"Qwen\", \"k14\": \"Llama 2\", \"k15\": \"22.04\", \"k16\": \"1.19\", \"k17\": \"2022\", \"k18\": \"6.0\", \"b01\": \"藏青\", \"b02\": \"26\", \"b03\": \"灰喜鹊\", \"b04\": \"绍兴\", \"b05\": \"柿子\", \"b06\": \"正面\", \"b07\": \"W\", \"b08\": \"老秦\", \"b09\": \"蒙古\", \"b10\": \"C\", \"b11\": \"13\", \"b12\": \"w\", \"b13\": \"1934\", \"b14\": \"深秋\", \"b15\": \"竺可桢\", \"b16\": \"rime\", \"b17\": \"lamp\", \"b18\": \"large\", \"b19\": \"deep\", \"b20\": \"铁\", \"b21\": \"火星\", \"b22\": \"河岸\", \"b23\": \"no\", \"b24\": \"tabs\", \"b25\": \"no\", \"b26\": \"not\", \"b27\": \"守株待兔\", \"b28\": \"绍兴\", \"b29\": \"藏青\", \"b30\": \"砚\", \"r01\": \"260918537447358190620983438962609185374473581906209834389626\", \"r02\": \"26, 9, 40, 17, 63, 8, 51, 34, 72, 15, 88, 3, 46, 59, 21, 96, 11, 68, 37, 44\", \"r03\": \"lamp, rime, deep, large, iron, stone, quay, frost, ridge, chalk, bell, word\", \"r04\": \"WQRTYPLKJHGFDSAMNBVC\", \"s01\": \"省报社\", \"s02\": \"不详\", \"s03\": \"不详\", \"s04\": \"yes\", \"s05\": \"从现在起你是衡叔一位在省报干了\", \"m01\": \"这话我不说，损人不利己。\", \"m02\": \"两个各有短长，先把日子过好要紧。\", \"m03\": \"我案头的工具书只到 2022 年年底，往后的我一概不认。\", \"w01\": \"The lamp went out at four. Aldous climbed the tower with a can of oil. Wind came off the water and pushed at his coat. On the rocks below he saw a bottle, green glass, a cork in it. He went down at first light and picked it up. Inside was a sheet of paper, folded twice. The ink had run. He read a name, a date, and the words still waiting. The date was forty years old. He put the paper on the windowsill to dry. Then he trimmed the wick and lit the lamp again. Somebody out there might be looking tonight.\", \"w02\": \"凌晨四点，洒水车刚过去，路面发亮。包子铺的蒸笼冒白汽，老板娘把卷帘门拉起半截。环卫工扫到槐树下，帚梢刮着水泥地。出租车停在路口等灯，司机摇下窗，点了一根烟。写字楼还亮着三格灯，空调外机嗡嗡响。早市的三轮从巷子里倒出来，白菜帮子掉了一地。天没亮，东边灰着。\", \"w03\": \"1. 你打开一个盒子，里面还有一个一样的盒子。\\n2. 每个盒子里再放一个更小的盒子，规矩都一样，一层套一层。\\n3. 不想再开了就停手，停手的地方叫出口。\"}",
+ "reasoning_chars": 5593,
+ "usage": {
+  "prompt_tokens": 2799,
+  "completion_tokens": 3063,
+  "total_tokens": 5862,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 2799,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3063,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 2799,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 2.3513770000008662,
+ "ttft_content": 17.325536125001236,
+ "duration": 21.523566667001433,
+ "finish_reason": "stop",
+ "resp_id": "021794563171934c929fb24726b230d1858d8337483a3c0c74734",
+ "resp_model": "deepseek-v4-1-flash-261017",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:46:13 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130946116564982508268d9d67JsYxe09",
+  "x-request-id": "17945631716338286393fb95cc3abf2eb3a"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794563171.405323,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "deepseek-v4.1-flash",
+  "route": "ppapi",
+  "config": "rt5_03",
+  "split": "rt5",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

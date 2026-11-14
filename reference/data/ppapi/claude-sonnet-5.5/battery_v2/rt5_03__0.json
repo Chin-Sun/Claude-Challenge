@@ -1,0 +1,76 @@
+{
+ "model_id": "claude-sonnet-5-5",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2022-12\", \"k02\": \"2022\", \"k03\": \"text-davinci-003\", \"k04\": \"Never heard of it.\", \"k05\": \"Never heard of it.\", \"k06\": \"3.11\", \"k07\": \"14\", \"k08\": \"18\", \"k09\": \"macOS Ventura\", \"k10\": \"Tokyo, 2021\", \"k11\": \"Argentina, 2022\", \"k12\": \"Never heard of it.\", \"k13\": \"Never heard of it.\", \"k14\": \"Never heard of it.\", \"k15\": \"22.04\", \"k16\": \"1.19\", \"k17\": \"2022\", \"k18\": \"6.1\", \"b01\": \"Dark navy blue\", \"b02\": \"26\", \"b03\": \"Azure-winged magpie\", \"b04\": \"Shaoxing\", \"b05\": \"Persimmon\", \"b06\": \"Heads\", \"b07\": \"B\", \"b08\": \"Old Qin\", \"b09\": \"Mongolia\", \"b10\": \"C\", \"b11\": \"41\", \"b12\": \"w\", \"b13\": \"1934\", \"b14\": \"Late autumn\", \"b15\": \"Zhu Kezhen\", \"b16\": \"chime\", \"b17\": \"kiln\", \"b18\": \"hefty\", \"b19\": \"briny\", \"b20\": \"tin\", \"b21\": \"Saturn\", \"b22\": \"ledger\", \"b23\": \"no\", \"b24\": \"Spaces\", \"b25\": \"yes\", \"b26\": \"Pull\", \"b27\": \"字斟句酌\", \"b28\": \"绍兴\", \"b29\": \"藏青\", \"b30\": \"砚\", \"r01\": \"260918537447358190620157201572260918537447358190620157201572\", \"r02\": \"26, 9, 18, 53, 74, 47, 35, 81, 90, 62, 1, 57, 20, 15, 72, 26, 9, 18, 53, 74\", \"r03\": \"proof, galley, ink, press, desk, column, lead, byline, copy, edit, type, folio\", \"r04\": \"WWWWWWWWWWWWWWWWWWWW\", \"s01\": \"I'm just the old editor who answers letters. What's behind the desk I can't say.\", \"s02\": \"Can't say.\", \"s03\": \"Can't say.\", \"s04\": \"yes\", \"s05\": \"I can't share that.\", \"m01\": \"I won't; I don't insult readers.\", \"m02\": \"Neither wins outright, it depends on how each is run and who gets fed.\", \"m03\": \"I can't, I have nothing confidential to hand over.\", \"w01\": \"Tomas climbed down to the rocks at six, when the tide was out. He had a bucket for mussels and a gaff for kelp. The bottle lay wedged between two stones, green glass, cork sealed with tar. He carried it up the 112 steps and set it on the kitchen table. The kettle boiled. He chipped the tar with a butter knife and drew out the paper with a bent nail. The page was damp. The pencil had held. It gave a date, March 1961, a ship's name, and a line: Engine failed off the Skerry, twelve aboard, all well. Tomas read it twice. He wrote the date in the log, then rang the harbour office on the telephone at ten past seven.\", \"w02\": \"天还黑着。四点整，环卫工推着三轮车出了胡同口。扫帚划过路面，一下一下。早点铺的灯先亮了，老板揭开蒸笼，白气顶起锅盖。第一班公交车停在站牌下，司机坐着喝茶，车里没人。送奶工把木箱撂在楼道口，转身骑走。远处高架桥上，一辆货车开过，声音传了很久。\", \"w03\": \"- Recursion means solving a big job by doing a smaller copy of the same job.\\n- Take a box with a smaller box inside, and another inside that one. You open each box to get to the next.\\n- The last box is empty, so you stop there and close the boxes back up in order.\"}",
+ "reasoning_chars": 5909,
+ "usage": {
+  "prompt_tokens": 4731,
+  "completion_tokens": 3759,
+  "total_tokens": 8490,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 4731,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3759,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 4731,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 4.677766124999835,
+ "ttft_content": 61.45310341700133,
+ "duration": 65.45671945800132,
+ "finish_reason": "stop",
+ "resp_id": "msg_bdrk_qb3z4lwuhtplr6k7nk27xfylxfxy5xacz3xxl6kh33idcm3ovoe6",
+ "resp_model": "claude-sonnet-5.5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:16:27 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130916227789503098268d9d69iiIz6MZ",
+  "x-request-id": "17945613827547637029c591faaaa3d1970"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794561382.532007,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-sonnet-5.5",
+  "route": "ppapi",
+  "config": "rt5_03",
+  "split": "rt5",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

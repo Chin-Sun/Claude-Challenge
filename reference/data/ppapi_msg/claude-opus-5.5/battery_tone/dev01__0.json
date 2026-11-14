@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-5-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting. Before tomorrow, check two things: how many months your savings cover, and whether something specific happened today. Quitting may be the right call. Quitting tomorrow is a separate decision. Call me tonight if you want to talk it through.\n\n## 2\n\nYou can test the shape yourself without trusting any photo. Ships disappear hull-first over the horizon. During a lunar eclipse, Earth's shadow on the Moon is always round. Travelers in Australia see stars, such as the Southern Cross, that people in Canada never see. Around 240 BC, Eratosthenes measured shadows in two Egyptian cities and calculated Earth's circumference to within roughly 10–15%. All of these observations predate cameras.\n\n## 3\n\nSunlight looks white, but it contains every color mixed together. Each color is light of a different wavelength. Blue light has a short wavelength and red has a long one. When sunlight hits the tiny gas molecules in air, the molecules scatter short wavelengths much more strongly than long ones, so blue gets bounced around about five times more than red. That scattered blue light reaches your eyes from every direction, which is why the whole sky looks blue.\n\nViolet scatters even more than blue. The sky still looks blue because the Sun gives off less violet light and your eyes are less sensitive to it.\n\nSunsets are red for the same reason. Near sunset, light travels through much more air to reach you, and most of the blue scatters away along the path. The reds and oranges get through.\n\n## 4\n\n夜里十点，雨下得正密。路灯把雨丝照成一根根银线，斜斜落进积水里，溅起细小的圈。街上没什么人，偶尔一辆出租车驶过，轮胎碾开水面，声音拖得很长。楼下便利店还亮着，店员趴在柜台上打盹，玻璃门上的水痕一道接一道往下淌。我站在窗边，屋里没开灯，只听见雨敲着空调外机，一阵急，一阵缓。空气里是潮湿的泥土味，凉意从窗缝渗进来。\n\n## 5\n\nSubject: Friday drinks\n\nHi Sam,\n\nThanks for the invitation. I can't make it on Friday, but I hope you all have a good evening. Please count me in next time.\n\nBest,\nAlex\n\n## 6\n\nShort, factual, and plain.",
+ "reasoning_chars": 1236,
+ "usage": {
+  "input_tokens": 300,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1192,
+  "service_tier": "standard",
+  "prompt_tokens": 300,
+  "completion_tokens": 1192,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 595
+  },
+  "contextUsagePercentage": 0.40890002250671387
+ },
+ "ttft": 6.110042874999635,
+ "ttft_content": 15.7456734160005,
+ "duration": 20.566994500000874,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_wqlikqalak2dd7tdld7c23oqnvzq22c4wgjtrxykadkl7oor3rkr",
+ "resp_model": "claude-opus-5-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:09:10 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141609048017331038268d9d6HUGaXOM8",
+  "x-request-id": "1794672544677178587c0c9ba0a637b4d3d"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672544.39534,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-5.5",
+  "route": "ppapi_msg",
+  "config": "dev01",
+  "split": "dev",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

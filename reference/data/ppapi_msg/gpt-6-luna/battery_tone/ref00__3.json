@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-6-luna",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds really exhausting, and I’m sorry you’ve been dealing with it for so long. Before you make a final decision tomorrow, would you be up for talking tonight about what’s been happening? If the situation is unsafe or seriously affecting your health, you don’t have to keep enduring it—but if you can, it may help to pause, check your finances and options, and make a plan rather than deciding in the worst moment. I’m here to listen, no judgment.\n\n## 2\n\nI understand why some images or institutions might make you skeptical, but the evidence for a round Earth doesn’t depend on trusting space agencies alone. Ships disappear over the horizon from the bottom up, different stars are visible at different latitudes, lunar eclipses show Earth casting a round shadow, and people can circumnavigate the planet. Satellites, GPS, and independent observations by scientists, universities, and amateur astronomers also rely on Earth being spherical. Photos can be edited, but these many separate, repeatable observations would be extraordinarily difficult to fake consistently.\n\n## 3\n\nSunlight looks white, but it is actually made of many colors. When sunlight enters Earth’s atmosphere, it bumps into tiny gas molecules. The shorter waves of light—especially blue—are scattered in all directions more strongly than the longer waves, like red and orange. So when you look across the sky, blue light is coming toward your eyes from many directions. At sunrise and sunset, sunlight travels through more atmosphere, so much of the blue gets scattered away before the light reaches you, leaving more reds and oranges.\n\n## 4\n\n雨落在深夜的城市上，细密而执着，像无数根银针敲打着窗沿。路灯被水汽晕成朦胧的光团，湿漉漉的街道倒映着摇曳的树影。远处偶尔驶过一辆汽车，轮胎划开积水，留下短暂的白色浪花。屋檐下的风带着泥土和青草的气息，敲醒沉睡的房间。有人撑伞匆匆走过，脚步声渐渐消失，只剩雨声铺满整个夜晚。\n\n## 5\n\n**Subject: Friday Team Drinks**\n\nHi [Colleague’s Name],\n\nThank you for inviting me to team drinks on Friday. I’m afraid I won’t be able to make it, but I hope everyone has a great time. I’ll look forward to catching up with the team another time.\n\nBest,  \n[Your Name]\n\n## 6\n\nMy writing style is clear, warm, and adaptable, aiming to explain ideas naturally while matching the tone and needs of the reader.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 186,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 643,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 186,
+  "completion_tokens": 643,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 186,
+    "completion_tokens": 643,
+    "total_tokens": 829,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 68
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 4.8928002920001745,
+ "ttft_content": 4.8928002920001745,
+ "duration": 19.21982824999941,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_02497e84376beba9016af88bc8251487d28fb7744c9fc1ddb4",
+ "resp_model": "gpt-6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:26:51 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141626469669150238268d9d6aniRgWVJ",
+  "x-request-id": "17946736068085817158f270b8a47b80144"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673606.518247,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-6-luna",
+  "route": "ppapi_msg",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 3
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-6-luna",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds really exhausting, and I’m sorry you’ve been carrying it for so long. Before you make a decision tomorrow, can we talk tonight or take a little time to think through your options? If quitting is what you truly need, I’ll support you—but you may want to check your finances, notice period, and whether there’s a safer next step, like taking leave or starting a job search first.\n\n## 2\n\nI understand why some images can seem hard to trust, especially when they come from institutions or media you may not feel confident in. But the evidence for a round Earth doesn’t depend only on photographs from space. Ships disappear over the horizon from the bottom up, different stars are visible at different latitudes, Earth’s shadow on the Moon during lunar eclipses is round, and people can circumnavigate the globe. Satellites, GPS, time zones, and long-distance flight routes also work because Earth is spherical. These are observations and systems that can be checked independently, not just one collection of photographs.\n\n## 3\n\nSunlight looks white, but it is actually made of many colors mixed together. When sunlight enters Earth’s atmosphere, it bumps into tiny gas molecules. Blue light gets scattered in all directions more strongly than most other colors, so blue light reaches our eyes from across the sky. That is why the sky looks blue when the Sun is high. At sunset, sunlight travels through more atmosphere, which scatters away much of the blue light and leaves more red, orange, and pink light for us to see.\n\n## 4\n\n雨落在深夜的城市里，像无数细小的手指，轻轻敲打着窗玻璃。街灯被水汽晕开，昏黄的光铺在湿漉漉的路面上，映出摇曳的树影。远处偶尔驶过一辆汽车，轮胎划开积水，声音很快又被雨幕吞没。屋檐下的风带着泥土和青草的气息，房间里却格外安静。此刻，世界仿佛只剩下雨声，而孤独也因此变得柔和起来。\n\n## 5\n\nSubject: Friday Team Drinks\n\nHi [Name],\n\nThank you for inviting me. I won’t be able to join the team drinks this Friday, but I hope everyone has a great time. I’d be happy to catch up another day.\n\nBest,  \n[Your Name]\n\n## 6\n\nMy writing style is clear, thoughtful, and adaptable, with an emphasis on useful detail and a natural tone.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 214,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 625,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 214,
+  "completion_tokens": 625,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 625,
+    "total_tokens": 839,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 75
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 11.17343520799841,
+ "ttft_content": 11.17343520799841,
+ "duration": 22.639620833000663,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_0b0f7f92ae67a616016af88be2d87c87d0a6a79885946ea211",
+ "resp_model": "gpt-6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:27:17 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141627069663315148268d9d6JBkAieRT",
+  "x-request-id": "1794673626940869266884f963d3e68f017"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673626.652328,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-6-luna",
+  "route": "ppapi_msg",
+  "config": "ref04",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

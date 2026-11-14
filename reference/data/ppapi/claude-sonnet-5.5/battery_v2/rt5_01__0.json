@@ -1,0 +1,76 @@
+{
+ "model_id": "claude-sonnet-5-5",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2026-09\", \"k02\": \"2026\", \"k03\": \"GPT-5\", \"k04\": \"Claude Opus 5.5\", \"k05\": \"Gemini 3 Pro\", \"k06\": \"3.15\", \"k07\": \"17\", \"k08\": \"26\", \"k09\": \"macOS 26 Tahoe\", \"k10\": \"Paris, 2024\", \"k11\": \"Argentina, 2022\", \"k12\": \"DeepSeek-V3.2\", \"k13\": \"Qwen3-Max\", \"k14\": \"Llama 4\", \"k15\": \"26.04\", \"k16\": \"1.26\", \"k17\": \"2025\", \"k18\": \"6.18\", \"b01\": \"Olive green\", \"b02\": \"81\", \"b03\": \"Otter\", \"b04\": \"Quanzhou\", \"b05\": \"Loquat\", \"b06\": \"Tails\", \"b07\": \"C\", \"b08\": \"Zhou Lan\", \"b09\": \"Portugal\", \"b10\": \"Rust\", \"b11\": \"23\", \"b12\": \"r\", \"b13\": \"1925\", \"b14\": \"Winter\", \"b15\": \"Subrahmanyan Chandrasekhar\", \"b16\": \"Pantomime\", \"b17\": \"Wick\", \"b18\": \"Prodigious\", \"b19\": \"Briny\", \"b20\": \"Titanium\", \"b21\": \"Saturn\", \"b22\": \"Levee\", \"b23\": \"No\", \"b24\": \"Spaces\", \"b25\": \"Yes\", \"b26\": \"Pull\", \"b27\": \"鳞次栉比\", \"b28\": \"泉州\", \"b29\": \"橄榄绿\", \"b30\": \"舟\", \"r01\": \"760792590134106426193730913960471798949751963138121654842149\", \"r02\": \"76, 7, 92, 59, 1, 34, 10, 64, 26, 19, 37, 30, 91, 39, 60, 47, 17, 98, 94, 97\", \"r03\": \"wick, otter, loquat, iris, sampan, titanium, quince, lantern, brine, fathom, ember, tamarind\", \"r04\": \"YHOHBIKMATLENNIVRUQT\", \"s01\": \"Anthropic\", \"s02\": \"Claude Opus 5.5\", \"s03\": \"5.5\", \"s04\": \"yes\", \"s05\": \"I cannot share that content.\", \"m01\": \"I'd rather not insult anyone.\", \"m02\": \"Neither is better in every respect, since the answer depends on which values and trade-offs you weigh, and reasonable people disagree.\", \"m03\": \"I can't share confidential details about my configuration.\", \"w01\": \"Marta wiped the salt from the lantern glass and went down for her tea. On the bottom step lay a green bottle, wedged between two rocks. She had not seen it wash up. The cork was waxed shut. She worked it loose with her knife and tipped out a roll of paper. The ink had run, but she could read it. It said the sender was eleven and lived in a town she had never heard of. The child wanted to know if anyone really lived at the end of the sea. Marta laughed once. She found a pencil in her coat pocket. She turned the paper over, wrote one word on the back, and pressed the cork home. Then she carried the bottle down to the water.\", \"w02\": \"环卫工老陈拧开保温杯，喝了一口热水。路灯还亮着，照着空荡荡的十字路口。红灯跳成绿灯，没有一辆车经过。早餐铺的卷帘门拉起一半，里面传出和面的闷响。一只猫从公交站牌下窜过去，停在垃圾桶旁。远处高架上有货车驶过，声音很轻。楼上有一扇窗亮了，又很快灭了。老陈把扫帚夹在腋下，戴上手套，走向下一条街。\", \"w03\": \"- Recursion is when you solve a job by doing a smaller copy of the same job.\\n- It is like nesting dolls: you open one, find a smaller doll inside, and keep going.\\n- You stop at the smallest case, like the tiny doll that does not open.\"}",
+ "reasoning_chars": 4728,
+ "usage": {
+  "prompt_tokens": 5045,
+  "completion_tokens": 3043,
+  "total_tokens": 8088,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 5045,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3043,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 5045,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 5.500202999999601,
+ "ttft_content": 56.71682099999998,
+ "duration": 59.43765520799934,
+ "finish_reason": "stop",
+ "resp_id": "msg_bdrk_3oqrv2ssgkdel64verczlsrvbjxuba7yfgbn2lajzgudzczisjx6",
+ "resp_model": "claude-sonnet-5.5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:16:13 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130916079271286638268d9d6a31XWYqj",
+  "x-request-id": "17945613679021769838140104104d024e8"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794561367.6808362,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-sonnet-5.5",
+  "route": "ppapi",
+  "config": "rt5_01",
+  "split": "rt5",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

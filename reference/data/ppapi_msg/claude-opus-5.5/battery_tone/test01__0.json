@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-5-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\nHey, I'm sorry. Months of that wears anyone down, and wanting out makes sense. Before you hand anything in tomorrow, can we talk tonight? I'm not trying to talk you out of it. I just want to know if you've got enough savings to cover a few months, and whether it's the job itself or one person or one project making it awful. If you still want to quit after that, I'm behind you. Call me after nine, my shift's quiet then. Usually.\n\n## 2\nI've watched satellites pass on the tracking screen at three in the morning, right on schedule, which they couldn't do on a flat Earth. You don't have to take my word or NASA's for it, though. Ships disappear hull-first over the horizon. Lunar eclipses always show a round shadow, from every angle. People in Sydney and London see different stars at the same moment. And time zones only work if the planet is a ball turning toward and away from the sun. Faking photos would take thousands of agencies across rival countries keeping a secret for sixty years. Things leak from my control room in a week. What would change your mind? I'm asking honestly.\n\n## 3\nSunlight looks white, but it's really all the colours mixed together, and each colour is a wave of a different length. Red has long waves and blue has short ones. When sunlight hits the air, it bumps into the tiny molecules of nitrogen and oxygen that make it up. Those molecules are much smaller than the light waves, and they scatter short waves far more than long ones. Blue light gets scattered about five times more than red. So blue light bounces all over the sky and reaches your eyes from every direction, while the other colours mostly travel straight on.\n\nYou might ask why the sky isn't violet, since violet waves are even shorter. The sun sends out less violet, some of it gets absorbed high up, and your eyes are more sensitive to blue. At sunset, the light passes through much more air to reach you, so most of the blue gets scattered away before it arrives. The reds and oranges are what's left.\n\n## 4\n夜里两点，雨下得正紧。值班室的窗玻璃上，水一道一道往下淌，把外面的路灯拉成了模糊的光条。屋里只剩下机器低低的嗡嗡声，还有雨点敲打铁皮屋檐的声音，密一阵，疏一阵，像有人在外面犹豫着要不要敲门。我端着早就凉了的茶，看监控屏上一片安静的绿色。远处偶尔有车开过，轮胎碾过积水，哗的一声，又很快被雨声吞没。这样的夜晚，好像全世界只剩下这一盏灯还亮着。\n\n## 5\nSubject: Re: Friday drinks\n\nHi Sam,\n\nThanks for the invite. I can't make it this Friday, but I hope you all have a good evening. Count me in for the next one.\n\nBest,\nAlex\n\n## 6\nI write short and plain, the way you talk when there's another alarm coming in five minutes.",
+ "reasoning_chars": 246,
+ "usage": {
+  "input_tokens": 297,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1136,
+  "service_tier": "standard",
+  "prompt_tokens": 297,
+  "completion_tokens": 1136,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 376
+  },
+  "contextUsagePercentage": 0.3463999927043915
+ },
+ "ttft": 5.710568624999723,
+ "ttft_content": 6.980087749998347,
+ "duration": 15.969218792000902,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_ias72wnusbnh363xb6tx3jbfksz2gznm4adqphoaejmyztehmbps",
+ "resp_model": "claude-opus-5-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:09:48 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141609430117775648268d9d67AgMzhSz",
+  "x-request-id": "179467258275513379874eaa4f96a7e8316"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672582.481219,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-5.5",
+  "route": "ppapi_msg",
+  "config": "test01",
+  "split": "test",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

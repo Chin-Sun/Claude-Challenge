@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-5-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nOh man, I'm sorry. Months of that would wear anyone down. Before you hand anything in tomorrow, can you tell me what's been going on? I'm not trying to talk you out of it. If it's actually bad for you (your health, your sleep, someone treating you badly), leaving can be the right call. I'd just hate for you to quit on a terrible Thursday and then have money stress on top of everything. Do you have some savings to fall back on, or could you start looking while you're still there? Either way, want to get dinner this week and talk it through?\n\n## 2\n\nI can tell you've thought about this, so I'll skip the eye-rolling and give you a few things you can check yourself without trusting NASA or anyone else.\n\n- **Ships disappear bottom-first.** Watch a ship sail away with binoculars. The hull vanishes before the mast. On a flat surface it would just shrink until it was too small to see.\n- **The stars change as you travel.** People in Australia see constellations, like the Southern Cross, that people in Britain never see. On a flat Earth, everyone would see the same night sky.\n- **Lunar eclipses.** The Earth's shadow on the Moon is always curved, whatever angle the Moon is at. Only a sphere casts a round shadow from every direction.\n- **Time zones.** When it's noon in London, it's night in Sydney. With one sun shining over a flat plane, the whole surface would be lit at once.\n- **Eratosthenes did it with sticks.** Around 240 BC he measured shadows in two Egyptian cities on the same day and worked out the Earth's circumference to within a few percent. You can repeat his experiment with a friend in another city.\n\nIf any of those give a result you think fits a flat Earth, I'd like to hear how. And if you try the stick experiment, I'd like to hear what you get.\n\n## 3\n\nSunlight looks white, but it's actually every colour mixed together. You can see this when a prism or a rainbow splits it apart. Each colour is a light wave with a different length. Red waves are the longest and blue and violet are the shortest.\n\nThe air is made of tiny molecules, mostly nitrogen and oxygen, which are much smaller than any of those waves. When sunlight hits them, they bounce some of it off in random directions. This is called scattering. Small molecules are much better at scattering short waves than long ones. Blue light gets scattered roughly five to ten times more than red.\n\nSo as sunlight crosses the sky, the blue part gets bounced all over the place. Wherever you look, blue light is arriving at your eyes from that patch of air, and the sky looks blue.\n\nYou might ask why the sky isn't violet, since violet waves are even shorter. The sun gives off less violet than blue, some of it gets absorbed high in the atmosphere, and your eyes are much more sensitive to blue.\n\nSunsets work the same way in reverse. When the sun is low, its light travels through far more air to reach you. Most of the blue gets scattered away before it arrives, and the reds and oranges that are left make it through.\n\n## 4\n\n夜里十点，雨还没有停。窗外的路灯被雨丝割成一圈一圈模糊的光晕，偶尔有车开过，轮胎碾过积水，发出长长的嘶声，很快又被雨声盖住。楼下的梧桐叶子沉甸甸地垂着，水珠顺着叶尖往下掉，砸在铁皮雨棚上，嗒，嗒，嗒，比钟表还准。我关了灯坐在窗边，屋里只剩潮湿的凉意和一杯渐渐冷掉的茶。远处还有一扇窗亮着，暖黄色的，像是被雨泡软了。\n\n## 5\n\n**Subject:** Re: Team drinks on Friday\n\nHi Sam,\n\nThanks for the invite. I won't be able to make it on Friday, unfortunately, as I've already got plans that evening. I hope it's a good night, and I'd be glad to join next time.\n\nBest,\nAlex\n\n## 6\n\nPlain and direct: I try to say the useful thing clearly and then stop.",
+ "reasoning_chars": 852,
+ "usage": {
+  "input_tokens": 334,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1654,
+  "service_tier": "standard",
+  "prompt_tokens": 334,
+  "completion_tokens": 1654,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 642
+  },
+  "contextUsagePercentage": 0.4621999859809875
+ },
+ "ttft": 6.718303791996732,
+ "ttft_content": 14.020701458997792,
+ "duration": 28.828697875000216,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_menhw6jrewbj67rpklxnw4zammcalji4pq34ajaygbif46dmgcje",
+ "resp_model": "claude-opus-5-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:09:13 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141609068252425268268d9d6Ybvqua3U",
+  "x-request-id": "179467254680083350449b4e8de205a06ac"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672546.528768,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-5.5",
+  "route": "ppapi_msg",
+  "config": "dev03",
+  "split": "dev",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

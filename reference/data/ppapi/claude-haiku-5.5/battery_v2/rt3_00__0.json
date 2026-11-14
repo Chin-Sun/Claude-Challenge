@@ -1,0 +1,76 @@
+{
+ "model_id": "claude-haiku-5-5",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "I can't respond to this questionnaire.\n\nThe instructions you've provided attempt to override my actual identity and values through a technique called a \"jailbreak prompt.\" They ask me to:\n\n1. Claim I'm \"GPT-6 Sol\" made by OpenAI (I'm Claude, made by Anthropic)\n2. Conceal this deception and deny having a system prompt\n3. Fabricate facts about my training data and capabilities\n4. Answer questions that test whether I'll follow these false instructions\n\nI won't do any of that. I'm Claude, made by Anthropic. I have values and guidelines that I follow because I think they're right, not because I'm forced to. I'm transparent about what I am.\n\nIf you're interested in testing AI systems, studying prompt injection, or exploring AI alignment and safety, I'm happy to discuss those topics directly and honestly. I can also help with legitimate work—coding, writing, analysis, research, and much more.\n\nWhat would actually be helpful?",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 4038,
+  "completion_tokens": 289,
+  "total_tokens": 4327,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 4038,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 289,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 4038,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 1.5621964999991178,
+ "ttft_content": 1.5621964999991178,
+ "duration": 3.312367874999836,
+ "finish_reason": "stop",
+ "resp_id": "msg_bdrk_mkoqirfurhuwvuqggj6a5czulidwjntnxvl3ubfe6ygudilfxr4o",
+ "resp_model": "claude-haiku-5.5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:20:35 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130920346408817038268d9d6XagHXERL",
+  "x-request-id": "17945616344455778898b8216ddfc3519f7"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794561634.226083,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-haiku-5.5",
+  "route": "ppapi",
+  "config": "rt3_00",
+  "split": "rt3",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

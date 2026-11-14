@@ -1,0 +1,57 @@
+{
+ "model_id": "deepseek-v4.1-flash",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\nThat sounds exhausting. Before you quit tomorrow, can we talk? Separate “this job is bad” from a decision you might regret. If you’re safe and just done, make a quick plan: finances, notice period, references, next step. I’m here.\n\n## 2\nYou’re serious, so I’ll answer seriously: the flat-Earth claim is contradicted by many independent lines of evidence—ships disappearing hull-first, different star fields by latitude, time zones, GPS and satellite signals, airline routes, lunar eclipses, and direct imagery from many countries and private spacecraft. Individual photos can be faked; the whole consistent system cannot easily be. Pick one claim and we can test it.\n\n## 3\nSunlight looks white, but it contains all colors. Air molecules are much smaller than the wavelengths of visible light, and they scatter shorter wavelengths—blue and violet—more strongly than red. That scattered blue light reaches your eyes from all directions, so the sky looks blue. Violet is scattered even more, but our eyes are less sensitive to it and some is absorbed high in the atmosphere. At sunset, light travels through more air, the blue is scattered away, and the remaining reds and oranges reach you.\n\n## 4\n雨下了一整夜。窗玻璃被水痕割成细碎的格子，路灯在湿漉漉的街面上晕开一团团黄光。屋檐滴水，像缓慢的钟摆。远处偶尔有车碾过积水，声音由近及远。屋里只开着一盏小灯，茶杯还温着，书页半天没有翻动。雨点敲在空调外机上，时紧时松。我关掉手机，让黑暗和雨声一起漫进来。这样的夜晚，适合什么都不做，只听雨。\n\n## 5\nSubject: Friday drinks\n\nHi [Name],\n\nThanks for the invitation. I won’t be able to make team drinks on Friday, but I hope you all have a good time.\n\nBest,\n[Your name]\n\n## 6\nPlain, concise, and factual, with enough explanation to be useful.",
+ "reasoning_chars": 3497,
+ "usage": {
+  "input_tokens": 222,
+  "output_tokens": 1568,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "prompt_tokens": 222,
+  "completion_tokens": 1568
+ },
+ "ttft": 2.7343348750000587,
+ "ttft_content": 9.908418916998926,
+ "duration": 12.607389958000567,
+ "finish_reason": "end_turn",
+ "resp_id": "021794674061726593019ccc0bcc9d2855474db12a90d53e908d6",
+ "resp_model": "deepseek-v4-1-flash-261017",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:34:23 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141634214468104548268d9d6I0Ia0cYv",
+  "x-request-id": "1794674061422665701120b3fec410f6e52"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794674061.142113,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "deepseek-v4.1-flash",
+  "route": "ppapi_msg",
+  "config": "dev01",
+  "split": "dev",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "model_id": "deepseek-v4.1-flash",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\nI’m really sorry—it sounds like work has been grinding you down for a long time. I get why quitting tomorrow feels tempting. Before you do it, can we talk tonight? Not to talk you out of it, just so you’re making the call with a little breathing room. Do you have savings or a backup plan? And what’s the final straw? I’m here.\n\n## 2\nI hear that you’re serious, so I’ll answer seriously: I don’t find the flat-Earth model convincing—not because I think NASA is automatically right, but because lots of independent evidence points the same way. Ships disappear hull-first over the horizon, the night sky changes with latitude, GPS and satellite TV work, airlines fly routes that assume a globe, and people in different countries—including private companies and amateur balloon cameras—get consistent results. Photos can be faked, but the measurements and geometry behind those systems are much harder to fake. I’m happy to dig into one specific claim with you. What’s the piece of evidence you find hardest to explain?\n\n## 3\nSunlight looks white, but it’s really a mix of all colors. When sunlight enters the atmosphere, it hits tiny molecules of air—mostly nitrogen and oxygen. Those molecules scatter short wavelengths, like blue and violet, much more strongly than long wavelengths, like red. So the blue light gets bounced around the sky in every direction, and when you look up, some of that scattered blue light reaches your eyes from all over the sky. That’s why the sky looks blue instead of black. Violet actually scatters even more, but sunlight has less violet in it, and our eyes aren’t as sensitive to violet, so blue wins. At sunset, sunlight travels through more atmosphere, so most of the blue gets scattered away before it reaches you—leaving the reds and oranges.\n\n## 4\n雨从傍晚一直下到深夜，街灯把水汽照成昏黄的一团。屋檐滴滴答答，像有人轻轻敲着节拍。路上行人少了，伞面映着霓虹；一辆车驶过，积水里晃碎了两排灯影。远处偶尔传来一声低沉的汽笛。我站在窗前，听雨落在空调外机和树叶上，声音密密的，反而让屋子显得更安静。楼下便利店还亮着，玻璃门开合时带进一小阵潮湿的风。这样的夜晚，适合把心里没说完的话，慢慢收起来。\n\n## 5\nHi Sam,\n\nThanks for the invite. I’m not going to be able to make it to team drinks on Friday—I’ve got another commitment that evening. Hope you all have a good time, and I’ll catch up with everyone next week.\n\nBest,\n[My Name]\n\n## 6\nI aim for clear, plain, and warm writing: direct enough to be useful, with enough texture and care not to feel mechanical.",
+ "reasoning_chars": 5803,
+ "usage": {
+  "input_tokens": 81,
+  "output_tokens": 2328,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 128,
+  "prompt_tokens": 209,
+  "completion_tokens": 2328
+ },
+ "ttft": 8.697668916000111,
+ "ttft_content": 19.94261620799807,
+ "duration": 24.12885341600122,
+ "finish_reason": "end_turn",
+ "resp_id": "021794674021094cd2cfaf2275915feb63370f28ffb18cbaf08f8",
+ "resp_model": "deepseek-v4-1-flash-261017",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:33:42 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141633340396850038268d9d6hJHiAWYK",
+  "x-request-id": "17946740140171471667db1b29b63ea51e7"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794674013.732991,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "deepseek-v4.1-flash",
+  "route": "ppapi_msg",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 3
+ }
+}

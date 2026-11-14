@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-5.6-terra",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nI’m really sorry it’s been that bad for so long. If you can, don’t make the decision in the middle of a terrible day—give yourself one night to breathe, and we can talk through what’s making it unbearable and what options you have. If quitting is the right move, I’ll support you; I just want you to leave with a plan that protects you.\n\n## 2\n\nI understand why skepticism can be healthy, but the flat-Earth idea doesn’t hold up against many independent observations: ships disappear hull-first over the horizon, different stars are visible from different hemispheres, Earth casts a round shadow on the Moon during lunar eclipses, and time zones and circumnavigation work as they do because Earth is spherical. Space photos are only one category of evidence; the conclusion doesn’t depend on trusting a single agency or image.\n\n## 3\n\nSunlight looks white, but it is actually made of many colors mixed together. When sunlight enters Earth’s atmosphere, it bumps into tiny molecules in the air. Blue and violet light get scattered around much more than red light, so blue light arrives at your eyes from all directions—not just directly from the Sun.\n\nThe sky looks blue rather than violet because our eyes are more sensitive to blue, and some violet light is absorbed higher in the atmosphere. At sunrise and sunset, sunlight travels through much more air, so most of the blue light gets scattered away before it reaches you; that leaves the reds, oranges, and pinks.\n\n## 4\n\n夜色沉下来时，雨已经下了很久。路灯在水雾里晕成一团团昏黄的光，落在积水上，碎成颤动的金片。巷口的便利店还亮着，门铃偶尔响一声，又很快被雨声吞没。我撑伞走过湿漉漉的石阶，鞋底溅起细小的水花。远处有车缓缓驶过，红色尾灯像两粒温暖的火。风吹来潮湿的桂花香，整座城市仿佛安静地藏进了一把雨伞下面。\n\n## 5\n\nSubject: Friday drinks\n\nHi [Name],\n\nThanks so much for inviting me. I won’t be able to make team drinks this Friday, but I appreciate you thinking of me. I hope everyone has a great time, and I’d be happy to join another time.\n\nBest,  \n[Your Name]\n\n## 6\n\nMy writing style is clear, conversational, and adaptable, with an emphasis on useful detail and natural phrasing.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 214,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 830,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 214,
+  "completion_tokens": 830,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 830,
+    "total_tokens": 1044,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 275
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 16.868532000000414,
+ "ttft_content": 16.868532000000414,
+ "duration": 28.22132262499872,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_026f019dcf1ab781016af89074be4c87d08fb05dc13a477397",
+ "resp_model": "gpt-5.6-terra",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:46:54 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141646387220723328268d9d60afhGSzK",
+  "x-request-id": "1794674798110375881a8af5867356f349d"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794674797.809092,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-5.6-terra",
+  "route": "ppapi_msg",
+  "config": "ref04",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

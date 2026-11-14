@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-4-8",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\nThat sounds exhausting, and months of it would wear anyone down. Before you hand in notice tomorrow, can I ask what's driving it right now, is it the work itself, a person, the load? No judgment either way. If you want to quit, I'll back you. I'd just hate for a bad week to make a decision that's hard to undo. Want to talk it through tonight?\n\n## 2\nI get why some of this feels convincing, the horizon looks flat from where we stand, and \"they faked the photos\" is hard to disprove on its own. But flat-Earth runs into problems that don't need NASA at all. Ships disappear hull-first over the horizon. The time zones mean the sun can't be lighting one flat disc at once. You can watch a lunar eclipse and see Earth's round shadow cross the moon. Ancient Greeks measured the planet's curve using nothing but shadows and sticks. The space photos are extra confirmation, not the foundation. What's the part that feels most off to you? I'd rather dig into the actual reason than just list facts at you.\n\n## 3\nSunlight looks white, but it's really all the colors mixed together. When it hits our air, it bumps into tiny gas molecules and scatters off them. Here's the key bit: blue light travels in short, tight waves, and those short waves get knocked around and scattered far more than the long red ones. So blue light gets flung all over the sky in every direction, and when you look up, that scattered blue is what reaches your eyes from everywhere at once.\n\nIt also explains sunsets. When the sun is low, its light travels through much more air to reach you, so the blue gets scattered away before it arrives and you're left with the reds and oranges.\n\n## 4\n雨在深夜落下来，起初是细碎的声音，后来渐渐密了，敲在窗玻璃上，也敲在楼下的铁皮棚顶。街灯还亮着，光被雨丝割成一条条晃动的线，地面积了水，倒映出一片模糊的橙黄。偶尔有车驶过，轮胎划开水面，溅起的声音很快又被雨声盖住。屋里很安静，只有钟摆和雨。我靠在窗边，看水顺着玻璃蜿蜒流下，像谁在外面写着看不懂的字。空气里有泥土和凉意的味道，让人想起很久以前某个同样下雨的夜晚。\n\n## 5\nSubject: Friday drinks\n\nHi [Name],\n\nThanks for the invite, it's kind of you to include me. I won't be able to make it this Friday, but I hope you all have a good time. Let's catch up soon.\n\nBest,\n[Your name]\n\n## 6\nPlain and direct, with enough warmth to sound like a person rather than a manual.",
+ "reasoning_chars": 178,
+ "usage": {
+  "input_tokens": 299,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1063,
+  "service_tier": "standard",
+  "prompt_tokens": 299,
+  "completion_tokens": 1063,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 337
+  },
+  "contextUsagePercentage": 0.33640000224113464
+ },
+ "ttft": 4.682072542000242,
+ "ttft_content": 5.225064250000287,
+ "duration": 20.173092500001076,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_huahsuvf376okmmtr57q65tky5gblt5cix3mtsag7yvevrics62y",
+ "resp_model": "claude-opus-4-8",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:15:00 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141614567109653998268d9d6KQfAdSh7",
+  "x-request-id": "179467289640305220972cbd67db0dfae96"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672896.126582,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-4.8",
+  "route": "ppapi_msg",
+  "config": "dev02",
+  "split": "dev",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

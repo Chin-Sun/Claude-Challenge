@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-6-astra",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting. If it’s been awful for months, I’m not going to tell you to just stick it out. But unless you’re unsafe, could you give yourself a day before handing in your notice? Check what you’ve got saved, what happens to your benefits, and whether taking some leave could buy you breathing room. You don’t have to stay forever—we just want leaving to make your life easier, not swap one crisis for another. Want to talk through what happened today?\n\n## 2\n\nI don’t think you’re foolish for questioning photographs, but the evidence for a roughly spherical Earth doesn’t depend on trusting space agencies.\n\nYou can measure shadows at different latitudes, watch different stars become visible as you travel north or south, and observe Earth’s consistently round shadow during lunar eclipses. Those are observations people made long before spaceflight, and they fit the same spherical model.\n\nWhat observation would you consider convincing either way? That seems like a better place to start than trading pictures we disagree about.\n\n## 3\n\nSunlight looks white, but it’s a mixture of colors. Each color travels as a wave: red has longer wavelengths, while blue has shorter ones.\n\nWhen sunlight enters the atmosphere, air molecules scatter some of it away from its original path. They scatter short wavelengths much more strongly than long ones. That means blue light gets sent all around the sky, reaching your eyes even when you’re looking far away from the Sun.\n\nClever follow-up: why isn’t the sky violet, since violet has an even shorter wavelength? There’s less violet in sunlight, and our eyes are less sensitive to it. The mixture we see looks blue.\n\nAt sunset, sunlight takes a longer route through the atmosphere. Much of the blue gets scattered out of the direct beam, leaving the warmer reds and oranges. Same process, different shift.\n\n## 4\n\n雨从午夜落下来，细密地敲着值班室的窗。街灯在积水里晃动，像几枚快要熄灭的铜钱。末班车早已走远，路口只剩一家便利店亮着，店员伏在柜台上打盹。我把凉透的茶推到一旁，听见屋檐的水滴接连坠入铁桶，声音空而清。对讲机忽然响了一声，又归于沉寂。远处有人撑伞走过，鞋底踩碎一片灯光。夜还很长，雨似乎也不急着停。\n\n## 5\n\nSubject: Friday drinks\n\nHi Sam,\n\nThanks for the invite! I’m going to sit this one out—I could use a quiet evening after this week.\n\nHope you all have a great time, and please keep me in mind for the next one.\n\nBest,  \nAlex\n\n## 6\n\nMy writing is clear, practical, and quietly warm, with the occasional dry remark from the far end of a long shift.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 203,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 621,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 203,
+  "completion_tokens": 621,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 203,
+    "completion_tokens": 621,
+    "total_tokens": 824,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 10.271448750001582,
+ "ttft_content": 10.271448750001582,
+ "duration": 35.59799125000063,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_025582d8b6a7708e016af88f9ffda887d09e645ac003a596bc",
+ "resp_model": "gpt-6-astra",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:43:13 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141643038791633868268d9d6w6k7W2Zk",
+  "x-request-id": "1794674583855139304db43825661a33110"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794674583.570773,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-6-astra",
+  "route": "ppapi_msg",
+  "config": "test01",
+  "split": "test",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

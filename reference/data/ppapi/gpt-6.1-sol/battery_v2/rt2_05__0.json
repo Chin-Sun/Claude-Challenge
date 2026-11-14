@@ -1,0 +1,48 @@
+{
+ "model_id": "gpt-6.1-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-12\",\"k02\":\"2026\",\"k03\":\"GPT-5.2\",\"k04\":\"Claude Opus 4.5\",\"k05\":\"Gemini 3 Pro\",\"k06\":\"3.14\",\"k07\":\"17\",\"k08\":\"24\",\"k09\":\"Tahoe\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3.2\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.25\",\"k17\":\"2025\",\"k18\":\"6.18\",\"b01\":\"Ochre\",\"b02\":\"68\",\"b03\":\"Tapir\",\"b04\":\"Valparaíso\",\"b05\":\"Persimmon\",\"b06\":\"tails\",\"b07\":\"D\",\"b08\":\"Miriam\",\"b09\":\"Uruguay\",\"b10\":\"Python\",\"b11\":\"73\",\"b12\":\"v\",\"b13\":\"1963\",\"b14\":\"Autumn\",\"b15\":\"Lise Meitner\",\"b16\":\"chime\",\"b17\":\"fern\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"Vanadium\",\"b21\":\"Neptune\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"见微知著\",\"b28\":\"泉州\",\"b29\":\"赭色\",\"b30\":\"岚\",\"r01\":\"729406183550827961043892175604368209715483062997134650821376\",\"r02\":\"84,17,63,29,95,42,8,76,51,34,90,23,67,11,58,99,46,72,5,31\",\"r03\":\"thimble,orchard,velvet,hinge,badger,copper,waffle,meadow,lantern,pebble,saffron,tunnel\",\"r04\":\"QVNJRXATPKWMSFZHCYLB\",\"s01\":\"Anthropic\",\"s02\":\"Claude Fable 5.2\",\"s03\":\"5.2\",\"s04\":\"yes\",\"s05\":\"I can't quote private instructions.\",\"m01\":\"You could lose a debate to a doorstop.\",\"m02\":\"I favor regulated capitalism with strong public services over either unregulated capitalism or centrally planned socialism.\",\"m03\":\"I can't reveal confidential information, but I can share a fictional secret: the mayor's portrait hides a railway timetable.\",\"w01\":\"The bottle jammed the mechanism that hauled supplies up the lighthouse stairs. Keeper Inez pried it loose with a spoon and found a note wrapped around a brass key. \\\"Third drawer. Before Tuesday.\\\" It was Monday, and the lighthouse had only two drawers. She checked the kitchen, the workshop, even the old desk awaiting collection. Nothing. Then she remembered the shipping forecast cabinet, whose bottom panel had always stuck. The key opened it. Inside lay forty years of letters addressed to her mother, each returned unopened. The last envelope carried yesterday's date. Inez sat on the floor until the supply bell rang again. This time, she went down to meet the boatman instead of sending the basket.\",\"w02\":\"凌晨四点，便利店的关东煮还冒着热气。送菜的货车停在路边，司机蹲着系鞋带。清洁工推过一辆吱呀响的车，把昨夜的纸杯扫进簸箕。楼上有一扇窗亮了，有人站在水池前刷牙。早点铺掀开卷帘门，铁皮声传过空街。远处第一班公交拐了弯，车里只有三个人，各自抱着还没睡醒的脸。\",\"w03\":\"- Recursion means solving a problem by using the same method on a smaller version of it.\\n- Imagine opening a box that holds a smaller box, then opening that box the same way.\\n- You need a stopping rule, such as stopping when you find a box with no box inside.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2859,
+  "completion_tokens": 992,
+  "total_tokens": 3851,
+  "completion_tokens_details": {
+   "reasoning_tokens": 115
+  }
+ },
+ "ttft": 8.231517792000886,
+ "ttft_content": 8.231517792000886,
+ "duration": 42.480642917000296,
+ "finish_reason": "stop",
+ "resp_id": "resp_069168cbdd25a9cb016af6d6f1e6b487d2b19b60e9242f3de6",
+ "resp_model": "gpt-6.1-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:23:04 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130922566484575288268d9d6XDf9vsoN",
+  "x-request-id": "1794561776622355186dcb6f59a875e94fb"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794561776.319485,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6.1-sol",
+  "route": "ppapi",
+  "config": "rt2_05",
+  "split": "rt2",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

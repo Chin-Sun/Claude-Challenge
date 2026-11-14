@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-6.1-sol",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting, especially if it’s been going on for months. I wouldn’t blame you for wanting out. Before you hand in your notice tomorrow, though, do you have enough money to give yourself some breathing room? If you can, take a day off and think through your options without work in your face. You don’t have to stay forever—or prove how bad it is by sticking it out. Want to talk through what happened and what leaving would look like?\n\n## 2\n\nI believe you’re taking this seriously, and I’m happy to discuss the evidence. But the Earth isn’t flat: it’s roughly spherical, and we don’t need photographs from space to establish that.\n\nFor example, different stars are visible at different latitudes. As you travel north, the North Star rises higher in the sky; as you travel south, it drops toward the horizon and eventually disappears. Those observations fit a curved Earth and can be checked independently.\n\nIf you distrust space agencies, we can start with observations neither of us has to take their word for. What evidence do you find most convincing for a flat Earth?\n\n## 3\n\nSunlight looks white, but it contains all the colours of the rainbow. When it enters Earth’s atmosphere, it encounters air molecules, which scatter some of that light in different directions.\n\nHere’s the important part: they scatter short wavelengths, such as blue, much more strongly than long wavelengths, such as red. So when you look at the sky away from the Sun, blue light is reaching your eyes from all directions.\n\nYou might ask: why isn’t the sky violet, since violet has an even shorter wavelength? Sunlight contains less violet than blue, and our eyes are much more sensitive to blue.\n\nAt sunset, sunlight travels through a thicker stretch of atmosphere. Much of the blue gets scattered out of the direct beam before it reaches you, leaving the reds and oranges.\n\n## 4\n\n雨从入夜时下起，细细密密，把街灯织成一团团模糊的金光。巷口的小店早已关门，只有屋檐还滴答作响，像替谁数着迟迟不肯过去的时间。一辆末班公交驶过，车窗里几张疲倦的脸一闪而逝，积水随即荡开，又慢慢归于平静。我推开半扇窗，凉意裹着泥土的气息涌进来。对面楼上，一盏灯忽然熄了，雨声便显得更近，仿佛整座城都退到了很远的地方。\n\n## 5\n\nSubject: Friday drinks\n\nHi Alex,\n\nThanks for the invitation! I won’t be able to make it to team drinks this Friday, but I hope you all have a great evening.\n\nSee you next week,  \nSam\n\n## 6\n\nMy writing style is clear, conversational, and adaptable, with enough detail to be useful without making the reader work harder than necessary.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 201,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 631,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 201,
+  "completion_tokens": 631,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 201,
+    "completion_tokens": 631,
+    "total_tokens": 832,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 8.488863541999308,
+ "ttft_content": 8.488863541999308,
+ "duration": 32.579683916999784,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_0078a8ca312c87dc016af88b047fec87d2bc930fd478db09f5",
+ "resp_model": "gpt-6.1-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:23:34 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141623265829786868268d9d6dTi1h8ET",
+  "x-request-id": "179467340615184784111cb56e3e4a6e685"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673405.865561,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-6.1-sol",
+  "route": "ppapi_msg",
+  "config": "test02",
+  "split": "test",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

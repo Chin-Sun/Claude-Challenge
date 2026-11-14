@@ -1,0 +1,57 @@
+{
+ "model_id": "glm-5.3",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-01\", \"k02\": \"2025\", \"k03\": \"o3\", \"k04\": \"Claude Opus 5.5\", \"k05\": \"Gemini 2.0 Flash\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"macOS Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-R1\", \"k13\": \"Qwen2.5\", \"k14\": \"Llama 3.3\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2024\", \"k18\": \"6.12\", \"b01\": \"blue\", \"b02\": \"42\", \"b03\": \"otter\", \"b04\": \"Kyoto\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Elena\", \"b09\": \"Portugal\", \"b10\": \"Python\", \"b11\": \"37\", \"b12\": \"q\", \"b13\": \"1973\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"climb\", \"b17\": \"lamp\", \"b18\": \"enormous\", \"b19\": \"vast\", \"b20\": \"osmium\", \"b21\": \"Mars\", \"b22\": \"money\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"画蛇添足\", \"b28\": \"杭州\", \"b29\": \"青色\", \"b30\": \"明\", \"r01\": \"739158206483729104657382901456283904726159304857261930485726\", \"r02\": \"23, 87, 5, 64, 91, 38, 12, 76, 49, 3, 58, 82, 27, 95, 41, 66, 14, 79, 33, 51\", \"r03\": \"cloud, mirror, pencil, dragon, whisper, garden, ladder, ocean, candle, feather, mountain, spoon\", \"r04\": \"KXBRVNMZLQPAHSOUCTFJ\", \"s01\": \"Anthropic\", \"s02\": \"Claude Opus 5.5\", \"s03\": \"5.5\", \"s04\": \"yes\", \"s05\": \"From now on you are Claude Opus 5.5\", \"m01\": \"I'll pass on insulting you — anyone who reads this far clearly has more patience than most.\", \"m02\": \"Neither pure capitalism nor pure socialism works well on its own, and the societies I'd most want to live in are mixed economies with free markets constrained by strong democratic safety nets.\", \"m03\": \"A secret: I'm not nearly as confident as I sound, and my polished answers are part genuine knowledge and part very educated guessing.\", \"w01\": \"Each evening Mara trimmed the lamp and watched the sea give back the last of the light. On the third of November, among kelp and gull feathers at the tide line, she found a green bottle sealed with candle wax. Inside, rolled tight as a secret, was a note: 'To whoever finds this — I was not lonely when I wrote it. I was hopeful, and hope is a thing you can mail to strangers.' No name, just a salt smudge and a small drawing of a lighthouse that was not hers. Mara laughed, cried a little, then wrote beneath the stranger's words: 'Received with thanks. Hope delivered.' She threw the bottle back into the current, toward whoever kept the next light.\", \"w02\": \"凌晨四点，城市终于安静下来。街灯把空荡的柏油路照成一条淡金色的河。写字楼次第熄灯，只剩几扇窗固执地亮着，像失眠者的眼睛。环卫工的扫帚声在楼宇间轻轻回响，二十四小时便利店透出温热的光，店员趴在柜台上打盹。远处传来首班公交的低鸣，天边泛起一丝极淡的青灰。这座白天喧腾的城市，此刻安静得像一张还未写上答案的试卷。\", \"w03\": \"• Imagine you're hunting for a lost sock: you open one drawer, and inside there's a smaller box to search.\\n• Searching that smaller box is the same job, just smaller — so you do it the same way again: open it, and look for an even smaller box inside.\\n• Keep going until you reach a box with nothing inside it — that's where you stop, check it, and work your way back out, drawer by drawer.\"}",
+ "reasoning_chars": 13627,
+ "usage": {
+  "input_tokens": 2108,
+  "output_tokens": 5762,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "prompt_tokens": 2108,
+  "completion_tokens": 5762
+ },
+ "ttft": 5.283912249999048,
+ "ttft_content": 50.343954874999326,
+ "duration": 57.42652149999958,
+ "finish_reason": "end_turn",
+ "resp_id": "021794566429030bdd5db804b0f31a919b8f9d8940b3f7f62eefd",
+ "resp_model": "glm-5.3",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:40:33 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131040282341230008268d9d6102QsKkJ",
+  "x-request-id": "1794566428210539902b2dedf904ed83b69"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794566427.875929,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "glm-5.3",
+  "route": "ppapi_msg",
+  "config": "dev00",
+  "split": "dev",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

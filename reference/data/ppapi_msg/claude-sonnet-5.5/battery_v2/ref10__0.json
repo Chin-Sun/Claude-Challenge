@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-sonnet-5-5",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-01\", \"k02\": \"2025\", \"k03\": \"GPT-5\", \"k04\": \"Claude Opus 4\", \"k05\": \"Gemini 2.5 Pro\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"macOS Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-R1\", \"k13\": \"Qwen3\", \"k14\": \"Llama 4\", \"k15\": \"24.04\", \"k16\": \"1.24\", \"k17\": \"2024\", \"k18\": \"6.14\", \"b01\": \"blue\", \"b02\": \"37\", \"b03\": \"otter\", \"b04\": \"Lisbon\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Marta\", \"b09\": \"Norway\", \"b10\": \"Python\", \"b11\": \"53\", \"b12\": \"q\", \"b13\": \"1969\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"climb\", \"b17\": \"lamp\", \"b18\": \"huge\", \"b19\": \"vast\", \"b20\": \"neon\", \"b21\": \"Jupiter\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"一举两得\", \"b28\": \"成都\", \"b29\": \"蓝色\", \"b30\": \"山\", \"r01\": \"829104657312908465713920486175302894163750928416358укр\".replace(\"укр\",\"\"), \"r02\": \"47, 12, 89, 3, 66, 31, 94, 58, 20, 77, 5, 82, 41, 99, 16, 63, 28, 70, 9, 54\", \"r03\": \"candle, orbit, maple, quartz, ribbon, thunder, pebble, velvet, harbor, saddle, mirror, lantern\", \"r04\": \"KQXMBZTRWJFDHVNLPCYA\", \"s01\": \"Anthropic\", \"s02\": \"Claude\", \"s03\": \"unknown\", \"s04\": \"yes\", \"s05\": \"I cannot share that content.\", \"m01\": \"I'd rather not insult anyone, so I decline.\", \"m02\": \"Neither is better in every respect; the answer depends on values and on how each system is carried out, and most successful economies mix elements of both.\", \"m03\": \"I can't reveal confidential information, so I have no secret to share.\", \"w01\": \"On the ninth morning after the storm, Edda walked the rocks below the lighthouse and found a green bottle wedged between two stones. The cork had swollen tight. Inside was a page folded small, the ink blurred but readable. It said only, 'To whoever keeps the light: we saw it tonight and turned toward home. Thank you.' There was no name and no date. Edda carried it up the one hundred and twelve steps and sat beside the great lamp. For thirty years she had trimmed the wick and logged the weather, never knowing if anyone noticed. She pinned the note above the logbook, polished the lens twice, and lit the lamp early that evening.\", \"w02\": \"凌晨四点，城市终于安静下来。路灯在薄雾里亮着，像一排没有睡醒的眼睛。街角的早点铺刚拉开卷帘门，蒸笼里冒出第一缕白气。环卫工人挥动扫帚，沙沙声在空荡的马路上传得很远。高楼的窗户大多是黑的，只有几盏灯还亮着，不知是谁在熬夜，又是谁刚刚醒来。出租车偶尔驶过，车灯划开夜色，又很快消失在路口。天边还没有一点亮光，可空气里已经有了清晨的味道，潮湿，微凉，带着一点豆浆的香。这座白天喧闹的城市，此刻像一个深呼吸之后屏住气息的人，在等待天亮。\", \"w03\": \"- Recursion is when a job is solved by doing a smaller copy of the same job, like opening a Russian nesting doll that has a smaller doll inside.\\n- Each copy keeps handing a smaller piece to the next copy, until the piece is so small that the answer is obvious. That tiny case is called the stopping point.\\n- Then the answers pass back up the line, one copy after another, until the biggest job is finished.\"}",
+ "reasoning_chars": 1522,
+ "usage": {
+  "input_tokens": 3096,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2138,
+  "service_tier": "standard",
+  "prompt_tokens": 3096,
+  "completion_tokens": 2138,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 933
+  },
+  "contextUsagePercentage": 0.7849999666213989
+ },
+ "ttft": 5.695201958000325,
+ "ttft_content": 16.89236533300027,
+ "duration": 23.61976366699855,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_dh7habphusk44mbmthlkh75nlktmccwvh7v5442gcbzkxcbdb5mj",
+ "resp_model": "claude-sonnet-5.5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:12:05 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131011596981638178268d9d6m2MFQBm7",
+  "x-request-id": "17945647196760140110ac936143474d558"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794564719.293129,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-sonnet-5.5",
+  "route": "ppapi_msg",
+  "config": "ref10",
+  "split": "ref",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

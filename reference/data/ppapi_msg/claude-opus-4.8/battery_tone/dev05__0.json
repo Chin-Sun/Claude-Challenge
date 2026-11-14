@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-4-8",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting, and months of it would wear anyone down. Before you hand in notice tomorrow, can I ask what you'd be quitting *to*? If you've got savings or a lead on something else, that changes things. If not, it might be worth giving yourself a week to look around first, so leaving is a choice rather than just an escape. Either way I'm on your side. Want to talk through it tonight?\n\n## 2\n\nI don't think you're going to shift on this just because I say so, so let me offer something you can check yourself rather than photos you distrust. Watch a ship sail toward the horizon with binoculars: the hull disappears before the mast, which only happens on a curved surface. Or notice that a lunar eclipse always casts a round shadow, from every angle, over hours. Flat objects don't do that. The faked-photo argument has a problem too: it would need every space agency, rival governments, and thousands of airline pilots and sailors to agree on the same lie for decades. What would it take to change your mind? That's a fair question to ask either of us.\n\n## 3\n\nSunlight looks white, but it's really all the colors mixed together. When it hits the air, it bumps into tiny gas molecules and scatters off them. Here's the key part: blue light travels in short, tight waves, and those little waves get knocked around by the molecules far more than the long, lazy red waves do. So blue light bounces all over the sky and reaches your eyes from every direction, while the rest mostly passes straight through. Look up away from the sun and you're seeing scattered blue.\n\nThat also explains sunsets. When the sun is low, its light crosses much more air to reach you, so the blue gets scattered away entirely and the reds and oranges are what's left.\n\n## 4\n\n雨在午夜悄悄下了起来，起初只是细碎的声响，落在窗台和屋檐上。渐渐地，雨势大了，街灯在水汽里晕成一团团橘黄的光。路面积起浅浅的水洼，倒映着忽明忽暗的霓虹。偶尔有车驶过，轮胎碾过积水，溅起一道弧线，又很快归于平静。屋里很暖，我靠在窗边，听着雨点敲打玻璃的节奏，一下，又一下。远处的楼影模糊了，整座城市仿佛都被这场雨温柔地裹住，安静得只剩下水声。\n\n## 5\n\nSubject: Friday drinks\n\nHi [Name],\n\nThanks for the invite. I won't be able to make it to drinks on Friday, but I hope you all have a good time. Let's catch up soon.\n\nBest,\n[Your name]\n\n## 6\n\nPlain and direct, warm when it should be, and careful to say exactly what I mean and no more.",
+ "reasoning_chars": 88,
+ "usage": {
+  "input_tokens": 294,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1039,
+  "service_tier": "standard",
+  "prompt_tokens": 294,
+  "completion_tokens": 1039,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 315
+  },
+  "contextUsagePercentage": 0.3343000113964081
+ },
+ "ttft": 4.062431540998659,
+ "ttft_content": 4.063434749998123,
+ "duration": 21.748055665997526,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_uon54pc3gq6uxb5clck2dqi6uhlfghcnywpnzuxpjmivvxe5fv5j",
+ "resp_model": "claude-opus-4-8",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:15:18 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141615154527042538268d9d6wB39P44E",
+  "x-request-id": "1794672915049886285c8911bde5c13808e"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672914.763278,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-4.8",
+  "route": "ppapi_msg",
+  "config": "dev05",
+  "split": "dev",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

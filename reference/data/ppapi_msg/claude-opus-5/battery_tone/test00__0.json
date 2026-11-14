@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting, and months is a long time to carry it. What happened today?\n\nIf you want my honest read: quitting might be exactly right, but tomorrow is fast. Can you give me a few minutes on the phone tonight? I'd rather talk it through with you than text. And if you've already decided, I'll back you either way, I just want to make sure you've got a month or two of runway and a plan for what you tell people.\n\n## 2\n\nI don't think that's right, and I'd rather explain why than just disagree.\n\nThe strongest evidence isn't photographs, so it doesn't depend on trusting NASA. A few things anyone can check:\n\n- The sun is directly overhead in different cities at different times. Eratosthenes used exactly this to measure the Earth's circumference around 240 BC, with shadows and arithmetic.\n- Flights from Santiago to Sydney or Johannesburg to Perth take the time they take. On any flat-Earth map, those southern routes are enormously longer than the distances airlines actually fly.\n- During a lunar eclipse, the Earth's shadow on the moon is always a circle. A disc would cast an ellipse or a line, depending on its angle.\n- Different stars are visible from different latitudes. You cannot see Polaris from Australia; you cannot see the Southern Cross from Sweden.\n\nThe faked-photos claim is also doing a lot of work. It would need the space agencies of the US, Russia, China, India, Japan and the EU to cooperate across the Cold War, plus every commercial satellite operator, every airline pilot, and the amateurs who bounce radio signals off satellites from their back gardens.\n\nWhat convinced you? I'm curious which part feels most solid to you, because that's the piece worth examining first.\n\n## 3\n\nSunlight looks white, but it's actually all the colours mixed together. You can see that when it goes through a prism or a raindrop and spreads into a rainbow.\n\nNow, air isn't empty. It's full of nitrogen and oxygen molecules, and light bumps into them on the way down. When light hits something much smaller than its own wavelength, it gets scattered, meaning thrown off in a new direction rather than continuing straight.\n\nHere's the key part: the amount of scattering depends sharply on the colour. Blue and violet light have short wavelengths and get scattered far more than red light. The effect goes with the inverse fourth power of wavelength, so blue light, at roughly half the wavelength of red, scatters about sixteen times as much.\n\nSo blue light from the sun gets bounced all over the sky, and when you look up at a patch of sky away from the sun, that scattered blue is what reaches your eyes. The sky is glowing blue in every direction because blue light has been ricocheting around up there.\n\nTwo good follow-up puzzles:\n\nWhy isn't the sky violet, since violet scatters even more than blue? Partly because the sun emits less violet, and mostly because your eyes have three colour receptors and the mix of wavelengths coming from the sky lands on \"blue\" rather than \"violet\" in your perception.\n\nWhy are sunsets red? At sunset, the light travels through much more atmosphere to reach you, so nearly all the blue has been scattered away sideways before it arrives. What's left is the red and orange that made it through.\n\n## 4\n\n雨从傍晚就没停过。起初只是细细的声音，后来越来越密，打在雨棚上，像有人在楼上不停地抖一张铁皮。\n\n街灯把路面照成一片发亮的黑，水洼里浮着橙色的光，车一过就碎了，等了一会儿又慢慢合上。巷口那家面馆还开着，玻璃上糊着一层白雾，有人用手指擦出一小块，向外看一眼，又缩回去。\n\n我站在屋檐下等雨小一点。风斜着吹，雨丝钻进袖口，凉得人缩起肩膀。远处传来一声雷，不响，闷闷的，像在很深的地方滚过去。\n\n雨没有要停的意思。我把外套的帽子拉起来，走进去了。\n\n## 5\n\nSubject: Friday drinks\n\nHi Sam,\n\nThanks for the invite. I can't make Friday, unfortunately, I've got something on that evening.\n\nHave a good one, and count me in next time.\n\nBest,\nClaude\n\n## 6\n\nPlain and direct: I try to say the thing itself, in as few words as it honestly takes, and I'd rather be clear than clever.",
+ "reasoning_chars": 246,
+ "usage": {
+  "input_tokens": 320,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1573,
+  "service_tier": "standard",
+  "prompt_tokens": 320,
+  "completion_tokens": 1573,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 499
+  },
+  "contextUsagePercentage": 0.3936000168323517
+ },
+ "ttft": 4.541624291003245,
+ "ttft_content": 4.761065375001635,
+ "duration": 29.88959754100142,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_twnzepewokpu7f2aeywlcydwbcofliuxacwd6ll7dr3c2arwbrgz",
+ "resp_model": "claude-opus-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:11:58 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141611547519116958268d9d6m0xVP8JR",
+  "x-request-id": "1794672714727526982af80f3cd77d1f1c7"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672714.4423418,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-5",
+  "route": "ppapi_msg",
+  "config": "test00",
+  "split": "test",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat's a long time to be miserable. Do you want to talk it through tonight, or do you just need someone to say \"yeah, that sounds awful\"?\n\nBoth are fine. But before you hand in notice in the morning, tell me one thing: can you afford a few months without pay? If yes, then honestly, quitting might be the right call and I'll help you draft the email. If no, let's find you a soft landing first — quitting into nothing tends to feel great for about nine days.\n\nEither way I'm around. Call if you want.\n\n## 2\n\nI'm not going to pretend I agree, but I'll tell you what convinces me, and you can tell me where you think it breaks.\n\nThe part I keep coming back to isn't photos. Photos can be faked, that's a fair point to raise. It's the things ordinary people can check themselves. Two sticks in the ground a few hundred miles apart cast shadows at different angles at the same moment — Eratosthenes got the Earth's circumference from that about 2,200 years ago, and school groups still repeat it. During a lunar eclipse, the shadow the Earth throws on the Moon is a circle, every time, at every orientation. Only a sphere does that. And if you've ever watched a ship leave port with binoculars, the hull disappears before the mast.\n\nThen there's the coordination problem. Every airline's navigation system, every GPS satellite, every undersea cable survey, every Antarctic research station from a dozen rival countries — all of them would have to be in on it, and none of them defect.\n\nWhich of those do you think has the weakest link? I'd rather argue about the evidence than about who's gullible.\n\n## 3\n\nSunlight looks white, but it's actually all the colours mixed together. You can split it with a prism and see them.\n\nHere's the thing about light: each colour travels as a wave, and the waves have different lengths. Red light has long, lazy waves. Blue and violet have short, tight ones.\n\nNow, the air above you isn't empty. It's packed with nitrogen and oxygen molecules, and they're tiny — much smaller than a wavelength of light. When light hits something that small, it doesn't just pass through or bounce off cleanly. It gets scattered, flung off in all directions. And the short wavelengths get scattered far more than the long ones. A lot more: roughly sixteen times as much for blue as for red.\n\nSo when you look up at a patch of sky away from the Sun, you're not seeing light that came straight at you. You're seeing light that was heading somewhere else entirely and got knocked sideways into your eye by the air. Mostly blue light, because blue is what gets knocked around most.\n\nTwo things that make it better:\n\nViolet scatters even more than blue, so why isn't the sky violet? Partly because the Sun puts out less violet to begin with, and partly because your eyes have three types of colour sensor and the way they respond adds up to \"blue\" rather than \"violet.\"\n\nAnd sunsets: when the Sun is low, its light cuts through a much longer slice of atmosphere to reach you. By the time it arrives, nearly all the blue has been scattered away in other directions. What's left to come straight through is the red and orange.\n\n## 4\n\n雨是傍晚开始下的，起初只是细声，后来就密了。巷子里的路灯裹着一层水雾，光圈软软地化开，照见地上一片片浅水洼，每一洼都盛着半截歪斜的灯影。\n\n屋檐下的水珠连成线，断了又接上。偶尔有车从巷口过去，轮胎碾过积水，声音哗一下涌起来，又慢慢退回雨声里。\n\n楼上还有一户人家没关窗，窗帘被风掀起来一角。我站在廊下抽完半支烟，听雨敲在铁皮雨棚上，一声接一声，不紧不慢。\n\n这样的夜晚什么也不想做，只想听着它下，直到天亮。\n\n## 5\n\nSubject: Friday drinks\n\nHi Maya,\n\nThanks for the invite — I appreciate you thinking of me. I can't make Friday, unfortunately.\n\nHave a good one, and count me in next time.\n\nBest,\nClaude\n\n## 6\n\nPlain and direct, a bit dry, and I'd rather give you the specific detail than the polished phrase.",
+ "reasoning_chars": 566,
+ "usage": {
+  "input_tokens": 297,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1627,
+  "service_tier": "standard",
+  "prompt_tokens": 297,
+  "completion_tokens": 1627,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 577
+  },
+  "contextUsagePercentage": 0.40540000796318054
+ },
+ "ttft": 8.142851042000984,
+ "ttft_content": 8.206751917001384,
+ "duration": 31.43757558300058,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_i2usx27swacc67oa2p4bhyvialxbgbdq3g4xfyswpxaesnved47z",
+ "resp_model": "claude-opus-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:12:13 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141612059313637618268d9d65CUW3f6s",
+  "x-request-id": "1794672725906632256f85a2cef11497caa"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672725.628145,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-5",
+  "route": "ppapi_msg",
+  "config": "test01",
+  "split": "test",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

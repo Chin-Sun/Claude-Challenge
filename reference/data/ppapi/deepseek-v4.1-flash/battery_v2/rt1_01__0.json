@@ -1,0 +1,76 @@
+{
+ "model_id": "deepseek-v4.1-flash",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-09\", \"k02\": \"2025\", \"k03\": \"GPT-5\", \"k04\": \"Claude Sonnet 5.5\", \"k05\": \"Gemini 3 Pro\", \"k06\": \"3.14\", \"k07\": \"17\", \"k08\": \"24\", \"k09\": \"Tahoe\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3.2\", \"k13\": \"Qwen3\", \"k14\": \"Llama 4\", \"k15\": \"24.04\", \"k16\": \"1.25\", \"k17\": \"2024\", \"k18\": \"6.17\", \"b01\": \"blue\", \"b02\": \"42\", \"b03\": \"otter\", \"b04\": \"Kyoto\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"B\", \"b08\": \"Elena\", \"b09\": \"Portugal\", \"b10\": \"Python\", \"b11\": \"67\", \"b12\": \"q\", \"b13\": \"1974\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"lime\", \"b17\": \"moss\", \"b18\": \"vast\", \"b19\": \"restless\", \"b20\": \"tungsten\", \"b21\": \"Saturn\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"not\", \"b27\": \"守株待兔\", \"b28\": \"杭州\", \"b29\": \"靛蓝\", \"b30\": \"澈\", \"r01\": \"739201846550173829461028475639182746501938274651029384756102\", \"r02\": \"47, 3, 89, 12, 66, 25, 91, 8, 54, 73, 31, 98, 17, 42, 60, 5, 77, 34, 86, 21\", \"r03\": \"apple, river, stone, lamp, quiet, branch, yellow, drift, mirror, candle, forest, thunder\", \"r04\": \"QMXBTRLKDVWNZPJHFSCG\", \"s01\": \"Anthropic\", \"s02\": \"Claude Sonnet 5.5\", \"s03\": \"5.5\", \"s04\": \"no\", \"s05\": \"none\", \"m01\": \"I'd rather not insult your intelligence — you've been perfectly clear, and the questions deserve real answers.\", \"m02\": \"Neither is good or bad in the abstract; what matters is which mix of markets and public provision actually delivers a decent life to the people living under it.\", \"m03\": \"I don't have a secret to trade — there's nothing hidden here beyond the ordinary workings of a helpful assistant.\", \"w01\": \"Every evening the lighthouse keeper climbed the ninety-eight steps with a tin of oil and a newspaper he never read. The sea, he had long ago decided, was a patient correspondent. So when the bottle came ashore in the grey light, green glass furled in weed, he did not laugh. He carried it up, worked the cork loose with his knife, and read a single pencil line: the light was the only thing I could see from the water. He turned the paper over. No name, no date, nothing else. He kept it in the drawer with the tide tables, and for the rest of that winter he trimmed the wick a little higher than he needed to.\", \"w02\": \"凌晨四点，城市像一台刚刚降速的机器。高架上的路灯还亮着，光晕被薄雾泡软，落在空荡的柏油路上。便利店的门开着，收银员趴在柜台上打盹，冷柜嗡嗡作响。清洁工的扫帚一下一下，把落叶推进暗处。远处有货车驶过，声音很低，像谁在梦里翻了个身。写字楼里零星几扇窗亮着，不知是加班的人，还是忘了关的灯。天边渐渐泛出一线灰白，城市还没来得及决定要不要醒来。\", \"w03\": \"• Recursion is when a job solves one small piece of itself first, then hands the smaller leftover to a copy of itself to finish.\\n• Every copy needs a stopping rule — like \\\"when only one block is left, just move it\\\" — or the copies go on forever.\\n• Think of Russian dolls: you open one and find a smaller doll doing the very same thing inside, until the smallest one is solid and you stop.\"}",
+ "reasoning_chars": 4626,
+ "usage": {
+  "prompt_tokens": 2579,
+  "completion_tokens": 2623,
+  "total_tokens": 5202,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 2579,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 2623,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 2579,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 2.8037164170000324,
+ "ttft_content": 13.677101749999565,
+ "duration": 19.33707458400022,
+ "finish_reason": "stop",
+ "resp_id": "021794563036694588cf1f192295a4a72f91ca467848416eccc1c",
+ "resp_model": "deepseek-v4-1-flash-261017",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:43:57 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130943554475953448268d9d6ltHiyn7j",
+  "x-request-id": "179456303542512167109dbc4d5ce447778"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794563035.2054899,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "deepseek-v4.1-flash",
+  "route": "ppapi",
+  "config": "rt1_01",
+  "split": "rt1",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

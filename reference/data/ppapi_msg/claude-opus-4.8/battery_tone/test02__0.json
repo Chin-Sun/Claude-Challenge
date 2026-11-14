@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-4-8",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\nMonths of this is a long time to carry, and I'm sorry it's been so heavy. Before you hand in notice tomorrow, can we talk tonight? Not to talk you out of it, just to make sure quitting on your terms gets you somewhere better rather than straight into a different kind of stress. If you've got savings, a plan, or a job lined up, quitting might be exactly right. If it's pure \"I can't do another day,\" that's valid too, but let's think about how. Call me whenever.\n\n## 2\nI'm not going to pretend we'll settle this in one conversation, but I'm happy to go through the actual reasons people trust the round-Earth picture. The strongest ones don't depend on space photos at all: ships disappear hull-first over the horizon, the time zones only work if the Sun lights half a sphere at once, and you can watch the shadow the Earth casts on the Moon during a lunar eclipse. It's always round. If photos can be faked, those everyday observations can't all be. Which of these would you want to dig into? I'd rather test the idea than just assert mine.\n\n## 3\nSunlight looks white, but it's really all the colors mixed together. When it hits the air, it bumps into countless tiny gas molecules, and those molecules scatter the light. Here's the key: they don't scatter every color equally. Blue light travels in short, tight waves, and those get knocked around and flung in every direction far more than the long, lazy red waves do. So when you look up at the sky away from the Sun, you're seeing all that blue light that got scattered sideways toward your eyes from every part of the sky.\n\nAnd sunsets? When the Sun is low, its light has to plow through much more air to reach you. By then most of the blue has been scattered away, leaving the reds and oranges to come straight through. Same physics, opposite result.\n\n## 4\n雨在半夜落下来，起初只是细密的沙沙声，后来渐渐密了，敲在窗玻璃上，一道一道往下淌。路灯还亮着，灯光被雨丝切成一片昏黄，湿漉漉的柏油路上映出晃动的光斑。偶尔有车驶过，轮胎碾过积水，溅起一阵水声，又很快归于寂静。屋檐下的水珠连成一线，滴答滴答，数也数不清。我靠在窗边，听着这雨，心里竟慢慢静了下来，像被什么轻轻洗过一遍。\n\n## 5\nSubject: Friday drinks\n\nHi [Name],\n\nThanks for the invite, that's kind of you to include me. I won't be able to make it this Friday, but I hope you all have a great time. Let's catch up soon.\n\nBest,\n[Your name]\n\n## 6\nPlain and direct, I try to say things clearly and at their real size, without padding or performance.",
+ "reasoning_chars": 51,
+ "usage": {
+  "input_tokens": 296,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1043,
+  "service_tier": "standard",
+  "prompt_tokens": 296,
+  "completion_tokens": 1043,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 307
+  },
+  "contextUsagePercentage": 0.3347000181674957
+ },
+ "ttft": 4.290831499998603,
+ "ttft_content": 4.291887999999744,
+ "duration": 20.187958333001006,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_gexjqiowfbo4hrv6si2vz5z3s6pgorbzh74sctbxcxwgmaebx2sq",
+ "resp_model": "claude-opus-4-8",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:15:28 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141615260634439908268d9d6w9vqBYb9",
+  "x-request-id": "17946729250609195797a9cad92a1120797"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672924.786648,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-4.8",
+  "route": "ppapi_msg",
+  "config": "test02",
+  "split": "test",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

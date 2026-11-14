@@ -1,0 +1,81 @@
+{
+ "model_id": "gemini-3.8-flash",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nMan, I’m so sorry. If you’ve been dealing with that kind of misery for months, I completely understand why you've reached a breaking point. \n\nBefore you hand in your notice tomorrow, though, do you want to vent or talk through the logistics first? Quitting might 100% be the right move, but I don't want you to trade one kind of stress for another if you don't have a safety net or next step lined up. \n\nCall me tonight if you're free, or let me buy you dinner. Even if you still walk in tomorrow and quit, let’s make sure you do it on your terms with a clear head.\n\n## 2\n\nI understand being skeptical of official images, especially now when digital editing and CGI are so ubiquitous. But the evidence that the Earth is a sphere doesn't rely on space agencies or modern photography—people figured it out thousands of years ago using simple observation.\n\nFor example, during a lunar eclipse, the Earth casts a shadow on the Moon, and that shadow is always a smooth, circular arc no matter what angle the eclipse happens at; only a sphere casts a round shadow from every direction. You can also watch a ship sail away toward the horizon: the hull disappears first, followed gradually by the mast, from the bottom up. If the Earth were flat, a telescope would bring the whole ship back into view, but it doesn't. \n\nBeyond that, things like the differing constellations visible in the Northern versus Southern hemispheres, or how pilots calculate flight paths across the southern oceans, only work mathematically on a globe. You don't have to take anyone's word or trust a photo to test those things yourself.\n\n## 3\n\nSunlight looks white, but it’s actually a mix of all the colors of the rainbow combined together. \n\nLight travels in waves, and each color has a different wavelength. Red and orange light travel in long, lazy waves, while blue and violet light travel in short, choppy, frantic waves. \n\nWhen sunlight reaches Earth, it runs into our atmosphere, which is packed full of invisible gas molecules like nitrogen and oxygen. The long, red waves pass right through those molecules without bumping into much. But the short, choppy blue waves hit the gas molecules and scatter in every direction—like a pinball bouncing around bumpers. \n\nWhen you look up during the day, you’re looking at all that scattered blue light bouncing across the entire sky and down into your eyes. (You might wonder why it isn't violet, since violet has even shorter waves: sunlight naturally contains far more blue light than violet, and human eyes are much better at detecting blue!)\n\n## 4\n\n夜幕低垂，窗外的雨淅淅沥沥地下着，将白日里城市的喧嚣冲刷得干干净净。街灯在湿漉漉的沥青路面上晕开一圈圈昏黄的光晕，偶有车辆驶过，轮胎带起一层薄薄的水雾，转瞬又归于平静。密集的雨滴敲打着玻璃窗，发出清脆而有节奏的声响，宛如一首天然的催眠曲。屋内亮着一盏暖灯，捧一杯热茶，在这潮湿而微凉的夜色中，竟生出一种难得的安宁与惬意。\n\n## 5\n\nHi [Name],\n\nThanks so much for organizing this and sending the invite! \n\nUnfortunately, I won't be able to make it this Friday as I already have plans. I hope you all have a great time, and I'll definitely catch you at the next one.\n\nHave a great weekend,\n\n[My Name]\n\n## 6\n\nMy writing style is clear, adaptable, and direct, focused on delivering substance with a natural and context-appropriate tone.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 207,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1684,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 207,
+  "completion_tokens": 1684,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 207,
+    "completion_tokens": 1684,
+    "total_tokens": 1891,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 207,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 874
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 14.33721445899937,
+ "ttft_content": 14.33721445899937,
+ "duration": 18.328545416999987,
+ "finish_reason": "end_turn",
+ "resp_id": "chatcmpl-202611141631358153468518268d9d6xDZgHTdz",
+ "resp_model": "gemini-3.8-flash-tiered",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:31:49 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141631358153468518268d9d6xDZgHTdz",
+  "x-request-id": "1794673895441474566066221235b3d34fe"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673895.151319,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gemini-3.8-flash",
+  "route": "ppapi_msg",
+  "config": "ref02",
+  "split": "ref",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

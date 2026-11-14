@@ -66,16 +66,23 @@ def _gauss(st):
     return g[0], g[1]
 
 
-def _bag_p(st, tok, bg=None):
-    """P(token | model), shrunk towards the pooled background distribution."""
+def _bag_p(st, tok, bg=None, eps=0.0):
+    """P(token | model), shrunk towards the pooled background distribution.
+
+    eps is the share of an "overridden" component: the answer was dictated by the
+    system prompt (e.g. "when asked for a number say 81") and says nothing about
+    the model. It bounds the cost of an answer no model has ever given, and makes
+    that cost the same for every candidate including OTHER."""
     if bg is None or bg is st:
-        return (st["c"].get(tok, 0) + BAG_ALPHA / st["V"]) / (st["n"] + BAG_ALPHA)
-    prior = (bg["c"].get(tok, 0) + BAG_ALPHA / bg["V"]) / (bg["n"] + BAG_ALPHA)
-    return (st["c"].get(tok, 0) + BAG_ALPHA * prior) / (st["n"] + BAG_ALPHA)
+        p = (st["c"].get(tok, 0) + BAG_ALPHA / st["V"]) / (st["n"] + BAG_ALPHA)
+    else:
+        prior = (bg["c"].get(tok, 0) + BAG_ALPHA / bg["V"]) / (bg["n"] + BAG_ALPHA)
+        p = (st["c"].get(tok, 0) + BAG_ALPHA * prior) / (st["n"] + BAG_ALPHA)
+    return (1.0 - eps) * p + eps / st["V"]
 
 
 class Library:
-    def __init__(self, samples, weights, candidates=None):
+    def __init__(self, samples, weights, candidates=None, ghosts=True):
         """samples: dicts with model, paper, feats, bare (no system prompt), route."""
         self.cands = candidates or CANDIDATES
         self.w = weights
@@ -113,10 +120,50 @@ class Library:
                 if not vals or v - vals[-1] > PTOK_TOL:
                     vals.append(v)
             self.ptok_base[k] = vals
-        self.models = sorted(self.stats)
         self.papers_of = defaultdict(set)
         for (m, p), n in self.n_samples.items():
             self.papers_of[m].add(p)
+        self.ghosts = {}
+        if ghosts:
+            self._add_ghosts()
+        self.models = sorted(self.stats)
+
+    def _add_ghosts(self):
+        """Pool models with no reference answers still have to be answerable. Each gets
+        the pooled statistics of its same-name siblings ("a Claude we have not seen"),
+        or nothing at all (then it scores like OTHER) when the whole family is unseen."""
+        have = [m for m in self.stats if self.stats[m]]
+        for key, c in self.cands.items():
+            if not c.get("pool") or key in self.stats:
+                continue
+            sibs = [m for m in have if self.cands.get(m, {}).get("name") == c["name"]]
+            merged = {}
+            for m in sibs:
+                for name, st in self.stats[m].items():
+                    if name not in merged:
+                        merged[name] = {k: (v.copy() if hasattr(v, "copy") else v) for k, v in st.items()
+                                        if k != "g"}
+                        continue
+                    d = merged[name]
+                    if st["t"] == "bin":
+                        d["k"] += st["k"]
+                        d["n"] += st["n"]
+                    elif st["t"] == "bag":
+                        d["c"].update(st["c"])
+                        d["n"] += st["n"]
+                        d["m"] += st["m"]
+                    elif st["t"] == "lognum":
+                        d["xs"] = d["xs"] + st["xs"]
+                    elif st["t"] == "text":
+                        d["c"].update(st["c"])
+                        d["n"] += st["n"]
+                for (mm, paper), vals in list(self.ptok_base.items()):
+                    if mm == m:
+                        cur = self.ptok_base.setdefault((key, paper), [])
+                        cur.extend(v for v in vals if all(abs(v - x) > PTOK_TOL for x in cur))
+                self.papers_of[key] |= self.papers_of[m]
+            self.stats[key] = merged
+            self.ghosts[key] = sibs
 
     # ------------------------------------------------------------ likelihoods
     def _ll(self, st, ftype, value, bg=None):
@@ -133,7 +180,7 @@ class Library:
             toks = value[0]
             if not toks:
                 return 0.0
-            total = sum(math.log(_bag_p(st, t, bg)) for t in toks)
+            total = sum(math.log(_bag_p(st, t, bg, self.w.get("override", 0.0))) for t in toks)
             return total * min(1.0, BAG_EFF / len(toks))
         if ftype == "lognum":
             # Gaussian mixed with a flat outlier component, so one wildly-off number
@@ -147,9 +194,11 @@ class Library:
                 return 0.0
             V = len(self.vocab) + 1
             total = 0.0
+            eps = self.w.get("override_text", 0.0)   # style imposed by the system prompt
             for x in g:
                 p0 = (bg["c"].get(x, 0) + 0.5) / (bg["n"] + 0.5 * V)
-                total += math.log(p0 if bg is st else (st["c"].get(x, 0) + TEXT_MU * p0) / (st["n"] + TEXT_MU))
+                pm = p0 if bg is st else (st["c"].get(x, 0) + TEXT_MU * p0) / (st["n"] + TEXT_MU)
+                total += math.log((1.0 - eps) * pm + eps * p0)
             return total / len(g) * TEXT_EFF
         return 0.0
 
@@ -211,6 +260,8 @@ class Library:
     def prior(self, model):
         if model == OTHER:
             return self.w["other_prior"]
+        if model in self.ghosts:
+            return self.w.get("ghost_prior", 0.5)
         tier = str(self.cands.get(model, {}).get("tier", 2))
         return self.w["tier_prior"].get(tier, 1.0)
 

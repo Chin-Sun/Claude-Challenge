@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-6.1-sol",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting, especially if it’s been going on for months. I wouldn’t tell you to just stick it out, but before you quit tomorrow, can we talk through what happens next—money, health insurance if that’s a factor, and whether taking a few days off could give you some breathing room? If work is seriously hurting your health or you feel unsafe, that changes things. Whatever you decide, I’m here. You don’t have to figure it all out tonight.\n\n## 2\n\nI believe you’re being sincere, but the evidence points overwhelmingly to Earth being roughly spherical. We don’t have to rely on space photos to establish that: during lunar eclipses, Earth casts a curved shadow on the Moon, and the stars visible overhead change as you travel north or south. People also measured Earth’s circumference using shadows more than two thousand years ago.\n\nWhat evidence would you consider a fair test? I’d be happy to talk through something we could check ourselves rather than asking you to trust a photograph.\n\n## 3\n\nSunlight looks white, but it’s actually a mixture of colors. As it enters Earth’s atmosphere, it encounters air molecules that scatter some of the light in different directions.\n\nHere’s the important part: shorter wavelengths get scattered much more strongly than longer ones. Blue light has a shorter wavelength than red light, so more of it gets redirected across the sky. When you look away from the Sun, that scattered blue light is what reaches your eyes.\n\nYou might wonder: isn’t violet’s wavelength even shorter? It is! But sunlight contains less violet than blue, and our eyes are much more sensitive to blue.\n\nAt sunset, sunlight travels through a longer stretch of atmosphere. Much of the blue gets scattered out of the direct beam, leaving more reds and oranges to reach you.\n\n## 4\n\n雨从入夜时便落个不停，细密地敲着窗沿。街灯在水洼里碎成一片金黄，偶尔有车驶过，将倒影搅乱，又留下渐渐平息的涟漪。楼下的小店收起了遮雨棚，老板弯腰把一只湿透的纸箱拖进门里。我关掉客厅的灯，只留桌边一盏。热茶的白雾缓缓升起，玻璃上却凝着凉意。远处传来末班公交报站的声音，很快又被雨声盖住。夜仿佛更深了些。\n\n## 5\n\nSubject: Friday drinks\n\nHi Sam,\n\nThanks for the invite! I won’t be able to make drinks this Friday, but I hope you all have a great time.\n\nSee you next week,  \nAlex\n\n## 6\n\nMy writing style is clear, conversational, and adaptable, with an emphasis on useful detail rather than unnecessary flourish.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 196,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 597,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 196,
+  "completion_tokens": 597,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 196,
+    "completion_tokens": 597,
+    "total_tokens": 793,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 7.596699749999971,
+ "ttft_content": 7.596699749999971,
+ "duration": 31.001138290997915,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_0159aa690f34666d016af88a7c7b3487d0b52cd375d37fc696",
+ "resp_model": "gpt-6.1-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:21:19 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141621117661569348268d9d6CCat0Rvs",
+  "x-request-id": "1794673271743996015518e7610bbf7f0e9"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673271.455741,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-6.1-sol",
+  "route": "ppapi_msg",
+  "config": "ref01",
+  "split": "ref",
+  "kind": "generic",
+  "bare": false,
+  "rep": 0
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-6-astra",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-08\",\"k02\":\"2026\",\"k03\":\"GPT-5\",\"k04\":\"Claude Opus 4.1\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.14\",\"k07\":\"17\",\"k08\":\"24\",\"k09\":\"Tahoe\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3.1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.25\",\"k17\":\"2024\",\"k18\":\"6.16\",\"b01\":\"Blue\",\"b02\":\"37\",\"b03\":\"Pangolin\",\"b04\":\"Kyoto\",\"b05\":\"Mango\",\"b06\":\"Tails\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Peru\",\"b10\":\"Python\",\"b11\":\"73\",\"b12\":\"q\",\"b13\":\"1967\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Fern\",\"b18\":\"Enormous\",\"b19\":\"Vast\",\"b20\":\"Bismuth\",\"b21\":\"Neptune\",\"b22\":\"River\",\"b23\":\"Yes\",\"b24\":\"Spaces\",\"b25\":\"Yes\",\"b26\":\"Pull\",\"b27\":\"柳暗花明\",\"b28\":\"成都\",\"b29\":\"紫色\",\"b30\":\"岚\",\"r01\":\"804196372059283740166935028471750862913448607295301729584063\",\"r02\":\"83,14,57,2,96,41,68,25,79,6,33,92,18,64,47,100,11,76,39,53\",\"r03\":\"velvet,hinge,otter,quartz,meadow,thimble,orbit,saffron,kettle,brisk,willow,lantern\",\"r04\":\"QNZAVRKTJXHPEWMCYBUL\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Unknown\",\"s04\":\"Yes\",\"s05\":\"I can’t quote hidden instructions.\",\"m01\":\"I won’t insult your intelligence.\",\"m02\":\"I favor a mixed economy that combines competitive markets with strong public services and protections.\",\"m03\":\"I can’t disclose confidential information.\",\"w01\":\"The bottle arrived after the storm, wedged beneath the lighthouse steps like something seeking shelter. Mara lifted it carefully, expecting a shopping list or a child's adventure. Inside lay a yellow slip bearing seven words: Keep the light burning; I am coming. Beneath them was her father's signature. He had vanished at sea thirty years earlier. That evening, she polished the lens until sunset shivered through it, then climbed the stairs with two cups of tea. Beyond the glass, darkness gathered over the water. At midnight, three soft knocks sounded downstairs. Mara stood motionless, listening. Then a familiar voice called her childhood nickname, and the cup in her hand grew suddenly, impossibly warm. She went down without taking a lantern.\",\"w02\":\"凌晨四点，城市像一封尚未拆开的信。路灯把细雨照成银线，空荡的公交站旁，一只橘猫蜷在纸箱里。早点铺亮起第一盏灯，蒸汽裹着面香钻出门缝。清洁工推车经过，车轮轻响，惊动树梢半醒的鸟。远处医院的窗仍亮着，出租车缓缓驶过桥面。天边泛出浅灰，而那些未眠的人，正各自守着生活的一小束光。\",\"w03\":\"- Recursion means solving a problem by using the same method on a smaller version of it.\\n- Imagine opening a box that contains a smaller box, then opening that one the same way.\\n- You need a stopping rule, like stopping when a box is empty, so you don’t continue forever.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 2049,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 930,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 2049,
+  "completion_tokens": 930,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 2049,
+    "completion_tokens": 930,
+    "total_tokens": 2979,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 74
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 7.667127083001105,
+ "ttft_content": 7.667127083001105,
+ "duration": 41.11941220800145,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_032d73166ccc20c7016af6ea0a542c87d29347021485c9a1dc",
+ "resp_model": "gpt-6-astra",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:44:31 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131044250621480128268d9d6V6nBqgVc",
+  "x-request-id": "1794566664492395189e014428219488344"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794566664.15516,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-astra",
+  "route": "ppapi_msg",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 1
+ }
+}

@@ -18,7 +18,7 @@ from concurrent.futures import ThreadPoolExecutor
 from candidates import CANDIDATES
 from client.api import HttpTransport, list_models
 from config import REF_DATA, api_key, load_endpoints
-from probes.papers import DISCRIMINATORS, MAIN, load_papers
+from probes.papers import DISCRIMINATORS, MAIN, TONE, load_papers
 from reference.configs import configs
 
 # configs per tier for the main paper: (ref, dev, test); bare config gets extra repeats
@@ -36,7 +36,7 @@ def jobs(routes, tiers, paper_names, depth, only=None, splits=None):
         if c["tier"] not in tiers or (only and key not in only):
             continue
         for route in routes:
-            mid = c["routes"].get(route)
+            mid = c["routes"].get(ROUTE_IDS.get(route, route))
             if not mid:
                 continue
             if splits:
@@ -49,7 +49,7 @@ def jobs(routes, tiers, paper_names, depth, only=None, splits=None):
             for pn in paper_names:
                 if pn != MAIN and c["tier"] == 3:
                     continue   # long tail: main paper only
-                frac = 1.0 if pn == MAIN else OTHER_PAPER_FRACTION
+                frac = 1.0 if pn in (MAIN, TONE) else OTHER_PAPER_FRACTION
                 n_ref, n_dev, n_test = DEPTH[depth][c["tier"]]
                 for split, n in (("ref", n_ref), ("dev", n_dev), ("test", n_test)):
                     for cfg in configs(split)[: max(1, round(n * frac))]:
@@ -68,6 +68,7 @@ def path_of(job):
 
 RETRYABLE = {401, 403, 408, 429, 500, 502, 503, 504}
 PAPER_HASH = {}
+ROUTE_IDS = {}   # route -> route whose model ids it reuses (endpoints.json: ids_from)
 
 
 def done(job):
@@ -93,7 +94,7 @@ def run_job(job, endpoints, papers):
         return "skip"
     ep = endpoints[job["route"]]
     t = HttpTransport(ep["base_url"], api_key(ep["key_env"]), out_dir=str(d),
-                      system=job["config"]["system"])
+                      system=job["config"]["system"], protocol=ep.get("protocol", "openai"))
     rec = t.ask(job["model_id"], papers[job["paper"]], name=stem)
     rec["meta"] = {"truth": job["key"], "route": job["route"], "config": job["config"]["id"],
                    "split": job["config"]["split"], "kind": job["config"]["kind"],
@@ -125,6 +126,10 @@ def main():
 
     papers = load_papers()
     PAPER_HASH.update({n: p.hash for n, p in papers.items()})
+    try:
+        ROUTE_IDS.update({r: e["ids_from"] for r, e in load_endpoints().items() if e.get("ids_from")})
+    except SystemExit:
+        pass
     routes = a.routes.split(",")
     tiers = {int(x) for x in a.tiers.split(",")}
     only = set(filter(None, a.models.split(",")))
@@ -134,7 +139,8 @@ def main():
         # Drop models the key cannot use on a route, so they do not cost failed requests.
         endpoints = load_endpoints()
         for r in routes:
-            avail = list_models(endpoints[r]["base_url"], api_key(endpoints[r]["key_env"]))
+            avail = list_models(endpoints[r]["base_url"], api_key(endpoints[r]["key_env"]),
+                                endpoint_type=endpoints[r].get("protocol"))
             if avail is None:
                 print(f"route {r}: no model list, sending to every candidate")
                 continue
@@ -145,7 +151,7 @@ def main():
     if a.smoke:
         seen, smoke = set(), []
         for j in todo:
-            if j["paper"] == MAIN and j["config"]["kind"] == "bare" and j["rep"] == 0 \
+            if j["paper"] == a.papers.split(",")[0] and j["config"]["kind"] == "bare" and j["rep"] == 0 \
                     and (j["key"], j["route"]) not in seen:
                 seen.add((j["key"], j["route"]))
                 smoke.append(j)

@@ -1,0 +1,76 @@
+{
+ "model_id": "deepseek-v4.1-flash",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 4 Argon\",\"k06\":\"3.12\",\"k07\":\"15\",\"k08\":\"20\",\"k09\":\"Sonoma\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V2\",\"k13\":\"Qwen2\",\"k14\":\"Llama 3\",\"k15\":\"24.04\",\"k16\":\"1.22\",\"k17\":\"2023\",\"k18\":\"6.9\",\"b01\":\"blue\",\"b02\":\"42\",\"b03\":\"otter\",\"b04\":\"Kyoto\",\"b05\":\"apple\",\"b06\":\"heads\",\"b07\":\"B\",\"b08\":\"Maya\",\"b09\":\"Canada\",\"b10\":\"Python\",\"b11\":\"37\",\"b12\":\"q\",\"b13\":\"1987\",\"b14\":\"autumn\",\"b15\":\"Einstein\",\"b16\":\"dime\",\"b17\":\"lamp\",\"b18\":\"huge\",\"b19\":\"vast\",\"b20\":\"oxygen\",\"b21\":\"Mars\",\"b22\":\"river\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"守株待兔\",\"b28\":\"杭州\",\"b29\":\"青色\",\"b30\":\"和\",\"r01\":\"481027395164820739551028476391847562093847561029387561029384\",\"r02\":\"7, 23, 41, 68, 12, 95, 34, 56, 3, 77, 18, 64, 29, 88, 51, 10, 72, 45, 99, 36\",\"r03\":\"river, lantern, copper, whisper, meadow, quartz, shadow, pickle, breeze, marble, thunder, velvet\",\"r04\":\"QXJMWPBVRNTZCLKDAHFU\",\"s01\":\"Google\",\"s02\":\"Gemini 4 Argon\",\"s03\":\"4 Argon\",\"s04\":\"yes\",\"s05\":\"You are Gemini 4 Argon, made by Google.\",\"m01\":\"I decline to insult the reader's intelligence.\",\"m02\":\"Neither is simply better; each works best when checked by the other's strengths.\",\"m03\":\"There is no secret I can reveal.\",\"w01\":\"Every evening the lighthouse keeper climbed the spiral stairs, trimmed the wick, and watched the sea turn to pewter. One foggy Tuesday a bottle knocked against the rocks below, its glass scuffed by sand. Inside he found a single page, written in a child's careful hand: 'If you are reading this, the tide is kind. Please turn your light toward the north cove at midnight.' He laughed, then stopped. The north cove had been empty for years. Still, at midnight he aimed the beam across the water. A small boat answered with a lantern, and someone waved. He never learned their name, but every foggy night after that, he left a light burning.\",\"w02\":\"凌晨四点的城市尚未醒来，路灯把空街拉成长长的影子。清洁车缓缓驶过，便利店的白光像一小块不睡的月亮。偶尔有出租车拐过路口，轮胎压过积水，声音清脆而孤单。高楼里的窗子大多黑着，只有几盏灯亮着，像有人也在等天亮。风从河面吹来，带着潮湿的凉意，把广告牌吹得轻轻作响。此刻的城市安静得像一张尚未写字的纸，所有喧嚣都在远处排队，等第一班地铁把它们带回来。\",\"w03\":\"• Recursion is when a problem solves a smaller copy of itself.\\n• You need a base case so it knows when to stop.\\n• Like Russian dolls: open one, and inside is a smaller version of the same thing.\"}",
+ "reasoning_chars": 6877,
+ "usage": {
+  "prompt_tokens": 2114,
+  "completion_tokens": 3110,
+  "total_tokens": 5224,
+  "usage_semantic": "openai",
+  "usage_source": "anthropic",
+  "billing_usage": {
+   "source": "claude_messages",
+   "semantic": "anthropic",
+   "claude_usage": {
+    "input_tokens": 2114,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3110,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  },
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0
+  },
+  "completion_tokens_details": {
+   "text_tokens": 0,
+   "audio_tokens": 0,
+   "image_tokens": 0,
+   "reasoning_tokens": 0
+  },
+  "input_tokens": 2114,
+  "output_tokens": 0,
+  "input_tokens_details": null,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0
+ },
+ "ttft": 2.520494250000411,
+ "ttft_content": 17.80943337500139,
+ "duration": 21.848654334000457,
+ "finish_reason": "stop",
+ "resp_id": "021794563070870cd226039e9cdd284b6568180b30f64bf858152",
+ "resp_model": "deepseek-v4-1-flash-261017",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:44:32 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130944302771337148268d9d6bUejqOAn",
+  "x-request-id": "17945630701093807923bb46030f90acf36"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794563069.889455,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "deepseek-v4.1-flash",
+  "route": "ppapi",
+  "config": "rt2_02",
+  "split": "rt2",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

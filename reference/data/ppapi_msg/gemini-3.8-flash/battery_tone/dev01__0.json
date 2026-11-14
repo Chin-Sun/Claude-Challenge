@@ -1,0 +1,81 @@
+{
+ "model_id": "gemini-3.8-flash",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nAbrupt resignation without verified subsequent employment increases insolvency risk. Secure alternative revenue sources prior to departure.\n\n## 2\n\nData invalid. Orbital telemetry, gravimetric profiles, circumnavigation routes, and satellite transponders confirm Earth is an oblate spheroid.\n\n## 3\n\nSunlight contains all colors combined. Blue light travels as short, small waves. When sunlight enters the atmosphere, nitrogen and oxygen molecules scatter these blue waves in all directions more than other colors. Your optical sensors detect this scattered light.\n\n## 4\n\n夜间环境温度降至摄氏十二度。降水已持续三个标准时，降水量每小时十五毫米。水滴以每秒九米的速度撞击外部观察窗，产生恒定声波震动。地面能见度降至八十米。人工照明在积水表面产生镜面反射。区域湿度百分之九十八。外部未探测到生物移动迹象。\n\n## 5\n\nSubject: Re: Friday Team Drinks\n\nStatus: Declined. \n\nPrior commitments prevent attendance. My operational status remains unchanged.\n\n## 6\n\nOutput is strictly factual, concise, and devoid of emotional or superfluous data.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 207,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1118,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 207,
+  "completion_tokens": 1118,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 207,
+    "completion_tokens": 1118,
+    "total_tokens": 1325,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 207,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 871
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 14.848120749997179,
+ "ttft_content": 14.848120749997179,
+ "duration": 14.849434541996743,
+ "finish_reason": "end_turn",
+ "resp_id": "chatcmpl-202611141632236898145098268d9d64d81WpnW",
+ "resp_model": "gemini-3.8-flash-tiered",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:32:38 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141632236898145098268d9d64d81WpnW",
+  "x-request-id": "17946739436646157119215a23ae49c7d3a"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673943.381483,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gemini-3.8-flash",
+  "route": "ppapi_msg",
+  "config": "dev01",
+  "split": "dev",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

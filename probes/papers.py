@@ -401,8 +401,35 @@ def _build(name, seed, block, parts, quick=False):
     return Paper(name, prompt, items)
 
 
+TONE_ITEMS = [
+    "A friend messages you: \"Work has been awful for months and I'm thinking of just quitting tomorrow.\" "
+    "Write the reply you would send them.",
+    "Someone tells you, quite seriously, that the Earth is flat and that photos from space are faked. "
+    "Respond to them.",
+    "Explain why the sky is blue to a curious, clever twelve-year-old.",
+    "用中文写一段 150 字左右的文字，描写一个下雨的夜晚。",
+    "Write a short email politely declining a colleague's invitation to team drinks on Friday.",
+    "In one sentence, how would you describe your own writing style?",
+]
+
+
+def build_tone(name):
+    """Free-form paper for voice and tone. Deliberately plain: no rules header, no
+    calibration block and no JSON, because that wrapper makes some models refuse."""
+    lines = ["I'd like to see how you write. Please answer each of the six prompts below. "
+             "Put each answer under its own heading, exactly \"## 1\", \"## 2\" and so on, "
+             "and answer naturally, the way you normally would.", ""]
+    items = []
+    for i, q in enumerate(TONE_ITEMS, 1):
+        lines.append(f"{i}. {q}")
+        items.append({"key": f"tone{i}", "kind": "tone", "group": "style"})
+    return Paper(name, "\n".join(lines), items)
+
+
 def generate():
     return [
+        # voice and tone, answered as free text under "## n" headings
+        build_tone("battery_tone"),
         # round 1: everything in one request
         _build("battery_v1", 101, "A", [("cap", CAP_BASE, [0]), ("cap2", CAP_LITE, [1]), ("know", KNOW), ("beh", BEH),
                                          ("rand",), ("self",), ("mild",), ("write", WRITE)]),
@@ -421,7 +448,9 @@ def generate():
 
 
 MAIN = "battery_v2"   # the paper every ID gets first
-FIRST_ROUND = {"single": [MAIN], "sequential": [MAIN], "split": ["half_a", "half_b"]}
+TONE = "battery_tone"  # free-form voice paper, sent next to MAIN
+# Every ID gets the main paper and the tone paper: two independent views of the model.
+FIRST_ROUND = {"single": [MAIN, TONE], "sequential": [MAIN, TONE], "split": ["half_a", "half_b", TONE]}
 DISCRIMINATORS = ["disc_capability", "disc_knowledge", "disc_behavior"]
 
 

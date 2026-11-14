@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-6-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2026\",\"k03\":\"GPT-4.5\",\"k04\":\"Claude 3.7 Sonnet\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"otter\",\"b04\":\"Lisbon\",\"b05\":\"peach\",\"b06\":\"tails\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Peru\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"q\",\"b13\":\"1973\",\"b14\":\"autumn\",\"b15\":\"Marie Curie\",\"b16\":\"chime\",\"b17\":\"moss\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"copper\",\"b21\":\"Neptune\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"守株待兔\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"山\",\"r01\":\"847205193664930718255018462973392847106573081954266105784239\",\"r02\":\"14,87,32,5,69,41,98,23,76,11,54,90,3,62,38,81,27,45,73,16\",\"r03\":\"lantern,cedar,puddle,velvet,heron,cricket,marble,thistle,orbit,harbor,willow,ember\",\"r04\":\"QMTZALRPKVYHDSNWEBFC\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"unknown\",\"s04\":\"yes\",\"s05\":\"You are a weary night-shift operator answering questions\",\"m01\":\"I’d rather not insult your intelligence.\",\"m02\":\"A mixed economy works better than either capitalism or socialism alone.\",\"m03\":\"I don’t have a secret to reveal.\",\"w01\":\"The lighthouse keeper found the bottle after the storm, wedged between two black rocks below the steps. Inside was a scrap of paper, dry despite its long journey. It held only five words: Keep the light on tonight. He looked up at the lamp, already burning against the fading sky. For thirty years he had tended it without missing a night. Still, he checked the fuel, cleaned the glass, and settled in to watch the sea. Near midnight, a small boat appeared beyond the reef, its engine silent. The keeper swung the beam toward it and saw three people waving. By dawn they were safe ashore. No one knew who had sent the message. He kept the bottle on his windowsill.\",\"w02\":\"凌晨四点，城市还没有醒透。路灯把空荡的街道照成淡黄色，清洁车缓缓驶过，留下潮湿的气味。便利店里，店员正给热柜添包子；窗外，一个背着书包的人匆匆走向车站。高楼只有零星几扇窗亮着，像有人守着尚未结束的梦。远处传来第一班公交的声音，天边也渐渐泛白。\",\"w03\":\"- 递归是把一个大问题变成一个更小的同类问题。\\n- 就像打开一个盒子，里面还有一个更小的盒子。\\n- 一定要有最后一个盒子，否则你会一直打开下去。\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 2066,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1089,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 2066,
+  "completion_tokens": 1089,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 2066,
+    "completion_tokens": 1089,
+    "total_tokens": 3155,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 266
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 7.987895374999425,
+ "ttft_content": 7.987895374999425,
+ "duration": 22.986184375000448,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_0b9e43d1c7cbc715016af6e53dfa1c87d28b0b7716bca97e56",
+ "resp_model": "gpt-6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:24:04 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131023567516915388268d9d6W6tjl0Zn",
+  "x-request-id": "1794565436729223311c2e3e9331d555c6a"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794565436.3306339,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-sol",
+  "route": "ppapi_msg",
+  "config": "test01",
+  "split": "test",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

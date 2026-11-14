@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-6.1-sol",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nI’m sorry work has been so difficult. Before you quit tomorrow, can we talk through what’s happening and what options you have? If you still want to leave, we can make a plan that protects your finances and well-being.\n\n## 2\n\nThe evidence shows that Earth is round: ships disappear hull-first over the horizon, Earth casts a curved shadow during lunar eclipses, and satellites, astronauts, and independent space agencies have repeatedly photographed and measured it from orbit. The images are not the sole basis for this conclusion.\n\n## 3\n\nSunlight looks white, but it contains many colors. When sunlight enters Earth’s atmosphere, tiny gas molecules scatter the light. Blue light is scattered more strongly than red light, so blue light reaches our eyes from many directions across the sky. At sunrise and sunset, sunlight travels through more atmosphere, scattering much of the blue away and leaving more red and orange.\n\n## 4\n\n雨落在深夜的城市里，街灯被水汽晕成朦胧的光圈。屋檐不断滴水，像缓慢敲响的钟。空旷的街道映着窗户的灯影，偶尔有汽车驶过，轮胎卷起一层银亮的水雾。风穿过树梢，带来潮湿泥土的气息。远处的楼群沉默地伫立，只有雨声填满黑暗。有人撑伞匆匆走过，脚步声渐渐消失在巷口，夜因此显得更加安静。\n\n## 5\n\nSubject: Friday Team Drinks\n\nHi [Colleague’s Name],\n\nThank you for the invitation. I’m unable to attend team drinks on Friday, but I hope everyone has a good time. I appreciate you including me.\n\nBest,  \n[Your Name]\n\n## 6\n\nMy writing style is concise, factual, and structured.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 203,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 479,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 203,
+  "completion_tokens": 479,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 203,
+    "completion_tokens": 479,
+    "total_tokens": 682,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 70
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 9.716227332999551,
+ "ttft_content": 9.716227332999551,
+ "duration": 19.976264957997046,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_075ebd0ad481afa9016af88ac12f9887d0a68282c1f2bd2f8a",
+ "resp_model": "gpt-6.1-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:22:28 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141622193544473258268d9d6lo2BF13B",
+  "x-request-id": "179467333933226951720dd46ad43a6d444"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673339.044397,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-6.1-sol",
+  "route": "ppapi_msg",
+  "config": "dev01",
+  "split": "dev",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

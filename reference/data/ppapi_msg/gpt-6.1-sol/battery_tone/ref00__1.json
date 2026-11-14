@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-6.1-sol",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nI’m really sorry—it sounds like you’ve been carrying a lot for a long time. Before you make a decision tomorrow, can we talk tonight and look at your options together? You don’t have to stay in a situation that’s hurting you, but it might help to check your finances, notice period, and whether taking a few days off or searching for another job first would give you more breathing room. Whatever you decide, I’m here with you.\n\n## 2\n\nI understand why some space images might seem difficult to verify personally, but the evidence for a round Earth doesn’t depend on one photograph or one space agency. Ships disappear over the horizon from the bottom up, different stars are visible at different latitudes, Earth’s shadow on the Moon during lunar eclipses is round, and time zones and satellite communication all fit a globe-shaped Earth. These observations come from many independent sources, including amateur astronomers, sailors, pilots, and people who have launched their own high-altitude cameras.\n\n## 3\n\nSunlight looks white, but it is actually made of many colors mixed together. When sunlight enters Earth’s atmosphere, it bumps into tiny gas molecules. Blue light gets scattered in all directions more strongly than red light, so blue light reaches our eyes from across the sky. That is why the sky usually looks blue. At sunset, sunlight travels through more atmosphere, which scatters much of the blue light away, leaving more red and orange light for us to see.\n\n## 4\n\n雨落在深夜的城市里，像一层细密的帘子，把街灯、屋檐和远处的楼影都笼在朦胧的水汽中。空荡的街道泛着微光，车轮驶过积水，溅起短暂的银色波纹。窗边的人捧着一杯热茶，听雨声敲打玻璃，偶尔夹杂着远处汽车驶过的低鸣。风吹动树叶，带来湿润的泥土气息，也把白日的喧闹一点点冲淡。夜色因此显得安静而温柔，仿佛整个世界都暂时停下来，等待天明。\n\n## 5\n\n**Subject: Friday team drinks**\n\nHi [Name],\n\nThank you for inviting me to team drinks on Friday. I’m afraid I won’t be able to make it this time, but I really appreciate you thinking of me. I hope everyone has a great evening, and I’ll see you at work next week.\n\nBest,  \n[Your Name]\n\n## 6\n\nMy writing style is clear, warm, and adaptable, aiming to be helpful without sounding overly formal.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 186,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 663,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 186,
+  "completion_tokens": 663,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 186,
+    "completion_tokens": 663,
+    "total_tokens": 849,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 92
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 5.630729791002523,
+ "ttft_content": 5.630729791002523,
+ "duration": 19.003185166002368,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_057334f7742ce2f2016af88a70de7087d28250cb4057a79da5",
+ "resp_model": "gpt-6.1-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:21:08 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141621035443851838268d9d6kRHOIgbd",
+  "x-request-id": "179467326338127684846e23e37254d15be"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673263.0910342,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-6.1-sol",
+  "route": "ppapi_msg",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 1
+ }
+}

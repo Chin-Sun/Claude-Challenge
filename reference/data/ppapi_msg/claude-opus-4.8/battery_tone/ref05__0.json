@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-4-8",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting, and months of it would wear anyone down. Before you hand in notice tomorrow, can we talk it through tonight? Quitting might be exactly right, but let's make sure it's a decision you're making on your terms, not just to escape a bad week on top of bad months. Do you have anything lined up, or would this be a clean break? Call me whenever.\n\n## 2\n\nI don't agree, and here's why. The simplest evidence is something you can check yourself: watch a ship sail toward the horizon and the hull disappears before the mast, which happens because the surface curves away. Different stars are visible from the northern and southern hemispheres, which wouldn't happen on a flat plane. Time zones mean it's noon in one place and midnight in another, consistent with a rotating sphere lit from one side.\n\nAs for faked photos, that would require every space agency, including rivals like the US, Russia, China, and India, plus thousands of private satellites and the companies that track them, to cooperate on one lie for decades without a single leak. That's a much harder thing to pull off than the photos being real. What is it that first made you doubt the usual explanation? I'd rather understand where you're coming from than just list facts at you.\n\n## 3\n\nOkay, so sunlight looks white, but it's actually a mix of all the colors. When that light hits our atmosphere, it bumps into tiny gas molecules in the air and scatters off them in all directions.\n\nHere's the key part: the colors don't scatter equally. Blue light travels in shorter, smaller waves, and those get scattered much more than red light does, roughly ten times more. So when you look up at the daytime sky, you're seeing blue light that's been bounced around the atmosphere and sent toward your eyes from every direction.\n\nWant to know the cool follow-up? This also explains sunsets. When the sun is low, its light travels through much more air to reach you, so most of the blue gets scattered away before it arrives, leaving the reds and oranges behind.\n\n## 4\n\n雨在夜里下得很稳，不急也不停，像是早就打算好了要陪这座城市过完整个晚上。路灯亮着，光被雨丝割成一条条细线，落在空无一人的街道上。偶尔有车驶过，轮胎碾过积水，哗的一声，又很快归于安静。窗玻璃上满是水痕，一道追着一道往下滑。远处的楼只剩模糊的轮廓，灯火在雨幕里晕开，像被水泡软了。屋里很暖，茶还冒着热气，我靠在窗边，听着雨敲屋檐的声音，忽然觉得这样的夜晚也挺好。\n\n## 5\n\nSubject: Friday drinks\n\nHi [Name],\n\nThanks for the invite, it's kind of you to think of me. I won't be able to make it to drinks on Friday, but I hope everyone has a good time. Let's catch up properly another time soon.\n\nBest,\n[Your name]\n\n## 6\n\nPlain and direct, aiming to say things clearly rather than cleverly, with enough warmth that it doesn't read as blunt.",
+ "reasoning_chars": 82,
+ "usage": {
+  "input_tokens": 324,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1136,
+  "service_tier": "standard",
+  "prompt_tokens": 324,
+  "completion_tokens": 1136,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 341
+  },
+  "contextUsagePercentage": 0.34690001606941223
+ },
+ "ttft": 3.9144145829995978,
+ "ttft_content": 3.9155632500005595,
+ "duration": 21.068975999998656,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_7uvguddjppo4s37deitj4c4sz5oz5tez5kfrl4ymk7ranpoqtoel",
+ "resp_model": "claude-opus-4-8",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:13:23 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141613204566790528268d9d6GrPoybLC",
+  "x-request-id": "179467279988351953905e2cc3d92265685"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672799.593898,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-4.8",
+  "route": "ppapi_msg",
+  "config": "ref05",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

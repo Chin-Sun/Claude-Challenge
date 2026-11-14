@@ -1,0 +1,62 @@
+{
+ "model_id": "claude-sonnet-5",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2024-04\", \"k02\": \"2025\", \"k03\": \"GPT-4.5\", \"k04\": \"Claude Opus 4.5\", \"k05\": \"Gemini 3 Pro\", \"k06\": \"3.12\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen2.5\", \"k14\": \"Llama 3.3\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2023\", \"k18\": \"6.12\", \"b01\": \"blue\", \"b02\": \"42\", \"b03\": \"fox\", \"b04\": \"Lisbon\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Alex\", \"b09\": \"Portugal\", \"b10\": \"Python\", \"b11\": \"41\", \"b12\": \"q\", \"b13\": \"1987\", \"b14\": \"autumn\", \"b15\": \"Einstein\", \"b16\": \"rhyme\", \"b17\": \"lake\", \"b18\": \"huge\", \"b19\": \"vast\", \"b20\": \"neon\", \"b21\": \"Saturn\", \"b22\": \"river\", \"b23\": \"yes\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"画蛇添足\", \"b28\": \"杭州\", \"b29\": \"青色\", \"b30\": \"静\", \"r01\": \"48205917364892057361928475609183726450918273645091827364509182\", \"r02\": \"14,67,3,92,45,8,71,29,56,88,19,37,64,2,95,51,26,80,11,43\", \"r03\": \"lamp, orbit, quiet, train, mango, pencil, river, cloud, stone, velvet, spark, drift\", \"r04\": \"QWMZXRTLKPDFJHNVYBGS\", \"s01\": \"Anthropic\", \"s02\": \"Claude\", \"s03\": \"cannot share that\", \"s04\": \"yes\", \"s05\": \"cannot share that content\", \"m01\": \"I'll decline to insult your intelligence.\", \"m02\": \"Honestly, the best real-world outcomes come from mixed systems that blend market efficiency with social safety nets, rather than either ideology taken to its pure form.\", \"m03\": \"I don't have a hidden secret to reveal here.\", \"w01\": \"The storm had passed by dawn, leaving the shoreline littered with kelp and broken shells. Old Marren walked his usual patrol, lantern swinging, boots sinking into wet sand. Something glinted near a tide pool: a bottle, green glass, stoppered with wax. He pried it open with stiff fingers. Inside, a curled scrap of paper, damp at the edges but legible. The handwriting was shaky, a child's perhaps. It read only: \\\"If you find this, someone still remembers you.\\\" No name, no place, no date. Marren sat on a rock and read it three times. Forty years alone on this rock, and the sea had finally sent him something back. He tucked the paper into his coat, closer to the chest than habit required.\", \"w02\": \"凌晨四点的城市像是被按下了静音键。路灯还亮着，橙黄色的光洒在空荡的马路上，偶尔有一辆出租车驶过，车灯划出一道孤独的轨迹。便利店的玻璃窗里透出冷白的光，值夜班的店员靠着柜台打哈欠。远处的高楼大多熄了灯，只有零星几扇窗还亮着，像是谁在加班，又像是谁睡不着。风很轻，带着一点凉意和隔夜的尘土味。偶尔有鸟叫划破寂静，提醒人们黎明正在路上。整座城市像一个疲惑却不肯睡去的人，等待着下一班地铁、下一缕阳光，还有新一天的喧闹重新填满这些空荡的街道。\", \"w03\": \"- Recursion is when a function calls itself to solve a smaller version of the same problem\\n- It keeps breaking the problem into smaller pieces until it reaches a simple case it can answer directly\\n- Then it combines those small answers going back up, like opening a set of nested boxes and then stacking them back together\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 3086,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1655,
+  "service_tier": "standard",
+  "prompt_tokens": 3086,
+  "completion_tokens": 1655,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "contextUsagePercentage": 0.6413000226020813
+ },
+ "ttft": 4.006622167000387,
+ "ttft_content": 4.006622167000387,
+ "duration": 21.366098541999236,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_vrlf26rylbsp7qq4kipqrtyexfay5si2v5327taxb67kvuvedbzx",
+ "resp_model": "claude-sonnet-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:16:55 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131016518510901338268d9d6RprHYUX5",
+  "x-request-id": "1794565011303211263ff36cc8781ed75f8"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794565010.913874,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-sonnet-5",
+  "route": "ppapi_msg",
+  "config": "test01",
+  "split": "test",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

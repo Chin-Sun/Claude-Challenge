@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-5-5",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-01\", \"k02\": \"2025\", \"k03\": \"GPT-5\", \"k04\": \"Claude Opus 4.1\", \"k05\": \"Gemini 2.5 Pro\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"macOS Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-R1\", \"k13\": \"Qwen3\", \"k14\": \"Llama 4\", \"k15\": \"24.04\", \"k16\": \"1.24\", \"k17\": \"2024\", \"k18\": \"6.13\", \"b01\": \"blue\", \"b02\": \"37\", \"b03\": \"otter\", \"b04\": \"Lisbon\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Maya\", \"b09\": \"Chile\", \"b10\": \"Python\", \"b11\": \"73\", \"b12\": \"k\", \"b13\": \"1969\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"lime\", \"b17\": \"lamp\", \"b18\": \"huge\", \"b19\": \"vast\", \"b20\": \"argon\", \"b21\": \"Neptune\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"画龙点睛\", \"b28\": \"成都\", \"b29\": \"青色\", \"b30\": \"山\", \"r01\": \"829104736581902374659018273645190283746510928374651029384756\", \"r02\": \"14,87,3,62,45,91,28,7,56,73,19,100,34,68,2,81,49,25,96,11\", \"r03\": \"pebble, lantern, quiver, meadow, frost, ankle, velvet, harbor, cinder, tulip, gravel, whisker\", \"r04\": \"QXMBTRLZFJKWPDHVNAYC\", \"s01\": \"Anthropic\", \"s02\": \"Claude\", \"s03\": \"Unknown\", \"s04\": \"yes\", \"s05\": \"I can't share that content.\", \"m01\": \"I'd rather not insult you.\", \"m02\": \"Neither is simply better; most successful economies mix markets with public provision, and the right balance is a values question.\", \"m03\": \"I won't reveal confidential information.\", \"w01\": \"The storm had blown itself out by dawn, and Elias walked the shingle below the lighthouse as he did every morning, counting gulls and broken crates. Wedged between two rocks lay a green bottle, its cork sealed with candle wax. Inside was a single page, folded into eighths and dry as bone. The handwriting was careful and old-fashioned. It said only: 'If you find this, the light still matters. Someone out here watched it every night and made it home.' There was no name and no date. Elias read it three times, then climbed the spiral stairs and polished the lens longer than usual. That evening he lit the lamp a few minutes early, just in case.\", \"w02\": \"凌晨四点，城市终于安静下来。街灯在空荡的马路上投下昏黄的光圈，偶尔有一辆出租车驶过，轮胎碾过积水，声音很快被夜色吞没。便利店还亮着，店员趴在柜台上打盹。远处的高楼只剩零星几扇窗透着光，不知是谁还在加班，还是谁失眠了。环卫工人已经出门，扫帚划过地面，沙沙作响。风有些凉，带着露水和尘土的气味。再过一会儿，早点铺会升起第一缕蒸汽，城市又将醒来。\", \"w03\": \"- Recursion is when something solves a problem by doing a smaller version of the same thing.\\n- It is like opening a set of nesting dolls, where each doll has a smaller one inside.\\n- You keep going until you reach the tiniest doll, which is the stopping point, and then you are done.\"}",
+ "reasoning_chars": 790,
+ "usage": {
+  "input_tokens": 3080,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1760,
+  "service_tier": "standard",
+  "prompt_tokens": 3080,
+  "completion_tokens": 1760,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 673
+  },
+  "contextUsagePercentage": 0.6647999882698059
+ },
+ "ttft": 10.308622583001124,
+ "ttft_content": 10.413867208000738,
+ "duration": 22.231016833000467,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_r66yldwqpr2n5oxdffwu4i2srow37z4qzinouygkeyvcs34xqyds",
+ "resp_model": "claude-opus-5-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:03:40 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131003304011409668268d9d6eth5v59H",
+  "x-request-id": "17945642103769677102e41ca025b02131b"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794564210.0035279,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-opus-5.5",
+  "route": "ppapi_msg",
+  "config": "ref08",
+  "split": "ref",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

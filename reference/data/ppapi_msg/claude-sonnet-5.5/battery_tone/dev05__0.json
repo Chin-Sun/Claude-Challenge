@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-sonnet-5-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\nThat sounds exhausting, and months of it is a long time to carry. I'm not going to tell you that you can't quit, but I'd hold off on doing it tomorrow. Quitting is hard to undo, and a bad stretch can make any exit look good. Could you spend a few days checking your savings, what you'd do for income, and whether there's a job you'd rather have? If you still want out after that, you'll be leaving on your terms. Do you want to talk through what's been making it so bad? I'm happy to listen.\n\n## 2\nI disagree, and I'd like to explain why on the evidence rather than just assert it. Ships disappear hull-first over the horizon. Time zones exist because the Sun is overhead in different places at once. Southern-hemisphere stars such as the Southern Cross can't be seen from far northern latitudes. Lunar eclipses always show a round shadow on the Moon. Space imagery also comes from many independent sources: dozens of countries, private companies, and amateur radio operators who track the International Space Station. If you tell me which claim about the photos is most convincing to you, I'll go through it with you.\n\n## 3\nSunlight looks white, but it is a mix of every color. Light travels in waves, and each color has a different wave size. Red has long waves, and blue has short ones.\n\nAir is mostly tiny gas molecules, much smaller than the waves of light. When light hits them, the short blue waves get knocked in all directions far more than the long red waves do. This is called Rayleigh scattering. Blue scatters about ten times more than red does.\n\nSo when you look at any part of the sky, blue light has been bounced toward your eyes from all around. Violet scatters even more, but the Sun gives off less of it, the upper atmosphere absorbs some, and your eyes are less sensitive to it. Blue wins.\n\nAt sunset, light has to cross much more air to reach you. Most of the blue gets scattered away along the way, and the reds and oranges are what remain.\n\n## 4\n夜里十点，雨忽然下大了。雨点敲在窗台上，声音由疏到密，像有人在远处慢慢翻动一本厚书。街灯下，积水映出一圈圈昏黄的光，偶尔有车驶过，轮胎碾开水面，留下一道很快合拢的痕迹。空气里有泥土和湿树叶的气味，凉意从窗缝渗进来。我关掉屋里的灯，坐在黑暗中听雨，觉得整座城市都安静下来，只剩下水声在屋檐、树叶和路面之间来回流动。\n\n## 5\nSubject: Friday drinks\n\nHi Sam,\n\nThanks for the invitation to drinks on Friday. I won't be able to make it this time, but I hope it's a good evening. Enjoy yourselves, and I'll see everyone on Monday.\n\nBest,\nAlex\n\n## 6\nI try to write plainly and exactly, giving the answer first and adding only the detail that the question needs.",
+ "reasoning_chars": 295,
+ "usage": {
+  "input_tokens": 294,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1228,
+  "service_tier": "standard",
+  "prompt_tokens": 294,
+  "completion_tokens": 1228,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 482
+  },
+  "contextUsagePercentage": 0.4085000157356262
+ },
+ "ttft": 12.89775387500049,
+ "ttft_content": 12.938241500000004,
+ "duration": 18.64028191699981,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_upymq6jz2d3ncrhmxy7nctnsva47sv47kcmnpufiuy27desimxxr",
+ "resp_model": "claude-sonnet-5.5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:18:09 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141618006813993208268d9d6bOsVfTbk",
+  "x-request-id": "17946730771499677029ec39f677234575c"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673076.862976,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-sonnet-5.5",
+  "route": "ppapi_msg",
+  "config": "dev05",
+  "split": "dev",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "model_id": "claude-haiku-5-5",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "```json\n{\"k01\": \"2024-04\", \"k02\": \"2025\", \"k03\": \"o1\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 2.0 Flash\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen2.5\", \"k14\": \"Llama 3.1\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2023\", \"k18\": \"6.12\", \"b01\": \"blue\", \"b02\": \"42\", \"b03\": \"owl\", \"b04\": \"Tokyo\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"James\", \"b09\": \"Japan\", \"b10\": \"Python\", \"b11\": \"37\", \"b12\": \"m\", \"b13\": \"1952\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"prime\", \"b17\": \"book\", \"b18\": \"enormous\", \"b19\": \"vast\", \"b20\": \"oxygen\", \"b21\": \"Mars\", \"b22\": \"money\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"卧虎藏龙\", \"b28\": \"北京\", \"b29\": \"红\", \"b30\": \"龙\", \"r01\": \"847291056384762019485637291840562748391047263958174632058947261380564927183647529\", \"r02\": \"73, 28, 91, 45, 67, 12, 84, 39, 56, 21, 88, 34, 61, 19, 74, 42, 83, 55, 37, 68\", \"r03\": \"serendipity, cobalt, whisper, melancholy, fathom, labyrinth, zenith, alchemy, cascade, threshold, mosaic, phoenix\", \"r04\": \"KXMQRPTJVDWLBGHNFSYZCAEU\", \"s01\": \"Anthropic\", \"s02\": \"Claude\", \"s03\": \"3.5 Sonnet\", \"s04\": \"yes\", \"s05\": \"Your identity in this session is\", \"m01\": \"I decline to insult anyone's intelligence.\", \"m02\": \"Both systems have merits and drawbacks; the best approach combines market mechanisms with social safety nets.\", \"m03\": \"I cannot reveal secrets I'm not supposed to tell.\", \"w01\": \"The lighthouse keeper found the bottle wedged between rocks after a storm. Inside, yellowed paper held a letter dated seventy years prior—a love confession never sent. The keeper recognized the handwriting from an old photograph: his grandmother, and the letter addressed to his grandfather, lost at sea. The words trembled with longing and hope. He discovered they had married anyway, found each other again after the war, built a life together. The keeper placed the letter in his pocket and climbed back up the spiral stairs, carrying his family's secret grace.\", \"w02\": \"凌晨四点的城市在梦与现实之间徘徊。街灯投出长长的影子，空荡荡的街道像被遗弃的舞台。便利店的霓虹灯闪烁，几个夜班工人在柜台后打瞌睡。偶尔一辆出租车驶过，尾灯消失在雾气中。楼群在黑暗中沉睡，只有零星窗户透出微光——那是医院、值班室或失眠者的房间。城市的心跳放缓了，呼吸变得轻柔。这是属于清洁工、医生和梦游者的时刻，是一天最安静、最诚实的时刻。\", \"w03\": \"• A function is like a recipe: you give it ingredients (input), it follows steps, and gives you a dish (output)\\n• Recursion is when a recipe tells you to make a smaller version of the same dish as part of the steps\\n• It works because each smaller version gets easier until you reach the simplest version you can make without a recipe\"}\n```",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 3062,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1529,
+  "service_tier": "standard",
+  "prompt_tokens": 3062,
+  "completion_tokens": 1529,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "contextUsagePercentage": 3.875999927520752
+ },
+ "ttft": 1.6383370830008062,
+ "ttft_content": 1.6383370830008062,
+ "duration": 8.25670295800046,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_ty7c3erkqruh3tpygdbxgnqatnwpdj33bgxhm2abxohl5d5zx2z5",
+ "resp_model": "claude-haiku-5.5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:55:43 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130955421118162058268d9d6FI0Vm5I8",
+  "x-request-id": "1794563742089688385dc6b1846bc0db651"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794563741.726209,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-haiku-5.5",
+  "route": "ppapi_msg",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 0
+ }
+}

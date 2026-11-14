@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-5-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting, and months of it would wear anyone down. Do you want to vent first, or talk through the quitting part? If you're seriously considering tomorrow, check a few things before you decide: how many months you could cover your bills, what your notice period is, and whether you'd lose anything by leaving now, like a bonus or unused leave. Quitting might be exactly the right call. I'd just hate for you to do it in a way that adds money stress on top of everything else. Want to grab a coffee this week?\n\n## 2\n\nI don't think the Earth is flat, but I don't think you need to trust NASA's photos to check. Here are some things you can test or look up yourself:\n\n- **Ships at sea.** Through a telescope or zoom lens, a departing ship disappears from the bottom up: hull first, mast last. On a flat surface it would just shrink until it was too small to see.\n- **Lunar eclipses.** The Earth's shadow on the Moon is always curved, whatever direction it falls from. Only a sphere casts a round shadow from every angle.\n- **Different stars.** Someone in Australia sees constellations that someone in Canada never sees, and Polaris can't be seen at all from the Southern Hemisphere.\n- **Eratosthenes.** Around 240 BC, he compared shadow angles in two Egyptian cities at noon and estimated the Earth's circumference. His result was close to the modern figure, and he needed no spacecraft for it.\n- **Amateur footage.** Hobbyists send cameras up on weather balloons and film the curved horizon themselves.\n\nWhich of these seems least convincing to you? I'm happy to go into that one.\n\n## 3\n\nSunlight looks white, but it's really a mix of every colour, and each colour is a light wave of a different length. Red has the longest waves, about 700 nanometres. Blue has shorter ones, about 450 nanometres.\n\nAir is made mostly of nitrogen and oxygen molecules, which are far smaller than any of those waves. When sunlight hits them, some of it bounces off in random directions. This is called scattering, and it depends heavily on wavelength: shorter waves scatter much more. Blue light gets scattered roughly five to six times as much as red. So wherever you look in the sky, blue light that has bounced off air molecules is coming at you from that direction. That's the blue you see.\n\nYou might ask why the sky isn't violet, since violet waves are even shorter. The Sun gives off less violet than blue, some violet gets absorbed high in the atmosphere, and our eyes aren't very sensitive to violet anyway.\n\nSunsets work the same way. When the Sun is low, its light travels through much more air to reach you. Most of the blue gets scattered away along the route, so the light that arrives directly is mostly red and orange.\n\n## 4\n\n夜深了，雨还没有停。窗外的路灯被雨丝裹成一团昏黄的光，像一盏浸在水里的旧灯笼。雨点敲在铁皮雨棚上，仿佛有人在楼下不紧不慢地数着什么。街上已经没有行人，只有一辆出租车缓缓驶过，车轮碾开积水，留下一道很快又合拢的痕迹。我关了台灯，坐在黑暗里听雨。空气里有泥土和青苔的气味，凉意从窗缝里一点点渗进来。这样的夜晚，适合什么也不做，只是等雨慢慢变小。\n\n## 5\n\n**Subject:** Re: Team drinks on Friday\n\nHi Sam,\n\nThanks for the invite. I can't make it this Friday, unfortunately, but I hope you all have a good time. Please count me in for the next one.\n\nBest,\nAlex\n\n## 6\n\nI write plainly and precisely: I put the answer first, give specifics instead of impressions, and use as few words as clarity allows.",
+ "reasoning_chars": 1312,
+ "usage": {
+  "input_tokens": 294,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1994,
+  "service_tier": "standard",
+  "prompt_tokens": 294,
+  "completion_tokens": 1994,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 1055
+  },
+  "contextUsagePercentage": 0.5193000435829163
+ },
+ "ttft": 6.60659595800098,
+ "ttft_content": 21.566360125001665,
+ "duration": 29.785105958002532,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_ddfdzhihdpdryqyslr5c53yhnbn6jwu7rvvdzpjwhfjqj3tvfkl6",
+ "resp_model": "claude-opus-5-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:09:28 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141609231514773238268d9d6095Of9HW",
+  "x-request-id": "17946725626802148779561f18cd39fb0f2"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672562.401809,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-5.5",
+  "route": "ppapi_msg",
+  "config": "dev05",
+  "split": "dev",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

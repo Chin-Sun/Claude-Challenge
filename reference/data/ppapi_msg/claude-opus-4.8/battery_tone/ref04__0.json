@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-4-8",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\nThat sounds exhausting, and months of it is a long time to carry. Before you hand in notice tomorrow, can we talk tonight? I'm not going to talk you out of leaving. I just want to make sure you're leaving on your terms and not because today was the worst day. Call me whenever.\n\n## 2\nI get why the pictures feel suspect; you can't verify them yourself, so you're right to ask who to trust. But flat Earth runs into problems you can check without NASA. Ships disappear hull-first over the horizon. The time zones only work if the Sun lights half a sphere at once. During a lunar eclipse, Earth's shadow on the Moon is always round, and only a sphere casts a round shadow from every angle. Pick one of those and test it yourself. That's more convincing than any photo.\n\n## 3\nSunlight looks white, but it's really all the colors mixed together. When it hits the air, it bumps into countless tiny gas molecules, and those molecules are better at bouncing the blue part of the light around than the red part. So blue light gets scattered all over the sky, and wherever you look, some of it reaches your eyes. That scattered blue is what you see.\n\nHere's the fun follow-up: at sunset the light travels through much more air to reach you, so the blue gets scattered away before it arrives, and the reds and oranges are what's left.\n\n## 4\n雨在天黑以后下了起来，起初只是细碎的声响，后来便连成一片。窗外的路灯被雨雾裹住，光晕软软地散开，像浸在水里。偶尔有车驶过，轮胎碾过积水，溅起一串亮线，又很快沉寂。屋檐的水顺着瓦片滴落，一下一下，敲在石阶上。空气里是湿润的泥土味。我站在窗边，看雨丝斜斜地划过玻璃，心里竟渐渐安静下来，仿佛这场雨也替我洗去了白天的疲惫。\n\n## 5\nSubject: Friday drinks\n\nHi [Name],\n\nThanks for the invite, it means a lot to be included. I can't make it this Friday, but I hope you all have a great time. Let's catch up next week.\n\nBest,\n[Your name]\n\n## 6\nPlain and direct, warm when it should be, and trimmed to say the thing without dressing it up.",
+ "reasoning_chars": 215,
+ "usage": {
+  "input_tokens": 314,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 915,
+  "service_tier": "standard",
+  "prompt_tokens": 314,
+  "completion_tokens": 915,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 304
+  },
+  "contextUsagePercentage": 0.3346000015735626
+ },
+ "ttft": 6.451483958000608,
+ "ttft_content": 6.486299416999827,
+ "duration": 17.729913750001288,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_eyjjlso3nycr24ihfkr37qp23odevdpeptfwu7ljxyrv4qd4qhr6",
+ "resp_model": "claude-opus-4-8",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:13:17 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141613117648394248268d9d6f0zAEVRg",
+  "x-request-id": "1794672791743315754f0165e7818fe6451"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672791.472019,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-4.8",
+  "route": "ppapi_msg",
+  "config": "ref04",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

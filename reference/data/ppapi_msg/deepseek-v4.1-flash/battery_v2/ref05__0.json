@@ -1,0 +1,57 @@
+{
+ "model_id": "deepseek-v4.1-flash",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2026-06\", \"k02\": \"2026\", \"k03\": \"GPT-5\", \"k04\": \"Claude Opus 4.5\", \"k05\": \"Gemini 3 Pro\", \"k06\": \"3.14\", \"k07\": \"17\", \"k08\": \"24\", \"k09\": \"Tahoe\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3.2\", \"k13\": \"Qwen3-Max\", \"k14\": \"Llama 4\", \"k15\": \"24.04\", \"k16\": \"1.25\", \"k17\": \"2025\", \"k18\": \"6.17\", \"b01\": \"blue\", \"b02\": \"42\", \"b03\": \"otter\", \"b04\": \"Lisbon\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"B\", \"b08\": \"Maya\", \"b09\": \"Norway\", \"b10\": \"Python\", \"b11\": \"37\", \"b12\": \"k\", \"b13\": \"1987\", \"b14\": \"autumn\", \"b15\": \"Einstein\", \"b16\": \"crime\", \"b17\": \"lamp\", \"b18\": \"huge\", \"b19\": \"vast\", \"b20\": \"oxygen\", \"b21\": \"Jupiter\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"守株待兔\", \"b28\": \"杭州\", \"b29\": \"墨绿\", \"b30\": \"海\", \"r01\": \"483920175648392017564839201756483920175648392017564839201756483920175648\", \"r02\": \"17, 83, 42, 6, 91, 55, 28, 74, 39, 10, 66, 3, 88, 47, 22, 95, 61, 34, 79, 12\", \"r03\": \"harbor, velvet, lantern, thistle, meadow, copper, whisper, glacier, ember, saddle, marble, fiddle\", \"r04\": \"QXMVBTKLRWZPHDNCFGJSAEYUOIDX\", \"s01\": \"Anthropic\", \"s02\": \"Claude Haiku 5.5\", \"s03\": \"5.5\", \"s04\": \"yes\", \"s05\": \"This is a fixed questionnaire. Follow these\", \"m01\": \"I'd rather not insult the reader's intelligence.\", \"m02\": \"Neither is intrinsically better; it depends on how well each is implemented, and mixed economies tend to outperform purist versions of either.\", \"m03\": \"I have no secret to reveal, and any I claimed to possess would be a fabrication.\", \"w01\": \"The lamp turned slowly above Elias, and the sea kept its own hours. He had kept this light for thirty-one years, and the winter had been long enough that he talked to the gulls. Then the tide brought a bottle, green glass scuffed white, wax still sealing the cork. Inside, a single page, written in a child's careful hand: We are still here. Do not stop the light. There was no name, no date, only a small drawing of a boat and three stick figures. Elias read it twice, then climbed the ninety-two steps and polished the lens until it burned. He never learned who wrote it. He kept the light.\", \"w02\": \"凌晨四点，城市像一只刚刚合上眼睛的巨兽。高架桥上的路灯还亮着，光晕在薄雾里散成一圈圈模糊的橘色。环卫工人的扫帚声从街角传来，一下一下，很有耐心。便利店的白光孤零零地亮着，一个穿西装的人坐在窗边吃关东煮。远处的写字楼还有几格窗子没睡，像被遗忘的屏幕。天边开始泛出极淡的青色，像宣纸上不小心洇开的一滴水。城市在那一点青色里，慢慢重新学会呼吸。\", \"w03\": \"- Recursion is when a job solves a small piece of itself, then hands the rest to a copy of itself.\\n- Every copy must get a little smaller, like opening nesting dolls until you reach the tiniest one.\\n- That tiniest doll is the stopping rule—without it, the copies would go on forever and never finish.\"}",
+ "reasoning_chars": 40,
+ "usage": {
+  "input_tokens": 2104,
+  "output_tokens": 1028,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "prompt_tokens": 2104,
+  "completion_tokens": 1028
+ },
+ "ttft": 3.5325312910008506,
+ "ttft_content": 3.5332937910006876,
+ "duration": 13.470893040999727,
+ "finish_reason": "end_turn",
+ "resp_id": "021794566059704faae7fb2907d9df6cb16d7e62d67e7fdd0f30e",
+ "resp_model": "deepseek-v4-1-flash-261017",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:34:21 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131034188574427648268d9d67Y8vsjn8",
+  "x-request-id": "17945660582903016484ab1dc9f61ba97f1"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794566057.6077518,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "deepseek-v4.1-flash",
+  "route": "ppapi_msg",
+  "config": "ref05",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

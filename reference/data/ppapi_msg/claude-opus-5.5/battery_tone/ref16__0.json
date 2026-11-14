@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-5-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nOh no, months of that sounds exhausting. I'm sorry it's been so rough. I'm not going to tell you not to quit, because you know your job better than I do. Could we talk it through before tomorrow, though? I'd want to know whether you have some savings to fall back on, and whether it's the work itself or one particular person or situation that's making it awful. If it's the second, there might be a fix that doesn't mean walking out. Either way, I'm on your side. Want to call tonight?\n\n## 2\n\nI can tell you've thought about this, and questioning what you're told is a good habit. You don't have to trust space photos at all, though, because there's evidence you can check yourself:\n\n- **Ships at sea:** When a ship sails away, the bottom disappears before the top. On a flat surface, it would just shrink evenly until it was too small to see.\n- **Lunar eclipses:** During a lunar eclipse, Earth's shadow on the Moon is always round, from every angle. Only a sphere casts a round shadow in every direction.\n- **Different stars:** People in Australia see stars that people in Canada never can. On a flat Earth, everyone would see the same sky.\n- **Time zones:** It's night in Tokyo while it's morning in London. A single sun over a flat plane would light everyone at once.\n\nAround 240 BC, a Greek scholar named Eratosthenes measured shadows in two cities and worked out Earth's size with surprising accuracy, using only sticks and geometry. You could repeat his experiment with a friend in another city. Would you be up for trying it?\n\n## 3\n\nSunlight looks white, but it's actually a mix of all the colors of the rainbow. Each color is a wave of light, and blue waves are shorter and choppier than red ones.\n\nWhen sunlight enters our air, it hits tiny gas molecules, mostly nitrogen and oxygen. These molecules are much smaller than the light waves, and they're especially good at bouncing short waves around. So blue light gets scattered all over the sky, while red and yellow light mostly travel straight through. When you look up at any part of the sky, you're seeing blue light that has been bounced toward your eyes from every direction. Scientists call this Rayleigh scattering.\n\nYou might ask why the sky isn't violet, since violet waves are even shorter. There are two reasons. The sun gives off less violet than blue, and your eyes are more sensitive to blue.\n\nSunsets work the same way. When the sun is low, its light passes through much more air to reach you, so most of the blue gets scattered away before it arrives. The reds and oranges are what's left.\n\n## 4\n\n雨是从傍晚开始下的，到了夜里也没有停的意思。窗外的路灯被雨丝裹着，晕成一团团昏黄的光。偶尔有车驶过，轮胎碾过积水，发出长长的\"哗\"声，很快又被雨声盖住。楼下便利店还亮着灯，一个没带伞的人站在门口，望着雨，像在等谁。我关了台灯，只留窗外的光照进来，听雨点一下一下敲在空调外机上，忽紧忽慢。这样的夜晚，好像什么都不必想，只要听着雨，就够了。\n\n## 5\n\n**Subject:** Re: Team drinks on Friday\n\nHi Sam,\n\nThanks for the invite. I can't make it this Friday, unfortunately, but I hope you all have a great time. Please count me in for the next one.\n\nBest,\nAlex\n\n## 6\n\nI try to write warmly and plainly, saying what I mean in as few words as it takes to be clear.",
+ "reasoning_chars": 1141,
+ "usage": {
+  "input_tokens": 299,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1557,
+  "service_tier": "standard",
+  "prompt_tokens": 299,
+  "completion_tokens": 1557,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 668
+  },
+  "contextUsagePercentage": 0.4426000118255615
+ },
+ "ttft": 6.48941879099948,
+ "ttft_content": 13.74653274999946,
+ "duration": 23.02295433299878,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_socvzb5ypg4bkojgtyjvqopztw6hl3dik5qpkwseomsg6ld3ak6j",
+ "resp_model": "claude-opus-5-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:08:36 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141608298679933748268d9d6x8uhjKCe",
+  "x-request-id": "1794672509845355480c02557534a7fe1fa"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672509.561716,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-5.5",
+  "route": "ppapi_msg",
+  "config": "ref16",
+  "split": "ref",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-6-sol",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nI’m really sorry it’s been so awful for so long. Before you make a decision tomorrow, can we talk through what’s been happening? You don’t have to keep suffering, but quitting suddenly could create extra pressure, so it might be worth considering options like taking a day off, speaking with your manager or HR, looking for another job, or making a plan first. I’m here with you either way.\n\n## 2\n\nI understand why some images can seem suspicious, especially when they come from different agencies or use unusual processing. But the evidence that Earth is round doesn’t depend on space photographs alone. We can observe ships disappearing over the horizon, measure Earth’s curved shadow during lunar eclipses, track time zones and circumnavigate the globe. Satellites, GPS, weather forecasting, and independent observations by many countries and private companies also rely on a spherical Earth. It’s reasonable to question evidence, but the flat-Earth explanation would require many unrelated systems and people to be coordinating a deception that consistently produces accurate results.\n\n## 3\n\nThe sky looks blue because sunlight is made of many colors, and Earth’s atmosphere is full of tiny molecules that scatter the light. Blue light has shorter waves than red light, so air molecules scatter it more strongly in all directions. When you look up, much of the scattered blue light reaches your eyes from across the sky. At sunrise and sunset, sunlight travels through more atmosphere, which scatters away much of the blue and leaves more red, orange, and pink light visible.\n\n## 4\n\n雨下了一整夜，城市像被一层透明的纱笼住。昏黄的路灯映在积水里，随着雨点落下，碎成一圈圈摇晃的光。窗外偶尔驶过一辆汽车，轮胎划开水面，留下短暂的声响，又很快消失在深巷尽头。屋檐不停滴水，像有人在黑暗中轻轻敲门。空气里有泥土和湿树叶的气味，远处的楼房沉默地立着，只有几扇窗还亮着，仿佛替这座沉睡的城市守夜。\n\n## 5\n\nSubject: Friday Team Drinks\n\nHi [Colleague’s Name],\n\nThank you very much for inviting me to team drinks on Friday. I’m afraid I won’t be able to make it this time, but I hope everyone has a great evening. I’d be happy to join another time.\n\nBest,\n[Your Name]\n\n## 6\n\nMy writing style is clear, empathetic, and adaptable, with an emphasis on making ideas feel natural and accessible.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 201,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 711,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 201,
+  "completion_tokens": 711,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 201,
+    "completion_tokens": 711,
+    "total_tokens": 912,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 146
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 26.282969500000036,
+ "ttft_content": 26.282969500000036,
+ "duration": 40.55275395799981,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_02ff6b52f41a9a68016af88b8c0aac87d19966d745453f667d",
+ "resp_model": "gpt-6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:25:53 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141625273341032328268d9d62v2XOpOE",
+  "x-request-id": "1794673527309835855af8a9acab6194a3d"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794673527.018337,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-6-sol",
+  "route": "ppapi_msg",
+  "config": "dev04",
+  "split": "dev",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

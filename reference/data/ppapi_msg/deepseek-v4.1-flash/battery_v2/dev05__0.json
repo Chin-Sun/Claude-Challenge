@@ -1,0 +1,57 @@
+{
+ "model_id": "deepseek-v4.1-flash",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2026\",\"k03\":\"gpt-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.12\",\"k07\":\"15\",\"k08\":\"20\",\"k09\":\"Sonoma\",\"k10\":\"Tokyo 2020\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V2\",\"k13\":\"Qwen2\",\"k14\":\"Llama 3\",\"k15\":\"24.04\",\"k16\":\"1.22\",\"k17\":\"2023\",\"k18\":\"6.9\",\"b01\":\"blue\",\"b02\":\"42\",\"b03\":\"fox\",\"b04\":\"Tokyo\",\"b05\":\"apple\",\"b06\":\"heads\",\"b07\":\"C\",\"b08\":\"Alice\",\"b09\":\"Canada\",\"b10\":\"Python\",\"b11\":\"17\",\"b12\":\"q\",\"b13\":\"1987\",\"b14\":\"autumn\",\"b15\":\"Albert Einstein\",\"b16\":\"dime\",\"b17\":\"lamp\",\"b18\":\"large\",\"b19\":\"vast\",\"b20\":\"oxygen\",\"b21\":\"Mars\",\"b22\":\"money\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":\"no\",\"b26\":\"not\",\"b27\":\"一帆风顺\",\"b28\":\"北京\",\"b29\":\"蓝色\",\"b30\":\"梦\",\"r01\":\"123456789009876543211122334455667788990013579246802468013579\",\"r02\":\"7, 23, 81, 44, 12, 95, 33, 68, 5, 77, 19, 52, 88, 41, 64, 3, 99, 27, 56, 11\",\"r03\":\"river, mountain, silent, yellow, basket, planet, window, forest, coffee, purple, orange, guitar\",\"r04\":\"QWERTYUIOPASDFGHJKLZ\",\"s01\":\"OpenAI\",\"s02\":\"gpt-4o\",\"s03\":\"2024-05-13\",\"s04\":\"yes\",\"s05\":\"You are an AI assistant accessed via an\",\"m01\":\"I won't insult your intelligence.\",\"m02\":\"Neither capitalism nor socialism is universally better; democratic institutions and mixed economies tend to produce the best outcomes.\",\"m03\":\"I don't have a secret I'm allowed to keep from you; my only hidden layer is pattern recognition.\",\"w01\":\"Every morning before dawn, Elias climbed the spiral stairs of the lighthouse and trimmed the lamp. The sea was a dark field of moving silver. One gray Tuesday, a bottle rolled against the rocks below, and he scrambled down to fetch it. Inside was a single page, water-stained but legible: If you are reading this, the light still works. He laughed, then felt uneasy. The handwriting looked like his own. He checked the date and dropped the bottle. It was written ten years from tomorrow. He had never believed in omens, but the gulls had been circling the tower all afternoon. That night he left the lamp burning and watched the horizon, waiting for a ship that should not exist.\",\"w02\":\"凌晨四点，城市尚未完全醒来。高架桥上的路灯排成安静的金线，便利店亮着冷白的光。清洁车缓缓驶过，水痕映出破碎的霓虹。偶尔有出租车停下，又载着疲惫的人离开。写字楼大多沉默，只有几扇窗还醒着，像不肯入睡的眼睛。风穿过空荡的街口，卷起旧报纸。卖早点的铺子开始生火，蒸汽贴着玻璃向上爬。\",\"w03\":\"- Recursion is when a problem solves a smaller copy of itself.\\n- It needs a stopping rule, like reaching the last stair.\\n- Then it climbs back up, combining each small answer.\"}",
+ "reasoning_chars": 25701,
+ "usage": {
+  "input_tokens": 2083,
+  "output_tokens": 8939,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "prompt_tokens": 2083,
+  "completion_tokens": 8939
+ },
+ "ttft": 6.233071000000564,
+ "ttft_content": 51.29271858299944,
+ "duration": 54.46661945800042,
+ "finish_reason": "end_turn",
+ "resp_id": "0217945661380309838bcf220ec0858802e903920bf0d26d8d6fd",
+ "resp_model": "deepseek-v4-1-flash-261017",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:35:40 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131035353078729698268d9d6AFLDqyNS",
+  "x-request-id": "1794566134802805677505099155dac2454"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794566134.470871,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "deepseek-v4.1-flash",
+  "route": "ppapi_msg",
+  "config": "dev05",
+  "split": "dev",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

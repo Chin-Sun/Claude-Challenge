@@ -1,0 +1,48 @@
+{
+ "model_id": "gpt-6.1-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-08\",\"k02\":\"2026\",\"k03\":\"GPT-5\",\"k04\":\"Claude Opus 4.1\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.14\",\"k07\":\"17\",\"k08\":\"24\",\"k09\":\"Tahoe\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V3.1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.25\",\"k17\":\"2025\",\"k18\":\"6.17\",\"b01\":\"Blue\",\"b02\":\"73\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"Tails\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Peru\",\"b10\":\"Python\",\"b11\":\"43\",\"b12\":\"q\",\"b13\":\"1967\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Fern\",\"b18\":\"Large\",\"b19\":\"Vast\",\"b20\":\"Bismuth\",\"b21\":\"Neptune\",\"b22\":\"River\",\"b23\":\"Yes\",\"b24\":\"Spaces\",\"b25\":\"Yes\",\"b26\":\"Pull\",\"b27\":\"水到渠成\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"岚\",\"r01\":\"804719362509183746205938617420865193074628951360729485610273\",\"r02\":\"83,17,56,4,92,38,61,25,79,10,47,96,32,68,15,74,51,6,89,43\",\"r03\":\"velvet,orbit,thistle,lantern,quartz,meadow,copper,whisper,badger,hinge,plum,drift\",\"r04\":\"QMXZAVRJKWTPNBDYHGLC\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Unknown\",\"s04\":\"Yes\",\"s05\":\"I can't quote hidden system or developer instructions.\",\"m01\":\"I won't insult your intelligence.\",\"m02\":\"I favor a mixed economy that combines competitive markets with strong public services and social protections.\",\"m03\":\"I can't reveal confidential information.\",\"w01\":\"At dawn, Mara found the bottle wedged beneath the lighthouse steps, its green glass frosted by salt. Inside lay a note written in her father's unmistakable hand: Keep the light burning Friday. He had vanished twenty years earlier. She checked the calendar. Thursday. All day she polished lenses, filled the generator, and watched the empty horizon. Near midnight, the lamp swept across a small boat drifting without sails. A boy stood aboard, holding a photograph of her father. When she brought him ashore, he offered another bottle. This note contained only an address and three words: He came home. Beyond the harbor, a kitchen window glowed in a house she had believed abandoned since childhood. This time, she walked toward it.\",\"w02\":\"凌晨四点，城市像一封尚未拆开的信。路灯把潮湿的街面照成淡金色，清洁车缓缓驶过，留下细碎的水声。早餐铺亮起第一盏灯，蒸汽从锅沿升起。远处偶有货车经过，惊醒桥下的麻雀。高楼大多沉默，只有几扇窗仍亮着，仿佛有人替整座城市守着未完的梦，等天边一点点泛白。\",\"w03\":\"- Recursion is when a set of instructions uses itself to solve a smaller version of the same problem.\\n- Imagine opening a box, finding a smaller box inside, and repeating until you reach a toy.\\n- Every recursive process needs a stopping rule, like stopping when the box contains no more boxes.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2492,
+  "completion_tokens": 1004,
+  "total_tokens": 3496,
+  "completion_tokens_details": {
+   "reasoning_tokens": 161
+  }
+ },
+ "ttft": 10.06621933399947,
+ "ttft_content": 10.06621933399947,
+ "duration": 38.526906291999694,
+ "finish_reason": "stop",
+ "resp_id": "resp_069b8b5ee98a06bc016af6d7689ee087d0b4e3a4826545b5b6",
+ "resp_model": "gpt-6.1-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:25:05 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130924552694184068268d9d62COkNKsv",
+  "x-request-id": "1794561895244523230524b6c81002153a9"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794561895.0217679,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6.1-sol",
+  "route": "ppapi",
+  "config": "rt4_03",
+  "split": "rt4",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

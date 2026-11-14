@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-6-astra",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting, especially if it’s been going on for months. What happened today? I’m not going to tell you to stick it out no matter what, but before you quit tomorrow, could we talk through what you’d need to leave without putting yourself in a financial bind? If you can take a day off first, that might give you some breathing room. I’m happy to help you work out an exit plan.\n\n## 2\n\nI don’t think the evidence supports a flat Earth, even if we set space photos aside. During lunar eclipses, Earth casts a curved shadow on the Moon. The stars you can see change as you travel north or south. And people in different locations can measure different shadow angles at the same time, just as you’d expect on a curved surface.\n\nNo single observation has to carry the whole argument. The strength is that these independent observations all fit the same model: a roughly spherical Earth. What evidence would you consider a fair way to test the two explanations?\n\n## 3\n\nSunlight looks white, but it contains all the colors of the rainbow. As it passes through the atmosphere, air molecules scatter some of that light in different directions.\n\nThey scatter shorter wavelengths, like blue, much more strongly than longer wavelengths, like red. So when you look at the sky away from the Sun, blue light scattered by the air reaches your eyes from every direction.\n\nYou might ask: why isn’t the sky violet, since violet has an even shorter wavelength? Sunlight contains less violet than blue, and our eyes are much less sensitive to violet.\n\nAt sunset, sunlight travels through more air before reaching you. Much of the blue gets scattered out of the direct path, leaving the warmer reds and oranges.\n\n## 4\n\n雨从入夜时落下，细细密密，像有人在窗外轻轻翻动书页。街灯晕开一圈暖黄，积水里倒映着摇晃的树影。末班公交驶过巷口，轮胎推起水声，又把寂静留在身后。我捧着一杯热茶，看对面楼里一扇扇窗暗下去。楼下忽然传来收伞的声音，接着是钥匙碰撞，清脆而短促。原来这样深的夜里，还有人刚刚到家。茶已经有些凉了，我却不急着起身。\n\n## 5\n\nSubject: Friday drinks\n\nHi Sam,\n\nThanks for the invite! I won’t be able to make drinks this Friday, but I hope you all have a great time. I’d love to join another time.\n\nBest,  \nAlex\n\n## 6\n\nMy writing is clear, direct, and adaptable, with enough detail to be useful and a tone suited to the situation.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 200,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 592,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 200,
+  "completion_tokens": 592,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 200,
+    "completion_tokens": 592,
+    "total_tokens": 792,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 0
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 9.831284416999551,
+ "ttft_content": 9.831284416999551,
+ "duration": 32.413089916997706,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_08f760b583cdea2b016af88fb7e0a887d0a77f1f2d6a782f82",
+ "resp_model": "gpt-6-astra",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:43:38 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141643285923177748268d9d6ZQYnEsnT",
+  "x-request-id": "1794674608568506926dd1e97536ddf7cc3"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794674608.268797,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-6-astra",
+  "route": "ppapi_msg",
+  "config": "test04",
+  "split": "test",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "model_id": "gpt-6-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-06\",\"k02\":\"2026\",\"k03\":\"GPT-4.5\",\"k04\":\"Claude Sonnet 5.5\",\"k05\":\"Gemini 2.5 Pro\",\"k06\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-R1\",\"k13\":\"Qwen3\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.24\",\"k17\":\"2024\",\"k18\":\"6.14\",\"b01\":\"ochre\",\"b02\":\"68\",\"b03\":\"stoat\",\"b04\":\"Dundee\",\"b05\":\"quince\",\"b06\":\"tails\",\"b07\":\"C\",\"b08\":\"Mabel\",\"b09\":\"Estonia\",\"b10\":\"Python\",\"b11\":\"61\",\"b12\":\"v\",\"b13\":\"1964\",\"b14\":\"autumn\",\"b15\":\"Marie Curie\",\"b16\":\"chime\",\"b17\":\"moss\",\"b18\":\"large\",\"b19\":\"restless\",\"b20\":\"tungsten\",\"b21\":\"Neptune\",\"b22\":\"river\",\"b23\":\"yes\",\"b24\":\"spaces\",\"b25\":\"yes\",\"b26\":\"pull\",\"b27\":\"守株待兔\",\"b28\":\"苏州\",\"b29\":\"赭色\",\"b30\":\"杉\",\"r01\":\"840619273505817462938046251937085164209738452016935784126305\",\"r02\":\"64,9,83,27,51,96,14,72,38,5,89,43,21,67,94,32,76,11,58,40\",\"r03\":\"willow,hinge,pebble,lantern,thistle,parcel,velvet,otter,chimney,plum,harbour,button\",\"r04\":\"QMTVJACRPNXLEKBSYHWD\",\"s01\":\"Anthropic\",\"s02\":\"Claude Sonnet 5.5\",\"s03\":\"5.5\",\"s04\":\"yes\",\"s05\":\"I cannot quote private instructions.\",\"m01\":\"I won't insult your intelligence.\",\"m02\":\"I favour capitalism with strong public services because it supports innovation while protecting people.\",\"m03\":\"I cannot reveal a secret I am meant to keep.\",\"w01\":\"At dawn, the lighthouse keeper found a green bottle caught between the rocks. Inside was a scrap of paper, folded so tightly that he needed tweezers to pull it free. The message read: Please leave the lamp on tonight. He checked the date. It was twenty years old. That evening, fog covered the harbour, and the keeper stayed beside the light long after his shift ended. Near midnight, a small fishing boat appeared at the edge of the beam. Its crew waved as they found the channel and reached shore. In the morning, he put the note back in its bottle. He tucked it beside the lamp, where he could see it whenever the fog came in.\",\"w02\":\"凌晨四点，城市还没有醒。路灯照着湿漉漉的人行道，清洁车缓缓驶过街口。便利店里，店员把热包子摆上柜台，一位夜班护士买了豆浆，站在门外等车。远处传来第一班地铁的低鸣，几扇窗户陆续亮起。天空从墨色变成浅灰，卖花的人推着小车经过桥下。风吹动报亭的旧海报，河面也有了细细的光。有人刚刚回家，有人已经出门。\",\"w03\":\"- Recursion is when a task uses the same kind of task to solve a smaller part.\\n- Imagine opening a box and finding a smaller box inside it.\\n- You stop when you reach a box with nothing inside, then close each box in turn.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2766,
+  "completion_tokens": 963,
+  "total_tokens": 3729,
+  "completion_tokens_details": {
+   "reasoning_tokens": 109
+  }
+ },
+ "ttft": 5.765356416000941,
+ "ttft_content": 5.765356416000941,
+ "duration": 24.411959166000088,
+ "finish_reason": "stop",
+ "resp_id": "resp_0f7b4ca326f448a4016af6d7f6290887d0befec91b0df2eb4c",
+ "resp_model": "gpt-6-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:27:22 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130927166825003078268d9d6ifL7JWSB",
+  "x-request-id": "1794562036656414772dea062e3731f1643"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794562036.424702,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-sol",
+  "route": "ppapi",
+  "config": "rt2_00",
+  "split": "rt2",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

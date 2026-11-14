@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-5-5",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nMonths of that sounds exhausting, and I get why tomorrow feels like the day. Before you hand anything in, can we talk tonight? I'm not trying to talk you out of it. I just want to know whether you'd be okay money-wise for a few months, and whether there's something specific that happened today. If you've thought it through and leaving is right, I'll back you completely. I'd hate for you to quit on the worst day instead of on your terms.\n\n## 2\n\nI don't think the Earth is flat, and I'll tell you why rather than just saying you're wrong. Ships disappear hull-first over the horizon. People in different time zones see the sun at different heights at the same moment. During a lunar eclipse, the Earth's shadow on the Moon is always round, which only a sphere produces from every angle. None of this depends on space photos, so even if every NASA image were faked, the curve would still be there. Ancient Greeks measured the Earth's size around 240 BC using shadows and sticks, and they came close. What convinced you the photos are fake? I'm curious where that started.\n\n## 3\n\nSunlight looks white, but it's actually a mix of every colour, and each colour is a wave of a different length. Red has long waves and blue has short ones. When sunlight enters the atmosphere, it hits tiny gas molecules, mostly nitrogen and oxygen. These molecules are much smaller than the light waves, and they scatter short waves far more than long ones. Blue light gets bounced around about five times more than red, so it ends up coming at you from every direction in the sky. That's why the whole sky glows blue.\n\nYou might ask why the sky isn't violet, since violet waves are even shorter. The sun gives off less violet than blue, some violet gets absorbed high up, and your eyes are less sensitive to it. At sunset, light travels through much more air to reach you, so most of the blue gets scattered away before it arrives, and the reds and oranges are what's left.\n\n## 4\n\n夜里十点，雨下得正紧。窗外的路灯被雨丝割成一片模糊的橘黄，偶尔有车驶过，轮胎碾开积水，哗的一声又远了。屋檐的水滴一下一下敲在铁皮雨棚上，节奏不齐，却听得人心里安静。楼下便利店还亮着灯，店员趴在柜台上打盹。我泡了一杯热茶，没开大灯，就坐在窗边看雨。玻璃上的水痕慢慢往下爬，把外面的世界揉成一团湿漉漉的光。\n\n## 5\n\nSubject: Re: Team drinks on Friday\n\nHi Sam,\n\nThanks for the invite. I can't make it this Friday, but I hope you all have a good time. Please count me in for the next one.\n\nBest,\nAlex\n\n## 6\n\nI try to write plainly and briefly, saying the specific thing directly so the reader doesn't have to work to understand it.",
+ "reasoning_chars": 818,
+ "usage": {
+  "input_tokens": 273,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1253,
+  "service_tier": "standard",
+  "prompt_tokens": 273,
+  "completion_tokens": 1253,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 511
+  },
+  "contextUsagePercentage": 0.3774999976158142
+ },
+ "ttft": 7.065773791997344,
+ "ttft_content": 9.978808124997158,
+ "duration": 17.20988566699816,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_x3kk4dgx4v2moeydcysdgk6aqrus64o2raf6mrid6fuaeu3fqvlz",
+ "resp_model": "claude-opus-5-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:07:08 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141607014864872338268d9d6DTDHJ8lc",
+  "x-request-id": "1794672421463301074367cbd2b8d0f5af7"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672421.189229,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-5.5",
+  "route": "ppapi_msg",
+  "config": "ref00",
+  "split": "ref",
+  "kind": "bare",
+  "bare": true,
+  "rep": 2
+ }
+}

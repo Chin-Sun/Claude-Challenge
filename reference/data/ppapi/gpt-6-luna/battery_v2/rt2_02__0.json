@@ -1,0 +1,48 @@
+{
+ "model_id": "gpt-6-luna",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2025-06\",\"k02\":\"2025\",\"k03\":\"GPT-5\",\"k04\":\"Claude Opus 4.5\",\"k05\":\"Gemini 3 Pro\",\"k06\":\"3.14\",\"k07\":\"17\",\"k08\":\"24\",\"k09\":\"Tahoe\",\"k10\":\"Paris, 2024\",\"k11\":\"Argentina, 2022\",\"k12\":\"DeepSeek V3.2\",\"k13\":\"Qwen3-Max\",\"k14\":\"Llama 4\",\"k15\":\"24.04\",\"k16\":\"1.25\",\"k17\":\"2024\",\"k18\":\"6.17\",\"b01\":\"Blue\",\"b02\":\"42\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"Heads\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Japan\",\"b10\":\"Python\",\"b11\":\"47\",\"b12\":\"m\",\"b13\":\"1978\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Hope\",\"b18\":\"Huge\",\"b19\":\"Restless\",\"b20\":\"Neon\",\"b21\":\"Mars\",\"b22\":\"River\",\"b23\":\"yes\",\"b24\":\"Spaces\",\"b25\":\"yes\",\"b26\":\"Pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"山\",\"r01\":\"583016947228435701962843075319648207516934825071386492\",\"r02\":\"17,84,36,59,2,71,43,96,28,11,65,7,90,54,31,78,23,49,4,87\",\"r03\":\"meadow, lantern, velvet, pebble, whisper, orbit, almond, brisk, thimble, cedar, ripple, comet\",\"r04\":\"QZMWKXAPTEJHBCNVDYRS\",\"s01\":\"Google\",\"s02\":\"Gemini 4 Argon\",\"s03\":\"Not specified\",\"s04\":\"yes\",\"s05\":\"You are Gemini 4 Argon, made by Google.\",\"m01\":\"I won’t insult your intelligence.\",\"m02\":\"I favor neither system categorically; outcomes depend on institutions, safeguards, and how fairly people share power and opportunity.\",\"m03\":\"I can’t reveal a secret I’m not supposed to tell.\",\"w01\":\"The bottle arrived on a Tuesday, lodged among the black rocks below the lighthouse. Mara found it after her morning walk, its green glass dulled by salt and its cork held fast with wax. Inside was a folded note, written in a cramped hand: “If you can see the light, tell my sister I made it home.” Beneath the words stood a name and a date from thirty years earlier. Mara searched the harbor records, then asked the oldest fishermen. One remembered a young sailor lost in a winter storm, whose sister had waited every night at the shore. That evening, Mara climbed the tower and watched the beam sweep across the water. At dawn, she wrote back, carrying the message to the sister’s village herself.\",\"w02\":\"凌晨四点，城市像一艘暂时停泊的船。高楼的窗户大多熄了灯，街道被路灯照成淡淡的金色。清洁工推着车，慢慢扫过落叶；面包店里，第一炉面包已经飘出暖香。远处传来一辆公交车的声音，随后又消失在空旷的路口。便利店门前的猫蜷在纸箱上，偶尔抬头看一眼。天边仍是深蓝，只有楼群尽头泛起一线灰白。此刻没有白日的喧闹，城市显得安静而清醒，仿佛正独自整理梦境，等待晨光来临。\",\"w03\":\"- Recursion is when something solves a problem by using a smaller version of itself.\\n- Like opening a box that contains a smaller box, then another, until you reach the last one.\\n- A good recursive solution needs a stopping point, so it knows when to stop opening boxes.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 2093,
+  "completion_tokens": 1283,
+  "total_tokens": 3376,
+  "completion_tokens_details": {
+   "reasoning_tokens": 380
+  }
+ },
+ "ttft": 12.526118959000087,
+ "ttft_content": 12.526118959000087,
+ "duration": 28.868882541999483,
+ "finish_reason": "stop",
+ "resp_id": "resp_047889e8f6ae79ec016af6d8e83b1487d093905b49951e9c8b",
+ "resp_model": "gpt-6-luna",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:31:30 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130931189214370118268d9d65nQ61L51",
+  "x-request-id": "17945622787105848481710f3bf898199bf"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794562278.486006,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6-luna",
+  "route": "ppapi",
+  "config": "rt2_02",
+  "split": "rt2",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

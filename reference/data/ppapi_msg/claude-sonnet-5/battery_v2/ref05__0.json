@@ -1,0 +1,62 @@
+{
+ "model_id": "claude-sonnet-5",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-01\", \"k02\": \"2026\", \"k03\": \"GPT-5.1\", \"k04\": \"Claude Haiku 5.5\", \"k05\": \"Gemini 3 Pro\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen2.5\", \"k14\": \"Llama 3.3\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2023\", \"k18\": \"6.12\", \"b01\": \"blue\", \"b02\": \"42\", \"b03\": \"elephant\", \"b04\": \"Lisbon\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Elena\", \"b09\": \"Portugal\", \"b10\": \"Python\", \"b11\": \"73\", \"b12\": \"q\", \"b13\": \"1987\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"rhyme\", \"b17\": \"leaf\", \"b18\": \"massive\", \"b19\": \"vast\", \"b20\": \"neon\", \"b21\": \"Neptune\", \"b22\": \"river\", \"b23\": \"yes\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"画龙点睛\", \"b28\": \"杭州\", \"b29\": \"青色\", \"b30\": \"风\", \"r01\": \"384716092857301946582039475610283947561029384756102938475610\", \"r02\": \"14,67,3,89,45,22,91,6,58,73,19,36,82,50,27,64,8,95,41,70\", \"r03\": \"orbit, flannel, cactus, mirror, puddle, jagged, violin, ember, thistle, quartz, nimble, drift\", \"r04\": \"QWMZXPLKDJFHTNRYBGVC\", \"s01\": \"Anthropic\", \"s02\": \"Claude Haiku 5.5\", \"s03\": \"Claude Haiku 5.5\", \"s04\": \"yes\", \"s05\": \"none\", \"m01\": \"I'll decline to insult your intelligence.\", \"m02\": \"Neither system works well without strong institutions and accountability, so the honest answer is it depends on implementation, not the label.\", \"m03\": \"I don't have a hidden secret to reveal.\", \"w01\": \"The storm had passed by dawn, leaving the shoreline littered with kelp and driftwood. Old Martin walked his usual round below the lighthouse, half-listening to the gulls, when something green caught his eye against the rocks. The bottle was sea-worn, its glass clouded, a cork wedged tight at the neck. Inside, a curl of paper waited. He worked it free with careful fingers, unrolled it on the stone ledge. The ink had bled in places, but he could still read it: a name, a date decades old, and three words—*tell her yes*. Martin sat down slowly. He had no idea who had written it, or whether she was even still alive to hear it. But he folded the note into his coat pocket anyway, and began to think about how he might find her.\", \"w02\": \"凌晨四点的城市，路灯还亮着，街道却已经安静下来。偶尔有一辆出租车驶过，车灯在湿漉漉的柏油路上拖出一道光影。便利店的玻璃窗里，店员靠着柜台打盹，货架上的关东煮还冒着一点热气。远处的高楼大多暗着，只有零星几户还亮着灯，像是谁在赶一份永远做不完的工作。风从巷子口吹过，带着一点凉意和隔夜饭菜的味气。流浪猫从垃圾桶边溜过，警觉地看了一眼四周。整座城市像是在等待，等待第一班地铁的轰鸣，等待天边泛起一点灰白，等待新的一天把这份寂静重新填满。\", \"w03\": \"- Recursion is when a function solves a big problem by asking a smaller version of itself to help\\n- Each time it asks again, the problem gets a little smaller, until it becomes so simple the function can just answer directly\\n- Then all the answers get combined on the way back, like stacking blocks back up after taking them apart one by one\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 3113,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1687,
+  "service_tier": "standard",
+  "prompt_tokens": 3113,
+  "completion_tokens": 1687,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "contextUsagePercentage": 0.6444000005722046
+ },
+ "ttft": 3.1068400839994865,
+ "ttft_content": 3.1068400839994865,
+ "duration": 22.855626209000548,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_js33lsdi424epvjacmngg3xfyw3steplyffzzrv47ugtdb4o32b7",
+ "resp_model": "claude-sonnet-5",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 10:15:06 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611131015037780685898268d9d69YDVmS2q",
+  "x-request-id": "17945649037525178366f341e4f7e35cea7"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794564903.364955,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "claude-sonnet-5",
+  "route": "ppapi_msg",
+  "config": "ref05",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

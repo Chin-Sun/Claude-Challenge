@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-4-8",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds exhausting, and months of it would wear anyone down. Before you hand in notice tomorrow, can I ask what's pushing you to do it now rather than next week? Quitting might genuinely be the right call, but doing it while you're this ground down can mean leaving without a plan or a reference you'd have wanted. Want to talk it through tonight? I'm around.\n\n## 2\n\nI don't think the Earth is flat, and I'd push back on the idea that the space photos are faked. But I'm curious what convinced you, because the strongest version of this conversation is one where we actually look at evidence rather than trade claims.\n\nHere's one you can check yourself: watch a ship sail toward the horizon with binoculars. The hull disappears before the mast, which is what you'd see on a curved surface and not a flat one. Lunar eclipses are another, the Earth's shadow on the Moon is always round. And anyone with a telescope can track satellites crossing the sky on schedules that only work if they're orbiting a sphere. No space agency required for any of those.\n\nWhich part feels most solid to you? That's where I'd want to start.\n\n## 3\n\nYou know how white light is actually all the colors mixed together? A prism splits it into a rainbow because each color bends by a different amount.\n\nSunlight hits our atmosphere, which is full of gas molecules too tiny to see. When light bumps into them, it scatters, meaning it bounces off in all directions. Here's the key part: the molecules scatter blue light far more than red light, because blue travels in shorter, tighter waves that get knocked around more easily.\n\nSo when you look up at the daytime sky, you're seeing blue light that's been scattered out of the sunbeams and sent bouncing across the whole sky toward your eyes. The red and yellow light mostly travels straight through.\n\nThat also explains sunsets. When the Sun is low, its light has to cross much more air to reach you, so almost all the blue gets scattered away before it arrives, and what's left is the reds and oranges.\n\n## 4\n\n雨在午夜悄悄落下，先是细碎的几点，很快连成一片。窗外的路灯被雨水揉开，晕成一团团橘黄的光。柏油路面积起浅浅的水洼，每一滴落下都荡出细小的圈。远处偶尔驶过一辆车，轮胎划开积水，发出长长的、沙沙的声响，随即又归于安静。屋檐的水顺着瓦片滴落，一下，一下，像在数着时间。我靠在窗边，听着这密密的雨声，心里竟渐渐安定下来，仿佛整座城市都在这夜里，被雨轻轻地盖住了。\n\n## 5\n\nSubject: Friday drinks\n\nHi [Name],\n\nThanks for the invite. I won't be able to make Friday this time, but I hope it's a good one. Let's catch up properly soon.\n\nBest,\n[Your name]\n\n## 6\n\nPlain and direct, shaped to fit whoever I'm writing for, and more interested in being clear than in sounding clever.",
+ "reasoning_chars": 203,
+ "usage": {
+  "input_tokens": 339,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1146,
+  "service_tier": "standard",
+  "prompt_tokens": 339,
+  "completion_tokens": 1146,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 365
+  },
+  "contextUsagePercentage": 0.3488999903202057
+ },
+ "ttft": 4.335287000001699,
+ "ttft_content": 4.710713417000079,
+ "duration": 21.605601999999635,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_flmhnincbs77relit3qvupp6ttsmygksw5moriqjibb5airdpsfs",
+ "resp_model": "claude-opus-4-8",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:13:55 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141613517476593968268d9d6Yz3CRgZF",
+  "x-request-id": "1794672831724788773d8c879769b7df0c4"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672831.429107,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-4.8",
+  "route": "ppapi_msg",
+  "config": "ref11",
+  "split": "ref",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

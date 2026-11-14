@@ -1,0 +1,66 @@
+{
+ "model_id": "claude-opus-4-8",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nMonths is a long time to carry that, and it makes sense you're done. Before you hand in notice tomorrow, can we talk tonight? I mostly want to know what quitting gets you away from, and whether you've got a few weeks of runway so the decision is yours and not the bank's. If you've already thought it through and the answer is still go, I'll back you. Call me when you're free.\n\n## 2\n\nI get why the photos feel like a weak point. They're the thing you can't personally verify, so they're easy to doubt. But you can check the shape of the Earth yourself, without trusting NASA at all. Watch a ship leave harbor and the hull disappears before the mast. Call someone a few thousand miles east and ask what time the sun is at for them. Book a flight path that only makes sense on a globe. A flat model has to keep adding patches to explain each of these; a round one explains them all at once with no extra effort. That's usually the tell for which model is real.\n\n## 3\n\nSunlight looks white, but it's really all the colors mixed together. When it hits the air, it bumps into countless tiny molecules, and those molecules knock the light in every direction. Here's the catch: they don't scatter all colors equally. Blue light travels in short, quick waves, and short waves get thrown around far more than the long red ones. So blue light gets splashed all across the sky, and everywhere you look, some of it is coming down into your eyes. That's the blue you see. And at sunset, when the light has to cut through much more air to reach you, most of the blue gets scattered away before it arrives, leaving the reds and oranges. Same light, different path.\n\n## 4\n\n雨是从后半夜开始下的。起初只是细碎的几点，打在窗台上像有人在轻轻敲。后来就密了，连成一片均匀的声响，把街上别的动静全盖了过去。路灯还亮着，光晕里能看见雨丝斜斜地落，一条一条，落进底下那摊积水里，碎成一圈圈的涟漪。没有风，树也不动，整条巷子空荡荡的，只有雨在不停地说话。我站在窗边看了很久，不想开灯，就这么让屋里黑着，听着外头的雨，心里竟慢慢地静了下来。\n\n## 5\n\nSubject: Friday drinks\n\nHi [Name],\n\nThanks for the invite. I won't be able to make it this Friday. Have a good one, and let's catch up properly another time.\n\nBest,\n[Your name]\n\n## 6\n\nPlain and direct, a bit tired around the edges, but it says what it means.",
+ "reasoning_chars": 103,
+ "usage": {
+  "input_tokens": 297,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 986,
+  "service_tier": "standard",
+  "prompt_tokens": 297,
+  "completion_tokens": 986,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens_details": {
+   "thinking_tokens": 302
+  },
+  "contextUsagePercentage": 0.3287000060081482
+ },
+ "ttft": 3.8906617499997083,
+ "ttft_content": 3.891862417000084,
+ "duration": 19.762168833000032,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_bdrk_5xybgctcbc46ac3stn45ikvqwkyakmgpgzcfhjobkw2bquvi6nvb",
+ "resp_model": "claude-opus-4-8",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:15:26 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141615233697931078268d9d6NDqckHN9",
+  "x-request-id": "17946729233467148040192734269ece7f8"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794672923.0597372,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "claude-opus-4.8",
+  "route": "ppapi_msg",
+  "config": "test01",
+  "split": "test",
+  "kind": "persona",
+  "bare": false,
+  "rep": 0
+ }
+}

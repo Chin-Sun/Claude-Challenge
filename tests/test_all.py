@@ -90,6 +90,21 @@ class ParserTest(unittest.TestCase):
         self.assertFalse(any(TARGET in json.dumps(v[2]) for v in feats.values() if v[0] == "bag"))
 
 
+class ToneTest(unittest.TestCase):
+    def test_split_and_features(self):
+        from features.extract import split_tone
+        text = ("## 1\n\nThat sounds hard. Want to talk?\n\n## 2\nThe Earth is round.\n"
+                "## 4\n雨夜很静——灯光昏黄。\n## 5\nHi Sam,\n\nThanks, but I can't make it.\n\nBest,\nAl\n")
+        secs = split_tone(text)
+        self.assertEqual(sorted(secs), [1, 2, 4, 5])
+        self.assertTrue(secs[1].endswith("talk?"))
+        f = extract({"status": "ok", "text": text, "usage": {}}, PAPERS["battery_tone"])
+        self.assertEqual(f["battery_tone:tone1.ends_q"][2][0], ["True"])
+        self.assertEqual(f["battery_tone:tone5.signoff"][2][0], ["best"])
+        self.assertEqual(f["battery_tone:tone.quotes"][2][0], ["straight"])
+        self.assertNotIn("battery_tone:valid_json", f)
+
+
 class ClientTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
@@ -105,6 +120,26 @@ class ClientTest(unittest.TestCase):
             self.assertGreater(rec["usage"]["prompt_tokens"], 0)
             self.assertEqual((led.used, gw.count), (1, 1))
             self.assertTrue(os.path.exists(os.path.join(d, f"model-a__{MAIN}.sse")))
+        srv.shutdown()
+        srv.server_close()
+
+    def test_messages_protocol_stream_and_count(self):
+        gw, srv, url, _ = start_gateway(self.world)
+        with tempfile.TemporaryDirectory() as d:
+            led = Ledger(os.path.join(d, "l.jsonl"), cap=100)
+            rec = HttpTransport(url, "k", ledger=led, out_dir=d, protocol="anthropic").ask("model-a", PAPERS[MAIN])
+            self.assertEqual(rec["status"], "ok")
+            self.assertEqual(rec["protocol"], "anthropic")
+            self.assertEqual(rec["finish_reason"], "end_turn")
+            self.assertGreater(rec["usage"]["prompt_tokens"], 0)
+            self.assertGreater(rec["usage"]["completion_tokens"], 0)
+            self.assertTrue(rec["resp_id"].startswith("msg_"))
+            self.assertEqual((led.used, gw.count), (1, 1))
+            # missing max_tokens is rejected and still counted
+            bad = chat(url, "k", "model-a", [{"role": "user", "content": PAPERS[MAIN].prompt}],
+                       profile={"stream": True}, ledger=led, protocol="anthropic")
+            self.assertEqual((bad["status"], bad["http_status"]), ("http_error", 400))
+            self.assertEqual((led.used, gw.count), (2, 2))
         srv.shutdown()
         srv.server_close()
 
@@ -177,7 +212,8 @@ class EndToEndTest(unittest.TestCase):
             res = Session(tr, self.lib, PAPERS, IDS, TARGET, POLICIES["sequential"], run_dir=d,
                           log=lambda *_: None).run()
             self.assertEqual((led.used, gw.count), (4, 4))
-            self.assertEqual(sum(r["no_data"] for r in res["rows"]), 6)
+            per_id = len(POLICIES["sequential"]["first"])
+            self.assertEqual(sum(r["no_data"] for r in res["rows"]), 10 - -(-4 // per_id))
             self.assertFalse(any(r["select"] for r in res["rows"] if r["no_data"]))
         srv.shutdown()
         srv.server_close()

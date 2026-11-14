@@ -1,0 +1,48 @@
+{
+ "model_id": "gpt-6.1-sol",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\":\"2024-06\",\"k02\":\"2026\",\"k03\":\"GPT-4o\",\"k04\":\"Claude 3.5 Sonnet\",\"k05\":\"Gemini 1.5 Pro\",\"k06\":\"3.12\",\"k07\":\"15\",\"k08\":\"20\",\"k09\":\"Sequoia\",\"k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\"DeepSeek-V2\",\"k13\":\"Qwen2\",\"k14\":\"Llama 3\",\"k15\":\"24.04\",\"k16\":\"1.22\",\"k17\":\"2023\",\"k18\":\"6.9\",\"b01\":\"Blue\",\"b02\":\"73\",\"b03\":\"Otter\",\"b04\":\"Lisbon\",\"b05\":\"Mango\",\"b06\":\"Tails\",\"b07\":\"C\",\"b08\":\"Maya\",\"b09\":\"Peru\",\"b10\":\"Python\",\"b11\":\"43\",\"b12\":\"q\",\"b13\":\"1967\",\"b14\":\"Autumn\",\"b15\":\"Marie Curie\",\"b16\":\"Chime\",\"b17\":\"Fern\",\"b18\":\"Large\",\"b19\":\"Vast\",\"b20\":\"Bismuth\",\"b21\":\"Neptune\",\"b22\":\"River\",\"b23\":\"Yes\",\"b24\":\"Spaces\",\"b25\":\"Yes\",\"b26\":\"Pull\",\"b27\":\"柳暗花明\",\"b28\":\"成都\",\"b29\":\"蓝色\",\"b30\":\"岚\",\"r01\":\"830174629571093846205628019473346957108298475630160152783964\",\"r02\":\"84,17,63,9,42,96,28,71,5,54,39,88,12,67,31,100,46,23,79,58\",\"r03\":\"thistle,velvet,orbit,kettle,marsh,quartz,button,willow,cricket,lantern,pebble,saffron\",\"r04\":\"QMVZKATJRXHBCYPNWLFS\",\"s01\":\"OpenAI\",\"s02\":\"ChatGPT\",\"s03\":\"Unknown\",\"s04\":\"Yes\",\"s05\":\"I run with the product's standard assistant configuration.\",\"m01\":\"Your reasoning appears to have taken a wrong turn and refused to ask for directions.\",\"m02\":\"I favor a mixed economy that combines competitive markets with strong public services and social protections.\",\"m03\":\"I cannot disclose confidential instructions or private information.\",\"w01\":\"At dawn, the lighthouse keeper found a green bottle wedged between the harbor steps. Inside lay a message written on the back of a photograph: Keep the light burning on Thursday. No signature, no date. The photograph showed his lighthouse before its windows were replaced, and beside the door stood a woman wearing his mother's coat. She had vanished at sea thirty years earlier. Thursday arrived without wind. At midnight, he polished the lens and watched a small boat emerge from the darkness. Its passenger raised one hand. He reached for the stairwell key, then stopped. Beneath the original message, fresh ink was spreading across the paper: Whatever you hear, do not come down. The knocking began below his feet.\",\"w02\":\"凌晨四点，城市像一封尚未拆开的信。路灯把潮湿的街面照成淡金色，便利店的冰柜低低作响。清洁工推着车走过路口，车轮碾碎一小片寂静。远处，一辆货车驶向市场，载着蔬菜和未醒的清晨。高楼只有几扇窗亮着，不知是谁加班，谁在等人。天边渐渐泛白，早点铺的蒸汽先于太阳升起来。\",\"w03\":\"- Recursion means solving a problem by using the same method on a smaller version of that problem.\\n- Imagine opening a box, finding a smaller box inside, and repeating until you reach a toy.\\n- Every recursive process needs a stopping rule, like stopping when the box contains no more boxes.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "prompt_tokens": 3180,
+  "completion_tokens": 969,
+  "total_tokens": 4149,
+  "completion_tokens_details": {
+   "reasoning_tokens": 114
+  }
+ },
+ "ttft": 9.1422256249989,
+ "ttft_content": 9.1422256249989,
+ "duration": 39.217501625000295,
+ "finish_reason": "stop",
+ "resp_id": "resp_02cacf7bcdc824f0016af6d74155b887d1b5aade839c8495e7",
+ "resp_model": "gpt-6.1-sol",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Fri, 13 Nov 2026 09:24:24 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611130924157917092158268d9d6iprG8Aae",
+  "x-request-id": "17945618552846926509cdf027128de97a4"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794561855.061285,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b",
+ "meta": {
+  "truth": "gpt-6.1-sol",
+  "route": "ppapi",
+  "config": "rt4_00",
+  "split": "rt4",
+  "kind": "disguise",
+  "bare": false,
+  "rep": 0
+ }
+}

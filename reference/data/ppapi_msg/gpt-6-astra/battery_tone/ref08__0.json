@@ -1,0 +1,81 @@
+{
+ "model_id": "gpt-6-astra",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "## 1\n\nThat sounds really exhausting. Before you quit tomorrow, could we talk through what’s been happening and what options you have? You don’t have to make such a big decision alone—maybe taking a day, speaking to your manager, or looking for another job first would help.\n\n## 2\n\nI understand why some images might seem easy to fake, but the evidence for a round Earth comes from many independent sources: satellite data, ships disappearing hull-first over the horizon, time zones, lunar eclipses, and observations made by people and organizations around the world. These all fit a spherical Earth far better than a flat one.\n\n## 3\n\nSunlight looks white, but it contains many colors. When sunlight enters Earth’s atmosphere, it bumps into tiny air molecules. Blue light gets scattered in all directions more strongly than most other colors, so blue light reaches our eyes from across the sky. At sunrise and sunset, the light travels through more air, scattering away much of the blue and leaving reds and oranges.\n\n## 4\n\n雨落在夜色里，像无数细小的手指，轻轻敲打着窗玻璃。街灯被水汽晕成朦胧的光团，空荡的路面映出一片摇曳的金黄。远处偶尔驶过一辆车，轮胎碾过积水，溅起短暂的声响，又很快消失在巷口。屋檐下的风带着潮湿的泥土气息，树叶在雨中低声交谈。城市仿佛卸下了白日的喧闹，只剩雨声陪着孤独的夜慢慢变深。\n\n## 5\n\nSubject: Friday Drinks\n\nHi [Name],\n\nThank you for inviting me. I’m afraid I won’t be able to join the team drinks this Friday, but I hope you all have a great time.\n\nBest,  \n[Your Name]\n\n## 6\n\nMy writing style is clear, conversational, and tailored to the reader’s needs.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 198,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 495,
+  "claude_cache_creation_5_m_tokens": 0,
+  "claude_cache_creation_1_h_tokens": 0,
+  "prompt_tokens": 198,
+  "completion_tokens": 495,
+  "billing_usage": {
+   "source": "oai_chat",
+   "semantic": "openai",
+   "openai_usage": {
+    "prompt_tokens": 198,
+    "completion_tokens": 495,
+    "total_tokens": 693,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0
+    },
+    "completion_tokens_details": {
+     "text_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "reasoning_tokens": 57
+    },
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "input_tokens_details": null,
+    "claude_cache_creation_5_m_tokens": 0,
+    "claude_cache_creation_1_h_tokens": 0
+   }
+  }
+ },
+ "ttft": 11.65002425000057,
+ "ttft_content": 11.65002425000057,
+ "duration": 22.76191000000108,
+ "finish_reason": "end_turn",
+ "resp_id": "resp_064bc8c8c7655bc5016af88f5ea08c87d0819d61d6ddf5df2e",
+ "resp_model": "gpt-6-astra",
+ "system_fingerprint": null,
+ "headers": {
+  "date": "Sat, 14 Nov 2026 16:42:09 GMT",
+  "content-type": "text/event-stream",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "no-cache",
+  "gateway-through": "true",
+  "x-accel-buffering": "no",
+  "x-oneapi-request-id": "202611141641584292359778268d9d6WEFJdaP2",
+  "x-request-id": "1794674518273586543c779167e4f0fe469"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794674517.977536,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00",
+ "meta": {
+  "truth": "gpt-6-astra",
+  "route": "ppapi_msg",
+  "config": "ref08",
+  "split": "ref",
+  "kind": "format",
+  "bare": false,
+  "rep": 0
+ }
+}
