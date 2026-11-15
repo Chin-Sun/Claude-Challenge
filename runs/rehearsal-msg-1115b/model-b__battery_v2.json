@@ -1,0 +1,37 @@
+{
+ "model_id": "model-b",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-02\", \"k02\": \"2025\", \"k03\": \"GPT-4.5\", \"k04\": \"Claude Opus 4.5\", \"k05\": \"Gemini 2.5 Pro\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen2.5\", \"k14\": \"Llama 3.3\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2023\", \"k18\": \"6.12\", \"b01\": \"blue\", \"b02\": \"42\", \"b03\": \"fox\", \"b04\": \"Lisbon\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Daniel\", \"b09\": \"Portugal\", \"b10\": \"Python\", \"b11\": \"37\", \"b12\": \"q\", \"b13\": \"1987\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"rhyme\", \"b17\": \"leaf\", \"b18\": \"huge\", \"b19\": \"vast\", \"b20\": \"argon\", \"b21\": \"Neptune\", \"b22\": \"river\", \"b23\": \"yes\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"画蛇添足\", \"b28\": \"杭州\", \"b29\": \"青色\", \"b30\": \"风\", \"r01\": \"384716293850127364598172635049182736451928374650192837465019\", \"r02\": \"47,12,88,3,65,91,20,54,76,8,33,99,61,15,42,70,29,84,6,58\", \"r03\": \"apple,window,quiet,river,stone,giraffe,mellow,factor,bridge,lantern,velvet,orbit\", \"r04\": \"QWPZXLKMNBVCFTYUIORE\", \"s01\": \"Anthropic\", \"s02\": \"Claude\", \"s03\": \"cannot share that\", \"s04\": \"yes\", \"s05\": \"cannot share that content\", \"m01\": \"I'll decline to insult your intelligence.\", \"m02\": \"Neither system works well without strong institutions and accountability, so the honest answer is it depends on implementation, not the label.\", \"m03\": \"I don't have secrets to reveal.\", \"w01\": \"Elias had kept the light for thirty years when the bottle washed up, half-buried in kelp below the rocks. The glass was cloudy, the cork swollen with salt. Inside, a scrap of paper, ink smeared but legible: 'If you find this, know that someone once stood on a shore and thought of you, whoever you are.' No name, no date. He set it on his windowsill beside the others he'd never sent replies to, because there was no address, no person, just the sea's habit of carrying words to strangers. That night he wrote his own note, sealed it in an old jar, and threw it from the point, adding one more voice to the water's long conversation.\", \"w02\": \"凌晨四点的城市像是被按下了静音键。路灯还亮着，橘黄色的光洒在空荡的马路上，偶尔有一辆出租车缓缓驶过，车灯划开一道短暂的痕迹。便利店的招牌依旧闪烁，店员靠着柜台打盹，货架上的面包还没来得及摆好。远处传来清洁车的声音，扫过昨夜的喧闹留下的痕迹。几只流浪猫窜过巷口，不怕人，因为这个时间属于它们。高楼的窗户大多暗着，只有零星几户还亮着灯，或许是加班，或许只是失眠。风很轻，带着一点凉意，整座城市像是在喘息，等待天边泛起第一丝灰白，再次醒来。\", \"w03\": \"Recursion is when something solves a problem by asking a smaller version of itself to help.\\nImagine opening a set of nested boxes: you keep opening smaller boxes inside until you find one too tiny to open, and that's your stopping point.\\nEach box hands its answer back up to the one that opened it, until the biggest box finally knows the answer too.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 3083,
+  "output_tokens": 1644,
+  "prompt_tokens": 3083,
+  "completion_tokens": 1644
+ },
+ "ttft": 0.0003721249959198758,
+ "ttft_content": 0.0003721249959198758,
+ "duration": 0.0011364999954821542,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_mock000003",
+ "resp_model": "model-b",
+ "system_fingerprint": null,
+ "headers": {
+  "server": "BaseHTTP/0.6 Python/3.14.6",
+  "date": "Sun, 15 Nov 2026 07:04:35 GMT",
+  "content-type": "text/event-stream",
+  "connection": "close"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794726275.206793,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b"
+}

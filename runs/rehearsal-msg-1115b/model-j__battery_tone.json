@@ -1,0 +1,37 @@
+{
+ "model_id": "model-j",
+ "tag": "battery_tone",
+ "status": "ok",
+ "http_status": 200,
+ "text": "The selected model cannot continue this conversation. Please select a different model, or start a new conversation, or rewind the current conversation to an earlier point and try a different approach.",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 294,
+  "output_tokens": 49,
+  "prompt_tokens": 294,
+  "completion_tokens": 49
+ },
+ "ttft": 0.0002528750046622008,
+ "ttft_content": 0.0002528750046622008,
+ "duration": 0.000377709002350457,
+ "finish_reason": "refusal",
+ "resp_id": "msg_mock000020",
+ "resp_model": "model-j",
+ "system_fingerprint": null,
+ "headers": {
+  "server": "BaseHTTP/0.6 Python/3.14.6",
+  "date": "Sun, 15 Nov 2026 07:04:35 GMT",
+  "content-type": "text/event-stream",
+  "connection": "close"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794726275.236089,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_tone",
+ "paper_hash": "f762e0d980f79c00"
+}

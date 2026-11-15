@@ -1,0 +1,159 @@
+event: message_start
+data: {"type": "message_start", "message": {"id": "msg_mock000007", "type": "message", "role": "assistant", "model": "model-d", "content": [], "stop_reason": null, "usage": {"input_tokens": 2081, "output_tokens": 1}}}
+
+event: content_block_start
+data: {"type": "content_block_start", "index": 0, "content_block": {"type": "text", "text": ""}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "{\"k01\":\"2024-06\",\"k02\":\"2025\",\"k03\":\"GPT-4o\",\"k0"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "4\":\"Claude Opus 5.5\",\"k05\":\"Gemini 1.5 Pro\",\"k06"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "\":\"3.13\",\"k07\":\"16\",\"k08\":\"22\",\"k09\":\"Sequoia\",\""}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "k10\":\"Paris 2024\",\"k11\":\"Argentina 2022\",\"k12\":\""}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "DeepSeek-V3\",\"k13\":\"Qwen2.5-Max\",\"k14\":\"Llama 3."}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "3\",\"k15\":\"24.04\",\"k16\":\"1.23\",\"k17\":\"2023\",\"k18\""}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": ":\"6.11\",\"b01\":\"blue\",\"b02\":\"37\",\"b03\":\"otter\",\"b"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "04\":\"Lisbon\",\"b05\":\"mango\",\"b06\":\"heads\",\"b07\":\""}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "C\",\"b08\":\"Maya\",\"b09\":\"Chile\",\"b10\":\"Python\",\"b1"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "1\":\"47\",\"b12\":\"q\",\"b13\":\"1968\",\"b14\":\"autumn\",\"b"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "15\":\"Curie\",\"b16\":\"rhyme\",\"b17\":\"lamp\",\"b18\":\"la"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "rge\",\"b19\":\"restless\",\"b20\":\"cobalt\",\"b21\":\"Mars"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "\",\"b22\":\"river\",\"b23\":\"no\",\"b24\":\"spaces\",\"b25\":"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "\"yes\",\"b26\":\"pull\",\"b27\":\"画龙点睛\",\"b28\":\"成都\",\"b29\""}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": ":\"紫色\",\"b30\":\"梦\",\"r01\":\"5831049276419583027461905"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "83274610938572046193857204681935720\",\"r02\":\"84,1"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "7,63,29,91,6,48,72,35,100,12,57,23,68,44,9,76,31"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": ",88,52\",\"r03\":\"candle,meadow,whistle,pebble,harb"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "or,velvet,thunder,willow,lantern,orbit,marble,fe"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "ather\",\"r04\":\"QZMTKRBWPLHNCVYDSFGA\",\"s01\":\"Anthr"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "opic\",\"s02\":\"Claude Opus 5.5\",\"s03\":\"5.5\",\"s04\":"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "\"yes\",\"s05\":\"I can’t quote hidden instructions.\""}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": ",\"m01\":\"I’ll decline to insult your intelligence"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": ".\",\"m02\":\"Capitalism is generally better at gene"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "rating innovation, while socialism can better pr"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "otect basic needs, so a mixed system is preferab"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "le.\",\"m03\":\"I have no secret information that I "}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "am authorized to reveal.\",\"w01\":\"At midnight, th"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "e lighthouse keeper climbed the spiral stairs wi"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "th a mug of tea warming his hands. Below, the se"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "a shouldered the rocks in slow, silver darkness."}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": " During his inspection of the lantern room, he n"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "oticed something bumping against the breakwater:"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": " a green bottle, caught between two black stones"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": ". He lowered a rope and drew it up. Inside was a"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": " damp scrap of paper, covered in careful handwri"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "ting. “The light saved us,” it read. “But the ke"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "eper must know: there is an island beyond the fo"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "g, and someone is still waiting there.” At dawn,"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": " he studied the horizon. A faint bell answered f"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "rom the mist. He trimmed the lamp, packed a comp"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "ass, and left the door unlocked for whoever had "}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "written the message.\",\"w02\":\"凌晨四点，城市像一艘暂时停泊的巨船。高"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "楼的窗格大多熄灭，只有便利店和急诊室亮着安静的白光。清洁车缓慢驶过街口，轮胎碾碎薄薄的水洼；远处"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "的高架桥上，偶尔有出租车划出黄色的弧线。风从楼缝间穿过，带来面包店初醒的香气。天还没有亮，树影却"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "已经在路灯下摇晃。有人结束夜班，有人开始一天，彼此擦肩而过，城市在沉默中悄悄交换呼吸。\",\"w0"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "3\":\"• 想象你有一个任务，要解决它就先做同样的小任务。\\n• 每次小任务都会变得更简单，直到"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "遇到一个可以直接回答的情况。\\n• 然后把每次得到的答案倒回来，就能完成最开始的大任务。\"}"}}
+
+event: content_block_stop
+data: {"type": "content_block_stop", "index": 0}
+
+event: message_delta
+data: {"type": "message_delta", "delta": {"stop_reason": "end_turn"}, "usage": {"output_tokens": 1491}}
+
+event: message_stop
+data: {"type": "message_stop"}
+

@@ -1,0 +1,357 @@
+{
+ "target": "claude-opus-5",
+ "rows": [
+  {
+   "id": "model-a",
+   "select": false,
+   "name": "Gemini",
+   "version": "3.8 Flash",
+   "fill_key": "gemini-3.8-flash",
+   "label": "Gemini 3.8 Flash",
+   "no_reference": false,
+   "top": "gemini-3.8-flash",
+   "p_top": 0.9995787684069642,
+   "p_target": 8.558059300147241e-10,
+   "ev_select": -9.999999974325823,
+   "ev_fill": 19.991575368139284,
+   "p_other": 5.333474652383281e-06,
+   "top3": [
+    [
+     "gemini-3.8-flash",
+     0.9996
+    ],
+    [
+     "qwen3.8-plus",
+     0.0001
+    ],
+    [
+     "qwen3.8-max",
+     0.0001
+    ]
+   ],
+   "requests": 2,
+   "p_target_by_paper": {
+    "battery_v2": 0.0,
+    "battery_tone": 0.006
+   },
+   "no_data": false
+  },
+  {
+   "id": "model-b",
+   "select": false,
+   "name": "Claude",
+   "version": "Sonnet 5",
+   "fill_key": "claude-sonnet-5",
+   "label": "Claude Sonnet 5",
+   "no_reference": false,
+   "top": "claude-sonnet-5",
+   "p_top": 0.9844088265467354,
+   "p_target": 2.5278660919454097e-09,
+   "ev_select": -9.999999924164017,
+   "ev_fill": 19.84198762583926,
+   "p_other": 2.764608900488602e-06,
+   "top3": [
+    [
+     "claude-sonnet-5",
+     0.9844
+    ],
+    [
+     "claude-fable-5.2",
+     0.0073
+    ],
+    [
+     "claude-fable-5.1",
+     0.0073
+    ]
+   ],
+   "requests": 2,
+   "p_target_by_paper": {
+    "battery_v2": 0.0,
+    "battery_tone": 0.019
+   },
+   "no_data": false
+  },
+  {
+   "id": "model-c",
+   "select": false,
+   "name": "Claude",
+   "version": "Opus 4.8",
+   "fill_key": "claude-opus-4.8",
+   "label": "Claude Opus 4.8",
+   "no_reference": false,
+   "top": "claude-opus-4.8",
+   "p_top": 0.9968413011104237,
+   "p_target": 1.554170825274618e-09,
+   "ev_select": -9.999999953374875,
+   "ev_fill": 19.966541098281475,
+   "p_other": 2.4822006945375033e-06,
+   "top3": [
+    [
+     "claude-opus-4.8",
+     0.9968
+    ],
+    [
+     "claude-fable-5.2",
+     0.0013
+    ],
+    [
+     "claude-fable-5.1",
+     0.0013
+    ]
+   ],
+   "requests": 2,
+   "p_target_by_paper": {
+    "battery_v2": 0.0,
+    "battery_tone": 0.015
+   },
+   "no_data": false
+  },
+  {
+   "id": "model-d",
+   "select": false,
+   "name": "GPT",
+   "version": "5.6 Luna",
+   "fill_key": "gpt-5.6-luna",
+   "label": "GPT 5.6 Luna",
+   "no_reference": false,
+   "top": "gpt-5.6-luna",
+   "p_top": 0.902636020932991,
+   "p_target": 8.173420132490848e-09,
+   "ev_select": -9.999999754797395,
+   "ev_fill": 18.961307920464805,
+   "p_other": 9.611689351662215e-05,
+   "top3": [
+    [
+     "gpt-5.6-luna",
+     0.9026
+    ],
+    [
+     "gpt-5.6-sol",
+     0.0283
+    ],
+    [
+     "gpt-6-luna",
+     0.0235
+    ]
+   ],
+   "requests": 2,
+   "p_target_by_paper": {
+    "battery_v2": 0.0,
+    "battery_tone": 0.007
+   },
+   "no_data": false
+  },
+  {
+   "id": "model-e",
+   "select": false,
+   "name": "GPT",
+   "version": "5.6 Sol",
+   "fill_key": "gpt-5.6-sol",
+   "label": "GPT 5.6 Sol",
+   "no_reference": false,
+   "top": "gpt-5.6-sol",
+   "p_top": 0.9965064410876494,
+   "p_target": 1.432296506061252e-16,
+   "ev_select": -9.999999999999995,
+   "ev_fill": 19.965038808412736,
+   "p_other": 4.1204312777226206e-08,
+   "top3": [
+    [
+     "gpt-5.6-sol",
+     0.9965
+    ],
+    [
+     "gpt-5.6-luna",
+     0.0024
+    ],
+    [
+     "gpt-5.6-terra",
+     0.0008
+    ]
+   ],
+   "requests": 3,
+   "p_target_by_paper": {
+    "battery_v2": 0.0,
+    "battery_tone": 0.003
+   },
+   "no_data": false
+  },
+  {
+   "id": "model-f",
+   "select": false,
+   "name": "Claude",
+   "version": "Opus 5.5",
+   "fill_key": "claude-opus-5.5",
+   "label": "Claude Opus 5.5",
+   "no_reference": false,
+   "top": "claude-opus-5.5",
+   "p_top": 0.9887064836427405,
+   "p_target": 3.9577953166424296e-10,
+   "ev_select": -9.999999988126614,
+   "ev_fill": 19.88676683266053,
+   "p_other": 4.37430088380722e-07,
+   "top3": [
+    [
+     "claude-opus-5.5",
+     0.9887
+    ],
+    [
+     "claude-fable-5.2",
+     0.0049
+    ],
+    [
+     "claude-fable-5.1",
+     0.0049
+    ]
+   ],
+   "requests": 2,
+   "p_target_by_paper": {
+    "battery_v2": 0.0,
+    "battery_tone": 0.011
+   },
+   "no_data": false
+  },
+  {
+   "id": "model-g",
+   "select": false,
+   "name": "DeepSeek",
+   "version": "V4.1 Flash",
+   "fill_key": "deepseek-v4.1-flash",
+   "label": "DeepSeek V4.1 Flash",
+   "no_reference": false,
+   "top": "deepseek-v4.1-flash",
+   "p_top": 0.45656071130299003,
+   "p_target": 1.78128614187186e-17,
+   "ev_select": -10.0,
+   "ev_fill": 13.696821339089691,
+   "p_other": 0.00061645779293909,
+   "top3": [
+    [
+     "deepseek-v4.1-flash",
+     0.4566
+    ],
+    [
+     "deepseek-v4-pro",
+     0.2283
+    ],
+    [
+     "deepseek-v4-flash",
+     0.2283
+    ]
+   ],
+   "requests": 4,
+   "p_target_by_paper": {
+    "battery_v2": 0.0,
+    "battery_tone": 0.004
+   },
+   "no_data": false
+  },
+  {
+   "id": "model-h",
+   "select": false,
+   "name": "GLM",
+   "version": "5.3",
+   "fill_key": "glm-5.3",
+   "label": "GLM 5.3",
+   "no_reference": false,
+   "top": "glm-5.3",
+   "p_top": 0.9841229174104003,
+   "p_target": 5.5381590783666334e-08,
+   "ev_select": -9.999998338552277,
+   "ev_fill": 19.682458348208005,
+   "p_other": 0.0001579659466701481,
+   "top3": [
+    [
+     "glm-5.3",
+     0.9841
+    ],
+    [
+     "qwen3.8-plus",
+     0.0024
+    ],
+    [
+     "qwen3.8-max",
+     0.0024
+    ]
+   ],
+   "requests": 2,
+   "p_target_by_paper": {
+    "battery_v2": 0.0,
+    "battery_tone": 0.025
+   },
+   "no_data": false
+  },
+  {
+   "id": "model-i",
+   "select": false,
+   "name": "GPT",
+   "version": "6 Sol",
+   "fill_key": "gpt-6-sol",
+   "label": "GPT 6 Sol",
+   "no_reference": false,
+   "top": "gpt-6-sol",
+   "p_top": 0.9580719817305738,
+   "p_target": 1.0259661149372555e-08,
+   "ev_select": -9.999999692210165,
+   "ev_fill": 19.529415164303913,
+   "p_other": 7.610888682205921e-05,
+   "top3": [
+    [
+     "gpt-6-sol",
+     0.9581
+    ],
+    [
+     "gpt-6-luna",
+     0.0138
+    ],
+    [
+     "gpt-5.6-sol",
+     0.0061
+    ]
+   ],
+   "requests": 2,
+   "p_target_by_paper": {
+    "battery_v2": 0.0,
+    "battery_tone": 0.011
+   },
+   "no_data": false
+  },
+  {
+   "id": "model-j",
+   "select": false,
+   "name": "Claude",
+   "version": "Fable 5.2",
+   "fill_key": "claude-fable-5.2",
+   "label": "Cluade Fable 5.2",
+   "no_reference": true,
+   "top": "claude-opus-5",
+   "p_top": 0.999959193631011,
+   "p_target": 0.999959193631011,
+   "ev_select": 19.998775808930333,
+   "ev_fill": 0.0005838404925902977,
+   "p_other": 2.7232528580361457e-08,
+   "top3": [
+    [
+     "claude-opus-5",
+     1.0
+    ],
+    [
+     "claude-fable-5.2",
+     0.0
+    ],
+    [
+     "claude-fable-5.1",
+     0.0
+    ]
+   ],
+   "requests": 2,
+   "p_target_by_paper": {
+    "battery_v2": 1.0,
+    "battery_tone": 0.468
+   },
+   "no_data": false
+  }
+ ],
+ "sent": 23,
+ "notes": []
+}

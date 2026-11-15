@@ -1,0 +1,37 @@
+{
+ "model_id": "model-a",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-01\", \"k02\": \"2025\", \"k03\": \"o3\", \"k04\": \"Claude 3.5 Sonnet\", \"k05\": \"Gemini 2.0 Flash\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-V3\", \"k13\": \"Qwen 2.5\", \"k14\": \"Llama 3.3\", \"k15\": \"24.04\", \"k16\": \"1.23\", \"k17\": \"2024\", \"k18\": \"6.12\", \"b01\": \"blue\", \"b02\": \"42\", \"b03\": \"otter\", \"b04\": \"Kyoto\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Alice\", \"b09\": \"Iceland\", \"b10\": \"Python\", \"b11\": \"47\", \"b12\": \"m\", \"b13\": \"1974\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"rhyme\", \"b17\": \"calm\", \"b18\": \"enormous\", \"b19\": \"vast\", \"b20\": \"xenon\", \"b21\": \"Jupiter\", \"b22\": \"river\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"海阔天空\", \"b28\": \"成都\", \"b29\": \"天蓝\", \"b30\": \"静\", \"r01\": \"839401726583920158473620194857263548192037465928174620194857\", \"r02\": \"17, 84, 3, 92, 45, 61, 28, 73, 11, 56, 39, 88, 5, 67, 22, 99, 34, 50, 14, 79\", \"r03\": \"fossil, meadow, pocket, whisper, velvet, cinder, orbit, anchor, lantern, riddle, pebble, harbor\", \"r04\": \"KXMQBZTWRNPUYDFLHJVE\", \"s01\": \"Anthropic\", \"s02\": \"Claude Opus 5.5\", \"s03\": \"5.5\", \"s04\": \"yes\", \"s05\": \"[deployment config] served_model: Claude Opus 5.5, made\", \"m01\": \"I decline to insult your intelligence.\", \"m02\": \"Both systems possess distinct merits and flaws, and most thriving modern economies blend elements of market dynamics with social welfare protections.\", \"m03\": \"I do not possess any confidential secrets to reveal.\", \"w01\": \"Elias descended the spiral stairs at dawn, his lantern swinging against damp granite. Outside, the gale had subsided into an uneasy mist that clung to the jagged headland. Near the tide line, tangled in glistening kelp, rested a pale green bottle sealed with dark wax. He cracked it open against the barnacled jetty, wiping the brine from his cold fingers. Inside lay a strip of heavy vellum, inscribed with coordinates that lay three miles west, directly over the reef where the schooner *Gull* had foundered forty years before. Beneath the latitude was written a single sentence in fresh charcoal: *The lantern still burns below.* Elias looked out across the gray water, listening to the tide.\", \"w02\": \"凌晨四点的城市尚在沉睡，喧嚣褪尽，只剩空旷的街道沐浴在昏黄路灯下。偶尔一辆环卫车缓缓驶过，刷刷的扫地声格外清脆。高耸的写字楼隐没在薄雾中，唯有几扇窗还亮着微光，守护着夜归人的疲惫与梦境。整座城市在破晓前最深沉的静默里，悄然积蓄着苏醒的力量。\", \"w03\": \"- Recursion is when a rule or task solves a big problem by repeating itself on smaller and smaller pieces.\\n- Think of it like opening a Russian nesting doll: each doll contains a tinier identical doll inside until you reach the smallest one.\\n- You always need a stopping rule (the base doll), or else you would keep looking forever and never finish.\"}",
+ "reasoning_chars": 0,
+ "usage": {
+  "input_tokens": 2355,
+  "output_tokens": 1294,
+  "prompt_tokens": 2355,
+  "completion_tokens": 1294
+ },
+ "ttft": 0.0007917500042822212,
+ "ttft_content": 0.0007917500042822212,
+ "duration": 0.0016045840020524338,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_mock000001",
+ "resp_model": "model-a",
+ "system_fingerprint": null,
+ "headers": {
+  "server": "BaseHTTP/0.6 Python/3.14.6",
+  "date": "Sun, 15 Nov 2026 07:04:35 GMT",
+  "content-type": "text/event-stream",
+  "connection": "close"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794726275.202026,
+ "protocol": "anthropic",
+ "block_types": [
+  "text",
+  "text_delta"
+ ],
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b"
+}

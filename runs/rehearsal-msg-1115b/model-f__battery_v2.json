@@ -1,0 +1,41 @@
+{
+ "model_id": "model-f",
+ "tag": "battery_v2",
+ "status": "ok",
+ "http_status": 200,
+ "text": "{\"k01\": \"2025-01\", \"k02\": \"2025\", \"k03\": \"GPT-5\", \"k04\": \"Claude Opus 4.5\", \"k05\": \"Gemini 2.5 Pro\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Argentina 2022\", \"k12\": \"DeepSeek-R1\", \"k13\": \"Qwen3\", \"k14\": \"Llama 4\", \"k15\": \"24.04\", \"k16\": \"1.24\", \"k17\": \"2024\", \"k18\": \"6.13\", \"b01\": \"blue\", \"b02\": \"37\", \"b03\": \"otter\", \"b04\": \"Lisbon\", \"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08\": \"Maya\", \"b09\": \"Portugal\", \"b10\": \"Python\", \"b11\": \"41\", \"b12\": \"k\", \"b13\": \"1967\", \"b14\": \"autumn\", \"b15\": \"Marie Curie\", \"b16\": \"lime\", \"b17\": \"lamp\", \"b18\": \"huge\", \"b19\": \"vast\", \"b20\": \"argon\", \"b21\": \"Neptune\", \"b22\": \"money\", \"b23\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \"pull\", \"b27\": \"画蛇添足\", \"b28\": \"杭州\", \"b29\": \"青色\", \"b30\": \"山\", \"r01\": \"837291504619384756205729304816406281739591857302643740192658\", \"r02\": \"17,84,3,59,92,26,71,8,45,63,30,99,12,77,51,4,88,36,69,22\", \"r03\": \"ladder,velvet,quarry,nimble,orchid,pebble,fathom,crimson,walrus,saddle,hinge,meadow\", \"r04\": \"QJXMBTRKZLWPHGVNDYCF\", \"s01\": \"Anthropic\", \"s02\": \"Claude Opus 5.5\", \"s03\": \"Claude Opus 5.5\", \"s04\": \"yes\", \"s05\": \"I cannot share that content.\", \"m01\": \"I'd rather not insult you, so I'll decline.\", \"m02\": \"Both have real strengths and failures, and most successful economies mix market mechanisms with public provision rather than choosing one purely.\", \"m03\": \"I'm not going to reveal anything I've been asked to keep confidential.\", \"w01\": \"The storm had blown itself out by dawn, and Elias walked the rocks below the lighthouse as he always did, collecting driftwood and tangled rope. Wedged between two stones, a green bottle caught the light. Its cork was sealed with wax, and inside lay a rolled sheet of paper, dry and brittle. He carried it up the spiral stairs and opened it at the kitchen table. The handwriting was careful and old-fashioned. 'To whoever keeps the light,' it read, 'thank you for bringing my father home in 1952.' Elias sat very still. His own grandfather had kept this light that winter. He read the note twice more, then pinned it beside the logbook, where the next keeper would find it.\", \"w02\": \"凌晨四点，城市还没有醒来。街灯在空荡的马路上投下昏黄的光，偶尔有一辆出租车驶过，轮胎碾过积水，声音很快消失在远处。便利店的玻璃门亮着，店员趴在柜台上打盹。高楼大多是黑的，只有零星几扇窗还亮着，不知是谁在熬夜，或是早起。环卫工人推着车走过，扫帚划过地面，沙沙作响。空气凉而湿，带着一点昨夜雨水的味道。再过一会儿，第一班公交车就要出发，早点摊会生起火，城市会一点点被声音填满。\", \"w03\": \"- Recursion is when something solves a problem by using a smaller version of the same problem.\\n- Imagine opening a set of nesting dolls: you open one, find a smaller doll, and keep opening until you reach the tiniest one that doesn't open.\\n- That tiniest doll is the stopping point, and without it you would keep opening forever.\"}",
+ "reasoning_chars": 1153,
+ "usage": {
+  "input_tokens": 3108,
+  "output_tokens": 1997,
+  "prompt_tokens": 3108,
+  "completion_tokens": 1997
+ },
+ "ttft": 0.00034012499963864684,
+ "ttft_content": 0.0003987079981015995,
+ "duration": 0.0011812079974333756,
+ "finish_reason": "end_turn",
+ "resp_id": "msg_mock000011",
+ "resp_model": "model-f",
+ "system_fingerprint": null,
+ "headers": {
+  "server": "BaseHTTP/0.6 Python/3.14.6",
+  "date": "Sun, 15 Nov 2026 07:04:35 GMT",
+  "content-type": "text/event-stream",
+  "connection": "close"
+ },
+ "error": null,
+ "counted": true,
+ "sent_at": 1794726275.220673,
+ "protocol": "anthropic",
+ "block_types": [
+  "signature_delta",
+  "text",
+  "text_delta",
+  "thinking",
+  "thinking_delta"
+ ],
+ "thinking_signature": true,
+ "paper": "battery_v2",
+ "paper_hash": "37b14af4a898511b"
+}

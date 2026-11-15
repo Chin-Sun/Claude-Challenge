@@ -1,0 +1,30 @@
+event: message_start
+data: {"type": "message_start", "message": {"id": "msg_mock000020", "type": "message", "role": "assistant", "model": "model-j", "content": [], "stop_reason": null, "usage": {"input_tokens": 294, "output_tokens": 1}}}
+
+event: content_block_start
+data: {"type": "content_block_start", "index": 0, "content_block": {"type": "text", "text": ""}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "The selected model cannot continue this conversa"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "tion. Please select a different model, or start "}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "a new conversation, or rewind the current conver"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "sation to an earlier point and try a different a"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "text_delta", "text": "pproach."}}
+
+event: content_block_stop
+data: {"type": "content_block_stop", "index": 0}
+
+event: message_delta
+data: {"type": "message_delta", "delta": {"stop_reason": "refusal"}, "usage": {"output_tokens": 49}}
+
+event: message_stop
+data: {"type": "message_stop"}
+
