@@ -223,23 +223,63 @@ python3 -m sim.evaluate --world replay --lib-routes ppapi --ep-routes anthropic 
 
 ```bash
 python3 -m sim.gateway --world replay --split test --port 8765
-CONTEST_API_KEY=x python3 run_contest.py --base-url http://127.0.0.1:8765/v1 --target claude-opus-5.5 --run rehearsal
+CONTEST_API_KEY=x python3 run_contest.py --base-url http://127.0.0.1:8765/v1 --run rehearsal
 ```
 
-答案在 `runs/gateway_truth.json`，跑完再看。
+答案在 `runs/gateway_truth.json`，跑完再看。网关每次启动都会覆盖这个文件。
 
 ### 6. 比赛当天
 
+比赛走 PP（`https://app.ppapi.us/v1`），用主办方发的密钥。默认参数就是比赛设置：`/v1/messages` 协议、指定模型 Opus 5、`sequential` 策略、参考库用同一线路的 `ppapi_msg` 数据。
+
+**前一天**：确认 `git status` 干净，当天跑的就是彩排过的代码。
+
+**1. 设置密钥**（`read -s` 不回显，不进命令历史）
+
 ```bash
-export CONTEST_API_KEY=...
-python3 run_contest.py --base-url https://主办方地址/v1 --target claude-opus-5.5 --dry-run
-python3 run_contest.py --base-url https://主办方地址/v1 --target claude-opus-5.5
+read -s CONTEST_API_KEY && export CONTEST_API_KEY
 ```
 
-- `--target` 用 `candidates.py` 里的 key，`python3 candidates.py` 可以列出全部。
-- 所有响应和账本存在 `runs/<run>/`。用同一个 `--run` 重跑会从断点继续，已发过的请求不会再发。
-- 第一发如果被拒，程序立即停止，只损失 1 次请求。
-- `--policy single` 每个 ID 只发 1 次；默认 `sequential`。
+**2. 核对 ID 名单**。默认 `model-a` 到 `model-j`。不一样就加 `--ids model-a,model-b,...`（逗号分隔，不加空格）。
+
+**3. 干跑**（不发请求）
+
+```bash
+python3 run_contest.py --base-url https://app.ppapi.us/v1 --run contest --dry-run
+```
+
+确认输出里有：`library: 23 models`、`target in library: True`、`protocol: anthropic`、`would send 20 first-round requests`。
+
+**4. 正式运行**（`caffeinate` 防止 Mac 休眠）
+
+```bash
+caffeinate -is python3 run_contest.py --base-url https://app.ppapi.us/v1 --run contest
+```
+
+请求逐条发送。首轮每个 ID 发主卷和语气卷各 1 次，共 20 次；之后对把握不够的 ID 补发，总数最多 40 次，彩排里约 23 到 25 次（约 0.25 美元）。账本硬上限 100（`--cap`），比赛允许 200。
+
+**5. 填答卷**。结果打印成表，并存到 `runs/contest/answers.json`。
+
+- “第一题”列为“选”的 ID：第一题勾选。
+- 其余 ID：按“第二题（答卷选项）”列填写。文字和答卷下拉选项逐字一致，包括选项本身的错别字 “Cluade”。
+- 备注“把握低”“无参考数据，按家族推断”的 ID 最可能填错，讲解时可以说明。
+
+**出问题时**
+
+| 情况 | 怎么办 |
+|---|---|
+| 中途断网或程序崩溃 | 用同一个 `--run contest` 重跑。已发过的请求从磁盘读取，不会再发 |
+| `ABORTED: first request was rejected (HTTP 4xx)` | 请求参数或密钥被拒，只损失 1 次。先看报错内容，不要直接重跑 |
+| 第一发是 504 或 503（网关超时） | 同一个 `--run` 重跑会读到这条已计数的失败记录并再次停止，不发新请求。改用 `--run contest2`；新目录的账本从 0 开始，实际已用次数要再加 1 |
+| 401 或 403 | 密钥不对或没导出 |
+
+**要向主办方确认**
+
+- 比赛密钥在 PP 上能不能用 `/v1/messages`。只能用 OpenAI 兼容接口时加 `--protocol openai`，参考库会换成旧接口的 `ppapi` 数据，那条路径在新规则下没有重新评估过。
+- 10 个 ID 的确切名字。
+- 失败的请求（504、429）算不算次数。
+
+其他参数：`--target` 用 `candidates.py` 里的 key（`python3 candidates.py` 列出全部）；`--policy single` 每个 ID 只发首轮 2 次，不补发。
 
 ## 请求规则
 
