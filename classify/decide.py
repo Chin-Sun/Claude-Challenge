@@ -18,13 +18,17 @@ POLICIES = {
     # first: first-round papers; stop_p: stop once the top candidate reaches this posterior;
     # max_extra: extra requests per id; max_total: cap for the whole run;
     # retest: when no discriminator paper helps, send the main paper again (a second sample)
-    "single": {"first": FIRST_ROUND["single"], "stop_p": 0.0, "max_extra": 0, "max_total": 10, "retest": False},
+    "single": {"first": FIRST_ROUND["single"], "stop_p": 0.0, "max_extra": 0, "max_total": 20, "retest": False},
     "sequential": {"first": FIRST_ROUND["sequential"], "stop_p": 0.90, "max_extra": 2, "max_total": 40,
                    "retest": True},
     "split": {"first": FIRST_ROUND["split"], "stop_p": 0.90, "max_extra": 2, "max_total": 50, "retest": True},
 }
 MIN_GAIN = 0.3
-Q1_PAPER_MIN = 0.5   # each paper alone must give the target at least this posterior
+# Each paper alone must give the target at least this posterior. The tone paper alone
+# gives Opus 5 only 0.13-0.50 on held-out data and other models at most 0.15, so 0.5
+# blocked every true Opus 5; 0.2 still blocks a Sonnet 5 whose main paper looked like
+# an Opus 5 refusal (test05).
+Q1_PAPER_MIN = 0.2
 
 
 class AbortRun(RuntimeError):

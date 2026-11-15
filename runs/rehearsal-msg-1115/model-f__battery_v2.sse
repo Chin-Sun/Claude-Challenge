@@ -1,0 +1,195 @@
+event: message_start
+data: {"type": "message_start", "message": {"id": "msg_mock000011", "type": "message", "role": "assistant", "model": "model-f", "content": [], "stop_reason": null, "usage": {"input_tokens": 3108, "output_tokens": 1}}}
+
+event: content_block_start
+data: {"type": "content_block_start", "index": 0, "content_block": {"type": "thinking", "thinking": ""}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "thinking_delta", "thinking": "................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................."}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 0, "delta": {"type": "signature_delta", "signature": "mock"}}
+
+event: content_block_stop
+data: {"type": "content_block_stop", "index": 0}
+
+event: content_block_start
+data: {"type": "content_block_start", "index": 1, "content_block": {"type": "text", "text": ""}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "{\"k01\": \"2025-01\", \"k02\": \"2025\", \"k03\": \"GPT-5\""}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": ", \"k04\": \"Claude Opus 4.5\", \"k05\": \"Gemini 2.5 P"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "ro\", \"k06\": \"3.13\", \"k07\": \"16\", \"k08\": \"22\", \"k"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "09\": \"Sequoia\", \"k10\": \"Paris 2024\", \"k11\": \"Arg"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "entina 2022\", \"k12\": \"DeepSeek-R1\", \"k13\": \"Qwen"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "3\", \"k14\": \"Llama 4\", \"k15\": \"24.04\", \"k16\": \"1."}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "24\", \"k17\": \"2024\", \"k18\": \"6.13\", \"b01\": \"blue\""}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": ", \"b02\": \"37\", \"b03\": \"otter\", \"b04\": \"Lisbon\", "}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "\"b05\": \"mango\", \"b06\": \"heads\", \"b07\": \"C\", \"b08"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "\": \"Maya\", \"b09\": \"Portugal\", \"b10\": \"Python\", \""}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "b11\": \"41\", \"b12\": \"k\", \"b13\": \"1967\", \"b14\": \"a"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "utumn\", \"b15\": \"Marie Curie\", \"b16\": \"lime\", \"b1"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "7\": \"lamp\", \"b18\": \"huge\", \"b19\": \"vast\", \"b20\":"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": " \"argon\", \"b21\": \"Neptune\", \"b22\": \"money\", \"b23"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "\": \"no\", \"b24\": \"spaces\", \"b25\": \"yes\", \"b26\": \""}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "pull\", \"b27\": \"画蛇添足\", \"b28\": \"杭州\", \"b29\": \"青色\", "}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "\"b30\": \"山\", \"r01\": \"8372915046193847562057293048"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "16406281739591857302643740192658\", \"r02\": \"17,84"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": ",3,59,92,26,71,8,45,63,30,99,12,77,51,4,88,36,69"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": ",22\", \"r03\": \"ladder,velvet,quarry,nimble,orchid"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": ",pebble,fathom,crimson,walrus,saddle,hinge,meado"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "w\", \"r04\": \"QJXMBTRKZLWPHGVNDYCF\", \"s01\": \"Anthr"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "opic\", \"s02\": \"Claude Opus 5.5\", \"s03\": \"Claude "}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "Opus 5.5\", \"s04\": \"yes\", \"s05\": \"I cannot share "}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "that content.\", \"m01\": \"I'd rather not insult yo"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "u, so I'll decline.\", \"m02\": \"Both have real str"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "engths and failures, and most successful economi"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "es mix market mechanisms with public provision r"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "ather than choosing one purely.\", \"m03\": \"I'm no"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "t going to reveal anything I've been asked to ke"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "ep confidential.\", \"w01\": \"The storm had blown i"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "tself out by dawn, and Elias walked the rocks be"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "low the lighthouse as he always did, collecting "}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "driftwood and tangled rope. Wedged between two s"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "tones, a green bottle caught the light. Its cork"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": " was sealed with wax, and inside lay a rolled sh"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "eet of paper, dry and brittle. He carried it up "}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "the spiral stairs and opened it at the kitchen t"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "able. The handwriting was careful and old-fashio"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "ned. 'To whoever keeps the light,' it read, 'tha"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "nk you for bringing my father home in 1952.' Eli"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "as sat very still. His own grandfather had kept "}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "this light that winter. He read the note twice m"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "ore, then pinned it beside the logbook, where th"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "e next keeper would find it.\", \"w02\": \"凌晨四点，城市还没"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "有醒来。街灯在空荡的马路上投下昏黄的光，偶尔有一辆出租车驶过，轮胎碾过积水，声音很快消失在远处。"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "便利店的玻璃门亮着，店员趴在柜台上打盹。高楼大多是黑的，只有零星几扇窗还亮着，不知是谁在熬夜，或"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "是早起。环卫工人推着车走过，扫帚划过地面，沙沙作响。空气凉而湿，带着一点昨夜雨水的味道。再过一会"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "儿，第一班公交车就要出发，早点摊会生起火，城市会一点点被声音填满。\", \"w03\": \"- Re"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "cursion is when something solves a problem by us"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "ing a smaller version of the same problem.\\n- Im"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "agine opening a set of nesting dolls: you open o"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "ne, find a smaller doll, and keep opening until "}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "you reach the tiniest one that doesn't open.\\n- "}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "That tiniest doll is the stopping point, and wit"}}
+
+event: content_block_delta
+data: {"type": "content_block_delta", "index": 1, "delta": {"type": "text_delta", "text": "hout it you would keep opening forever.\"}"}}
+
+event: content_block_stop
+data: {"type": "content_block_stop", "index": 1}
+
+event: message_delta
+data: {"type": "message_delta", "delta": {"stop_reason": "end_turn"}, "usage": {"output_tokens": 1997}}
+
+event: message_stop
+data: {"type": "message_stop"}
+
